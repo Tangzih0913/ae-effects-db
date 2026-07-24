@@ -52,6 +52,7 @@ JSONL：**一行一個 JSON 物件，不是陣列、沒有逗號結尾、UTF-8�
 | `variants` | (選) 同族變體 `{"S_KaleidoOct":"八角", ...}`，幾十個相似效果收一行 |
 | `stack`/`builtin` | (選，僅 recipes) 要疊的效果清單／內建替代做法 |
 | `suite`/`vendor` | (選) 套件／廠商作者 |
+| `url` | **官方產品頁連結**。新增條目務必附上（aescripts 為 `https://aescripts.com/<slug>/`）；舊條目逐步補齊 |
 | `unverified` | (選) `true`=查無官方說明、描述是推測，網頁顯示 ⚠。查證後移除 |
 | `aex` | (選) 對應的 `.aex` 檔名 |
 

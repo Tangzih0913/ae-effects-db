@@ -24,7 +24,7 @@ KNOWN_CATS = {
     "kaleido","vr","recipe",
 }
 REQUIRED = ("name","cat","tags","desc")
-OPTIONAL = {"look","variants","stack","builtin","suite","vendor","unverified","aex"}
+OPTIONAL = {"look","variants","stack","builtin","suite","vendor","unverified","aex","url"}
 ALLOWED = set(REQUIRED) | OPTIONAL
 
 def main():
@@ -66,6 +66,8 @@ def main():
                     errors.append(f"{loc}  stack 必須是陣列")
                 if "unverified" in o and not isinstance(o["unverified"], bool):
                     errors.append(f"{loc}  unverified 必須是 true/false")
+                if "url" in o and not (isinstance(o["url"], str) and o["url"].startswith("http")):
+                    errors.append(f"{loc}  url 必須是 http(s) 開頭的連結")
                 c = o.get("cat")
                 if isinstance(c, str) and c not in KNOWN_CATS:
                     warnings.append(f"{loc}  分類 '{c}' 不在已知清單（拼錯？或請加進 KNOWN_CATS）")

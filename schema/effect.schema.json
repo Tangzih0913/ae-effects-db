@@ -54,6 +54,11 @@
       "type": "string",
       "description": "（選填）廠商/作者，例：Video Copilot、Boris FX、Plugin Everything、aescripts。不確定作者就寫 aescripts 或 未知/免費。"
     },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://",
+      "description": "官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。新增條目請務必附上；舊條目逐步補齊。"
+    },
     "unverified": {
       "type": "boolean",
       "description": "（選填）true = 查無官方說明、描述是推測。網頁會顯示 ⚠ 未驗證。查證後請移除此欄。"

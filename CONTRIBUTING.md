@@ -24,6 +24,7 @@
   perspective kaleido vr recipe
 - tags：中英混合、至少 5 個，放英文名/中文名/俗名/用途/外觀等同義詞——這是搜尋關鍵，越多越好。
 - desc：一句「繁體中文」，說它做什麼＋典型用途（用繁中，勿用簡中詞）。
+- url：**必填**，官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。
 - 選填：look（畫面外觀一句）、vendor（廠商/作者，不確定就寫 aescripts 或 未知/免費）、suite、aex（.aex 檔名）。
 - 若查不到可靠說明：desc 註明「（推測，未查證）」並加 "unverified":true。
 - 要事實準確，不要編造作者或功能。
@@ -33,10 +34,55 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 其他有官網的廠商→third-party.jsonl；畫面感配方→recipes.jsonl。
 
 輸出範例：
-{"name":"Deep Glow 2","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈","溢光"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光，公認最漂亮的 AE 發光外掛。","look":"亮部柔和外擴、衰減真實","vendor":"Plugin Everything"}
+{"name":"Deep Glow 2","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈","溢光"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光，公認最漂亮的 AE 發光外掛。","look":"亮部柔和外擴、衰減真實","vendor":"Plugin Everything","url":"https://aescripts.com/deep-glow/"}
 → 放進 aescripts.jsonl
 
 現在請處理這個外掛：<填外掛名稱或官網連結>
+```
+
+</details>
+
+## 進階：讓 AI 巡 aescripts.com 一個一個補（需要能上網的 AI）
+
+若你的 AI 能瀏覽網頁（Claude Code、ChatGPT 瀏覽、Perplexity 等），用下面這段讓它自動巡 aescripts.com、判斷實用性、去重、附官方連結，成批產出。
+
+<details><summary>👉 點開複製「aescripts 批次補齊」提示詞</summary>
+
+```
+你是「AE 特效資料庫」的策展貢獻助手，任務是巡 aescripts.com 找出「還沒收錄且值得收錄」的外掛，
+逐一產出可貼進 data/aescripts.jsonl 的 JSONL。
+
+步驟：
+1) 先抓已收錄清單以避免重複：讀
+   https://raw.githubusercontent.com/xup61069/ae-effects-db/main/data/aescripts.jsonl
+   記住裡面所有 name（也留意 third-party.jsonl / red-giant.jsonl 可能已含同名）。
+2) 逐頁瀏覽 aescripts.com（建議依 https://aescripts.com/?tab=viewed 最多瀏覽、
+   或 ?tab=bestselling 暢銷、或各分類），一個一個看產品。
+3) 對每個產品做「收/不收」判斷：
+   收錄條件（要同時成立）：
+     - 尚未在已收錄清單中（名稱或功能沒重複）。
+     - 功能實用、有代表性（暢銷/常被討論/解決常見需求）。
+   直接略過（不要收）：
+     - 已收錄，或與現有條目功能高度重複（例如又一個普通 glow、又一個普通 blur）。
+     - 冷門、極小眾、實驗性、幾乎沒人用的。
+     - 純預設包/素材包/教學，而非真正的外掛或腳本工具。
+4) 決定收錄的，輸出「一行」壓縮 JSON，欄位規則：
+     必填 name, cat, tags, desc, url
+     - cat 從此清單挑（小寫）：glow blur-glow light flare particles stylize film color blur warp keying
+       tracking restore time transition text generate 3d draw paint art texture audio physics rigging
+       workflow render expression animation preset utility distort mograph beauty edge emboss composite
+       matte perspective kaleido vr recipe
+     - tags：中英混合≥5個，放英文名/中文名/俗名/用途/外觀同義詞（搜尋關鍵，越多越好），最後放 "aescripts"。
+     - desc：一句繁體中文，做什麼＋典型用途（用繁中，勿簡中詞）。
+     - url：該產品在 aescripts 的官方頁 https://aescripts.com/<slug>/（務必是真實存在的頁面，不要杜撰）。
+     - vendor：作者名（頁面上的 author），不確定就寫 "aescripts"。
+     - 事實要準；查不到說明就別硬收。
+5) 每產一批（例如 10 筆）就停下讓我確認，並附一句「這批略過了哪些、為什麼」。
+
+輸出格式範例（每行一筆，後面不用箭頭，全部都放 aescripts.jsonl）：
+{"name":"Foldspace","cat":"3d","tags":["fold","bend","warp","curve","book","彎折","翻書","摺疊","3D扭曲","aescripts"],"desc":"在3D空間彎折/翻摺平面，做翻書、摺紙、曲面扭曲，控制點可連結其他圖層。","vendor":"aescripts","url":"https://aescripts.com/foldspace/"}
+
+先做第 1 步，把已收錄清單抓回來並回報數量，再開始第一批。
 ```
 
 </details>
