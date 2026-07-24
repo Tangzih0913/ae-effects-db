@@ -1,0 +1,139 @@
+{"name":"S_Glow","cat":"glow","tags":["glow","bloom","發光","輝光"],"desc":"經典柔和輝光，Sapphire招牌、最常用"}
+{"name":"S_UltraGlow","cat":"glow","tags":["glow","physical","dispersion","發光"],"desc":"新一代物理精確輝光，含色散與多種品質模式"}
+{"name":"S_GlowAura","cat":"glow","tags":["aura","radiate","光環"],"desc":"放射狀光環輝光"}
+{"name":"S_GlowDarks","cat":"glow","tags":["dark glow","shadow bloom","暗部發光"],"desc":"讓暗部擴散發光，詭異/夢核氛圍"}
+{"name":"S_GlowDist","cat":"glow","tags":["glow","distort"],"desc":"輝光同時扭曲畫面"}
+{"name":"S_GlowEdges","cat":"glow","tags":["edge glow","neon","tron","邊緣發光","霓虹描邊"],"desc":"僅邊緣輪廓發光，霓虹描邊感"}
+{"name":"S_GlowNoise","cat":"glow","tags":["glow","noise","顆粒輝光"],"desc":"帶噪波紋理的輝光"}
+{"name":"S_GlowOrthicon","cat":"glow","tags":["orthicon","dark halo","黑暈"],"desc":"老攝像管式亮部黑暈"}
+{"name":"S_GlowRainbow","cat":"glow","tags":["rainbow","彩虹輝光"],"desc":"彩虹色多層輝光"}
+{"name":"S_GlowRings","cat":"glow","tags":["rings","同心圓"],"desc":"同心圓環狀輝光"}
+{"name":"S_ZGlow","cat":"glow","tags":["depth glow","z depth"],"desc":"依深度圖控制強度的輝光"}
+{"name":"S_Rays","cat":"light","tags":["god rays","light shafts","volumetric","體積光","光芒","丁達爾"],"desc":"從亮部放射的體積光/上帝光"}
+{"name":"S_EdgeRays","cat":"light","tags":["edge rays","邊緣光線"],"desc":"從物體邊緣放射光線"}
+{"name":"S_Streaks","cat":"light","tags":["anamorphic","streak","橫向光斑","拉絲光"],"desc":"變形鏡頭式橫向光斑拉絲"}
+{"name":"S_LensFlare","cat":"flare","tags":["lens flare","鏡頭光暈","光斑"],"desc":"鏡頭光暈，海量預設可自訂鏡片元素"}
+{"name":"S_LensFlareAutoTrack","cat":"flare","tags":["lens flare","auto track","自動追蹤光暈"],"desc":"自動追蹤畫面亮點的鏡頭光暈"}
+{"name":"S_LightLeak","cat":"flare","tags":["light leak","漏光","復古"],"desc":"底片相機漏光光斑"}
+{"name":"S_Glint","cat":"light","tags":["glint","sparkle","星芒","閃耀"],"desc":"亮點星芒閃耀(珠寶/水面/眼神光)"}
+{"name":"S_GlintRainbow","cat":"light","tags":["rainbow glint","彩虹星芒"],"desc":"彩虹色星芒"}
+{"name":"S_Glare","cat":"light","tags":["glare","耀光","星芒"],"desc":"強光耀斑"}
+{"name":"S_BokehLights","cat":"light","tags":["bokeh","light dots","散景光點"],"desc":"生成失焦散景光點"}
+{"name":"S_Flashbulbs","cat":"light","tags":["flashbulbs","paparazzi","閃光燈"],"desc":"觀眾席/狗仔隊隨機閃光燈"}
+{"name":"S_Light3D","cat":"light","tags":["relight","normal","重打光"],"desc":"用法線/深度對2D畫面重新打光"}
+{"name":"S_SpotLight","cat":"light","tags":["spotlight","聚光燈"],"desc":"聚光燈照明"}
+{"name":"S_DropShadow","cat":"composite","tags":["drop shadow","陰影"],"desc":"投影陰影"}
+{"name":"S_LaserBeam","cat":"generate","tags":["laser","雷射","光束"],"desc":"雷射光束"}
+{"name":"S_Zap","cat":"generate","tags":["lightning","electric","閃電","電弧"],"desc":"閃電/電弧，可動畫分支"}
+{"name":"S_UltraZap","cat":"generate","tags":["lightning","閃電"],"desc":"新一代進階閃電，路徑/分支/預設更強"}
+{"name":"S_ZapTo","cat":"generate","tags":["lightning","電擊目標"],"desc":"閃電打向指定圖層形狀"}
+{"name":"S_ZapFrom","cat":"generate","tags":["lightning","放電"],"desc":"從圖層形狀向外放電"}
+{"name":"S_Luna","cat":"generate","tags":["moon","月亮"],"desc":"寫實月亮生成，可控月相角度"}
+{"name":"S_NightSky","cat":"generate","tags":["stars","night sky","星空"],"desc":"天文精確的星空生成(可指定時間地點)"}
+{"name":"S_Aurora","cat":"generate","tags":["aurora","northern lights","極光"],"desc":"飄動極光生成"}
+{"name":"S_MuzzleFlash","cat":"generate","tags":["muzzle flash","gun","槍口火光"],"desc":"槍口火光"}
+{"name":"S_AutoPaint","cat":"paint","tags":["painting","brush","筆觸","繪畫"],"desc":"自動筆觸繪畫風格化"}
+{"name":"S_Sketch","cat":"paint","tags":["sketch","pencil","素描","鉛筆"],"desc":"鉛筆素描風"}
+{"name":"S_Etching","cat":"paint","tags":["etching","engraving","版畫","雕刻"],"desc":"蝕刻版畫線雕風(鈔票肖像感)"}
+{"name":"S_BrushOil","cat":"paint","tags":["oil paint","油畫"],"desc":"油畫筆觸"}
+{"name":"S_BrushChalk","cat":"paint","tags":["chalk","pastel","粉筆","粉彩"],"desc":"粉筆/粉彩筆觸"}
+{"name":"S_Crosshatch","cat":"paint","tags":["crosshatch","交叉排線"],"desc":"交叉排線素描"}
+{"name":"S_Cartoon","cat":"paint","tags":["cartoon","toon","cel","卡通","動漫"],"desc":"卡通化：色塊平塗+描邊"}
+{"name":"S_CartoonPaint","cat":"paint","tags":["cartoon","paint","卡通繪畫"],"desc":"卡通+繪畫混合風格"}
+{"name":"S_Posterize","cat":"paint","tags":["posterize","色調分離"],"desc":"色調分離海報化"}
+{"name":"S_HalfTone","cat":"paint","tags":["halftone","print dots","網點","印刷"],"desc":"黑白半調網點印刷風"}
+{"name":"S_HalfToneColor","cat":"paint","tags":["halftone","cmyk","comic","漫畫網點"],"desc":"CMYK彩色網點，普普藝術/漫畫印刷風"}
+{"name":"S_HalfToneRings","cat":"paint","tags":["halftone","rings","環紋"],"desc":"同心圓環半調"}
+{"name":"S_Kaleido系列","cat":"kaleido","tags":["kaleidoscope","mirror","symmetry","萬花筒","鏡像","對稱"],"desc":"萬花筒鏡像拼貼(10種)","variants":{"S_KaleidoTriangles":"三角","S_KaleidoSquares":"方形","S_KaleidoDiamonds":"菱形","S_KaleidoOct":"八角","S_KaleidoPolar":"極座標","S_KaleidoRadial":"放射","S_FlysEyeCircles":"複眼圓","S_FlysEyeHex":"複眼六角","S_FlysEyeRect":"複眼方格","S_TileScramble":"磚塊打亂"}}
+{"name":"S_FilmEffect","cat":"film","tags":["film look","cinematic","膠片","電影感"],"desc":"膠片模擬：顆粒/色調/柔光/暗角一次到位"}
+{"name":"S_FilmDamage","cat":"film","tags":["film damage","scratches","dust","老膠片","刮痕","做舊"],"desc":"老膠片損壞：刮痕、塵點、抖動、褪色、燒灼"}
+{"name":"S_Vignette","cat":"film","tags":["vignette","暗角"],"desc":"暗角"}
+{"name":"S_BleachBypass","cat":"film","tags":["bleach bypass","silver retention","漂白旁路"],"desc":"漂白旁路：高對比低飽和(戰爭片感)"}
+{"name":"S_Grain","cat":"film","tags":["grain","顆粒"],"desc":"膠片顆粒"}
+{"name":"S_GrainStatic","cat":"film","tags":["static grain","靜態顆粒"],"desc":"靜態顆粒"}
+{"name":"S_UltraGrain","cat":"film","tags":["film grain","stock","真實顆粒"],"desc":"新一代真實膠片顆粒(依片型預設)"}
+{"name":"S_Diffuse","cat":"film","tags":["diffuse","scatter","擴散"],"desc":"像素擴散粗糙化"}
+{"name":"S_VintageColor2Strip","cat":"film","tags":["technicolor","2 strip","特藝彩色"],"desc":"雙色特藝彩色老電影色"}
+{"name":"S_VintageColor3Strip","cat":"film","tags":["technicolor","3 strip","特藝彩色"],"desc":"三色特藝彩色(綠野仙蹤感)"}
+{"name":"S_FilmBurn","cat":"film","tags":["film burn","燒灼","過曝"],"desc":"膠片燒灼過曝損壞"}
+{"name":"S_EdgeDetect","cat":"edge","tags":["edge detect","outline","line art","輪廓","線稿"],"desc":"邊緣檢測線稿"}
+{"name":"S_EdgeDetectDouble","cat":"edge","tags":["edge","雙重邊緣"],"desc":"雙重邊緣線"}
+{"name":"S_EdgesInDirection","cat":"edge","tags":["edge","方向邊緣"],"desc":"指定方向的邊緣提取"}
+{"name":"S_EdgeColorize","cat":"edge","tags":["edge","colorize","彩色描邊"],"desc":"依方向著色的彩色邊緣"}
+{"name":"S_Emboss","cat":"emboss","tags":["emboss","浮雕"],"desc":"浮雕"}
+{"name":"S_EmbossShiny","cat":"emboss","tags":["emboss","metallic","金屬浮雕"],"desc":"金屬光澤浮雕"}
+{"name":"S_EmbossDistort","cat":"emboss","tags":["emboss","distort"],"desc":"浮雕+扭曲"}
+{"name":"S_EmbossGlass","cat":"emboss","tags":["glass","refraction","玻璃浮雕"],"desc":"玻璃浮雕折射"}
+{"name":"S_DigitalDamage","cat":"stylize","tags":["glitch","digital","blocks","故障","數位損壞"],"desc":"數位訊號故障：方塊、撕裂、噪訊"}
+{"name":"S_JpegDamage","cat":"stylize","tags":["jpeg","compression artifact","壓縮失真"],"desc":"JPEG壓縮損壞方塊"}
+{"name":"S_TVDamage","cat":"stylize","tags":["tv","analog","static","ghosting","老電視","雪花","鬼影"],"desc":"類比電視損壞：雪花、滾動、鬼影、掃描線"}
+{"name":"S_PixelSort","cat":"stylize","tags":["pixel sort","glitch art","像素排序"],"desc":"像素排序glitch藝術"}
+{"name":"S_PixelMosh","cat":"stylize","tags":["datamosh","glitch","壓縮殘影"],"desc":"datamosh運動殘留故障"}
+{"name":"S_ScanLines","cat":"stylize","tags":["scanlines","crt","掃描線"],"desc":"掃描線"}
+{"name":"S_ScanLinesMono","cat":"stylize","tags":["scanlines","monochrome","單色掃描線"],"desc":"單色CRT掃描線"}
+{"name":"S_Grunge","cat":"stylize","tags":["grunge","dirty","texture","做舊","污漬"],"desc":"污漬紋理做舊(多種grunge紋理)"}
+{"name":"S_Mosaic","cat":"stylize","tags":["mosaic","pixelate","馬賽克","像素化"],"desc":"馬賽克像素化"}
+{"name":"S_PrismLens","cat":"stylize","tags":["prism","multiple image","稜鏡","分身"],"desc":"稜鏡多重影像折射"}
+{"name":"S_BandPass","cat":"stylize","tags":["bandpass","frequency"],"desc":"頻率帶通風格化"}
+{"name":"S_ColorFuse","cat":"stylize","tags":["color fuse","色彩融合"],"desc":"色彩融合風格化"}
+{"name":"S_DogVision","cat":"stylize","tags":["dog vision","狗視覺"],"desc":"狗色覺模擬"}
+{"name":"S_PseudoColor","cat":"stylize","tags":["pseudo color","thermal","偽色","熱成像"],"desc":"偽色映射(熱成像感)"}
+{"name":"S_PsykoBlobs","cat":"stylize","tags":["psychedelic","liquid","迷幻","融化"],"desc":"迷幻融化斑塊"}
+{"name":"S_PsykoStripes","cat":"stylize","tags":["psychedelic","stripes","迷幻條紋"],"desc":"迷幻流動條紋"}
+{"name":"S_RomanTile","cat":"stylize","tags":["mosaic tile","拼貼"],"desc":"羅馬瓷磚拼貼畫"}
+{"name":"S_Solarize","cat":"stylize","tags":["solarize","中途曝光"],"desc":"中途曝光反轉"}
+{"name":"S_StripSlide","cat":"stylize","tags":["strips","slide","條帶錯位"],"desc":"條帶切片錯位滑動"}
+{"name":"S_Zebrafy","cat":"stylize","tags":["zebra","stripes","斑馬紋"],"desc":"斑馬紋等高線化"}
+{"name":"S_ZebrafyColor","cat":"stylize","tags":["zebra","彩色斑馬紋"],"desc":"彩色斑馬紋"}
+{"name":"S_ZFogExponential","cat":"stylize","tags":["fog","depth","深度霧"],"desc":"依深度圖加霧(指數衰減)"}
+{"name":"S_ZFogLinear","cat":"stylize","tags":["fog","depth","深度霧"],"desc":"依深度圖加霧(線性)"}
+{"name":"S_Adjust系列","cat":"color","tags":["color adjust","channels","調色","校色","通道"],"desc":"色彩調整工具組(14種)","variants":{"S_ChannelSwitcher":"通道重組","S_ClampChroma":"鉗制色度","S_DuoTone":"雙色調","S_Gamma":"伽馬","S_Hotspots":"高光壓制","S_HueSatBright":"HSB","S_Invert":"反相","S_Monochrome":"單色化","S_OCIOTransform":"OCIO色彩管理","S_QuadTone":"四色調","S_Threshold":"閾值二值化","S_Tint":"著色","S_TriTone":"三色調","S_ShowBadColors":"非法色檢查"}}
+{"name":"S_Composite系列","cat":"composite","tags":["composite","matte","layer","合成","遮罩運算"],"desc":"合成與遮罩運算工具組","variants":{"S_EdgeFlash":"邊緣光滲互襯","S_Layer":"圖層疊加","S_MathOps":"數學運算","S_MatteOps":"遮罩處理","S_MatteOpsComp":"遮罩合成","S_ZComp":"深度合成"}}
+{"name":"S_Beauty","cat":"beauty","tags":["beauty","skin smooth","美膚","磨皮"],"desc":"美膚磨皮，保留皮膚細節"}
+{"name":"S_Blur","cat":"blur","tags":["blur","gaussian","模糊"],"desc":"高品質高斯模糊"}
+{"name":"S_BlurMotion","cat":"blur","tags":["motion blur","directional","運動模糊"],"desc":"方向性運動模糊"}
+{"name":"S_RackDefocus","cat":"blur","tags":["defocus","bokeh","rack focus","失焦","散景","拉焦"],"desc":"真實鏡頭失焦散景，可動畫拉焦"}
+{"name":"S_ZDefocus","cat":"blur","tags":["depth of field","z depth","bokeh","景深"],"desc":"依深度圖的景深散景"}
+{"name":"S_FreeLens","cat":"blur","tags":["freelensing","tilt shift","light leak","移軸","自由鏡頭"],"desc":"拆鏡頭拍攝感：局部失焦+漏光"}
+{"name":"S_SoftFocus","cat":"blur","tags":["soft focus","dreamy","柔焦"],"desc":"柔焦"}
+{"name":"S_Sharpen","cat":"blur","tags":["sharpen","銳化"],"desc":"銳化"}
+{"name":"S_Blur進階系列","cat":"blur","tags":["blur","convolve","defocus","模糊"],"desc":"進階模糊/失焦工具組","variants":{"S_BlurChannels":"分通道模糊","S_BlurChroma":"色度模糊","S_BlurDirectional":"方向模糊","S_BlurMoCurves":"曲線驅動運動模糊","S_DefocusPrism":"稜鏡失焦","S_Convolve":"卷積","S_ConvolveComp":"卷積合成","S_EdgeBlur":"邊緣模糊","S_EdgeAwareBlur":"保邊模糊","S_Median":"中值","S_RackDfComp":"失焦合成","S_ZConvolve":"深度卷積","S_ZBlur":"深度模糊","S_AdvancedDefocus":"進階失焦"}}
+{"name":"S_GrainRemove","cat":"restore","tags":["denoise","degrain","降噪"],"desc":"降噪去顆粒"}
+{"name":"S_Deband","cat":"restore","tags":["deband","banding","色帶"],"desc":"去除色彩斷層條帶"}
+{"name":"S_Shake","cat":"warp","tags":["camera shake","earthquake","震動","手持","晃動"],"desc":"鏡頭震動，可加RGB分離與模糊"}
+{"name":"S_InfiniteZoom","cat":"warp","tags":["infinite zoom","droste","無限縮放"],"desc":"無限放大縮小循環(Droste效應)"}
+{"name":"S_WarpVortex","cat":"warp","tags":["vortex","swirl","漩渦"],"desc":"漩渦扭曲"}
+{"name":"S_WarpPolar","cat":"warp","tags":["polar","tiny planet","極座標","小星球"],"desc":"極座標彎曲(小星球效果)"}
+{"name":"S_WarpFishEye","cat":"warp","tags":["fisheye","魚眼"],"desc":"魚眼鏡頭扭曲"}
+{"name":"S_WarpDrops","cat":"warp","tags":["water drops","ripple","水滴","漣漪"],"desc":"水滴漣漪擴散"}
+{"name":"S_WarpPuddle","cat":"warp","tags":["water","puddle","水波"],"desc":"水波紋扭曲"}
+{"name":"S_StretchFrameEdges","cat":"warp","tags":["stretch edges","reformat","邊緣拉伸","改比例"],"desc":"智慧拉伸畫面邊緣改變長寬比(豎轉橫)"}
+{"name":"S_DistortChroma","cat":"warp","tags":["heat haze","chromatic","熱浪","色差扭曲"],"desc":"帶色差的扭曲(熱浪/能量場)"}
+{"name":"S_DistortRGB","cat":"warp","tags":["rgb split","distort","RGB錯位"],"desc":"RGB三通道分離扭曲"}
+{"name":"S_Warp系列","cat":"warp","tags":["warp","distort","扭曲","變形"],"desc":"各式扭曲變形工具組","variants":{"S_Distort":"圖層置換扭曲","S_DistortBlur":"置換+模糊","S_WarpBubble":"氣泡","S_WarpBubble2":"氣泡2","S_WarpChroma":"色差扭曲","S_WarpCornerPin":"四角釘","S_WarpMagnify":"放大鏡","S_WarpPerspective":"透視","S_WarpPuff":"膨脹","S_WarpRepeat":"重複疊印","S_WarpTransform":"變換","S_WarpWaves":"波浪","S_WarpWaves2":"波浪2","S_ParallaxStrips":"視差條帶"}}
+{"name":"S_Gradient系列","cat":"generate","tags":["gradient","grid","shape","漸層","網格","形狀"],"desc":"漸層/網格/形狀生成組","variants":{"S_Gradient":"線性漸層","S_GradientMulti":"多色漸層","S_GradientRadial":"放射漸層","S_Grid":"網格","S_Shape":"形狀"}}
+{"name":"S_Texture系列","cat":"texture","tags":["procedural texture","background","紋理","背景生成"],"desc":"程序化紋理/背景生成組(18種)","variants":{"S_Caustics":"水底焦散","S_Sparkles":"火花閃粉","S_SparklesColor":"彩色火花","S_TextureCells":"細胞","S_TextureChromaSpiral":"彩色螺旋","S_TextureFlux":"流變","S_TextureFolded":"摺疊絲綢","S_TextureLoops":"環圈","S_TextureMicro":"微觀纖維","S_TextureMoire":"摩爾紋","S_TextureNeurons":"神經元","S_TextureNoiseEmboss":"浮雕噪波","S_TextureNoisePaint":"筆觸噪波","S_TexturePlasma":"電漿","S_TextureSpots":"斑點","S_TextureTiles":"瓷磚","S_TextureWeave":"編織","S_TextureRidges":"脊紋"}}
+{"name":"S_Clouds系列","cat":"texture","tags":["clouds","fractal noise","smoke","雲霧","噪波"],"desc":"分形雲霧噪波(6種)","variants":{"S_Clouds":"標準","S_CloudsColorSmooth":"平滑彩色","S_CloudsMultColor":"多彩","S_CloudsPerspective":"透視飛行","S_CloudsPsyko":"迷幻","S_CloudsVortex":"漩渦雲"}}
+{"name":"S_Trails","cat":"time","tags":["trails","echo","motion trail","拖尾","殘影"],"desc":"運動拖尾殘影"}
+{"name":"S_TrailsDiffuse","cat":"time","tags":["trails","diffuse","擴散拖尾"],"desc":"擴散顆粒式拖尾"}
+{"name":"S_Feedback","cat":"time","tags":["feedback","infinite mirror","video feedback","回饋","無限鏡像"],"desc":"視訊回饋無限鏡像"}
+{"name":"S_FeedbackBubble","cat":"time","tags":["feedback","bubble"],"desc":"氣泡扭曲回饋"}
+{"name":"S_FeedbackDistort","cat":"time","tags":["feedback","distort"],"desc":"扭曲回饋殘影"}
+{"name":"S_Retime","cat":"time","tags":["retime","speed ramp","optical flow","變速","升格"],"desc":"光流變速/補幀"}
+{"name":"S_FreezeFrame","cat":"time","tags":["freeze","定格"],"desc":"定格畫面"}
+{"name":"S_Time系列","cat":"time","tags":["time","displacement","時間效果"],"desc":"時間處理工具組","variants":{"S_TimeDisplace":"時間置換","S_TimeSlice":"時間切片","S_TimeAverage":"時間平均","S_TimeWarpRGB":"RGB時差","S_JitterFrames":"幀抖動","S_GetFrame":"取指定幀","S_MotionDetect":"運動檢測","S_NearestColor":"最近色"}}
+{"name":"S_Flicker系列","cat":"restore","tags":["flicker","deflicker","閃爍","去閃爍"],"desc":"閃爍生成/匹配/移除工具組(9種)","variants":{"S_Flicker":"加閃爍","S_FlickerMatch":"匹配閃爍","S_FlickerMatchColor":"彩色匹配","S_FlickerMatchMatte":"遮罩匹配","S_FlickerMchMatteColor":"遮罩彩色匹配","S_FlickerRemove":"去閃爍","S_FlickerRemoveColor":"彩色去閃","S_FlickerRemoveMatte":"遮罩去閃","S_FlickerRmMatteColor":"遮罩彩色去閃"}}
+{"name":"S_RepairFrames","cat":"restore","tags":["repair","bad frame","壞幀修復"],"desc":"以鄰幀光流修復壞幀"}
+{"name":"S_FieldRemove","cat":"restore","tags":["deinterlace","去交錯"],"desc":"去除交錯場"}
+{"name":"S_Swish3D","cat":"transition","tags":["swish","whip","3d transition","甩鏡轉場"],"desc":"3D翻轉甩鏡轉場"}
+{"name":"S_SwishPan","cat":"transition","tags":["swish pan","whip pan","甩鏡"],"desc":"甩鏡模糊轉場"}
+{"name":"S_WhipLash","cat":"transition","tags":["whip","fast","甩鏡"],"desc":"快速甩鏡轉場"}
+{"name":"S_MochaWhip","cat":"transition","tags":["mocha","whip","track","追蹤甩鏡"],"desc":"沿mocha追蹤路徑的甩鏡轉場"}
+{"name":"S_CardFlip","cat":"transition","tags":["card flip","翻轉"],"desc":"卡片翻轉轉場"}
+{"name":"S_TVChannelChange","cat":"transition","tags":["tv channel","轉台"],"desc":"老電視轉台轉場"}
+{"name":"S_FilmBurnTransition","cat":"transition","tags":["film burn","膠片燒灼轉場"],"desc":"膠片燒灼轉場"}
+{"name":"S_FilmRoll","cat":"transition","tags":["film roll","跳格","膠片滾動"],"desc":"膠片滾動跳格轉場"}
+{"name":"S_FlutterCut","cat":"transition","tags":["flutter","strobe cut","快閃跳剪"],"desc":"隨機快閃跳剪"}
+{"name":"S_Dissolve系列","cat":"transition","tags":["dissolve","transition","溶解","轉場"],"desc":"各式風格化溶解轉場(30種)","variants":{"S_Dissolve":"標準","S_DissolveAutoPaint":"筆觸","S_DissolveBlur":"模糊","S_DissolveBubble":"氣泡","S_DissolveDefocus":"失焦","S_DissolveDiffuse":"擴散","S_DissolveDigitalDamage":"數位故障","S_DissolveDistort":"扭曲","S_DissolveEdgeRays":"邊緣光線","S_DissolveFilm":"膠片","S_DissolveFlashbulbs":"閃光燈","S_DissolveGlare":"耀光","S_DissolveGlint":"星芒","S_DissolveGlintRainbow":"彩虹星芒","S_DissolveGlow":"輝光","S_DissolveLensFlare":"鏡頭光暈","S_DissolveLightLeak":"漏光","S_DissolveLuma":"亮度","S_DissolvePixelMosh":"datamosh","S_DissolvePixelSort":"像素排序","S_DissolvePuddle":"水波","S_DissolveRays":"光芒","S_DissolveShake":"震動","S_DissolveSpeckle":"斑點","S_DissolveStatic":"雪花噪訊","S_DissolveTiles":"磚塊","S_DissolveUltraGlow":"UltraGlow","S_DissolveVortex":"漩渦","S_DissolveWaves":"波浪","S_DissolveZap":"閃電"}}
+{"name":"S_Wipe系列","cat":"transition","tags":["wipe","pattern","擦除","轉場"],"desc":"圖案擦除轉場(20種)","variants":{"S_WipeBlobs":"斑塊","S_WipeBubble":"氣泡","S_WipeCells":"細胞","S_WipeChecker":"棋盤","S_WipeCircle":"圓形","S_WipeClock":"時鐘","S_WipeClouds":"雲霧","S_WipeDiffuse":"擴散","S_WipeDots":"圓點","S_WipeDoubleWedge":"雙楔形","S_WipeFlux":"流變","S_WipeFourWedges":"四楔形","S_WipeLine":"線性","S_WipeMoire":"摩爾紋","S_WipePixelate":"像素化","S_WipePlasma":"電漿","S_WipePointalize":"點彩","S_WipeRectangle":"矩形","S_WipeRings":"圓環","S_WipeStar":"星形","S_WipeStripes":"條紋","S_WipeTiles":"磚塊","S_WipeWeave":"編織","S_WipeWedge":"楔形"}}
+{"name":"S_Edit系列","cat":"transition","tags":["edit","editorial","剪輯工具"],"desc":"剪輯輔助工具組","variants":{"S_CutToDissolve":"切變溶解","S_RandomEdits":"隨機跳剪","S_ReverseClip":"倒放","S_ReverseEdits":"片段倒序","S_Transition":"通用轉場","S_Effect":"通用效果載入","S_StripSlideTransition":"條帶滑動轉場","S_ParallaxStripsTransition":"視差條轉場"}}

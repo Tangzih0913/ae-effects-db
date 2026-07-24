@@ -1,0 +1,101 @@
+{"name":"BCC Particle Illusion","cat":"particles","tags":["particle library","preset","emitter","sparkles","fireworks","粒子庫","煙火","拖放"],"desc":"王牌粒子工具：獨立介面+數千種預設粒子(煙火/魔法/煙霧/爆炸)，拖放即用"}
+{"name":"BCC Particle Emitter 3D","cat":"particles","tags":["particle","3d emitter","粒子發射器"],"desc":"3D粒子發射器，跟AE攝影機整合"}
+{"name":"BCC Particle Array 3D","cat":"particles","tags":["particle array","grid","粒子陣列"],"desc":"3D粒子陣列排列"}
+{"name":"BCC Pin Art 3D","cat":"particles","tags":["pin art","針板"],"desc":"針板浮雕玩具效果"}
+{"name":"BCC Organic Strands","cat":"particles","tags":["strands","tendrils","絲線","觸鬚"],"desc":"有機生長絲線/觸鬚"}
+{"name":"BCC Rain","cat":"particles","tags":["rain","weather","下雨"],"desc":"下雨生成"}
+{"name":"BCC Snow","cat":"particles","tags":["snow","weather","下雪"],"desc":"下雪生成"}
+{"name":"BCC 2D Particles","cat":"particles","tags":["2d particles","shatter","粒子化"],"desc":"畫面打散成2D粒子"}
+{"name":"BCC Wild Cards","cat":"particles","tags":["cards","卡片飛散"],"desc":"卡片群飛散動畫"}
+{"name":"BCC Title Studio","cat":"3d","tags":["title","3d text","motion graphics","標題","3D文字"],"desc":"專業3D標題引擎(獨立介面)，擠出文字/材質/燈光"}
+{"name":"BCC 3D Objects系列","cat":"3d","tags":["extrude","3d text","spline","擠出","3D物件"],"desc":"3D擠出物件組","variants":{"BCC Extruded Text":"擠出3D文字","BCC Extruded Spline":"擠出樣條","BCC Extruded EPS":"擠出EPS向量","BCC Layer Deformer":"圖層變形","BCC Type-On Text":"打字機文字"}}
+{"name":"BCC+ Beauty Studio","cat":"beauty","tags":["beauty","skin retouch","美膚","磨皮"],"desc":"AI美膚磨皮套件"}
+{"name":"BCC+ DeNoise ML","cat":"restore","tags":["denoise","ml","ai","降噪"],"desc":"機器學習降噪"}
+{"name":"BCC+ UpRes ML","cat":"restore","tags":["upscale","super resolution","ai","放大","超解析"],"desc":"ML智慧放大解析度"}
+{"name":"BCC+ Frame Fixer ML","cat":"restore","tags":["frame repair","ai","壞幀修復"],"desc":"ML壞幀修復"}
+{"name":"BCC+ Retimer ML","cat":"time","tags":["retime","optical flow","slow motion","ai","變速","慢動作","補幀"],"desc":"ML光流變速/慢動作補幀"}
+{"name":"BCC+ Motion Blur ML","cat":"blur","tags":["motion blur","ai","運動模糊"],"desc":"ML自動為畫面添加運動模糊"}
+{"name":"BCC+ Depth Map ML","cat":"keying","tags":["depth map","ai","深度圖"],"desc":"ML從2D畫面生成深度圖"}
+{"name":"BCC+ Face ML","cat":"keying","tags":["face detection","ai","人臉"],"desc":"ML人臉偵測遮罩"}
+{"name":"BCC+ Matte Refine ML","cat":"keying","tags":["matte refine","ai","遮罩精修"],"desc":"ML遮罩邊緣精修"}
+{"name":"BCC+ Witness Protection ML","cat":"tracking","tags":["face blur","censor","ai","人臉打碼","馬賽克"],"desc":"ML自動追蹤人臉打碼"}
+{"name":"BCC+ License Plate ML","cat":"tracking","tags":["license plate","censor","ai","車牌打碼"],"desc":"ML自動車牌偵測打碼"}
+{"name":"BCC Remover","cat":"restore","tags":["object removal","inpaint","clone","移除物件","修補"],"desc":"物件移除/畫面修補(clone+inpaint)"}
+{"name":"BCC Wire Remover","cat":"restore","tags":["wire removal","rig removal","鋼絲移除"],"desc":"鋼絲/吊繩移除"}
+{"name":"BCC Flicker Fixer","cat":"restore","tags":["deflicker","去閃爍"],"desc":"去除頻閃/燈光閃爍"}
+{"name":"BCC Optical Stabilizer","cat":"restore","tags":["stabilize","穩定","防抖"],"desc":"光流畫面穩定防抖"}
+{"name":"BCC+ Magic Sharp","cat":"restore","tags":["sharpen","銳化"],"desc":"智慧銳化"}
+{"name":"BCC Lens Correction","cat":"restore","tags":["lens distortion","undistort","鏡頭校正"],"desc":"鏡頭畸變校正"}
+{"name":"BCC Reframer","cat":"utility","tags":["reframe","vertical","social","豎屏","重新構圖"],"desc":"橫轉豎智慧重構圖(社群影片)"}
+{"name":"BCC 修復工具組","cat":"restore","tags":["restoration","dropout","dust","pixel","修復"],"desc":"其他修復工具","variants":{"BCC Dropout Fixer":"訊號缺損修復","BCC Dust and Scratches":"除塵去刮痕","BCC Pixel Fixer":"壞點修復","BCC Broadcast Safe":"廣播安全色","BCC+ DeBand":"去色帶","BCC+ DeBlock":"去壓縮方塊","BCC Deinterlace":"去交錯"}}
+{"name":"BCC+ Primatte Studio","cat":"keying","tags":["chroma key","green screen","keyer","摳像","去背","綠幕"],"desc":"Primatte頂級綠幕摳像套件(含燈光校正/光包裹)"}
+{"name":"BCC Chroma Key Studio","cat":"keying","tags":["chroma key","綠幕","摳像"],"desc":"一站式色鍵摳像套件"}
+{"name":"BCC+ Light Wrap","cat":"keying","tags":["light wrap","光包裹","合成"],"desc":"合成光包裹，讓前景融入背景"}
+{"name":"BCC+ Spill Remover","cat":"keying","tags":["spill","despill","溢色"],"desc":"去除綠幕溢色"}
+{"name":"BCC Key/Blend工具組","cat":"keying","tags":["key","matte","composite","鍵控","遮罩","合成"],"desc":"鍵控與合成輔助工具組","variants":{"BCC+ Linear Color Key":"線性色鍵","BCC+ Linear Luma Key":"亮度鍵","BCC+ Two Way Key":"雙向鍵","BCC Make Alpha Key":"生成Alpha","BCC Matte Choker":"遮罩收縮","BCC Matte Cleanup":"遮罩清理","BCC Composite Choker":"合成收邊","BCC+ Edge Cleaner":"邊緣清理","BCC Alpha Process":"Alpha處理","BCC Premult":"預乘","BCC+ Composite":"合成","BCC+ Edge Composite":"邊緣合成","BCC+ Holdout Composite":"holdout合成","BCC+ Math Composite":"數學合成","BCC+ Non-Additive Mix":"非加性混合","BCC+ Optical Dissolve":"光學溶解","BCC+ Color Paste":"色彩貼合","BCC RGB Blend":"RGB混合","BCC+ Pixel Chooser":"像素選擇器(區域遮罩)"}}
+{"name":"BCC Match Move","cat":"tracking","tags":["match move","track","跟隨","追蹤"],"desc":"物件追蹤跟隨(內建mocha引擎)"}
+{"name":"BCC Corner Pin Studio","cat":"tracking","tags":["corner pin","planar","screen replace","四角釘","螢幕替換"],"desc":"mocha平面追蹤四角釘，螢幕替換"}
+{"name":"BCC Lens Flare 3D","cat":"light","tags":["lens flare","3d","鏡頭光暈"],"desc":"3D空間鏡頭光暈，跟AE燈光/攝影機連動"}
+{"name":"BCC Stage Light","cat":"light","tags":["stage light","concert","舞台光","聚光"],"desc":"舞台聚光燈束(演唱會光束)"}
+{"name":"BCC+ Light Leaks","cat":"light","tags":["light leak","漏光"],"desc":"動態漏光"}
+{"name":"BCC+ Glow","cat":"light","tags":["glow","發光","輝光"],"desc":"高品質輝光"}
+{"name":"BCC+ Rays","cat":"light","tags":["god rays","volumetric","體積光","光芒"],"desc":"體積光芒"}
+{"name":"BCC+ ReLight","cat":"light","tags":["relight","重打光"],"desc":"以法線/深度重新打光"}
+{"name":"BCC Lightning","cat":"light","tags":["lightning","electric","閃電"],"desc":"閃電生成"}
+{"name":"BCC Laser Beam","cat":"light","tags":["laser","雷射"],"desc":"雷射光束"}
+{"name":"BCC Light Sweep","cat":"light","tags":["light sweep","掃光"],"desc":"文字/Logo掃光"}
+{"name":"BCC Edge Lighting","cat":"light","tags":["edge light","rim","邊緣光"],"desc":"邊緣輪廓光"}
+{"name":"BCC Lights工具組","cat":"light","tags":["light","glow","flare","燈光"],"desc":"其他燈光工具","variants":{"BCC+ Ambient Light":"環境光","BCC+ Chroma Bands":"色彩光帶","BCC+ Eye Light":"眼神光","BCC+ Glow Darks":"暗部發光","BCC+ Glow Edges":"邊緣發光","BCC+ Ice Halos":"冰晕","BCC+ Key Light":"主光","BCC+ Lens Flare":"光暈","BCC+ Light":"打光","BCC+ Multi-Star":"多星芒","BCC+ Overexpose":"過曝","BCC+ Reflector":"反光板","BCC+ Streaks":"光斑拉絲","BCC Rays Puffy":"雲隙柔光","BCC Rays Radiant Edges":"邊緣放射","BCC Spotlight":"聚光燈","BCC Reverse Spotlight":"反向聚光"}}
+{"name":"BCC+ Video Glitch","cat":"stylize","tags":["glitch","digital","故障","毛刺"],"desc":"數位故障glitch(方塊/錯位/掃描線)"}
+{"name":"BCC Damaged TV","cat":"stylize","tags":["tv damage","analog","老電視","雪花"],"desc":"損壞電視訊號"}
+{"name":"BCC Scanline","cat":"stylize","tags":["scanline","掃描線"],"desc":"掃描線"}
+{"name":"BCC+ Super LED","cat":"stylize","tags":["led wall","dot matrix","LED牆","點陣"],"desc":"LED點陣大螢幕效果"}
+{"name":"BCC Misalignment","cat":"stylize","tags":["rgb split","錯位","RGB分離"],"desc":"RGB通道錯位"}
+{"name":"BCC+ Prism","cat":"stylize","tags":["prism","dispersion","稜鏡","色散"],"desc":"稜鏡色散"}
+{"name":"BCC Grunge","cat":"stylize","tags":["grunge","dirty","做舊","污漬"],"desc":"污漬做舊質感"}
+{"name":"BCC Edge Grunge","cat":"stylize","tags":["edge grunge","邊緣做舊"],"desc":"邊緣破損做舊"}
+{"name":"BCC Cast Shadow","cat":"stylize","tags":["cast shadow","投影"],"desc":"透視投射陰影"}
+{"name":"BCC Stylize工具組","cat":"stylize","tags":["stylize","mosaic","emboss","風格化"],"desc":"其他風格化工具","variants":{"BCC+ Mosaic":"馬賽克","BCC Color Choker":"色彩收縮","BCC Colorize Glow":"著色輝光","BCC Drop Shadow":"陰影","BCC Emboss":"浮雕","BCC Glow Alpha Edges":"Alpha邊發光","BCC Multi-Shadow":"多重陰影","BCC Reflection":"倒影","BCC RGB Edges":"RGB邊緣","BCC RGB PixelNoise":"RGB像素噪點","BCC Scatterize":"像素飛散","BCC+ Scanline":"掃描線+"}}
+{"name":"BCC Cartooner","cat":"art","tags":["cartoon","toon","卡通","動漫"],"desc":"卡通化描邊平塗"}
+{"name":"BCC Cartoon Look","cat":"art","tags":["cartoon","卡通"],"desc":"卡通調色風格"}
+{"name":"BCC Pencil Sketch","cat":"art","tags":["pencil","sketch","素描"],"desc":"鉛筆素描"}
+{"name":"BCC Charcoal Sketch","cat":"art","tags":["charcoal","炭筆"],"desc":"炭筆素描"}
+{"name":"BCC Water Color","cat":"art","tags":["watercolor","水彩"],"desc":"水彩畫"}
+{"name":"BCC Halftone","cat":"art","tags":["halftone","print","網點","印刷"],"desc":"半調網點印刷風"}
+{"name":"BCC Art Looks工具組","cat":"art","tags":["art","painting","藝術風格"],"desc":"其他藝術風格工具","variants":{"BCC+ Borders":"邊框","BCC+ Color Infrared":"彩色紅外","BCC+ Color Shadow":"色彩陰影","BCC+ Harris Shutter":"哈里斯快門三色","BCC+ Infrared":"紅外","BCC+ Night Vision":"夜視儀","BCC+ X-Ray":"X光","BCC Artists Poster":"海報","BCC Bump Map":"凹凸貼圖","BCC Median":"中值繪畫感","BCC Posterize":"色調分離","BCC Spray Paint Noise":"噴漆噪點","BCC Tile Mosaic":"磁磚拼貼"}}
+{"name":"BCC+ Film Stocks","cat":"film","tags":["film emulation","stock","膠片模擬","底片"],"desc":"290+種真實底片/沖印流程模擬(Tiffen)"}
+{"name":"BCC+ Looks","cat":"film","tags":["looks","preset grade","調色預設","電影感"],"desc":"電影Look調色預設庫"}
+{"name":"BCC Match Grain","cat":"film","tags":["grain match","顆粒匹配"],"desc":"自動匹配素材顆粒"}
+{"name":"BCC+ Grain","cat":"film","tags":["grain","顆粒"],"desc":"膠片顆粒生成"}
+{"name":"BCC+ Vignette","cat":"film","tags":["vignette","暗角"],"desc":"暗角"}
+{"name":"BCC Film Style工具組","cat":"film","tags":["film","retro","膠片風格"],"desc":"膠片風格工具組","variants":{"BCC+ Atmospheric Glow":"大氣輝光","BCC+ Bleach Bypass":"漂白旁路","BCC+ Cross Processing":"交叉沖印","BCC+ Day For Night":"日拍夜","BCC+ Film Glow":"膠片柔光","BCC+ Film Grunge":"膠片做舊","BCC+ Flashing":"預閃灰化","BCC+ Light Flicker":"燈光閃爍","BCC+ Orbs":"光球鏡頭汙點","BCC+ Smoke and Fog":"煙霧","BCC+ Three Strip":"三色特藝","BCC+ Two Strip":"雙色特藝"}}
+{"name":"BCC 3 Way Color Grade","cat":"color","tags":["color wheels","grade","三路調色"],"desc":"三路色輪調色"}
+{"name":"BCC Color Match","cat":"color","tags":["color match","shot match","色彩匹配"],"desc":"兩鏡頭色彩自動匹配"}
+{"name":"BCC Videoscope","cat":"color","tags":["scopes","waveform","示波器"],"desc":"內嵌示波器/向量圖"}
+{"name":"BCC Color工具組","cat":"color","tags":["color correction","調色","校色"],"desc":"色彩調整工具組","variants":{"BCC+ Black and White":"黑白","BCC+ Color Link":"色彩連結","BCC+ DeFog":"去霧","BCC+ Develop":"顯影(RAW式調整)","BCC+ Enhancing":"增強","BCC+ F Stop":"曝光檔位","BCC+ Florescent":"螢光燈色","BCC+ Grade":"分級","BCC+ Haze":"霧霾","BCC+ High Contrast":"高對比","BCC+ Kelvin":"色溫","BCC+ Low Contrast":"低對比","BCC+ Polarizer":"偏光鏡","BCC+ Selective Saturation":"選擇性飽和","BCC+ Shadows/Highlights":"陰影高光","BCC Brightness Contrast":"亮度對比","BCC Color Balance":"色彩平衡","BCC Color Correction":"校色","BCC Colorize":"著色","BCC Correct Selected Color":"選色校正","BCC HSL":"HSL","BCC Invert Solarize":"反相曝光","BCC Levels Gamma":"色階","BCC Multitone Mix":"多色調","BCC Tritone":"三色調"}}
+{"name":"BCC Grads/Tints工具組","cat":"color","tags":["gradient","tint","filter","漸層","濾鏡"],"desc":"攝影漸層鏡/著色濾鏡組","variants":{"BCC+ Color Gradient":"色彩漸層","BCC+ Color Spot":"局部色點","BCC+ Colorize Gradient":"著色漸層","BCC+ Dual Gradient":"雙漸層","BCC+ Gels":"色片","BCC+ ND Gradient":"ND漸層鏡","BCC+ Photographic":"攝影濾鏡","BCC+ Radial Tint":"放射著色","BCC+ Sepia":"懷舊褐","BCC+ Skin Tone":"膚色","BCC+ Split Tone":"分離色調","BCC+ Sunset":"日落","BCC+ Tint":"著色"}}
+{"name":"BCC+ Camera Shake","cat":"utility","tags":["camera shake","handheld","震動","手持"],"desc":"擬真鏡頭震動"}
+{"name":"BCC+ Chromatic Aberration","cat":"distort","tags":["chromatic aberration","色差"],"desc":"鏡頭色差"}
+{"name":"BCC Lens工具組","cat":"distort","tags":["lens","distortion","鏡頭"],"desc":"鏡頭光學工具組","variants":{"BCC+ DeFringe":"去紫邊","BCC+ Lens Distortion":"鏡頭畸變","BCC+ Radial Exposure":"放射曝光","BCC+ Wide Angle Lens":"廣角"}}
+{"name":"BCC Optical Diffusion工具組","cat":"blur","tags":["diffusion","fog","soft","柔光鏡","霧"],"desc":"攝影柔光/霧化濾鏡組","variants":{"BCC+ Center Spot":"中央清晰","BCC+ Depth of Field":"景深","BCC+ Diffusion":"柔光鏡","BCC+ Double Fog":"雙重霧","BCC+ Fog":"霧","BCC+ Frost":"霜化","BCC+ Halo":"光暈","BCC+ Mist":"薄霧","BCC+ Net":"紗網","BCC+ Rack Focus":"拉焦","BCC+ Silk":"絲柔","BCC+ Split Field":"分割對焦"}}
+{"name":"BCC Blur工具組","cat":"blur","tags":["blur","lens blur","模糊"],"desc":"模糊工具組","variants":{"BCC+ Blur":"高斯","BCC+ Channel Blur":"通道","BCC+ Channel Blur YUV":"YUV通道","BCC+ Detail":"細節分離","BCC+ Directional Blur":"方向","BCC+ Lens Blur":"鏡頭散景","BCC+ Radial Blur":"放射","BCC+ Smear Blur":"塗抹","BCC Fast Lens Blur":"快速散景","BCC Lens Shape":"散景形狀","BCC Unsharp Mask":"USM銳化","BCC Z-blur":"深度模糊"}}
+{"name":"BCC Morph","cat":"warp","tags":["morph","face morph","變形過渡"],"desc":"兩畫面漸變變形(臉部morph)"}
+{"name":"BCC Video Morph","cat":"warp","tags":["morph","變形"],"desc":"視訊間變形過渡"}
+{"name":"BCC Warp工具組","cat":"warp","tags":["warp","distort","displacement","扭曲","置換"],"desc":"扭曲變形工具組","variants":{"BCC+ Polar Warp":"極座標","BCC+ ST Map":"ST貼圖置換","BCC Bulge":"凸起","BCC Curl":"捲曲","BCC Displacement Map":"置換貼圖","BCC Polar Displacement":"極座標置換","BCC Ripple":"漣漪","BCC Turbulence":"湍流","BCC Twirl":"旋轉","BCC Vector Displacement":"向量置換","BCC Warp":"網格扭曲","BCC Wave":"波浪"}}
+{"name":"BCC Perspective工具組","cat":"3d","tags":["3d","perspective","shatter","透視","破碎"],"desc":"3D透視/破碎工具組","variants":{"BCC+ Transform":"變換","BCC 3D Image Shatter":"畫面破碎","BCC 3D Extruded Image Shatter":"擠出破碎","BCC Cube":"立方體","BCC Cylinder":"圓柱","BCC Sphere":"球體","BCC Fast Flipper":"翻轉","BCC Page Turn":"捲頁","BCC Pan and Zoom":"Ken Burns推拉","BCC Sphere Transition":"球體轉場"}}
+{"name":"BCC Beat Reactor","cat":"audio","tags":["audio reactive","beat","音頻驅動","節奏"],"desc":"音頻節奏驅動任意參數"}
+{"name":"BCC+ Audio Visualizer","cat":"audio","tags":["audio visualizer","waveform","音頻可視化","波形"],"desc":"音訊波形/頻譜可視化"}
+{"name":"BCC Trails","cat":"time","tags":["trails","echo","拖尾","殘影"],"desc":"運動拖尾"}
+{"name":"BCC Time工具組","cat":"time","tags":["time","jitter","時間"],"desc":"時間處理工具組","variants":{"BCC Jitter":"幀抖動","BCC Jitter Basic":"基本抖動","BCC Looper":"循環","BCC Posterize Time":"抽幀","BCC Temporal Blur":"時間模糊","BCC Time Displacement":"時間置換","BCC Trails Basic":"基本拖尾"}}
+{"name":"BCC+ Swish Pan","cat":"transition","tags":["swish pan","whip","甩鏡轉場"],"desc":"甩鏡轉場"}
+{"name":"BCC Twister","cat":"transition","tags":["twist","旋風轉場"],"desc":"扭轉翻頁轉場"}
+{"name":"BCC Cross Melt","cat":"transition","tags":["melt","熔化轉場"],"desc":"熔化溶解轉場"}
+{"name":"BCC Burnt Film","cat":"transition","tags":["film burn","燒膠片轉場"],"desc":"膠片燒灼轉場"}
+{"name":"BCC Curl Dissolve","cat":"transition","tags":["page curl","捲頁轉場"],"desc":"捲頁溶解轉場"}
+{"name":"BCC Lens Flash","cat":"transition","tags":["flash","光閃轉場"],"desc":"鏡頭閃光轉場"}
+{"name":"BCC+ Depth Wipe ML","cat":"transition","tags":["depth","ai","深度轉場"],"desc":"ML深度圖擦除轉場(前景先走)"}
+{"name":"BCC+ Jump Cut Fixer ML","cat":"transition","tags":["jump cut","ai","跳剪修復"],"desc":"ML平滑跳剪接點(訪談剪輯)"}
+{"name":"BCC+ 轉場組(現代)","cat":"transition","tags":["dissolve","transition","轉場","溶解"],"desc":"BCC+系列風格化溶解/擦除轉場","variants":{"BCC+ Atmospheric Glow Dissolve":"大氣輝光","BCC+ Blur Dissolve":"模糊","BCC+ Camera Shake Dissolve":"震動","BCC+ Channel Blur Dissolve":"通道模糊","BCC+ Crash Zoom Dissolve":"急推急拉","BCC+ Cross Zoom Dissolve":"交叉縮放","BCC+ Directional Blur Dissolve":"方向模糊","BCC+ Dissolve":"標準","BCC+ Film Glow Dissolve":"膠片輝光","BCC+ Film Roll":"膠片滾動","BCC+ Flutter Cut":"快閃跳剪","BCC+ Light Leaks Dissolve":"漏光","BCC+ Linear Wipe":"線性擦除","BCC+ Mosaic Dissolve":"馬賽克","BCC+ Multi-Star Dissolve":"星芒","BCC+ Orbs Dissolve":"光球","BCC+ Prism Dissolve":"稜鏡","BCC+ Rack Focus Dissolve":"失焦","BCC+ Radial Wipe":"放射擦除","BCC+ Rays Dissolve":"光芒","BCC+ Rectangular Wipe":"矩形擦除","BCC+ Smoke and Fog Dissolve":"煙霧","BCC+ Smoke Wipe":"煙擦除","BCC+ Spin Blur Dissolve":"旋轉模糊","BCC+ Swish Glow":"甩鏡輝光","BCC+ Swish Prism":"甩鏡稜鏡","BCC+ Swish Warp":"甩鏡扭曲","BCC+ Texture Wipe":"紋理擦除","BCC+ Video Glitch Dissolve":"故障","BCC+ Vignette Wipe":"暗角擦除"}}
+{"name":"BCC 轉場組(經典)","cat":"transition","tags":["wipe","dissolve","轉場","擦除"],"desc":"BCC經典圖案轉場","variants":{"BCC Blobs Wipe":"斑塊","BCC Checker Wipe":"棋盤","BCC Colorize Glow Dissolve":"著色輝光","BCC Composite Dissolve":"合成","BCC Criss-Cross Wipe":"交叉","BCC Damaged TV Dissolve":"壞電視","BCC Grid Wipe":"網格","BCC Kaleida Dissolve":"萬花筒","BCC Lens Blur Dissolve":"散景","BCC Lens Distortion Wipe":"畸變","BCC Lens Flare Dissolve":"光暈","BCC Lens Flare Round":"圓光暈","BCC Lens Flare Spiked":"星芒光暈","BCC Light Wipe":"光擦除","BCC Multi-Stretch Wipe":"多重拉伸","BCC Multi-Stripe Wipe":"多條紋","BCC Particle Illusion Dissolve":"粒子","BCC RGB Blur Dissolve":"RGB模糊","BCC RGB Displacement Dissolve":"RGB置換","BCC Ribbon Wipe":"絲帶","BCC Rings Wipe":"圓環","BCC Ripple Dissolve":"漣漪","BCC Tile Wipe":"磚塊","BCC Tritone Dissolve":"三色調","BCC Vector Blur Dissolve":"向量模糊","BCC Water Waves Dissolve":"水波"}}
+{"name":"BCC Textures工具組","cat":"texture","tags":["texture","procedural","紋理","背景"],"desc":"紋理生成組","variants":{"BCC+ Textures":"材質庫(石/布/金屬等)","BCC Caustics":"水底焦散","BCC Mixed Colors":"混色流體","BCC Noise Map 2":"分形噪波"}}
+{"name":"BCC VR工具組","cat":"vr","tags":["vr","360","全景"],"desc":"360/VR影片工具組","variants":{"BCC VR Blur":"VR模糊","BCC VR Flicker Fixer":"VR去閃","BCC VR Insert":"VR貼入","BCC VR Reorient":"VR重定向","BCC VR Sharpen":"VR銳化"}}

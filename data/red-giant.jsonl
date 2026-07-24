@@ -1,0 +1,29 @@
+{"name":"Particular","suite":"Trapcode Suite","cat":"particles","tags":["particles","smoke","fire","sparks","dust","explosion","magic","trails","fluid","3d","粒子","煙霧","火","爆炸","星塵","拖尾"],"desc":"業界標準3D粒子系統：煙、火、爆炸、魔法星塵、粒子流體、Logo聚散、雨雪","look":"大量細小發光點或煙霧狀連續體，具景深與運動模糊"}
+{"name":"Form","suite":"Trapcode Suite","cat":"particles","tags":["particle grid","organic","audio reactive","hologram","terrain","粒子網格","全息","音頻"],"desc":"不衰減的3D粒子網格/有機形態：全息人像、音頻驅動波形、粒子地形、抽象生物體","look":"由粒子構成的網格面或立體形狀，常見科幻全息感"}
+{"name":"Mir","suite":"Trapcode Suite","cat":"3d","tags":["wireframe","landscape","terrain","waves","tunnel","網格","地形","波浪","隧道"],"desc":"快速3D多邊形網格：起伏地形、波浪面、隧道、低多邊形山脈、復古線框","look":"綿延起伏的3D網格面或線框，常帶漸層色與霧"}
+{"name":"Tao","suite":"Trapcode Suite","cat":"3d","tags":["geometry","path","ribbon","tunnel","路徑","絲帶","幾何"],"desc":"沿路徑生成3D幾何體：飄動絲帶、隧道、抽象雕塑、燈光軌跡","look":"沿曲線延伸的連續3D絲帶或重複幾何"}
+{"name":"Shine","suite":"Trapcode Suite","cat":"light","tags":["light rays","god rays","volumetric","體積光","光芒","放射光"],"desc":"2D快速體積光/放射光芒，文字Logo掃光、雲隙光","look":"從亮部中心放射的長光芒"}
+{"name":"Starglow","suite":"Trapcode Suite","cat":"light","tags":["star glow","glint","星芒","閃耀"],"desc":"多方向星形光芒，亮點產生十字/星狀閃耀","look":"高光處的多角星芒"}
+{"name":"3D Stroke","suite":"Trapcode Suite","cat":"draw","tags":["stroke","line","path","outline","描邊","線條","路徑動畫"],"desc":"沿遮罩路徑的3D描邊線條動畫，Logo勾線、飛舞線條","look":"空間中扭轉飛舞的發光線條"}
+{"name":"Sound Keys","suite":"Trapcode Suite","cat":"utility","tags":["audio","keyframe","music","音頻","關鍵幀","音樂驅動"],"desc":"把音頻頻段轉成關鍵幀數據，驅動任何屬性做音樂可視化"}
+{"name":"Horizon","suite":"Trapcode Suite","cat":"3d","tags":["sky","background","360","天空","背景"],"desc":"跟隨AE 3D攝影機的無限天空/漸層背景球"}
+{"name":"Lux","suite":"Trapcode Suite","cat":"light","tags":["volumetric light","visible light","體積光","可見光源"],"desc":"讓AE燈光可見：點光源光暈、聚光燈光錐","look":"黑暗中可見的光錐與光暈"}
+{"name":"Echospace","suite":"Trapcode Suite","cat":"utility","tags":["echo","clone","delay","複製","延遲","殘影"],"desc":"圖層3D複製與延遲跟隨，卡片陣列、隊形動畫"}
+{"name":"Looks","suite":"Magic Bullet Suite","cat":"color","tags":["color grading","cinematic","lut","preset","調色","電影感","濾鏡"],"desc":"電影級調色套件，數百種Look預設+工具鏈(光暈/鏡頭/膠片)","look":"整體色調氛圍改變：青橙、復古、日系等"}
+{"name":"Colorista","suite":"Magic Bullet Suite","cat":"color","tags":["color wheels","hsl","grade","三路調色","校色"],"desc":"專業三路色輪調色、HSL鍵控局部調色"}
+{"name":"Denoiser","suite":"Magic Bullet Suite","cat":"restore","tags":["denoise","noise reduction","降噪","去噪"],"desc":"視訊降噪，保留細節"}
+{"name":"Mojo","suite":"Magic Bullet Suite","cat":"color","tags":["orange teal","blockbuster","青橙","大片感"],"desc":"一鍵好萊塢青橙大片色調"}
+{"name":"Cosmo","suite":"Magic Bullet Suite","cat":"beauty","tags":["skin","beauty","cosmetic","美膚","磨皮","美顏"],"desc":"美膚磨皮：勻膚色、柔化瑕疵"}
+{"name":"Film","suite":"Magic Bullet Suite","cat":"film","tags":["film emulation","negative","print","膠片模擬"],"desc":"底片負片+印片流程模擬，經典膠片色"}
+{"name":"Renoiser","suite":"Magic Bullet Suite","cat":"film","tags":["grain","texture","顆粒","質感"],"desc":"為畫面加膠片顆粒與質感"}
+{"name":"Supercomp","suite":"VFX Suite","cat":"composite","tags":["composite","light wrap","atmosphere","合成","光包裹"],"desc":"合成環境：光包裹、大氣霧、光學交互，讓合成元素融入背景"}
+{"name":"Primatte Keyer","suite":"VFX Suite","cat":"keying","tags":["chroma key","green screen","keyer","摳像","去背","綠幕"],"desc":"頂級綠幕摳像，自動採樣+精細邊緣"}
+{"name":"King Pin Tracker","suite":"VFX Suite","cat":"tracking","tags":["planar tracking","corner pin","screen replace","平面追蹤","螢幕替換"],"desc":"平面追蹤+四角釘固定，螢幕替換、貼海報"}
+{"name":"Spot Clone Tracker","suite":"VFX Suite","cat":"restore","tags":["clone","remove","object removal","移除","修補","克隆"],"desc":"帶追蹤的克隆修補，移除污點/穿幫物件"}
+{"name":"Optical Glow","suite":"VFX Suite","cat":"glow","tags":["glow","bloom","physical","發光","輝光"],"desc":"物理精確的高品質輝光，比AE內建Glow自然許多","look":"亮部自然溢光，衰減真實"}
+{"name":"Chromatic Displacement","suite":"VFX Suite","cat":"distort","tags":["displacement","heat haze","cloak","refraction","色差置換","熱浪","隱形"],"desc":"以圖層做色差置換：熱浪、衝擊波、隱形斗篷、水折射","look":"透明扭曲帶彩色邊緣"}
+{"name":"Knoll Light Factory","suite":"VFX Suite","cat":"flare","tags":["lens flare","鏡頭光暈","光斑"],"desc":"經典鏡頭光暈(星戰御用)，大量預設可自訂"}
+{"name":"Shadow","suite":"VFX Suite","cat":"composite","tags":["shadow","cast shadow","陰影","投影"],"desc":"為圖層自動生成可透視的投射陰影"}
+{"name":"Reflection","suite":"VFX Suite","cat":"composite","tags":["reflection","倒影","反射"],"desc":"為圖層自動生成地面倒影"}
+{"name":"VFX Bang","suite":"VFX Suite","cat":"generate","tags":["muzzle flash","gun","槍口火光","槍火"],"desc":"槍口火光生成，多種武器預設"}
+{"name":"Lens Distortion","suite":"VFX Suite","cat":"distort","tags":["lens distortion","undistort","鏡頭畸變"],"desc":"鏡頭畸變的添加與去除，合成前後匹配鏡頭"}

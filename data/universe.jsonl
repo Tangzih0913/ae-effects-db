@@ -1,0 +1,99 @@
+{"name":"Bokeh","cat":"blur-glow","tags":["bokeh","defocus","lens blur","散景","失焦"],"desc":"真實鏡頭散景失焦效果"}
+{"name":"Glow","cat":"blur-glow","tags":["glow","selective color","發光","輝光"],"desc":"柔和輝光，可只對指定顏色發光"}
+{"name":"Quantum","cat":"blur-glow","tags":["light trail","motion trail","光軌","拖尾"],"desc":"物體前後的動態光軌跡，適合文字與圖形"}
+{"name":"Glimmer","cat":"blur-glow","tags":["glint","twinkle","sparkle","閃耀","星光"],"desc":"亮部彩色閃爍星光，美妝/標題/MV"}
+{"name":"Ecto","cat":"blur-glow","tags":["ghost","ethereal","smear","幽靈","鬼影"],"desc":"幽靈狀流動拖影輝光，超自然氛圍"}
+{"name":"Glo Fi II","cat":"blur-glow","tags":["dreamy glow","soft","夢幻","柔光"],"desc":"夢幻柔光暈染"}
+{"name":"Luster","cat":"blur-glow","tags":["sheen","metallic","光澤"],"desc":"為亮部添加光澤感"}
+{"name":"OverLight","cat":"blur-glow","tags":["light overlay","bokeh overlay","光斑疊加"],"desc":"光斑/光效疊加層"}
+{"name":"Chromatic Glow","cat":"blur-glow","tags":["chromatic","spectrum glow","彩色輝光","色散"],"desc":"帶光譜色散的輝光"}
+{"name":"HalfLight","cat":"blur-glow","tags":["halation","dreamy","朦朧","光暈"],"desc":"朦朧halation光暈氛圍"}
+{"name":"Edge Glow","cat":"blur-glow","tags":["edge glow","neon outline","tron","邊緣發光","霓虹"],"desc":"邊緣輪廓發光，Tron霓虹感"}
+{"name":"Spectralicious","cat":"blur-glow","tags":["spectrum","color cycle","光譜","迷幻"],"desc":"光譜色彩循環輝光"}
+{"name":"Blur","cat":"blur-glow","tags":["blur","模糊"],"desc":"高品質模糊"}
+{"name":"Compound Blur","cat":"blur-glow","tags":["compound blur","map blur","複合模糊"],"desc":"以灰度圖驅動的區域模糊"}
+{"name":"Spot Blur","cat":"blur-glow","tags":["spot blur","局部模糊","打碼"],"desc":"局部區域模糊(遮臉/隱私)"}
+{"name":"Knoll Light Factory EZ","cat":"blur-glow","tags":["lens flare","鏡頭光暈"],"desc":"簡化版Knoll鏡頭光暈"}
+{"name":"Finisher","cat":"color","tags":["color grade","one click","成片調色"],"desc":"一鍵提升畫面質感的調色工具"}
+{"name":"Multitone","cat":"color","tags":["duotone","tritone","雙色調"],"desc":"多色調映射(duotone海報感)"}
+{"name":"Noir","cat":"color","tags":["black and white","film noir","黑白","黑色電影"],"desc":"高對比黑色電影黑白"}
+{"name":"Grain16","cat":"color","tags":["film grain","16mm","顆粒"],"desc":"16mm膠片顆粒"}
+{"name":"Misfire","cat":"stylize","tags":["film damage","dirt","frame skip","老膠片","損壞"],"desc":"膠片放映故障：髒點、跳格、褪色"}
+{"name":"Pixel Dither","cat":"stylize","tags":["pixel art","8-bit","16-bit","dither","像素畫","復古遊戲"],"desc":"8/16-bit像素畫抖動風格(6個外掛組)"}
+{"name":"Sketchify","cat":"stylize","tags":["sketch","toon","素描","手繪"],"desc":"素描卡通化"}
+{"name":"ChromaTown","cat":"stylize","tags":["chromatic streak","warp","色彩拉絲"],"desc":"色彩拉絲扭曲，warpy視覺"}
+{"name":"VHS","cat":"stylize","tags":["vhs","tape","tracking","retro","錄影帶","復古"],"desc":"老錄影帶：色偏、噪訊、追蹤失真、時間碼"}
+{"name":"Glitch","cat":"stylize","tags":["glitch","compression","datamosh","故障","毛刺"],"desc":"壓縮故障glitch效果"}
+{"name":"Holomatrix II","cat":"stylize","tags":["hologram","sci-fi","digital display","全息","科幻"],"desc":"科幻全息投影/數位顯示故障"}
+{"name":"Electrify","cat":"stylize","tags":["electric","lightning","電流","閃電"],"desc":"物體邊緣環繞電流"}
+{"name":"Analog","cat":"stylize","tags":["analog video","crt","類比","老電視"],"desc":"類比視訊訊號失真"}
+{"name":"Retrograde","cat":"stylize","tags":["16mm","8mm","film","vintage","老膠片","復古底片"],"desc":"真實8/16mm老膠片外觀與損壞"}
+{"name":"Carousel","cat":"stylize","tags":["slide projector","幻燈片"],"desc":"老式幻燈片放映機質感"}
+{"name":"AV Club","cat":"stylize","tags":["lo-fi","noisy text","mv","低保真"],"desc":"低保真噪點文字/元素(MV字卡風)"}
+{"name":"Texturize","cat":"stylize","tags":["texture overlay","paper","紙紋","質感疊加"],"desc":"靜態紋理疊加(紙張/布紋)"}
+{"name":"Heatwave","cat":"distort","tags":["heat haze","mirage","熱浪","扭曲"],"desc":"熱浪空氣扭曲"}
+{"name":"Chromatic Aberration","cat":"distort","tags":["chromatic aberration","lens","色差","色散"],"desc":"真實鏡頭色差色散"}
+{"name":"Prism Displacement","cat":"distort","tags":["prism","displacement","dispersion","稜鏡","置換"],"desc":"稜鏡置換色散扭曲"}
+{"name":"RGB Separation","cat":"distort","tags":["rgb split","channel shift","RGB分離","錯位"],"desc":"RGB三色通道分離錯位"}
+{"name":"ShrinkRay","cat":"distort","tags":["tilt shift","miniature","移軸","微縮"],"desc":"移軸微縮模型效果"}
+{"name":"Fisheye Fixer","cat":"utility","tags":["fisheye","gopro","lens correction","魚眼校正"],"desc":"GoPro等魚眼鏡頭畸變校正"}
+{"name":"Texturize Motion","cat":"generate","tags":["animated texture","stop motion","動態紋理","定格"],"desc":"動態紋理疊加，手繪定格感"}
+{"name":"Fractal Background","cat":"generate","tags":["fractal","background","分形","背景"],"desc":"分形圖案動態背景"}
+{"name":"Soft Gradient Background","cat":"generate","tags":["gradient","background","漸層背景"],"desc":"柔和漸層動態背景"}
+{"name":"Gradient Ramp","cat":"generate","tags":["gradient","漸層"],"desc":"漸層生成"}
+{"name":"Turbulence Noise","cat":"generate","tags":["noise","fractal noise","噪波"],"desc":"湍流噪波紋理"}
+{"name":"HUD Components","cat":"generate","tags":["hud","sci-fi ui","fui","科幻介面"],"desc":"科幻HUD介面元件生成"}
+{"name":"Line","cat":"generate","tags":["line","connect","線條","連線"],"desc":"兩點間動態線條(地圖連線/科技感)"}
+{"name":"Array Gun","cat":"generate","tags":["array","pattern","shapes","陣列","圖形"],"desc":"圖形陣列發射生成器"}
+{"name":"Progresso","cat":"generate","tags":["progress bar","loading","進度條"],"desc":"進度條/載入動畫生成"}
+{"name":"Color Stripe","cat":"generate","tags":["stripes","彩條"],"desc":"彩色條紋圖案"}
+{"name":"Diamond Wave","cat":"generate","tags":["pattern","wave","菱形","圖案"],"desc":"菱形波紋圖案"}
+{"name":"Triangle Wave","cat":"generate","tags":["pattern","triangle","三角","圖案"],"desc":"三角波紋圖案"}
+{"name":"Symbol Mapper","cat":"mograph","tags":["ascii","symbols","matrix","字元畫"],"desc":"用字母數字符號重建畫面(ASCII art/駭客任務)"}
+{"name":"Reframe","cat":"mograph","tags":["picture in picture","layout","畫中畫","構圖"],"desc":"畫中畫構圖，含邊框與動畫"}
+{"name":"Logo Motion","cat":"mograph","tags":["logo animation","intro","Logo動畫","進出場"],"desc":"Logo/文字一鍵進出場動畫"}
+{"name":"Title Motion","cat":"mograph","tags":["title","lower third","標題動畫"],"desc":"標題與字卡動畫"}
+{"name":"Long Shadow","cat":"mograph","tags":["long shadow","flat design","長陰影"],"desc":"扁平設計長陰影"}
+{"name":"Picture in Picture","cat":"utility","tags":["pip","畫中畫"],"desc":"快速畫中畫排版"}
+{"name":"Hacker Text","cat":"text","tags":["hacker","scramble","code","駭客","亂碼文字"],"desc":"駭客風亂碼滾動文字"}
+{"name":"Typographic","cat":"text","tags":["kinetic type","shapes","文字動畫"],"desc":"文字+形狀的動態排版動畫"}
+{"name":"Numbers","cat":"text","tags":["counter","numbers","數字滾動","計數器"],"desc":"數字滾動/計數器生成"}
+{"name":"Screen Text","cat":"text","tags":["terminal","code","螢幕文字","終端機"],"desc":"電腦終端/程式碼滾動文字"}
+{"name":"Text Tile","cat":"text","tags":["text wall","tile","文字牆"],"desc":"文字磚牆排版"}
+{"name":"Type Cast","cat":"text","tags":["character cycle","文字循環"],"desc":"字元循環切換動畫"}
+{"name":"Type On","cat":"text","tags":["typewriter","type on","打字機"],"desc":"打字機逐字出現"}
+{"name":"Modes","cat":"utility","tags":["blend modes","混合模式"],"desc":"超越內建的進階圖層混合模式"}
+{"name":"Camera Shake","cat":"utility","tags":["camera shake","handheld","震動","手持"],"desc":"擬真鏡頭震動/手持晃動"}
+{"name":"Socialize","cat":"utility","tags":["social media","subscribe","社群","訂閱"],"desc":"社群媒體元素(按讚/訂閱/計數)"}
+{"name":"Unmult","cat":"utility","tags":["unmult","remove black","去黑底"],"desc":"去黑底轉Alpha透明"}
+{"name":"Bokeh Transition","cat":"transition","tags":["bokeh","defocus","transition","散景轉場"],"desc":"散景失焦轉場"}
+{"name":"Stretch Transition","cat":"transition","tags":["stretch","warp","拉伸轉場"],"desc":"拉伸扭曲交叉轉場"}
+{"name":"Warp","cat":"transition","tags":["warp","distortion","aberration","扭曲轉場"],"desc":"扭曲+色差流暢轉場"}
+{"name":"Glitch Transition","cat":"transition","tags":["glitch","故障轉場"],"desc":"故障毛刺轉場"}
+{"name":"Retrograde Transition","cat":"transition","tags":["film","老膠片轉場"],"desc":"老膠片跳格轉場"}
+{"name":"VHS Transition","cat":"transition","tags":["vhs","錄影帶轉場"],"desc":"錄影帶快轉/暫停失真轉場"}
+{"name":"Carousel Transition","cat":"transition","tags":["slide projector","幻燈片轉場"],"desc":"幻燈片放映機切換轉場"}
+{"name":"Channel Surf","cat":"transition","tags":["tv channel","轉台"],"desc":"老電視轉台轉場"}
+{"name":"Flicker Cut","cat":"transition","tags":["flicker","strobe","快閃"],"desc":"快閃跳剪(黑白幀穿插)"}
+{"name":"Color Mosaic","cat":"transition","tags":["mosaic","色塊轉場"],"desc":"色塊馬賽克轉場"}
+{"name":"Shape Wipe","cat":"transition","tags":["shape wipe","形狀擦除"],"desc":"形狀圖案擦除轉場"}
+{"name":"Linear Wipe","cat":"transition","tags":["linear wipe","線性擦除"],"desc":"線性擦除轉場"}
+{"name":"Clock Wipe","cat":"transition","tags":["clock wipe","時鐘擦除"],"desc":"時鐘旋轉擦除轉場"}
+{"name":"Soft Edge Wipe","cat":"transition","tags":["soft wipe","柔邊擦除"],"desc":"柔邊擦除轉場"}
+{"name":"Channel Blur","cat":"transition","tags":["channel blur","通道模糊轉場"],"desc":"RGB通道分離模糊轉場"}
+{"name":"Camera Shake Transition","cat":"transition","tags":["shake","震動轉場"],"desc":"鏡頭震動衝擊轉場"}
+{"name":"Exposure Blur Transition","cat":"transition","tags":["exposure","flash","曝光轉場"],"desc":"曝光過亮+模糊轉場"}
+{"name":"Knoll Light Transition","cat":"transition","tags":["lens flare","光暈轉場"],"desc":"鏡頭光暈閃光轉場"}
+{"name":"Film Transition","cat":"transition","tags":["film burn","膠片轉場"],"desc":"膠片燒灼漏光轉場"}
+{"name":"Spectralicious Transition","cat":"transition","tags":["spectrum","光譜轉場"],"desc":"光譜色彩輝光轉場"}
+{"name":"Turbulence Transition","cat":"transition","tags":["turbulence","noise","湍流轉場"],"desc":"湍流噪波溶解轉場"}
+{"name":"Swish Pan","cat":"transition","tags":["swish pan","whip","甩鏡"],"desc":"甩鏡模糊轉場"}
+{"name":"Point Zoom","cat":"transition","tags":["zoom","punch in","推拉轉場"],"desc":"定點快速推拉縮放轉場"}
+{"name":"Dolly Fade","cat":"transition","tags":["dolly","fade","推軌淡化"],"desc":"推軌+淡化轉場"}
+{"name":"Blinds","cat":"transition","tags":["blinds","百葉窗"],"desc":"百葉窗轉場"}
+{"name":"Cube","cat":"transition","tags":["cube","3d","立方體轉場"],"desc":"立方體旋轉轉場"}
+{"name":"Inside Cube","cat":"transition","tags":["cube","立方體內部"],"desc":"立方體內部旋轉轉場"}
+{"name":"Rubix Cube","cat":"transition","tags":["rubik","魔方轉場"],"desc":"魔術方塊翻轉轉場"}
+{"name":"Unfold","cat":"transition","tags":["unfold","origami","展開轉場"],"desc":"摺紙展開轉場"}
+{"name":"Fold","cat":"transition","tags":["fold","摺疊轉場"],"desc":"摺疊收合轉場"}
+{"name":"Slide","cat":"transition","tags":["slide","push","滑動轉場"],"desc":"滑動推移轉場"}

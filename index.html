@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AE 特效資料庫 · 搜尋</title>
+<style>
+  :root{
+    --bg:#0e0f13; --panel:#171922; --panel2:#1e2130; --text:#e8eaf0; --muted:#9aa0b4;
+    --accent:#6ea8fe; --accent2:#f0a; --border:#2a2e3f; --chip:#232735;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7fb; --panel:#fff; --panel2:#f0f2f8; --text:#1a1d29; --muted:#666e85;
+           --accent:#2563eb; --accent2:#c026a8; --border:#e2e5ee; --chip:#eef1f8;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 -apple-system,"Segoe UI",Roboto,"Noto Sans TC",sans-serif}
+  header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--border);padding:14px 18px}
+  h1{margin:0 0 2px;font-size:18px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:12.5px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 18px}
+  #q{width:100%;margin-top:12px;padding:13px 15px;font-size:16px;border-radius:12px;border:1px solid var(--border);
+     background:var(--panel);color:var(--text);outline:none}
+  #q:focus{border-color:var(--accent)}
+  .filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .filters select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:9px;padding:7px 9px;font-size:13px}
+  .hint{color:var(--muted);font-size:12px;margin-top:8px}
+  .hint b{color:var(--accent);cursor:pointer;font-weight:600}
+  #count{color:var(--muted);font-size:12.5px;margin:14px 0 4px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:13px 15px;margin:9px 0}
+  .card .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+  .name{font-size:16px;font-weight:650}
+  .cat{font-size:11px;color:var(--accent);background:var(--chip);padding:2px 8px;border-radius:20px}
+  .src{font-size:11px;color:var(--muted);margin-left:auto}
+  .desc{color:var(--text);margin-top:6px;font-size:14px}
+  .stack{margin-top:8px;padding-left:2px}
+  .stack li{font-size:13px;color:var(--muted);margin:2px 0}
+  .variants{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+  .variants span{font-size:11.5px;background:var(--panel2);border:1px solid var(--border);border-radius:7px;padding:2px 7px;color:var(--muted)}
+  .tags{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+  .tags span{font-size:11px;color:var(--muted);background:var(--chip);border-radius:6px;padding:1px 7px;cursor:pointer}
+  .tags span:hover{color:var(--accent)}
+  mark{background:transparent;color:var(--accent2);font-weight:700}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:26px 0 40px}
+  footer a{color:var(--accent)}
+  .empty{color:var(--muted);text-align:center;padding:40px 0}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>🎬 AE 特效資料庫</h1>
+    <div class="sub">描述你想要的畫面，找對應的 After Effects 特效 · Red Giant / Universe / Sapphire / Continuum / 內建 / 第三方</div>
+    <input id="q" placeholder="輸入描述… 例：發光、故障、老電影、甩鏡轉場、粒子、去背、慢動作" autofocus autocomplete="off">
+    <div class="filters">
+      <select id="fcat"><option value="">全部分類</option></select>
+      <select id="fsrc"><option value="">全部來源</option></select>
+    </div>
+    <div class="hint">試試：
+      <b data-q="霓虹">霓虹</b> ·
+      <b data-q="老電影">老電影</b> ·
+      <b data-q="故障">故障</b> ·
+      <b data-q="甩鏡">甩鏡</b> ·
+      <b data-q="去背">去背</b> ·
+      <b data-q="慢動作">慢動作</b> ·
+      <b data-q="魔法">魔法</b> ·
+      <b data-q="調色">調色</b>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  <div id="count"></div>
+  <div id="results"></div>
+</div>
+<footer>
+  本地資料庫，共 <span id="total">…</span> 筆 · 資料於 2026-07 整理自各廠商官方清單 ·
+  搭配 Claude Code <code>/find-effect</code> 可用「貼圖」搜尋
+</footer>
+
+<script>
+const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","third-party","recipes"];
+const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sapphire",
+  "continuum":"Continuum","builtin-ae":"AE 內建","third-party":"第三方","recipes":"配方"};
+let DATA = [];
+
+function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+
+async function boot(){
+  const all = await Promise.all(FILES.map(async f=>{
+    try{
+      const t = await (await fetch("data/"+f+".jsonl")).text();
+      return t.split("\n").filter(l=>l.trim()).map(l=>{
+        try{const o=JSON.parse(l);o._src=f;return o;}catch(e){return null;}
+      }).filter(Boolean);
+    }catch(e){return [];}
+  }));
+  DATA = all.flat();
+  document.getElementById("total").textContent = DATA.length;
+  // build filters
+  const cats=[...new Set(DATA.map(d=>d.cat).filter(Boolean))].sort();
+  const fc=document.getElementById("fcat");
+  cats.forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;fc.appendChild(o);});
+  const fs=document.getElementById("fsrc");
+  FILES.forEach(f=>{const o=document.createElement("option");o.value=f;o.textContent=SRC_LABEL[f]||f;fs.appendChild(o);});
+  render();
+}
+
+function hay(d){
+  let s=[d.name,d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
+  if(d.variants){s.push(Object.keys(d.variants).join(" "));s.push(Object.values(d.variants).join(" "));}
+  return s.join(" ").toLowerCase();
+}
+function score(d,terms){
+  const name=(d.name||"").toLowerCase(), tags=(d.tags||[]).join(" ").toLowerCase(), text=hay(d);
+  let sc=0;
+  for(const t of terms){if(!t)continue;
+    if(name.includes(t))sc+=5; if(tags.includes(t))sc+=3; if(text.includes(t))sc+=1;}
+  return sc;
+}
+function hl(txt,terms){
+  let s=esc(txt);
+  for(const t of terms){if(t.length<1)continue;
+    try{s=s.replace(new RegExp("("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi"),"<mark>$1</mark>");}catch(e){}}
+  return s;
+}
+
+function render(){
+  const raw=document.getElementById("q").value.trim().toLowerCase();
+  const terms=raw.split(/\s+/).filter(Boolean);
+  const fcat=document.getElementById("fcat").value;
+  const fsrc=document.getElementById("fsrc").value;
+  let pool=DATA;
+  if(fcat)pool=pool.filter(d=>d.cat===fcat);
+  if(fsrc)pool=pool.filter(d=>d._src===fsrc);
+  let list;
+  if(terms.length){
+    list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+  }else{
+    list=pool.slice().sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+  }
+  document.getElementById("count").textContent =
+    (raw||fcat||fsrc)? `${list.length} 筆結果` : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
+  const box=document.getElementById("results");
+  if(!list.length){box.innerHTML='<div class="empty">找不到，換個說法試試（例：發光 / glow / 光暈 / 輝光）</div>';return;}
+  box.innerHTML=list.slice(0,200).map(d=>{
+    const origin=d.suite||d.vendor||SRC_LABEL[d._src]||d._src;
+    let stack="";
+    if(d.stack) stack='<ul class="stack">'+d.stack.map(s=>"<li>▸ "+hl(s,terms)+"</li>").join("")+
+      (d.builtin?'<li style="color:var(--accent)">內建替代：'+hl(d.builtin,terms)+'</li>':"")+"</ul>";
+    let vars="";
+    if(d.variants) vars='<div class="variants">'+Object.entries(d.variants).map(([k,v])=>
+      "<span>"+esc(k)+" · "+esc(v)+"</span>").join("")+"</div>";
+    let tags=(d.tags||[]).slice(0,12).map(t=>`<span data-q="${esc(t)}">${esc(t)}</span>`).join("");
+    return `<div class="card"><div class="top">
+        <span class="name">${hl(d.name,terms)}</span>
+        <span class="cat">${esc(d.cat||"")}</span>
+        <span class="src">${esc(origin)}</span></div>
+      <div class="desc">${hl(d.desc||"",terms)}</div>
+      ${stack}${vars}<div class="tags">${tags}</div></div>`;
+  }).join("") + (list.length>200?'<div class="empty">… 前 200 筆，縮小關鍵字看更精準結果</div>':"");
+}
+
+document.getElementById("q").addEventListener("input",render);
+document.getElementById("fcat").addEventListener("change",render);
+document.getElementById("fsrc").addEventListener("change",render);
+document.addEventListener("click",e=>{
+  const q=e.target.getAttribute&&e.target.getAttribute("data-q");
+  if(q){document.getElementById("q").value=q;render();window.scrollTo({top:0,behavior:"smooth"});}
+});
+boot();
+</script>
+</body>
+</html>
