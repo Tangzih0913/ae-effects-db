@@ -3,7 +3,7 @@
 用「文字描述」或「參考圖」找 After Effects 特效的本地知識庫。
 三種用法：**網頁搜尋**（手機/瀏覽器）、**命令列**（終端機/腳本）、**Claude Code `/find-effect` skill**（可貼圖搜尋）。
 
-> 578 筆條目，涵蓋約 970+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單。
+> 609 筆條目，涵蓋約 1000+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單，並比對本機 AE 2026 實裝外掛補齊。
 
 ## 三種搜尋方式
 
@@ -39,6 +39,7 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 | `data/builtin-ae.jsonl` | **AE 內建效果**（沒買外掛也搜得到） | Adobe |
 | `data/aescripts.jsonl` | **aescripts.com 熱門工具**（Deep Glow / Overlord / RubberHose / Motion / Plexus / Stardust / Beauty Box…） | aescripts+aeplugins 各作者 |
 | `data/third-party.jsonl` | 其他第三方（Video Copilot / RE:Vision / Neat Video / Mocha…） | 各家 |
+| `data/installed-extras.jsonl` | **掃描本機 AE 實裝、上面沒收錄的**（Topaz / VC Orb / Gaussian Splatting / Physarum / Soft Body / VR 沉浸式…） | 各家 |
 | `data/recipes.jsonl` | **配方庫**：一個「畫面感」對應要疊哪些效果 | 整理 |
 
 ## 資料格式（JSONL，一行一筆）
