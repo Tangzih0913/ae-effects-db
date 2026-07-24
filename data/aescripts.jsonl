@@ -11,6 +11,8 @@
 {"name":"Displacer Pro","vendor":"aescripts","cat":"warp","tags":["displacement","distort","置換","扭曲","aescripts"],"desc":"進階置換扭曲，多圖層/多模式驅動變形"}
 {"name":"Pastiche","vendor":"aescripts","cat":"stylize","tags":["mosaic","collage","photo mosaic","拼貼","相片馬賽克","aescripts"],"desc":"用大量小圖拼貼重建畫面（相片馬賽克/拼貼牆）"}
 {"name":"VoluMax","vendor":"aescripts","cat":"3d","tags":["3d photo","parallax","camera projection","2.5d","照片轉3D","景深視差","aescripts"],"desc":"把單張照片做成3D攝影機推移視差（2.5D立體照片）"}
+{"name":"Mettle FreeForm Pro","vendor":"Mettle","cat":"warp","tags":["mesh warp","displacement","3d","網格變形","置換","aescripts"],"desc":"3D網格變形與置換，做飄動旗幟/布料/地形隆起"}
+{"name":"Mettle ShapeShifter AE","vendor":"Mettle","cat":"3d","tags":["3d extrude","mask to 3d","擠出","遮罩轉3D","aescripts"],"desc":"把遮罩/文字擠成3D並材質燈光，做立體標題與物件"}
 {"name":"Plexus","vendor":"Rowbyte","cat":"particles","tags":["plexus","points lines","network","tech","點線面","科技感","粒子網絡","aescripts"],"desc":"點線面粒子網絡，科技發布會背景、資料視覺化連線圖形"}
 {"name":"Stardust","vendor":"Superluminal","cat":"particles","tags":["particles","node based","3d","模組化","節點","粒子","aescripts"],"desc":"節點式模組化3D粒子/複製體系統，可發射模型與拖尾"}
 {"name":"Beauty Box","vendor":"Digital Anarchy","cat":"beauty","tags":["beauty","skin retouch","smooth","磨皮","美膚","去瑕疵","aescripts"],"desc":"業界最常用的自動磨皮美膚，保留皮膚紋理"}
@@ -24,6 +26,7 @@
 {"name":"Motion","vendor":"Mt. Mograph","cat":"workflow","tags":["motion 4","toolkit","anchor","dynamics","workflow","動畫工具箱","aescripts"],"desc":"知名一體式動畫工具箱：錨點、緩動、動態彈跳、對齊、excite隨機"}
 {"name":"Motion Tools Pro","vendor":"Mister Horse","cat":"workflow","tags":["workflow","toolbar","panel","效率工具","工具列","aescripts"],"desc":"可自訂效率工具列，集合常用一鍵動作加速工作流"}
 {"name":"Animation Composer 3","vendor":"Mister Horse","cat":"preset","tags":["preset","text animation","transitions","sound fx","預設庫","文字動畫","aescripts"],"desc":"免費預設管理器+大量文字動畫/轉場/音效預設"}
+{"name":"Beat Edit","vendor":"Mister Horse","cat":"workflow","tags":["music","beat","markers","auto edit","音樂","節拍","踩點","aescripts"],"desc":"自動偵測音樂節拍生成標記，快速踩點剪輯/動畫"}
 {"name":"Ease and Wizz","vendor":"aescripts","cat":"workflow","tags":["easing","keyframe","interpolation","緩動","關鍵幀","aescripts"],"desc":"經典緩動外掛，多種內插曲線一鍵套用到關鍵幀"}
 {"name":"Flow","vendor":"aescripts","cat":"workflow","tags":["easing","graph","curve","preset","緩動","曲線","aescripts"],"desc":"視覺化緩動曲線編輯，可存/分享曲線預設"}
 {"name":"Motion Bro","vendor":"aescripts","cat":"preset","tags":["preset browser","drag drop","transitions","預設瀏覽器","轉場包","aescripts"],"desc":"拖放式預設瀏覽器，管理與套用大型轉場/特效預設包"}
@@ -32,18 +35,34 @@
 {"name":"Squash & Stretch Pro","vendor":"Battle Axe","cat":"animation","tags":["squash stretch","bounce","overshoot","擠壓拉伸","彈跳","aescripts"],"desc":"一鍵擠壓拉伸/彈跳/overshoot動態，MG動畫加彈性"}
 {"name":"Explode Shape Layers","vendor":"Battle Axe","cat":"workflow","tags":["shape layers","split","separate","形狀拆分","aescripts"],"desc":"把一個形狀圖層的多路徑拆成獨立圖層，分別動畫"}
 {"name":"Limber","vendor":"Battle Axe","cat":"rigging","tags":["ik","limbs","character","四肢","反向動力學","角色","aescripts"],"desc":"以形狀為基礎的IK四肢綁定，可變粗細與描邊"}
+{"name":"Buttcapper","vendor":"Battle Axe","cat":"draw","tags":["stroke","round cap","描邊","圓角端點","aescripts"],"desc":"免費：讓形狀描邊的端點變圓/膠囊狀"}
+{"name":"Media Replicator","vendor":"Battle Axe","cat":"render","tags":["batch","data driven","spreadsheet","批次輸出","資料驅動","aescripts"],"desc":"用試算表批次替換素材/文字並自動輸出多支影片"}
 {"name":"Joysticks 'n Sliders","vendor":"aescripts","cat":"rigging","tags":["controller","character","face rig","joystick","控制器","角色","表情綁定","aescripts"],"desc":"用搖桿/滑桿控制多個姿勢間插值，做臉部/角色轉向"}
+{"name":"Puppet Tools 3","vendor":"mamoworld","cat":"rigging","tags":["puppet pin","rig","auto","操偶針","綁定","aescripts"],"desc":"強化AE操偶針：自動綁定控制器、輕鬆做角色變形動畫"}
+{"name":"AutoSway","vendor":"aescripts","cat":"animation","tags":["sway","wind","idle","擺動","風吹","待機動畫","aescripts"],"desc":"一鍵讓圖層自然搖擺/風吹晃動（樹葉/頭髮/待機）"}
+{"name":"pt_Multiplane","vendor":"Paul Tuersley","cat":"3d","tags":["multiplane","camera","parallax","2.5d","多平面","景深","aescripts"],"desc":"自動把多圖層排進3D多平面攝影機做視差運鏡"}
 {"name":"Newton 4","vendor":"Motion Boutique","cat":"physics","tags":["physics","gravity","collision","rigid body","物理","重力","碰撞","彈跳","aescripts"],"desc":"2D物理引擎：重力、碰撞、彈跳、關節、繩索"}
-{"name":"Bodymovin / Lottie","vendor":"aescripts","cat":"workflow","tags":["lottie","json","web","export","網頁動畫","匯出","aescripts"],"desc":"把AE動畫匯出成Lottie(JSON)，用於網頁/App向量動畫"}
+{"name":"Bodymovin / Lottie","vendor":"Hernan Torrisi","cat":"workflow","tags":["lottie","json","web","export","網頁動畫","匯出","aescripts"],"desc":"把AE動畫匯出成Lottie(JSON)，用於網頁/App向量動畫"}
 {"name":"True Comp Duplicator","vendor":"aescripts","cat":"workflow","tags":["duplicate","comp","複製合成","aescripts"],"desc":"完整複製巢狀合成階層(不共用來源)，改一版不影響原版"}
 {"name":"BG Renderer Max","vendor":"aescripts","cat":"render","tags":["render","background","queue","背景算圖","批次","aescripts"],"desc":"背景/多實例算圖，邊工作邊輸出、加速大量渲染"}
+{"name":"RenderGarden","vendor":"aescripts","cat":"render","tags":["render","multi core","farm","算圖","多核","aescripts"],"desc":"多核並行加速渲染(把單機當小農場)"}
+{"name":"Nexrender","vendor":"aescripts","cat":"render","tags":["automation","template","api","自動化","模板","批次","aescripts"],"desc":"命令列/API自動化渲染管線，資料驅動大量套模板輸出"}
 {"name":"Connect Layers","vendor":"aescripts","cat":"generate","tags":["connect","lines","network","連線","點線","aescripts"],"desc":"在圖層間自動生成連接線(科技連線/關係圖)"}
 {"name":"iExpressions","vendor":"mamoworld","cat":"expression","tags":["expression","no code","preset","表達式","免寫程式","aescripts"],"desc":"不用寫程式，拖放套用大量表達式(彈跳/跟隨/循環等)"}
 {"name":"Ouroboros 2","vendor":"aescripts","cat":"draw","tags":["stroke","trim path","tapered","描邊","路徑","錐形線","aescripts"],"desc":"進階描邊/路徑動畫，錐形筆觸與多重描邊"}
+{"name":"Ray Dynamic Color 2","vendor":"Sander van Dijk","cat":"color","tags":["color management","palette","調色管理","色票","專案配色","aescripts"],"desc":"集中管理專案配色，一鍵換整個專案的色盤"}
+{"name":"Ray Dynamic Texture","vendor":"Sander van Dijk","cat":"workflow","tags":["texture","grain","paper","紋理管理","質感","aescripts"],"desc":"集中管理與套用手繪紋理/顆粒到多圖層"}
 {"name":"TextEvo 2","vendor":"aescripts","cat":"text","tags":["text animation","kinetic","typography","文字動畫","排版","aescripts"],"desc":"文字動畫工具，快速做逐字/逐行進出場與樣式"}
+{"name":"Text2Spreadsheet","vendor":"mamoworld","cat":"text","tags":["data driven","spreadsheet","csv","資料驅動文字","試算表","aescripts"],"desc":"用試算表/CSV批次帶入文字，做資料驅動的字卡/榜單"}
+{"name":"Decompose Text","vendor":"mamoworld","cat":"text","tags":["split text","per character","拆字","逐字圖層","aescripts"],"desc":"把一段文字拆成逐字/逐行獨立圖層方便個別動畫"}
+{"name":"Type Anarchy","vendor":"aescripts","cat":"text","tags":["text style","distort","glitch type","文字風格","破壞排版","aescripts"],"desc":"快速做風格化/破壞感文字排版與動態"}
+{"name":"Captioneer","vendor":"aescripts","cat":"text","tags":["caption","subtitle","srt","字幕","上字","aescripts"],"desc":"字幕管理：匯入SRT/批次上字、樣式統一(AE/Pr通用)"}
 {"name":"GEOlayers 3","vendor":"mamoworld","cat":"generate","tags":["map","geo","route","地圖","路線","地理動畫","aescripts"],"desc":"AE內生成可動畫地圖：路線、區域、標記、地形"}
+{"name":"Grid Builder","vendor":"aescripts","cat":"workflow","tags":["grid","layout","guides","網格","版面","參考線","aescripts"],"desc":"快速建立網格/版面系統與參考線，對齊排版元素"}
 {"name":"Pins & Boxes","vendor":"aescripts","cat":"rigging","tags":["layout","pin","responsive","rig","版面綁定","釘點","aescripts"],"desc":"用釘點與盒子做響應式版面/UI綁定，元素隨內容伸縮"}
-{"name":"Sequencer / Layer stagger","vendor":"aescripts","cat":"workflow","tags":["sequence","stagger","offset","序列","錯開","aescripts"],"desc":"把多圖層關鍵幀依序錯開排列，快速做接力動畫"}
-{"name":"Overlord Assets / Autocrop","vendor":"aescripts","cat":"workflow","tags":["autocrop","trim","fit","裁切","aescripts"],"desc":"Auto Crop：自動把合成裁切貼齊圖層邊界"}
-{"name":"RenderGarden","vendor":"aescripts","cat":"render","tags":["render","multi core","farm","算圖","多核","aescripts"],"desc":"多核並行加速渲染(把單機當小農場)"}
-{"name":"Voila / FX Console 類搜尋","vendor":"aescripts","cat":"workflow","tags":["search","effects","workflow","搜尋效果","效率","aescripts"],"desc":"快速搜尋/套用效果與預設的效率面板(類FX Console)"}
+{"name":"KBar 3","vendor":"aescripts","cat":"workflow","tags":["toolbar","buttons","workflow","script launcher","自訂工具列","按鈕","aescripts"],"desc":"自訂工具列按鈕，一鍵執行腳本/效果/表達式，最熱門效率外掛"}
+{"name":"GifGun","vendor":"aescripts","cat":"workflow","tags":["gif","export","動圖","匯出","aescripts"],"desc":"一鍵從AE直接輸出GIF動圖"}
+{"name":"Zorro - The Layer Tagger","vendor":"aescripts","cat":"workflow","tags":["tag","select","group","圖層標籤","選取","分組","aescripts"],"desc":"用標籤分組/選取圖層，大型專案管理神器"}
+{"name":"Move Anchor Point","vendor":"aescripts","cat":"workflow","tags":["anchor point","align","錨點","對齊","aescripts"],"desc":"一鍵把錨點移到圖層的九宮格位置(含群組/多圖層)"}
+{"name":"Rift","vendor":"aescripts","cat":"workflow","tags":["offset","stagger","sequence","time shift","錯開","偏移","序列","aescripts"],"desc":"依序偏移多圖層的時間/關鍵幀/屬性/圖層順序，做接力錯開"}
+{"name":"Autocrop","vendor":"aescripts","cat":"workflow","tags":["crop","trim","fit","自動裁切","貼齊","aescripts"],"desc":"自動把合成尺寸裁切貼齊圖層內容邊界"}
