@@ -1,19 +1,26 @@
 # AE 特效資料庫 (ae-effects-db)
 
-用「文字描述」或「參考圖」找 After Effects 特效的本地知識庫。
+## 🔍 線上搜尋（點這裡，手機/電腦都能用）
+
+# → https://xup61069.github.io/ae-effects-db/
+
+打開就能用文字搜特效，免安裝、免登入。用「文字描述」或「參考圖」找 After Effects 特效的知識庫。
+
 三種用法：**網頁搜尋**（手機/瀏覽器）、**命令列**（終端機/腳本）、**Claude Code `/find-effect` skill**（可貼圖搜尋）。
 
-> 609 筆條目，涵蓋約 1000+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單，並比對本機 AE 2026 實裝外掛補齊。
+> 665 筆條目，涵蓋約 1000+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單，並比對本機 AE 2026 實裝外掛補齊。
 
 ## 三種搜尋方式
 
-### 1. 網頁（最萬用，可放 GitHub Pages）
-打開 `index.html` 即可即時搜尋（中英皆可、分類/來源篩選、關鍵字高亮）。
-> 因瀏覽器安全限制，需經 HTTP 開啟，不能直接雙擊 `file://`。本機測試：
+### 1. 網頁（最萬用）
+**線上直接用（推薦）：https://xup61069.github.io/ae-effects-db/**
+即時搜尋、中英皆可、分類/來源篩選、關鍵字高亮，手機也能開。
+
+想在本機跑：因瀏覽器安全限制不能直接雙擊 `file://`，要經 HTTP 開啟：
 > ```bash
 > python -m http.server 8000
 > ```
-> 然後開 http://localhost:8000 。推上 GitHub 後開啟 Pages 即有公開網址。
+> 然後開 http://localhost:8000 。
 
 ### 2. 命令列
 ```bash
@@ -75,6 +82,7 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 - Universe 工具總覽 · https://www.maxon.net/en/product-detail/red-giant/universe/tools
 - Sapphire 完整圖鑑 · https://borisfx.com/documentation/sapphire/ae/picture-index/
 - Continuum 完整清單 · https://borisfx.com/documentation/continuum/bcc-effects-list/
+- aescripts 熱門/新品 · https://aescripts.com/?tab=viewed
 
 ## 授權
 資料整理與程式碼採 MIT（見 `LICENSE`）。各特效名稱與商標歸原廠商所有；本庫僅為索引/教學用途，不含任何官方素材或程式。
