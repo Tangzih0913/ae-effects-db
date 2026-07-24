@@ -73,10 +73,16 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 
 未來若條目破萬或要做大型 app，再升級 embeddings（文字 bge-m3 / voyage，圖片 CLIP/SigLIP），資料格式不用改。
 
-## 擴充
+## 一起維護（歡迎協作）
 
-新增一行 JSON 到對應檔即可；新套件就開新 `.jsonl`。
-在 Claude Code 裡說「把 XX 外掛加進特效資料庫」也會自動補。
+補特效、修描述、加同義詞都歡迎，**不用會寫程式**——甚至可以叫 AI 幫你生一行貼上來。
+
+- 👥 貢獻者看 **[CONTRIBUTING.md](CONTRIBUTING.md)**（內含「複製貼進你 AI 的提示詞」，一鍵生資料）
+- 🤖 AI 助手看 **[AGENTS.md](AGENTS.md)**；機器可讀規格在 **[schema/effect.schema.json](schema/effect.schema.json)**
+- ✅ 改完跑 `python validate.py`（送 PR 時 GitHub Actions 也會自動校驗）
+- 在 Claude Code 裡直接說「把 XX 外掛加進特效資料庫」也會自動補
+
+新增一行 JSON 到對應 `data/*.jsonl` 即可；新套件就開新 `.jsonl`。
 
 ## 資料來源
 - Universe 工具總覽 · https://www.maxon.net/en/product-detail/red-giant/universe/tools

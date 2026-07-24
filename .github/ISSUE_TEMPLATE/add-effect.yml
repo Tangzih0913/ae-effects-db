@@ -1,0 +1,42 @@
+name: 新增特效 / 外掛
+description: 建議一個還沒收錄的 AE 特效或外掛（不用會寫程式，填一填就好）
+title: "新增：<外掛名稱>"
+labels: ["add-effect"]
+body:
+  - type: input
+    id: effname
+    attributes:
+      label: 外掛/特效名稱
+      placeholder: 例：Deep Glow 2
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: 廠商 / 作者（知道再填）
+      placeholder: 例：Plugin Everything、Video Copilot、aescripts
+  - type: input
+    id: link
+    attributes:
+      label: 官網或說明連結（知道再填）
+  - type: textarea
+    id: what
+    attributes:
+      label: 它是做什麼的？
+      placeholder: 一兩句話描述功能與典型用途，或直接貼你叫 AI 生好的那行 JSON
+    validations:
+      required: true
+  - type: dropdown
+    id: file
+    attributes:
+      label: 大概屬於哪一類來源？
+      options:
+        - 不確定（我們幫你歸）
+        - Red Giant（Trapcode/MagicBullet/VFX）
+        - Universe
+        - Sapphire
+        - Continuum
+        - AE 內建
+        - aescripts 市集
+        - 其他第三方廠商
+        - 配方（畫面感→疊哪些效果）
