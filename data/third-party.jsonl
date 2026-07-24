@@ -1,13 +1,13 @@
-{"name":"Element 3D","vendor":"Video Copilot","cat":"3d","tags":["3d model","obj","extrude","3d text","3D模型","三維","擠出文字"],"desc":"AE內即時3D物件/文字渲染引擎，匯入OBJ、材質動畫，做3D標題與場景"}
-{"name":"Optical Flares","vendor":"Video Copilot","cat":"flare","tags":["lens flare","鏡頭光暈","光斑"],"desc":"最流行的鏡頭光暈外掛，介面直覺、預設精美"}
-{"name":"Saber","vendor":"Video Copilot","cat":"light","tags":["saber","energy","neon","beam","光劍","能量","霓虹","描邊發光"],"desc":"免費：光劍/能量光束/霓虹描邊，沿遮罩或文字發光"}
-{"name":"Heat Distortion","vendor":"Video Copilot","cat":"distort","tags":["heat haze","熱浪"],"desc":"熱浪空氣扭曲"}
-{"name":"Color Vibrance","vendor":"Video Copilot","cat":"color","tags":["colorize","著色"],"desc":"免費：單色能量著色"}
-{"name":"Twitch","vendor":"Video Copilot","cat":"stylize","tags":["twitch","strobe","shake","抽搐","閃頻"],"desc":"閃頻+抖動+色偏的緊張感風格化(預告片感)"}
-{"name":"FX Console","vendor":"Video Copilot","cat":"workflow","tags":["search","effects","workflow","搜尋效果","效率面板"],"desc":"免費：快速搜尋套用效果/預設、快照的效率面板"}
-{"name":"Twixtor","vendor":"RE:Vision Effects","cat":"time","tags":["slow motion","optical flow","retime","慢動作","補幀","升格"],"desc":"光流極致慢動作補幀，比AE內建時間扭曲更乾淨"}
-{"name":"ReelSmart Motion Blur","vendor":"RE:Vision Effects","cat":"blur","tags":["motion blur","rsmb","運動模糊"],"desc":"自動追蹤運動向量添加真實運動模糊"}
-{"name":"Neat Video","vendor":"ABSoft","cat":"restore","tags":["denoise","noise reduction","降噪"],"desc":"公認最強視訊降噪"}
-{"name":"Mocha Pro","vendor":"Boris FX","cat":"tracking","tags":["planar tracking","remove","stabilize","平面追蹤","物件移除","穩定"],"desc":"平面追蹤之王：螢幕替換、物件移除、穩定、3D相機反求"}
-{"name":"Lenscare","vendor":"Frischluft","cat":"blur","tags":["depth of field","bokeh","景深","散景"],"desc":"高品質景深散景(Depth of Field + Out of Focus)"}
-{"name":"Duik Ángela","vendor":"RxLaboratory","cat":"rigging","tags":["rigging","character","ik","角色綁定","骨骼"],"desc":"免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布"}
+{"name": "Element 3D", "vendor": "Video Copilot", "cat": "3d", "tags": ["3d model", "obj", "extrude", "3d text", "3D模型", "三維", "擠出文字"], "desc": "AE內即時3D物件/文字渲染引擎，匯入OBJ、材質動畫，做3D標題與場景", "url": "https://www.videocopilot.net/products/element2/"}
+{"name": "Optical Flares", "vendor": "Video Copilot", "cat": "flare", "tags": ["lens flare", "鏡頭光暈", "光斑"], "desc": "最流行的鏡頭光暈外掛，介面直覺、預設精美", "url": "https://www.videocopilot.net/products/opticalflares/"}
+{"name": "Saber", "vendor": "Video Copilot", "cat": "light", "tags": ["saber", "energy", "neon", "beam", "光劍", "能量", "霓虹", "描邊發光"], "desc": "免費：光劍/能量光束/霓虹描邊，沿遮罩或文字發光", "url": "https://www.videocopilot.net/blog/2015/03/new-plug-in-saber-now-available-100-free/"}
+{"name": "Heat Distortion", "vendor": "Video Copilot", "cat": "distort", "tags": ["heat haze", "熱浪"], "desc": "熱浪空氣扭曲", "url": "https://www.videocopilot.net/products/heatdistortion/"}
+{"name": "Color Vibrance", "vendor": "Video Copilot", "cat": "color", "tags": ["colorize", "著色"], "desc": "免費：單色能量著色"}
+{"name": "Twitch", "vendor": "Video Copilot", "cat": "stylize", "tags": ["twitch", "strobe", "shake", "抽搐", "閃頻"], "desc": "閃頻+抖動+色偏的緊張感風格化(預告片感)", "url": "https://www.videocopilot.net/products/twitch/"}
+{"name": "FX Console", "vendor": "Video Copilot", "cat": "workflow", "tags": ["search", "effects", "workflow", "搜尋效果", "效率面板"], "desc": "免費：快速搜尋套用效果/預設、快照的效率面板", "url": "https://www.videocopilot.net/blog/2018/05/fx-console-updated-to-v1-0-3"}
+{"name": "Twixtor", "vendor": "RE:Vision Effects", "cat": "time", "tags": ["slow motion", "optical flow", "retime", "慢動作", "補幀", "升格"], "desc": "光流極致慢動作補幀，比AE內建時間扭曲更乾淨", "url": "https://revisionfx.com/products/twixtor/"}
+{"name": "ReelSmart Motion Blur", "vendor": "RE:Vision Effects", "cat": "blur", "tags": ["motion blur", "rsmb", "運動模糊"], "desc": "自動追蹤運動向量添加真實運動模糊", "url": "https://revisionfx.com/products/rsmb/"}
+{"name": "Neat Video", "vendor": "ABSoft", "cat": "restore", "tags": ["denoise", "noise reduction", "降噪"], "desc": "公認最強視訊降噪", "url": "https://www.neatvideo.com/"}
+{"name": "Mocha Pro", "vendor": "Boris FX", "cat": "tracking", "tags": ["planar tracking", "remove", "stabilize", "平面追蹤", "物件移除", "穩定"], "desc": "平面追蹤之王：螢幕替換、物件移除、穩定、3D相機反求", "url": "https://borisfx.com/products/mocha-pro/"}
+{"name": "Lenscare", "vendor": "Frischluft", "cat": "blur", "tags": ["depth of field", "bokeh", "景深", "散景"], "desc": "高品質景深散景(Depth of Field + Out of Focus)", "url": "https://www.frischluft.com/lenscare"}
+{"name": "Duik Ángela", "vendor": "RxLaboratory", "cat": "rigging", "tags": ["rigging", "character", "ik", "角色綁定", "骨骼"], "desc": "免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布", "url": "https://rxlaboratory.org/tools/duik/"}

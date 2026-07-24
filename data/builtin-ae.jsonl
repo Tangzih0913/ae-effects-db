@@ -1,109 +1,109 @@
-{"name":"Glow","cat":"glow","tags":["glow","bloom","發光","輝光","內建"],"desc":"AE內建輝光（品質普通，講究時用Deep Glow/Optical Glow）"}
-{"name":"CC Light Rays","cat":"light","tags":["light rays","god rays","radial","體積光","放射光","內建"],"desc":"從一點放射的光線，快速做上帝光/掃光"}
-{"name":"CC Light Sweep","cat":"light","tags":["light sweep","掃光","內建"],"desc":"文字/Logo表面掃過一道光"}
-{"name":"CC Light Burst 2.5","cat":"light","tags":["light burst","zoom rays","爆炸光","放射模糊","內建"],"desc":"放射狀光線爆發/縮放模糊"}
-{"name":"Lens Flare","cat":"flare","tags":["lens flare","鏡頭光暈","內建"],"desc":"內建鏡頭光暈（陽春，講究用Optical Flares/Knoll）"}
-{"name":"Advanced Lightning","cat":"generate","tags":["lightning","electric","閃電","電弧","內建"],"desc":"內建閃電/電弧生成，可自訂分支"}
-{"name":"Beam","cat":"generate","tags":["beam","laser","雷射","光束","內建"],"desc":"兩點間光束（雷射感）"}
-{"name":"Fractal Noise","cat":"generate","tags":["fractal noise","clouds","smoke","noise","分形噪波","雲霧","煙","內建","萬用"],"desc":"萬用分形噪波：煙霧/雲/水/紋理/能量/置換來源，AE最重要的內建生成器"}
-{"name":"Turbulent Noise","cat":"generate","tags":["turbulent noise","流體噪波","內建"],"desc":"Fractal Noise的流體版，更平滑的湍流"}
-{"name":"CC Particle World","cat":"particles","tags":["particles","3d particles","dust","spark","粒子","星塵","火花","內建"],"desc":"內建3D粒子系統，免外掛做星塵/火花/煙/爆發"}
-{"name":"CC Particle Systems II","cat":"particles","tags":["particles","2d particles","粒子","內建"],"desc":"內建2D粒子（快速煙火/氣泡）"}
-{"name":"CC Pixel Polly","cat":"particles","tags":["shatter","explode","破碎","爆散","內建"],"desc":"畫面碎裂爆散成碎片"}
-{"name":"CC Star Burst","cat":"particles","tags":["stars","space","starfield","星空","飛星","內建"],"desc":"3D星空飛行"}
-{"name":"CC Ball Action","cat":"stylize","tags":["balls","dots","球化","點陣","內建"],"desc":"畫面轉成小球/點陣可翻轉"}
-{"name":"CC Scatterize","cat":"particles","tags":["scatter","disperse","飛散","內建"],"desc":"畫面像素飛散"}
-{"name":"CC Rainfall","cat":"particles","tags":["rain","weather","下雨","內建"],"desc":"內建下雨"}
-{"name":"CC Snowfall","cat":"particles","tags":["snow","weather","下雪","內建"],"desc":"內建下雪"}
-{"name":"CC Mr. Mercury","cat":"particles","tags":["liquid","metaball","mercury","液體","水銀","內建"],"desc":"液態水銀/融球粒子"}
-{"name":"CC Bubbles","cat":"particles","tags":["bubbles","氣泡","內建"],"desc":"氣泡上升"}
-{"name":"CC Drizzle","cat":"particles","tags":["ripple","rain drops","water","雨滴","漣漪","內建"],"desc":"水面雨滴漣漪"}
-{"name":"Foam","cat":"particles","tags":["foam","bubbles","泡沫","內建"],"desc":"泡沫/氣泡流體模擬"}
-{"name":"Shatter","cat":"particles","tags":["shatter","explode","break","破碎","爆破","內建"],"desc":"3D破碎爆破（玻璃/牆面）"}
-{"name":"Card Dance","cat":"particles","tags":["cards","grid","卡片","陣列","內建"],"desc":"畫面切成卡片陣列做動畫"}
-{"name":"Caustics","cat":"texture","tags":["caustics","water","underwater","焦散","水底","內建"],"desc":"水底焦散光紋"}
-{"name":"Wave World","cat":"texture","tags":["water","waves","水波","內建"],"desc":"水波物理模擬（配Caustics）"}
-{"name":"Audio Spectrum","cat":"audio","tags":["audio","spectrum","music","音頻","頻譜","內建"],"desc":"音訊頻譜可視化"}
-{"name":"Audio Waveform","cat":"audio","tags":["audio","waveform","音頻","波形","內建"],"desc":"音訊波形可視化"}
-{"name":"Stroke","cat":"draw","tags":["stroke","path","描邊","內建"],"desc":"沿遮罩路徑描邊（手寫/勾線）"}
-{"name":"Write-on","cat":"draw","tags":["write on","handwriting","手寫","書寫","內建"],"desc":"逐筆書寫顯現動畫"}
-{"name":"Vegas","cat":"draw","tags":["outline","marching","跑馬燈描邊","內建"],"desc":"沿輪廓跑動的虛線/光點"}
-{"name":"Scribble","cat":"draw","tags":["scribble","sketch fill","塗鴉填充","內建"],"desc":"手繪塗鴉填充遮罩"}
-{"name":"Radio Waves","cat":"generate","tags":["radio waves","ripple rings","聲波","擴散環","內建"],"desc":"擴散圓環/聲波"}
-{"name":"Cell Pattern","cat":"texture","tags":["cells","organic","細胞","有機紋理","內建"],"desc":"細胞狀有機紋理生成"}
-{"name":"Gaussian Blur","cat":"blur","tags":["blur","gaussian","模糊","內建"],"desc":"高斯模糊"}
-{"name":"Fast Box Blur","cat":"blur","tags":["blur","box blur","快速模糊","內建"],"desc":"快速方框模糊（大範圍模糊首選）"}
-{"name":"Camera Lens Blur","cat":"blur","tags":["lens blur","bokeh","defocus","景深","散景","失焦","內建"],"desc":"內建鏡頭散景（可用深度圖）"}
-{"name":"Directional Blur","cat":"blur","tags":["motion blur","directional","方向模糊","內建"],"desc":"方向性模糊"}
-{"name":"CC Radial Blur","cat":"blur","tags":["radial blur","zoom blur","spin","放射模糊","縮放模糊","內建"],"desc":"放射/縮放/旋轉模糊"}
-{"name":"CC Vector Blur","cat":"blur","tags":["vector blur","smear","塗抹模糊","內建"],"desc":"依向量方向塗抹模糊"}
-{"name":"Compound Blur","cat":"blur","tags":["compound blur","map blur","複合模糊","內建"],"desc":"以另一圖層灰度控制模糊區域"}
-{"name":"Pixel Motion Blur","cat":"time","tags":["motion blur","optical flow","運動模糊","補幀模糊","內建"],"desc":"後製自動運動模糊（光流）"}
-{"name":"CC Force Motion Blur","cat":"time","tags":["motion blur","運動模糊","內建"],"desc":"強制增加運動模糊採樣"}
-{"name":"Turbulent Displace","cat":"warp","tags":["turbulent displace","distort","warp","flag","液化","扭曲","飄動","內建","萬用"],"desc":"萬用扭曲：旗幟飄動/水波/火焰形變/有機晃動，最常用的內建扭曲"}
-{"name":"Displacement Map","cat":"warp","tags":["displacement","置換","內建"],"desc":"用另一圖層置換像素（玻璃/水/貼合）"}
-{"name":"Wave Warp","cat":"warp","tags":["wave","波浪","內建"],"desc":"規律波浪扭曲"}
-{"name":"Liquify","cat":"warp","tags":["liquify","warp","液化","推擠","內建"],"desc":"筆刷液化推擠"}
-{"name":"CC Lens","cat":"warp","tags":["fisheye","lens","魚眼","球面","內建"],"desc":"魚眼球面鏡頭扭曲"}
-{"name":"Optics Compensation","cat":"warp","tags":["lens distortion","fisheye","鏡頭畸變","內建"],"desc":"鏡頭畸變添加/移除"}
-{"name":"Polar Coordinates","cat":"warp","tags":["polar","tiny planet","極座標","小星球","內建"],"desc":"直角↔極座標（小星球/環形）"}
-{"name":"CC Page Turn","cat":"warp","tags":["page turn","curl","翻頁","捲頁","內建"],"desc":"翻頁/捲頁"}
-{"name":"CC Power Pin","cat":"warp","tags":["corner pin","perspective","四角","透視","內建"],"desc":"四角透視變形（貼螢幕）"}
-{"name":"Mesh Warp","cat":"warp","tags":["mesh warp","網格變形","內建"],"desc":"網格自由變形"}
-{"name":"Mirror","cat":"warp","tags":["mirror","reflect","鏡像","內建"],"desc":"鏡像反射"}
-{"name":"CC Kaleida","cat":"stylize","tags":["kaleidoscope","mirror","萬花筒","對稱","內建"],"desc":"萬花筒對稱"}
-{"name":"Bulge","cat":"warp","tags":["bulge","放大鏡","凸起","內建"],"desc":"局部凸起/凹陷"}
-{"name":"CC Glass","cat":"stylize","tags":["glass","refraction","玻璃","折射","內建"],"desc":"玻璃折射/浮雕質感"}
-{"name":"Roughen Edges","cat":"stylize","tags":["rough edges","grunge","粗糙邊緣","侵蝕","內建"],"desc":"邊緣粗糙侵蝕（做舊/手繪邊）"}
-{"name":"Find Edges","cat":"stylize","tags":["find edges","outline","邊緣","線稿","內建"],"desc":"邊緣檢測線稿"}
-{"name":"Cartoon","cat":"art","tags":["cartoon","toon","卡通","內建"],"desc":"內建卡通化（描邊+平塗）"}
-{"name":"Mosaic","cat":"stylize","tags":["mosaic","pixelate","馬賽克","像素化","打碼","內建"],"desc":"馬賽克像素化（打碼）"}
-{"name":"Motion Tile","cat":"stylize","tags":["tile","repeat","seamless","平鋪","無縫","內建"],"desc":"畫面平鋪重複（可做無縫循環）"}
-{"name":"CC RepeTile","cat":"stylize","tags":["tile","repeat","平鋪","內建"],"desc":"多種模式平鋪擴展畫面邊緣"}
-{"name":"Posterize","cat":"art","tags":["posterize","色調分離","內建"],"desc":"色調分離"}
-{"name":"Emboss","cat":"stylize","tags":["emboss","浮雕","內建"],"desc":"浮雕"}
-{"name":"Texturize","cat":"stylize","tags":["texture","質感疊加","內建"],"desc":"以另一圖層做浮雕質感疊加"}
-{"name":"Strobe Light","cat":"stylize","tags":["strobe","flicker","閃頻","頻閃","內建"],"desc":"頻閃/閃爍"}
-{"name":"CC Threshold","cat":"stylize","tags":["threshold","二值化","高反差","內建"],"desc":"高反差二值化"}
-{"name":"Levels","cat":"color","tags":["levels","色階","內建","調色"],"desc":"色階（黑白場/gamma）"}
-{"name":"Curves","cat":"color","tags":["curves","曲線","內建","調色"],"desc":"曲線調色（最萬用的校色）"}
-{"name":"Lumetri Color","cat":"color","tags":["lumetri","color grade","lut","調色","電影感","內建","萬用"],"desc":"內建專業調色面板：色輪/曲線/HSL/LUT/暗角一站式"}
-{"name":"Hue/Saturation","cat":"color","tags":["hue","saturation","色相飽和","內建"],"desc":"色相/飽和/明度"}
-{"name":"Vibrance","cat":"color","tags":["vibrance","自然飽和","內建"],"desc":"自然飽和度"}
-{"name":"Curves / Tint / Tritone","cat":"color","tags":["tint","tritone","duotone","著色","雙色調","內建"],"desc":"著色/雙三色調（Tint、Tritone）"}
-{"name":"Photo Filter","cat":"color","tags":["photo filter","warm cool","冷暖濾鏡","內建"],"desc":"攝影冷暖濾鏡"}
-{"name":"Exposure","cat":"color","tags":["exposure","曝光","內建"],"desc":"曝光調整"}
-{"name":"Change to Color","cat":"color","tags":["change color","replace color","換色","選色替換","內建"],"desc":"把某顏色替換成另一顏色"}
-{"name":"Colorama","cat":"color","tags":["colorama","psychedelic","gradient map","漸層映射","迷幻","內建"],"desc":"漸層循環映射（迷幻/熱成像/能量色）"}
-{"name":"Black & White","cat":"color","tags":["black white","monochrome","黑白","內建"],"desc":"黑白轉換（可控各色明度）"}
-{"name":"CC Toner","cat":"color","tags":["toner","duotone","色調映射","內建"],"desc":"多點色調映射（陰影中間高光上色）"}
-{"name":"Keylight","cat":"keying","tags":["keylight","chroma key","green screen","摳像","去背","綠幕","內建","萬用"],"desc":"AE內建最強綠幕摳像（The Foundry）"}
-{"name":"Linear Color Key","cat":"keying","tags":["color key","色鍵","內建"],"desc":"線性色鍵"}
-{"name":"Advanced Spill Suppressor","cat":"keying","tags":["spill","despill","溢色","內建"],"desc":"去綠幕溢色"}
-{"name":"Key Cleaner","cat":"keying","tags":["key cleaner","matte","邊緣清理","內建"],"desc":"摳像後邊緣/雜訊清理"}
-{"name":"Set Matte","cat":"matte","tags":["set matte","track matte","遮罩","內建"],"desc":"用另一圖層當遮罩"}
-{"name":"Drop Shadow","cat":"stylize","tags":["drop shadow","shadow","陰影","投影","內建"],"desc":"投影"}
-{"name":"Radial Shadow","cat":"stylize","tags":["radial shadow","點光投影","內建"],"desc":"點光源投射陰影"}
-{"name":"Bevel Alpha","cat":"perspective","tags":["bevel","3d edge","倒角","立體邊","內建"],"desc":"Alpha邊緣倒角立體感"}
-{"name":"CC Sphere","cat":"3d","tags":["sphere","planet","球體","星球","內建"],"desc":"把畫面包成3D球體（星球）"}
-{"name":"CC Cylinder","cat":"3d","tags":["cylinder","圓柱","內建"],"desc":"畫面捲成3D圓柱"}
-{"name":"CC Spotlight","cat":"light","tags":["spotlight","聚光燈","內建"],"desc":"聚光燈照明"}
-{"name":"Add Grain","cat":"film","tags":["grain","顆粒","內建"],"desc":"添加膠片顆粒"}
-{"name":"Match Grain","cat":"film","tags":["grain match","顆粒匹配","內建"],"desc":"匹配參考素材顆粒"}
-{"name":"Remove Grain","cat":"restore","tags":["denoise","degrain","降噪","去顆粒","內建"],"desc":"降噪去顆粒"}
-{"name":"Noise","cat":"film","tags":["noise","雜訊","內建"],"desc":"添加雜訊"}
-{"name":"Median","cat":"restore","tags":["median","smooth","中值","繪畫感","內建"],"desc":"中值柔化（去噪/繪畫感）"}
-{"name":"Echo","cat":"time","tags":["echo","trails","殘影","回聲","內建"],"desc":"多幀疊加殘影/拖尾"}
-{"name":"Posterize Time","cat":"time","tags":["posterize time","抽幀","定格感","內建"],"desc":"降幀率（定格動畫感）"}
-{"name":"Time Displacement","cat":"time","tags":["time displacement","時間置換","扭曲時間","內建"],"desc":"用灰度圖錯位不同時間的像素"}
-{"name":"Timewarp","cat":"time","tags":["timewarp","slow motion","retime","變速","慢動作","內建"],"desc":"內建光流變速（外掛更佳用Twixtor）"}
-{"name":"3D Camera Tracker","cat":"tracking","tags":["camera track","3d track","match move","三維追蹤","內建"],"desc":"內建3D攝影機反求（合成3D元素進實拍）"}
-{"name":"Warp Stabilizer VFX","cat":"restore","tags":["stabilize","warp stabilizer","穩定","防抖","內建"],"desc":"內建畫面穩定防抖"}
-{"name":"Card Wipe","cat":"transition","tags":["card wipe","flip","卡片轉場","內建"],"desc":"卡片翻轉擦除轉場"}
-{"name":"Gradient Wipe","cat":"transition","tags":["gradient wipe","luma wipe","漸變擦除","內建"],"desc":"依灰度圖溶解轉場（很萬用）"}
-{"name":"Linear/Radial Wipe","cat":"transition","tags":["wipe","線性擦除","放射擦除","內建"],"desc":"線性/放射擦除轉場"}
-{"name":"CC Glass Wipe","cat":"transition","tags":["glass wipe","melt","熔化轉場","內建"],"desc":"熔化玻璃轉場"}
-{"name":"CC Light Wipe","cat":"transition","tags":["light wipe","光擦除","內建"],"desc":"發光擦除轉場"}
-{"name":"CC Twister","cat":"transition","tags":["twister","flip","扭轉轉場","內建"],"desc":"扭轉翻面轉場"}
-{"name":"CC WarpoMatic","cat":"transition","tags":["warp","dissolve","扭曲溶解","內建"],"desc":"依明暗扭曲溶解轉場"}
-{"name":"Block Dissolve","cat":"transition","tags":["block dissolve","方塊溶解","內建"],"desc":"隨機方塊溶解"}
+{"name": "Glow", "cat": "glow", "tags": ["glow", "bloom", "發光", "輝光", "內建"], "desc": "AE內建輝光（品質普通，講究時用Deep Glow/Optical Glow）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "CC Light Rays", "cat": "light", "tags": ["light rays", "god rays", "radial", "體積光", "放射光", "內建"], "desc": "從一點放射的光線，快速做上帝光/掃光", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "CC Light Sweep", "cat": "light", "tags": ["light sweep", "掃光", "內建"], "desc": "文字/Logo表面掃過一道光", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "CC Light Burst 2.5", "cat": "light", "tags": ["light burst", "zoom rays", "爆炸光", "放射模糊", "內建"], "desc": "放射狀光線爆發/縮放模糊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Lens Flare", "cat": "flare", "tags": ["lens flare", "鏡頭光暈", "內建"], "desc": "內建鏡頭光暈（陽春，講究用Optical Flares/Knoll）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Advanced Lightning", "cat": "generate", "tags": ["lightning", "electric", "閃電", "電弧", "內建"], "desc": "內建閃電/電弧生成，可自訂分支", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Beam", "cat": "generate", "tags": ["beam", "laser", "雷射", "光束", "內建"], "desc": "兩點間光束（雷射感）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Fractal Noise", "cat": "generate", "tags": ["fractal noise", "clouds", "smoke", "noise", "分形噪波", "雲霧", "煙", "內建", "萬用"], "desc": "萬用分形噪波：煙霧/雲/水/紋理/能量/置換來源，AE最重要的內建生成器", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Turbulent Noise", "cat": "generate", "tags": ["turbulent noise", "流體噪波", "內建"], "desc": "Fractal Noise的流體版，更平滑的湍流", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "CC Particle World", "cat": "particles", "tags": ["particles", "3d particles", "dust", "spark", "粒子", "星塵", "火花", "內建"], "desc": "內建3D粒子系統，免外掛做星塵/火花/煙/爆發", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Particle Systems II", "cat": "particles", "tags": ["particles", "2d particles", "粒子", "內建"], "desc": "內建2D粒子（快速煙火/氣泡）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Pixel Polly", "cat": "particles", "tags": ["shatter", "explode", "破碎", "爆散", "內建"], "desc": "畫面碎裂爆散成碎片", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Star Burst", "cat": "particles", "tags": ["stars", "space", "starfield", "星空", "飛星", "內建"], "desc": "3D星空飛行", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Ball Action", "cat": "stylize", "tags": ["balls", "dots", "球化", "點陣", "內建"], "desc": "畫面轉成小球/點陣可翻轉", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "CC Scatterize", "cat": "particles", "tags": ["scatter", "disperse", "飛散", "內建"], "desc": "畫面像素飛散", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Rainfall", "cat": "particles", "tags": ["rain", "weather", "下雨", "內建"], "desc": "內建下雨", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Snowfall", "cat": "particles", "tags": ["snow", "weather", "下雪", "內建"], "desc": "內建下雪", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Mr. Mercury", "cat": "particles", "tags": ["liquid", "metaball", "mercury", "液體", "水銀", "內建"], "desc": "液態水銀/融球粒子", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Bubbles", "cat": "particles", "tags": ["bubbles", "氣泡", "內建"], "desc": "氣泡上升", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "CC Drizzle", "cat": "particles", "tags": ["ripple", "rain drops", "water", "雨滴", "漣漪", "內建"], "desc": "水面雨滴漣漪", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Foam", "cat": "particles", "tags": ["foam", "bubbles", "泡沫", "內建"], "desc": "泡沫/氣泡流體模擬", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Shatter", "cat": "particles", "tags": ["shatter", "explode", "break", "破碎", "爆破", "內建"], "desc": "3D破碎爆破（玻璃/牆面）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Card Dance", "cat": "particles", "tags": ["cards", "grid", "卡片", "陣列", "內建"], "desc": "畫面切成卡片陣列做動畫", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Caustics", "cat": "texture", "tags": ["caustics", "water", "underwater", "焦散", "水底", "內建"], "desc": "水底焦散光紋", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Wave World", "cat": "texture", "tags": ["water", "waves", "水波", "內建"], "desc": "水波物理模擬（配Caustics）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Audio Spectrum", "cat": "audio", "tags": ["audio", "spectrum", "music", "音頻", "頻譜", "內建"], "desc": "音訊頻譜可視化", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Audio Waveform", "cat": "audio", "tags": ["audio", "waveform", "音頻", "波形", "內建"], "desc": "音訊波形可視化", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Stroke", "cat": "draw", "tags": ["stroke", "path", "描邊", "內建"], "desc": "沿遮罩路徑描邊（手寫/勾線）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Write-on", "cat": "draw", "tags": ["write on", "handwriting", "手寫", "書寫", "內建"], "desc": "逐筆書寫顯現動畫", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Vegas", "cat": "draw", "tags": ["outline", "marching", "跑馬燈描邊", "內建"], "desc": "沿輪廓跑動的虛線/光點", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Scribble", "cat": "draw", "tags": ["scribble", "sketch fill", "塗鴉填充", "內建"], "desc": "手繪塗鴉填充遮罩", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Radio Waves", "cat": "generate", "tags": ["radio waves", "ripple rings", "聲波", "擴散環", "內建"], "desc": "擴散圓環/聲波", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Cell Pattern", "cat": "texture", "tags": ["cells", "organic", "細胞", "有機紋理", "內建"], "desc": "細胞狀有機紋理生成", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"}
+{"name": "Gaussian Blur", "cat": "blur", "tags": ["blur", "gaussian", "模糊", "內建"], "desc": "高斯模糊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "Fast Box Blur", "cat": "blur", "tags": ["blur", "box blur", "快速模糊", "內建"], "desc": "快速方框模糊（大範圍模糊首選）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "Camera Lens Blur", "cat": "blur", "tags": ["lens blur", "bokeh", "defocus", "景深", "散景", "失焦", "內建"], "desc": "內建鏡頭散景（可用深度圖）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "Directional Blur", "cat": "blur", "tags": ["motion blur", "directional", "方向模糊", "內建"], "desc": "方向性模糊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "CC Radial Blur", "cat": "blur", "tags": ["radial blur", "zoom blur", "spin", "放射模糊", "縮放模糊", "內建"], "desc": "放射/縮放/旋轉模糊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "CC Vector Blur", "cat": "blur", "tags": ["vector blur", "smear", "塗抹模糊", "內建"], "desc": "依向量方向塗抹模糊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "Compound Blur", "cat": "blur", "tags": ["compound blur", "map blur", "複合模糊", "內建"], "desc": "以另一圖層灰度控制模糊區域", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"}
+{"name": "Pixel Motion Blur", "cat": "time", "tags": ["motion blur", "optical flow", "運動模糊", "補幀模糊", "內建"], "desc": "後製自動運動模糊（光流）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "CC Force Motion Blur", "cat": "time", "tags": ["motion blur", "運動模糊", "內建"], "desc": "強制增加運動模糊採樣", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "Turbulent Displace", "cat": "warp", "tags": ["turbulent displace", "distort", "warp", "flag", "液化", "扭曲", "飄動", "內建", "萬用"], "desc": "萬用扭曲：旗幟飄動/水波/火焰形變/有機晃動，最常用的內建扭曲", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Displacement Map", "cat": "warp", "tags": ["displacement", "置換", "內建"], "desc": "用另一圖層置換像素（玻璃/水/貼合）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Wave Warp", "cat": "warp", "tags": ["wave", "波浪", "內建"], "desc": "規律波浪扭曲", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Liquify", "cat": "warp", "tags": ["liquify", "warp", "液化", "推擠", "內建"], "desc": "筆刷液化推擠", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "CC Lens", "cat": "warp", "tags": ["fisheye", "lens", "魚眼", "球面", "內建"], "desc": "魚眼球面鏡頭扭曲", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Optics Compensation", "cat": "warp", "tags": ["lens distortion", "fisheye", "鏡頭畸變", "內建"], "desc": "鏡頭畸變添加/移除", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Polar Coordinates", "cat": "warp", "tags": ["polar", "tiny planet", "極座標", "小星球", "內建"], "desc": "直角↔極座標（小星球/環形）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "CC Page Turn", "cat": "warp", "tags": ["page turn", "curl", "翻頁", "捲頁", "內建"], "desc": "翻頁/捲頁", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "CC Power Pin", "cat": "warp", "tags": ["corner pin", "perspective", "四角", "透視", "內建"], "desc": "四角透視變形（貼螢幕）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Mesh Warp", "cat": "warp", "tags": ["mesh warp", "網格變形", "內建"], "desc": "網格自由變形", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "Mirror", "cat": "warp", "tags": ["mirror", "reflect", "鏡像", "內建"], "desc": "鏡像反射", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "CC Kaleida", "cat": "stylize", "tags": ["kaleidoscope", "mirror", "萬花筒", "對稱", "內建"], "desc": "萬花筒對稱", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Bulge", "cat": "warp", "tags": ["bulge", "放大鏡", "凸起", "內建"], "desc": "局部凸起/凹陷", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"}
+{"name": "CC Glass", "cat": "stylize", "tags": ["glass", "refraction", "玻璃", "折射", "內建"], "desc": "玻璃折射/浮雕質感", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Roughen Edges", "cat": "stylize", "tags": ["rough edges", "grunge", "粗糙邊緣", "侵蝕", "內建"], "desc": "邊緣粗糙侵蝕（做舊/手繪邊）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Find Edges", "cat": "stylize", "tags": ["find edges", "outline", "邊緣", "線稿", "內建"], "desc": "邊緣檢測線稿", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Cartoon", "cat": "art", "tags": ["cartoon", "toon", "卡通", "內建"], "desc": "內建卡通化（描邊+平塗）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Mosaic", "cat": "stylize", "tags": ["mosaic", "pixelate", "馬賽克", "像素化", "打碼", "內建"], "desc": "馬賽克像素化（打碼）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Motion Tile", "cat": "stylize", "tags": ["tile", "repeat", "seamless", "平鋪", "無縫", "內建"], "desc": "畫面平鋪重複（可做無縫循環）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "CC RepeTile", "cat": "stylize", "tags": ["tile", "repeat", "平鋪", "內建"], "desc": "多種模式平鋪擴展畫面邊緣", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Posterize", "cat": "art", "tags": ["posterize", "色調分離", "內建"], "desc": "色調分離", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Emboss", "cat": "stylize", "tags": ["emboss", "浮雕", "內建"], "desc": "浮雕", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Texturize", "cat": "stylize", "tags": ["texture", "質感疊加", "內建"], "desc": "以另一圖層做浮雕質感疊加", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Strobe Light", "cat": "stylize", "tags": ["strobe", "flicker", "閃頻", "頻閃", "內建"], "desc": "頻閃/閃爍", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "CC Threshold", "cat": "stylize", "tags": ["threshold", "二值化", "高反差", "內建"], "desc": "高反差二值化", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Levels", "cat": "color", "tags": ["levels", "色階", "內建", "調色"], "desc": "色階（黑白場/gamma）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Curves", "cat": "color", "tags": ["curves", "曲線", "內建", "調色"], "desc": "曲線調色（最萬用的校色）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Lumetri Color", "cat": "color", "tags": ["lumetri", "color grade", "lut", "調色", "電影感", "內建", "萬用"], "desc": "內建專業調色面板：色輪/曲線/HSL/LUT/暗角一站式", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Hue/Saturation", "cat": "color", "tags": ["hue", "saturation", "色相飽和", "內建"], "desc": "色相/飽和/明度", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Vibrance", "cat": "color", "tags": ["vibrance", "自然飽和", "內建"], "desc": "自然飽和度", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Curves / Tint / Tritone", "cat": "color", "tags": ["tint", "tritone", "duotone", "著色", "雙色調", "內建"], "desc": "著色/雙三色調（Tint、Tritone）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Photo Filter", "cat": "color", "tags": ["photo filter", "warm cool", "冷暖濾鏡", "內建"], "desc": "攝影冷暖濾鏡", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Exposure", "cat": "color", "tags": ["exposure", "曝光", "內建"], "desc": "曝光調整", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Change to Color", "cat": "color", "tags": ["change color", "replace color", "換色", "選色替換", "內建"], "desc": "把某顏色替換成另一顏色", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Colorama", "cat": "color", "tags": ["colorama", "psychedelic", "gradient map", "漸層映射", "迷幻", "內建"], "desc": "漸層循環映射（迷幻/熱成像/能量色）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Black & White", "cat": "color", "tags": ["black white", "monochrome", "黑白", "內建"], "desc": "黑白轉換（可控各色明度）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "CC Toner", "cat": "color", "tags": ["toner", "duotone", "色調映射", "內建"], "desc": "多點色調映射（陰影中間高光上色）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Keylight", "cat": "keying", "tags": ["keylight", "chroma key", "green screen", "摳像", "去背", "綠幕", "內建", "萬用"], "desc": "AE內建最強綠幕摳像（The Foundry）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Linear Color Key", "cat": "keying", "tags": ["color key", "色鍵", "內建"], "desc": "線性色鍵", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Advanced Spill Suppressor", "cat": "keying", "tags": ["spill", "despill", "溢色", "內建"], "desc": "去綠幕溢色", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Key Cleaner", "cat": "keying", "tags": ["key cleaner", "matte", "邊緣清理", "內建"], "desc": "摳像後邊緣/雜訊清理", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Set Matte", "cat": "matte", "tags": ["set matte", "track matte", "遮罩", "內建"], "desc": "用另一圖層當遮罩", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html"}
+{"name": "Drop Shadow", "cat": "stylize", "tags": ["drop shadow", "shadow", "陰影", "投影", "內建"], "desc": "投影", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Radial Shadow", "cat": "stylize", "tags": ["radial shadow", "點光投影", "內建"], "desc": "點光源投射陰影", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"}
+{"name": "Bevel Alpha", "cat": "perspective", "tags": ["bevel", "3d edge", "倒角", "立體邊", "內建"], "desc": "Alpha邊緣倒角立體感", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html"}
+{"name": "CC Sphere", "cat": "3d", "tags": ["sphere", "planet", "球體", "星球", "內建"], "desc": "把畫面包成3D球體（星球）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html"}
+{"name": "CC Cylinder", "cat": "3d", "tags": ["cylinder", "圓柱", "內建"], "desc": "畫面捲成3D圓柱", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html"}
+{"name": "CC Spotlight", "cat": "light", "tags": ["spotlight", "聚光燈", "內建"], "desc": "聚光燈照明", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"}
+{"name": "Add Grain", "cat": "film", "tags": ["grain", "顆粒", "內建"], "desc": "添加膠片顆粒", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Match Grain", "cat": "film", "tags": ["grain match", "顆粒匹配", "內建"], "desc": "匹配參考素材顆粒", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Remove Grain", "cat": "restore", "tags": ["denoise", "degrain", "降噪", "去顆粒", "內建"], "desc": "降噪去顆粒", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Noise", "cat": "film", "tags": ["noise", "雜訊", "內建"], "desc": "添加雜訊", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Median", "cat": "restore", "tags": ["median", "smooth", "中值", "繪畫感", "內建"], "desc": "中值柔化（去噪/繪畫感）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Echo", "cat": "time", "tags": ["echo", "trails", "殘影", "回聲", "內建"], "desc": "多幀疊加殘影/拖尾", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "Posterize Time", "cat": "time", "tags": ["posterize time", "抽幀", "定格感", "內建"], "desc": "降幀率（定格動畫感）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "Time Displacement", "cat": "time", "tags": ["time displacement", "時間置換", "扭曲時間", "內建"], "desc": "用灰度圖錯位不同時間的像素", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "Timewarp", "cat": "time", "tags": ["timewarp", "slow motion", "retime", "變速", "慢動作", "內建"], "desc": "內建光流變速（外掛更佳用Twixtor）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"}
+{"name": "3D Camera Tracker", "cat": "tracking", "tags": ["camera track", "3d track", "match move", "三維追蹤", "內建"], "desc": "內建3D攝影機反求（合成3D元素進實拍）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html"}
+{"name": "Warp Stabilizer VFX", "cat": "restore", "tags": ["stabilize", "warp stabilizer", "穩定", "防抖", "內建"], "desc": "內建畫面穩定防抖", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"}
+{"name": "Card Wipe", "cat": "transition", "tags": ["card wipe", "flip", "卡片轉場", "內建"], "desc": "卡片翻轉擦除轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "Gradient Wipe", "cat": "transition", "tags": ["gradient wipe", "luma wipe", "漸變擦除", "內建"], "desc": "依灰度圖溶解轉場（很萬用）", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "Linear/Radial Wipe", "cat": "transition", "tags": ["wipe", "線性擦除", "放射擦除", "內建"], "desc": "線性/放射擦除轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "CC Glass Wipe", "cat": "transition", "tags": ["glass wipe", "melt", "熔化轉場", "內建"], "desc": "熔化玻璃轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "CC Light Wipe", "cat": "transition", "tags": ["light wipe", "光擦除", "內建"], "desc": "發光擦除轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "CC Twister", "cat": "transition", "tags": ["twister", "flip", "扭轉轉場", "內建"], "desc": "扭轉翻面轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "CC WarpoMatic", "cat": "transition", "tags": ["warp", "dissolve", "扭曲溶解", "內建"], "desc": "依明暗扭曲溶解轉場", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}
+{"name": "Block Dissolve", "cat": "transition", "tags": ["block dissolve", "方塊溶解", "內建"], "desc": "隨機方塊溶解", "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"}

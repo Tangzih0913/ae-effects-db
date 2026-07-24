@@ -32,6 +32,9 @@
   .name{font-size:16px;font-weight:650}
   .cat{font-size:11px;color:var(--accent);background:var(--chip);padding:2px 8px;border-radius:20px}
   .warn{font-size:11px;color:#e0a020;background:rgba(224,160,32,.13);padding:2px 8px;border-radius:20px}
+  .offi{display:inline-block;margin-top:9px;font-size:12px;color:var(--accent);text-decoration:none;
+        border:1px solid var(--border);border-radius:8px;padding:3px 10px}
+  .offi:hover{border-color:var(--accent)}
   .src{font-size:11px;color:var(--muted);margin-left:auto}
   .desc{color:var(--text);margin-top:6px;font-size:14px}
   .stack{margin-top:8px;padding-left:2px}
@@ -154,12 +157,13 @@ function render(){
       "<span>"+esc(k)+" · "+esc(v)+"</span>").join("")+"</div>";
     let tags=(d.tags||[]).slice(0,12).map(t=>`<span data-q="${esc(t)}">${esc(t)}</span>`).join("");
     const warn = d.unverified ? '<span class="warn">⚠ 未驗證</span>' : '';
+    const link = d.url ? `<a class="offi" href="${esc(d.url)}" target="_blank" rel="noopener">官方頁 ↗</a>` : '';
     return `<div class="card"><div class="top">
         <span class="name">${hl(d.name,terms)}</span>
         <span class="cat">${esc(d.cat||"")}</span>${warn}
         <span class="src">${esc(origin)}</span></div>
       <div class="desc">${hl(d.desc||"",terms)}</div>
-      ${stack}${vars}<div class="tags">${tags}</div></div>`;
+      ${stack}${vars}<div class="tags">${tags}</div>${link}</div>`;
   }).join("") + (list.length>200?'<div class="empty">… 前 200 筆，縮小關鍵字看更精準結果</div>':"");
 }
 
