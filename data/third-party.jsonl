@@ -4,22 +4,10 @@
 {"name":"Heat Distortion","vendor":"Video Copilot","cat":"distort","tags":["heat haze","熱浪"],"desc":"熱浪空氣扭曲"}
 {"name":"Color Vibrance","vendor":"Video Copilot","cat":"color","tags":["colorize","著色"],"desc":"免費：單色能量著色"}
 {"name":"Twitch","vendor":"Video Copilot","cat":"stylize","tags":["twitch","strobe","shake","抽搐","閃頻"],"desc":"閃頻+抖動+色偏的緊張感風格化(預告片感)"}
-{"name":"Deep Glow","vendor":"Plugin Everything (aescripts)","cat":"glow","tags":["glow","bloom","physical","發光","輝光"],"desc":"物理精確指數衰減輝光，公認最漂亮的AE發光外掛"}
-{"name":"Shadow Studio 3","vendor":"Plugin Everything (aescripts)","cat":"light","tags":["shadow","soft shadow","陰影"],"desc":"高品質物理柔和陰影"}
-{"name":"Thicc Stroke","vendor":"Plugin Everything (aescripts)","cat":"draw","tags":["stroke","gradient stroke","描邊"],"desc":"免費：形狀圖層漸變寬度描邊"}
-{"name":"Plexus","vendor":"Rowbyte","cat":"particles","tags":["plexus","points lines","network","tech","點線","科技感","粒子網絡"],"desc":"點線面粒子網絡，科技感連線圖形(常見於科技發布會背景)"}
-{"name":"Stardust","vendor":"Superluminal","cat":"particles","tags":["particle","node based","節點","粒子"],"desc":"節點式模組化3D粒子系統，可做粒子/複製體/模型發射"}
+{"name":"FX Console","vendor":"Video Copilot","cat":"workflow","tags":["search","effects","workflow","搜尋效果","效率面板"],"desc":"免費：快速搜尋套用效果/預設、快照的效率面板"}
 {"name":"Twixtor","vendor":"RE:Vision Effects","cat":"time","tags":["slow motion","optical flow","retime","慢動作","補幀","升格"],"desc":"光流極致慢動作補幀，比AE內建時間扭曲更乾淨"}
 {"name":"ReelSmart Motion Blur","vendor":"RE:Vision Effects","cat":"blur","tags":["motion blur","rsmb","運動模糊"],"desc":"自動追蹤運動向量添加真實運動模糊"}
 {"name":"Neat Video","vendor":"ABSoft","cat":"restore","tags":["denoise","noise reduction","降噪"],"desc":"公認最強視訊降噪"}
 {"name":"Mocha Pro","vendor":"Boris FX","cat":"tracking","tags":["planar tracking","remove","stabilize","平面追蹤","物件移除","穩定"],"desc":"平面追蹤之王：螢幕替換、物件移除、穩定、3D相機反求"}
 {"name":"Lenscare","vendor":"Frischluft","cat":"blur","tags":["depth of field","bokeh","景深","散景"],"desc":"高品質景深散景(Depth of Field + Out of Focus)"}
-{"name":"Flow","vendor":"aescripts","cat":"utility","tags":["easing","graph","curve","緩動","曲線"],"desc":"緩動曲線庫，一鍵套用動畫曲線"}
-{"name":"AutoFill","vendor":"aescripts","cat":"generate","tags":["fill","grow","liquid","填充","生長"],"desc":"自動向Alpha內生長填充動畫(液體漫延/藤蔓)"}
-{"name":"Lockdown","vendor":"aescripts","cat":"tracking","tags":["surface tracking","warp track","表面追蹤","貼皮"],"desc":"非平面表面追蹤，紋身/衣服/皮膚貼合"}
-{"name":"GEOlayers 3","vendor":"aescripts","cat":"generate","tags":["map","geo","地圖","地理動畫"],"desc":"在AE內生成可動畫的地圖(路線/區域/標記)"}
-{"name":"Datamosh 2","vendor":"aescripts","cat":"stylize","tags":["datamosh","glitch","壓縮故障"],"desc":"真實datamosh壓縮故障藝術"}
-{"name":"Duik Ángela","vendor":"RxLaboratory","cat":"rigging","tags":["rigging","character","ik","角色綁定","骨骼"],"desc":"免費角色綁定動畫套件(IK/骨骼/自動走路)"}
-{"name":"Limber","vendor":"aescripts","cat":"rigging","tags":["ik limbs","character","四肢","角色"],"desc":"快速IK四肢角色動畫"}
-{"name":"Animation Composer","vendor":"Mister Horse","cat":"preset","tags":["preset","text animation","transitions","預設庫","文字動畫"],"desc":"免費預設管理器+大量文字/轉場/音效預設"}
-{"name":"Newton","vendor":"Motion Boutique","cat":"physics","tags":["physics","gravity","rigid body","物理","重力","碰撞"],"desc":"2D物理引擎：重力、碰撞、彈跳"}
+{"name":"Duik Ángela","vendor":"RxLaboratory","cat":"rigging","tags":["rigging","character","ik","角色綁定","骨骼"],"desc":"免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布"}
