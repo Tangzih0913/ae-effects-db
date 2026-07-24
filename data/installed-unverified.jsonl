@@ -2,24 +2,16 @@
 {"name":"F's SelectedBlur","vendor":"F's Plugins (免費/日系)","cat":"blur","tags":["selective blur","color blur","局部模糊","選色模糊","日系免費"],"desc":"（推測，未查證）F's 系列免費外掛，應為只對選定顏色/區域做模糊。","unverified":true,"aex":"F's SelectedBlur_CS6"}
 {"name":"OLM Smoother","vendor":"OLM Digital (免費/日系)","cat":"stylize","tags":["smooth","anti-alias","edge","抗鋸齒","平滑邊緣","動畫線稿","日系免費"],"desc":"（推測，未查證）日本OLM動畫工作室釋出的免費外掛，常用於平滑/抗鋸齒動畫線稿邊緣。","unverified":true,"aex":"OLMSmoother"}
 {"name":"OLM Blur","vendor":"OLM Digital (免費/日系)","cat":"blur","tags":["blur","directional","方向模糊","日系免費"],"desc":"（推測，未查證）OLM釋出的免費模糊外掛。","unverified":true,"aex":"OLMBlur"}
-{"name":"HydroChrome","vendor":"未知/免費","cat":"distort","tags":["liquid","chromatic","water","液態","色散","水流","扭曲","未驗證"],"desc":"（推測，未查證）名稱意指『液態色彩』，應為液流/色散扭曲類效果。","unverified":true,"aex":"HydroChrome"}
 {"name":"Deflicker","vendor":"未知/免費","cat":"restore","tags":["deflicker","flicker","去閃爍","頻閃","未驗證"],"desc":"（推測，未查證）去除畫面閃爍/頻閃。與已收錄的Flicker Free/BCC Flicker Fixer功能類似。","unverified":true,"aex":"Deflicker"}
 {"name":"Deblur","vendor":"未知/免費","cat":"restore","tags":["deblur","sharpen","去模糊","銳化","未驗證"],"desc":"（推測，未查證）去除模糊/銳化找回細節。","unverified":true,"aex":"Deblur"}
-{"name":"Diopter","vendor":"未知/免費","cat":"blur","tags":["diopter","depth of field","close up","景深","近攝","失焦","未驗證"],"desc":"（推測，未查證）近攝鏡/景深類效果，名稱來自屈光度近攝鏡片。","unverified":true,"aex":"Diopter_CC_CS6"}
-{"name":"Bevelizer","vendor":"未知/免費","cat":"perspective","tags":["bevel","3d edge","emboss","倒角","立體邊","浮雕","未驗證"],"desc":"（推測，未查證）為圖層邊緣做倒角/立體感，類似進階版Bevel Alpha。","unverified":true,"aex":"Bevelizer"}
 {"name":"xCloner","vendor":"未知/免費","cat":"generate","tags":["clone","array","repeat","複製","陣列","重複","未驗證"],"desc":"（推測，未查證）圖層複製/陣列排列生成。","unverified":true,"aex":"xCloner"}
 {"name":"GlueGun","vendor":"未知/免費","cat":"generate","tags":["connect","lines","link","連線","連接","點線","未驗證"],"desc":"（推測，未查證）在點/圖層之間拉連接線，類似Connect Layers。","unverified":true,"aex":"GlueGun"}
-{"name":"Potok","vendor":"未知/免費 (俄系)","cat":"distort","tags":["flow","liquid","stream","流動","液態","水流","поток","未驗證"],"desc":"（推測，未查證）Potok在俄文意為『流』，應為流動/液態扭曲效果。","unverified":true,"aex":"Potok"}
 {"name":"Renoir","vendor":"未知/免費","cat":"paint","tags":["painterly","impressionist","oil","繪畫","印象派","油畫","筆觸","未驗證"],"desc":"（推測，未查證）名稱取自印象派畫家雷諾瓦，應為繪畫/印象派筆觸風格化。","unverified":true,"aex":"Renoir"}
 {"name":"LetterMapper 2","vendor":"未知/免費","cat":"text","tags":["ascii art","character map","matrix","grid","字元畫","字符對映","矩陣文字","未驗證"],"desc":"（推測，未查證）把畫面/字元對映成字母格陣，做ASCII art/矩陣文字。","unverified":true,"aex":"L3tt3rM4pp3r2"}
 {"name":"TextBox 2","vendor":"未知/免費","cat":"text","tags":["text box","auto size","background","字幕底框","自動調整","文字背景","未驗證"],"desc":"（推測，未查證）在文字後方生成會隨字數自動縮放的底框/氣泡。","unverified":true,"aex":"TextBox2"}
 {"name":"TextBorder","vendor":"未知/免費","cat":"text","tags":["text border","stroke","outline","文字描邊","外框","未驗證"],"desc":"（推測，未查證）為文字加外框/描邊。","unverified":true,"aex":"TextBorder"}
 {"name":"TextDelay","vendor":"未知/免費","cat":"text","tags":["text delay","per character","stagger","逐字延遲","錯開","打字動畫","未驗證"],"desc":"（推測，未查證）讓文字逐字/逐行延遲出現做動畫。","unverified":true,"aex":"TextDelay"}
-{"name":"Nebulosity","vendor":"未知/免費","cat":"generate","tags":["nebula","space","clouds","星雲","太空","雲氣","星際","未驗證"],"desc":"（推測，未查證）星雲/太空雲氣生成器。","unverified":true,"aex":"Nebulosity"}
-{"name":"Vectory","vendor":"未知/免費","cat":"stylize","tags":["motion vector","trails","streaks","運動向量","拖尾","流線","未驗證"],"desc":"（推測，未查證）依運動向量做拖尾/流線效果。","unverified":true,"aex":"Vectory"}
-{"name":"InkBloom","vendor":"未知/免費","cat":"generate","tags":["ink","bleed","spread","水墨","暈染","擴散","墨滴","未驗證"],"desc":"（推測，未查證）水墨暈染/墨滴擴散生長效果。","unverified":true,"aex":"InkBloom"}
 {"name":"Jlitch / JPEG Glitch","vendor":"未知/免費","cat":"stylize","tags":["jpeg","glitch","compression","datamosh","故障","壓縮失真","毛刺","未驗證"],"desc":"（推測，未查證）JPEG壓縮/故障glitch破壞效果。","unverified":true,"aex":"Jlitch / JPEG_glitch"}
-{"name":"Glasswork","vendor":"未知/免費","cat":"stylize","tags":["glass","refraction","stained glass","玻璃","折射","彩繪玻璃","未驗證"],"desc":"（推測，未查證）玻璃/彩繪玻璃折射質感風格化。","unverified":true,"aex":"Glasswork"}
 {"name":"MultiSlicer","vendor":"未知/免費","cat":"stylize","tags":["slice","strips","displace","切片","條帶","錯位","未驗證"],"desc":"（推測，未查證）把畫面切成多條並可錯位/位移。","unverified":true,"aex":"MultiSlicer"}
 {"name":"RekaGrid","vendor":"未知/免費","cat":"generate","tags":["grid","pattern","網格","格線","圖案","未驗證"],"desc":"（推測，未查證）網格/格線圖案生成。","unverified":true,"aex":"RekaGrid"}
 {"name":"SmartMask","vendor":"未知/免費","cat":"keying","tags":["mask","roto","auto mask","遮罩","自動去背","摳像","未驗證"],"desc":"（推測，未查證）自動/智慧遮罩生成(roto)。","unverified":true,"aex":"SmartMask"}
@@ -34,9 +26,6 @@
 {"name":"CurveTracer","vendor":"未知/免費","cat":"draw","tags":["trace","edge","outline","描線","輪廓追蹤","未驗證"],"desc":"（推測，未查證）沿邊緣/曲線描線追蹤生成路徑或線條。","unverified":true,"aex":"CurveTracer"}
 {"name":"FluidMap / Fluxion","vendor":"未知/免費","cat":"warp","tags":["fluid","flow","simulation","流體","流場","模擬","液態","未驗證"],"desc":"（推測，未查證）流體/流場模擬或流動扭曲。","unverified":true,"aex":"FluidMap / Fluxion"}
 {"name":"Kernel","vendor":"未知/免費","cat":"stylize","tags":["convolution","custom filter","matrix","卷積","自訂濾鏡","核","未驗證"],"desc":"（推測，未查證）自訂卷積核(convolution)濾鏡(銳化/邊緣/浮雕等)。","unverified":true,"aex":"Kernel"}
-{"name":"qpBang","vendor":"未知/免費","cat":"generate","tags":["muzzle flash","burst","flash","槍火","爆閃","閃光","未驗證"],"desc":"（推測，未查證）名稱含Bang，疑為槍口火光/爆閃生成。","unverified":true,"aex":"qpBang"}
-{"name":"Fryer","vendor":"未知/免費","cat":"stylize","tags":["distort","fry","deep fry","過曝破壞","油炸meme","失真","未驗證"],"desc":"（推測，未查證）疑為『deep fry』meme風格過曝/壓縮破壞。","unverified":true,"aex":"Fryer"}
-{"name":"Dropletee","vendor":"未知/免費","cat":"warp","tags":["water drop","droplet","ripple","水滴","水珠","漣漪","未驗證"],"desc":"（推測，未查證）水滴/水珠折射漣漪效果。","unverified":true,"aex":"Dropletee"}
 {"name":"Polytrace","vendor":"未知/免費","cat":"stylize","tags":["low poly","triangulate","polygon","低多邊形","三角化","幾何","未驗證"],"desc":"（推測，未查證）低多邊形三角化(low-poly)風格化。","unverified":true,"aex":"Polytrace"}
 {"name":"Modulation 2","vendor":"未知/免費","cat":"distort","tags":["modulate","wave","signal","調變","波形","訊號扭曲","未驗證"],"desc":"（推測，未查證）以波形/訊號調變畫面(掃描/干擾感)。","unverified":true,"aex":"Modulation 2"}
 {"name":"TRKeys","vendor":"未知/免費","cat":"workflow","tags":["keyframe","transform","關鍵幀","變換工具","未驗證"],"desc":"（推測，未查證）關鍵幀/變換輔助工具。","unverified":true,"aex":"TRKeys"}

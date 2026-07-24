@@ -29,3 +29,14 @@
 {"name":"Boundary Fill","vendor":"free plugin","cat":"generate","tags":["fill","flood fill","boundary","填充","邊界填色","油漆桶","封閉區域","免費"],"desc":"免費：在封閉線條邊界內做泛洪填色(像油漆桶)，方便手繪線稿上色。","aex":"140829_BoundaryFill"}
 {"name":"P_TextMask","vendor":"free plugin","cat":"text","tags":["text to mask","text outline","文字轉遮罩","文字輪廓","路徑","描字","免費"],"desc":"免費：把文字圖層轉成遮罩/路徑，方便對文字描邊、勾線或做路徑動畫。","aex":"P_TextMask"}
 {"name":"AviUtl Circle Align","vendor":"free (AviUtl port)","cat":"workflow","tags":["circle","radial array","arrange","圓形排列","放射排列","環形陣列","佈局","免費"],"desc":"免費(移植自AviUtl)：把多個圖層自動排成圓形/環狀陣列佈局。","aex":"AviUtl Circle Align"}
+{"name":"Vectory","vendor": "aescripts","cat":"generate","tags":["lines","particles","network","connect","plexus","tech","動態線條","粒子連線","點線","科技感","線條粒子"],"desc":"動態線條粒子動畫外掛：用線條連接運動的點/粒子做科技感連線網絡(類Plexus的線條表現)。","aex":"Vectory"}
+{"name":"HydroChrome","vendor": "aescripts","cat":"generate","tags":["abstract","flowing background","liquid","gradient","抽象背景","流動背景","液態","漸層流動","動態底圖"],"desc":"生成抽象流動背景動畫：柔順流動的液態彩色底圖，做背景/氛圍。","aex":"HydroChrome"}
+{"name":"Nebulosity","vendor": "aescripts","cat":"generate","tags":["nebula","volumetric","smoke","space","3d","星雲","體積煙霧","太空","星際雲氣","體積特效"],"desc":"三維體積星雲/煙霧特效：生成有立體體積感的星雲、太空雲氣、煙霧。","aex":"Nebulosity"}
+{"name":"InkBloom","vendor": "aescripts","cat":"generate","tags":["ink","bleed","spread","watercolor","水墨","暈染","墨滴擴散","彩色水墨","渲染"],"desc":"彩色水墨暈染動畫特效：墨色在畫面中擴散暈開生長，做水墨/渲染過場。","aex":"InkBloom"}
+{"name":"Bevelizer","vendor": "aescripts","cat":"3d","tags":["bevel","3d text","material","texture","倒角","3D文字","材質","貼圖","立體字","金屬字"],"desc":"3D文字倒角+材質紋理貼圖特效：為文字/形狀加立體倒角並套材質(金屬/塑料等)做立體標題。","aex":"Bevelizer"}
+{"name":"Bang","vendor":"aescripts","cat":"generate","tags":["muzzle flash","gunfire","gun","3d","槍口火光","槍火","開槍","火花","射擊","爆閃"],"desc":"3D槍口火焰/閃光/火花槍火特效，做開槍射擊VFX(檔名 qpBang)。","aex":"qpBang"}
+{"name":"Potok","vendor": "aescripts","cat":"generate","tags":["fluid","flow","gradient","colorize","流體","流動","漸變著色","液態色彩","流場"],"desc":"流體漸變著色特效動畫：液態流動的漸層色彩，做抽象流動背景/著色(Potok俄文為『流』)。","aex":"Potok"}
+{"name":"Glasswork","vendor": "aescripts","cat":"distort","tags":["glass","refraction","真實玻璃","玻璃折射","毛玻璃","折射扭曲","玻璃質感"],"desc":"真實玻璃折射視覺效果：模擬透過玻璃的折射扭曲與質感(AE/PR通用)。","aex":"Glasswork"}
+{"name":"Fryer","vendor": "Zaebects","cat":"stylize","tags":["deep fry","glitch","digital damage","compression","油炸","數位損壞","故障","過曝破壞","meme","壓縮崩壞"],"desc":"數位損壞/油炸(deep-fry)故障視覺特效：過曝、壓縮崩壞、飽和爆掉的meme式破壞風。","aex":"Fryer"}
+{"name":"Dropletee","vendor": "aescripts","cat":"warp","tags":["liquid","distort","trail","droplet","液態","扭曲","拖尾","水滴","流動變形"],"desc":"液態扭曲拖尾視覺效果：畫面如液體般扭動拖曳。","aex":"Dropletee"}
+{"name":"Diopter","vendor": "aescripts","cat":"blur","tags":["refraction","dreamy blur","diffusion","close up","折射","朦朧","柔焦","光線折射","近攝鏡","唯美模糊"],"desc":"光線折射模糊朦朧視覺效果：帶折射感的柔焦/朦朧，做唯美/夢幻氛圍。","aex":"Diopter_CC_CS6"}
