@@ -46,7 +46,7 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 | `data/builtin-ae.jsonl` | **AE 內建效果**（沒買外掛也搜得到） | Adobe |
 | `data/aescripts.jsonl` | **aescripts.com 熱門工具**（Deep Glow / Overlord / RubberHose / Motion / Plexus / Stardust / Beauty Box…） | aescripts+aeplugins 各作者 |
 | `data/third-party.jsonl` | 其他第三方（Video Copilot / RE:Vision / Neat Video / Mocha…） | 各家 |
-| `data/installed-extras.jsonl` | **掃描本機 AE 實裝、上面沒收錄的**（Topaz / VC Orb / Gaussian Splatting / Physarum / Soft Body / VR 沉浸式…） | 各家 |
+| `data/installed.jsonl` | **未驗證**：掃描本機 AE 實裝、官方清單沒收錄的（Topaz / VC Orb / Gaussian Splatting / Physarum / Soft Body / VR 沉浸式…）。其中查無官方說明、純用檔名推測的會標 ⚠ | 各家 |
 | `data/recipes.jsonl` | **配方庫**：一個「畫面感」對應要疊哪些效果 | 整理 |
 
 ## 資料格式（JSONL，一行一筆）

@@ -79,10 +79,10 @@
 </footer>
 
 <script>
-const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","installed-extras","installed-unverified","recipes"];
+const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","installed","recipes"];
 const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sapphire",
   "continuum":"Continuum","builtin-ae":"AE 內建","aescripts":"aescripts","third-party":"第三方",
-  "installed-extras":"你機器上的","installed-unverified":"本機·未驗證","recipes":"配方"};
+  "installed":"未驗證","recipes":"配方"};
 let DATA = [];
 
 function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
