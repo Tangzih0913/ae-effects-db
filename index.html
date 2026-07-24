@@ -31,6 +31,7 @@
   .card .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
   .name{font-size:16px;font-weight:650}
   .cat{font-size:11px;color:var(--accent);background:var(--chip);padding:2px 8px;border-radius:20px}
+  .warn{font-size:11px;color:#e0a020;background:rgba(224,160,32,.13);padding:2px 8px;border-radius:20px}
   .src{font-size:11px;color:var(--muted);margin-left:auto}
   .desc{color:var(--text);margin-top:6px;font-size:14px}
   .stack{margin-top:8px;padding-left:2px}
@@ -78,10 +79,10 @@
 </footer>
 
 <script>
-const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","installed-extras","recipes"];
+const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","installed-extras","installed-unverified","recipes"];
 const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sapphire",
   "continuum":"Continuum","builtin-ae":"AE 內建","aescripts":"aescripts","third-party":"第三方",
-  "installed-extras":"你機器上的","recipes":"配方"};
+  "installed-extras":"你機器上的","installed-unverified":"本機·未驗證","recipes":"配方"};
 let DATA = [];
 
 function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
@@ -152,9 +153,10 @@ function render(){
     if(d.variants) vars='<div class="variants">'+Object.entries(d.variants).map(([k,v])=>
       "<span>"+esc(k)+" · "+esc(v)+"</span>").join("")+"</div>";
     let tags=(d.tags||[]).slice(0,12).map(t=>`<span data-q="${esc(t)}">${esc(t)}</span>`).join("");
+    const warn = d.unverified ? '<span class="warn">⚠ 未驗證</span>' : '';
     return `<div class="card"><div class="top">
         <span class="name">${hl(d.name,terms)}</span>
-        <span class="cat">${esc(d.cat||"")}</span>
+        <span class="cat">${esc(d.cat||"")}</span>${warn}
         <span class="src">${esc(origin)}</span></div>
       <div class="desc">${hl(d.desc||"",terms)}</div>
       ${stack}${vars}<div class="tags">${tags}</div></div>`;
