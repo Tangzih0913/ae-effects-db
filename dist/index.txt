@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1000 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1001 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -903,6 +903,7 @@ Voukoder｜第三方｜render｜以 FFmpeg 為核心的免費開源輸出外掛�
 BlenderAe｜第三方｜3d｜Blender 與 AE 之間雙向傳資料的橋接工具，可把 3D 物件、攝影機、燈光、頂點與物理模擬送進 AE 變成原生圖層，也能把 AE 的空物件與攝影機送回 Blender。｜https://blenderae.com/blenderae
 shpr｜第三方｜draw｜11 種路徑動畫器合一，直覺地讓形狀圖層變形與動起來，完全不用寫運算式。｜https://goodboy.ninja/shpr
 RubberHose｜第三方｜rigging｜用「軟管」概念綁定角色四肢的經典腳本，隨時改綁定也不會弄丟關鍵影格，做橡膠管風格的人物動畫。｜https://www.battleaxe.co/rubberhose
+ORB｜第三方｜3d｜Video Copilot 的免費球體外掛，用貼圖與凹凸貼圖做出擬真行星與地球，支援 AE 燈光的日夜變化與環境反射。｜https://www.videocopilot.net/orb/
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
