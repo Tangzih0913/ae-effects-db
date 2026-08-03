@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 740 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 753 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -154,6 +154,19 @@ Moti Wizard｜aescripts｜workflow｜已經做好動畫的Illustrator/Photoshop�
 Batch Comp Normalizer｜aescripts｜workflow｜批次工具，讓AE專案更乾淨整齊（統一合成設定與清理）。｜https://aescripts.com/batch-comp-normalizer/
 AE Work Manager｜aescripts｜workflow｜在AE內直接記錄工時與產出專案成本報表，不用再開試算表或外部計時器。｜https://aescripts.com/ae-work-manager/
 Vaeriable｜aescripts｜workflow｜直接在時間軸輸入或載入數值並求解四則運算、代數與交叉相乘（換算比例很方便）。｜https://aescripts.com/vaeriable/
+2D F Bend｜aescripts｜warp｜把任意圖層切片後彎成弧形或圓環，快速做出彎曲文字、圓形排版與曲面結構。｜https://aescripts.com/2dfbend/
+3D Extruder｜aescripts｜3d｜把 2D 圖層或文字擠出成有厚度的 3D 物件，常用來做立體標題與 Logo。｜https://aescripts.com/3d-extruder/
+3D Flip Board｜aescripts｜animation｜一鍵生成機場／車站那種 3D 翻牌看板動畫，用來做復古感的文字或數字切換。｜https://aescripts.com/3d-flip-board/
+3D Flip Book｜aescripts｜3d｜一鍵做出 3D 翻書動畫，適合做相簿、雜誌或作品集的翻頁呈現。｜https://aescripts.com/3d-flip-book/
+3D Letters Animator｜aescripts｜text｜生成可自訂字體、材質、燈光與方向的 3D 標題，做逐字進場的立體文字動畫。｜https://aescripts.com/3d-letters-animator/
+3D Primitives Generator｜aescripts｜3d｜用 AE 原生圖層一鍵生成立方體、圓柱、金字塔等幾何體，並可自訂材質，不必外接 3D 軟體。｜https://aescripts.com/3d-primitives-generator/
+3D to 2D Screenspace｜aescripts｜workflow｜把 3D 圖層上的位置轉成對應的 2D 螢幕座標空物件，方便讓 2D 文字標註跟著 3D 物件跑。｜https://aescripts.com/3d-to-2d-screenspace/
+AAF Relinker｜aescripts｜workflow｜自動把遺失素材重新連結回檔案，即使檔名或長度略有差異也能對上，特別適合 AAF 匯入後的整理。｜https://aescripts.com/aaf-relinker/
+AccelCurve｜aescripts｜animation｜強化 AE 緩動設定的擴充，支援三個以上控制點的動畫曲線，做更細膩的加減速。｜https://aescripts.com/accelcurve/
+Add Time｜aescripts｜workflow｜在專案的任意時間點插入一段時間，自動位移關鍵影格、延長合成長度與圖層出點。｜https://aescripts.com/add-time/
+Advanced Composition Grids｜aescripts｜workflow｜在合成中建立各式模組化網格與參考線，幫助排版對齊與構圖規劃。｜https://aescripts.com/advanced-composition-grids/
+Advanced Mask Editor｜aescripts｜matte｜強化 AE 遮罩編輯的工具組，加快遮罩路徑的建立與修改，適合大量轉描與去背工作。｜https://aescripts.com/advanced-mask-editor/
+Advanced Selection｜aescripts｜workflow｜用圖層類型、混合模式、名稱、標籤顏色等條件批次篩選並選取圖層，整理大型專案很省時。｜https://aescripts.com/advanced-selection/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
