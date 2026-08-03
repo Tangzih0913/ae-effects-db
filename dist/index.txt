@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 753 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 768 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -167,6 +167,19 @@ Add Time｜aescripts｜workflow｜在專案的任意時間點插入一段時間�
 Advanced Composition Grids｜aescripts｜workflow｜在合成中建立各式模組化網格與參考線，幫助排版對齊與構圖規劃。｜https://aescripts.com/advanced-composition-grids/
 Advanced Mask Editor｜aescripts｜matte｜強化 AE 遮罩編輯的工具組，加快遮罩路徑的建立與修改，適合大量轉描與去背工作。｜https://aescripts.com/advanced-mask-editor/
 Advanced Selection｜aescripts｜workflow｜用圖層類型、混合模式、名稱、標籤顏色等條件批次篩選並選取圖層，整理大型專案很省時。｜https://aescripts.com/advanced-selection/
+ColorFlow｜aescripts｜workflow｜建立自訂調色盤並快速套用到任何圖層，還能從圖片或影片取色、統一管理標籤顏色，讓整支片配色一致。｜https://aescripts.com/colorflow/
+QuickLink Items｜aescripts｜workflow｜快速尋找並取代專案中遺失的素材項目，套用現成模板時省下一個個手動重連的時間。｜https://aescripts.com/quicklink-items/
+Layer Name Tag｜aescripts｜workflow｜把合成裡的預合成圖層自動排成網格並掛上即時名稱標籤，改名會同步更新，讓一堆 precomp 一眼就看得懂。｜https://aescripts.com/layer-name-tag/
+SolariText｜aescripts｜text｜把選定的文字圖層一鍵變成 3D 翻牌看板動畫，內建機場／牆面網格模式與隨機起始圖樣，不用手工排卡片。｜https://aescripts.com/solaritext/
+Cleanup Master｜aescripts｜workflow｜簡化形狀圖層的整理工作，把匯入後雜亂的群組與路徑快速清乾淨，適合處理 Illustrator 轉檔的向量素材。｜https://aescripts.com/cleanup-master/
+mCloner Pro｜aescripts｜mograph｜即時複製圖層並排列成陣列再加上動畫，支援效果與預合成，做重複圖形的 MG 動畫很快。｜https://aescripts.com/mcloner-pro/
+LayerStash｜aescripts｜workflow｜把任何圖層連同關鍵影格、效果與運算式整個存起來，一鍵載入到其他專案重複使用，還能依客戶分類管理。｜https://aescripts.com/layerstash/
+TypeMonkey｜aescripts｜text｜自動生成、排版並動畫化整段文字的動態排版腳本，不用手 K 關鍵影格就能做出節奏感強的文字片頭。｜https://aescripts.com/typemonkey/
+Control LMFX｜aescripts｜workflow｜用一個面板統一控制多個圖層與效果群組的參數開關，省去在時間軸上反覆展開圖層調整。｜https://aescripts.com/control-lmfx/
+Depth Scanner 2｜aescripts｜3d｜用 AI 自動從影片估算深度圖，可拿來做景深虛化、體積霧光、偽 3D 視差等效果；第二代改善了跨影格閃爍問題。｜https://aescripts.com/depth-scanner/
+Dust Transition｜aescripts｜transition｜GPU 加速的粉塵消散外掛，把畫面打散成上百萬顆粒子後隨雜訊飄散，常用來做「灰飛煙滅」式轉場。｜https://aescripts.com/dust-transition/
+sWITCH｜aescripts｜workflow｜在整個專案中替換素材或合成，並自動保留原本的縮放、位置、遮罩與父子關係，套模板換圖不會跑版。｜https://aescripts.com/switch/
+MAD PAINTER｜aescripts｜art｜GPU 加速的油畫筆觸外掛，在影片上刷出梵谷式的筆刷紋理，把實拍轉成手繪油畫風。｜https://aescripts.com/mad-painter/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -656,6 +669,8 @@ Neat Video｜第三方｜restore｜公認最強的視訊降噪外掛，先建立
 Mocha Pro｜第三方｜tracking｜平面追蹤之王：螢幕替換、物件移除、穩定、3D相機反求｜https://borisfx.com/products/mocha-pro/
 Lenscare｜第三方｜blur｜高品質景深散景外掛(含 Depth of Field 與 Out of Focus 兩支)，可用深度圖做真實鏡頭虛化。｜https://www.frischluft.com/lenscare
 Duik Ángela｜第三方｜rigging｜免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布｜https://rxlaboratory.org/tools/duik/
+Railcut｜第三方｜workflow｜把 Premiere 那套軌道式剪輯搬進 AE，支援修剪、波紋、滑動與音波／縮圖顯示，不用來回丟回剪輯軟體。｜https://www.jakeinmotion.com/railcut
+motionXpart｜第三方｜text｜免費的 AE 擴充面板，可用 .SRT 檔一鍵生成動態字幕，另附建立圖層、合成與常用運算式的加速工具。｜https://github.com/motionxpart/motionXpart-plugin
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
