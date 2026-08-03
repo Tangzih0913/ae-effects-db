@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 960 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 982 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -352,6 +352,28 @@ SF Caddy｜aescripts｜rigging｜快速替換素材的角色動畫工具，可�
 AE Global Renamer｜aescripts｜workflow｜批次重新命名 AE 裡的任何東西——圖層、素材、合成都行，整理大型專案的必備小工具。｜https://aescripts.com/ae-global-renamer/
 PathPrep｜aescripts｜utility｜把參數化形狀（矩形、橢圓等）批次轉成貝茲路徑並烘焙變形，方便後續編輯或複製乾淨向量。｜https://aescripts.com/pathprep/
 Sliced Box｜aescripts｜3d｜快速做出會動的 3D 切片方塊，盒子分層錯開展開的動畫，內建預設可直接用。｜https://aescripts.com/sliced-box/
+Essential Namer｜aescripts｜workflow｜把常用圖層屬性快速加進基本圖形面板並自訂命名，做 MOGRT 模板交給剪輯師時很省事。｜https://aescripts.com/essential-namer/
+SplitGrid｜aescripts｜mograph｜選好行列數就自動把合成鋪成分屏網格，含分隔線與形狀圖層，做多畫面並排很快。｜https://aescripts.com/splitgrid/
+Neural Warp｜aescripts｜distort｜AI 驅動的彈性變形外掛，讓素材依畫面內容自然地拉伸貼合，做變形合成與跟隨扭曲。｜https://aescripts.com/neural-warp/
+Projection 3D｜aescripts｜3d｜做攝影機投射貼圖與照片視差動畫的進階工具，可把平面照轉成可運鏡的 3D 場景，還附 3D 物件轉換與一鍵水面。｜https://aescripts.com/projection-3d/
+AutoCollapse｜aescripts｜workflow｜一鍵把整個專案（含深層巢狀與鎖定的合成）所有圖層的連續柵格化打開，解決向量素材放大變糊的問題。｜https://aescripts.com/autocollapse/
+Mask Null｜aescripts｜utility｜用空物件控制遮罩形狀並保持即時連動，讓遮罩可以像一般圖層一樣被父子級與運算式驅動。｜https://aescripts.com/mask-null/
+Text At Marker｜aescripts｜text｜在圖層標記的位置觸發自訂文字動畫，可指定每個標記要動幾個字、詞或行，對旁白節奏上字很好用。｜https://aescripts.com/text-at-marker/
+Cyclops｜aescripts｜render｜把 AE 的空物件、運動路徑與圖層邊界框一起算進畫面，做幕後製作過程展示或作品案例分享。｜https://aescripts.com/cyclops/
+Mask & Layer Splitter｜aescripts｜utility｜把一個圖層上的多個遮罩拆成獨立圖層，並可自動改名、裁切預合成與加上時間偏移。｜https://aescripts.com/mask-and-layer-splitter/
+Crazy Shapes｜aescripts｜draw｜擴充形狀圖層的路徑操作，可幫路徑做綁定控制器並快速加上拉伸變形動畫。｜https://aescripts.com/crazy-shapes/
+EDL Importer｜aescripts｜workflow｜把剪輯軟體輸出的 EDL 直接匯進 AE，自動連結媒體並依剪輯點建好合成。｜https://aescripts.com/edl-importer/
+Matte Tool｜aescripts｜matte｜20 個處理遮罩與圖層的小工具合一，做遮罩的合併、相交、排除與拆分都在同一個面板。｜https://aescripts.com/matte-tool/
+Datamosh｜aescripts｜stylize｜在 AE 裡做 datamosh：抽掉影格、挪用其他片段的運動向量做出畫面融化拖影，內建 60 多種演算法。｜https://aescripts.com/datamosh/
+AI Relight Pro｜aescripts｜light｜用 AI 在後期替素材重新打光，可放無限盞 AE 燈光且跨影格穩定，不用重拍就換掉整場光線。｜https://aescripts.com/ai-relight-pro/
+TimeMarker｜aescripts｜workflow｜更好用的標記工具，可設定顏色、註解與持續長度，還能保護指定範圍的關鍵影格不被時間伸縮拉走。｜https://aescripts.com/timemarker/
+Super Liquids｜aescripts｜mograph｜生成逐格手繪風格的液體拖尾動畫，做卡通感的水流與黏稠變形。｜https://aescripts.com/super-liquids/
+Keyless｜aescripts｜animation｜不用關鍵影格就替任何屬性做動畫，自動套上 Penner 緩動與控制項，特別適合做 MOGRT 模板。｜https://aescripts.com/keyless/
+Vision｜aescripts｜stylize｜用 AI 偵測畫面中的物件並畫上追蹤框與標註，做監控畫面、科幻 HUD 與反烏托邦風格。｜https://aescripts.com/vision/
+Light Patterns｜aescripts｜light｜生成會動的光影圖案（類似舞台燈的投影片），內建各種可控的移動模式做氣氛光。｜https://aescripts.com/light-patterns/
+Circle Rig Pro｜aescripts｜mograph｜把圖層排成圓形、放射或螺旋陣列，可加效果器、可循環 wiggle 與時間延遲，做環狀輪播動畫。｜https://aescripts.com/circle-rig-pro/
+Quick Depth｜aescripts｜3d｜從任何素材快速估算出深度圖的外掛，第三代加入跨影格穩定與畫質提升，可用來做景深、霧與偽 3D。｜https://aescripts.com/quick-depth/
+Cell Division｜aescripts｜stylize｜把圖層邊緣變成會互相融合分裂的透明液滴，內建 21 種樣式，做有機的黏稠分裂效果。｜https://aescripts.com/cell-division/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
