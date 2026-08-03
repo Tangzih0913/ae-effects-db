@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 768 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 820 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -180,6 +180,58 @@ Depth Scanner 2｜aescripts｜3d｜用 AI 自動從影片估算深度圖，可�
 Dust Transition｜aescripts｜transition｜GPU 加速的粉塵消散外掛，把畫面打散成上百萬顆粒子後隨雜訊飄散，常用來做「灰飛煙滅」式轉場。｜https://aescripts.com/dust-transition/
 sWITCH｜aescripts｜workflow｜在整個專案中替換素材或合成，並自動保留原本的縮放、位置、遮罩與父子關係，套模板換圖不會跑版。｜https://aescripts.com/switch/
 MAD PAINTER｜aescripts｜art｜GPU 加速的油畫筆觸外掛，在影片上刷出梵谷式的筆刷紋理，把實拍轉成手繪油畫風。｜https://aescripts.com/mad-painter/
+Jlitch｜aescripts｜stylize｜把壓縮錯誤與畫面回授變成故障藝術，從輕微數位雜訊到整片迷幻扭曲都能調。｜https://aescripts.com/jlitch/
+PathBlurFX｜aescripts｜blur｜沿著遮罩路徑做 GPU 加速的方向性模糊拖尾，適合做速度感的甩尾與流動質感。｜https://aescripts.com/pathblurfx/
+BAO Bones｜aescripts｜rigging｜在 AE 裡用 IK 骨骼綁定角色，三個步驟就能建好骨架開始擺動作，做人物走路動畫很快。｜https://aescripts.com/bao-bones/
+Fluxion｜aescripts｜particles｜從遮罩產生向量場，讓粒子沿著場的方向流動，做煙流、風向與抽象流體視覺。｜https://aescripts.com/fluxion/
+JustPaste｜aescripts｜workflow｜把「存檔→匯出→找檔案→拖進來」整串動作變成一次複製貼上，在 AE 與其他軟體之間搬素材超省事。｜https://aescripts.com/justpaste/
+Lorenz System｜aescripts｜generate｜把勞侖次吸子等混沌數學曲線轉成 AE 路徑，用來畫抽象科學感的纏繞線條動畫。｜https://aescripts.com/lorenz-system/
+AutoCaption｜aescripts｜text｜從音訊或影片自動辨識並生成帶樣式的字幕，做短影音上字幕不用逐句手打。｜https://aescripts.com/autocaption/
+Blacklight Composite Suite｜aescripts｜composite｜專做合成的外掛組，包含把元素融進背景的打光、遮罩調整與色彩匹配工具，讓貼上去的素材看起來像原本就在那。｜https://aescripts.com/blacklight-composite-suite/
+Extendo｜aescripts｜edge｜AE 上少見的邊緣延展外掛，把去背後殘缺的邊緣往外補回細節，修 roto 邊緣很好用。｜https://aescripts.com/extendo/
+Type ReAlign｜aescripts｜text｜切換文字圖層的對齊方式時保持文字位置不跑掉，改左右置中排版不用重新對位。｜https://aescripts.com/type-realign/
+RXXR｜aescripts｜stylize｜生成 ASCII 字元與像素風的科技故障效果，內建樣式預設與漸層，做駭客／終端機畫面很對味。｜https://aescripts.com/rxxr/
+Raytracing Relight｜aescripts｜light｜用深度圖與法線貼圖對實拍做即時 2.5D 光線追蹤重打光，不用重拍重算就能加光、改光甚至整個換掉。｜https://aescripts.com/raytracing-relight/
+MB Liquid Glass｜aescripts｜distort｜GPU 加速的液態玻璃質感外掛，可調折射、模糊、高光與陰影，做 iOS 那種透明玻璃 UI 很快。｜https://aescripts.com/mb-liquid-glass/
+High Pass for AE｜aescripts｜color｜把 Photoshop 的高通濾鏡搬到 AE，用來抽出細節做銳化或紋理強化（隨喜付費）。｜https://aescripts.com/highpass-for-ae/
+3D Wizard｜aescripts｜3d｜在 AE 內用 AI 把 2D 圖片轉成 3D 模型，還能用文字提示編輯生成結果（目前僅支援 Windows）。｜https://aescripts.com/3d-wizard/
+FractalMapper｜aescripts｜kaleido｜把圖層映射到碎形圖案上，內建 morph 功能可以做出鑽進／鑽出碎形的迷幻轉場。｜https://aescripts.com/fractalmapper/
+mirAI｜aescripts｜expression｜用自然語言描述需求就生成 AE 腳本與運算式的 AI 助手，可接 Gemini、OpenRouter 等多種模型。｜https://aescripts.com/mirai/
+Pluck｜aescripts｜workflow｜從別的專案檔直接拖進需要的合成或單一圖層，也能把選定合成匯出成乾淨的獨立專案，交件與重用都方便。｜https://aescripts.com/pluck/
+Project Doctor｜aescripts｜workflow｜一個面板搞定大型專案的體檢：重新連結遺失素材、清掉重複資產、瀏覽與標記媒體，讓亂掉的專案回復秩序。｜https://aescripts.com/project-doctor/
+Kease｜aescripts｜animation｜緩動曲線工具，支援標準與跨多個關鍵影格的曲線調整，快速統一整段動畫的加減速手感。｜https://aescripts.com/kease/
+PuzzleMotion｜aescripts｜animation｜積木式動畫系統，把方向積木拖到視覺化時間軸上拼起來就生成動畫，不用手 K 關鍵影格或調曲線編輯器。｜https://aescripts.com/puzzlemotion/
+CloneSpace｜aescripts｜mograph｜GPU 加速的圖層複製外掛，把圖層複製並分佈到 3D 空間中排成陣列，做立體重複圖形。｜https://aescripts.com/clonespace/
+Aquon｜aescripts｜particles｜GPU 加速的 2D 流體外掛，模擬水一般的流動擴散，做水墨暈染與液體 MG 動畫。｜https://aescripts.com/aquon/
+LightSweepPro｜aescripts｜light｜物理式倒角與掃光外掛，一個圖層就能做出金屬質感的文字／Logo 掃光，不用預合成。｜https://aescripts.com/lightsweeppro/
+DeepCopy｜aescripts｜workflow｜一鍵把預合成（含底下巢狀合成）複製成完全獨立的副本，改一個不會動到另一個。｜https://aescripts.com/deepcopy/
+Dynamic Shadow 3｜aescripts｜light｜快速幫圖層加上可調的動態陰影，內建 19 種陰影與 12 種光源樣式，讓平面元素看起來有落地感。｜https://aescripts.com/dynamic-shadow/
+Pause Cleaner｜aescripts｜audio｜自動偵測音軌中的靜音段並產生剪掉空白的新合成，口播影片抓節奏不用一段段手動切。｜https://aescripts.com/pause-cleaner/
+Ballpoint｜aescripts｜art｜GPU 外掛，把影片轉成舊紙上的原子筆素描風格，線條與紙紋都可調。｜https://aescripts.com/ballpoint/
+ReScanX｜aescripts｜stylize｜把畫面重建成掃描線輪廓影像，做出等高線地形圖、熱顯像或監視螢幕那種電子掃描感。｜https://aescripts.com/rescanx/
+FoldCraft｜aescripts｜animation｜把文字、遮罩或去背素材變成紙張摺疊式動畫，可調紙紋、邊框與抖動，做標題與 Logo 展開很有質感。｜https://aescripts.com/foldcraft/
+Free Compose｜aescripts｜workflow｜像 Photoshop 那樣把圖層折疊成群組，但不會破壞運算式、父子關係或裁掉畫面，等於可展開的預合成。｜https://aescripts.com/free-compose/
+COMP-O-RAMA｜aescripts｜workflow｜把要用的合成尺寸排成佇列一次批次建立，內建 30 多種常見規格與智慧命名，做多版型交件超快。｜https://aescripts.com/comp-o-rama/
+Oscilloscope｜aescripts｜generate｜把圖片、音訊或路徑變成發光的類比示波器軌跡，可調光束粗細、螢光殘影與閃爍。｜https://aescripts.com/oscilloscope/
+Safest Zone｜aescripts｜workflow｜一鍵加上各社群平台的安全框參考線，避免重要內容被介面遮住，也能存自訂規格重複使用。｜https://aescripts.com/safest-zone/
+ColorVSN｜aescripts｜color｜用色彩映射把灰階資訊換成濃烈配色，可當調色工具做假色、熱顯像那類強烈風格。｜https://aescripts.com/colorvsn/
+Fractal Terrain｜aescripts｜generate｜用碎形雜訊與光線投射在 AE 內生成擬真 3D 地形山脈，不必開 3D 軟體就有風景鏡頭。｜https://aescripts.com/fractal-terrain/
+Fractal Noise 3D｜aescripts｜generate｜GPU 加速的 3D 體積碎形雜訊外掛，配合攝影機與燈光生成擬真雲霧與大氣效果。｜https://aescripts.com/fractal-noise-3d/
+Fluid｜aescripts｜particles｜以真實流體物理運算的 2D 流體模擬外掛，任何圖層都能當發射源，支援碰撞物與雙色混流，即時在時間軸看結果。｜https://aescripts.com/fluid/
+SceneStasher｜aescripts｜workflow｜把圖層與關鍵影格的選取狀態存成按鈕，之後一鍵跳回那個時間點與選取，反覆微調長片段很省事。｜https://aescripts.com/scenestasher/
+Stipple｜aescripts｜art｜用物理模擬生成隨畫面變化的點描圖案，做出報紙印刷或插畫般的點畫質感且不會閃爍。｜https://aescripts.com/stipple/
+Light Volume｜aescripts｜light｜把合成裡的 AE 燈光渲染成 3D 空間中的體積光束，做耶穌光與舞台光柱。｜https://aescripts.com/light-volume/
+Face Director｜aescripts｜beauty｜用 AI 操控畫面中人物的臉部表情與視線方向，可用來修表情、補救連戲問題或做誇張變臉。｜https://aescripts.com/face-director/
+Pixel Sorter 4｜aescripts｜stylize｜像素排序的元祖外掛，把畫面像素依亮度等條件重排拉出長條，做故障藝術與數位撕裂感。｜https://aescripts.com/pixel-sorter/
+Pixion｜aescripts｜particles｜以圖層像素驅動的粒子系統，依畫面亮度與顏色決定粒子行為，做影像匯聚成形或碎散的效果。｜https://aescripts.com/pixion/
+VoxPattern｜aescripts｜3d｜GPU 加速外掛，直接在 3D 空間中生成幾何圖案陣列，做科技感背景與立體圖形牆。｜https://aescripts.com/voxpattern/
+OverAct｜aescripts｜animation｜幫既有動畫加上誇張的過衝與回彈手感，讓 MG 動畫更有彈性與個性。｜https://aescripts.com/overact/
+QuickImporter｜aescripts｜workflow｜取代 AE 匯入視窗的檔案瀏覽器，支援模糊關鍵字搜尋與內建音訊試聽，找素材快很多。｜https://aescripts.com/quickimporter/
+BeatEdit for After Effects｜aescripts｜audio｜自動偵測音樂節拍並寫成標記，可依節拍抖動、重複關鍵影格或錯開圖層，做卡點影片的必備工具。｜https://aescripts.com/beatedit-for-after-effects/
+VECTIS｜aescripts｜draw｜從任何路徑畫出有深度感的偽 3D 貝茲線條，筆畫粗細會依 Z 深度與攝影機距離自動變化。｜https://aescripts.com/vectis/
+Ray Projector｜aescripts｜3d｜把影像邊緣擠出成 3D 模型並用環境貼圖上材質，沿擠出方向加漸層光，做立體發光 Logo。｜https://aescripts.com/ray-projector/
+LED Architect｜aescripts｜workflow｜算 LED 大屏的解析度、面板數量、耗電與重量，並一鍵產生帶參考線與測試圖的合成，做舞台大屏內容用。｜https://aescripts.com/led-architect/
+Interlaced Glitch｜aescripts｜film｜重現舊類比與早期數位攝影機的隔行掃描畫質，做錄影帶年代的復古故障感。｜https://aescripts.com/interlaced-glitch/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
