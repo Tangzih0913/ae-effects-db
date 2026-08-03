@@ -165,3 +165,7 @@ rubberize-it	果凍／橡膠彈性物理，與已收錄的 Soft Flow 重複
 match-position	匹配位置與 3D 轉 2D 座標，與已收錄的 3D to 2D Screenspace 重複
 motion-4	Mt. Mograph Motion 4 已由官方改版為已收錄的 Motion Studio
 particle-illusion-pro	獨立版粒子軟體，效果本體已收錄為 BCC Particle Illusion
+tv-distortion-bundle	套裝包入口；其中五個 AE 外掛已分別收錄，不另建 bundle 條目
+fast-bokeh-pro-openfx	官方標示為 Fusion／Resolve 等 OpenFX host 專用，不是 After Effects 版本
+obj-sequence-exporter-for-cinema4d	官方產品索引標示已停售，且為 Cinema 4D 專用匯出器
+color-wiggle	官方產品索引標示已停售
