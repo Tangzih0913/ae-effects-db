@@ -94,6 +94,10 @@
         <button id="srcBtn" type="button" title="可複選來源">來源 ▾</button>
         <div id="srcPanel" class="catpanel" hidden></div>
       </span>
+      <select id="sort" title="排序方式">
+        <option value="popular" selected>熱門度</option>
+        <option value="name">名稱</option>
+      </select>
       <button id="aiBtn" class="aibtn" type="button" title="複製一段提示詞，貼進 ChatGPT/Claude 就能用「貼圖」找特效">🤖 用 AI 找 / 貼圖找</button>
     </div>
     <div id="activeFilters" class="actbar"></div>
@@ -137,8 +141,8 @@ async function boot(){
   const all = await Promise.all(FILES.map(async f=>{
     try{
       const t = await (await fetch("data/"+f+".jsonl")).text();
-      return t.split("\n").filter(l=>l.trim()).map(l=>{
-        try{const o=JSON.parse(l);o._src=f;return o;}catch(e){return null;}
+      return t.split("\n").filter(l=>l.trim()).map((l,i)=>{
+        try{const o=JSON.parse(l);o._src=f;o._rank=i;return o;}catch(e){return null;}
       }).filter(Boolean);
     }catch(e){return [];}
   }));
@@ -228,6 +232,18 @@ function score(d,terms){
     if(name.includes(t))sc+=5; if(tags.includes(t))sc+=3; if(text.includes(t))sc+=1;}
   return sc;
 }
+// 各資料檔本身已依代表性編排；熱門排序交錯各來源的前段條目，
+// 避免單一套件佔滿首頁，同順位再以常用第三方工具優先。
+const POPULAR_SRC = ["aescripts","third-party","red-giant","sapphire","universe","continuum","builtin-ae","recipes","installed"];
+function popularCmp(a,b){
+  return (a._rank??9999)-(b._rank??9999)
+    || POPULAR_SRC.indexOf(a._src)-POPULAR_SRC.indexOf(b._src)
+    || (a.name||"").localeCompare(b.name||"");
+}
+function browseCmp(a,b){
+  return document.getElementById("sort").value==="name"
+    ? (a.name||"").localeCompare(b.name||"") : popularCmp(a,b);
+}
 function hl(txt,terms){
   let s=esc(txt);
   for(const t of terms){if(t.length<1)continue;
@@ -259,16 +275,18 @@ function render(){
   if(selSrcs.size)pool=pool.filter(d=>selSrcs.has(d._src));
   let list, segNote="";
   if(terms.length){
-    list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+    list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0)
+      .sort((a,b)=>b[0]-a[0]||browseCmp(a[1],b[1])).map(x=>x[1]);
     if(!list.length){
       const segs=segment(terms);
       if(segs.length){
-        list=pool.map(d=>[score(d,segs),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+        list=pool.map(d=>[score(d,segs),d]).filter(x=>x[0]>0)
+          .sort((a,b)=>b[0]-a[0]||browseCmp(a[1],b[1])).map(x=>x[1]);
         if(list.length){ segNote=`（找不到「${esc(raw)}」，已自動拆詞：${segs.map(esc).join("、")}）`; window.__segTerms=segs; }
       }
     }else{ window.__segTerms=null; }
   }else{
-    list=pool.slice().sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+    list=pool.slice().sort(browseCmp);
     window.__segTerms=null;
   }
   if(segNote) terms.push(...window.__segTerms);
@@ -357,6 +375,7 @@ document.getElementById("aiBtn").addEventListener("click", async ()=>{
 });
 
 document.getElementById("q").addEventListener("input",render);
+document.getElementById("sort").addEventListener("change",render);
 // 點面板以外的地方、或按 Esc，就收起篩選面板
 document.addEventListener("click", closeAllPanels);
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeAllPanels(); });
