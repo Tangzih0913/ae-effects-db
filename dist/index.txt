@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 997 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1000 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -383,6 +383,8 @@ Anchor Pro｜aescripts｜workflow｜一鍵把錨點移到圖層的任何位置�
 Moiré｜aescripts｜stylize｜一鍵生成摩爾紋干涉條紋，可做現代或復古風格，也常拿來加強 CRT／VHS 那種拍螢幕的真實感。｜https://aescripts.com/moire/
 Loopy｜aescripts｜animation｜一個面板搞定各種循環：關鍵影格、路徑、預合成與素材都能一鍵設成無縫 loop。｜https://aescripts.com/loopy/
 Automation Blocks｜aescripts｜workflow｜用積木式介面組出自己的一鍵自動化工具，把重複的專案處理流程變成按一下就跑完。｜https://aescripts.com/automation-blocks-for-after-effects/
+Smooth Rounder｜aescripts｜draw｜生成平滑彎曲的圓角形狀圖層，可用關鍵影格動畫，做有機感的圓潤圖形。｜https://aescripts.com/smooth-rounder/
+Uber Key｜aescripts｜animation｜只要改一次路徑，整段已經 K 好的路徑動畫就跟著更新，不用一格一格重調。｜https://aescripts.com/uber-key/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -900,6 +902,7 @@ PSOFT CelMX｜第三方｜art｜日本動畫數位製作用的外掛組，處理
 Voukoder｜第三方｜render｜以 FFmpeg 為核心的免費開源輸出外掛，讓 AE／Premiere 直接用原生不支援的編碼器與參數輸出影片。｜https://www.voukoder.org/
 BlenderAe｜第三方｜3d｜Blender 與 AE 之間雙向傳資料的橋接工具，可把 3D 物件、攝影機、燈光、頂點與物理模擬送進 AE 變成原生圖層，也能把 AE 的空物件與攝影機送回 Blender。｜https://blenderae.com/blenderae
 shpr｜第三方｜draw｜11 種路徑動畫器合一，直覺地讓形狀圖層變形與動起來，完全不用寫運算式。｜https://goodboy.ninja/shpr
+RubberHose｜第三方｜rigging｜用「軟管」概念綁定角色四肢的經典腳本，隨時改綁定也不會弄丟關鍵影格，做橡膠管風格的人物動畫。｜https://www.battleaxe.co/rubberhose
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
