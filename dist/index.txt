@@ -637,16 +637,16 @@ Glasswork｜未驗證｜distort｜真實玻璃折射視覺效果：模擬透過�
 Fryer｜未驗證｜stylize｜數位損壞/油炸(deep-fry)故障視覺特效：過曝、壓縮崩壞、飽和爆掉的meme式破壞風。｜
 Dropletee｜未驗證｜warp｜液態扭曲拖尾視覺效果：畫面如液體般扭動拖曳。｜https://aescripts.com/dropletee/
 Diopter｜未驗證｜blur｜光線折射模糊朦朧視覺效果：帶折射感的柔焦/朦朧，做唯美/夢幻氛圍。｜https://aescripts.com/diopter/
-F's ColorChange｜未驗證｜color｜（推測，未查證）F's 系列免費外掛之一，功能應為選定顏色替換成另一顏色。｜
-F's SelectedBlur｜未驗證｜blur｜（推測，未查證）F's 系列免費外掛，應為只對選定顏色/區域做模糊。｜
-OLM Smoother｜未驗證｜stylize｜（推測，未查證）日本OLM動畫工作室釋出的免費外掛，常用於平滑/抗鋸齒動畫線稿邊緣。｜
-OLM Blur｜未驗證｜blur｜（推測，未查證）OLM釋出的免費模糊外掛。｜
+F's ColorChange｜未驗證｜color｜F's Plugins 免費外掛組中的換色效果（CS6 版舊名，現行版對應 ColorSwitch）；把指定顏色換成另一個顏色，日本動畫撮影常用。｜https://github.com/bryful/F-s-PluginsProjects
+F's SelectedBlur｜未驗證｜blur｜F's Plugins 免費外掛組中的選色模糊（CS6 版舊名，現行版對應 SelectiveColorBlur）；只對指定顏色的區域做模糊，不用另外畫遮罩。｜https://github.com/bryful/F-s-PluginsProjects
+OLM Smoother｜未驗證｜stylize｜日本 OLM Digital 釋出的免費外掛，在不讓畫面變糊的前提下平滑線條鋸齒，專治掃描或手繪線稿的毛邊。｜https://olm.co.jp/rd/technology/tools/?lang=en
+OLM Blur｜未驗證｜blur｜為賽璐璐動畫設計的免費模糊外掛，模糊的是色塊之間的交界；搭配 OLM Color Key 就能只模糊指定顏色，不必畫遮罩。｜https://olm.co.jp/rd/technology/tools/?lang=en
 Deflicker｜未驗證｜restore｜（推測，未查證）去除畫面閃爍/頻閃。與已收錄的Flicker Free/BCC Flicker Fixer功能類似。｜
 Deblur｜未驗證｜restore｜（推測，未查證）去除模糊/銳化找回細節。｜
 xCloner｜未驗證｜generate｜極快速地複製任何類型圖層的複製器，支援沿路徑複製與物件複製，做陣列/群組動畫。｜https://aescripts.com/xcloner/
-GlueGun｜未驗證｜generate｜（推測，未查證）在點/圖層之間拉連接線，類似Connect Layers。｜
+CC Glue Gun｜未驗證｜paint｜用黏稠的團狀粒子畫出像熱熔膠槍擠出來的立體線條，常拿來做手寫字或黏液書寫效果。｜https://www.cycorefx.com/prod_ccfxhd.php
 Renoir｜未驗證｜paint｜（推測，未查證）名稱取自印象派畫家雷諾瓦，應為繪畫/印象派筆觸風格化。｜
-LetterMapper 2｜未驗證｜text｜（推測，未查證）把畫面/字元對映成字母格陣，做ASCII art/矩陣文字。｜
+L3tt3rM4pp3r2｜未驗證｜text｜把影片對映成字元畫（ASCII art／textmode）的外掛，第二代重做了介面並附 textmode 預設。｜https://aescripts.com/l3tt3rm4pp3r/
 TextBox 2｜未驗證｜text｜原生外掛，在文字後方生成尺寸完美且可自訂的形狀底框，會自動隨文字更新，直接套在文字圖層上，不需父子連結/遮罩/表達式。｜https://aescripts.com/textbox/
 TextBorder｜未驗證｜text｜為文字生成尺寸完美且可自訂的外框，會自動隨文字內容更新。｜https://aescripts.com/textborder/
 TextDelay｜未驗證｜text｜原生外掛，讓文字動畫依字元/單字/行延遲出現；不同於內建動畫器，它會繼承你的緩動曲線。｜https://aescripts.com/textdelay/
@@ -655,17 +655,17 @@ MultiSlicer｜未驗證｜stylize｜（推測，未查證）把畫面切成多�
 RekaGrid｜未驗證｜generate｜功能豐富的網格生成外掛，可高度自訂樣式並做網格動畫，用於版面、背景與科技感圖形。｜https://aescripts.com/reka-grid/
 SmartMask｜未驗證｜keying｜（推測，未查證）自動/智慧遮罩生成(roto)。｜
 ShapeBlur｜未驗證｜blur｜（推測，未查證）以自訂形狀為散景光圈做模糊。｜
-Overbrights｜未驗證｜glow｜（推測，未查證）提取/強化畫面過曝高光，常作為輝光來源。｜
-MrSmoothie｜未驗證｜generate｜（推測，未查證）平滑漸層/混色生成(類CC效果命名風格)。｜
-RipplePulse｜未驗證｜warp｜（推測，未查證）脈衝式漣漪/擴散圓環扭曲。｜
+CC Overbrights｜未驗證｜glow｜CycoreFX HD 外掛組中處理超亮部（overbright）的效果，用於 32 位元浮點素材的高光處理（官方頁僅列名，未提供功能說明）。｜https://www.cycorefx.com/prod_ccfxhd.php
+CC Mr. Smoothie｜未驗證｜color｜AE 內建的 Cycore 效果，依畫面亮度把顏色重新對映成平滑漸層，做迷幻流動的變色質感。｜https://helpx.adobe.com/after-effects/using/stylize-effects.html
+CC Ripple Pulse｜未驗證｜warp｜CycoreFX HD 外掛組中的漣漪脈衝效果（官方頁僅列名，未提供功能說明）。｜https://www.cycorefx.com/prod_ccfxhd.php
 PixelStretch｜未驗證｜stylize｜有機的非線性像素拉伸，具次像素精度，可依亮度曲線或輸入圖層在正交方向拉伸。｜https://aescripts.com/pixel-stretch/
 PixelExtender｜未驗證｜utility｜用遮罩路徑延伸圖層邊緣像素，補滿畫面或改變長寬比。｜https://aescripts.com/pixel-extender/
-HexTile｜未驗證｜stylize｜（推測，未查證）六角形蜂巢平鋪/馬賽克。｜
+CC HexTile｜未驗證｜stylize｜六角蜂巢圖樣生成器，把畫面以六邊形重複平鋪，並有獨特的「smear」拖抹控制。｜https://www.cycorefx.com/prod_ccfxhd.php
 MosaicArt｜未驗證｜stylize｜進階馬賽克與磁磚濾鏡，把畫面重組成拼貼/磁磚圖樣。｜https://aescripts.com/mosaicart/
 CurveTracer｜未驗證｜draw｜用輪廓線描繪素材，從鉛筆素描到抽象勾勒，為畫面帶來手繪有機感。｜https://aescripts.com/curve-tracer/
 FluidMap / Fluxion｜未驗證｜warp｜生成流體狀的灰階圖(map)，當作置換、遮罩或流動效果的驅動來源。｜https://aescripts.com/fluid-map/
-Kernel｜未驗證｜stylize｜（推測，未查證）自訂卷積核(convolution)濾鏡(銳化/邊緣/浮雕等)。｜
-Polytrace｜未驗證｜stylize｜（推測，未查證）低多邊形三角化(low-poly)風格化。｜
+CC Kernel｜未驗證｜stylize｜CycoreFX HD 外掛組中的卷積核（kernel）濾鏡（官方頁僅列名，未提供功能說明）。｜https://www.cycorefx.com/prod_ccfxhd.php
+Polytrace｜未驗證｜stylize｜演算法三角化外掛，把畫面轉成低多邊形風格，再複雜也算得很快，還能用遮罩點當三角化的控制點。｜https://elementsupply.co/products/polytrace
 Modulation 2｜未驗證｜distort｜免寫程式快速做出訊號調變效果，含多種色彩模式與可調低通濾波，做掃描/干擾/波形視覺。｜https://aescripts.com/modulation/
 TRKeys｜未驗證｜workflow｜（推測，未查證）關鍵幀/變換輔助工具。｜
 KP_smooth｜未驗證｜keying｜（推測，未查證）摳像後遮罩邊緣平滑處理。｜
