@@ -74,10 +74,11 @@
     <input id="q" placeholder="輸入描述… 例：發光、故障、老電影、甩鏡轉場、粒子、去背、慢動作" autofocus autocomplete="off">
     <div class="filters">
       <button id="catBtn" type="button" title="可複選分類">分類 ▾</button>
-      <select id="fsrc"><option value="">全部來源</option></select>
+      <button id="srcBtn" type="button" title="可複選來源">來源 ▾</button>
       <button id="aiBtn" type="button" title="複製一段提示詞，貼進 ChatGPT/Claude 就能用「貼圖」找特效">🤖 用 AI 找 / 貼圖找</button>
     </div>
     <div id="catPanel" class="catpanel" hidden></div>
+    <div id="srcPanel" class="catpanel" hidden></div>
     <div id="aiMsg" class="aimsg"></div>
     <div class="hint">試試：
       <b data-q="霓虹">霓虹</b> ·
@@ -126,44 +127,47 @@ async function boot(){
   DATA = all.flat();
   document.getElementById("total").textContent = DATA.length;
   // build filters
-  buildCatPanel();
-  const fs=document.getElementById("fsrc");
-  FILES.forEach(f=>{const o=document.createElement("option");o.value=f;o.textContent=SRC_LABEL[f]||f;fs.appendChild(o);});
+  catFilter.build(); srcFilter.build();
   render();
 }
 
-// ── 分類多選 ──────────────────────────────────────────────
-const selCats = new Set();
+// ── 多選篩選器（分類 / 來源共用）────────────────────────────
+function makeFilter({btnId, panelId, label, keyOf, labelOf, sortByCount}){
+  const sel = new Set();
+  const btn = () => document.getElementById(btnId);
+  const panel = () => document.getElementById(panelId);
 
-function buildCatPanel(){
-  const counts = {};
-  DATA.forEach(d=>{ if(d.cat) counts[d.cat]=(counts[d.cat]||0)+1; });
-  const cats = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]||a.localeCompare(b));
-  const panel = document.getElementById("catPanel");
-  panel.innerHTML =
-    `<span class="c clr" data-clear="1">✕ 清除</span>` +
-    cats.map(c=>`<span class="c" data-cat="${esc(c)}">${esc(c)}<span class="n">${counts[c]}</span></span>`).join("");
-  panel.addEventListener("click", e=>{
-    const el = e.target.closest(".c");
-    if(!el) return;
-    if(el.dataset.clear){ selCats.clear(); }
-    else{
-      const c = el.dataset.cat;
-      selCats.has(c) ? selCats.delete(c) : selCats.add(c);
-    }
-    syncCatUI();
-    render();
-  });
+  function build(){
+    const counts = {};
+    DATA.forEach(d=>{ const k=keyOf(d); if(k) counts[k]=(counts[k]||0)+1; });
+    let keys = Object.keys(counts);
+    keys.sort(sortByCount ? (a,b)=>counts[b]-counts[a]||a.localeCompare(b)
+                          : (a,b)=>FILES.indexOf(a)-FILES.indexOf(b));   // 來源維持原本的排列順序
+    panel().innerHTML =
+      `<span class="c clr" data-clear="1">✕ 清除</span>` +
+      keys.map(k=>`<span class="c" data-k="${esc(k)}">${esc(labelOf(k))}<span class="n">${counts[k]}</span></span>`).join("");
+    panel().addEventListener("click", e=>{
+      const el = e.target.closest(".c");
+      if(!el) return;
+      if(el.dataset.clear) sel.clear();
+      else{ const k=el.dataset.k; sel.has(k) ? sel.delete(k) : sel.add(k); }
+      sync(); render();
+    });
+    btn().addEventListener("click", ()=>{ panel().hidden = !panel().hidden; });
+  }
+  function sync(){
+    panel().querySelectorAll(".c[data-k]").forEach(el=>el.classList.toggle("on", sel.has(el.dataset.k)));
+    btn().textContent = sel.size ? `${label} (${sel.size}) ▾` : `${label} ▾`;
+    btn().classList.toggle("active", sel.size>0);
+  }
+  return {build, sel};
 }
 
-function syncCatUI(){
-  document.querySelectorAll("#catPanel .c[data-cat]").forEach(el=>{
-    el.classList.toggle("on", selCats.has(el.dataset.cat));
-  });
-  const btn = document.getElementById("catBtn");
-  btn.textContent = selCats.size ? `分類 (${selCats.size}) ▾` : "分類 ▾";
-  btn.classList.toggle("active", selCats.size>0);
-}
+const catFilter = makeFilter({btnId:"catBtn", panelId:"catPanel", label:"分類",
+  keyOf:d=>d.cat, labelOf:k=>k, sortByCount:true});
+const srcFilter = makeFilter({btnId:"srcBtn", panelId:"srcPanel", label:"來源",
+  keyOf:d=>d._src, labelOf:k=>SRC_LABEL[k]||k, sortByCount:false});
+const selCats = catFilter.sel, selSrcs = srcFilter.sel;
 
 function hay(d){
   let s=[d.name,d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
@@ -203,10 +207,9 @@ function segment(terms){
 function render(){
   const raw=document.getElementById("q").value.trim().toLowerCase();
   const terms=raw.split(/\s+/).filter(Boolean);
-  const fsrc=document.getElementById("fsrc").value;
   let pool=DATA;
   if(selCats.size)pool=pool.filter(d=>selCats.has(d.cat));
-  if(fsrc)pool=pool.filter(d=>d._src===fsrc);
+  if(selSrcs.size)pool=pool.filter(d=>selSrcs.has(d._src));
   let list, segNote="";
   if(terms.length){
     list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
@@ -223,7 +226,7 @@ function render(){
   }
   if(segNote) terms.push(...window.__segTerms);
   document.getElementById("count").innerHTML =
-    (raw||selCats.size||fsrc)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
+    (raw||selCats.size||selSrcs.size)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
                      : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
   const box=document.getElementById("results");
   if(!list.length){box.innerHTML='<div class="empty">找不到，換個說法試試（例：發光 / glow / 光暈 / 輝光）</div>';return;}
@@ -298,11 +301,7 @@ document.getElementById("aiBtn").addEventListener("click", async ()=>{
 });
 
 document.getElementById("q").addEventListener("input",render);
-document.getElementById("catBtn").addEventListener("click",()=>{
-  const p=document.getElementById("catPanel");
-  p.hidden=!p.hidden;
-});
-document.getElementById("fsrc").addEventListener("change",render);
+// 兩個篩選面板的開合與點選，都由 makeFilter() 內部處理
 document.addEventListener("click",e=>{
   const q=e.target.getAttribute&&e.target.getAttribute("data-q");
   if(q){document.getElementById("q").value=q;render();window.scrollTo({top:0,behavior:"smooth"});}
