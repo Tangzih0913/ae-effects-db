@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1132 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1147 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -597,6 +597,21 @@ Warp Stabilizer｜AE內建｜tracking｜分析鏡頭運動並以裁切與變形�
 CC Block Load｜AE內建｜stylize｜模擬影像以大型像素方塊逐區載入，適合數位介面、低解析風格與圖塊揭露轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Threshold RGB｜AE內建｜stylize｜分別對紅綠藍通道套用閾值，適合製作彩色二值化、數位海報與高對比色塊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Radial ScaleWipe｜AE內建｜transition｜以從中心或邊緣縮放的放射擦除切換畫面，適合圓形爆發、鏡頭縮放與動態揭露。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Scale Wipe｜AE內建｜transition｜結合滑動與縮放切換兩個畫面，適合製作快速推拉、圖卡換頁與動態鏡頭轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Slant｜AE內建｜distort｜沿指定方向斜切整個圖層，適合製作傾斜文字、速度感圖卡與平行四邊形變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Split｜AE內建｜distort｜從中央切開圖層並讓兩半向不同方向移動，適合畫面裂開、雙向揭露與分割轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+Color Range｜AE內建｜keying｜以滴管選取一段顏色範圍並建立透明區域，適合處理多色背景、綠幕與局部色彩去背。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
+Difference Matte｜AE內建｜keying｜比較目前畫面與乾淨背景的差異建立遮罩，適合固定鏡頭中移除靜態背景並保留移動主體。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
+Matte Choker｜AE內建｜matte｜分階段收縮、擴張與柔化 Alpha 邊緣，適合清理去背毛邊、細洞與不穩定遮罩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html
+Refine Hard Matte｜AE內建｜matte｜針對輪廓清楚的硬邊遮罩降低抖動並修整邊緣，適合產品、建築與硬質物件去背。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html
+Refine Soft Matte｜AE內建｜matte｜保留髮絲、動態模糊與半透明細節來修整柔邊遮罩，適合人物與煙霧等複雜去背。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html
+Simple Choker｜AE內建｜matte｜以單一數值快速收縮或擴張遮罩邊緣，適合去除白邊、補足 Alpha 或微調去背輪廓。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html
+Dust & Scratches｜AE內建｜restore｜以半徑與門檻平滑孤立灰塵和刮痕，適合修復老膠片、掃描照片與固定小雜點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
+Color Difference Key｜AE內建｜keying｜利用前景與指定背景色的色差產生透明度，適合傳統藍幕、綠幕與高反差色幕去背。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
+Inner/Outer Key｜AE內建｜keying｜以內外兩個遮罩界定確定前景與背景，再計算邊緣透明度，適合輔助複雜輪廓去背。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
+Extract｜AE內建｜keying｜依亮度直方圖與黑白點建立透明度，適合抽出高光、煙霧、火焰或黑底光效素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
+Noise Alpha｜AE內建｜texture｜只在 Alpha 通道加入雜訊，適合製作顆粒溶解、不規則透明邊緣與紋理化遮罩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
+Noise HLS Auto｜AE內建｜texture｜自動隨時間改變色相、亮度與飽和度雜訊，適合快速加入動態底片顆粒與彩色閃動質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
