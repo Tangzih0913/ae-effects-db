@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1147 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1162 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -612,6 +612,21 @@ Inner/Outer Key｜AE內建｜keying｜以內外兩個遮罩界定確定前景與
 Extract｜AE內建｜keying｜依亮度直方圖與黑白點建立透明度，適合抽出高光、煙霧、火焰或黑底光效素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
 Noise Alpha｜AE內建｜texture｜只在 Alpha 通道加入雜訊，適合製作顆粒溶解、不規則透明邊緣與紋理化遮罩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
 Noise HLS Auto｜AE內建｜texture｜自動隨時間改變色相、亮度與飽和度雜訊，適合快速加入動態底片顆粒與彩色閃動質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
+Noise HLS｜AE內建｜texture｜分別在色相、亮度與飽和度加入可控制的雜訊，適合製作彩色顆粒、類比干擾與粗糙色彩質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html
+Time Difference｜AE內建｜time｜比較目前影格與前後時間影格的像素差異，適合偵測移動區域、建立動態遮罩與抽象殘影。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+Iris Wipe｜AE內建｜transition｜以可調形狀像鏡頭光圈般向內或向外揭露畫面，適合復古片尾、聚焦與幾何開合轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Radial Wipe｜AE內建｜transition｜讓擦除邊緣繞中心旋轉掃過畫面，適合時鐘、圓餅進度、雷達與扇形轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Venetian Blinds｜AE內建｜transition｜以多條平行葉片同步翻開或遮住畫面，適合百葉窗、條紋揭露與分段式轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Apply Color LUT｜AE內建｜color｜載入色彩查找表轉換畫面色調，適合套用技術 LUT、電影風格與跨攝影機色彩匹配。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html
+Color Profile Converter｜AE內建｜color｜在指定 ICC 色彩描述檔之間轉換影像，適合校正來源色域、模擬輸出設備與管理跨媒體色彩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html
+Grow Bounds｜AE內建｜utility｜擴大圖層可供後續效果運算的邊界，適合避免模糊、陰影、位移與光暈在原始尺寸外被截斷。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html
+HDR Compander｜AE內建｜color｜壓縮或展開高動態範圍數值以便中間處理，適合在 HDR 合成中保留高光並降低效果溢位。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html
+HDR Highlight Compression｜AE內建｜color｜平滑壓縮 HDR 畫面的極亮高光，適合保留過曝區層次、控制輸出峰值與進行色調映射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html
+Color Emboss｜AE內建｜emboss｜依影像邊緣建立凹凸浮雕並保留原始色彩，適合製作立體紋理、壓印圖案與彩色金屬表面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Scatter｜AE內建｜stylize｜把像素在指定範圍內隨機散開，適合製作擴散柔焦、顆粒邊緣與輕微破碎質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Threshold｜AE內建｜stylize｜依亮度門檻把影像轉成純黑與純白，適合製作剪影、版畫、高對比遮罩與二值動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Bevel Edges｜AE內建｜emboss｜在圖層不透明邊緣加入斜角高光與陰影，適合讓按鈕、圖卡與文字產生簡單立體厚度。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html
+Timecode｜AE內建｜text｜在畫面生成可設定格式與起點的時間碼，適合審片浮水印、剪輯對照、影格檢查與交付標記。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
