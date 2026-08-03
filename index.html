@@ -29,6 +29,16 @@
   .filters button:hover{border-color:var(--accent)}
   .aimsg{margin-top:8px;font-size:12.5px;color:var(--accent);min-height:1em}
   .aimsg a{color:var(--accent)}
+  .catpanel{margin-top:9px;padding:10px;border:1px solid var(--border);border-radius:12px;background:var(--panel);
+    display:flex;flex-wrap:wrap;gap:6px;max-height:210px;overflow-y:auto}
+  .catpanel .c{font-size:12.5px;border:1px solid var(--border);background:var(--panel2);color:var(--text);
+    border-radius:20px;padding:4px 11px;cursor:pointer;user-select:none;white-space:nowrap}
+  .catpanel .c:hover{border-color:var(--accent)}
+  .catpanel .c.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .catpanel .c .n{color:var(--muted);font-size:11px;margin-left:5px}
+  .catpanel .c.on .n{color:rgba(255,255,255,.8)}
+  .catpanel .clr{color:var(--accent);border-style:dashed}
+  #catBtn.active{background:var(--accent);border-color:var(--accent);color:#fff}
   .hint{color:var(--muted);font-size:12px;margin-top:8px}
   .hint b{color:var(--accent);cursor:pointer;font-weight:600}
   #count{color:var(--muted);font-size:12.5px;margin:14px 0 4px}
@@ -63,10 +73,11 @@
     <div class="sub">描述你想要的畫面，找對應的 After Effects 特效 · Red Giant / Universe / Sapphire / Continuum / 內建 / 第三方</div>
     <input id="q" placeholder="輸入描述… 例：發光、故障、老電影、甩鏡轉場、粒子、去背、慢動作" autofocus autocomplete="off">
     <div class="filters">
-      <select id="fcat"><option value="">全部分類</option></select>
+      <button id="catBtn" type="button" title="可複選分類">分類 ▾</button>
       <select id="fsrc"><option value="">全部來源</option></select>
       <button id="aiBtn" type="button" title="複製一段提示詞，貼進 ChatGPT/Claude 就能用「貼圖」找特效">🤖 用 AI 找 / 貼圖找</button>
     </div>
+    <div id="catPanel" class="catpanel" hidden></div>
     <div id="aiMsg" class="aimsg"></div>
     <div class="hint">試試：
       <b data-q="霓虹">霓虹</b> ·
@@ -115,12 +126,43 @@ async function boot(){
   DATA = all.flat();
   document.getElementById("total").textContent = DATA.length;
   // build filters
-  const cats=[...new Set(DATA.map(d=>d.cat).filter(Boolean))].sort();
-  const fc=document.getElementById("fcat");
-  cats.forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;fc.appendChild(o);});
+  buildCatPanel();
   const fs=document.getElementById("fsrc");
   FILES.forEach(f=>{const o=document.createElement("option");o.value=f;o.textContent=SRC_LABEL[f]||f;fs.appendChild(o);});
   render();
+}
+
+// ── 分類多選 ──────────────────────────────────────────────
+const selCats = new Set();
+
+function buildCatPanel(){
+  const counts = {};
+  DATA.forEach(d=>{ if(d.cat) counts[d.cat]=(counts[d.cat]||0)+1; });
+  const cats = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]||a.localeCompare(b));
+  const panel = document.getElementById("catPanel");
+  panel.innerHTML =
+    `<span class="c clr" data-clear="1">✕ 清除</span>` +
+    cats.map(c=>`<span class="c" data-cat="${esc(c)}">${esc(c)}<span class="n">${counts[c]}</span></span>`).join("");
+  panel.addEventListener("click", e=>{
+    const el = e.target.closest(".c");
+    if(!el) return;
+    if(el.dataset.clear){ selCats.clear(); }
+    else{
+      const c = el.dataset.cat;
+      selCats.has(c) ? selCats.delete(c) : selCats.add(c);
+    }
+    syncCatUI();
+    render();
+  });
+}
+
+function syncCatUI(){
+  document.querySelectorAll("#catPanel .c[data-cat]").forEach(el=>{
+    el.classList.toggle("on", selCats.has(el.dataset.cat));
+  });
+  const btn = document.getElementById("catBtn");
+  btn.textContent = selCats.size ? `分類 (${selCats.size}) ▾` : "分類 ▾";
+  btn.classList.toggle("active", selCats.size>0);
 }
 
 function hay(d){
@@ -161,10 +203,9 @@ function segment(terms){
 function render(){
   const raw=document.getElementById("q").value.trim().toLowerCase();
   const terms=raw.split(/\s+/).filter(Boolean);
-  const fcat=document.getElementById("fcat").value;
   const fsrc=document.getElementById("fsrc").value;
   let pool=DATA;
-  if(fcat)pool=pool.filter(d=>d.cat===fcat);
+  if(selCats.size)pool=pool.filter(d=>selCats.has(d.cat));
   if(fsrc)pool=pool.filter(d=>d._src===fsrc);
   let list, segNote="";
   if(terms.length){
@@ -182,7 +223,7 @@ function render(){
   }
   if(segNote) terms.push(...window.__segTerms);
   document.getElementById("count").innerHTML =
-    (raw||fcat||fsrc)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
+    (raw||selCats.size||fsrc)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
                      : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
   const box=document.getElementById("results");
   if(!list.length){box.innerHTML='<div class="empty">找不到，換個說法試試（例：發光 / glow / 光暈 / 輝光）</div>';return;}
@@ -257,7 +298,10 @@ document.getElementById("aiBtn").addEventListener("click", async ()=>{
 });
 
 document.getElementById("q").addEventListener("input",render);
-document.getElementById("fcat").addEventListener("change",render);
+document.getElementById("catBtn").addEventListener("click",()=>{
+  const p=document.getElementById("catPanel");
+  p.hidden=!p.hidden;
+});
 document.getElementById("fsrc").addEventListener("change",render);
 document.addEventListener("click",e=>{
   const q=e.target.getAttribute&&e.target.getAttribute("data-q");
