@@ -66,3 +66,4 @@ frankenstein	單純的 AI 臉部分割，功能被 Copy Face／FacePro 涵蓋
 pixel-extender	沿遮罩延展圖層，與已收錄的 Extendo 重複
 recolor	專案顏色檢視替換，與已收錄的 ColorFlow 重複
 quick-delete-and-reset	極小型批次刪除／重置小工具
+freegradient	官方已改版為 proGradient（原廠明示為 freeGradient 的全面重製），proGradient 已收錄
