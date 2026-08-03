@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 890 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 918 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -291,6 +291,34 @@ expressCode｜aescripts｜expression｜把 VS Code 等級的編輯器搬進 AE �
 KBar｜aescripts｜workflow｜自訂屬於自己的工具列按鈕，把常用腳本、效果與預設一鍵叫出，AE 效率工具的經典款。｜https://aescripts.com/kbar/
 AE Notepad｜aescripts｜workflow｜在 AE／Premiere 裡做帶時間碼的筆記與待辦，點一下跳回那個時間點，接客戶改稿意見很好用（可匯出 PDF）。｜https://aescripts.com/ae-notepad/
 Wrap It for After Effects｜aescripts｜3d｜把 3D 攝影機投射帶進 AE：可載入 Alembic 幾何、把模型攤成 UV 或把貼圖包回模型，做場景延伸與材質萃取。｜https://aescripts.com/wrap-it-for-after-effects/
+Fractal Noise Browser｜aescripts｜generate｜把 250 組以上的分形／擾亂雜訊設定做成可視縮圖與動態預覽，直接挑一個套用，不用自己慢慢調參數。｜https://aescripts.com/fractal-noise-browser/
+EditMonkey｜aescripts｜animation｜一次批次動畫化與排序幾十個文字、影片或圖形圖層，做大量重複的排版動畫可以省下好幾天。｜https://aescripts.com/editmonkey/
+Face 3D｜aescripts｜3d｜用 AI 把人像照片轉成真正的 3D 模型並可動畫，做照片轉頭、視差運鏡與重新打光。｜https://aescripts.com/face-3d/
+PORTAL｜aescripts｜workflow｜在預合成裡工作時同步看見主合成的畫面，還會換算主合成的位移旋轉縮放，改細節不用一直跳出去確認。｜https://aescripts.com/portal/
+Cut'n'Pack｜aescripts｜workflow｜依遮罩自動把圖層切開並收成最佳化的預合成，文字、形狀、向量與素材都適用，整理複雜結構很快。｜https://aescripts.com/cut-n-pack/
+ProximityPro｜aescripts｜mograph｜用一個空物件當效果器，依距離自動驅動周圍圖層的變化，不用自己寫運算式就有 C4D 效果器的感覺。｜https://aescripts.com/proximitypro/
+ChronoKeys｜aescripts｜animation｜把關鍵影格和圖層長度綁在一起調整，改預合成時間長度時關鍵影格不會跑掉，還能連帶推移鄰近圖層。｜https://aescripts.com/chronokeys/
+Delay Motion Pro｜aescripts｜animation｜做出穩定的延遲跟隨動畫（後面的元素慢一拍跟上），自動串接且與父子級關係並存不會打架。｜https://aescripts.com/delay-motion-pro/
+AEPathfinder｜aescripts｜draw｜把 Illustrator 的路徑管理員帶進 AE，可跨圖層合併、分割、修剪向量形狀並做成動畫。｜https://aescripts.com/aepathfinder/
+Universal Audio｜aescripts｜audio｜一鍵讓音訊貫穿所有巢狀合成，不管在哪一層都聽得到參考音並附上標記，對旁白或音樂做動畫很方便。｜https://aescripts.com/universal-audio/
+Power Null｜aescripts｜workflow｜一鍵在任意位置加空物件，支援即時吸附、自動建立父子關係與屬性連結，做控制器裝配很快。｜https://aescripts.com/power-null/
+MaskShapeConverter｜aescripts｜utility｜把遮罩轉成形狀圖層、或把形狀轉回遮罩，兩種路徑格式互換不用重畫。｜https://aescripts.com/maskshapeconverter/
+Super Lines｜aescripts｜draw｜快速建立各種流動線條動畫並即時實驗變化，做抽象線條裝飾與轉場元素。｜https://aescripts.com/super-lines/
+XOscillator Pro｜aescripts｜animation｜用 30 多種震盪演算法生成心跳、彈跳與多層漣漪等有機動畫，全程不用 K 關鍵影格並附即時波形預覽。｜https://aescripts.com/xoscillator-pro/
+Flowers Bloom｜aescripts｜mograph｜做花朵與灌木生長綻放動畫的完整工具，內建現成花種資料庫，適合自然感的裝飾動畫。｜https://aescripts.com/flowers-bloom/
+Color Llama｜aescripts｜color｜設定「這個顏色換成那個顏色」的成對對應來換色，可用來對品牌色或統一不同機器拍的素材，並輸出成 Cube LUT。｜https://aescripts.com/color-llama/
+Tracker Solver｜aescripts｜tracking｜用 2D 圖層上少量位置關鍵影格反推出在攝影機空間中的 3D 位置，把平面追蹤結果變成立體定位。｜https://aescripts.com/tracker-solver/
+SoundBox｜aescripts｜audio｜在 AE 裡直接挑選並加入音效，不用另外去資料夾翻檔案再拖進來，做動態圖形配音效很快。｜https://aescripts.com/soundbox/
+TextExploder｜aescripts｜text｜把文字圖層依字元、單字或行拆成獨立圖層，且每個字的原始位置都精準保留，不靠運算式或動畫器。｜https://aescripts.com/textexploder/
+Orbit Script｜aescripts｜animation｜幫任何圖層加上環繞運動，可調半徑、速度、角度與是否朝向中心，做衛星繞行或圓周排列動畫。｜https://aescripts.com/orbit-script/
+Reveal Matte｜aescripts｜matte｜沿著移動物件的路徑生成遮罩，用軌跡把底下的圖層擦出來，做手寫字或軌跡揭露效果。｜https://aescripts.com/reveal-matte/
+The Positioner｜aescripts｜workflow｜把圖層對齊、釘在合成或其他圖層的邊上並自動縮放，改內容時版面會跟著調整，做響應式排版很方便。｜https://aescripts.com/the-positioner/
+Photo Mosaic｜aescripts｜art｜把一張畫面用成千上百張小圖拼出來（千圖成像），遠看是原圖、近看全是小照片。｜https://aescripts.com/photo-mosaic/
+Square Peg｜aescripts｜draw｜讓形狀圖層的四個角可以分別設定圓角半徑，做 UI 元件與不對稱圓角圖形不用手繪路徑。｜https://aescripts.com/square-peg/
+AE 3D RIG｜aescripts｜3d｜六支腳本組成的 3D 輔助工具，簡化 AE 裡攝影機綁定、燈光設定與遮罩控制的操作。｜https://aescripts.com/ae-3d-rig/
+SuperZoom｜aescripts｜animation｜把不同焦段拍的多張照片自動排序、對齊變形並建成合成，做出一路推近到主體的電影感連續變焦（僅 Windows）。｜https://aescripts.com/superzoom/
+Camera 3D Toolkit Pro｜aescripts｜3d｜一鍵生成電影感的 3D 攝影機運動，內含視差、自動對焦、景深模糊、鏡頭抖動與速度斜坡。｜https://aescripts.com/camera-3d-toolkit-pro/
+Linkup Pro｜aescripts｜workflow｜在 AE 裡開一個真正的瀏覽器面板，還內建 AI 助手與可直接對專案下指令的 AI Agent，查資料不用切視窗。｜https://aescripts.com/linkup-pro/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
