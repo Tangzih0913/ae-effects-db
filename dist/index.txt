@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1016 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1029 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -898,7 +898,7 @@ LaForge Suite｜第三方｜stylize｜ProductionCrate 的 GPU 外掛組，含發
 Brazu｜第三方｜workflow｜巴西團隊做的 AE 加速工具包（Adobe 官方合作夥伴），一鍵套用抖動、彈跳等動畫效果、自動生成視差 3D 場景，並內建 AI 助手。｜https://www.brazu.io/
 Mettle FLUX｜第三方｜generate｜生成 3D 體積碎形火焰的外掛，做星雲、太空與夢幻抽象背景，支援 360／立體 VR 輸出。｜https://www.mettle.com/product/flux/
 Color Genius｜第三方｜color｜AI 驅動的自動調色外掛，救回亮部、修正曝光與色偏並強化膚色、天空與植被，內建防閃爍處理。｜https://revisionfx.com/products/colorgenius/
-REZup｜第三方｜restore｜AI 放大外掛，把素材升到 4K／6K／8K 並保留自然紋理，另含銳度質感控制與放大前的去噪處理。｜https://revisionfx.com/products/rezup/premiere-pro/
+REZup｜第三方｜restore｜AI 放大外掛，把素材升到 4K／6K／8K 並保留自然紋理，另含銳度質感控制與放大前的去噪處理。｜https://revisionfx.com/products/rezup/after-effects/
 FilmConvert Halation｜第三方｜film｜重現底片亮部邊緣泛出的紅色光暈（halation），為畫面加上膠卷特有的柔和浪漫感。｜https://www.filmconvert.com/plugin/halation
 FilmConvert Hazy｜第三方｜film｜模擬柔光／霧化濾鏡的外掛，讓強光在畫面中擴散開來，做出朦朧夢幻的電影質感。｜https://www.filmconvert.com/plugin/hazy
 Frischluft Lenscare｜第三方｜blur｜把景深與失焦模糊搬到後期做的經典外掛，含吃深度圖的 Depth of Field 與不需深度的 Out of Focus 兩支，光圈形狀可調。｜https://www.frischluft.com/lenscare/
@@ -919,6 +919,19 @@ Buena Depth Cue Depth｜第三方｜perspective｜從 2.5D 合成建立可驅動
 Buena Depth Cue Rack Focus｜第三方｜blur｜依 Z 距離快速設定景深與焦點目標，適合在 2.5D 場景中製作電影式拉焦和閱讀焦點引導。｜https://www.rowbyte.com/buena-depth-cue
 Buena Depth Cue Camera Mapper｜第三方｜perspective｜把照片或影片片段投影到 AE 的多個 3D 平面，適合用單張影像重建 2.5D 場景並製作帶視差的虛擬運鏡。｜https://www.rowbyte.com/buena-depth-cue
 Buena Depth Cue Flipside｜第三方｜3d｜將另一圖層貼到 2D 圖層背面而不產生間隙，適合製作卡片翻面、雙面標牌與紙張旋轉動畫。｜https://www.rowbyte.com/buena-depth-cue
+Data Storyteller｜第三方｜mograph｜把 CSV、Excel 或 JSON 資料直接轉成可動畫的長條圖、折線圖、散佈圖與世界／美國地圖，適合紀錄片、企業影片和數據敘事。｜https://digitalanarchy.com/data-storyteller/
+RE:Vision DEFlicker｜第三方｜restore｜結合逐像素追蹤與局部色彩轉移來平滑高速攝影、縮時與人造光源造成的閃爍，亦可修復緩慢移動的暗色滾動條紋。｜https://revisionfx.com/products/deflicker/after-effects/
+DE:Noise｜第三方｜restore｜以保留特徵的空間濾波搭配光流時域分析降低影片雜訊，適合修復高 ISO、低光與壓縮後的顆粒畫面。｜https://revisionfx.com/products/denoise/after-effects/
+FieldsKit｜第三方｜restore｜用運動估算進行高品質去交錯、重新交錯與 pulldown 處理，適合修復舊電視、典藏素材和混合場序影片。｜https://revisionfx.com/products/fieldskit/after-effects/
+RE:Fill｜第三方｜restore｜根據周圍影像智慧填補遮罩指定的洞與缺口，適合移除鋼絲、小物件、污點和修復透明合成邊緣。｜https://revisionfx.com/products/refill/after-effects/
+RE:Flex｜第三方｜warp｜利用樣條線與對應點製作受控的影像變形和兩畫面 morph，適合變臉、Logo 轉換與物件形狀融合。｜https://revisionfx.com/products/reflex/after-effects/
+RE:Grade｜第三方｜color｜提供針對問題素材的進階色彩、曝光與對比修復工具，適合救回偏色、過暗或難以使用的拍攝畫面。｜https://revisionfx.com/products/regrade/after-effects/
+RE:Lens｜第三方｜vr｜轉換魚眼與各式 360／VR 投影並穩定全景影片，適合校正運動相機鏡頭、重定向視角與建立小星球畫面。｜https://revisionfx.com/products/relens/after-effects/
+RE:Match｜第三方｜color｜自動匹配不同機位、拍攝時間或立體左右眼的色彩與紋理，適合多機剪輯、補拍鏡頭和 stereo 畫面統一。｜https://revisionfx.com/products/rematch/after-effects/
+RE:Map｜第三方｜distort｜在後製中用 UV 圖替換 3D 材質，並提供反向 UV、四角定位與高品質置換，適合免重算 3D 即更新產品貼圖和螢幕內容。｜https://revisionfx.com/products/remap/after-effects/
+Shade/Shape｜第三方｜3d｜從 2D 圖像的明暗推導立體形狀並重新算圖，適合把插畫、Logo 或紋理快速做成立體浮雕與可調光照外觀。｜https://revisionfx.com/products/shade_shape/after-effects/
+SmoothKit｜第三方｜blur｜結合使用者導向控制與特徵感知方法進行保邊、方向和選區模糊，適合磨皮、降噪與只平滑特定紋理。｜https://revisionfx.com/products/smoothkit/after-effects/
+Video Gogh｜第三方｜art｜把照片與影片轉成會隨時間連貫流動的繪畫筆觸，適合製作油畫、印象派動畫和手繪風格轉場。｜https://revisionfx.com/products/video_gogh/after-effects/
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
