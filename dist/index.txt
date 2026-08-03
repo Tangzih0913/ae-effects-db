@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1001 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1016 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -595,6 +595,11 @@ BCC+ 轉場組(現代)｜Continuum｜transition｜BCC+系列風格化溶解/擦�
 BCC 轉場組(經典)｜Continuum｜transition｜BCC經典圖案轉場：棋盤、網格、萬花筒、光暈、漣漪、水波、絲帶、圓環等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
 BCC Textures工具組｜Continuum｜texture｜紋理生成組：材質庫(石/布/金屬)、水底焦散、混色流體、分形噪波。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
 BCC VR工具組｜Continuum｜vr｜360/VR影片工具組(不產生接縫的模糊/銳化/去閃/貼入/重定向)。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Deinterlace ML｜Continuum｜restore｜以機器學習自動判斷場序並把隔行掃描影片轉成逐行畫面，適合修復老電視、VHS 與 NTSC 素材的梳齒瑕疵。｜https://borisfx.com/documentation/continuum/bcc-deinterlace-ml/
+BCC+ Ripple｜Continuum｜warp｜用三組可獨立控制的自動動畫漣漪扭曲畫面，適合製作水波擴散、玻璃波紋與衝擊波效果。｜https://borisfx.com/documentation/continuum/bcc-ripple-1/
+BCC+ Displacement Map｜Continuum｜warp｜依圖層亮度或色彩驅動畫面的水平與垂直置換，適合製作紋理變形、熱浪與自動化故障扭曲。｜https://borisfx.com/documentation/continuum/bcc-displacement-map-1/
+BCC+ Polar Displacement｜Continuum｜warp｜以貼圖控制徑向與角向位移來環繞扭曲畫面，適合製作旋渦、環形波動與抽象放射變形。｜https://borisfx.com/documentation/continuum/bcc-polar-displacement-1/
+BCC+ Vector Displacement｜Continuum｜warp｜利用貼圖的 RGB 通道分別控制三個方向的向量位移，適合製作立體紋理變形、液態扭曲與彩色故障。｜https://borisfx.com/documentation/continuum/bcc-vector-displacement-1/
 Topaz Video AI｜未驗證｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
 Orb (VC Orb)｜未驗證｜3d｜免費：在AE內生成擬真3D星球/行星，含物理PBR著色、可設計大氣層光暈、地形凹凸貼圖、環境反射、雲層與自動陰影。做地球、外星球、太空場景神器。｜https://www.videocopilot.net/orb
 Fast Camera Lens Blur｜未驗證｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
@@ -904,6 +909,16 @@ BlenderAe｜第三方｜3d｜Blender 與 AE 之間雙向傳資料的橋接工具
 shpr｜第三方｜draw｜11 種路徑動畫器合一，直覺地讓形狀圖層變形與動起來，完全不用寫運算式。｜https://goodboy.ninja/shpr
 RubberHose｜第三方｜rigging｜用「軟管」概念綁定角色四肢的經典腳本，隨時改綁定也不會弄丟關鍵影格，做橡膠管風格的人物動畫。｜https://www.battleaxe.co/rubberhose
 ORB｜第三方｜3d｜Video Copilot 的免費球體外掛，用貼圖與凹凸貼圖做出擬真行星與地球，支援 AE 燈光的日夜變化與環境反射。｜https://www.videocopilot.net/orb/
+Data Glitch｜第三方｜stylize｜模擬編解碼與資料損毀造成的掃描、區塊和偏移故障，適合製作數位破圖、衛星訊號干擾與故障轉場。｜https://www.rowbyte.com/tv-distortion-bundle
+Bad TV｜第三方｜stylize｜自動生成掃描線與水平、垂直同步偏移，適合模擬老電視、DV 錄影帶與不穩定類比訊號。｜https://www.rowbyte.com/tv-distortion-bundle
+Separate RGB｜第三方｜distort｜獨立移動、旋轉、縮放、模糊與扭曲 RGB 通道，適合快速製作色差、通道錯位與鏡頭色散效果。｜https://www.rowbyte.com/tv-distortion-bundle
+Dot Pixels｜第三方｜stylize｜把影像像素化為可帶立體明暗的圓點或圓環，適合製作 LED 顯示牆、網點印刷與多孔材質外觀。｜https://www.rowbyte.com/tv-distortion-bundle
+TVPixel｜第三方｜stylize｜把畫面重組成可調尺寸的 RGB 子像素，適合模擬 LCD、映像管電視與近拍螢幕紋理。｜https://www.rowbyte.com/tv-distortion-bundle
+Fast Bokeh Pro｜第三方｜blur｜依深度圖快速生成保留物件邊緣的高品質散景模糊，適合合成景深、焦點轉移與自訂光圈形狀。｜https://www.rowbyte.com/fast-bokeh
+Buena Depth Cue Depth｜第三方｜perspective｜從 2.5D 合成建立可驅動其他效果的灰階深度圖，適合補出景深、空氣透視與虛擬攝影機移動的空間層次。｜https://www.rowbyte.com/buena-depth-cue
+Buena Depth Cue Rack Focus｜第三方｜blur｜依 Z 距離快速設定景深與焦點目標，適合在 2.5D 場景中製作電影式拉焦和閱讀焦點引導。｜https://www.rowbyte.com/buena-depth-cue
+Buena Depth Cue Camera Mapper｜第三方｜perspective｜把照片或影片片段投影到 AE 的多個 3D 平面，適合用單張影像重建 2.5D 場景並製作帶視差的虛擬運鏡。｜https://www.rowbyte.com/buena-depth-cue
+Buena Depth Cue Flipside｜第三方｜3d｜將另一圖層貼到 2D 圖層背面而不產生間隙，適合製作卡片翻面、雙面標牌與紙張旋轉動畫。｜https://www.rowbyte.com/buena-depth-cue
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
