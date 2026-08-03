@@ -105,5 +105,11 @@ python tools/add.py new.jsonl   # 安全匯入：自動判重、檢查欄位、�
 - Continuum 完整清單 · https://borisfx.com/documentation/continuum/bcc-effects-list/
 - aescripts 熱門/新品 · https://aescripts.com/?tab=viewed
 
+## 關於
+本資料庫由 **Kadid**（[@xup61069](https://github.com/xup61069)）與 **Claude**（Anthropic）共同整理維護。
+資料來自各廠商官方頁面逐筆查證，繁體中文說明與中英搜尋標籤為人工＋AI 協作編寫。
+
+歡迎一起補充 → [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## 授權
 資料整理與程式碼採 MIT（見 `LICENSE`）。各特效名稱與商標歸原廠商所有；本庫僅為索引/教學用途，不含任何官方素材或程式。
