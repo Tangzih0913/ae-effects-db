@@ -79,10 +79,10 @@ stock-search-pro	線上素材搜尋，與已收錄的 Mt. Mograph Wander 重複
 svg2ae	SVG 匯入，與已收錄的 ToothPaste 重複
 after-ease	彈跳／彈性緩動，與已收錄的 OverAct／Kease 重複
 multi-replacer	批次換圖，與已收錄的 sWITCH／Universal Template AutoFill 重複
-wiggle-pro	是 Gumroad 上某個 pseudo effects 預設包的一部分，非獨立產品
-railway	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
+wiggle-pro	Good Boy Ninja 出品（goodboy.ninja），自動化 wiggle 與 AE 內建及已收錄的 Loop This! Wiggle 重複
+railway	Good Boy Ninja 出品（goodboy.ninja/railway），沿路徑動畫與已收錄的 FlowPath 重複
 layout	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
-swatches	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
+swatches	Good Boy Ninja 出品（goodboy.ninja/swatches），色票管理與已收錄的 ColorFlow 重複
 nn-curves	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
 comp-setting-tool	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
 expression-controller	查無明確官方產品頁（非 aescripts 上架），且為極小型工具
@@ -147,5 +147,17 @@ typetoon	64 組文字標題預設包，非工具本身
 slides-and-grids	網格與幻燈片，與已收錄的 SplitGrid／Grid Builder 重複
 variations	批次生成合成變體，與已收錄的 COMP-O-RAMA 重複
 marker-maestro-pro	查無明確官方產品頁（非 aescripts 上架）
-skew-pro	查無明確官方產品頁（非 aescripts 上架）
+skew-pro	Good Boy Ninja 出品（goodboy.ninja/skew-pro），錯開關鍵影格與已收錄的 Keystone 重複
 tv-distortion-bundle	套裝包
+goodboy-ninja-colors	Good Boy Ninja 的色票工具，與已收錄的 ColorFlow 重複
+goodboy-ninja-kangaroo	Good Boy Ninja 的複製排列工具，與已收錄的 React／Relativity 重複
+noodle	Good Boy Ninja 的次要元素跟隨動畫，與已收錄的 Delay Motion Pro 重複
+declutter	專案面板整理，與已收錄的 Root／Project Doctor 重複
+labels	標籤顏色管理，與已收錄的 ColorFlow 重複
+motion-path-pro	沿運動路徑動畫，與已收錄的 FlowPath 重複
+comp-replicator	CSV 批次生成合成，與已收錄的 Universal Template AutoFill 重複
+mographae	cloner＋effector 工具包，與已收錄的 React 重複
+polka-dots-maker	極小型圓點圖案生成工具
+easy-clones	2D 克隆系統，與已收錄的 React／mCloner Pro／xCloner 重複
+z-tool	中文免費工具箱，查無穩定的官方產品頁
+easify	同系列的 Easify 3 Pro 官方頁明示為 Premiere Pro 工具；舊版 AE 支援狀況未能從官方頁確認
