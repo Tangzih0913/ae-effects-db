@@ -6,11 +6,12 @@
 
 打開就能用文字搜特效，免安裝、免登入。用「文字描述」或「參考圖」找 After Effects 特效的知識庫。
 
-三種用法：**網頁搜尋**（手機/瀏覽器）、**命令列**（終端機/腳本）、**Claude Code `/find-effect` skill**（可貼圖搜尋）。
+**想用「貼參考圖」找效果？** 在搜尋頁按一下 **🤖 用 AI 找 / 貼圖找**，複製那段提示詞貼進
+ChatGPT / Claude / Gemini 就能用——不用安裝任何東西。提示詞也放在 **[PROMPT.md](PROMPT.md)**。
 
 > 740 筆條目，涵蓋約 1090+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單，並比對本機 AE 2026 實裝外掛補齊。
 
-## 三種搜尋方式
+## 四種用法
 
 ### 1. 網頁（最萬用）
 **線上直接用（推薦）：https://xup61069.github.io/ae-effects-db/**
@@ -31,7 +32,12 @@ python search.py --suite sapphire glow
 python search.py --list-cats       # 看所有分類
 ```
 
-### 3. Claude Code `/find-effect`
+### 3. 任何 AI（一鍵提示詞，新手最推薦）
+複製 [PROMPT.md](PROMPT.md) 的第一段貼進任何 AI，它會自己去讀資料庫，
+之後你就能**直接貼參考圖**問「這是什麼效果」，或描述一整個畫面感讓它拆解。
+搜尋頁上的 🤖 按鈕可以一鍵複製那段提示詞。
+
+### 4. Claude Code `/find-effect`
 在本專案裡直接說「找 XX 效果」或**貼一張參考圖**，skill 會分析畫面特徵→比對資料庫→給推薦與參數方向，還能透過 AE MCP 直接套用。
 skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用的話複製到你的 `.claude/skills/`，並把裡面的資料路徑改成你放 `data/` 的位置）。
 

@@ -1,0 +1,744 @@
+# After Effects 特效／外掛索引（繁體中文）
+# 共 740 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
+# 線上搜尋：https://xup61069.github.io/ae-effects-db/
+Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
+AE Glass｜aescripts｜distort｜擬真玻璃/毛玻璃折射與模糊，做UI玻璃質感、液態玻璃｜https://aescripts.com/ae-glass/
+Lockdown｜aescripts｜tracking｜非平面表面追蹤，把圖貼合到會變形的臉/衣服/皮膚上｜https://aescripts.com/lockdown/
+AutoFill｜aescripts｜generate｜沿Alpha自動生長填充動畫：液體漫延、藤蔓、能量擴散｜https://aescripts.com/autofill/
+Shadow Studio 3｜aescripts｜light｜高品質物理柔和陰影，可控光源距離、羽化、顏色｜https://aescripts.com/shadow-studio/
+Thicc Stroke｜aescripts｜draw｜免費：形狀圖層可變寬度/漸變/錐形描邊｜https://aescripts.com/thicc-stroke/
+Composite Brush｜aescripts｜keying｜用筆刷選色做局部摳像/換色/校色，選取邊緣乾淨｜https://aescripts.com/composite-brush/
+Quick Chromatic Aberration 3｜aescripts｜distort｜快速好用的色差色散，做故障/鏡頭味｜https://aescripts.com/quick-chromatic-aberration/
+CRTX｜aescripts｜stylize｜完整CRT映像管模擬：磷光、掃描線、光束、bloom、故障｜https://aescripts.com/crtx/
+Datamosh 2｜aescripts｜stylize｜真實datamosh壓縮殘影故障藝術，即時預覽｜https://aescripts.com/datamosh/
+Displacer Pro｜aescripts｜warp｜進階置換扭曲，多圖層/多模式驅動變形｜https://aescripts.com/displacer-pro/
+Pastiche｜aescripts｜stylize｜用大量小圖拼貼重建畫面（相片馬賽克/拼貼牆）｜https://aescripts.com/pastiche/
+VoluMax｜aescripts｜3d｜把單張照片做成3D攝影機推移視差（2.5D立體照片）｜
+Mettle FreeForm Pro｜aescripts｜warp｜3D網格變形與置換，做飄動旗幟/布料/地形隆起｜https://mettle.com/product/freeform-pro/
+Mettle ShapeShifter AE｜aescripts｜3d｜把遮罩/文字擠成3D並材質燈光，做立體標題與物件｜https://mettle.com/product/shapeshifter-ae/
+Plexus｜aescripts｜particles｜點線面粒子網絡，科技發布會背景、資料視覺化連線圖形｜https://aescripts.com/plexus/
+Stardust｜aescripts｜particles｜節點式模組化3D粒子/複製體系統，可發射模型與拖尾｜https://aescripts.com/stardust/
+Beauty Box｜aescripts｜beauty｜業界最常用的自動磨皮美膚，保留皮膚紋理｜https://digitalanarchy.com/
+Flicker Free｜aescripts｜restore｜去除燈光頻閃、時間重映射閃爍、捲簾快門條紋｜https://digitalanarchy.com/Flicker/main.html
+BAO Boa｜aescripts｜draw｜沿路徑生成有機蜿蜒描邊/觸鬚/藤蔓｜https://aescripts.com/bao-boa/
+BAO Mask Avenger｜aescripts｜animation｜強大遮罩動畫控制，快速做遮罩顯現/變形｜https://aescripts.com/bao-mask-avenger/
+BAO Layer Sculptor｜aescripts｜animation｜進階圖層複製/塑形/陣列動畫｜https://aescripts.com/bao-layer-sculptor/
+Motion Upscaler｜aescripts｜restore｜AI智慧放大解析度、修復低清素材｜https://aescripts.com/motion-upscaler/
+AI Motion Blur｜aescripts｜blur｜AI為缺乏運動模糊的畫面/圖形補上真實動態模糊｜https://aescripts.com/ai-motion-blur/
+Blace｜aescripts｜tracking｜AI自動偵測並追蹤人臉打碼/馬賽克（隱私保護）｜https://aescripts.com/blace/
+Motion｜aescripts｜workflow｜知名一體式動畫工具箱：錨點、緩動、動態彈跳、對齊、excite隨機｜https://www.mtmograph.com/motion
+Motion Tools Pro｜aescripts｜workflow｜可自訂效率工具列，集合常用一鍵動作加速工作流｜https://aescripts.com/motion-tools-pro/
+Animation Composer 3｜aescripts｜preset｜免費預設管理器+大量文字動畫/轉場/音效預設｜https://aescripts.com/animation-composer/
+Beat Edit｜aescripts｜workflow｜自動偵測音樂節拍生成標記，快速踩點剪輯/動畫｜https://misterhorse.com/
+Ease and Wizz｜aescripts｜workflow｜經典緩動外掛，多種內插曲線一鍵套用到關鍵幀｜https://aescripts.com/ease-and-wizz/
+Flow｜aescripts｜workflow｜視覺化緩動曲線編輯，可存/分享曲線預設｜https://aescripts.com/flow/
+Motion Bro｜aescripts｜preset｜拖放式預設瀏覽器，管理與套用大型轉場/特效預設包｜https://motionbro.com/
+Overlord｜aescripts｜workflow｜Illustrator↔AE即時互傳，向量直接變形狀圖層(保留路徑)｜https://battleaxe.co/overlord
+RubberHose 3｜aescripts｜rigging｜快速做可彎曲的Q版手腳/軟管肢體，角色動畫神器｜https://battleaxe.co/rubberhose
+Squash & Stretch Pro｜aescripts｜animation｜一鍵擠壓拉伸/彈跳/overshoot動態，MG動畫加彈性｜https://battleaxe.co/
+Explode Shape Layers｜aescripts｜workflow｜把一個形狀圖層的多路徑拆成獨立圖層，分別動畫｜https://aescripts.com/explode-shape-layers/
+Limber｜aescripts｜rigging｜以形狀為基礎的IK四肢綁定，可變粗細與描邊｜https://aescripts.com/limber/
+Buttcapper｜aescripts｜draw｜免費：讓形狀描邊的端點變圓/膠囊狀｜https://battleaxe.co/buttcapper
+Media Replicator｜aescripts｜render｜用試算表批次替換素材/文字並自動輸出多支影片｜https://battleaxe.co/
+Joysticks 'n Sliders｜aescripts｜rigging｜用搖桿/滑桿控制多個姿勢間插值，做臉部/角色轉向｜https://aescripts.com/joysticks-n-sliders/
+Puppet Tools 3｜aescripts｜rigging｜強化AE操偶針：自動綁定控制器、輕鬆做角色變形動畫｜https://aescripts.com/puppettools/
+AutoSway｜aescripts｜animation｜一鍵讓圖層自然搖擺/風吹晃動（樹葉/頭髮/待機）｜https://aescripts.com/autosway/
+pt_Multiplane｜aescripts｜3d｜自動把多圖層排進3D多平面攝影機做視差運鏡｜https://aescripts.com/pt-multiplane/
+Newton 4｜aescripts｜physics｜2D物理引擎：重力、碰撞、彈跳、關節、繩索｜https://aescripts.com/newton/
+Bodymovin / Lottie｜aescripts｜workflow｜把AE動畫匯出成Lottie(JSON)，用於網頁/App向量動畫｜https://aescripts.com/bodymovin/
+True Comp Duplicator｜aescripts｜workflow｜完整複製巢狀合成階層(不共用來源)，改一版不影響原版｜https://aescripts.com/true-comp-duplicator/
+BG Renderer Max｜aescripts｜render｜背景/多實例算圖，邊工作邊輸出、加速大量渲染｜https://aescripts.com/bg-renderer/
+RenderGarden｜aescripts｜render｜多核並行加速渲染(把單機當小農場)｜https://www.mekajiki.com/rendergarden
+Nexrender｜aescripts｜render｜命令列/API自動化渲染管線，資料驅動大量套模板輸出｜https://github.com/inlife/nexrender
+Connect Layers｜aescripts｜generate｜在圖層間自動生成連接線(科技連線/關係圖)｜https://aescripts.com/connect-layers/
+iExpressions｜aescripts｜expression｜不用寫程式，拖放套用大量表達式(彈跳/跟隨/循環等)｜https://aescripts.com/iexpressions/
+Ouroboros 2｜aescripts｜draw｜進階描邊/路徑動畫，錐形筆觸與多重描邊｜https://aescripts.com/ouroboros-2/
+Ray Dynamic Color 2｜aescripts｜color｜集中管理專案配色，一鍵換整個專案的色盤｜https://aescripts.com/ray-dynamic-color/
+Ray Dynamic Texture｜aescripts｜workflow｜集中管理與套用手繪紋理/顆粒到多圖層｜https://aescripts.com/ray-dynamic-texture/
+TextEvo 2｜aescripts｜text｜文字動畫工具，快速做逐字/逐行進出場與樣式｜https://aescripts.com/textevo/
+Text2Spreadsheet｜aescripts｜text｜用試算表/CSV批次帶入文字，做資料驅動的字卡/榜單｜https://aescripts.com/text2spreadsheet/
+Decompose Text｜aescripts｜text｜把一段文字拆成逐字/逐行獨立圖層方便個別動畫｜https://aescripts.com/decomposetext/
+Type Anarchy｜aescripts｜text｜快速做風格化/破壞感文字排版與動態｜
+Captioneer｜aescripts｜text｜字幕管理：匯入SRT/批次上字、樣式統一(AE/Pr通用)｜https://aescripts.com/captioneer/
+GEOlayers 3｜aescripts｜generate｜AE內生成可動畫地圖：路線、區域、標記、地形｜https://aescripts.com/geolayers/
+Grid Builder｜aescripts｜workflow｜快速建立網格/版面系統與參考線，對齊排版元素｜https://aescripts.com/grid-builder/
+Pins & Boxes｜aescripts｜rigging｜用釘點與盒子做響應式版面/UI綁定，元素隨內容伸縮｜https://aescripts.com/pins-and-boxes/
+KBar 3｜aescripts｜workflow｜自訂工具列按鈕，一鍵執行腳本/效果/表達式，最熱門效率外掛｜https://aescripts.com/kbar/
+GifGun｜aescripts｜workflow｜一鍵從AE直接輸出GIF動圖｜https://aescripts.com/gifgun/
+Zorro - The Layer Tagger｜aescripts｜workflow｜用標籤分組/選取圖層，大型專案管理神器｜https://aescripts.com/zorro-the-layer-tagger/
+Move Anchor Point｜aescripts｜workflow｜一鍵把錨點移到圖層的九宮格位置(含群組/多圖層)｜https://aescripts.com/move-anchor-point/
+Rift｜aescripts｜workflow｜依序偏移多圖層的時間/關鍵幀/屬性/圖層順序，做接力錯開｜https://aescripts.com/rift/
+Autocrop｜aescripts｜workflow｜自動把合成尺寸裁切貼齊圖層內容邊界｜https://aescripts.com/auto-crop/
+GPUDog Pro｜aescripts｜stylize｜即時GPU特效包(WebGPU/Metal)：故障、扭曲、調色、生成、像素化、分形等大量高速特效，Pro版內建即時WGSL著色器編輯器可自寫效果。｜https://aescripts.com/gpudog/
+Foldspace｜aescripts｜3d｜在3D空間彎折/翻摺/彎曲平面：做翻書、摺紙、曲面扭曲，控制點可連結其他圖層，GPU加速。｜https://aescripts.com/foldspace/
+PhysicDesk｜aescripts｜physics｜即時2D物理模擬(可媲美Newton)：動態/靜態/動畫剛體、樞紐/焊接/彈簧/輪/繩關節、風/磁鐵/傳送門/爆炸力場、粒子/破碎/軟體/聲音驅動，模擬完可烘焙成AE原生關鍵幀。｜https://aescripts.com/physicdesk/
+Super Morphings｜aescripts｜animation｜一鍵形狀變形動畫：自動處理路徑插值，把起始形狀平滑變成目標形狀，含多重變形、拖尾、切片效果。｜https://aescripts.com/super-morphings/
+AlphaForge｜aescripts｜transition｜動態圖形元素/遮罩轉場生成腳本：快速生成形狀遮罩與轉場過渡元素。｜https://aescripts.com/alphaforge/
+Pigment｜aescripts｜color｜配色板/色票管理工具：集中管理專案配色、快速套用與替換色彩。｜https://aescripts.com/pigment/
+GradientHub｜aescripts｜color｜500+漸變預設瀏覽/管理工具：快速套用現成漸層配色。｜https://aescripts.com/gradienthub/
+MotionSpice｜aescripts｜preset｜基本運動圖形(MG)動效庫/素材工具包：現成的MG動畫元素與預設。｜https://aescripts.com/motionspice/
+Reach Pro｜aescripts｜workflow｜表達式編輯+效果/預設管理+搜尋工具包，加速套用與管理常用效果。｜https://aescripts.com/reach/
+AE Actions｜aescripts｜workflow｜動作錄製/回放自動化腳本：把一連串操作錄成動作重複套用做批次自動化。｜https://aescripts.com/ae-actions/
+Folder Fanatic｜aescripts｜workflow｜自訂資料夾結構的專案工程整理腳本：一鍵把素材分類進整齊的資料夾。｜https://aescripts.com/folder-fanatic/
+RenderSmith｜aescripts｜render｜渲染管理面板：更方便地管理與輸出渲染佇列。｜https://aescripts.com/rendersmith/
+MARKr｜aescripts｜text｜一鍵式動畫下劃線/高亮(螢光筆)強調效果，為文字加動態底線或高亮塊。｜https://aescripts.com/markr/
+Plumebus｜aescripts｜particles｜在AE時間軸內直接做即時3D煙霧與火焰模擬，不必匯出到外部軟體。｜https://aescripts.com/plumebus/
+Glaze｜aescripts｜distort｜一鍵把任何圖層變成擬真厚玻璃：可調折射、色差、毛面粗糙度、焦散與五種扭曲模式，即時預覽。｜https://aescripts.com/glaze/
+EtchX｜aescripts｜paint｜把影片轉成動態版畫風格：雕版、交叉排線、炭筆、乾墨、刮版或工程筆線稿，內含48組預設可再細調線條與陰影。｜https://aescripts.com/etchx/
+XDoG Studio｜aescripts｜art｜GPU圖形風格化效果，把素材轉成強烈的卡通、墨線、素描與邊緣強調風格（僅Windows）。｜https://aescripts.com/xdog-studio/
+Risograph｜aescripts｜art｜模擬真實孔版印刷機(risograph)的印刷質感，可調參數並加入套印錯位等印刷瑕疵。｜https://aescripts.com/risograph/
+PathSmear｜aescripts｜light｜沿遮罩路徑把亮部拉伸成方向性光條；不同於放射狀輝光，光只朝單一方向流動。做霓虹、光軌、能量光束。｜https://aescripts.com/pathsmear/
+MeltFlow Blur｜aescripts｜blur｜GPU融化風格模糊，以指定點為中心產生熔流般的模糊擴散。｜https://aescripts.com/meltflow-blur/
+Reflow｜aescripts｜particles｜用粒子讓一個圖層流動變成另一個圖層：拉一個Transform滑桿，文字/Logo/圖片就打散成點再重組成新形狀。｜https://aescripts.com/reflow/
+ParticleShapes｜aescripts｜particles｜把形狀圖層變成粒子，替MG動畫加粒子點綴；12組預設起步，可烘焙成3D關鍵幀動畫。｜https://aescripts.com/particleshapes/
+Soft Flow｜aescripts｜physics｜一鍵為形狀圖層加上自然的軟體(果凍)動態，免手打關鍵幀，可調柔軟度做有機流暢動畫。｜https://aescripts.com/soft-flow/
+Amalgam｜aescripts｜stylize｜組合包：二次曝光(double exposure)效果＋平滑轉場外掛，AE/Pr通用。｜https://aescripts.com/amalgam/
+Luma Shifter｜aescripts｜transition｜把所有亮度遮罩(luma matte)轉場集中管理，在AE裡點幾下就完成片段對片段的轉場，不用再上網找素材。｜https://aescripts.com/luma-shifter/
+CorridorKey｜aescripts｜keying｜把 Corridor Digital 的綠幕去背方法做成外掛，簡化摳像流程。｜https://aescripts.com/corridorkey-for-green-screens/
+MaskMotion｜aescripts｜animation｜原生C++外掛，讓單一圖層內的各遮罩區域各自獨立動畫（位置/錨點/縮放/旋轉/不透明度），不必複製圖層弄亂時間軸。｜https://aescripts.com/maskmotion/
+MaskPro｜aescripts｜matte｜遮罩工作面板：形狀一鍵轉遮罩、簡化複雜圖層、加速精準遮罩製作。｜https://aescripts.com/maskpro/
+Extrude｜aescripts｜3d｜一鍵把可編輯文字、形狀與遮罩擠成立體，支援2D方向擠出、消失點擠出與完整3D擠出三種模式。｜https://aescripts.com/extrude/
+3D Modeler｜aescripts｜3d｜在AE內建立3D模型：把純色/形狀/文字/去背圖層擠出成立體，貼上材質並用遮罩操作表面。｜https://aescripts.com/3d-modeler/
+Gridder 2｜aescripts｜workflow｜把大量圖層自動排成可自訂的網格：矩形、3D、圓形或螺旋等多種排列方式。｜https://aescripts.com/gridder/
+proGradient｜aescripts｜generate｜AE的動態漸層生成器（前身 freeGradient）：磁吸、等高線、遮罩路徑、條紋、從任意圖層取色，支援OKLAB/HCL色彩空間。｜https://aescripts.com/progradient/
+InstantRecipe｜aescripts｜workflow｜把一個圖層的整體外觀（效果、關鍵幀、表達式、遮罩，甚至攝影機與燈光組）打包，一鍵套到另一圖層；會自動依合成尺寸縮放，可存成單一檔案分享。等於進化版 .ffx。｜https://aescripts.com/instantrecipe/
+EaseCopy｜aescripts｜workflow｜分開複製貼上「緩動」與「數值」：貼緩動不會蓋掉數值，貼數值也不會蓋掉緩動。｜https://aescripts.com/easecopy/
+PreFlight｜aescripts｜workflow｜算圖前的最後檢查：45項自動檢測抓出錯字、忘了關的solo、靜音音軌等AE不會警告的問題，可一鍵修正並跳到問題處。｜https://aescripts.com/preflight/
+Stash｜aescripts｜workflow｜取代AE老舊的專案面板：內嵌縮圖預覽、智慧搜尋與篩選、分頁與格狀檢視，更現代的素材瀏覽管理方式。｜https://aescripts.com/stash/
+Shortcut Studio｜aescripts｜workflow｜把你所有的AE表達式、腳本與預設集中收在一個資料庫面板隨取隨用。｜https://aescripts.com/shortcut-studio/
+MochaImport+｜aescripts｜tracking｜打通 mocha 與 AE 的工作流：建立穩定化預合成、把遮罩/效果控制點/圖層搬過來，並依透視變形貼合。｜https://aescripts.com/mochaimport/
+Markers Command Center｜aescripts｜workflow｜標記(marker)自動化管理面板，含AI輔助；v1.5起支援素材片段標記。｜https://aescripts.com/markers-command-center/
+VoxMark｜aescripts｜text｜把旁白自動變成精準對齊的標記與字幕：算出合成的音訊、用你選的AI服務轉錄，再輸出成標記或SRT，支援講者辨識與顏色分類。｜https://aescripts.com/voxmark/
+JACK｜aescripts｜audio｜把六個必備音訊工具整合成一套，直接在AE/Pr裡清理、增強與改造聲音。｜https://aescripts.com/jack/
+LottiePacker｜aescripts｜workflow｜Lottie製作者的工作流擴充：用Bodymovin引擎批次輸出JSON、驗證跨平台屬性相容性、一鍵抽出獨立的.aep原始檔。｜https://aescripts.com/lottiepacker/
+GPUDog Deep｜aescripts｜stylize｜節點式GPU效果編輯器：在瀏覽器工作室(Den)裡用節點組出自己的效果並即時預覽，再拉進AE當成可上關鍵幀的真實效果。｜https://aescripts.com/gpudog-deep/
+Sandbox｜aescripts｜generate｜把業界標準的網頁動畫引擎(HTML5、Three.js、GSAP、Pixi.js、p5.js)接進AE/Pr，銜接生成式AI與專業動態圖形。｜https://aescripts.com/sandbox/
+AE GPT｜aescripts｜workflow｜把AI自動化帶進AE：Agent模式會自己撰寫並執行ExtendScript，把自然語言指令變成實際操作（修錯、建場景、加效果）。支援ChatGPT/Claude/Gemini。｜https://aescripts.com/ae-gpt/
+MotionAmigo｜aescripts｜workflow｜在AE裡開一個Claude Code或Codex實例的CEP面板，透過遠端MCP伺服器讓AI代理變成AE腳本專家，用你自己的AI訂閱運作。｜https://aescripts.com/motionamigo/
+Fusion2AE 3D Bridge｜aescripts｜workflow｜把DaVinci Resolve/Fusion的3D場景資料轉到AE：Fusion端匯出.f2ae中繼檔，AE端面板讀取後自動重建場景。｜https://aescripts.com/fusion2ae-3d-bridge/
+AEC4D PRO｜aescripts｜3d｜功能最完整的 Cinema 4D → After Effects 場景匯入工具。｜https://aescripts.com/aec4d/
+STMapper｜aescripts｜warp｜用ST map(UV圖)扭曲圖層：可接3D算圖輸出的UV通道把貼圖貼到算好的幾何上，也能產生空白ST map把既有的變形與扭曲烘焙下來。｜https://aescripts.com/stmapper/
+HardCorrupt｜aescripts｜stylize｜方塊損壞式故障效果，把畫面弄成硬派的數位崩壞感。｜https://aescripts.com/hardcorrupt/
+InstaLUT｜aescripts｜color｜找LUT的神器：用你目前合成的畫面即時預覽所有LUT，快速挑出最適合這支案子的那一個。｜https://aescripts.com/instalut/
+Voxel Buddy Pro｜aescripts｜3d｜即時GPU體素(voxel)光線步進引擎，不需模擬運算，與AE的3D攝影機與燈光系統整合，做方塊化立體世界。｜https://aescripts.com/voxel-buddy-pro/
+Voxel Sorter｜aescripts｜stylize｜把影片變成可傾斜、可打光的立體體素世界，並能在3D空間裡做像素排序。｜https://aescripts.com/voxel-sorter/
+CloudLight｜aescripts｜generate｜用AE燈光生成雲朵，燈光位置與參數直接決定雲的形狀與明暗。｜https://aescripts.com/cloudlight/
+KO BandFill｜aescripts｜generate｜原生的程序化帶狀圖案外掛：20種幾何共用一套控制，可做背景、轉場、漸層與圖形，加上變化與扭曲參數變化無窮。｜https://aescripts.com/ko-bandfill/
+Convex Hull｜aescripts｜generate｜在AE裡做凸包(Convex Hull)效果：用調整圖層或選取的多個圖層，自動生成包覆它們的最小凸多邊形。｜https://aescripts.com/convex-hull/
+CenterLine｜aescripts｜draw｜從任何點陣圖抽出乾淨的單像素骨架向量路徑（Zhang-Suen細線化＋Schneider貝茲擬合＋RDP最佳化），把手繪草稿或Logo瞬間變成可動畫的路徑。｜https://aescripts.com/centerline/
+FontObj｜aescripts｜3d｜把文字轉成真正的3D OBJ幾何：打字、選字型、設定大小/擠出/字距，直接輸出乾淨的OBJ回AE使用。｜https://aescripts.com/fontobj/
+STACK3D｜aescripts｜3d｜把整套3D圖稿流程自動化：向量與點陣圖轉換、自訂幾何與倒角擠出、各面獨立上色、清理問題路徑，並全部綁到一個空值控制器上。｜https://aescripts.com/stack3d/
+Depthion｜aescripts｜3d｜GPU外掛，用複製圖層堆疊出偽厚度，快速做出立體延伸感。｜https://aescripts.com/depthion/
+MaskPin｜aescripts｜warp｜原生的遮罩式透視釘：一鍵把四個透視控制點貼合到你的遮罩範圍，而不是從整個合成或圖層邊界開始，比內建Corner Pin精準省事。｜https://aescripts.com/maskpin/
+RePin｜aescripts｜tracking｜用任一純色圖層的四角來去除變形並穩定素材；純色可為2D或3D，也可以帶Corner Pin效果。｜https://aescripts.com/repin/
+Kineto｜aescripts｜animation｜用白話描述動畫，Kineto 就生成完整可編輯的形狀圖層關鍵幀動畫（不是死的影片檔）：輸入提示詞、面板預覽，再匯入合成成為帶錨點的形狀群組。｜https://aescripts.com/kineto/
+Chatty｜aescripts｜text｜在AE內做動態聊天對話：文字、表情符號、媒體、音訊、頭像與可自訂樣式，做社群短影音的對話演出。｜https://aescripts.com/chatty/
+VoiceLab｜aescripts｜audio｜在時間軸上直接生成配音：內建免費的本機文字轉語音模型(免訂閱)，也支援ElevenLabs，另可做音效與變聲。｜https://aescripts.com/voicelab/
+JustScrollIt｜aescripts｜text｜在AE裡幾下就做出片尾工作人員名單：可從零建立，也能直接讀入純文字檔生成捲動字幕。｜https://aescripts.com/justscrollit/
+CurveConductor｜aescripts｜animation｜以曲線驅動的程序化時間控制：不用一個個屬性調貝茲手把，而是用一條控制曲線同時驅動多個屬性的時間感，曲線本身是可編輯的單一元素。｜https://aescripts.com/curveconductor/
+RetroBounce｜aescripts｜animation｜重現經典螢幕保護程式的彈跳動態與重力落下：可調重力、速度與牆面碰撞，每次撞牆還能換色。｜https://aescripts.com/retrobounce/
+LaPath｜aescripts｜draw｜AE最完整的路徑圓角工具，精準控制形狀轉角的圓潤程度。｜https://aescripts.com/lapath/
+RectControl｜aescripts｜mograph｜矩形的終極控制工具，專為UI與SaaS產品動畫設計，也適用於各種圖形排版需求。｜https://aescripts.com/rectcontrol/
+LightsOn｜aescripts｜light｜用AE標準元素做出漂亮的鏡頭光暈與燈光效果，完全在AE內生成、不需額外外掛渲染。｜https://aescripts.com/lightson/
+GradientFix Pro｜aescripts｜workflow｜修復並重建AE裡的靜態與動態漸層：解決 Bodymovin/Lottie JSON 匯入後漸層變黑白、漸層資料遺失的問題，快速重建平滑漸層動畫。｜https://aescripts.com/gradientfix-pro/
+FontReplacer｜aescripts｜workflow｜整個AE專案一次換字型：連混合字型的圖層、有關鍵幀的文字與表達式文字都能正確替換。｜https://aescripts.com/fontreplacer/
+Faux Lock｜aescripts｜workflow｜讓圖層在合成視窗中可被點擊穿透，但在時間軸上仍可正常選取編輯——解決調整圖層、參考線、遮罩老是擋住點選的困擾。｜https://aescripts.com/faux-lock/
+JustPaste!｜aescripts｜workflow｜把「存檔→匯出→找檔案→拖進來」這串繁瑣流程，簡化成單純的複製貼上。｜https://aescripts.com/justpaste/
+Import From｜aescripts｜workflow｜一鍵在專案資料夾或自訂常用資料夾直接開啟匯入視窗，不用每次翻找路徑，也能直接用檔案總管開啟。｜https://aescripts.com/import-from/
+AlignAll｜aescripts｜workflow｜對齊與均分AE的2D與3D圖層（內建對齊面板不支援3D）。｜https://aescripts.com/alignall/
+LayerQ｜aescripts｜render｜把圖層可見性的組合存成可重用的「圖層集」，用Solo立即預覽，再一鍵把每種變化版本全部輸出（含巢狀預合成），不必手動複製合成。｜https://aescripts.com/layerq/
+TimePilot Pro｜aescripts｜workflow｜進階時間軸導覽：在剪點、關鍵幀與標記之間依情境跳轉，含互動式即時雷達軌與專業修剪工具。｜https://aescripts.com/timepilot-pro/
+Brand Keeper｜aescripts｜workflow｜把客戶的品牌色、字型、素材與備註全部收在AE的一個面板裡，不用一直切換軟體查規範。｜https://aescripts.com/brand-keeper/
+Moti Wizard｜aescripts｜workflow｜已經做好動畫的Illustrator/Photoshop圖稿要改稿時，直接在播放頭位置更新來源：替換PS/Ai檔、擷取PS重繪快照、跳回原檔編輯，不用重建AE圖層。｜https://aescripts.com/moti-wizard/
+Batch Comp Normalizer｜aescripts｜workflow｜批次工具，讓AE專案更乾淨整齊（統一合成設定與清理）。｜https://aescripts.com/batch-comp-normalizer/
+AE Work Manager｜aescripts｜workflow｜在AE內直接記錄工時與產出專案成本報表，不用再開試算表或外部計時器。｜https://aescripts.com/ae-work-manager/
+Vaeriable｜aescripts｜workflow｜直接在時間軸輸入或載入數值並求解四則運算、代數與交叉相乘（換算比例很方便）。｜https://aescripts.com/vaeriable/
+Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+CC Light Burst 2.5｜AE內建｜light｜放射狀光線爆發與縮放模糊，做能量衝擊、速度感或神聖光芒。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Lens Flare｜AE內建｜flare｜內建鏡頭光暈，只有三種鏡頭類型、可調性低；講究時用 Optical Flares / Real Lens Flares。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Advanced Lightning｜AE內建｜generate｜內建閃電/電弧生成器，可自訂分支數量、衰減與亂數，做雷電與放電。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Beam｜AE內建｜generate｜在兩點之間生成光束，做雷射、槍砲光線或科幻射線。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Fractal Noise｜AE內建｜generate｜AE最重要的內建生成器：萬用分形噪波，可當煙霧、雲、水面、紋理、能量，也是最常用的置換(displacement)與遮罩來源。學會它等於解鎖一半的AE特效。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Turbulent Noise｜AE內建｜generate｜Fractal Noise 的流體版本，湍流更平滑自然，做煙霧、水流、有機流動更好看。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+CC Particle World｜AE內建｜particles｜內建3D粒子系統，不用外掛就能做星塵、火花、煙霧、爆發、雨雪。是免費版的 Particular。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Particle Systems II｜AE內建｜particles｜內建2D粒子，速度快、設定簡單，適合快速做煙火、氣泡、噴濺。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Pixel Polly｜AE內建｜particles｜讓畫面碎裂並爆散成碎片，帶重力落下，做玻璃破碎或畫面崩解。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Star Burst｜AE內建｜particles｜3D星空飛行效果，做穿越星際或抽象星點背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Ball Action｜AE內建｜stylize｜把畫面轉成一顆顆小球/點陣，可整體翻轉旋轉，做點陣化風格。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+CC Scatterize｜AE內建｜particles｜把畫面像素打散飛出，做消散、崩解、風化效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Rainfall｜AE內建｜particles｜內建下雨生成，可控雨量、角度、速度與景深。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Snowfall｜AE內建｜particles｜內建下雪生成，可控雪量、大小、飄動與景深。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Mr. Mercury｜AE內建｜particles｜液態水銀/融球(metaball)粒子，粒子會互相融合成有機流體，做水銀、黏液、液態金屬。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Bubbles｜AE內建｜particles｜生成上升的氣泡，可控大小、速度與扭曲，做水中氣泡或夢幻氛圍。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Drizzle｜AE內建｜particles｜水面雨滴漣漪，一圈圈擴散並互相干涉，做水面被雨打的效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Foam｜AE內建｜particles｜泡沫/氣泡流體模擬，泡泡會互相推擠碰撞，可用自訂圖層當泡泡貼圖。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Shatter｜AE內建｜particles｜3D破碎爆破：把圖層依自訂形狀碎裂並炸開，做玻璃、牆面、文字爆破。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Card Dance｜AE內建｜particles｜把畫面切成卡片陣列，用另一圖層的灰度控制每張卡片的位置/旋轉/縮放，做翻牌與圖像重組。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Caustics｜AE內建｜texture｜水底焦散光紋，模擬光穿過水面在池底形成的網狀光影，配 Wave World 更真實。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Wave World｜AE內建｜texture｜水波物理模擬，產生真實的波浪高度圖，通常輸出給 Caustics 或置換使用。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Audio Spectrum｜AE內建｜audio｜把音訊轉成頻譜圖形，可沿路徑排列，做音樂可視化。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Audio Waveform｜AE內建｜audio｜把音訊轉成波形圖形，做播客/音樂的聲波視覺。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Stroke｜AE內建｜draw｜沿遮罩路徑描邊，可設定起訖做出書寫/勾線動畫，是免外掛做線條動畫的基本工具。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Write-on｜AE內建｜draw｜以筆刷位置關鍵幀逐筆書寫顯現，做手寫簽名、筆跡動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Vegas｜AE內建｜draw｜沿圖層輪廓或遮罩跑動的虛線/光點，做跑馬燈邊框、掃描線框、電路感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Scribble｜AE內建｜draw｜用手繪塗鴉筆觸填滿遮罩，做手繪填色、草圖上色動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Radio Waves｜AE內建｜generate｜生成不斷擴散的圓環或多邊形波，做聲納、訊號、衝擊波、水波。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Cell Pattern｜AE內建｜texture｜生成細胞狀有機紋理，可動畫，常當背景、置換來源或有機紋理。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+Gaussian Blur｜AE內建｜blur｜標準高斯模糊，畫質最乾淨，小範圍模糊首選。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+Fast Box Blur｜AE內建｜blur｜快速方框模糊，大範圍模糊時比高斯快很多，可重複疊代逼近高斯品質。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+Camera Lens Blur｜AE內建｜blur｜內建鏡頭散景模糊，可自訂光圈葉片形狀，並用灰階圖層當模糊圖做景深。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+Directional Blur｜AE內建｜blur｜單一方向的模糊，做速度感、動態模糊或風吹感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+CC Radial Blur｜AE內建｜blur｜放射/縮放/旋轉三種模糊模式，做爆炸衝擊、速度推進、旋轉暈眩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+CC Vector Blur｜AE內建｜blur｜依向量方向塗抹模糊，可做液化流動、筆刷塗抹或有機拖曳感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+Compound Blur｜AE內建｜blur｜用另一圖層的灰度控制各處模糊量，做深度模糊、局部柔化或漸變虛化。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html
+Pixel Motion Blur｜AE內建｜time｜後製自動加運動模糊：分析相鄰幀的像素運動(光流)生成模糊，適合補救沒開運動模糊的素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+CC Force Motion Blur｜AE內建｜time｜強制提高運動模糊的採樣數，讓快速運動的模糊更平滑細緻。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+Turbulent Displace｜AE內建｜warp｜最常用的內建扭曲：用湍流噪波推移像素，做旗幟飄動、水中晃動、火焰形變、有機抖動、液化流動。跟 Fractal Noise 並列AE兩大萬用工具。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Displacement Map｜AE內建｜warp｜用另一圖層的顏色/亮度值推移像素，做玻璃折射、水面、貼合表面凹凸。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Wave Warp｜AE內建｜warp｜規律的波浪扭曲，可選正弦/方波/鋸齒等波形，做旗幟、水波、抖動文字。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Liquify｜AE內建｜warp｜用筆刷手動液化推擠畫面，做局部變形、瘦臉、有機扭曲。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Lens｜AE內建｜warp｜魚眼球面鏡頭扭曲，把畫面包成球狀，做窺視孔、魚眼、球面反射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Optics Compensation｜AE內建｜warp｜添加或移除鏡頭桶狀/枕狀畸變，合成CG前先去畸變、合成後再加回可精準對位。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Polar Coordinates｜AE內建｜warp｜直角↔極座標互轉，最有名的用途是把全景照做成小星球，也能把直線變圓環。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Page Turn｜AE內建｜warp｜翻頁/捲頁效果，可控捲曲半徑與背面材質，做書頁翻動或紙張掀起。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Power Pin｜AE內建｜warp｜四角透視變形，把畫面貼到有透視的平面上（螢幕、看板、牆面）。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Mesh Warp｜AE內建｜warp｜網格自由變形，拉動網格點做任意扭曲，適合手動液化或造型變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Mirror｜AE內建｜warp｜沿指定角度做鏡像反射，可疊多層做萬花筒或對稱構圖。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Kaleida｜AE內建｜stylize｜萬花筒對稱效果，多種對稱模式，做迷幻圖案或對稱背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Bulge｜AE內建｜warp｜局部凸起或凹陷，做放大鏡、氣球膨脹、Q版變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Glass｜AE內建｜stylize｜以另一圖層當高度圖產生玻璃折射與浮雕光影，做玻璃、水珠、浮凸質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Roughen Edges｜AE內建｜stylize｜邊緣粗糙侵蝕，做手繪邊、腐蝕做舊、火焰邊緣、噴漆感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Find Edges｜AE內建｜stylize｜邊緣檢測，把畫面轉成線稿輪廓，常當卡通化或素描的第一步。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Cartoon｜AE內建｜art｜內建卡通化：色塊平塗＋邊緣描線，做動漫/插畫風格。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Mosaic｜AE內建｜stylize｜馬賽克像素化，最常用來打碼遮蔽人臉、車牌、敏感資訊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Motion Tile｜AE內建｜stylize｜把畫面平鋪重複並可位移，最常用來做無縫循環背景或擴展畫面邊緣避免露出黑邊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+CC RepeTile｜AE內建｜stylize｜多種模式平鋪擴展畫面邊緣（重複/鏡像/展開），常用來補滿變形後露出的邊緣。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Posterize｜AE內建｜art｜色調分離，把連續漸層壓成幾階色塊，做海報化/插畫感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Emboss｜AE內建｜stylize｜浮雕效果，把畫面轉成灰色立體浮刻，也常當置換或質感來源。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Texturize｜AE內建｜stylize｜用另一圖層當紋理做浮雕質感疊加，讓畫面像印在紙張/牆面/布料上。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Strobe Light｜AE內建｜stylize｜頻閃/閃爍效果，可設定閃爍週期與混合模式，做警示燈、派對閃光、故障閃動。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+CC Threshold｜AE內建｜stylize｜高反差二值化，把畫面壓成純黑白，做網版印刷、剪影、高對比風格。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Levels｜AE內建｜color｜色階調整：設定黑場/白場/gamma，最基礎也最重要的曝光與對比工具。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Curves｜AE內建｜color｜曲線調色，AE最萬用的校色工具：拉S曲線加對比、分通道拉曲線調色偏。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Lumetri Color｜AE內建｜color｜內建專業調色面板：基本校正、創意Look、色輪、HSL次級調色、暗角、LUT一站式完成，不用外掛也能做完整調色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Hue/Saturation｜AE內建｜color｜調整色相、飽和度與明度，可只針對單一色系（如只調紅色）。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Vibrance｜AE內建｜color｜自然飽和度，優先提升低飽和區域並保護膚色，比直接拉飽和度自然。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Curves / Tint / Tritone｜AE內建｜color｜著色類工具：Tint 把畫面映射到兩色、Tritone 映射到三色，做單色調、雙色調風格。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Photo Filter｜AE內建｜color｜模擬攝影冷暖濾鏡，快速調整畫面色溫氛圍（暖橙/冷藍/水下等）。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Exposure｜AE內建｜color｜以攝影檔位(stop)調整曝光、偏移與gamma，適合線性色彩空間下的精準曝光調整。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Change to Color｜AE內建｜color｜把指定顏色替換成另一顏色，可控容差與柔和度，做換衣服顏色、換Logo色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Colorama｜AE內建｜color｜漸層循環映射：把亮度映射到自訂色環，做迷幻變色、熱成像、能量色、金屬色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Black & White｜AE內建｜color｜黑白轉換，可個別控制各色轉成灰階的明度，比直接去飽和更有層次。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+CC Toner｜AE內建｜color｜多點色調映射，分別為陰影/中間調/高光指定顏色，做分離色調(split tone)。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Keylight｜AE內建｜keying｜AE內建最強的綠幕摳像器(The Foundry出品)，處理頭髮與半透明邊緣乾淨，是免費方案中的首選。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Linear Color Key｜AE內建｜keying｜線性色鍵，依色彩相似度做漸進去背，常當Keylight之後的補刀工具。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Advanced Spill Suppressor｜AE內建｜keying｜去除綠幕/藍幕反射在主體上的溢色，讓皮膚與頭髮不帶綠邊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Key Cleaner｜AE內建｜keying｜摳像後的邊緣與雜訊清理，修復壓縮造成的鋸齒與破碎alpha。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Set Matte｜AE內建｜matte｜用另一圖層的通道當作本圖層的遮罩，是不用軌道遮罩就能共用遮罩的方式。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html
+Drop Shadow｜AE內建｜stylize｜基本投影，可控距離、角度、柔和度，做文字與圖形的立體分離感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Radial Shadow｜AE內建｜stylize｜點光源投射陰影，陰影會隨光源位置放射變形，比 Drop Shadow 更有空間感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+Bevel Alpha｜AE內建｜perspective｜為Alpha邊緣加倒角與打光，做出立體浮凸的邊緣，常用於文字與按鈕。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html
+CC Sphere｜AE內建｜3d｜把畫面包裹成3D球體，可自轉與打光，最常用來做星球與水晶球。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html
+CC Cylinder｜AE內建｜3d｜把畫面捲成3D圓柱，可旋轉與打光，做易開罐、柱體、捲軸。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html
+CC Spotlight｜AE內建｜light｜聚光燈照明，投出可控角度與柔邊的光錐照亮局部。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Add Grain｜AE內建｜film｜添加膠片顆粒，可依片型預設調整顆粒大小與強度，讓數位畫面更有底片感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Match Grain｜AE內建｜film｜分析參考素材的顆粒並複製到目標圖層，讓CG或去背元素的顆粒與實拍一致。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Remove Grain｜AE內建｜restore｜降噪去顆粒，可分通道調整，適合救高ISO暗部噪點的素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Noise｜AE內建｜film｜添加雜訊，可選是否影響顏色，做粗糙質感或打破過於乾淨的漸層(去色帶)。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Median｜AE內建｜restore｜中值濾波，柔化細節但保留邊緣，可去噪也可做出油畫/塑膠般的繪畫感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Echo｜AE內建｜time｜把多個時間點的畫面疊加，做殘影、拖尾、時間重複與光跡累積。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+Posterize Time｜AE內建｜time｜降低畫面幀率，做定格動畫(stop motion)、抽格感或復古卡頓。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+Time Displacement｜AE內建｜time｜用灰度圖決定每個像素取用哪個時間點的畫面，做時間扭曲、切片掃描等超現實效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+Timewarp｜AE內建｜time｜內建光流變速，可做慢動作與補幀；品質不如 Twixtor 但免費內建。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html
+3D Camera Tracker｜AE內建｜tracking｜內建3D攝影機反求：分析實拍畫面算出攝影機運動與3D點雲，讓你把文字/3D元素貼進實拍場景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html
+Warp Stabilizer VFX｜AE內建｜restore｜內建畫面穩定，自動分析並消除手持晃動，也能只穩定不裁切(VFX模式)供後續追蹤使用。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html
+Card Wipe｜AE內建｜transition｜把畫面切成卡片並翻轉切換到下一鏡，可控翻轉軸與順序。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Gradient Wipe｜AE內建｜transition｜依另一圖層的灰度決定溶解順序，是最萬用的自訂轉場——搭配任何黑白圖就能做出各種形狀的轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Linear/Radial Wipe｜AE內建｜transition｜線性或放射方向的擦除轉場，可控角度與羽化，最基本的顯現/切換方式。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+CC Glass Wipe｜AE內建｜transition｜熔化玻璃式轉場，畫面像融化般流動切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+CC Light Wipe｜AE內建｜transition｜發光擦除轉場，邊界帶光暈往外擴張切換畫面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+CC Twister｜AE內建｜transition｜扭轉翻面轉場，畫面像絲帶般扭轉露出背面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+CC WarpoMatic｜AE內建｜transition｜依畫面明暗做扭曲溶解，兩個畫面互相滲透變形切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+Block Dissolve｜AE內建｜transition｜隨機方塊溶解，可控方塊大小與柔邊，做數位感切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
+BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
+BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
+BCC Pin Art 3D｜Continuum｜particles｜針板浮雕玩具效果(用密集針桿依畫面凹凸排列)。｜https://borisfx.com/documentation/continuum/bcc-pin-art-3d/
+BCC Organic Strands｜Continuum｜particles｜生成有機生長的絲線/觸鬚/藤蔓。｜https://borisfx.com/documentation/continuum/bcc-organic-strands/
+BCC Rain｜Continuum｜particles｜下雨生成，可控雨量、角度、風。｜https://borisfx.com/documentation/continuum/bcc-rain/
+BCC Snow｜Continuum｜particles｜下雪生成，可控雪量、飄動、景深。｜https://borisfx.com/documentation/continuum/bcc-snow/
+BCC 2D Particles｜Continuum｜particles｜把畫面打散成2D粒子飛散。｜https://borisfx.com/documentation/continuum/bcc-2d-particles/
+BCC Wild Cards｜Continuum｜particles｜卡片群飛散/翻飛動畫。｜https://borisfx.com/documentation/continuum/bcc-wild-cards/
+BCC Title Studio｜Continuum｜3d｜專業3D標題引擎(獨立介面)，擠出3D文字並加材質、燈光、動畫，做廣播級片頭。｜https://borisfx.com/documentation/continuum/bcc-title-studio/
+BCC 3D Objects系列｜Continuum｜3d｜3D擠出物件組：把文字/樣條/EPS向量擠成3D立體。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Beauty Studio｜Continuum｜beauty｜AI美膚磨皮套件，勻膚色、去瑕疵並保留皮膚細節。｜https://borisfx.com/documentation/continuum/bcc-beauty-studio/
+BCC+ DeNoise ML｜Continuum｜restore｜機器學習降噪，去除噪點與雜訊並保留細節。｜https://borisfx.com/documentation/continuum/bcc-denoise/
+BCC+ UpRes ML｜Continuum｜restore｜ML智慧放大解析度，把低清素材提升清晰度。｜https://borisfx.com/documentation/continuum/bcc-upres-ml/
+BCC+ Frame Fixer ML｜Continuum｜restore｜ML壞幀/掉幀修復。｜https://borisfx.com/documentation/continuum/bcc-frame-fixer-ml/
+BCC+ Retimer ML｜Continuum｜time｜ML光流變速/慢動作補幀，比傳統時間扭曲更乾淨。｜https://borisfx.com/documentation/continuum/bcc-retimer-ml/
+BCC+ Motion Blur ML｜Continuum｜blur｜ML自動為畫面/圖形添加真實運動模糊。｜https://borisfx.com/documentation/continuum/bcc-motion-blur/
+BCC+ Depth Map ML｜Continuum｜keying｜ML從2D畫面生成深度圖，供景深/霧/重打光使用。｜https://borisfx.com/documentation/continuum/bcc-depth-map-ml/
+BCC+ Face ML｜Continuum｜keying｜ML人臉偵測並生成遮罩，方便針對臉部調整。｜https://borisfx.com/documentation/continuum/bcc-face-ml/
+BCC+ Matte Refine ML｜Continuum｜keying｜ML遮罩邊緣精修(毛髮/細節)。｜https://borisfx.com/documentation/continuum/bcc-matte-refine-ml/
+BCC+ Witness Protection ML｜Continuum｜tracking｜ML自動追蹤人臉並打碼/馬賽克(隱私保護)。｜https://borisfx.com/documentation/continuum/bcc-witnessprotection/
+BCC+ License Plate ML｜Continuum｜tracking｜ML自動偵測並追蹤車牌打碼。｜https://borisfx.com/documentation/continuum/bcc-license-plate-ml/
+BCC Remover｜Continuum｜restore｜物件移除/畫面修補(clone+inpaint自動填補)，去掉不要的東西。｜https://borisfx.com/documentation/continuum/bcc-remover/
+BCC Wire Remover｜Continuum｜restore｜移除吊鋼絲/吊繩(威亞)。｜https://borisfx.com/documentation/continuum/bcc-wire-remover/
+BCC Flicker Fixer｜Continuum｜restore｜去除頻閃/燈光閃爍。｜https://borisfx.com/documentation/continuum/bcc-flicker-fixer/
+BCC Optical Stabilizer｜Continuum｜restore｜光流畫面穩定防抖。｜https://borisfx.com/documentation/continuum/bcc-optical-stabilizer/
+BCC+ Magic Sharp｜Continuum｜restore｜智慧銳化，強化細節不增噪。｜https://borisfx.com/documentation/continuum/bcc-magic-sharp/
+BCC Lens Correction｜Continuum｜restore｜鏡頭畸變校正(去桶狀/枕狀變形)。｜https://borisfx.com/documentation/continuum/bcc-lens-correction/
+BCC Reframer｜Continuum｜utility｜橫轉豎智慧重構圖，為社群/手機影片重新取景。｜https://borisfx.com/documentation/continuum/bcc-reframer/
+BCC 修復工具組｜Continuum｜restore｜其他修復工具：訊號缺損、除塵去刮痕、壞點、廣播安全色、去色帶/方塊、去交錯。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Primatte Studio｜Continuum｜keying｜Primatte頂級綠幕/藍幕摳像套件，含燈光校正、溢色去除、光包裹，處理頭髮細節乾淨。｜https://borisfx.com/documentation/continuum/bcc-primatte-studio/
+BCC Chroma Key Studio｜Continuum｜keying｜一站式色鍵摳像套件(採樣+邊緣+溢色)。｜https://borisfx.com/documentation/continuum/bcc-chroma-key-studio/
+BCC+ Light Wrap｜Continuum｜keying｜合成光包裹，讓背景的光滲到前景邊緣，使去背元素自然融入。｜https://borisfx.com/documentation/continuum/bcc-light-wrap/
+BCC+ Spill Remover｜Continuum｜keying｜去除綠幕/藍幕在主體上的溢色反光。｜https://borisfx.com/documentation/continuum/bcc-spill-remover/
+BCC Key/Blend工具組｜Continuum｜keying｜鍵控與合成輔助工具組：各式色鍵/亮度鍵、遮罩收縮清理、合成混合、像素選擇器。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Match Move｜Continuum｜tracking｜物件追蹤跟隨(內建mocha引擎)，讓元素黏著畫面中的物體。｜https://borisfx.com/documentation/continuum/bcc-match-move/
+BCC Corner Pin Studio｜Continuum｜tracking｜mocha平面追蹤四角釘，把新畫面貼到會動的螢幕/看板/海報。｜https://borisfx.com/documentation/continuum/bcc-corner-pin-studio/
+BCC Lens Flare 3D｜Continuum｜flare｜3D空間鏡頭光暈，跟AE燈光/攝影機連動。｜https://borisfx.com/documentation/continuum/bcc-lens-flare-3d/
+BCC Stage Light｜Continuum｜light｜舞台聚光燈束(演唱會/秀場可見光束)。｜https://borisfx.com/documentation/continuum/bcc-stage-light/
+BCC+ Light Leaks｜Continuum｜light｜動態漏光，做復古/文青光斑溢染。｜https://borisfx.com/documentation/continuum/bcc-light-leaks/
+BCC+ Glow｜Continuum｜light｜高品質輝光。｜https://borisfx.com/documentation/continuum/bcc-glow/
+BCC+ Rays｜Continuum｜light｜體積光芒/上帝光(從亮部放射光柱)。｜https://borisfx.com/documentation/continuum/bcc-rays/
+BCC+ ReLight｜Continuum｜light｜以法線/深度圖對畫面重新打光。｜https://borisfx.com/documentation/continuum/bcc-relight/
+BCC Lightning｜Continuum｜light｜閃電/電弧生成。｜https://borisfx.com/documentation/continuum/bcc-lightning/
+BCC Laser Beam｜Continuum｜light｜雷射光束生成。｜https://borisfx.com/documentation/continuum/bcc-laser-beam/
+BCC Light Sweep｜Continuum｜light｜文字/Logo表面掃過一道光(shine)。｜https://borisfx.com/documentation/continuum/bcc-light-sweep/
+BCC Edge Lighting｜Continuum｜light｜為物體邊緣加輪廓光(rim light)。｜https://borisfx.com/documentation/continuum/bcc-edge-lighting/
+BCC Lights工具組｜Continuum｜light｜其他燈光工具：環境光、眼神光、暗部發光、多星芒、過曝、光斑拉絲、雲隙柔光、聚光燈等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Video Glitch｜Continuum｜stylize｜數位故障glitch(方塊、錯位、掃描線、色偏)。｜https://borisfx.com/documentation/continuum/bcc-video-glitch/
+BCC Damaged TV｜Continuum｜stylize｜損壞電視訊號(雪花、干擾、失真)。｜https://borisfx.com/documentation/continuum/bcc-damaged-tv/
+BCC Scanline｜Continuum｜stylize｜CRT掃描線橫紋。｜https://borisfx.com/documentation/continuum/bcc-scanline/
+BCC+ Super LED｜Continuum｜stylize｜LED點陣大螢幕效果(如演唱會LED牆)。｜https://borisfx.com/documentation/continuum/bcc-super-led/
+BCC Misalignment｜Continuum｜stylize｜RGB通道錯位色偏。｜https://borisfx.com/documentation/continuum/bcc-misalignment/
+BCC+ Prism｜Continuum｜stylize｜稜鏡色散分光效果。｜https://borisfx.com/documentation/continuum/bcc-prism/
+BCC Grunge｜Continuum｜stylize｜污漬做舊質感。｜https://borisfx.com/documentation/continuum/bcc-grunge/
+BCC Edge Grunge｜Continuum｜stylize｜邊緣破損做舊。｜https://borisfx.com/documentation/continuum/bcc-edge-grunge/
+BCC Cast Shadow｜Continuum｜stylize｜透視投射陰影(物件落在地/牆的影子)。｜https://borisfx.com/documentation/continuum/bcc-cast-shadow/
+BCC Stylize工具組｜Continuum｜stylize｜其他風格化工具：馬賽克、浮雕、著色輝光、陰影、倒影、RGB邊緣、像素飛散等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Cartooner｜Continuum｜art｜卡通化描邊平塗，做動漫/卡通風。｜https://borisfx.com/documentation/continuum/bcc-cartooner/
+BCC Cartoon Look｜Continuum｜art｜卡通調色風格。｜https://borisfx.com/documentation/continuum/bcc-cartoon-look/
+BCC Pencil Sketch｜Continuum｜art｜鉛筆素描風。｜https://borisfx.com/documentation/continuum/bcc-pencil-sketch/
+BCC Charcoal Sketch｜Continuum｜art｜炭筆素描風。｜https://borisfx.com/documentation/continuum/bcc-charcoal-sketch/
+BCC Water Color｜Continuum｜art｜水彩畫風格化。｜https://borisfx.com/documentation/continuum/bcc-water-color/
+BCC Halftone｜Continuum｜art｜半調網點印刷風。｜https://borisfx.com/documentation/continuum/bcc-halftone/
+BCC Art Looks工具組｜Continuum｜art｜其他藝術風格工具：海報、凹凸貼圖、噴漆、磁磚拼貼、夜視、X光、紅外線、哈里斯快門等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Film Stocks｜Continuum｜film｜290+種真實底片/沖印流程模擬(Tiffen)，重現各廠牌膠片色。｜https://borisfx.com/documentation/continuum/bcc-film-stocks/
+BCC+ Looks｜Continuum｜film｜電影Look調色預設庫，一鍵套用氛圍色調。｜https://borisfx.com/documentation/continuum/bcc-looks/
+BCC Match Grain｜Continuum｜film｜自動匹配參考素材的顆粒，讓合成元素顆粒一致。｜https://borisfx.com/documentation/continuum/bcc-match-grain/
+BCC+ Grain｜Continuum｜film｜膠片顆粒生成。｜https://borisfx.com/documentation/continuum/bcc-grain/
+BCC+ Vignette｜Continuum｜film｜暗角(四角壓暗)。｜https://borisfx.com/documentation/continuum/bcc-vignette/
+BCC Film Style工具組｜Continuum｜film｜膠片風格工具組：漂白旁路、交叉沖印、日拍夜、膠片柔光/做舊、預閃、煙霧、特藝彩色等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC 3 Way Color Grade｜Continuum｜color｜三路色輪調色(陰影/中間調/高光)。｜https://borisfx.com/documentation/continuum/bcc-3-way-color-grade/
+BCC Color Match｜Continuum｜color｜兩鏡頭色彩自動匹配(統一不同鏡頭色調)。｜https://borisfx.com/documentation/continuum/bcc-color-match/
+BCC Videoscope｜Continuum｜color｜內嵌示波器/向量圖，監看畫面色彩與曝光。｜https://borisfx.com/documentation/continuum/bcc-videoscope/
+BCC Color工具組｜Continuum｜color｜色彩調整工具組：黑白、去霧、曝光、色溫、對比、飽和、陰影高光、色階、色彩平衡等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Grads/Tints工具組｜Continuum｜color｜攝影漸層鏡/著色濾鏡組：ND漸層鏡壓天空、色片、日落、膚色、分離色調等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Camera Shake｜Continuum｜utility｜擬真鏡頭震動/手持晃動。｜https://borisfx.com/documentation/continuum/bcc-camera-shake/
+BCC+ Chromatic Aberration｜Continuum｜distort｜鏡頭色差色散(邊緣紅藍分離)。｜https://borisfx.com/documentation/continuum/bcc-chromatic-aberration/
+BCC Lens工具組｜Continuum｜distort｜鏡頭光學工具組：去紫邊、鏡頭畸變、放射曝光、廣角。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Optical Diffusion工具組｜Continuum｜blur｜攝影柔光/霧化濾鏡組：柔光鏡、霧、霜化、薄霧、紗網、絲柔、景深、拉焦等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Blur工具組｜Continuum｜blur｜模糊工具組：高斯、通道、方向、放射、鏡頭散景、塗抹、深度模糊、USM銳化等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Morph｜Continuum｜warp｜兩畫面漸變變形(臉部morph/融變過渡)。｜https://borisfx.com/documentation/continuum/bcc-morph/
+BCC Video Morph｜Continuum｜warp｜視訊間變形過渡。｜https://borisfx.com/documentation/continuum/bcc-video-morph/
+BCC Warp工具組｜Continuum｜warp｜扭曲變形工具組：凸起、捲曲、置換貼圖、漣漪、湍流、旋轉、向量置換、波浪、極座標等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Perspective工具組｜Continuum｜3d｜3D透視/破碎工具組：畫面破碎、立方體、圓柱、球體、翻頁、捲頁、Ken Burns推拉。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Beat Reactor｜Continuum｜audio｜音頻節奏驅動任意參數(讓效果隨音樂律動)。｜https://borisfx.com/documentation/continuum/bcc-beat-reactor/
+BCC+ Audio Visualizer｜Continuum｜audio｜音訊波形/頻譜可視化。｜https://borisfx.com/documentation/continuum/bcc-audio-visualizer/
+BCC Trails｜Continuum｜time｜運動拖尾殘影。｜https://borisfx.com/documentation/continuum/bcc-trails/
+BCC Time工具組｜Continuum｜time｜時間處理工具組：幀抖動、循環、抽幀、時間模糊、時間置換、拖尾。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC+ Swish Pan｜Continuum｜transition｜甩鏡頭(whip pan)模糊轉場。｜https://borisfx.com/documentation/continuum/bcc-swish-pan/
+BCC Twister｜Continuum｜transition｜扭轉翻頁式轉場。｜https://borisfx.com/documentation/continuum/bcc-twister/
+BCC Cross Melt｜Continuum｜transition｜熔化溶解式轉場。｜https://borisfx.com/documentation/continuum/bcc-cross-melt/
+BCC Burnt Film｜Continuum｜transition｜膠片燒灼式轉場。｜https://borisfx.com/documentation/continuum/bcc-burnt-film/
+BCC Curl Dissolve｜Continuum｜transition｜捲頁溶解式轉場。｜https://borisfx.com/documentation/continuum/bcc-curl-dissolve/
+BCC Lens Flash｜Continuum｜transition｜鏡頭閃光式轉場。｜https://borisfx.com/documentation/continuum/bcc-lens-flash/
+BCC+ Depth Wipe ML｜Continuum｜transition｜ML深度圖擦除轉場(依遠近先後消失，前景先走)。｜https://borisfx.com/documentation/continuum/bcc-depth-wipe-ml/
+BCC+ Jump Cut Fixer ML｜Continuum｜transition｜ML平滑跳剪接點(訪談/口播剪掉停頓後接得自然)。｜https://borisfx.com/documentation/continuum/bcc-jump-cut-fixer-ml/
+BCC+ 轉場組(現代)｜Continuum｜transition｜BCC+系列風格化溶解/擦除轉場：模糊、急推急拉、漏光、稜鏡、煙霧、故障、甩鏡等現代感轉場。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC 轉場組(經典)｜Continuum｜transition｜BCC經典圖案轉場：棋盤、網格、萬花筒、光暈、漣漪、水波、絲帶、圓環等。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC Textures工具組｜Continuum｜texture｜紋理生成組：材質庫(石/布/金屬)、水底焦散、混色流體、分形噪波。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+BCC VR工具組｜Continuum｜vr｜360/VR影片工具組(不產生接縫的模糊/銳化/去閃/貼入/重定向)。｜https://borisfx.com/documentation/continuum/bcc-effects-list/
+Topaz Video AI｜未驗證｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
+Orb (VC Orb)｜未驗證｜3d｜免費：在AE內生成擬真3D星球/行星，含物理PBR著色、可設計大氣層光暈、地形凹凸貼圖、環境反射、雲層與自動陰影。做地球、外星球、太空場景神器。｜https://www.videocopilot.net/orb
+Fast Camera Lens Blur｜未驗證｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
+Crate's Godrays｜未驗證｜light｜免費：快速漂亮的體積光/放射光束，在畫面點一下設定發光點，調整光線長度、曝光、衰減與色差。從自然雲隙光到探照燈、全息光束都行。｜https://www.productioncrate.com/plugins/crates-easy-godrays
+Paint & Stick 2｜未驗證｜paint｜直接在合成裡用自訂/Photoshop筆刷手繪，支援洋蔥皮做逐格(cel)手繪動畫；還能把塗畫『黏』貼到C4D/Maya的3D渲染或動態影片表面上。｜
+Tracery｜未驗證｜generate｜用顏色自動追蹤畫面中最多512個點/區域(免打關鍵幀)，並以序列/星狀/全網格/最小生成樹方式連線，生成科技感電路、數據示意、視覺雜訊(clutter)圖形。｜https://aescripts.com/tracery/
+Physarum｜未驗證｜generate｜模擬黏菌(physarum)覓食的有機生長網絡：由大量粒子依感測角度與軌跡衰減自組織成菌絲/血管/神經狀圖案，可與圖層互動。做有機抽象背景、生長動畫。｜https://aescripts.com/physarum/
+Feedback Studio｜未驗證｜stylize｜GPU視訊回饋/回聲工具：把每幀重繪時做位移、旋轉、縮放、HSB變化，產生無限鏡像隧道、碎形、拖尾等迷幻效果，所有參數可上關鍵幀。｜https://aescripts.com/feedback-studio/
+ScaleUp｜未驗證｜restore｜AI神經網絡放大素材並增強畫質、抑制噪點與壓縮塊，優於傳統雙線性/雙立方內插。Sharp模式保細節、Cartoon模式適合動畫線條。｜https://aescripts.com/scaleup/
+Soft Body｜未驗證｜physics｜在AE內做軟體(果凍)動力學：Quick引擎一鍵自動晃動/QQ抖動，Advance引擎做細緻軟體形變與碰撞。支援形狀/文字/預合成，可設多個碰撞體。｜https://aescripts.com/soft-body/
+Furikake｜未驗證｜particles｜輕量高效能粒子外掛，充分利用多核CPU可流暢處理海量粒子，支援多幀渲染(MFR)、景深(DOF)與32bit色深。適合快速灑落/漂浮粒子、細碎裝飾粒子。｜https://aescripts.com/furikake/
+RetroDither｜未驗證｜stylize｜GPU抖動(dithering)風格化，用復古電腦/遊戲主機的硬體色盤(Commodore 64、Apple II、CGA、ZX Spectrum)重繪畫面，做真實復古像素/點陣觀感。｜https://aescripts.com/retrodither/
+Motion Mosh｜未驗證｜stylize｜即時datamosh風格故障：劫持畫面運動向量產生拖尾與像素位移，不需傳統『匯出破壞檔再匯入』流程，直接在AE/Pr裡即時互動調整。｜https://aescripts.com/motion-mosh/
+Pixel Galactic｜未驗證｜stylize｜GPU把畫面運動轉成夢幻拖尾、故障回聲與流動像素扭曲，做唯美殘影/迷幻流動/輕度glitch。｜https://aescripts.com/pixel-galactic/
+AE Pixel Sorter 2｜未驗證｜stylize｜經典像素排序glitch：依亮度/色相/飽和門檻把像素沿方向排序拉絲，做故障藝術、融化條紋、數位故障質感。｜
+Gaussian Splatting｜未驗證｜3d｜在AE內即時GPU匯入/操作/渲染3D高斯潑濺(.ply)實景掃描模型：可球形/盒形裁切、最多合成10個模型、漸層上色、依透明度顯現、輸出深度Pass做3D合成。用PostShot/Scaniverse等產生splat再匯入。｜https://aescripts.com/gaussian-splatting/
+YY_Voronoi 2｜未驗證｜texture｜程序化Voronoi(細胞/泰森多邊形)紋理生成器，多種距離度量與著色模式，可動畫。做地形圖、水底焦散、龜裂、細胞、抽象背景。｜
+YY_Ramp+｜未驗證｜generate｜進階漸層/色階生成器，多色控制點、形狀與混合模式，比內建Ramp更靈活，做背景與著色來源。｜
+AOD 技術生成套件｜未驗證｜generate｜一組技術/程序化生成與運算外掛，適合做貼圖、置換來源與生成藝術。｜
+Normal Mapper｜未驗證｜generate｜從畫面亮度生成法線貼圖(normal map)，配合打光效果做2.5D偽立體重打光與材質質感。｜
+Cryptomatte｜未驗證｜keying｜從3D算圖(C4D/Blender/Maya等)輸出的Cryptomatte通道，一鍵精準選取/隔離個別物件或材質做遮罩，不用手roto。3D合成調色必備。｜https://github.com/Psyop/Cryptomatte
+ProEXR (EXtractoR / IDentifier)｜未驗證｜keying｜讀取多通道OpenEXR：EXtractoR抽取任意通道(Z深度、法線、AO、反射等AOV分層)、IDentifier依物件/材質ID建遮罩，供進階3D合成使用。｜
+3D Glasses｜未驗證｜3d｜內建：把左右眼兩個畫面合成立體視覺，輸出紅藍(anaglyph)眼鏡3D或並排/交錯立體格式。｜
+Rolling Shutter Repair｜未驗證｜restore｜內建：修正CMOS感光元件快速平移/震動造成的果凍效應(畫面歪斜傾倒)。｜
+Cineon Converter｜未驗證｜color｜內建：Cineon/DPX膠片對數(log)與線性色彩空間互轉，處理掃描膠片素材。｜
+VR / 沉浸式視訊效果組｜未驗證｜vr｜內建360/VR影片工具組，直接在等距長方投影(equirectangular)上做效果不產生接縫扭曲。｜
+Live2D Cubism (for AE)｜未驗證｜rigging｜把Live2D Cubism的2D角色模型(.moc3)匯入AE播放與整合，做VTuber/2D立繪角色動畫合成。｜https://www.live2d.com/en/
+Chromabba｜未驗證｜distort｜免費：快速色差/色散，RGB通道分離位移做鏡頭味或輕度故障。｜https://aescripts.com/chromabba/
+Boundary Fill｜未驗證｜generate｜免費：在封閉線條邊界內做泛洪填色(像油漆桶)，方便手繪線稿上色。｜https://aescripts.com/boundary-fill/
+P_TextMask｜未驗證｜text｜免費：把文字圖層轉成遮罩/路徑，方便對文字描邊、勾線或做路徑動畫。｜
+AviUtl Circle Align｜未驗證｜workflow｜免費(移植自AviUtl)：把多個圖層自動排成圓形/環狀陣列佈局。｜
+Vectory｜未驗證｜generate｜動態線條粒子動畫外掛：用線條連接運動的點/粒子做科技感連線網絡(類Plexus的線條表現)。｜https://aescripts.com/vectory/
+HydroChrome｜未驗證｜generate｜生成抽象流動背景動畫：柔順流動的液態彩色底圖，做背景/氛圍。｜https://aescripts.com/hydrochrome/
+Nebulosity｜未驗證｜generate｜三維體積星雲/煙霧特效：生成有立體體積感的星雲、太空雲氣、煙霧。｜https://aescripts.com/nebulosity/
+InkBloom｜未驗證｜generate｜彩色水墨暈染動畫特效：墨色在畫面中擴散暈開生長，做水墨/渲染過場。｜https://aescripts.com/inkbloom/
+Bevelizer｜未驗證｜3d｜3D文字倒角+材質紋理貼圖特效：為文字/形狀加立體倒角並套材質(金屬/塑料等)做立體標題。｜https://aescripts.com/bevelizer/
+Bang｜未驗證｜generate｜3D槍口火焰/閃光/火花槍火特效，做開槍射擊VFX(檔名 qpBang)。｜https://aescripts.com/bang/
+Potok｜未驗證｜generate｜流體漸變著色特效動畫：液態流動的漸層色彩，做抽象流動背景/著色(Potok俄文為『流』)。｜https://aescripts.com/potok/
+Glasswork｜未驗證｜distort｜真實玻璃折射視覺效果：模擬透過玻璃的折射扭曲與質感(AE/PR通用)。｜https://aescripts.com/glasswork/
+Fryer｜未驗證｜stylize｜數位損壞/油炸(deep-fry)故障視覺特效：過曝、壓縮崩壞、飽和爆掉的meme式破壞風。｜
+Dropletee｜未驗證｜warp｜液態扭曲拖尾視覺效果：畫面如液體般扭動拖曳。｜https://aescripts.com/dropletee/
+Diopter｜未驗證｜blur｜光線折射模糊朦朧視覺效果：帶折射感的柔焦/朦朧，做唯美/夢幻氛圍。｜https://aescripts.com/diopter/
+F's ColorChange｜未驗證｜color｜（推測，未查證）F's 系列免費外掛之一，功能應為選定顏色替換成另一顏色。｜
+F's SelectedBlur｜未驗證｜blur｜（推測，未查證）F's 系列免費外掛，應為只對選定顏色/區域做模糊。｜
+OLM Smoother｜未驗證｜stylize｜（推測，未查證）日本OLM動畫工作室釋出的免費外掛，常用於平滑/抗鋸齒動畫線稿邊緣。｜
+OLM Blur｜未驗證｜blur｜（推測，未查證）OLM釋出的免費模糊外掛。｜
+Deflicker｜未驗證｜restore｜（推測，未查證）去除畫面閃爍/頻閃。與已收錄的Flicker Free/BCC Flicker Fixer功能類似。｜
+Deblur｜未驗證｜restore｜（推測，未查證）去除模糊/銳化找回細節。｜
+xCloner｜未驗證｜generate｜極快速地複製任何類型圖層的複製器，支援沿路徑複製與物件複製，做陣列/群組動畫。｜https://aescripts.com/xcloner/
+GlueGun｜未驗證｜generate｜（推測，未查證）在點/圖層之間拉連接線，類似Connect Layers。｜
+Renoir｜未驗證｜paint｜（推測，未查證）名稱取自印象派畫家雷諾瓦，應為繪畫/印象派筆觸風格化。｜
+LetterMapper 2｜未驗證｜text｜（推測，未查證）把畫面/字元對映成字母格陣，做ASCII art/矩陣文字。｜
+TextBox 2｜未驗證｜text｜原生外掛，在文字後方生成尺寸完美且可自訂的形狀底框，會自動隨文字更新，直接套在文字圖層上，不需父子連結/遮罩/表達式。｜https://aescripts.com/textbox/
+TextBorder｜未驗證｜text｜為文字生成尺寸完美且可自訂的外框，會自動隨文字內容更新。｜https://aescripts.com/textborder/
+TextDelay｜未驗證｜text｜原生外掛，讓文字動畫依字元/單字/行延遲出現；不同於內建動畫器，它會繼承你的緩動曲線。｜https://aescripts.com/textdelay/
+Jlitch / JPEG Glitch｜未驗證｜stylize｜把壓縮錯誤與累積回饋轉成故障特效：從細微的數位衰敗到全面迷幻混亂都做得到。｜https://aescripts.com/jlitch/
+MultiSlicer｜未驗證｜stylize｜（推測，未查證）把畫面切成多條並可錯位/位移。｜
+RekaGrid｜未驗證｜generate｜功能豐富的網格生成外掛，可高度自訂樣式並做網格動畫，用於版面、背景與科技感圖形。｜https://aescripts.com/reka-grid/
+SmartMask｜未驗證｜keying｜（推測，未查證）自動/智慧遮罩生成(roto)。｜
+ShapeBlur｜未驗證｜blur｜（推測，未查證）以自訂形狀為散景光圈做模糊。｜
+Overbrights｜未驗證｜glow｜（推測，未查證）提取/強化畫面過曝高光，常作為輝光來源。｜
+MrSmoothie｜未驗證｜generate｜（推測，未查證）平滑漸層/混色生成(類CC效果命名風格)。｜
+RipplePulse｜未驗證｜warp｜（推測，未查證）脈衝式漣漪/擴散圓環扭曲。｜
+PixelStretch｜未驗證｜stylize｜有機的非線性像素拉伸，具次像素精度，可依亮度曲線或輸入圖層在正交方向拉伸。｜https://aescripts.com/pixel-stretch/
+PixelExtender｜未驗證｜utility｜用遮罩路徑延伸圖層邊緣像素，補滿畫面或改變長寬比。｜https://aescripts.com/pixel-extender/
+HexTile｜未驗證｜stylize｜（推測，未查證）六角形蜂巢平鋪/馬賽克。｜
+MosaicArt｜未驗證｜stylize｜進階馬賽克與磁磚濾鏡，把畫面重組成拼貼/磁磚圖樣。｜https://aescripts.com/mosaicart/
+CurveTracer｜未驗證｜draw｜用輪廓線描繪素材，從鉛筆素描到抽象勾勒，為畫面帶來手繪有機感。｜https://aescripts.com/curve-tracer/
+FluidMap / Fluxion｜未驗證｜warp｜生成流體狀的灰階圖(map)，當作置換、遮罩或流動效果的驅動來源。｜https://aescripts.com/fluid-map/
+Kernel｜未驗證｜stylize｜（推測，未查證）自訂卷積核(convolution)濾鏡(銳化/邊緣/浮雕等)。｜
+Polytrace｜未驗證｜stylize｜（推測，未查證）低多邊形三角化(low-poly)風格化。｜
+Modulation 2｜未驗證｜distort｜免寫程式快速做出訊號調變效果，含多種色彩模式與可調低通濾波，做掃描/干擾/波形視覺。｜https://aescripts.com/modulation/
+TRKeys｜未驗證｜workflow｜（推測，未查證）關鍵幀/變換輔助工具。｜
+KP_smooth｜未驗證｜keying｜（推測，未查證）摳像後遮罩邊緣平滑處理。｜
+賽博龐克霓虹標題｜配方｜recipe｜文字先做霓虹描邊發光，再疊故障位移與色差，加掃描線｜
+電影感調色（青橙）｜配方｜recipe｜先一級校色統一曝光白平衡，再上青橙色調，加暗角與膠片顆粒｜
+老電影 / 復古膠片｜配方｜recipe｜褪色調色 + 顆粒 + 刮痕塵點 + 抖動 + 暗角 + 輕微漏光｜
+舊錄影帶 VHS｜配方｜recipe｜色度偏移 + 掃描線 + 訊號噪訊 + 追蹤失真 + 時間碼字幕｜
+科技 HUD / FUI 介面｜配方｜recipe｜生成HUD元件 + 連線圖形 + 全息掃描 + 輝光｜
+能量光束 / 魔法｜配方｜recipe｜沿路徑發光能量 + 粒子星塵 + 扭曲流動 + 輝光｜
+故障轉場｜配方｜recipe｜急速放大+色差+數位方塊破碎切換｜
+甩鏡頭轉場｜配方｜recipe｜方向模糊快速掃過接下一鏡｜
+夢幻唯美人像｜配方｜recipe｜磨皮 + 柔光/halation + 亮部散景光斑 + 暖調｜
+爆炸 / 火焰 / 煙｜配方｜recipe｜粒子火花 + 煙霧噪波 + 熱浪扭曲 + 衝擊波置換 + 輝光｜
+下雨 / 下雪 / 霧｜配方｜recipe｜天氣粒子 + 大氣霧 + 景深 + 玻璃水痕｜
+水下 / 焦散｜配方｜recipe｜焦散光紋 + 藍綠調 + 漂浮粒子 + 輕微扭曲｜
+移軸微縮模型｜配方｜recipe｜上下漸變模糊 + 高飽和高對比｜
+3D 產品 / Logo 展示｜配方｜recipe｜3D擠出 + 材質反光 + 掃光 + 地面倒影 + 光暈｜
+手寫描邊 Logo 顯現｜配方｜recipe｜沿路徑書寫描邊 + 漸變填充 + 末端輝光｜
+音樂節奏視覺化｜配方｜recipe｜音頻轉關鍵幀驅動縮放/發光/粒子｜
+小星球 / 360環形｜配方｜recipe｜全景圖轉極座標成小星球｜
+駭客 / 終端機文字｜配方｜recipe｜亂碼滾動 + 綠色終端 + 字元雨 + 掃描線｜
+復古 8-bit 像素｜配方｜recipe｜像素化 + 抖動 + 有限色盤 + 掃描線｜
+隱形 / 折射斗篷｜配方｜recipe｜以背景做色差置換扭曲，邊緣描邊微光｜
+Particular｜Red Giant｜particles｜業界標準3D粒子系統，AE做粒子的第一名。可做煙、火、火花、爆炸、魔法仙塵、粒子流體、雨雪、Logo粒子聚散/打散。含物理力場、風、湍流、群集，粒子可用貼圖或3D模型。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/trapcode-particular
+Form｜Red Giant｜particles｜不衰減的3D粒子網格/有機形態生成器（粒子永遠存在，不像Particular會生滅）。做全息人像、音樂驅動的波形/律動、粒子地形、抽象生物體、星雲。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/form
+Mir｜Red Giant｜3d｜快速3D多邊形網格生成器。做起伏地形、流動波浪面、無限隧道、低多邊形山脈、復古線框(wireframe)、抽象流動曲面。常帶漸層色與霧氣。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/mir
+Tao｜Red Giant｜3d｜沿路徑(遮罩/圖層)生成3D幾何體。做飄動絲帶、發光管線隧道、抽象雕塑、燈光拖尾軌跡、DNA螺旋。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/tao
+Shine｜Red Giant｜light｜2D快速體積光/放射光芒(比真正3D體積光快很多)。做文字/Logo掃光、雲隙光、放射光束、能量光。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d
+Starglow｜Red Giant｜light｜多方向星形光芒，讓亮點產生十字/星狀閃耀。做珠寶反光、水面波光、夜景燈光、標題高光。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d
+3D Stroke｜Red Giant｜draw｜沿遮罩路徑的3D描邊線條動畫。做Logo勾線顯現、空間飛舞的發光線條、地圖路線、抽象線條運動。｜https://www.maxon.net/en/product-detail/red-giant/motion-graphics/3d-stroke
+Sound Keys｜Red Giant｜audio｜把音頻指定頻段轉成關鍵幀數據，用來驅動任何屬性做音樂可視化(音波、跳動、閃爍隨節奏)。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d
+Horizon｜Red Giant｜generate｜跟隨AE 3D攝影機的無限天空/漸層背景球，攝影機轉到哪都有背景，常搭配Particular/Form當環境。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/horizon
+Lux｜Red Giant｜light｜讓AE的燈光實際可見：點光源產生光暈、聚光燈產生可見光錐(丁達爾光束)。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/lux
+Echospace｜Red Giant｜utility｜圖層3D複製與延遲跟隨工具。做卡片陣列、隊形動畫、延遲殘影、大量複製體依序運動。｜https://www.maxon.net/en/product-detail/red-giant/motion-graphics/echospace
+Looks｜Red Giant｜color｜電影級調色套件，數百種Look預設，含完整攝影機鏡頭工具鏈(光暈/柔光/鏡頭色差/膠片/暗角/漸層鏡)。一鍵套用電影氛圍。｜https://www.maxon.net/en/product-detail/red-giant/color/magicbullet-looks
+Colorista｜Red Giant｜color｜專業三路色輪調色工具(陰影/中間調/高光)，含HSL鍵控做局部選色調色、曲線。適合精細校色。｜https://www.maxon.net/en/product-detail/red-giant/color/colorista
+Denoiser III｜Red Giant｜restore｜視訊降噪，去除高ISO噪點與壓縮雜訊並保留細節，適合暗光/高感光素材。｜https://www.maxon.net/en/product-detail/red-giant/color/denoiser
+Mojo II｜Red Giant｜color｜一鍵好萊塢青橙(teal & orange)大片色調，會保護膚色不受影響。｜https://www.maxon.net/en/product-detail/red-giant/color/mojo
+Cosmo II｜Red Giant｜beauty｜人像美膚磨皮：勻淨膚色、柔化瑕疵痘痘、提亮，專為訪談/人物鏡頭。｜https://www.maxon.net/en/product-detail/red-giant/color/cosmo
+Film｜Red Giant｜film｜模擬真實底片負片+印片(print)的完整流程，重現各種經典膠片色彩與反差。｜https://www.maxon.net/en/product-detail/red-giant/color/film
+Renoiser｜Red Giant｜film｜為畫面加上可控的膠片顆粒與質感，讓數位畫面更有底片手感。｜https://www.maxon.net/en/product-detail/red-giant/color/renoiser
+Supercomp｜Red Giant｜composite｜多層合成環境，把光包裹、大氣霧、輝光、光學互動整合在一個介面，讓合成元素(如綠幕人物、CG)自然融入背景。｜https://www.maxon.net/en/product-detail/red-giant/vfx/supercomp
+Primatte Keyer｜Red Giant｜keying｜頂級綠幕/藍幕摳像器，自動採樣+精細邊緣與溢色處理，處理頭髮/半透明也乾淨。｜https://www.maxon.net/en/product-detail/red-giant/vfx/primatte-keyer
+King Pin Tracker｜Red Giant｜tracking｜平面追蹤+四角釘固定工具，把新畫面貼到會移動的手機/電視螢幕、看板、海報上。｜https://www.maxon.net/en/product-detail/red-giant/vfx/king-pin-tracker
+Spot Clone Tracker｜Red Giant｜restore｜帶追蹤的克隆修補工具，邊移動邊仿製，移除畫面上的污點、標誌、穿幫物件。｜https://www.maxon.net/en/product-detail/red-giant/vfx/spot-clone-tracker
+Optical Glow｜Red Giant｜glow｜物理精確的高品質輝光，比AE內建Glow自然真實得多，衰減符合真實光學。做標題發光、燈光溢光、夢幻柔光。｜https://www.maxon.net/en/product-detail/red-giant/vfx
+Chromatic Displacement｜Red Giant｜distort｜以另一圖層做帶色差的置換扭曲。做熱浪、衝擊波、隱形斗篷(Predator)、水/玻璃折射、能量場扭曲。｜https://www.maxon.net/en/product-detail/red-giant/vfx
+Knoll Light Factory｜Red Giant｜flare｜經典鏡頭光暈生成器(星戰御用)，大量可自訂的鏡片元素與預設，光暈會追蹤亮點。｜https://www.maxon.net/en/product-detail/red-giant/vfx/real-lens-flares
+Shadow｜Red Giant｜stylize｜為圖層自動生成可透視的投射陰影，做文字/物件落在地面或牆上的影子。｜https://www.maxon.net/en/product-detail/red-giant/vfx/shadow
+Reflection｜Red Giant｜stylize｜為圖層自動生成地面倒影/鏡面反射，常用於3D標題與產品展示。｜https://www.maxon.net/en/product-detail/red-giant/vfx/reflection
+VFX Bang｜Red Giant｜generate｜槍口火光生成器，多種武器火光預設，做開槍射擊VFX。｜https://www.maxon.net/en/product-detail/red-giant/vfx/bang
+Lens Distortion｜Red Giant｜distort｜鏡頭畸變的添加與去除，合成CG前先去畸變、合成後再加回，讓CG與實拍鏡頭匹配。｜https://www.maxon.net/en/product-detail/red-giant/vfx/lens-distortion-matcher
+Real Lens Flares｜Red Giant｜flare｜以真實鏡頭光學模型＋光線追蹤運算出的鏡頭光暈：光源移動時光斑會跟著位移、變形、合併，如同真實鏡頭。含44組新鏡頭預設、變形鏡頭與非球面鏡支援，還有Schmutz(髒污鏡片反光)與Diffraction(光圈繞射漣漪)等擬真瑕疵。｜https://www.maxon.net/en/product-detail/red-giant/vfx/real-lens-flares
+Depth Generator｜Red Giant｜keying｜在AE內直接從實拍素材或圖片產生灰階深度(Z-depth)通道。有了深度圖就能做依距離的遮罩、景深虛化(配Bokeh)、讓粒子(Particular)繞著人物飛、加霧與煙更有層次，甚至做紅藍3D立體對或在Mir裡做真3D擠出。｜https://www.maxon.net/en/product-detail/red-giant/vfx/depth-generator
+Geo｜Red Giant｜3d｜在AE裡處理3D模型的簡易但強大方案：可用Maxon Capsule模型庫或自行匯入(C4D/OBJ/FBX/GLB/glTF等7種格式)，用任何AE圖層或合成當材質貼圖，用cloner控制做各種形狀的陣列，還能把幾何體的陰影投射到指定圖層上。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/geo
+Parametric Curve｜Red Giant｜color｜為HDR影片設計的進階貝茲曲線調色工具：用HDR曲線LUT處理畫面，並把曲線直接疊在畫面上檢視，提供比一般曲線/色階更精準的控制。｜https://www.maxon.net/en/product-detail/red-giant/color/parametric-curve
+S_Glow｜Sapphire｜glow｜Sapphire招牌的經典柔和輝光，最常用，讓亮部柔順外擴發光。做標題、燈光、夢幻氛圍。｜https://borisfx.com/documentation/sapphire/ae/glow/
+S_UltraGlow｜Sapphire｜glow｜新一代物理精確輝光，含色散與多種品質模式，比S_Glow更真實高階。｜https://borisfx.com/documentation/sapphire/ae/ultraglow/
+S_GlowAura｜Sapphire｜glow｜放射狀光環輝光，沿輪廓向外放光。｜https://borisfx.com/documentation/sapphire/ae/glowaura/
+S_GlowDarks｜Sapphire｜glow｜讓暗部而非亮部擴散發光，做詭異/夢核/負片氛圍。｜https://borisfx.com/documentation/sapphire/ae/glowdarks/
+S_GlowDist｜Sapphire｜glow｜輝光同時扭曲畫面，發光帶流動變形感。｜https://borisfx.com/documentation/sapphire/ae/glowdist/
+S_GlowEdges｜Sapphire｜glow｜只讓邊緣輪廓發光，做霓虹描邊、能量輪廓、Tron線條。｜https://borisfx.com/documentation/sapphire/ae/glowedges/
+S_GlowNoise｜Sapphire｜glow｜帶噪波顆粒紋理的輝光，粗糙有機的發光。｜https://borisfx.com/documentation/sapphire/ae/glownoise/
+S_GlowOrthicon｜Sapphire｜glow｜模擬老式攝像管的亮部黑暈(高光周圍出現暗環)，復古電視感。｜https://borisfx.com/documentation/sapphire/ae/gloworthicon/
+S_GlowRainbow｜Sapphire｜glow｜彩虹色多層輝光，發光呈虹彩層次。｜https://borisfx.com/documentation/sapphire/ae/glowrainbow/
+S_GlowRings｜Sapphire｜glow｜同心圓環狀輝光，亮部放出一圈圈光環。｜https://borisfx.com/documentation/sapphire/ae/glowrings/
+S_ZGlow｜Sapphire｜glow｜依深度圖(Z通道)控制各處輝光強度，做前後層次不同的發光。｜https://borisfx.com/documentation/sapphire/ae/zglow/
+S_Rays｜Sapphire｜light｜從亮部放射的體積光/上帝光(丁達爾效應)，做雲隙光、窗光、神聖光束。｜https://borisfx.com/documentation/sapphire/ae/rays/
+S_EdgeRays｜Sapphire｜light｜從物體邊緣向外放射光線。｜https://borisfx.com/documentation/sapphire/ae/edgerays/
+S_Streaks｜Sapphire｜light｜變形鏡頭(anamorphic)式的橫向光斑拉絲，亮點拉出水平藍色光條。｜https://borisfx.com/documentation/sapphire/ae/streaks/
+S_LensFlare｜Sapphire｜flare｜鏡頭光暈生成器，海量預設，可自訂各鏡片元素，光暈追蹤亮點。｜https://borisfx.com/documentation/sapphire/ae/lensflare/
+S_LensFlareAutoTrack｜Sapphire｜flare｜會自動追蹤畫面最亮點的鏡頭光暈，光斑跟著光源跑。｜https://borisfx.com/documentation/sapphire/ae/lensflareautotrack/
+S_LightLeak｜Sapphire｜flare｜模擬底片相機漏光的光斑溢染，做復古/文青氛圍。｜https://borisfx.com/documentation/sapphire/ae/lightleak/
+S_Glint｜Sapphire｜light｜讓亮點產生星芒閃耀(珠寶/水面/眼神光/金屬反光)。｜https://borisfx.com/documentation/sapphire/ae/glint/
+S_GlintRainbow｜Sapphire｜light｜彩虹色星芒閃耀，亮點放出虹彩星光(鑽石感)。｜https://borisfx.com/documentation/sapphire/ae/glintrainbow/
+S_Glare｜Sapphire｜light｜強光耀斑，模擬直視強光時的刺眼溢射與星芒。｜https://borisfx.com/documentation/sapphire/ae/glare/
+S_BokehLights｜Sapphire｜light｜生成失焦散景光點，做夢幻背景光球/城市夜景虛化。｜https://borisfx.com/documentation/sapphire/ae/bokehlights/
+S_Flashbulbs｜Sapphire｜light｜生成觀眾席/狗仔隊般的隨機閃光燈爆閃。｜https://borisfx.com/documentation/sapphire/ae/flashbulbs/
+S_Light3D｜Sapphire｜light｜用法線/深度圖對2D畫面重新打光，做偽立體光照。｜https://borisfx.com/documentation/sapphire/ae/light3d/
+S_SpotLight｜Sapphire｜light｜聚光燈照明，投出光錐照亮局部。｜https://borisfx.com/documentation/sapphire/ae/spotlight/
+S_DropShadow｜Sapphire｜stylize｜為圖層生成投影陰影。｜https://borisfx.com/documentation/sapphire/ae/dropshadow/
+S_LaserBeam｜Sapphire｜generate｜生成雷射光束，做射線/武器/科幻光束。｜https://borisfx.com/documentation/sapphire/ae/laserbeam/
+S_Zap｜Sapphire｜generate｜閃電/電弧生成器，可動畫分支路徑，做雷電、放電、能量弧。｜https://borisfx.com/documentation/sapphire/ae/zap/
+S_UltraZap｜Sapphire｜generate｜新一代進階閃電，路徑/分支/預設更強更真實。｜https://borisfx.com/documentation/sapphire/ae/ultrazap/
+S_ZapTo｜Sapphire｜generate｜閃電從外打向指定圖層形狀(電擊某物)。｜https://borisfx.com/documentation/sapphire/ae/zapto/
+S_ZapFrom｜Sapphire｜generate｜從圖層形狀向外放射電弧(某物放電)。｜https://borisfx.com/documentation/sapphire/ae/zapfrom/
+S_Luna｜Sapphire｜generate｜生成寫實月亮，可控月相角度與細節。｜https://borisfx.com/documentation/sapphire/ae/luna/
+S_NightSky｜Sapphire｜generate｜天文精確的星空生成(可指定時間地點的真實星圖)。｜https://borisfx.com/documentation/sapphire/ae/nightsky/
+S_Aurora｜Sapphire｜generate｜生成飄動的極光光幕。｜https://borisfx.com/documentation/sapphire/ae/aurora/
+S_MuzzleFlash｜Sapphire｜generate｜生成槍口火光，多種武器預設。｜https://borisfx.com/documentation/sapphire/ae/muzzleflash/
+S_AutoPaint｜Sapphire｜paint｜自動用筆觸重繪畫面成繪畫風格。｜https://borisfx.com/documentation/sapphire/ae/autopaint/
+S_Sketch｜Sapphire｜paint｜把畫面轉成鉛筆素描風。｜https://borisfx.com/documentation/sapphire/ae/sketch/
+S_Etching｜Sapphire｜paint｜蝕刻版畫線雕風格(如鈔票肖像/舊書插畫)。｜https://borisfx.com/documentation/sapphire/ae/etching/
+S_BrushOil｜Sapphire｜paint｜油畫筆觸風格化。｜https://borisfx.com/documentation/sapphire/ae/brushoil/
+S_BrushChalk｜Sapphire｜paint｜粉筆/粉彩筆觸風格化。｜https://borisfx.com/documentation/sapphire/ae/brushchalk/
+S_Crosshatch｜Sapphire｜paint｜交叉排線素描風格(用線影表現明暗)。｜https://borisfx.com/documentation/sapphire/ae/crosshatch/
+S_Cartoon｜Sapphire｜paint｜卡通化：色塊平塗+邊緣描線，做動漫/卡通風。｜https://borisfx.com/documentation/sapphire/ae/cartoon/
+S_CartoonPaint｜Sapphire｜paint｜卡通+繪畫混合風格。｜https://borisfx.com/documentation/sapphire/ae/cartoonpaint/
+S_Posterize｜Sapphire｜paint｜色調分離減色海報化(把漸層變成幾階色塊)。｜https://borisfx.com/documentation/sapphire/ae/posterize/
+S_HalfTone｜Sapphire｜paint｜黑白半調網點印刷風(如報紙印刷放大)。｜https://borisfx.com/documentation/sapphire/ae/halftone/
+S_HalfToneColor｜Sapphire｜paint｜CMYK彩色網點，普普藝術/漫畫印刷風。｜https://borisfx.com/documentation/sapphire/ae/halftonecolor/
+S_HalfToneRings｜Sapphire｜paint｜同心圓環狀半調圖案。｜https://borisfx.com/documentation/sapphire/ae/halftonerings/
+S_Kaleido系列｜Sapphire｜kaleido｜萬花筒鏡像拼貼(10種變體)，把畫面對稱重複成萬花筒/複眼圖案。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_FilmEffect｜Sapphire｜film｜膠片模擬套件：顆粒/色調/柔光/暗角一次到位，一鍵電影底片感。｜https://borisfx.com/documentation/sapphire/ae/filmeffect/
+S_FilmDamage｜Sapphire｜film｜老膠片損壞：刮痕、塵點、抖動、褪色、燒灼，做懷舊/損壞質感。｜https://borisfx.com/documentation/sapphire/ae/filmdamage/
+S_Vignette｜Sapphire｜film｜暗角(四角壓暗)，聚焦視覺中心。｜https://borisfx.com/documentation/sapphire/ae/vignette/
+S_BleachBypass｜Sapphire｜film｜漂白旁路沖印風：高對比、低飽和、銀鹽保留，做戰爭片/冷峻硬調。｜https://borisfx.com/documentation/sapphire/ae/bleachbypass/
+S_Grain｜Sapphire｜film｜膠片顆粒。｜https://borisfx.com/documentation/sapphire/ae/grain/
+S_GrainStatic｜Sapphire｜film｜靜態(不隨幀變動)顆粒。｜https://borisfx.com/documentation/sapphire/ae/grainstatic/
+S_UltraGrain｜Sapphire｜film｜新一代真實膠片顆粒，可依片型(film stock)預設模擬。｜https://borisfx.com/documentation/sapphire/ae/ultragrain/
+S_Diffuse｜Sapphire｜film｜像素擴散粗糙化，柔散畫面細節。｜https://borisfx.com/documentation/sapphire/ae/diffuse/
+S_VintageColor2Strip｜Sapphire｜film｜雙色特藝彩色(2-strip Technicolor)老電影色調。｜https://borisfx.com/documentation/sapphire/ae/vintagecolor2strip/
+S_VintageColor3Strip｜Sapphire｜film｜三色特藝彩色(3-strip Technicolor)，飽和鮮豔的老電影色(綠野仙蹤感)。｜https://borisfx.com/documentation/sapphire/ae/vintagecolor3strip/
+S_FilmBurn｜Sapphire｜film｜膠片燒灼過曝損壞效果。｜https://borisfx.com/documentation/sapphire/ae/filmburn/
+S_EdgeDetect｜Sapphire｜edge｜邊緣檢測，把畫面轉成輪廓線稿。｜https://borisfx.com/documentation/sapphire/ae/edgedetect/
+S_EdgeDetectDouble｜Sapphire｜edge｜雙重邊緣線提取。｜https://borisfx.com/documentation/sapphire/ae/edgedetectdouble/
+S_EdgesInDirection｜Sapphire｜edge｜只提取指定方向的邊緣。｜https://borisfx.com/documentation/sapphire/ae/edgesindirection/
+S_EdgeColorize｜Sapphire｜edge｜依邊緣方向著色的彩色輪廓。｜https://borisfx.com/documentation/sapphire/ae/edgecolorize/
+S_Emboss｜Sapphire｜emboss｜浮雕效果，把畫面轉成灰色立體浮刻。｜https://borisfx.com/documentation/sapphire/ae/emboss/
+S_EmbossShiny｜Sapphire｜emboss｜帶金屬光澤的浮雕。｜https://borisfx.com/documentation/sapphire/ae/embossshiny/
+S_EmbossDistort｜Sapphire｜emboss｜浮雕+扭曲。｜https://borisfx.com/documentation/sapphire/ae/embossdistort/
+S_EmbossGlass｜Sapphire｜emboss｜玻璃浮雕折射質感。｜https://borisfx.com/documentation/sapphire/ae/embossglass/
+S_DigitalDamage｜Sapphire｜stylize｜數位訊號故障：方塊破碎、撕裂、位移、噪訊，做glitch。｜https://borisfx.com/documentation/sapphire/ae/digitaldamage/
+S_JpegDamage｜Sapphire｜stylize｜JPEG壓縮損壞方塊(過度壓縮的畫質崩壞)。｜https://borisfx.com/documentation/sapphire/ae/jpegdamage/
+S_TVDamage｜Sapphire｜stylize｜類比電視損壞：雪花、滾動、鬼影、掃描線、訊號干擾。｜https://borisfx.com/documentation/sapphire/ae/tvdamage/
+S_PixelSort｜Sapphire｜stylize｜像素排序glitch藝術，依門檻把像素沿方向排序拉絲。｜https://borisfx.com/documentation/sapphire/ae/pixelsort/
+S_PixelMosh｜Sapphire｜stylize｜datamosh運動殘留故障(壓縮殘影拖動)。｜https://borisfx.com/documentation/sapphire/ae/pixelmosh/
+S_ScanLines｜Sapphire｜stylize｜加上CRT掃描線橫紋。｜https://borisfx.com/documentation/sapphire/ae/scanlines/
+S_ScanLinesMono｜Sapphire｜stylize｜單色CRT掃描線(如綠色/琥珀色老終端)。｜https://borisfx.com/documentation/sapphire/ae/scanlinesmono/
+S_Grunge｜Sapphire｜stylize｜污漬紋理做舊(多種grunge紋理)，加髒污破舊感。｜https://borisfx.com/documentation/sapphire/ae/grunge/
+S_Mosaic｜Sapphire｜stylize｜馬賽克像素化(可用於打碼)。｜https://borisfx.com/documentation/sapphire/ae/mosaic/
+S_PrismLens｜Sapphire｜stylize｜稜鏡多重影像折射，畫面分裂成多個重影。｜https://borisfx.com/documentation/sapphire/ae/prismlens/
+S_BandPass｜Sapphire｜stylize｜頻率帶通風格化(強化特定細節頻率)。｜https://borisfx.com/documentation/sapphire/ae/bandpass/
+S_ColorFuse｜Sapphire｜stylize｜色彩融合風格化。｜https://borisfx.com/documentation/sapphire/ae/colorfuse/
+S_DogVision｜Sapphire｜stylize｜模擬狗的色覺(色盲式配色)。｜https://borisfx.com/documentation/sapphire/ae/dogvision/
+S_PseudoColor｜Sapphire｜stylize｜偽色映射(把亮度映射成假彩色，熱成像感)。｜https://borisfx.com/documentation/sapphire/ae/pseudocolor/
+S_PsykoBlobs｜Sapphire｜stylize｜迷幻融化斑塊，畫面流動融解。｜https://borisfx.com/documentation/sapphire/ae/psykoblobs/
+S_PsykoStripes｜Sapphire｜stylize｜迷幻流動條紋。｜https://borisfx.com/documentation/sapphire/ae/psykostripes/
+S_RomanTile｜Sapphire｜stylize｜羅馬瓷磚拼貼畫風(用碎磚塊拼成畫面)。｜https://borisfx.com/documentation/sapphire/ae/romantile/
+S_Solarize｜Sapphire｜stylize｜中途曝光(Solarize)部分色調反轉，超現實色彩。｜https://borisfx.com/documentation/sapphire/ae/solarize/
+S_StripSlide｜Sapphire｜stylize｜把畫面切成條帶並錯位滑動。｜https://borisfx.com/documentation/sapphire/ae/stripslide/
+S_Zebrafy｜Sapphire｜stylize｜斑馬紋等高線化(依亮度畫成黑白條紋)。｜https://borisfx.com/documentation/sapphire/ae/zebrafy/
+S_ZebrafyColor｜Sapphire｜stylize｜彩色斑馬紋等高線化。｜https://borisfx.com/documentation/sapphire/ae/zebrafycolor/
+S_ZFogExponential｜Sapphire｜stylize｜依深度圖加霧(指數衰減)，遠處越霧。｜https://borisfx.com/documentation/sapphire/ae/zfogexponential/
+S_ZFogLinear｜Sapphire｜stylize｜依深度圖加霧(線性衰減)。｜https://borisfx.com/documentation/sapphire/ae/zfoglinear/
+S_Adjust系列｜Sapphire｜color｜色彩調整工具組(14種)：反相、著色、色調分離、通道重組、HSB、閾值等基礎校色。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Composite系列｜Sapphire｜composite｜合成與遮罩運算工具組：圖層疊加、遮罩處理、數學運算、深度合成。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Beauty｜Sapphire｜beauty｜美膚磨皮，柔化膚色瑕疵並保留皮膚細節。｜https://borisfx.com/documentation/sapphire/ae/beauty/
+S_Blur｜Sapphire｜blur｜高品質高斯模糊。｜https://borisfx.com/documentation/sapphire/ae/blur/
+S_BlurMotion｜Sapphire｜blur｜方向性運動模糊(速度感)。｜https://borisfx.com/documentation/sapphire/ae/blurmotion/
+S_RackDefocus｜Sapphire｜blur｜真實鏡頭失焦散景，可動畫做拉焦(rack focus)對焦轉移。｜https://borisfx.com/documentation/sapphire/ae/rackdefocus/
+S_ZDefocus｜Sapphire｜blur｜依深度圖的景深散景。｜https://borisfx.com/documentation/sapphire/ae/zdefocus/
+S_FreeLens｜Sapphire｜blur｜模擬拆鏡頭拍攝(freelensing)：局部失焦+漏光的夢幻感。｜https://borisfx.com/documentation/sapphire/ae/freelens/
+S_SoftFocus｜Sapphire｜blur｜柔焦，保留輪廓但柔化細節做唯美感。｜https://borisfx.com/documentation/sapphire/ae/softfocus/
+S_Sharpen｜Sapphire｜blur｜銳化強化細節。｜https://borisfx.com/documentation/sapphire/ae/sharpen/
+S_Blur進階系列｜Sapphire｜blur｜進階模糊/失焦工具組：分通道、色度、方向、曲線、保邊、深度、卷積等各式模糊。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_GrainRemove｜Sapphire｜restore｜降噪去顆粒。｜https://borisfx.com/documentation/sapphire/ae/grainremove/
+S_Deband｜Sapphire｜restore｜去除漸層中的色彩斷層條帶(banding)。｜https://borisfx.com/documentation/sapphire/ae/deband/
+S_Shake｜Sapphire｜warp｜鏡頭震動，可加RGB分離與模糊，做衝擊/地震/手持感。｜https://borisfx.com/documentation/sapphire/ae/shake/
+S_InfiniteZoom｜Sapphire｜warp｜無限放大縮小循環(Droste效應遞迴)。｜https://borisfx.com/documentation/sapphire/ae/infinitezoom/
+S_WarpVortex｜Sapphire｜warp｜漩渦扭曲(旋轉吸入感)。｜https://borisfx.com/documentation/sapphire/ae/warpvortex/
+S_WarpPolar｜Sapphire｜warp｜極座標彎曲，做小星球/環形全景。｜https://borisfx.com/documentation/sapphire/ae/warppolar/
+S_WarpFishEye｜Sapphire｜warp｜魚眼鏡頭凸透扭曲。｜https://borisfx.com/documentation/sapphire/ae/warpfisheye/
+S_WarpDrops｜Sapphire｜warp｜水滴漣漪擴散扭曲。｜https://borisfx.com/documentation/sapphire/ae/warpdrops/
+S_WarpPuddle｜Sapphire｜warp｜水波紋扭曲(水面倒影波動)。｜https://borisfx.com/documentation/sapphire/ae/warppuddle/
+S_StretchFrameEdges｜Sapphire｜warp｜智慧拉伸畫面邊緣改變長寬比(豎屏轉橫屏、填滿背景)，中央保持不變形。｜https://borisfx.com/documentation/sapphire/ae/stretchframeedges/
+S_DistortChroma｜Sapphire｜warp｜帶色差的扭曲(熱浪/能量場/衝擊)。｜https://borisfx.com/documentation/sapphire/ae/distortchroma/
+S_DistortRGB｜Sapphire｜warp｜RGB三通道分離扭曲。｜https://borisfx.com/documentation/sapphire/ae/distortrgb/
+S_Warp系列｜Sapphire｜warp｜各式扭曲變形工具組：氣泡、放大鏡、透視、波浪、四角釘、膨脹、重複等。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Gradient系列｜Sapphire｜generate｜漸層/網格/形狀生成組。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Texture系列｜Sapphire｜texture｜程序化紋理/背景生成組(18種)：細胞、火花、電漿、神經元、編織、噪波等抽象紋理與背景。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Clouds系列｜Sapphire｜texture｜分形雲霧噪波(6種)：做雲、煙、霧、能量、置換來源。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Trails｜Sapphire｜time｜運動拖尾殘影(前後幀疊加)。｜https://borisfx.com/documentation/sapphire/ae/trails/
+S_TrailsDiffuse｜Sapphire｜time｜擴散顆粒式拖尾。｜https://borisfx.com/documentation/sapphire/ae/trailsdiffuse/
+S_Feedback｜Sapphire｜time｜視訊回饋無限鏡像(畫面套畫面的遞迴隧道/迷幻循環)。｜https://borisfx.com/documentation/sapphire/ae/feedback/
+S_FeedbackBubble｜Sapphire｜time｜氣泡扭曲式視訊回饋。｜https://borisfx.com/documentation/sapphire/ae/feedbackbubble/
+S_FeedbackDistort｜Sapphire｜time｜扭曲式視訊回饋殘影。｜https://borisfx.com/documentation/sapphire/ae/feedbackdistort/
+S_Retime｜Sapphire｜time｜光流變速/補幀(慢動作/加速)。｜https://borisfx.com/documentation/sapphire/ae/retime/
+S_FreezeFrame｜Sapphire｜time｜定格畫面(凍結某一幀)。｜https://borisfx.com/documentation/sapphire/ae/freezeframe/
+S_Time系列｜Sapphire｜time｜時間處理工具組：時間置換、切片、平均、RGB時差、幀抖動、運動偵測等。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Flicker系列｜Sapphire｜restore｜閃爍生成/匹配/移除工具組(9種)：加閃爍或去除燈光/曝光閃爍。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_RepairFrames｜Sapphire｜restore｜以鄰幀光流修復壞幀/掉幀。｜https://borisfx.com/documentation/sapphire/ae/repairframes/
+S_FieldRemove｜Sapphire｜restore｜去除交錯場(deinterlace)。｜https://borisfx.com/documentation/sapphire/ae/fieldremove/
+S_Swish3D｜Sapphire｜transition｜3D翻轉甩鏡轉場。｜https://borisfx.com/documentation/sapphire/ae/swish3d/
+S_SwishPan｜Sapphire｜transition｜甩鏡頭(whip pan)模糊轉場。｜https://borisfx.com/documentation/sapphire/ae/swishpan/
+S_WhipLash｜Sapphire｜transition｜快速甩鏡轉場。｜https://borisfx.com/documentation/sapphire/ae/whiplash/
+S_MochaWhip｜Sapphire｜transition｜沿mocha平面追蹤路徑的甩鏡轉場(可貼合場景運動)。｜https://borisfx.com/documentation/sapphire/ae/mochawhip/
+S_CardFlip｜Sapphire｜transition｜卡片翻轉轉場。｜https://borisfx.com/documentation/sapphire/ae/cardflip/
+S_TVChannelChange｜Sapphire｜transition｜老電視轉台風轉場。｜https://borisfx.com/documentation/sapphire/ae/tvchannelchange/
+S_FilmBurnTransition｜Sapphire｜transition｜膠片燒灼式轉場。｜https://borisfx.com/documentation/sapphire/ae/filmburntransition/
+S_FilmRoll｜Sapphire｜transition｜膠片滾動跳格式轉場。｜https://borisfx.com/documentation/sapphire/ae/filmroll/
+S_FlutterCut｜Sapphire｜transition｜隨機快閃跳剪轉場。｜https://borisfx.com/documentation/sapphire/ae/fluttercut/
+S_Dissolve系列｜Sapphire｜transition｜各式風格化溶解轉場(30種)：用輝光/模糊/扭曲/漏光/故障/漩渦等風格化的方式溶接兩鏡。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Wipe系列｜Sapphire｜transition｜圖案擦除轉場(20種)：用圓/星/時鐘/棋盤/雲/點等圖案擦出下一鏡。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_Edit系列｜Sapphire｜transition｜剪輯輔助工具組：切變溶解、隨機跳剪、倒放、片段倒序等。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+Element 3D｜第三方｜3d｜AE內即時3D物件/文字渲染引擎，匯入OBJ、材質動畫，做3D標題與場景｜https://www.videocopilot.net/products/element2/
+Optical Flares｜第三方｜flare｜最流行的鏡頭光暈外掛，介面直覺可拖拉編輯各鏡片元素，預設精美，做太陽光斑、科技光暈。｜https://www.videocopilot.net/products/opticalflares/
+Saber｜第三方｜light｜免費：光劍/能量光束/霓虹描邊，沿遮罩或文字發光｜https://www.videocopilot.net/blog/2015/03/new-plug-in-saber-now-available-100-free/
+Heat Distortion｜第三方｜distort｜模擬熱空氣造成的畫面波動扭曲，做引擎熱氣、沙漠熱浪、能量場。｜https://www.videocopilot.net/products/heatdistortion/
+Color Vibrance｜第三方｜color｜免費：為發光元素做單色能量著色，常搭配 Saber/Optical Flares 統一色調。｜
+Twitch｜第三方｜stylize｜把閃頻、抖動、模糊、色偏等隨機擾動組合起來，做緊張刺激的預告片節奏感風格化。｜https://www.videocopilot.net/products/twitch/
+FX Console｜第三方｜workflow｜免費：用快捷鍵叫出搜尋框，打字就能套用效果與預設，另可快速存取畫面快照比對。｜https://www.videocopilot.net/blog/2018/05/fx-console-updated-to-v1-0-3
+Twixtor｜第三方｜time｜光流極致慢動作補幀，比AE內建時間扭曲更乾淨｜https://revisionfx.com/products/twixtor/
+ReelSmart Motion Blur｜第三方｜blur｜自動追蹤運動向量添加真實運動模糊｜https://revisionfx.com/products/rsmb/
+Neat Video｜第三方｜restore｜公認最強的視訊降噪外掛，先建立噪點特徵再精準去除，能救回高ISO/暗光素材。｜https://www.neatvideo.com/
+Mocha Pro｜第三方｜tracking｜平面追蹤之王：螢幕替換、物件移除、穩定、3D相機反求｜https://borisfx.com/products/mocha-pro/
+Lenscare｜第三方｜blur｜高品質景深散景外掛(含 Depth of Field 與 Out of Focus 兩支)，可用深度圖做真實鏡頭虛化。｜https://www.frischluft.com/lenscare
+Duik Ángela｜第三方｜rigging｜免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布｜https://rxlaboratory.org/tools/duik/
+Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
+Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
+Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
+Glimmer｜Universe｜blur-glow｜在畫面亮部生成彩色閃爍星光/波光，適合美妝、珠寶、標題、MV的華麗閃耀。｜https://www.maxon.net/en/product-detail/red-giant/universe/glimmer
+Ecto｜Universe｜blur-glow｜生成幽靈狀流動的拖影輝光，做超自然/靈異/夢境氛圍。｜https://www.maxon.net/en/product-detail/red-giant/universe/ecto
+Glo Fi II｜Universe｜blur-glow｜夢幻柔光暈染，讓畫面帶朦朧唯美的漫射光感，適合MV/人像/回憶片段。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Luster｜Universe｜blur-glow｜為畫面亮部添加光澤感/金屬反光，提升質感。｜https://www.maxon.net/en/product-detail/red-giant/universe/luster
+OverLight｜Universe｜blur-glow｜生成可疊加的光斑/光效層(散景、漏光)，鋪在畫面上增加氛圍。｜https://www.maxon.net/en/product-detail/red-giant/universe/overlight
+Chromatic Glow｜Universe｜blur-glow｜帶光譜色散的輝光，發光邊緣呈彩虹虹彩，做夢幻/迷幻/未來感。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+HalfLight｜Universe｜blur-glow｜朦朧halation光暈氛圍，亮部往暗部滲光，復古膠片/夢幻感。｜https://www.maxon.net/en/product-detail/red-giant/universe/halflight
+Edge Glow｜Universe｜blur-glow｜讓畫面/圖形的邊緣輪廓發光，做Tron霓虹描邊、能量輪廓、科技線條。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Spectralicious｜Universe｜blur-glow｜光譜色彩循環輝光，色相不斷流動變化，做迷幻/音樂/派對視覺。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Blur｜Universe｜blur-glow｜高品質GPU模糊，快速柔化畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Compound Blur｜Universe｜blur-glow｜用另一張灰度圖(map)控制不同區域的模糊量，做深度模糊/局部柔化。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Spot Blur｜Universe｜blur-glow｜對圈選的局部區域做模糊，常用於遮臉/車牌/隱私打碼。｜https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows
+Knoll Light Factory EZ｜Universe｜flare｜Knoll鏡頭光暈的簡化版，快速加上預設鏡頭光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/knoll-light-factory-ez
+Finisher｜Universe｜color｜一鍵提升畫面質感的成片收尾調色工具，整合色調、對比、光暈、暗角，快速讓素材更有電影感。｜https://www.maxon.net/en/product-detail/red-giant/universe/finisher
+Multitone｜Universe｜color｜多色調映射(duotone/tritone)，把畫面亮暗映射到指定顏色，做海報/風格化色彩。｜https://www.maxon.net/en/product-detail/red-giant/universe/color
+Noir｜Universe｜color｜高對比的黑色電影(film noir)黑白風格，戲劇性明暗。｜https://www.maxon.net/en/product-detail/red-giant/universe/color
+Grain16｜Universe｜color｜16mm膠片顆粒質感，為畫面加上復古底片手感。｜https://www.maxon.net/en/product-detail/red-giant/universe/grain16
+Misfire｜Universe｜stylize｜模擬老膠片放映故障：髒點、刮痕、塵埃、跳格、褪色、閃爍，做懷舊/損壞質感。｜https://www.maxon.net/en/product-detail/red-giant/universe/stylize
+Pixel Dither｜Universe｜stylize｜6個外掛組成的像素畫工具，加入8/16-bit復古抖動、自訂色盤與像素控制，做復古遊戲/低位元風。｜https://www.maxon.net/en/product-detail/red-giant/universe/pixel-dither
+Sketchify｜Universe｜stylize｜把畫面轉成手繪素描/卡通線稿風格。｜https://www.maxon.net/en/product-detail/red-giant/universe/sketchify-tool
+ChromaTown｜Universe｜stylize｜生成色彩拉絲與扭曲條紋，做warpy迷幻視覺或色散轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/chromatown-tool
+VHS｜Universe｜stylize｜把現代畫面變成老錄影帶質感：色偏、訊號噪訊、追蹤失真滾動、時間碼、色度暈染。｜https://www.maxon.net/en/product-detail/red-giant/universe/vhs
+Glitch｜Universe｜stylize｜壓縮/數位故障glitch效果：方塊破碎、撕裂、位移、色偏。｜https://www.maxon.net/en/product-detail/red-giant/universe/glitch
+Holomatrix II｜Universe｜stylize｜把文字/畫面/HUD/Logo變成科幻全息投影或數位顯示，含掃描線與訊號故障。｜https://www.maxon.net/en/product-detail/red-giant/universe/holomatrix
+Electrify｜Universe｜stylize｜讓物體邊緣環繞跳動的電流/電弧，做能量、通電、魔法效果。｜https://www.maxon.net/en/product-detail/red-giant/universe/electrify
+Analog｜Universe｜stylize｜模擬類比視訊訊號失真：色度偏移、雜訊、掃描干擾。｜https://www.maxon.net/en/product-detail/red-giant/universe/analog
+Retrograde｜Universe｜stylize｜重現真實8/16mm老膠片外觀與損壞：顆粒、褪色、刮痕、抖動、漏光，一站到位的復古膠片工具。｜https://www.maxon.net/en/product-detail/red-giant/universe/retrograde
+Carousel｜Universe｜stylize｜模擬老式幻燈片放映機質感，做復古照片投影氛圍。｜https://www.maxon.net/en/product-detail/red-giant/universe/carousel
+AV Club｜Universe｜stylize｜為文字/元素加上低保真噪點、閃爍與抖動陰影，做MV字卡/lo-fi風。｜https://www.maxon.net/en/product-detail/red-giant/universe/av-club
+Texturize｜Universe｜stylize｜把靜態紋理(紙張/布紋/牆面)疊加到畫面上增加質感。｜https://www.maxon.net/en/product-detail/red-giant/universe/texturize
+Heatwave｜Universe｜distort｜模擬熱空氣造成的畫面扭曲(熱浪/引擎熱氣/沙漠海市蜃樓)。｜https://www.maxon.net/en/product-detail/red-giant/universe/heatwave
+Chromatic Aberration｜Universe｜distort｜模擬真實鏡頭色差色散，畫面邊緣出現紅/藍/綠分離，做鏡頭味或輕度故障。｜https://www.maxon.net/en/product-detail/red-giant/universe/chromatic-aberration
+Prism Displacement｜Universe｜distort｜稜鏡式置換扭曲並帶色散，做玻璃/水晶/能量折射。｜https://www.maxon.net/en/product-detail/red-giant/universe/distortions
+RGB Separation｜Universe｜distort｜把RGB三色通道分離錯位，做故障色偏/3D紅藍/能量感。｜https://www.maxon.net/en/product-detail/red-giant/universe/distortions
+ShrinkRay｜Universe｜distort｜移軸微縮效果，用漸變模糊+高飽和讓實景看起來像微縮模型。｜https://www.maxon.net/en/product-detail/red-giant/universe/shrinkray
+Fisheye Fixer｜Universe｜utility｜校正GoPro/運動相機/廣角鏡頭的魚眼桶狀畸變，把彎曲的地平線拉直。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Texturize Motion｜Universe｜generate｜疊加會動的紋理，做手繪定格(stop motion)沸騰抖動感，讓畫面有手作氣息。｜https://www.maxon.net/en/product-detail/red-giant/universe/texturize-motion
+Fractal Background｜Universe｜generate｜生成分形圖案動態背景，做抽象底圖/迷幻背景。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Soft Gradient Background｜Universe｜generate｜生成柔和平滑的漸層動態背景，當純淨底圖。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Gradient Ramp｜Universe｜generate｜漸層生成器(線性/放射)，做背景或著色來源。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Turbulence Noise｜Universe｜generate｜生成湍流分形噪波，當煙霧、雲、能量、置換或遮罩來源(類似Fractal Noise)。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+HUD Components｜Universe｜generate｜科幻HUD介面元件生成器，做抬頭顯示器、儀表、科技UI裝飾。｜https://www.maxon.net/en/product-detail/red-giant/universe/hud-components
+Line｜Universe｜generate｜在兩點/沿路徑生成動態線條，做地圖連線、科技連接線、路徑指示。｜https://www.maxon.net/en/product-detail/red-giant/universe/line
+Array Gun｜Universe｜generate｜發射/排列大量圖形成陣列圖案。｜https://www.maxon.net/en/product-detail/red-giant/universe/array-gun
+Progresso｜Universe｜generate｜生成進度條/載入動畫，做UI/資訊圖元件。｜https://www.maxon.net/en/product-detail/red-giant/universe/progresso
+Color Stripe｜Universe｜generate｜生成彩色條紋圖案(類電視測試彩條)。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Diamond Wave｜Universe｜generate｜菱形波紋幾何圖案生成。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Triangle Wave｜Universe｜generate｜三角波紋幾何圖案生成。｜https://www.maxon.net/en/product-detail/red-giant/universe/generators
+Symbol Mapper｜Universe｜mograph｜用字母、數字、符號依畫面明暗重建影像，做ASCII art/駭客任務字碼牆。｜https://www.maxon.net/en/product-detail/red-giant/universe/symbol-mapper-tool
+Reframe｜Universe｜mograph｜做畫中畫(PiP)構圖，控制縮放、位置、邊框與動畫。｜https://www.maxon.net/en/product-detail/red-giant/universe/reframe
+Logo Motion｜Universe｜mograph｜為Logo/文字一鍵加上動態進出場動畫(彈跳/滑入/縮放等)。｜https://www.maxon.net/en/product-detail/red-giant/universe/logo-motion
+Title Motion｜Universe｜mograph｜標題與字卡(下三分之一)動畫，快速做專業標題進出場。｜https://www.maxon.net/en/product-detail/red-giant/universe/title-motion
+Long Shadow｜Universe｜mograph｜為文字/圖形生成扁平設計風的45度長陰影。｜https://www.maxon.net/en/product-detail/red-giant/universe/motion-graphics
+Picture in Picture｜Universe｜utility｜快速做畫中畫排版，多個素材同框。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Hacker Text｜Universe｜text｜生成駭客風亂碼滾動/解碼文字動畫，字元隨機跳動後定格成目標文字。｜https://www.maxon.net/en/product-detail/red-giant/universe/hacker-text
+Typographic｜Universe｜text｜設計文字+形狀的動態排版動畫，做廣播/社群動態字幕。｜https://www.maxon.net/en/product-detail/red-giant/universe/typographic
+Numbers｜Universe｜text｜生成數字滾動/計數器，做統計數據、里程表、倒數。｜https://www.maxon.net/en/product-detail/red-giant/universe/numbers
+Screen Text｜Universe｜text｜生成電腦終端/程式碼滾動打字文字，做駭客/科技畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/screen-text
+Text Tile｜Universe｜text｜把文字平鋪成磚牆/滿版排列並可捲動。｜https://www.maxon.net/en/product-detail/red-giant/universe/text-tile
+Type Cast｜Universe｜text｜讓字元在多個字形/符號間循環切換，做跳字/變體動畫。｜https://www.maxon.net/en/product-detail/red-giant/universe/type-cast
+Type On｜Universe｜text｜打字機式逐字出現文字動畫。｜https://www.maxon.net/en/product-detail/red-giant/universe/type-on
+Modes｜Universe｜utility｜提供超越AE內建的進階圖層混合模式，做更豐富的合成疊加。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Camera Shake｜Universe｜utility｜為畫面加上擬真鏡頭震動/手持晃動，做衝擊、爆炸、手持紀錄感。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Socialize｜Universe｜utility｜生成社群媒體元素(按讚/訂閱/追蹤數/圖示)，做YouTube/社群影片裝飾。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Unmult｜Universe｜utility｜把黑色背景轉成透明Alpha，方便疊加火焰/煙/光效等黑底素材。｜https://www.maxon.net/en/product-detail/red-giant/universe/utilities
+Bokeh Transition｜Universe｜transition｜用散景失焦做兩段畫面的轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Stretch Transition｜Universe｜transition｜拉伸扭曲的交叉轉場，畫面被拉扯後帶入下一鏡。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Warp｜Universe｜transition｜扭曲+色差的流暢無縫轉場，一鍵做時髦的變形切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Glitch Transition｜Universe｜transition｜故障毛刺風格轉場，用數位破碎切換畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Retrograde Transition｜Universe｜transition｜老膠片跳格/放映故障風轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+VHS Transition｜Universe｜transition｜錄影帶快轉/暫停失真風轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Carousel Transition｜Universe｜transition｜幻燈片放映機換片式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Channel Surf｜Universe｜transition｜老電視轉台風轉場(訊號跳動切換頻道)。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Flicker Cut｜Universe｜transition｜快閃跳剪轉場，穿插黑/白/畫面幀做節奏感切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Color Mosaic｜Universe｜transition｜色塊馬賽克化後切換的轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Shape Wipe｜Universe｜transition｜用形狀圖案擦除切換畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Linear Wipe｜Universe｜transition｜線性方向擦除轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Clock Wipe｜Universe｜transition｜時鐘指針式旋轉擦除轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Soft Edge Wipe｜Universe｜transition｜柔邊界擦除轉場，過渡更柔和。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Channel Blur｜Universe｜transition｜RGB通道分離模糊的轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Camera Shake Transition｜Universe｜transition｜鏡頭震動衝擊式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Exposure Blur Transition｜Universe｜transition｜曝光過亮+模糊的白閃轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Knoll Light Transition｜Universe｜transition｜鏡頭光暈閃光式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Film Transition｜Universe｜transition｜膠片燒灼/漏光式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Spectralicious Transition｜Universe｜transition｜光譜色彩輝光式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Turbulence Transition｜Universe｜transition｜湍流噪波溶解式轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Swish Pan｜Universe｜transition｜甩鏡頭(whip pan)模糊轉場，模擬快速橫搖切鏡。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Point Zoom｜Universe｜transition｜定點快速推拉縮放轉場(crash zoom)。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Dolly Fade｜Universe｜transition｜推軌縮放+淡化的溶解轉場。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Blinds｜Universe｜transition｜百葉窗條狀翻轉切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Cube｜Universe｜transition｜立方體3D旋轉切換兩個畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Inside Cube｜Universe｜transition｜從立方體內部視角旋轉切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Rubix Cube｜Universe｜transition｜魔術方塊式分格翻轉切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Unfold｜Universe｜transition｜如摺紙般展開露出下一畫面。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Fold｜Universe｜transition｜畫面摺疊收合切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions
+Slide｜Universe｜transition｜畫面滑動推移切換。｜https://www.maxon.net/en/product-detail/red-giant/universe/transitions

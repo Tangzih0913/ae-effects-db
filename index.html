@@ -24,6 +24,11 @@
   #q:focus{border-color:var(--accent)}
   .filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
   .filters select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:9px;padding:7px 9px;font-size:13px}
+  .filters button{background:var(--panel);color:var(--accent);border:1px solid var(--border);border-radius:9px;
+    padding:7px 11px;font-size:13px;cursor:pointer;font-family:inherit}
+  .filters button:hover{border-color:var(--accent)}
+  .aimsg{margin-top:8px;font-size:12.5px;color:var(--accent);min-height:1em}
+  .aimsg a{color:var(--accent)}
   .hint{color:var(--muted);font-size:12px;margin-top:8px}
   .hint b{color:var(--accent);cursor:pointer;font-weight:600}
   #count{color:var(--muted);font-size:12.5px;margin:14px 0 4px}
@@ -60,7 +65,9 @@
     <div class="filters">
       <select id="fcat"><option value="">全部分類</option></select>
       <select id="fsrc"><option value="">全部來源</option></select>
+      <button id="aiBtn" type="button" title="複製一段提示詞，貼進 ChatGPT/Claude 就能用「貼圖」找特效">🤖 用 AI 找 / 貼圖找</button>
     </div>
+    <div id="aiMsg" class="aimsg"></div>
     <div class="hint">試試：
       <b data-q="霓虹">霓虹</b> ·
       <b data-q="老電影">老電影</b> ·
@@ -200,6 +207,54 @@ function render(){
       ${stack}${vars}<div class="tags">${tags}</div></div>`;
   }).join("") + (list.length>200?'<div class="empty">… 前 200 筆，縮小關鍵字看更精準結果</div>':"");
 }
+
+// 一鍵複製 AI 提示詞：貼進任何 AI 就能用「描述或貼圖」找特效
+const AI_PROMPT = `你是我的 After Effects 特效顧問。請先讀取這份繁體中文特效資料庫：
+https://raw.githubusercontent.com/xup61069/ae-effects-db/main/dist/index.txt
+
+（格式：名稱｜來源｜分類｜說明｜官方連結。需要中英搜尋標籤與外觀描述時，
+再讀完整版 https://raw.githubusercontent.com/xup61069/ae-effects-db/main/dist/all.jsonl）
+
+之後我會用文字描述想要的畫面，或直接貼參考圖。請你：
+1. 先判斷我要的視覺特徵（發光？故障？老膠片？粒子？扭曲？轉場？調色？）。
+   一張參考圖通常是「多個效果疊加」，請拆開來分析。
+2. 從資料庫挑出最合適的 3~5 個，每個說明：名稱（來源）、為什麼適合、關鍵參數往哪調。
+3. 一定要附上資料庫裡的官方連結。
+4. 最後補一行「沒有外掛時，用 AE 內建怎麼做」（資料庫裡來源標「AE內建」的那些）。
+5. 全程用繁體中文回答。若資料庫裡真的沒有，明說沒有，不要編造不存在的外掛。
+
+讀好了就回覆「準備好了」，然後等我描述或貼圖。`;
+
+const AI_OK = '✅ 已複製！貼進 ChatGPT / Claude / Gemini，等它說「準備好了」，就可以描述效果或<b>直接貼參考圖</b>。 '
+  + '<a href="https://github.com/xup61069/ae-effects-db/blob/main/PROMPT.md" target="_blank" rel="noopener">更多用法</a>';
+
+function showPromptBox(msg){
+  // 瀏覽器擋剪貼簿時的備援：直接給一個已全選的文字框，按 Ctrl+C 就好
+  msg.innerHTML = '請按 <b>Ctrl+C</b>（Mac 是 ⌘+C）複製下面這段，再貼進你的 AI：';
+  const ta = document.createElement("textarea");
+  ta.value = AI_PROMPT;
+  ta.rows = 6;
+  ta.style.cssText = "width:100%;margin-top:8px;padding:10px;border-radius:10px;font-size:12px;"
+    + "border:1px solid var(--border);background:var(--panel);color:var(--text);font-family:inherit";
+  msg.appendChild(ta);
+  ta.focus(); ta.select();
+}
+
+document.getElementById("aiBtn").addEventListener("click", async ()=>{
+  const msg = document.getElementById("aiMsg");
+  msg.innerHTML = "";
+  let copied = false;
+  try{
+    await navigator.clipboard.writeText(AI_PROMPT);
+    copied = true;
+  }catch(e){ copied = false; }
+  if(copied){
+    msg.innerHTML = AI_OK;
+    setTimeout(()=>{ if(!msg.querySelector("textarea")) msg.textContent=""; }, 12000);
+  }else{
+    showPromptBox(msg);
+  }
+});
 
 document.getElementById("q").addEventListener("input",render);
 document.getElementById("fcat").addEventListener("change",render);
