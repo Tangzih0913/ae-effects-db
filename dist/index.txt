@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 886 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 890 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -789,6 +789,10 @@ Motion Studio｜第三方｜animation｜Mt. Mograph 的動畫加速工具（Moti
 Samurai Sharpen｜第三方｜restore｜針對影片的智慧銳化外掛，用邊緣判斷與遮罩只銳化想強調的區域（眼睛、髮絲），避開皮膚與暗部雜訊。｜https://digitalanarchy.com/samurai-sharpen/
 ClickZoom Pro｜第三方｜animation｜一鍵做出乾淨的推近／拉遠與平移鏡頭運動，還能加上會動的滑鼠游標與點擊音效，做教學、口播與 Podcast 影片很快。｜https://edgardstore.com/clickzoompro/
 TimeMachine｜第三方｜stylize｜復古風格化與生成藝術的全能外掛，內建多種抖色、ASCII、掃描線與向量描繪引擎，可做出 CRT、VHS、LED、終端機與印刷質感。｜https://professor-neo.com/timemachine/
+Dehancer Pro｜第三方｜film｜完整模擬類比膠卷的成像過程，含 60 多種底片描述檔、顆粒、光暈與膠卷損傷，把數位素材調成電影底片質感。｜https://www.dehancer.com/shop/aepr/pro
+Skinworks｜第三方｜beauty｜專業級人像修膚外掛組（遮瑕／粉底／打亮三支），在 4K、8K 下磨皮仍保留原本膚質紋理。｜https://digitalbigmo.com/skinworks
+Nobe OmniScope｜第三方｜utility｜專業級影像示波器，提供波形、向量、直方圖與 CIE 等 19 種監看視圖，調色與現場拍攝時檢查曝光與色彩用。｜https://timeinpixels.com/nobe-omniscope/
+F's Plugins｜第三方｜utility｜日本開發者製作的免費開源 AE 外掛集（MIT 授權），含描邊、馬賽克、雜訊、閃電、浮雕、RGB 偏移等 50 多支小工具（僅 Windows）。｜https://github.com/bryful/F-s-PluginsProjects
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
