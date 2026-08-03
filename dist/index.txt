@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 987 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 997 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -374,6 +374,15 @@ Light Patterns｜aescripts｜light｜生成會動的光影圖案（類似舞台�
 Circle Rig Pro｜aescripts｜mograph｜把圖層排成圓形、放射或螺旋陣列，可加效果器、可循環 wiggle 與時間延遲，做環狀輪播動畫。｜https://aescripts.com/circle-rig-pro/
 Quick Depth｜aescripts｜3d｜從任何素材快速估算出深度圖的外掛，第三代加入跨影格穩定與畫質提升，可用來做景深、霧與偽 3D。｜https://aescripts.com/quick-depth/
 Cell Division｜aescripts｜stylize｜把圖層邊緣變成會互相融合分裂的透明液滴，內建 21 種樣式，做有機的黏稠分裂效果。｜https://aescripts.com/cell-division/
+Influx｜aescripts｜workflow｜全能匯入外掛，讓 AE／Premiere／AME 原生讀取 MKV 等原本不支援的格式與編碼，不用先轉檔。｜https://aescripts.com/influx/
+CuttanaNir｜aescripts｜draw｜做手寫（write-on）動畫的工具組，把文字切割分離後依筆順逐段寫出來。｜https://aescripts.com/cuttananir/
+ExpressionUniversalizer｜aescripts｜expression｜把專案裡的運算式轉成任何語言版本的 AE 都能跑，解決中文版 AE 打開英文模板運算式報錯的問題。｜https://aescripts.com/expressionuniversalizer/
+Slice it Up｜aescripts｜mograph｜程序化、非破壞式地把圖層切成條片，切完還能隨時改參數，做切片轉場與分割排版。｜https://aescripts.com/slice-it-up/
+Character Builder｜aescripts｜rigging｜自訂角色的生成器，內建 400 多個現成角色可直接改，做 MG 人物動畫不用從頭畫。｜https://aescripts.com/character-builder/
+Anchor Pro｜aescripts｜workflow｜一鍵把錨點移到圖層的任何位置（含 3D 圖層、分離維度與變形效果），做旋轉縮放前的必備步驟。｜https://aescripts.com/anchor-pro/
+Moiré｜aescripts｜stylize｜一鍵生成摩爾紋干涉條紋，可做現代或復古風格，也常拿來加強 CRT／VHS 那種拍螢幕的真實感。｜https://aescripts.com/moire/
+Loopy｜aescripts｜animation｜一個面板搞定各種循環：關鍵影格、路徑、預合成與素材都能一鍵設成無縫 loop。｜https://aescripts.com/loopy/
+Automation Blocks｜aescripts｜workflow｜用積木式介面組出自己的一鍵自動化工具，把重複的專案處理流程變成按一下就跑完。｜https://aescripts.com/automation-blocks-for-after-effects/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -890,6 +899,7 @@ PSOFT ComicStyle｜第三方｜art｜重現漫畫視覺語彙的外掛組，做�
 PSOFT CelMX｜第三方｜art｜日本動畫數位製作用的外掛組，處理賽璐璐風格上色與動畫合成流程中的各種細節。｜https://www.psoft.co.jp/en/product/celmx/
 Voukoder｜第三方｜render｜以 FFmpeg 為核心的免費開源輸出外掛，讓 AE／Premiere 直接用原生不支援的編碼器與參數輸出影片。｜https://www.voukoder.org/
 BlenderAe｜第三方｜3d｜Blender 與 AE 之間雙向傳資料的橋接工具，可把 3D 物件、攝影機、燈光、頂點與物理模擬送進 AE 變成原生圖層，也能把 AE 的空物件與攝影機送回 Blender。｜https://blenderae.com/blenderae
+shpr｜第三方｜draw｜11 種路徑動畫器合一，直覺地讓形狀圖層變形與動起來，完全不用寫運算式。｜https://goodboy.ninja/shpr
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
