@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1042 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1057 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -507,6 +507,21 @@ CC Image Wipe｜AE內建｜transition｜使用另一張影像或紋理作為擦�
 CC Jaws｜AE內建｜transition｜以兩排鋸齒狀邊緣像嘴巴咬合般切換畫面，適合怪獸、漫畫或趣味衝擊轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Line Sweep｜AE內建｜transition｜讓一條移動直線掃過並揭露畫面，適合製作俐落的標題出場、分割畫面或線性切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Wide Time｜AE內建｜time｜把前後多個時間影格混合成連續殘影，適合製作鬼影拖尾、動作軌跡或夢幻時間模糊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Cross Blur｜AE內建｜blur｜分別沿水平與垂直方向模糊影像，適合柔化素材、拉出十字光暈或製作方向性過場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Radial Fast Blur｜AE內建｜blur｜以快速演算法從指定中心向外拉出放射模糊，適合製作高速推進、爆發光線或縮放轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Composite｜AE內建｜composite｜把套用效果前的原始圖層以不同混合模式疊回結果，適合保留細節、控制遮罩或快速混合處理前後影像。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Color Neutralizer｜AE內建｜color｜分別調整紅綠藍通道來中和或改變整體色偏，適合修正白平衡、去除偏色或建立風格化色調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Color Offset｜AE內建｜color｜偏移紅綠藍通道的相位與位置，適合製作 RGB 錯位、迷幻變色或數位故障色差。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Bend It｜AE內建｜distort｜在兩個指定端點之間彎折圖層，適合讓手臂、樹枝、文字或棒狀物呈現有支點的柔性動作。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Bender｜AE內建｜distort｜沿垂直軸以單一控制點把圖層彎成平滑弧線，適合製作拱形文字、彎曲標牌或柔軟旗幟。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Blobbylize｜AE內建｜distort｜把圖層塑造成柔軟黏稠的液體或果凍表面，適合製作融化文字、黏液圖形或有機變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Flo Motion｜AE內建｜distort｜用兩組控制點建立平滑的網格流動變形，適合拉伸人臉、扭動圖形或製作液態轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Griddler｜AE內建｜distort｜把圖層切割成可調整的網格圖塊，適合製作方格分解、模組化拼貼或逐格展開動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Smear｜AE內建｜distort｜在兩點之間拖曳並拉伸局部像素，適合延長物體、製作速度拖痕或手動液化變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Split 2｜AE內建｜distort｜沿可調角度把圖層切成兩半並分向移動，適合製作畫面裂開、雙向揭露或俐落分割轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Tiler｜AE內建｜texture｜把圖層重複平鋪至整個構圖，適合建立無縫背景、重複標誌牆或可動畫的磁磚圖案。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Threads｜AE內建｜generate｜生成會扭動與流動的絲線或纖維，適合製作抽象流線、能量束、線材與動態背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Simple Wire Removal｜AE內建｜restore｜沿兩點定義的線段填補並移除鋼絲或細小物件，適合處理固定鏡頭中的威亞、電線與狹長瑕疵。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
