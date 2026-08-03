@@ -79,10 +79,19 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 
 - 👥 貢獻者看 **[CONTRIBUTING.md](CONTRIBUTING.md)**（內含「複製貼進你 AI 的提示詞」，一鍵生資料）
 - 🤖 AI 助手看 **[AGENTS.md](AGENTS.md)**；機器可讀規格在 **[schema/effect.schema.json](schema/effect.schema.json)**
-- ✅ 改完跑 `python validate.py`（送 PR 時 GitHub Actions 也會自動校驗）
-- 在 Claude Code 裡直接說「把 XX 外掛加進特效資料庫」也會自動補
+- 📈 專門做「持續擴充」的作業流程看 **[EXPANSION.md](EXPANSION.md)**
+- 🐛 不會用 git 也可以：直接[開 Issue 回報缺少的特效](https://github.com/xup61069/ae-effects-db/issues/new?template=add-effect.yml)
+
+### 工具
+
+```bash
+python validate.py              # 校驗全部資料（送 PR 時 CI 也會跑）
+python tools/find_new.py --desc # 列出 aescripts 上還沒收錄的候選＋官方說明
+python tools/add.py new.jsonl   # 安全匯入：自動判重、檢查欄位、選對資料檔
+```
 
 新增一行 JSON 到對應 `data/*.jsonl` 即可；新套件就開新 `.jsonl`。
+刻意不收的東西請記進 `curation/skipped.tsv`（附原因），避免日後重複評估。
 
 ## 資料來源
 - Universe 工具總覽 · https://www.maxon.net/en/product-detail/red-giant/universe/tools

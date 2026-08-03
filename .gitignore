@@ -14,3 +14,6 @@ Thumbs.db
 # local scratch
 scratch/
 *.log
+
+# tools cache
+tools/.sitemap_cache.xml

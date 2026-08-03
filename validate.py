@@ -30,6 +30,7 @@ ALLOWED = set(REQUIRED) | OPTIONAL
 def main():
     errors, warnings, total = [], [], 0
     names = {}
+    stats = {"url": 0, "look": 0, "unv": 0}
     files = sorted(glob.glob(os.path.join(DATA_DIR, "*.jsonl")))
     if not files:
         print("找不到 data/*.jsonl"); sys.exit(1)
@@ -74,10 +75,16 @@ def main():
                 nm = o.get("name")
                 if isinstance(nm, str):
                     names.setdefault(nm.lower(), []).append(loc)
+                if o.get("url"):        stats["url"] += 1
+                if o.get("look"):       stats["look"] += 1
+                if o.get("unverified"): stats["unv"] += 1
 
+    # 同一檔案內名稱重複才是問題；跨檔同名（如 AE 內建 Glow vs Universe Glow）是正常的
     for nm, locs in names.items():
         if len(locs) > 1:
-            warnings.append(f"名稱重複 '{nm}'：{', '.join(locs)}")
+            in_files = {l.split(":")[0] for l in locs}
+            if len(in_files) < len(locs):
+                errors.append(f"同檔內名稱重複 '{nm}'：{', '.join(locs)}")
 
     print(f"檢查 {total} 筆 / {len(files)} 檔")
     for w in warnings: print("  ⚠ " + w)
@@ -85,6 +92,9 @@ def main():
     if errors:
         print(f"\n❌ {len(errors)} 個錯誤，{len(warnings)} 個警告"); sys.exit(1)
     print(f"\n✅ 全部通過（{len(warnings)} 個警告，不擋合併）")
+    if stats:
+        print(f"   涵蓋率：官方連結 {stats['url']}/{total}"
+              f"｜外觀描述 {stats['look']}/{total}｜未驗證 {stats['unv']} 筆")
 
 if __name__ == "__main__":
     main()

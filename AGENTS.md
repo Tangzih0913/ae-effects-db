@@ -14,9 +14,20 @@
 data/*.jsonl        每行一筆特效（唯一的資料來源，你主要動這裡）
 schema/effect.schema.json   單筆條目的 JSON Schema（機器可讀規格）
 validate.py         校驗腳本（改完一定要跑）
+tools/find_new.py   列出 aescripts 上還沒收錄也還沒略過的候選
+tools/add.py        安全匯入：自動判重、檢查欄位、選對資料檔
+curation/skipped.tsv  刻意不收的項目＋原因（決策記憶，避免重複評估）
 search.py           命令列搜尋
 index.html          靜態搜尋網頁（GitHub Pages）
 skill/find-effect/  Claude Code skill
+EXPANSION.md        持續擴充資料庫的標準作業流程
+```
+
+### 常用指令
+```bash
+python tools/find_new.py --limit 30 --desc   # 取待評估清單＋官方說明
+python tools/add.py batch.jsonl              # 匯入（會自動判重與選檔）
+python validate.py                           # 校驗，必須全綠
 ```
 
 ### 各資料檔的分工（新增時放對檔案）

@@ -1,0 +1,23 @@
+# 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+# 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
+# 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+kashida-pro	阿拉伯/波斯/烏爾都文排版工具，對中文使用者過於小眾
+gradient-lab	漸層模板包，功能與已收錄的 proGradient / GradientHub 重複
+organic-rig-pro	官方頁只有通用樣板文字，查不到實際功能說明
+aefocus	是獨立桌面應用程式（隱藏浮動面板），不是 AE 外掛或腳本
+pioneer	MIDI 旋律/和弦生成器，與 AE 影像製作無關
+control-suite	官方頁無任何功能說明
+voxel-sorter-pro	與已收錄的 Voxel Sorter 同系列，收基本版即可
+track-to-new-null	極小型工具，功能可被 AE 內建與已收錄工具取代
+versa	Premiere Pro 專用（素材版本替換）
+subtext	Premiere Pro 專用（字幕編輯）
+transcript-converter	Premiere Pro 專用（逐字稿橋接）
+sequence-inspector	Premiere Pro 專用（序列品管）
+change-it-for-premiere-pro	Premiere Pro 專用
+caption-cat-for-davinci-resolve	DaVinci Resolve 專用
+beatedit-for-audition	Audition 專用
+oneclickexport-for-photoshop	Photoshop 專用
+retro-computer-effect-bundle	套裝包，個別工具已另行收錄
+mettle-suite	套裝包，Mettle 個別工具已收錄
+tracking-bundle	套裝包
+progradient-plus-gradienthub-bundle	套裝包，兩個工具都已個別收錄
