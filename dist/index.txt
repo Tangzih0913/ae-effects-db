@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1087 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1132 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -552,6 +552,51 @@ Compound Arithmetic｜AE內建｜composite｜讓來源圖層與目前圖層進�
 Invert｜AE內建｜color｜反轉 RGB、亮度或 Alpha 等指定通道，適合製作負片外觀、反向遮罩與互補色效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
 Minimax｜AE內建｜matte｜擴張或收縮指定色彩通道，適合加粗遮罩、縮邊、填補小洞或移除細小雜點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
 Remove Color Matting｜AE內建｜matte｜移除預乘背景色造成的彩邊，適合修正去背素材周圍的白邊、黑邊與溢色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Set Channels｜AE內建｜color｜從來源圖層指定各個紅綠藍與 Alpha 通道，適合交換通道、組合遮罩與技術調色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Shift Channels｜AE內建｜color｜把輸出通道替換成其他色彩或 Alpha 通道，適合快速提取遮罩、重排 RGB 與建立單色結果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Solid Composite｜AE內建｜composite｜在透明區域後方合成指定純色，適合預覽 Alpha、加入底色或輸出不透明畫面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Auto Color｜AE內建｜color｜自動分析高光、中間調與陰影來中和偏色，適合快速修正色溫不均與整體色偏。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Auto Contrast｜AE內建｜color｜自動設定黑白點以擴展明暗範圍，適合快速改善灰霧、低反差或曝光平淡的素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Auto Levels｜AE內建｜color｜逐通道自動調整黑白點與色階，適合快速修正曝光並平衡 RGB 通道。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Brightness & Contrast｜AE內建｜color｜直接調整整體亮度與對比，適合快速修正明暗、加強反差或柔化平淡畫面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Broadcast Colors｜AE內建｜color｜限制過亮或過飽和的訊號至廣播安全範圍，適合電視交付前檢查與修正非法色彩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Change Color｜AE內建｜color｜選取特定顏色並調整其色相、亮度與飽和度，適合替物件換色或修正局部色彩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Channel Mixer｜AE內建｜color｜重新混合紅綠藍通道的比例，適合修正色偏、製作客製黑白影像與特殊色彩映射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Color Balance｜AE內建｜color｜分別調整陰影、中間調與高光的 RGB 平衡，適合修正偏色或建立冷暖分離調色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Color Balance (HLS)｜AE內建｜color｜以色相、亮度與飽和度三項控制整體色彩，適合快速改色、降彩度或調整明暗。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Color Link｜AE內建｜color｜從另一圖層或區域取樣平均顏色套用至目前圖層，適合讓圖形隨畫面配色同步變化。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Color Stabilizer｜AE內建｜color｜追蹤取樣點以補償逐幀亮度或色彩變化，適合穩定縮時、掃描與閃爍素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Equalize｜AE內建｜color｜重新分布亮度或 RGB 直方圖以擴展對比，適合改善灰霧畫面與明暗分布不均。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Gamma/Pedestal/Gain｜AE內建｜color｜分別控制黑位、伽瑪與增益，適合精確修正陰影、中間調與高光的明暗關係。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Leave Color｜AE內建｜color｜保留指定顏色並降低其他顏色飽和度，適合製作局部彩色、主體突顯與抽色效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Levels (Individual Controls)｜AE內建｜color｜以可獨立動畫的控制項調整整體與 RGB 色階，適合關鍵影格調色及精細通道校正。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+PS Arbitrary Map｜AE內建｜color｜載入 Photoshop 任意映射曲線重新分配色調，適合套用既有曲線預設與特殊明暗反轉。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Selective Color｜AE內建｜color｜依紅、黃、綠等色彩範圍調整 CMYK 比例，適合精修膚色、天空與特定物件顏色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Shadow/Highlight｜AE內建｜color｜分別恢復過暗陰影與過亮高光細節，適合修正逆光、曝光不均與高反差素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Tint｜AE內建｜color｜把黑色與白色映射成兩個指定顏色，適合製作黑白、雙色調與品牌配色影像。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+Tritone｜AE內建｜color｜分別為陰影、中間調與高光指定顏色，適合建立三色調海報、復古與品牌化風格。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html
+4-Color Gradient｜AE內建｜generate｜以四個可移動色點生成平滑多色漸層，適合動態背景、柔和光影與品牌配色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Checkerboard｜AE內建｜generate｜生成可調大小、位置與顏色的棋盤格，適合幾何背景、網格遮罩與測試圖案。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Circle｜AE內建｜generate｜生成可調半徑、邊緣與填色的圓形或圓環，適合波紋、標記點與簡單圖形動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Ellipse｜AE內建｜generate｜生成可調尺寸、中心與粗細的橢圓，適合製作外框、遮罩、雷達圈與動態圖形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Eyedropper Fill｜AE內建｜generate｜依取樣點的顏色範圍填滿連續區域，適合替線稿、圖示與純色區塊快速換色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Fill｜AE內建｜generate｜保留圖層透明度並以指定純色填滿內容，適合快速替文字、圖示與遮罩換色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Fractal｜AE內建｜texture｜生成可縮放探索的數學碎形圖案，適合抽象背景、迷幻動畫與無限縮放視覺。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Grid｜AE內建｜generate｜生成可調間距、粗細與顏色的規則格線，適合科技背景、透視地面與構圖參考。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Paint Bucket｜AE內建｜generate｜從指定點向相近顏色區域擴散填色，適合替線稿封閉區域上色或快速更換局部色塊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
+Bezier Warp｜AE內建｜warp｜用邊界點與貝茲控制柄彎曲整個圖層，適合貼合曲面、調整包裝圖與製作柔性變形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Corner Pin｜AE內建｜tracking｜以四個角點將圖層貼合任意四邊形，適合螢幕替換、招牌合成與透視校正。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Magnify｜AE內建｜distort｜以圓形或方形區域局部放大影像，適合細節展示、教學標示與放大鏡動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Offset｜AE內建｜distort｜平移影像並讓越界內容從另一側循環返回，適合無縫背景捲動與貼圖接縫檢查。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Reshape｜AE內建｜warp｜以來源與目標遮罩控制影像輪廓變形，適合物件形狀轉換、臉部變形與 Morph 動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Ripple｜AE內建｜distort｜從指定中心產生向外擴散的波浪扭曲，適合水面漣漪、震波與能量脈衝。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Spherize｜AE內建｜distort｜把局部影像投射成球面凸起或凹陷，適合水晶球、魚眼視覺與圓形膨脹。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Transform｜AE內建｜distort｜在效果層級控制位置、縮放、旋轉、傾斜與快門角度，適合疊加變形及製作帶動態模糊的轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Twirl｜AE內建｜distort｜讓指定中心周圍的影像旋轉捲入，適合製作漩渦、液體渦流與旋扭轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Warp Stabilizer｜AE內建｜tracking｜分析鏡頭運動並以裁切與變形降低晃動，適合穩定手持、行走與空拍素材。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+CC Block Load｜AE內建｜stylize｜模擬影像以大型像素方塊逐區載入，適合數位介面、低解析風格與圖塊揭露轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Threshold RGB｜AE內建｜stylize｜分別對紅綠藍通道套用閾值，適合製作彩色二值化、數位海報與高對比色塊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Radial ScaleWipe｜AE內建｜transition｜以從中心或邊緣縮放的放射擦除切換畫面，適合圓形爆發、鏡頭縮放與動態揭露。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
