@@ -130,6 +130,22 @@ function hl(txt,terms){
   return s;
 }
 
+// 中文長詞拆成 2 字詞組（「煙霧模擬」→ 煙霧/霧模/模擬），只在完全搜不到時當備援
+const CJK=/[一-鿿㐀-䶿]/;
+const CJK2=/^[一-鿿㐀-䶿]{2}$/;   // 兩個字都要是中文，避免產生「z不」這種混雜詞
+function segment(terms){
+  const out=[];
+  for(const t of terms){
+    if(t.length>=3 && CJK.test(t)){
+      for(let i=0;i<t.length-1;i++){
+        const g=t.slice(i,i+2);
+        if(CJK2.test(g)) out.push(g);
+      }
+    }
+  }
+  return [...new Set(out)];
+}
+
 function render(){
   const raw=document.getElementById("q").value.trim().toLowerCase();
   const terms=raw.split(/\s+/).filter(Boolean);
@@ -138,14 +154,24 @@ function render(){
   let pool=DATA;
   if(fcat)pool=pool.filter(d=>d.cat===fcat);
   if(fsrc)pool=pool.filter(d=>d._src===fsrc);
-  let list;
+  let list, segNote="";
   if(terms.length){
     list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+    if(!list.length){
+      const segs=segment(terms);
+      if(segs.length){
+        list=pool.map(d=>[score(d,segs),d]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+        if(list.length){ segNote=`（找不到「${esc(raw)}」，已自動拆詞：${segs.map(esc).join("、")}）`; window.__segTerms=segs; }
+      }
+    }else{ window.__segTerms=null; }
   }else{
     list=pool.slice().sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+    window.__segTerms=null;
   }
-  document.getElementById("count").textContent =
-    (raw||fcat||fsrc)? `${list.length} 筆結果` : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
+  if(segNote) terms.push(...window.__segTerms);
+  document.getElementById("count").innerHTML =
+    (raw||fcat||fsrc)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
+                     : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
   const box=document.getElementById("results");
   if(!list.length){box.innerHTML='<div class="empty">找不到，換個說法試試（例：發光 / glow / 光暈 / 輝光）</div>';return;}
   box.innerHTML=list.slice(0,200).map(d=>{

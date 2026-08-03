@@ -41,6 +41,23 @@ def haystack(row):
         parts.append(" ".join(str(x) for x in v.values()))
     return " ".join(parts).lower()
 
+def _cjk_char(ch):
+    return "一" <= ch <= "鿿" or "㐀" <= ch <= "䶿"
+
+def is_cjk(s):
+    return any(_cjk_char(ch) for ch in s)
+
+def segment(terms):
+    """中文長詞拆成 2 字詞組（「煙霧模擬」→ 煙霧/霧模/模擬），搜不到時當備援。"""
+    out = []
+    for t in terms:
+        if len(t) >= 3 and is_cjk(t):
+            for i in range(len(t) - 1):
+                g = t[i:i+2]
+                if all(_cjk_char(c) for c in g) and g not in out:
+                    out.append(g)
+    return out
+
 def score(row, terms):
     text = haystack(row)
     name = row.get("name", "").lower()
@@ -90,6 +107,15 @@ def main():
     scored = [(score(r, args.terms), r) for r in pool]
     scored = [x for x in scored if x[0] > 0]
     scored.sort(key=lambda x: -x[0])
+
+    if not scored:
+        segs = segment(args.terms)
+        if segs:
+            scored = [(score(r, segs), r) for r in pool]
+            scored = [x for x in scored if x[0] > 0]
+            scored.sort(key=lambda x: -x[0])
+            if scored:
+                print(f"找不到「{' '.join(args.terms)}」，已自動拆詞：{'、'.join(segs)}\n")
 
     if not scored:
         print("找不到相符效果，換個關鍵字或用 --list-cats 看分類。")
