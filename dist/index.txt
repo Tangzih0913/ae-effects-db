@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1029 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1042 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -494,6 +494,19 @@ CC Light Wipe｜AE內建｜transition｜發光擦除轉場，邊界帶光暈往�
 CC Twister｜AE內建｜transition｜扭轉翻面轉場，畫面像絲帶般扭轉露出背面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
 CC WarpoMatic｜AE內建｜transition｜依畫面明暗做扭曲溶解，兩個畫面互相滲透變形切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
 Block Dissolve｜AE內建｜transition｜隨機方塊溶解，可控方塊大小與柔邊，做數位感切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html
+CC Hair｜AE內建｜particles｜模擬會隨動作與風力擺動的毛髮、絲線與纖維，適合製作絨毛、草地或飄動細絲。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+Particle Playground｜AE內建｜particles｜以加農砲、網格與圖層貼圖控制大量粒子，適合製作煙火、群聚物件或由影像驅動的粒子動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html
+CC Environment｜AE內建｜perspective｜把圖層包成球形環境反射貼圖，適合替 CC Sphere、CC Cylinder 等偽 3D 物件加入周遭反光。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+Detail-preserving Upscale｜AE內建｜restore｜在大幅放大影像時保留銳利邊緣與細節，適合把低解析素材升級至 HD 或 4K 構圖。｜https://helpx.adobe.com/after-effects/using/detail-preserving-upscale-effect.html
+Brush Strokes｜AE內建｜art｜把影像轉成散落的粗糙顏料筆觸，適合製作油畫、手繪或短筆觸點描質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
+CC Burn Film｜AE內建｜film｜加入膠片燒灼、刮痕與受損邊緣，適合營造老電影、復古片頭或燒片轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Plastic｜AE內建｜stylize｜依影像明暗塑造帶高光的亮面塑膠質感，適合讓文字、圖形或紋理呈現浮雕立體表面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Vignette｜AE內建｜film｜讓畫面邊緣漸暗或漸亮以集中視線，適合加入電影暗角、夢境亮邊或鏡頭聚焦感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Grid Wipe｜AE內建｜transition｜以成排網格方塊逐格揭露下一個畫面，適合製作棋盤、像素磚塊或模組化轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Image Wipe｜AE內建｜transition｜使用另一張影像或紋理作為擦除遮罩，適合依亮度、雲霧或自訂圖案揭露下一個鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Jaws｜AE內建｜transition｜以兩排鋸齒狀邊緣像嘴巴咬合般切換畫面，適合怪獸、漫畫或趣味衝擊轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Line Sweep｜AE內建｜transition｜讓一條移動直線掃過並揭露畫面，適合製作俐落的標題出場、分割畫面或線性切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+CC Wide Time｜AE內建｜time｜把前後多個時間影格混合成連續殘影，適合製作鬼影拖尾、動作軌跡或夢幻時間模糊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
