@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 828 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 886 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -233,6 +233,64 @@ Ray Projector｜aescripts｜3d｜把影像邊緣擠出成 3D 模型並用環境�
 LED Architect｜aescripts｜workflow｜算 LED 大屏的解析度、面板數量、耗電與重量，並一鍵產生帶參考線與測試圖的合成，做舞台大屏內容用。｜https://aescripts.com/led-architect/
 Interlaced Glitch｜aescripts｜film｜重現舊類比與早期數位攝影機的隔行掃描畫質，做錄影帶年代的復古故障感。｜https://aescripts.com/interlaced-glitch/
 CHR0MA｜aescripts｜color｜用 Oklab 色彩科學取代內建的色相／飽和度，調色時亮度感受一致，不會拉出死灰或螢光的怪色。｜https://aescripts.com/chr0ma/
+Compstronaut｜aescripts｜workflow｜像瀏覽器一樣在 AE 裡上一頁／下一頁跳回剛才的合成與時間點，在深層巢狀合成間來回不會迷路。｜https://aescripts.com/compstronaut/
+Keystone｜aescripts｜animation｜動畫師的排列工具箱：對齊、依序錯開（stagger）、排序、拉伸關鍵影格與標籤上色，做整齊的序列動畫很快。｜https://aescripts.com/keystone/
+TextFlex｜aescripts｜text｜把文字動畫依字元、單字或行拆開控制，不用 K 關鍵影格就能做出有彈性的文字進出場。｜https://aescripts.com/textflex/
+Torn Paper｜aescripts｜texture｜把任何有遮罩的圖層變成擬真撕紙邊緣，做拼貼與手作風格不用再去找素材或在 Photoshop 慢慢刷。｜https://aescripts.com/torn-paper/
+Power Cylinder｜aescripts｜3d｜把圖層包成可控的 3D 圓柱，支援橢圓變形、展開、自體陰影、反射與景深，做捲軸或圓柱標籤動畫。｜https://aescripts.com/power-cylinder/
+StyleX｜aescripts｜art｜用 AI 把影片轉成卡通、素描、繪畫或半色調等風格，做轉繪風影片不用逐格處理。｜https://aescripts.com/stylex/
+Root｜aescripts｜workflow｜把散在電腦各處的素材蒐集打包成乾淨的獨立專案，自動找回遺失媒體並整理資料夾，交件與備份很省事。｜https://aescripts.com/root/
+Slitscan｜aescripts｜distort｜原生外掛，做出狹縫掃描效果——不同時間的畫面被拉成長條，產生時間被抹開的實驗感影像。｜https://aescripts.com/slitscan/
+JPEG glitch｜aescripts｜stylize｜直接破壞 JPEG 壓縮演算法來產生擬真的壓縮故障畫面，做花屏與數位損壞感。｜https://aescripts.com/jpeg-glitch/
+Despill Maestro｜aescripts｜keying｜去除綠幕反射到主體上的溢色，同時保護膚色與服裝顏色，從輕微修正到強力去色都可調。｜https://aescripts.com/despill-maestro/
+Reka Grid｜aescripts｜mograph｜功能豐富的網格生成外掛，把圖形排成矩陣並加上各種動畫變化，做整齊的圖形牆與版面動態。｜https://aescripts.com/reka-grid/
+AnimateParallax｜aescripts｜3d｜用視覺化方式擺放圖層在 Z 空間的深度，快速做出有真實層次的視差運鏡（照片轉 2.5D）。｜https://aescripts.com/animateparallax/
+Pixel Encoder｜aescripts｜stylize｜把影片轉成粗糙的像素動畫，內建 10 組模組化預設與混沌引擎，做低解析復古數位質感。｜https://aescripts.com/pixel-encoder/
+MaskPNGscatter｜aescripts｜mograph｜把 PNG 或圖層在遮罩範圍內隨機散佈成上百份，做粒子感的裝飾元素或圖樣填充。｜https://aescripts.com/maskpngscatter/
+Wave The Path｜aescripts｜animation｜GPU 加速外掛，把任何路徑變成流動的波形動畫，做音波、水波與抽象曲線律動。｜https://aescripts.com/wave-the-path/
+Motion Extractor｜aescripts｜stylize｜只保留畫面中在動的部分，把靜止背景抹掉，讓平凡素材變成有詩意的動態抽象影像。｜https://aescripts.com/motion-extractor/
+loopFlow｜aescripts｜animation｜把靜態照片的局部（水流、雲、頭髮）動起來變成無縫循環影片，也就是所謂的動態照片／Cinemagraph。｜https://aescripts.com/loopflow/
+Auto Crop｜aescripts｜workflow｜自動把合成裁切到內容的實際邊界，去掉多餘透明區域，現已改為原生外掛速度更快。｜https://aescripts.com/auto-crop/
+Polymorph｜aescripts｜workflow｜把合成裡任一圖層替換或接上另一個圖層——形狀、文字、素材、空物件都行，換素材保留原本動畫。｜https://aescripts.com/polymorph/
+Split Blur｜aescripts｜blur｜帶萬花筒與旋轉感的模糊外掛，模糊之餘還會產生繪畫般的層疊筆觸，做夢幻氛圍背景。｜https://aescripts.com/split-blur/
+Expression Kit｜aescripts｜expression｜內建 140 組現成運算式，可即時預覽與調參數後直接套用，不會寫程式也能用運算式做動畫。｜https://aescripts.com/expression-kit/
+m's Halftone｜aescripts｜stylize｜做網點半色調處理的外掛，加上效果就能用、不需另外做圖層對應，模擬印刷網點與漫畫風。｜https://aescripts.com/ms-halftone/
+Superpose｜aescripts｜restore｜自動生成 clean plate，把固定機位素材中移動的雨、雪、人群等物體移除，還原乾淨背景。｜https://aescripts.com/superpose/
+Holora｜aescripts｜color｜依觀看角度產生全息鐳射般的變色效果，做彩虹色貼紙、金屬鐳射質感的標題或包裝。｜https://aescripts.com/holora/
+Diffusae｜aescripts｜art｜在 AE 裡直接互動使用生成式 AI 產生／改寫畫面，第二代加入跨影格穩定模型讓動態不再閃爍。｜https://aescripts.com/diffusae/
+Aura｜aescripts｜mograph｜程序化生成 3D 空間中的優雅幾何波形圖案，類似粒子系統但畫的是會隨時間變化的向量線條。｜https://aescripts.com/aura/
+Nexanim｜aescripts｜animation｜把動畫的「進度」與「數值」拆開的新式動畫系統，改數值時曲線不會走樣，也更容易讓多個動畫同步。｜https://aescripts.com/nexanim/
+Versioner｜aescripts｜workflow｜在同一個專案裡管理多語言或多版本內容，把圖層標記到指定版本後一鍵切換，不用複製整個專案。｜https://aescripts.com/versioner/
+Effect Remover Pro｜aescripts｜workflow｜掃描整個合成列出所有用到的效果，可批次隱藏、顯示或刪除，並把常用外掛整理成我的最愛清單。｜https://aescripts.com/effect-remover-pro/
+QuickOpen｜aescripts｜workflow｜快速開啟、管理與儲存專案檔的面板，可自訂存檔命名與工作流程，接手多案子時切換很快。｜https://aescripts.com/quickopen/
+Project Font Pro｜aescripts｜text｜批次替換專案中的字體，可只換字重、顏色或大小，也能一次修好所有缺失字型，套模板改字很快。｜https://aescripts.com/project-font-pro/
+NatuRamp｜aescripts｜generate｜生成不均勻分佈的自然漸層，比 AE 內建漸層更有機，做柔和背景不會有生硬的線性感。｜https://aescripts.com/naturamp/
+Loop This! Wiggle｜aescripts｜expression｜產生可完美無縫循環的 wiggle 晃動，用運算式或直接烘成關鍵影格，做循環動態背景不會接縫。｜https://aescripts.com/loop-this-wiggle/
+Transformer｜aescripts｜warp｜把素材做透視變形與多畫面排列的動畫工具，內建大量預設，做視頻牆、畫軸與立體排版效果。｜https://aescripts.com/transformer/
+ToothPaste｜aescripts｜workflow｜直接把剪貼簿裡的 SVG 貼進 AE 變成形狀圖層，從 Illustrator 或 Figma 搬圖示不用再匯出檔案。｜https://aescripts.com/toothpaste/
+LingoFlip｜aescripts｜text｜用理解全案脈絡的 AI 把專案翻成任何語言，每種語言各自產生一個合成，原始檔完全不動。｜https://aescripts.com/lingoflip/
+Copy Face｜aescripts｜beauty｜以 AI 做臉部替換，真人與風格化臉孔都支援，全程在本機運算不必上傳雲端。｜https://aescripts.com/copy-face/
+Volna｜aescripts｜draw｜進階描邊外掛，內建箭頭、雜訊扭曲、漸層與混合工具，做線條生長與指示箭頭動畫。｜https://aescripts.com/volna/
+Stretch｜aescripts｜distort｜用兩條遮罩控制影像的拉伸方向，沿著或橫越遮罩把畫面延展，可做變形或補畫面。｜https://aescripts.com/stretch/
+Textlab Pro｜aescripts｜text｜文字全能工具箱：抓錯字、找出格式異常、檢查對比度無障礙，還能跨所有合成批次改字與存樣式預設。｜https://aescripts.com/textlab-pro/
+Number Maker｜aescripts｜text｜生成會動的數字文字，可綁時間或其他屬性做計數器、計時器與數據跳動動畫，數字格式可自訂。｜https://aescripts.com/number-maker/
+Frankenstein Finder｜aescripts｜workflow｜視覺化整個合成階層，能跨巢狀合成改文字、批次改圖層名、隔離顯示，並稽核清掉沒用到的素材。｜https://aescripts.com/frankenstein-finder/
+FacePro｜aescripts｜beauty｜用 AI 自動抓臉部遮罩再做修飾，去痘疤、柔化膚質與美顏一次完成。｜https://aescripts.com/facepro/
+Workflower｜aescripts｜workflow｜圖層工作流工具組：建群組、把調整圖層只套用在選取圖層、複製圖層、合併遮罩與預先算圖。｜https://aescripts.com/workflower/
+AfterCodecs｜aescripts｜render｜在 AE／Premiere／AME 裡直接輸出 ProRes、H264、H265、HAP，不需安裝 QuickTime，還能批次大量輸出。｜https://aescripts.com/aftercodecs/
+Goodbye Greenscreen｜aescripts｜keying｜用 AI 自動把人物從背景摳出來，沒有綠幕也能去背，第二代換上更強的影像分割模型。｜https://aescripts.com/goodbye-greenscreen/
+LogoSwap｜aescripts｜restore｜用 AI 把畫面中的 Logo 移除或換成另一個品牌標誌，做多品牌版本的廣告很方便。｜https://aescripts.com/logoswap/
+Color Grade Prompter｜aescripts｜color｜用文字描述或參考圖讓 AI 自動調色，並可把結果匯出成 LUT 在其他軟體沿用。｜https://aescripts.com/color-grade-prompter/
+Bullet Time｜aescripts｜time｜用 AI 插補影格做出滑順的慢動作與變速，即使畫面移動幅度大也不容易破圖。｜https://aescripts.com/bullet-time/
+AI Color Match｜aescripts｜color｜自動匹配兩段素材的曝光、對比與白平衡，多機位或不同時間拍的鏡頭可以快速對上色調。｜https://aescripts.com/ai-color-match/
+Neural Enhancement Suite｜aescripts｜restore｜AI 影片增強工具組，做無損放大、畫質修復、上色與 HDR 增強，處理老舊或低畫質素材。｜https://aescripts.com/neural-enhancement-suite/
+Mask Prompter｜aescripts｜matte｜用文字描述、框選或點選就讓 AI 產生遮罩做轉描，內建 Segment Anything 模型且全在本機運算。｜https://aescripts.com/mask-prompter/
+Sound Prompter｜aescripts｜audio｜依合成中的圖層內容用 AI 生成音效或音樂並輸出 wav，全程在本機運算。｜https://aescripts.com/sound-prompter/
+Universal Template AutoFill｜aescripts｜workflow｜掃描任何 AE 模板找出所有可編輯的文字、圖片與影片欄位，用一個面板或 CSV／XML 一次填完，量產多版本很快。｜https://aescripts.com/universal-template-autofill/
+expressCode｜aescripts｜expression｜把 VS Code 等級的編輯器搬進 AE 寫運算式，支援自動完成、即時錯誤檢查與常用程式碼收藏庫。｜https://aescripts.com/expresscode/
+KBar｜aescripts｜workflow｜自訂屬於自己的工具列按鈕，把常用腳本、效果與預設一鍵叫出，AE 效率工具的經典款。｜https://aescripts.com/kbar/
+AE Notepad｜aescripts｜workflow｜在 AE／Premiere 裡做帶時間碼的筆記與待辦，點一下跳回那個時間點，接客戶改稿意見很好用（可匯出 PDF）。｜https://aescripts.com/ae-notepad/
+Wrap It for After Effects｜aescripts｜3d｜把 3D 攝影機投射帶進 AE：可載入 Alembic 幾何、把模型攤成 UV 或把貼圖包回模型，做場景延伸與材質萃取。｜https://aescripts.com/wrap-it-for-after-effects/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
