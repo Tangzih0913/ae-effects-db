@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 982 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 987 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -885,6 +885,11 @@ Color Genius｜第三方｜color｜AI 驅動的自動調色外掛，救回亮部
 REZup｜第三方｜restore｜AI 放大外掛，把素材升到 4K／6K／8K 並保留自然紋理，另含銳度質感控制與放大前的去噪處理。｜https://revisionfx.com/products/rezup/premiere-pro/
 FilmConvert Halation｜第三方｜film｜重現底片亮部邊緣泛出的紅色光暈（halation），為畫面加上膠卷特有的柔和浪漫感。｜https://www.filmconvert.com/plugin/halation
 FilmConvert Hazy｜第三方｜film｜模擬柔光／霧化濾鏡的外掛，讓強光在畫面中擴散開來，做出朦朧夢幻的電影質感。｜https://www.filmconvert.com/plugin/hazy
+Frischluft Lenscare｜第三方｜blur｜把景深與失焦模糊搬到後期做的經典外掛，含吃深度圖的 Depth of Field 與不需深度的 Out of Focus 兩支，光圈形狀可調。｜https://www.frischluft.com/lenscare/
+PSOFT ComicStyle｜第三方｜art｜重現漫畫視覺語彙的外掛組，做網點、集中線等日本漫畫常見的表現效果，是日本動畫公司常用的合成工具。｜https://www.psoft.co.jp/en/product/comicstyle/
+PSOFT CelMX｜第三方｜art｜日本動畫數位製作用的外掛組，處理賽璐璐風格上色與動畫合成流程中的各種細節。｜https://www.psoft.co.jp/en/product/celmx/
+Voukoder｜第三方｜render｜以 FFmpeg 為核心的免費開源輸出外掛，讓 AE／Premiere 直接用原生不支援的編碼器與參數輸出影片。｜https://www.voukoder.org/
+BlenderAe｜第三方｜3d｜Blender 與 AE 之間雙向傳資料的橋接工具，可把 3D 物件、攝影機、燈光、頂點與物理模擬送進 AE 變成原生圖層，也能把 AE 的空物件與攝影機送回 Blender。｜https://blenderae.com/blenderae
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
