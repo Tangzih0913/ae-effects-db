@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1057 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1087 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -522,6 +522,36 @@ CC Split 2｜AE內建｜distort｜沿可調角度把圖層切成兩半並分向�
 CC Tiler｜AE內建｜texture｜把圖層重複平鋪至整個構圖，適合建立無縫背景、重複標誌牆或可動畫的磁磚圖案。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Threads｜AE內建｜generate｜生成會扭動與流動的絲線或纖維，適合製作抽象流線、能量束、線材與動態背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
 CC Simple Wire Removal｜AE內建｜restore｜沿兩點定義的線段填補並移除鋼絲或細小物件，適合處理固定鏡頭中的威亞、電線與狹長瑕疵。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html
+3D Channel Extract｜AE內建｜3d｜從 3D 影像檔提取深度、法線等輔助通道，適合用於景深、霧化與分層合成。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+Depth Matte｜AE內建｜3d｜依 3D 深度通道建立前後景遮罩，適合按距離隔離物件或製作空間分層合成。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+Depth of Field｜AE內建｜3d｜依深度通道模擬鏡頭景深，適合讓 3D 渲染素材產生前後景失焦與焦點轉移。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+Extractor｜AE內建｜3d｜從 OpenEXR 等多通道檔案抽取指定渲染通道，適合分離 AOV、遮罩與燈光 passes。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+Fog 3D｜AE內建｜3d｜依深度通道讓遠處逐漸融入霧色，適合替 3D 渲染加入空氣透視與環境縱深。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+ID Matte｜AE內建｜matte｜依 3D 檔案的物件或材質 ID 產生遮罩，適合單獨調整特定模型區域與材質。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+IDentifier｜AE內建｜matte｜讀取 RLA／RPF 的識別通道來選取物件或材質，適合快速建立指定 3D 元素的遮罩。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html
+Backwards｜AE內建｜audio｜把圖層音訊反向播放，適合製作倒吸聲、反轉語音與轉場前奏音效。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Bass & Treble｜AE內建｜audio｜分別增減音訊的低頻與高頻，適合快速改善悶濁、刺耳或需要強化厚度的聲音。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Delay｜AE內建｜audio｜讓音訊延遲並重複形成回聲，適合製作空間殘響、節奏回音與特殊聲音效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Flange & Chorus｜AE內建｜audio｜以短延遲調變產生鑲邊或合唱效果，適合加厚人聲、營造金屬掃頻與夢幻音色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+High-Low Pass｜AE內建｜audio｜用高通或低通濾波限制音訊頻段，適合清除低頻隆隆聲、削弱高頻或製作電話音色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Modulator｜AE內建｜audio｜以調變改變音訊音高與音色，適合製作機器人聲、金屬共振與科幻聲效。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Parametric EQ｜AE內建｜audio｜精準調整指定中心頻率、頻寬與增益，適合修正共振、突出語音或塑造音色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Reverb｜AE內建｜audio｜模擬房間或大廳的聲音反射，適合讓乾燥錄音融入場景或營造遼闊空間感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Stereo Mixer｜AE內建｜audio｜分別控制左右聲道音量與混合，適合修正立體聲平衡或製作聲音左右移動。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Tone｜AE內建｜audio｜生成可調頻率與音量的純音，適合製作測試音、電子嗶聲或簡單提示聲。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html
+Bilateral Blur｜AE內建｜blur｜在柔化同色區域時保留明顯邊緣，適合磨皮、降噪與平滑表面而不糊掉輪廓。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html
+Box Blur｜AE內建｜blur｜以方形取樣快速平均像素，適合製作背景柔化、重複模糊與效能友善的過場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html
+Sharpen｜AE內建｜restore｜提高相鄰像素的邊緣對比來增加清晰感，適合快速補強略軟的影片與圖形。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html
+Smart Blur｜AE內建｜blur｜依邊緣門檻選擇性柔化區域，適合磨皮、降低細碎雜訊或製作平滑卡通色塊。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html
+Unsharp Mask｜AE內建｜restore｜以半徑與門檻精細控制邊緣銳化，適合恢復攝影細節並避免整片雜訊被放大。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html
+Arithmetic｜AE內建｜color｜對影像色彩通道執行加減乘除等運算，適合技術合成、通道修正與特殊色彩處理。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Blend｜AE內建｜composite｜以混合比例與模式合成兩個圖層，適合快速交叉淡化、疊圖與建立簡單轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Calculations｜AE內建｜composite｜把兩個圖層的指定通道混合成新結果，適合建立 Alpha 遮罩與複雜通道合成。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Channel Combiner｜AE內建｜color｜在 RGB、HSL 等色彩通道表示法間轉換，適合抽取亮度、交換通道與技術調色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Compound Arithmetic｜AE內建｜composite｜讓來源圖層與目前圖層進行複合數值運算，適合生成差異圖、遮罩與實驗性合成。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Invert｜AE內建｜color｜反轉 RGB、亮度或 Alpha 等指定通道，適合製作負片外觀、反向遮罩與互補色效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Minimax｜AE內建｜matte｜擴張或收縮指定色彩通道，適合加粗遮罩、縮邊、填補小洞或移除細小雜點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
+Remove Color Matting｜AE內建｜matte｜移除預乘背景色造成的彩邊，適合修正去背素材周圍的白邊、黑邊與溢色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
