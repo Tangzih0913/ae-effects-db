@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 820 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 828 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -232,6 +232,7 @@ VECTIS｜aescripts｜draw｜從任何路徑畫出有深度感的偽 3D 貝茲線
 Ray Projector｜aescripts｜3d｜把影像邊緣擠出成 3D 模型並用環境貼圖上材質，沿擠出方向加漸層光，做立體發光 Logo。｜https://aescripts.com/ray-projector/
 LED Architect｜aescripts｜workflow｜算 LED 大屏的解析度、面板數量、耗電與重量，並一鍵產生帶參考線與測試圖的合成，做舞台大屏內容用。｜https://aescripts.com/led-architect/
 Interlaced Glitch｜aescripts｜film｜重現舊類比與早期數位攝影機的隔行掃描畫質，做錄影帶年代的復古故障感。｜https://aescripts.com/interlaced-glitch/
+CHR0MA｜aescripts｜color｜用 Oklab 色彩科學取代內建的色相／飽和度，調色時亮度感受一致，不會拉出死灰或螢光的怪色。｜https://aescripts.com/chr0ma/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -723,6 +724,13 @@ Lenscare｜第三方｜blur｜高品質景深散景外掛(含 Depth of Field 與
 Duik Ángela｜第三方｜rigging｜免費角色綁定動畫套件(IK/骨骼/自動走路)，主要於rxlaboratory發布｜https://rxlaboratory.org/tools/duik/
 Railcut｜第三方｜workflow｜把 Premiere 那套軌道式剪輯搬進 AE，支援修剪、波紋、滑動與音波／縮圖顯示，不用來回丟回剪輯軟體。｜https://www.jakeinmotion.com/railcut
 motionXpart｜第三方｜text｜免費的 AE 擴充面板，可用 .SRT 檔一鍵生成動態字幕，另附建立圖層、合成與常用運算式的加速工具。｜https://github.com/motionxpart/motionXpart-plugin
+Silhouette｜第三方｜matte｜電影等級的轉描與修圖軟體，用 AI 輔助畫遮罩、去除穿幫物件並做合成，可獨立執行也能當 AE／Premiere 外掛。｜https://borisfx.com/products/silhouette/
+GeoTracker for After Effects｜第三方｜tracking｜把 3D 物件追蹤帶進 AE，用打點方式讓模型貼合畫面中的實拍物體，可輸出 2D／3D 空物件給 Element 3D、Stardust 等使用。｜https://keentools.io/products/geotracker-for-after-effects
+Wander｜第三方｜workflow｜在 AE 裡直接搜尋 40 多個圖庫、上千萬筆影像／GIF／SVG／圖示並拖進專案，不用開瀏覽器找素材。｜https://mtmograph.com/products/wander
+Motion Studio｜第三方｜animation｜Mt. Mograph 的動畫加速工具（Motion 系列新版），不用進曲線編輯器就能調關鍵影格速度與影響值，還能把常用動畫存進自訂庫重複套用。｜https://mtmograph.com/products/motion
+Samurai Sharpen｜第三方｜restore｜針對影片的智慧銳化外掛，用邊緣判斷與遮罩只銳化想強調的區域（眼睛、髮絲），避開皮膚與暗部雜訊。｜https://digitalanarchy.com/samurai-sharpen/
+ClickZoom Pro｜第三方｜animation｜一鍵做出乾淨的推近／拉遠與平移鏡頭運動，還能加上會動的滑鼠游標與點擊音效，做教學、口播與 Podcast 影片很快。｜https://edgardstore.com/clickzoompro/
+TimeMachine｜第三方｜stylize｜復古風格化與生成藝術的全能外掛，內建多種抖色、ASCII、掃描線與向量描繪引擎，可做出 CRT、VHS、LED、終端機與印刷質感。｜https://professor-neo.com/timemachine/
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
