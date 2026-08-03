@@ -95,8 +95,10 @@
         <div id="srcPanel" class="catpanel" hidden></div>
       </span>
       <select id="sort" title="排序方式">
-        <option value="popular" selected>熱門度</option>
-        <option value="name">名稱</option>
+        <option value="popular" selected>排序：熱門度</option>
+        <option value="relevance">排序：相關度</option>
+        <option value="name">排序：名稱 A–Z</option>
+        <option value="source">排序：來源</option>
       </select>
       <button id="aiBtn" class="aibtn" type="button" title="複製一段提示詞，貼進 ChatGPT/Claude 就能用「貼圖」找特效">🤖 用 AI 找 / 貼圖找</button>
     </div>
@@ -232,17 +234,45 @@ function score(d,terms){
     if(name.includes(t))sc+=5; if(tags.includes(t))sc+=3; if(text.includes(t))sc+=1;}
   return sc;
 }
-// 各資料檔本身已依代表性編排；熱門排序交錯各來源的前段條目，
-// 避免單一套件佔滿首頁，同順位再以常用第三方工具優先。
+// 明確列出跨來源最常用、最具代表性的工具；其餘沿用各資料檔的策展順序。
+// key 加上來源，避免 Glow 之類的同名效果互相覆蓋。
+const POPULAR_KEYS = [
+  "aescripts:Deep Glow 2", "third-party:Element 3D", "red-giant:Particular",
+  "third-party:Optical Flares", "third-party:Saber", "third-party:FX Console",
+  "third-party:Twixtor", "aescripts:Plexus", "third-party:Mocha Pro",
+  "third-party:Neat Video", "aescripts:Lockdown", "aescripts:AutoFill",
+  "red-giant:Looks", "sapphire:S_Glow", "continuum:BCC Particle Illusion",
+  "third-party:ReelSmart Motion Blur", "third-party:Duik Ángela",
+  "universe:Glow", "builtin-ae:Glow", "aescripts:Shadow Studio 3",
+  "aescripts:Composite Brush", "red-giant:Form", "sapphire:S_LensFlare",
+  "continuum:BCC Title Studio", "builtin-ae:Fractal Noise"
+];
+const POPULAR_INDEX = new Map(POPULAR_KEYS.map((k,i)=>[k,i]));
 const POPULAR_SRC = ["aescripts","third-party","red-giant","sapphire","universe","continuum","builtin-ae","recipes","installed"];
 function popularCmp(a,b){
-  return (a._rank??9999)-(b._rank??9999)
+  const ai=POPULAR_INDEX.get(`${a._src}:${a.name}`), bi=POPULAR_INDEX.get(`${b._src}:${b.name}`);
+  return (ai??9999)-(bi??9999)
+    || (a._rank??9999)-(b._rank??9999)
     || POPULAR_SRC.indexOf(a._src)-POPULAR_SRC.indexOf(b._src)
     || (a.name||"").localeCompare(b.name||"");
 }
-function browseCmp(a,b){
-  return document.getElementById("sort").value==="name"
-    ? (a.name||"").localeCompare(b.name||"") : popularCmp(a,b);
+function sourceCmp(a,b){
+  return POPULAR_SRC.indexOf(a._src)-POPULAR_SRC.indexOf(b._src)
+    || (a._rank??9999)-(b._rank??9999)
+    || (a.name||"").localeCompare(b.name||"");
+}
+function resultCmp(a,b,hasTerms){
+  const mode=document.getElementById("sort").value;
+  if(mode==="name") return (a[1].name||"").localeCompare(b[1].name||"");
+  if(mode==="source") return sourceCmp(a[1],b[1]);
+  if(mode==="relevance" && hasTerms) return b[0]-a[0]||popularCmp(a[1],b[1]);
+  return popularCmp(a[1],b[1])||(hasTerms?b[0]-a[0]:0);
+}
+function sortedResults(pool,terms){
+  const hasTerms=terms.length>0;
+  return pool.map(d=>[hasTerms?score(d,terms):0,d])
+    .filter(x=>!hasTerms||x[0]>0)
+    .sort((a,b)=>resultCmp(a,b,hasTerms)).map(x=>x[1]);
 }
 function hl(txt,terms){
   let s=esc(txt);
@@ -275,18 +305,16 @@ function render(){
   if(selSrcs.size)pool=pool.filter(d=>selSrcs.has(d._src));
   let list, segNote="";
   if(terms.length){
-    list=pool.map(d=>[score(d,terms),d]).filter(x=>x[0]>0)
-      .sort((a,b)=>b[0]-a[0]||browseCmp(a[1],b[1])).map(x=>x[1]);
+    list=sortedResults(pool,terms);
     if(!list.length){
       const segs=segment(terms);
       if(segs.length){
-        list=pool.map(d=>[score(d,segs),d]).filter(x=>x[0]>0)
-          .sort((a,b)=>b[0]-a[0]||browseCmp(a[1],b[1])).map(x=>x[1]);
+        list=sortedResults(pool,segs);
         if(list.length){ segNote=`（找不到「${esc(raw)}」，已自動拆詞：${segs.map(esc).join("、")}）`; window.__segTerms=segs; }
       }
     }else{ window.__segTerms=null; }
   }else{
-    list=pool.slice().sort(browseCmp);
+    list=sortedResults(pool,[]);
     window.__segTerms=null;
   }
   if(segNote) terms.push(...window.__segTerms);
