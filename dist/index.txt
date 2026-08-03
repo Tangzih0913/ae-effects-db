@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 922 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 955 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -319,6 +319,39 @@ AE 3D RIG｜aescripts｜3d｜六支腳本組成的 3D 輔助工具，簡化 AE �
 SuperZoom｜aescripts｜animation｜把不同焦段拍的多張照片自動排序、對齊變形並建成合成，做出一路推近到主體的電影感連續變焦（僅 Windows）。｜https://aescripts.com/superzoom/
 Camera 3D Toolkit Pro｜aescripts｜3d｜一鍵生成電影感的 3D 攝影機運動，內含視差、自動對焦、景深模糊、鏡頭抖動與速度斜坡。｜https://aescripts.com/camera-3d-toolkit-pro/
 Linkup Pro｜aescripts｜workflow｜在 AE 裡開一個真正的瀏覽器面板，還內建 AI 助手與可直接對專案下指令的 AI Agent，查資料不用切視窗。｜https://aescripts.com/linkup-pro/
+VariFont｜aescripts｜text｜讓 AE 支援可變字型（Variable Fonts），可以直接動畫字重、字寬等軸向參數。｜https://aescripts.com/varifont/
+React｜aescripts｜mograph｜AE 版的 C4D 克隆＋效果器系統，複製圖層後用效果器依排序或衰減驅動各種屬性變化。｜https://aescripts.com/react/
+LongShadow｜aescripts｜light｜專做長投影的外掛，可細調投影的每個面向，是扁平化設計與圖示風格常用的長條斜影。｜https://aescripts.com/longshadow/
+keyboardFX｜aescripts｜generate｜生成可自訂的實體與虛擬鍵盤並做出打字動畫，做教學、手機操作示範很方便。｜https://aescripts.com/keyboardfx/
+Batch Shot｜aescripts｜workflow｜在 AE 裡批次從影片素材擷取 PNG 靜幀，可用百分比滑桿選格數並加上浮水印，做縮圖與提案圖很快。｜https://aescripts.com/batch-shot/
+Effect Matte｜aescripts｜matte｜直接在圖層上加一個可調的遮罩形狀，不用再另外開一層當軌道遮罩，做字幕底欄與局部露出很省事。｜https://aescripts.com/effect-matte/
+Geometric Filter｜aescripts｜art｜用鄰近比對演算法把影片近似成幾何色塊，會沿著輪廓與相似區域切割，效果類似 AI 風格轉換但帶手感。｜https://aescripts.com/geometric-filter/
+Discotext｜aescripts｜text｜把修剪路徑的概念用在活的文字圖層上，可修剪、位移、錯開與複製文字，不必先轉成形狀圖層。｜https://aescripts.com/discotext/
+Crossphere Bokeh｜aescripts｜blur｜可完整調整光斑形狀的鏡頭模糊外掛，還能拿任何圖層當散景形狀，做電影感虛焦與夢幻光斑。｜https://aescripts.com/crossphere-bokeh/
+ContrastUp｜aescripts｜color｜強化畫面對比並分別調整陰影、中間調與亮部，快速讓平淡素材有層次。｜https://aescripts.com/contrastup/
+AEVIEWER Pro｜aescripts｜workflow｜AE／Premiere 的媒體瀏覽器，可預覽專案與素材檔並一鍵套用匯入，Pro 版還有模板作者用的封裝工具。｜https://aescripts.com/aeviewer-pro/
+Super 3D｜aescripts｜3d｜強化 AE 原生 3D 能力的腳本，可直接匯入 3D 模型並加上材質貼圖。｜https://aescripts.com/super-3d/
+Chartist｜aescripts｜mograph｜快速做出好看的長條圖與折線圖動畫，適合數據簡報與資訊圖表影片。｜https://aescripts.com/chartist/
+NodeKit｜aescripts｜generate｜建立、排版、連線與動畫節點式圖表的完整系統，做流程圖、關係網與科技感連線圖。｜https://aescripts.com/nodekit/
+drAEw｜aescripts｜paint｜在 AE 裡直接用向量筆刷畫畫，畫完自動變成可編輯的形狀圖層，做手繪動畫與分鏡很順。｜https://aescripts.com/draew/
+Shy Bar｜aescripts｜workflow｜快速顯示、隱藏與選取時間軸上的圖層，用搜尋與標籤顏色篩選，圖層一多就靠它救命。｜https://aescripts.com/shy-bar/
+circuitFX｜aescripts｜generate｜隨機生成電路板圖形，含線路、晶片、電阻與電容，做科技感背景與 HUD 元素。｜https://aescripts.com/circuitfx/
+Tweaks｜aescripts｜draw｜路徑與形狀的進階控制工具：形狀變形、路徑微調與圖層分佈，另附網格、烘焙與拆圖層的小工具。｜https://aescripts.com/tweaks/
+voodoo｜aescripts｜rigging｜讓木偶圖釘工具好用很多：追蹤圖釘、生成控制器，做角色與物件的變形動畫不再痛苦。｜https://aescripts.com/voodoo/
+After Keying｜aescripts｜keying｜綠幕去背的後續處理工具，把消失的髮絲細節救回來，還能一鍵加上讓主體融入場景的空氣感。｜https://aescripts.com/after-keying/
+foxRetimer｜aescripts｜time｜重新調整巢狀預合成的時間長度與速度，改節奏不用一層層進去改。｜https://aescripts.com/foxretimer/
+foxReveal｜aescripts｜animation｜一鍵替複雜圖形路徑產生生長／揭露動畫，做線條逐漸畫出來的效果只要幾秒。｜https://aescripts.com/foxreveal/
+Deekay Tool｜aescripts｜rigging｜角色動畫師的擴充面板，一鍵建立與儲存角色，再用直覺的控制項生成與調整動作。｜https://aescripts.com/deekay-tool/
+FlowPath｜aescripts｜animation｜讓圖層沿運動路徑移動的進階工具，支援多路徑、多圖層同步、循環與往返，全靠運算式不用烘關鍵影格。｜https://aescripts.com/flowpath/
+Pixel Repeat｜aescripts｜stylize｜把像素往一個方向重複循環，做出拖曳條紋與故障藝術風格的畫面。｜https://aescripts.com/pixel-repeat/
+Fluid Map｜aescripts｜generate｜生成流體感的灰階圖，拿來當置換或遮罩的驅動圖，做流動扭曲與煙霧質感。｜https://aescripts.com/fluid-map/
+TypeMonkey 3D｜aescripts｜text｜TypeMonkey 的 3D 擴充，把原本的動態排版一鍵轉成立體版本（需搭配 TypeMonkey）。｜https://aescripts.com/typemonkey3d/
+Modulation｜aescripts｜stylize｜模擬訊號調變產生的視覺效果，不用寫程式就能做出波形干擾與抽象訊號質感。｜https://aescripts.com/modulation/
+Blend Scatter｜aescripts｜mograph｜在一組圖層之間混合與散佈屬性值，做出漸變分佈的排列效果。｜https://aescripts.com/blend-scatter/
+SF Caddy｜aescripts｜rigging｜快速替換素材的角色動畫工具，可用標記做對嘴口型切換，做人物講話動畫很省時。｜https://aescripts.com/sf-caddy/
+AE Global Renamer｜aescripts｜workflow｜批次重新命名 AE 裡的任何東西——圖層、素材、合成都行，整理大型專案的必備小工具。｜https://aescripts.com/ae-global-renamer/
+PathPrep｜aescripts｜utility｜把參數化形狀（矩形、橢圓等）批次轉成貝茲路徑並烘焙變形，方便後續編輯或複製乾淨向量。｜https://aescripts.com/pathprep/
+Sliced Box｜aescripts｜3d｜快速做出會動的 3D 切片方塊，盒子分層錯開展開的動畫，內建預設可直接用。｜https://aescripts.com/sliced-box/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
