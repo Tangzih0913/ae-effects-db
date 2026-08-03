@@ -247,13 +247,29 @@ const POPULAR_KEYS = [
   "aescripts:Composite Brush", "red-giant:Form", "sapphire:S_LensFlare",
   "continuum:BCC Title Studio", "builtin-ae:Fractal Noise"
 ];
+POPULAR_KEYS.push(
+  "aescripts:Animation Composer 3", "aescripts:KBar 3", "aescripts:Flow",
+  "aescripts:Pixel Sorter 4", "aescripts:Newton 4", "aescripts:Joysticks 'n Sliders",
+  "builtin-ae:Camera Lens Blur", "builtin-ae:Turbulent Displace", "builtin-ae:Warp Stabilizer",
+  "builtin-ae:Keylight (1.2)", "builtin-ae:Lumetri Color", "builtin-ae:Curves",
+  "red-giant:Supercomp", "red-giant:Magic Bullet Looks", "sapphire:S_Effect",
+  "continuum:BCC Beauty Studio", "continuum:BCC Primatte Studio", "universe:VHS",
+  "third-party:Beauty Box", "third-party:DE:Flicker", "third-party:RE:Match"
+);
 const POPULAR_INDEX = new Map(POPULAR_KEYS.map((k,i)=>[k,i]));
 const POPULAR_SRC = ["aescripts","third-party","red-giant","sapphire","universe","continuum","builtin-ae","recipes","installed"];
+const SOURCE_WEIGHT = {"third-party":80,"aescripts":75,"red-giant":70,"sapphire":65,"continuum":60,"universe":55,"builtin-ae":45,"recipes":25,"installed":5};
+function popularityScore(d){
+  const featured=POPULAR_INDEX.get(`${d._src}:${d.name}`);
+  const featuredScore=featured===undefined ? 0 : 100000-featured*100;
+  const quality=(d.url?20:0)+(d.look?8:0)+(d.desc?5:0)-(d.unverified?1000:0);
+  const curatedOrder=Math.max(0,300-Math.min(d._rank??300,300));
+  return featuredScore+(SOURCE_WEIGHT[d._src]||0)*100+quality+curatedOrder;
+}
 function popularCmp(a,b){
-  const ai=POPULAR_INDEX.get(`${a._src}:${a.name}`), bi=POPULAR_INDEX.get(`${b._src}:${b.name}`);
-  return (ai??9999)-(bi??9999)
-    || (a._rank??9999)-(b._rank??9999)
+  return popularityScore(b)-popularityScore(a)
     || POPULAR_SRC.indexOf(a._src)-POPULAR_SRC.indexOf(b._src)
+    || (a._rank??9999)-(b._rank??9999)
     || (a.name||"").localeCompare(b.name||"");
 }
 function sourceCmp(a,b){
@@ -266,7 +282,7 @@ function resultCmp(a,b,hasTerms){
   if(mode==="name") return (a[1].name||"").localeCompare(b[1].name||"");
   if(mode==="source") return sourceCmp(a[1],b[1]);
   if(mode==="relevance" && hasTerms) return b[0]-a[0]||popularCmp(a[1],b[1]);
-  return popularCmp(a[1],b[1])||(hasTerms?b[0]-a[0]:0);
+  return (hasTerms?b[0]-a[0]:0)||popularCmp(a[1],b[1]);
 }
 function sortedResults(pool,terms){
   const hasTerms=terms.length>0;
