@@ -48,3 +48,21 @@ colume	與已收錄的 Light Volume 同廠同類（3D 燈光渲染），功能�
 beziyay	貝茲手柄視覺化，僅用於教學圖解，極小眾
 colorama-browser	官方頁已改為 GradientHub（同一產品頁），GradientHub 已收錄
 more-lively-text	查不到任何官方產品頁或說明
+mobar	官方頁標示已下架（no longer available）
+dither-decay	抖色像素效果與已收錄的 RetroDither／Pixel Encoder 重複
+color-shift	漸層色彩重映射，與已收錄的 ColorVSN 功能重複
+vizual-pixelperfect	官方頁描述以 Premiere Pro 的像素圖放大為主，AE 端功能不明確
+fast-hsb-color	極小型取色小工具，功能與已收錄的 ColorFlow 重疊
+letterbox-plus	黑邊與安全框參考線，與已收錄的 Safest Zone 功能重複
+moving-parents	父子關係小腳本，AE 內建與既有工具可取代
+crt-tv-emulator	CRT 電視質感與已收錄的 CRTX／TimeMachine 重複
+fontmixer	字型合併工具，非 AE 影像功能且極小眾
+ae-spell-checker	拼字檢查功能已包含在已收錄的 Textlab Pro
+ae-sheets	AI 多語言在地化，與已收錄的 LingoFlip 重複
+local-diffusion	文生圖，與已收錄的 Diffusae 重複（同為 Stable Diffusion 生成）
+quick-matte	AI 去背，與已收錄的 Goodbye Greenscreen 重複
+easy-comp	AI 色彩匹配，與已收錄的 AI Color Match 重複
+frankenstein	單純的 AI 臉部分割，功能被 Copy Face／FacePro 涵蓋
+pixel-extender	沿遮罩延展圖層，與已收錄的 Extendo 重複
+recolor	專案顏色檢視替換，與已收錄的 ColorFlow 重複
+quick-delete-and-reset	極小型批次刪除／重置小工具
