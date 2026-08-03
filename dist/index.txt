@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 955 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 960 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -858,6 +858,11 @@ FilmConvert Nitrate｜第三方｜film｜依相機色彩科學做的底片模擬
 Light Wrap Fantastic｜第三方｜composite｜讓背景的光線包覆到前景邊緣，消除綠幕去背後那種「貼上去」的剪貼感，是合成融合度的關鍵一步。｜https://digitalanarchy.com/light-wrap-fantastic/
 LaForge Suite｜第三方｜stylize｜ProductionCrate 的 GPU 外掛組，含發光、像素化、CRT 螢幕、全息與 3D 碎形背景等 20 多支特效工具，部分免費可用。｜https://www.productioncrate.com/laforge/
 Brazu｜第三方｜workflow｜巴西團隊做的 AE 加速工具包（Adobe 官方合作夥伴），一鍵套用抖動、彈跳等動畫效果、自動生成視差 3D 場景，並內建 AI 助手。｜https://www.brazu.io/
+Mettle FLUX｜第三方｜generate｜生成 3D 體積碎形火焰的外掛，做星雲、太空與夢幻抽象背景，支援 360／立體 VR 輸出。｜https://www.mettle.com/product/flux/
+Color Genius｜第三方｜color｜AI 驅動的自動調色外掛，救回亮部、修正曝光與色偏並強化膚色、天空與植被，內建防閃爍處理。｜https://revisionfx.com/products/colorgenius/
+REZup｜第三方｜restore｜AI 放大外掛，把素材升到 4K／6K／8K 並保留自然紋理，另含銳度質感控制與放大前的去噪處理。｜https://revisionfx.com/products/rezup/premiere-pro/
+FilmConvert Halation｜第三方｜film｜重現底片亮部邊緣泛出的紅色光暈（halation），為畫面加上膠卷特有的柔和浪漫感。｜https://www.filmconvert.com/plugin/halation
+FilmConvert Hazy｜第三方｜film｜模擬柔光／霧化濾鏡的外掛，讓強光在畫面中擴散開來，做出朦朧夢幻的電影質感。｜https://www.filmconvert.com/plugin/hazy
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
