@@ -169,3 +169,10 @@ tv-distortion-bundle	套裝包入口；其中五個 AE 外掛已分別收錄，�
 fast-bokeh-pro-openfx	官方標示為 Fusion／Resolve 等 OpenFX host 專用，不是 After Effects 版本
 obj-sequence-exporter-for-cinema4d	官方產品索引標示已停售，且為 Cinema 4D 專用匯出器
 color-wiggle	官方產品索引標示已停售
+stardust-superluminal	已收錄為 Stardust（aescripts.jsonl），不重複新增官方站版本
+anarchy-complete-bundle	套裝包；Beauty Box、Flicker Free、Samurai Sharpen、Light Wrap Fantastic 與 Data Storyteller 個別評估即可
+transcriptive-powersearch	Digital Anarchy 官方商店明示為 Premiere Pro only，不支援 After Effects
+shotnotes	Digital Anarchy 官方頁明示只支援 Premiere Pro 2023 以上
+effections	RE:Vision Effects 套裝包，個別工具已分開評估
+pv-feather	RE:Vision Effects 官方 AE 產品索引明示已停售
+mv-convert	僅用於把 32-bit 浮點運動向量轉成 RE:Vision 專用格式，工作流過於專門且極小眾
