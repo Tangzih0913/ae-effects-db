@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1162 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1262 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -385,6 +385,94 @@ Loopy｜aescripts｜animation｜一個面板搞定各種循環：關鍵影格、
 Automation Blocks｜aescripts｜workflow｜用積木式介面組出自己的一鍵自動化工具，把重複的專案處理流程變成按一下就跑完。｜https://aescripts.com/automation-blocks-for-after-effects/
 Smooth Rounder｜aescripts｜draw｜生成平滑彎曲的圓角形狀圖層，可用關鍵影格動畫，做有機感的圓潤圖形。｜https://aescripts.com/smooth-rounder/
 Uber Key｜aescripts｜animation｜只要改一次路徑，整段已經 K 好的路徑動畫就跟著更新，不用一格一格重調。｜https://aescripts.com/uber-key/
+AE Camera Morph｜aescripts｜3d｜在多台 AE 攝影機之間平滑插值位置與視角，適合建立連續運鏡與無縫鏡頭轉場。｜https://aescripts.com/ae-camera-morph/
+AE Flame｜aescripts｜generate｜生成可完整關鍵影格化的碎形火焰動畫，適合抽象背景、能量紋理與迷幻視覺。｜https://aescripts.com/ae-flame/
+AE Purger｜aescripts｜workflow｜用簡單面板清除 AE 快取與記憶體，適合預覽異常、長時間工作或渲染前快速釋放資源。｜https://aescripts.com/ae-purger/
+AE Voice Recorder｜aescripts｜audio｜直接在 After Effects 內錄製語音與音訊，適合旁白、臨時配音、筆記與客戶註解。｜https://aescripts.com/ae-voice-recorder/
+AEInfographics｜aescripts｜mograph｜從連接的試算表或手動資料建立即時預覽的動畫圖表，適合數據視覺化與資訊圖表影片。｜https://aescripts.com/aeinfographics/
+AEP to MOGRT｜aescripts｜workflow｜批次把屬性加入基本圖形面板並輸出多個 MOGRT，適合大量製作與整理動態圖形模板。｜https://aescripts.com/aep-to-mogrt/
+AEP Version Updater｜aescripts｜workflow｜批次更新 AEP 檔案版本並提供防當機處理，適合大量舊專案升版與工作室維護。｜https://aescripts.com/aep-version-updater/
+AEPipeline｜aescripts｜workflow｜自動建立 VFX 鏡頭、版本、渲染與 matte 流程，適合降低重複設定與命名錯誤。｜https://aescripts.com/aepipeline/
+AEtoGSAP｜aescripts｜render｜把 AE 動畫匯出成適合網頁使用的 GSAP 格式，適合互動網站、產品頁與前端動態製作。｜https://aescripts.com/aetogsap/
+AI Depth of Field｜aescripts｜blur｜以 AI 深度判斷加入符合距離的散景模糊，適合後期強化人像、產品與場景景深。｜https://aescripts.com/ai-depth-of-field/
+aiImageGen｜aescripts｜workflow｜在 AE 內連接 Replicate 以文字、參考圖或合成截圖生成影像，適合概念稿與素材迭代。｜https://aescripts.com/aiimagegen/
+aiVideoGen｜aescripts｜workflow｜從 AE 直接連接 Replicate 的多款影片模型生成畫面，適合概念動畫、補鏡與 AI 素材製作。｜https://aescripts.com/aivideogen/
+Align 3D｜aescripts｜3d｜在三維空間快速對齊與平均分布圖層，適合整理 3D 排版、卡片陣列與景深場景。｜https://aescripts.com/align-3d/
+Align To Path｜aescripts｜animation｜把多個圖層附著並對齊至單一或多條運動路徑，適合文字沿線、物件隊列與路徑動畫。｜https://aescripts.com/align-to-path/
+AlignLayers｜aescripts｜workflow｜沿 X、Y 或 Z 軸快速對齊所選圖層，適合整理二維排版與三維場景中的物件位置。｜https://aescripts.com/alignlayers/
+AM Dropdown Effect Helper｜aescripts｜expression｜自動處理 Dropdown Menu Control 的建立與選項管理，適合快速製作可切換狀態的模板與 rig。｜https://aescripts.com/am-dropdown-effect-helper/
+AM Pins To Corner｜aescripts｜workflow｜一鍵把 Corner Pin 與 Power Pin 的四個控制點放到合成四角，適合開始螢幕替換與透視貼合。｜https://aescripts.com/am-pins-to-corner/
+AM Select And Set｜aescripts｜workflow｜依圖層屬性篩選選取並批次修改數值，適合大型合成中的圖層整理與一致化設定。｜https://aescripts.com/am-select-and-set/
+AM Typewrite Text｜aescripts｜text｜一鍵建立可關鍵影格化的打字機文字效果，適合段落、對話、字幕與右至左語言動畫。｜https://aescripts.com/am-typewrite-text/
+Anchor Point Gravity｜aescripts｜workflow｜依物件深度與重力概念重新定位錨點，適合更自然地旋轉、縮放與懸掛圖層。｜https://aescripts.com/anchor-point-gravity/
+Anchor Sniper｜aescripts｜workflow｜快速精準設定錨點位置並提供延伸控制，適合排版、rig 與大量圖層的樞紐調整。｜https://aescripts.com/anchor-sniper/
+Animated TextBlock｜aescripts｜text｜建立固定寬度且可動畫的文字區塊，適合標題卡、字幕框與會自動適應內容的排版。｜https://aescripts.com/animated-textblock/
+Animation Stopwatch｜aescripts｜animation｜用影格數而非時間碼協助動畫師記錄與規劃 timing，適合姿勢 blocking、節奏測試與動作拆解。｜https://aescripts.com/animation-stopwatch/
+animationPATTERNSpro｜aescripts｜animation｜編輯、建立並重用關鍵影格緩動模式，適合快速統一多段動畫的速度曲線與節奏。｜https://aescripts.com/animationpatternspro/
+Animography Controller｜aescripts｜text｜從單一控制層管理 Animography 動態字體字元，適合統一調整文字動畫的顏色、時間與樣式。｜https://aescripts.com/animography-controller/
+Anonymizer｜aescripts｜beauty｜自動偵測並以 AI 隨機臉、模糊或像素化取代人物臉部，適合新聞、紀錄片與隱私保護。｜https://aescripts.com/anonymizer/
+AnyTex｜aescripts｜text｜在 AE 內把複雜 LaTeX 公式製作成手寫動畫，適合教育影片、科學解說與技術簡報。｜https://aescripts.com/anytex/
+AP Batch Relinker｜aescripts｜workflow｜從新的來源根目錄批次重新連結遺失素材並忽略特殊字元差異，適合搬移專案與伺服器路徑更新。｜https://aescripts.com/ap-batch-relinker/
+ArabicText｜aescripts｜text｜在 AE 中正確輸入由右至左且包含連字形態的阿拉伯文字，適合阿語字幕、標題與在地化。｜https://aescripts.com/arabictext/
+ARC｜aescripts｜animation｜以精簡介面編輯、複製與貼上關鍵影格緩動曲線，適合快速統一動畫節奏與手感。｜https://aescripts.com/arc/
+Arrange Project Items Into Folders｜aescripts｜workflow｜依名稱前綴把專案項目自動歸入資料夾，適合清理大型工程與建立一致的素材結構。｜https://aescripts.com/arrange-project-items-into-folders/
+Array｜aescripts｜mograph｜快速大量複製圖層並遞增基本變形屬性，適合建立陣列、階梯、重複圖案與動態排版。｜https://aescripts.com/array/
+ARSfader｜aescripts｜audio｜不展開圖層屬性即可調整音訊音量與左右聲像，適合快速混音與管理多條聲音圖層。｜https://aescripts.com/arsfader/
+ASCII Generator｜aescripts｜text｜把任意文字圖層轉成復古 ASCII 字元藝術，適合終端機畫面、駭客介面與文字化圖像。｜https://aescripts.com/ascii-generator/
+ASH Syntax Highlighter｜aescripts｜text｜在 AE 文字圖層加入程式碼編輯器式語法高亮，適合 FUI、教學影片與科技畫面。｜https://aescripts.com/ash-syntax-highlighter/
+AudioAmpToVideoSpeed｜aescripts｜audio｜依 Audio Amplitude 圖層控制影片加速與減速，適合音樂反應剪輯、節拍變速與動態循環。｜https://aescripts.com/audioamptovideospeed/
+AudioToMarkers｜aescripts｜audio｜依音訊強度加入標記、切割圖層或建立遞增文字，適合節拍剪輯、字幕提示與音樂同步。｜https://aescripts.com/audiotomarkers/
+Aurum｜aescripts｜stylize｜以 GPU 加速 PBR 著色、HDRI 反射與邊緣偵測產生金屬表面，適合 Logo、文字與產品質感。｜https://aescripts.com/aurum/
+Auto Audio Mixer｜aescripts｜audio｜自動混合目前合成中的所有音訊圖層，適合快速平衡多段旁白、音樂與音效。｜https://aescripts.com/auto-audio-mixer/
+Auto Backup｜aescripts｜workflow｜每次儲存專案時自動建立備份，適合降低檔案損壞、誤存與版本回復風險。｜https://aescripts.com/auto-backup/
+Auto Lip-Sync｜aescripts｜animation｜依語音錄音自動驅動角色嘴型，適合二維角色對白、解說動畫與快速口型同步。｜https://aescripts.com/auto-lip-sync/
+Auto Savior｜aescripts｜workflow｜以自訂週期建立每時或每日增量備份並管理舊檔，適合長時間製作與專案復原。｜https://aescripts.com/auto-savior/
+Auto Transition Builder｜aescripts｜transition｜快速替大量圖層加入不同轉場並自動安排，適合相片輪播、批次剪輯與版型製作。｜https://aescripts.com/auto-transition-builder/
+Automate To Sequence｜aescripts｜workflow｜依標記自動設定所選圖層入出點並排列到時間軸，適合照片序列、節拍剪輯與批次排版。｜https://aescripts.com/automate-to-sequence/
+Automated Video Editing｜aescripts｜workflow｜依音樂自動完成影片剪輯與鏡頭同步，適合活動精華、社群短片與快速音樂蒙太奇。｜https://aescripts.com/automated-video-editing/
+Automatic Whiteboard｜aescripts｜draw｜把 AE 文字與遮罩一鍵轉成可搭配手部的書寫動畫，適合白板解說、教學與流程影片。｜https://aescripts.com/automatic-whiteboard/
+Automation Toolkit Pro｜aescripts｜workflow｜建立能執行自訂功能的面板按鈕，適合把重複命令、腳本與工作流程整合成專用工具列。｜https://aescripts.com/automation-toolkit-pro/
+AutoMatte｜aescripts｜matte｜批次把 RGB multimatte 拆成各自具有透明背景的預合成，適合 3D 渲染物件遮罩與分層調色。｜https://aescripts.com/automatte/
+AutoOrientCamera｜aescripts｜3d｜建立攝影機並產生位置、方向與注視點關鍵影格，讓鏡頭依序面向合成中的各個圖層。｜https://aescripts.com/autoorientcamera/
+Autostereogram｜aescripts｜3d｜在 AE 中生成可動畫的自動立體圖，適合製作魔術眼隱藏圖像、深度視覺與實驗動畫。｜https://aescripts.com/autostereogram/
+aw-Autosaver｜aescripts｜workflow｜以更多選項取代 AE 內建自動儲存，適合自訂備份頻率、位置與版本保留策略。｜https://aescripts.com/aw-autosaver/
+Baconizer for AE｜aescripts｜animation｜以單一按鈕替平淡合成加入活潑動態變化，適合快速產生趣味動作與打破靜態排版。｜https://aescripts.com/baconizer-for-ae/
+Bake Parented Transform｜aescripts｜workflow｜把父子階層造成的運動烘焙成未綁定圖層的關鍵影格，適合匯出、交接與解除父層關係。｜https://aescripts.com/bake-parented-transform/
+BAO Distortion Selector｜aescripts｜distort｜以可調柔和度精確限制 Puppet、Liquify 等變形作用區域，適合局部角色修形與受控扭曲。｜https://aescripts.com/bao-distortion-selector/
+BAO Dynamic Comp｜aescripts｜workflow｜讓多個 AE 專案共享並更新同一組合成，適合重用片頭、品牌元件與跨專案模板。｜https://aescripts.com/bao-dynamic-comp/
+BAO Joint｜aescripts｜rigging｜把圖層綁到兩個不同父層並在兩者間建立會變形的關節，適合手肘、膝蓋與軟性連接。｜https://aescripts.com/bao-joint/
+BAO Mask 3D Warper｜aescripts｜3d｜使用遮罩進行 3D 造型與精確 2D 扭曲，適合角色動畫、平面轉曲面與偽立體物件。｜https://aescripts.com/bao-mask-3d-warper/
+BAO Mask Brush｜aescripts｜paint｜沿遮罩路徑在 3D 空間套用自訂筆刷並支援動態模糊與擠壓伸展，適合線條與角色動畫。｜https://aescripts.com/bao-mask-brush/
+Batch Search N Replace Paths｜aescripts｜workflow｜在多個 AEP 中批次搜尋並替換素材路徑，適合更換伺服器、資料夾架構與大量專案搬移。｜https://aescripts.com/batch-search-n-replace-paths/
+BatchProcessor｜aescripts｜workflow｜批次處理所選專案項目，可統一縮放並套用相同預設，適合大量影片與合成的標準化操作。｜https://aescripts.com/batchprocessor/
+Beat Assistant｜aescripts｜audio｜分析音樂節拍並產生可供動畫使用的時間資訊，適合節奏同步、剪輯點與音訊反應動態。｜https://aescripts.com/beat-assistant/
+Beatnik｜aescripts｜audio｜把音樂節奏轉成可控制動畫的資料，適合 Logo 跳動、節拍圖形與音訊視覺化。｜https://aescripts.com/beatnik/
+Bendio｜aescripts｜warp｜沿可控制的曲線彎曲點陣、向量與形狀圖層，適合製作柔軟肢體、文字與動態圖形變形。｜https://aescripts.com/bendio/
+Bezier Node｜aescripts｜draw｜在兩點之間建立可調曲率、漸層與修剪路徑的貝茲線條，適合資訊圖表與連線動畫。｜https://aescripts.com/bezier-node/
+BG Generator｜aescripts｜generate｜以內建或自訂形狀快速生成可調整的動態背景，適合片頭、社群影片與版面襯底。｜https://aescripts.com/bg-generator/
+BRAW Studio V3｜aescripts｜workflow｜在 After Effects 原生匯入並調整 Blackmagic RAW 素材，適合 BRAW 剪輯、解碼與色彩設定。｜https://aescripts.com/braw-studio/
+Cartoon Moblur｜aescripts｜blur｜依圖層運動產生可調色彩與長度的卡通拖影，適合文字、圖示和逐格動畫的速度感表現。｜https://aescripts.com/cartoon-moblur/
+Circle Slicer｜aescripts｜workflow｜把方形合成快速切成可控制的圓形放射區塊，適合圓餅圖、轉盤與環形轉場。｜https://aescripts.com/circle-slicer/
+ClearPlus｜aescripts｜restore｜改善霧氣、水下與低光素材的清晰度和色彩，適合去霧、白平衡與天空增強。｜https://aescripts.com/clearplus/
+ClipFerry｜aescripts｜workflow｜透過剪貼簿在 After Effects 專案或工作環境間搬移圖層資料，適合重複使用動畫元件。｜https://aescripts.com/clipferry/
+Clips Exporter｜aescripts｜render｜將時間軸中的多個片段自動分段送往輸出，適合批次產生社群短片、鏡頭和版本檔。｜https://aescripts.com/clips-exporter/
+ClipToAE｜aescripts｜workflow｜把剪輯片段與時間資訊轉成 After Effects 圖層，適合由剪輯時間軸快速建立合成工程。｜https://aescripts.com/cliptoae/
+Cloners + Effectors｜aescripts｜mograph｜以複製器與效應器程序化排列並驅動圖層，適合建立陣列、群組動畫與動態圖形系統。｜https://aescripts.com/cloners-plus-effectors/
+CoDependencies｜aescripts｜workflow｜檢視並管理合成與素材間的相依關係，適合專案清理、交接與確認素材引用範圍。｜https://aescripts.com/co-dependencies/
+Collage Pro｜aescripts｜mograph｜快速建立並動畫化多圖拼貼版面，適合照片牆、馬賽克開場與社群內容展示。｜https://aescripts.com/collage-pro/
+Colloid｜aescripts｜distort｜產生有機液態般的融合與變形外觀，適合抽象背景、黏液圖形與流動轉場。｜https://aescripts.com/colloid/
+Color Cone｜aescripts｜color｜以視覺化色彩模型挑選並探索配色，適合建立調色盤與維持動態設計色彩一致性。｜https://aescripts.com/color-cone/
+ColorLibrary｜aescripts｜color｜儲存、整理並套用常用色彩與色票，適合品牌專案和多合成之間維持一致配色。｜https://aescripts.com/colorlibrary/
+Colour Scheme Generator｜aescripts｜color｜依色彩規則快速產生協調配色方案，適合動態圖形、資訊圖表與品牌視覺提案。｜https://aescripts.com/colour-scheme-generator/
+Comp Buddy｜aescripts｜workflow｜集中處理常用合成操作與設定，適合大量合成的建立、調整和日常專案管理。｜https://aescripts.com/comp-buddy/
+CompCode｜aescripts｜utility｜為合成建立與顯示可追蹤的識別資訊，適合版本管理、審片標記與團隊交付。｜https://aescripts.com/compcode/
+Compound Matte｜aescripts｜matte｜把多個圖層組合成可重用的複合遮色片，適合複雜合成、批次挖空與圖層顯隱控制。｜https://aescripts.com/compound-matte/
+Control Maker｜aescripts｜rigging｜快速建立並整理常用效果控制器，適合角色、模板與動態圖形的表達式綁定。｜https://aescripts.com/control-maker/
+Copy Pasta｜aescripts｜workflow｜簡化圖層與屬性資料的複製貼上流程，適合在多個圖層或合成間重用動畫設定。｜https://aescripts.com/copy-pasta/
+Copy Paste Markers｜aescripts｜workflow｜在圖層與合成之間複製貼上時間標記，適合轉移節奏點、註解和剪輯提示。｜https://aescripts.com/copy-paste-markers/
+Copy Paste Mattes｜aescripts｜matte｜複製並重建圖層的遮色片關係，適合大量套用相同 Track Matte 合成結構。｜https://aescripts.com/copy-paste-mattes/
+CopyMask2Layer｜aescripts｜workflow｜把遮罩路徑與相關資料轉移到獨立圖層，適合拆分去背區域、路徑動畫與合成控制。｜https://aescripts.com/copymask2layer/
+Corner Cutters｜aescripts｜draw｜快速修改形狀路徑的角落造型，適合製作切角、圓角與一致化的圖示和介面圖形。｜https://aescripts.com/corner-cutters/
 Glow｜AE內建｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -627,6 +715,18 @@ Scatter｜AE內建｜stylize｜把像素在指定範圍內隨機散開，適合�
 Threshold｜AE內建｜stylize｜依亮度門檻把影像轉成純黑與純白，適合製作剪影、版畫、高對比遮罩與二值動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 Bevel Edges｜AE內建｜emboss｜在圖層不透明邊緣加入斜角高光與陰影，適合讓按鈕、圖卡與文字產生簡單立體厚度。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html
 Timecode｜AE內建｜text｜在畫面生成可設定格式與起點的時間碼，適合審片浮水印、剪輯對照、影格檢查與交付標記。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+3D Point Control｜AE內建｜expression｜提供可由表達式引用的三維座標控制項，適合集中驅動 3D 位置、目標點與程序動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Angle Control｜AE內建｜expression｜提供可關鍵影格化並由表達式引用的角度參數，適合統一控制旋轉、方向與扇形動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Checkbox Control｜AE內建｜expression｜提供 0／1 開關供表達式判斷，適合切換圖層狀態、樣式、循環與條件式動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Color Control｜AE內建｜expression｜提供集中式取色器供表達式連結，適合一處管理整套圖形、文字與品牌動畫配色。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Dropdown Menu Control｜AE內建｜expression｜建立可自訂選項的下拉選單供表達式判斷，適合製作 MOGRT 模式、版型與狀態切換。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Layer Control｜AE內建｜expression｜讓使用者從選單指定表達式要引用的圖層，適合建立可重用 rig、跟隨目標與模板控制。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Point Control｜AE內建｜expression｜提供可視化二維座標點供表達式引用，適合控制焦點、中心、連線端點與程序位置。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Slider Control｜AE內建｜expression｜提供可關鍵影格化的通用數值滑桿，適合集中驅動速度、幅度、比例與各類 rig 參數。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+VR De-Noise｜AE內建｜vr｜針對等距柱狀 360 畫面降低雜訊並處理接縫，適合清理低光全景與沉浸式影片。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+VR Projection｜AE內建｜vr｜在等距柱狀、立方體等 360 投影格式間轉換並調整視角，適合全景合成與 VR 輸出。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Smear｜AE內建｜distort｜沿指定路徑拉伸並塗抹局部像素，適合修形、延長物體、速度拖痕與液化動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html
+Keylight (1.2)｜AE內建｜keying｜以業界常用 Keylight 引擎進行綠幕與藍幕去背，適合精修邊緣、溢色與半透明細節。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html
 BCC Particle Illusion｜Continuum｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
