@@ -342,3 +342,35 @@ dynamic-line-chart	官方標示已停售，並建議改用 Graph Master
 dynamic-textbox	功能與已選定收錄的 Box It 高度重複，皆為自動伸縮文字底框
 easy-pie-chart	官方標示已停售
 easy-slide-show	官方標示已停售
+ebberts-zucker-variety-pack	套裝包；Rubberize It、NodeKit、Wind、Beatnik 等個別工具應分開評估
+ebook-motion-graphics-in-after-effects-that-speaks-to-your-brain	免費電子書／教學內容，不是 AE 外掛或腳本工具
+edgy-style-pack-for-animation-composer	官方標示已停售，且屬 Animation Composer 樣式素材包
+efx-ab-compare	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-chromatic-aberration	同系列多個產品已明示不相容 CS6 以上，官方頁也未提供現代 AE 相容資訊
+efx-hdri-comp	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-keying-alpha-free	完整套件的三款免費精簡版，避免與套件重複且現代 AE 相容資訊不足
+efx-keying-alpha-plugin-suite	舊版 EFX 套件，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-render-elements-free	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-render-elements-plugin-suite	舊版 EFX 套件，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-render-elements-z-depth-tools	舊版 EFX 系列工具，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-uniqueness	官方標示已停售且不相容 CS6 以上版本
+element-3d	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+emoji-library	以 9000 多個 emoji 為核心的素材庫，依規範不收純素材／圖示庫
+emojikit	動態 emoji 素材庫，屬素材包而非通用工具
+essential-sound-effects-for-animation-composer	官方標示已停售，且屬音效素材包
+essential-typography	官方標示已停售，且屬排版素材包
+events	官方說明未明確標示支援 After Effects，且功能偏獨立媒體分類，暫不收錄
+export-to-bytes	官方標示已停售
+exportforclient	官方標示已停售
+exportfoundry	Premiere Pro 專用批次輸出工具，不支援 After Effects
+exposure	以延長工作／賺錢為玩笑描述，沒有可核實的實際 AE 功能
+expression-toolbox	官方標示已停售，並建議改用 AEVIEWER 的 expression preset 功能
+extended-coffee-break	刻意增加算圖時間的玩笑工具，沒有實際生產價值
+extrudalizer	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+extrude-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+farabi-ligature-type-animation-tool	特定波斯／阿拉伯語動態字型集合，屬語系素材且用途過於小眾
+fast-bokeh	已收錄 Fast Bokeh Pro 於 third-party.jsonl，不重複新增市集頁版本
+fast-bokeh-openfx	OpenFX／Resolve／Fusion 專用版本，不支援 After Effects
+fast-bokeh-render-only	Fast Bokeh Pro 的無頭算圖授權，不是獨立外掛產品
+fast-spline-connector	Cinema 4D 專用 spline 工具，不支援 After Effects
+faux-dolly-zoom-for-fcpx	Final Cut Pro X 專用效果，不支援 After Effects
