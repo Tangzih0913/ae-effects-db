@@ -1,6 +1,9 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+lcdeffect	最後更新於 2014 年且僅列到舊版 AE，LCD／CRT 像素與 RGB 分離效果亦與既有條目高度重複
+light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+lightman	最後更新於 2015 年且官方相容性僅列到 AE CC 2015.3，不符合目前版本代表性
 blob-it	與已收錄的 CC Blobbylize、Colloid 等黏液／果凍式有機變形功能高度重複
 box-it	與已收錄的 TextBox 2、Animated TextBlock 動態自適應文字框功能高度重複
 break-it	基本破碎功能與 AE 內建 Shatter、CC Pixel Polly 等既有條目高度重複
