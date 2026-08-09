@@ -1,4 +1,15 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+matrix	最後更新於 2013 年，官方相容性只列至 After Effects CS6，已不適合目前版本
+matrix-swiper-photoshop-extension	僅支援 Photoshop，不是 After Effects 工具
+mechanicus-transitions-for-fcpx	僅支援 Final Cut Pro X，不是 After Effects 工具
+meshed	Animography 動態字型素材，非獨立 After Effects 外掛或腳本工具
+mettle-flux	已以 Mettle FLUX 收錄於 third-party.jsonl，避免同一產品重複
+mirror-and-offset	官方標示已停售，並建議改用 Smart Key Reverse
+mix-color-layers	最後更新於 2020 年且官方相容性僅列至 AE 2020，現代版本支援不足
+mobchain-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobglow-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobknife-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobo-super-suite	僅為多個既有獨立產品的銷售套裝，資料庫應收錄各代表性工具而非重複套裝
 mask-transformer	與同批收錄的 Maskform 2 高度重疊；後者更新、更完整，具獨立縮放、傾斜、烘焙與移除控制
 maskstolayers	拆分遮罩到圖層的功能已由較新且會裁切邊界的 Masks to Cropped Layers II 涵蓋
 massrename	目前為 Premiere Pro 專用批次重新命名工具，官方仍標示 After Effects 版本尚未推出
