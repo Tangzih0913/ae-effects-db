@@ -251,3 +251,4 @@ architect-pro	Premiere Pro 專用時間軸工具，不支援 After Effects
 astleyizer	把人物轉成 Rick Astley 的單一玩笑效果，功能過於小眾
 aura-render-only	Aura 的無頭算圖授權，不是獨立外掛產品
 auraglow	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+blend	匯入工具判定已與 builtin-ae.jsonl 的 Blend 條目重複，不另行收錄 aescripts 版本
