@@ -1,4 +1,6 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+layer-library	官方相容性僅列到 CS6，且已收錄功能更完整、仍持續維護的 LayerStash
+layer-selector-toolbar	官方相容性僅列到 CC 2015，版本過舊且代表性不足
 malty-cuber	官方頁明確標示已停售且不再提供
 malty-simple-camera-rig	官方頁明確標示已停售，並建議改用新版 HandyCam
 malty-snapshot	官方頁明確標示已停售且不再提供
