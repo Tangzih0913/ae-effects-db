@@ -1,4 +1,15 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+mtlb-make-the-logo-bigger	只會尋找名稱含 logo 的圖層並固定放大，功能過於單一，且相容性只列至 AE CC 2015
+mubert-ai-generative-music	官方標示已停售且不再提供
+multi-parent-rigging	最後更新於 2020 年且相容性只列至 AE 2020，現代版本支援不足
+multiple-artboard-generator-for-illustrator	僅支援 Illustrator，不是 After Effects 工具
+mvrk-for-after-effects	最後更新於 2023 年且官方相容性只列至 AE 2023，現代版本支援不足
+mvrk-for-cavalry	僅支援 Cavalry，不是 After Effects 工具
+mvrk-for-davinci-resolve	僅支援 DaVinci Resolve，不是 After Effects 工具
+nano-banana-generative-fill-for-photoshop	僅支援 Photoshop，不是 After Effects 工具
+neat-freak	會離線修改 AEP XML 且無法復原，最後更新於 2018 年、相容性只列至 AE 2020
+nexa-bold	Animography 動態字型素材，非獨立 After Effects 外掛或腳本工具
+nft	官方惡搞概念頁，標示 Coming Soon 且從未實際提供產品
 morganite	Animography 字型素材，非獨立 After Effects 外掛或腳本工具
 motion-manager	僅支援 Cinema 4D 的關鍵影格與曲線管理工具，不是 After Effects 工具
 motion-presets-for-premiere-pro	僅支援 Premiere Pro，不是 After Effects 工具
