@@ -250,6 +250,12 @@ coco-color-coworker	官方頁僅稱色彩助手，缺乏足以準確描述實際
 command-frame	與已收錄的 FX Console、Reach Pro、KBar 等命令搜尋與快捷面板高度重複
 conform-studio	與已收錄的 AEPipeline 等 VFX 預合成、命名、替換與流程自動化工具高度重複
 create-pivotal-null	與已收錄的 Power Null／Move Anchor Point 建立控制 Null 與樞紐調整用途高度重複
+deepclear	與已收錄的 Neural Enhancement Suite／ClearPlus 影片增強、降噪與對比改善功能高度重複
+divide-and-corner	與已收錄的 Cut'n'Pack／Slice It Up 圖層切割與拼貼用途高度重複
+dupli-kit	與已收錄的 Array、mCloner Pro、Cloners + Effectors 等圖層規律複製工具高度重複
+easy-arrows	與已收錄的 Align To Path 圖形沿路徑定向功能高度重複
+easy-rounder	與已收錄的 LaPath、Smooth Rounder、Square Peg 等形狀圓角工具高度重複
+face-swapper	與已收錄的 Blace／BCC+ Face ML 等 GPU 或 ML 臉部替換工具高度重複
 animography-typogami	單一 2.5D 動態字型素材，不是通用 AE 外掛或腳本工具
 animography-voyager	單一動態字型素材，不是通用 AE 外掛或腳本工具
 animography-webster	單一動態字型素材，不是通用 AE 外掛或腳本工具
