@@ -398,3 +398,34 @@ flexiglass-for-davinci-resolve	DaVinci Resolve 專用外掛，不支援 After Ef
 fleximist-diffusion-plugin-for-davinci-resolve	DaVinci Resolve 專用外掛，且官方頁無可核實說明
 floating-license-server	授權伺服器商品頁且無獨立 AE 功能說明，不是可搜尋的特效工具
 fluxion-warp	已收錄於 Fluxion 條目的 variants，不重複新增同系列影像扭曲版本
+font-previewer	功能與較完整的 Font Manager／FontShaper 字型工作流高度重疊，不再增加獨立預覽器條目
+font-previewer-lite	Font Previewer 的精簡版，不重複收錄
+font-styles-library	單純儲存字型樣式的面板，核心用途已由 Font Manager 類工具涵蓋
+fontlist-plus	官方標示已停售
+footage-looper	Premiere Pro 專用素材循環工具，不支援 After Effects
+freeform-pro	已收錄為 Mettle FreeForm Pro，不重複新增 aescripts 市集頁版本
+fs-texture-palette	手繪動態／靜態紋理與形狀素材合集，屬素材包而非工具
+ft-effect-instance	官方標示已停售
+ft-filmic-contrast	三款調色外掛的套裝包，依規範應個別評估而非收錄 bundle
+ft-lens-distortion	功能與已收錄的 VFX Suite Lens Distortion、Optics Compensation 等高度重複
+ft-markerexporter	官方標示已停售
+ft-toolbar	官方已 sunset 並建議改用 KBar
+fx-grainny-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+fx-launcher-pro	Premiere Pro 專用效果啟動器，不支援 After Effects
+fx-oscillograph-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+fx-remix-dctl	DaVinci Resolve 專用 DCTL，不支援 After Effects
+fx-texturator-800-dctl	DaVinci Resolve 專用 DCTL 與材質集合，不支援 After Effects
+fx-trippy-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+gaussian-splatting-for-davinci-resolve	DaVinci Resolve 專用 Gaussian Splatting 工具，不支援 After Effects
+gaussian-splatting-for-nuke	商品 slug 與名稱指向 Nuke，官方摘要卻誤寫 After Effects，來源資訊矛盾故暫不收錄
+genbridge	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+geolayersmapdata	GEOlayers 3 的 Mapdata 訂閱授權，不是獨立 AE 工具
+geolayersmapdata-upfront	同一 GEOlayers Mapdata 訂閱的預付方案，不是獨立工具
+get-sh-t-done	官方說明僅稱把常見步驟壓成一步，缺乏可核實的具體功能，暫不收錄
+ghostscan-photoshop-extension	Photoshop 專用延伸套件，不支援 After Effects
+glitch-preset-pack-for-transition-master	Transition Master 的 glitch 預設包，屬素材／預設而非獨立工具
+glitch-vandalizer-photoshop-plugin	Photoshop 專用外掛，不支援 After Effects
+glitcher-transitions	Final Cut Pro X 專用轉場，不支援 After Effects
+grabdrop	下載來源與授權範圍不明，為避免鼓勵未授權媒體下載而不收錄
+gradino	單一動態字型素材，不是通用 AE 外掛或腳本工具
+graph-master-free	Graph Master 的免費精簡版，不與完整版重複收錄
