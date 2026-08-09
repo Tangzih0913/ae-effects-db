@@ -252,3 +252,64 @@ astleyizer	把人物轉成 Rick Astley 的單一玩笑效果，功能過於小�
 aura-render-only	Aura 的無頭算圖授權，不是獨立外掛產品
 auraglow	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
 blend	匯入工具判定已與 builtin-ae.jsonl 的 Blend 條目重複，不另行收錄 aescripts 版本
+auto-handwriting-rig-for-cinema-4d	Cinema 4D 專用手寫動畫綁定工具，不支援 After Effects
+auto-motion-tracker-for-objects	Premiere Pro 專用遮罩追蹤轉換工具，不支援 After Effects
+automated-video-editing-for-premiere-pro	Premiere Pro 專用自動剪輯工具，不支援 After Effects
+automation-blocks-for-premiere-pro	Premiere Pro 專用自動化工具，不支援 After Effects
+automation-toolkit	已收錄為 Automation Toolkit Pro，不重複新增舊版產品
+autosortbinspro	Premiere Pro 專用素材箱整理工具，不支援 After Effects
+avtic-auto	Premiere Pro 專用自動剪輯工具，不支援 After Effects
+avtic-for-davinci-resolve	DaVinci Resolve 專用工具，不支援 After Effects
+awkward-pause	官方標示已停售
+b-roll-genie	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+backgrounds-2	官方標示已停售，且屬 Animation Composer 背景素材包
+backup-it	Premiere Pro 專用序列備份工具，不支援 After Effects
+bad-tv	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+bad-tv-render-only	Bad TV 的無頭算圖授權，不是獨立外掛產品
+batch-markers-for-cavalry	Cavalry 專用時間標記工具，不支援 After Effects
+batch-processor-for-cinema-4d	Cinema 4D 專用 3D 格式批次轉換工具，不支援 After Effects
+bbtools-glow-and-glare	Photoshop 專用外掛，不支援 After Effects
+bbtools-shadow	Photoshop 專用外掛，不支援 After Effects
+bbtools-tiler	Photoshop 專用外掛，不支援 After Effects
+beatedit-for-davinci-resolve	DaVinci Resolve 專用版本，不支援 After Effects
+beatedit-for-premiere-pro	Premiere Pro 專用版本；AE 版另行以現有條目為準
+blenderae	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+blueprint	主要用 AE 與 Bodymovin 製作 CasparCG HTML 廣播模板，Windows 限定且用途過於專門
+boardfish	官方標示已下架，且是獨立的 Mac 分鏡排版程式
+boxer	功能與已選定收錄的 Box It 高度重複，皆為自動伸縮文字底框
+breakdowns	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+brevidy	Premiere Pro 專用社群影片 AI 工具，不支援 After Effects
+buena-depth-cue	套件內代表性工具已拆分收錄於 third-party.jsonl，不新增套裝包條目
+buena-depth-cue-render-only	Buena Depth Cue 的無頭算圖授權，不是獨立外掛產品
+burst-box	一次點擊的 burst 動畫素材合集，屬預製動畫包而非通用工具
+c4d-viewport-colors	Cinema 4D 專用視窗顏色腳本，不支援 After Effects
+c4d2hou	Cinema 4D 與 Houdini 的橋接工具，不支援 After Effects
+canvas-360pro	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+canvas-stk	官方標示已停售
+canvasflow-for-davinci-resolve	DaVinci Resolve 專用繪畫風格外掛，不支援 After Effects
+cavalry-asset-library	Cavalry 專用資產庫工具，不支援 After Effects
+cavalry-importer	官方標示已停售
+celwizard-frame-by-frame-library	320 多個逐格動畫元素的素材庫，屬素材包而非工具
+centrum	官方標示已停售
+chain-and-sprockets	官方標示已停售
+characteristic	官方標示已停售，並建議改用 Font Manager
+chat-video-pro	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+chromadrift-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+chromatic-aberration-for-fcpx	Final Cut Pro X 專用外掛，不支援 After Effects
+chrome-bar-wipes	Final Cut Pro X 專用轉場，不支援 After Effects
+chrome-rings-3d	Final Cut Pro X 專用轉場，不支援 After Effects
+chubs	單一動態字型素材，不是通用 AE 外掛或腳本工具
+chump-nft-engine	僅用於產生 NFT 圖像與 metadata，功能過於小眾且非一般 AE 工作流需求
+cinebrush-for-davinci-resolve	DaVinci Resolve 專用繪畫風格外掛，不支援 After Effects
+cinema-4d-shortcut-icons	Cinema 4D 的 Stream Deck／Loupedeck 圖示素材包，不支援 After Effects
+circle-align	已存在 AviUtl Circle Align 同功能條目，不重複新增
+colorful-style-pack-for-animation-composer	官方標示已停售，且屬 Animation Composer 樣式素材包
+colortwist-for-davinci-resolve	DaVinci Resolve 專用 DCTL 套裝，不支援 After Effects
+composite-brush-unreal	官方標示已停售
+compositioneer-dctl	DaVinci Resolve Studio 專用構圖 DCTL，不支援 After Effects
+compression-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+concept-buddy	官方標示已停售
+contextlab	官方說明僅稱影片剪輯工具，未明確標示支援 After Effects，暫不收錄
+corridorkey-by-blace-ai	已收錄為 CorridorKey，不重複新增新版商品頁條目
+create-duplicator-sequence-for-cavalry	Cavalry 專用動態序列工具，不支援 After Effects
+cropdragon	Premiere Pro 專用裁切工具，不支援 After Effects
