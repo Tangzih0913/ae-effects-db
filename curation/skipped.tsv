@@ -689,3 +689,9 @@ pftrack-2d-data-importer	官方相容性僅列至 After Effects CC 2019，現代
 pixel-cloud	官方標示已停售且不再提供
 pixel-bender-accelerator-for-photoshop	Photoshop 專用版本，不是 After Effects 工具
 pixel-sorter-4-for-photoshop	Photoshop 專用版本，不是 After Effects 工具
+pixel-bender-accelerator	不支援 Apple Silicon，且官方相容性僅列至 After Effects 2020
+plexus-obj-sequence-exporter-for-c4d	Cinema 4D 專用 Plexus OBJ 序列匯出器，不是 After Effects 工具
+plexus-render-only	僅為 Plexus 的 render-only 授權選項，不是獨立效果或工具
+pointposition-c4d	Cinema 4D 專用位置通道外掛，不是 After Effects 工具
+polydivider-for-cinema-4d	Cinema 4D 專用多邊形細分工具，不是 After Effects 工具
+postproduction-master-for-photoshop	Photoshop 專用後製工具，不是 After Effects 工具
