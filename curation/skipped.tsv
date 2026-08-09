@@ -266,6 +266,13 @@ fade-up-rtl	主要解決特定 RTL／LTR 多行文字逐字淡入需求，適用
 duckflow	僅 Windows 可用的系統音訊 ducking 工具，不直接處理 AE 專案音訊或畫面
 fog	霧、上帝光與擴散功能與既有 Fractal Noise 3D、Crate's Godrays、S_Rays 等工具高度重複
 fixel-alce	局部對比增強用途與已收錄的 ContrastUp 高度重複
+fraction	僅建立規則星形多邊形，AE 原生 Shape Layer 已可直接完成且功能過度單一
+fx-gradient	與已收錄的 proGradient 動態多點漸層生成與控制功能高度重複
+genome	與已收錄的 Array、mCloner Pro、Cloners + Effectors 等複製器工具高度重複
+glitch-control	泛用模組化故障效果與已收錄的 Data Glitch、GPUDog Pro 等工具高度重複
+gotype	泛用文字動畫工具與已收錄的 TextEvo 2、Type Anarchy、TypeMonkey 等高度重複
+gpuresize	GPU 影像插值放大與已收錄的 ScaleUp／Neural Enhancement Suite 高度重複
+guides	參考線建立與管理功能與已收錄的 Advanced Composition Grids／Grid Builder 高度重複
 animography-typogami	單一 2.5D 動態字型素材，不是通用 AE 外掛或腳本工具
 animography-voyager	單一動態字型素材，不是通用 AE 外掛或腳本工具
 animography-webster	單一動態字型素材，不是通用 AE 外掛或腳本工具
