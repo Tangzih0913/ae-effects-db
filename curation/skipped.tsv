@@ -1,6 +1,98 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+ninebysixteen	官方標示已停售且不再提供
+notecraft	僅支援 Premiere Pro，不是 After Effects 工具
+nx-3-strip	僅支援 DaVinci Resolve Studio，不是 After Effects 工具
+nx-artgrade	僅支援 DaVinci Resolve 的 DCTL 與 PowerGrade 工具組，不是 After Effects 工具
+obj-vertex-export	最後更新於 2015 年且相容性只列至 AE CC 2015，現代版本支援不足
+obsessive-layers	官方標示已停售，並建議改用 Fresh Trim
+okomito-next	Animography 字型素材，非獨立 After Effects 外掛或腳本工具
+one-click-center	僅將所選圖層錨點與位置移至合成中心，功能過於單一且不支援已連接 Null 的圖層
+mtlb-make-the-logo-bigger	只會尋找名稱含 logo 的圖層並固定放大，功能過於單一，且相容性只列至 AE CC 2015
+mubert-ai-generative-music	官方標示已停售且不再提供
+multi-parent-rigging	最後更新於 2020 年且相容性只列至 AE 2020，現代版本支援不足
+multiple-artboard-generator-for-illustrator	僅支援 Illustrator，不是 After Effects 工具
+mvrk-for-after-effects	最後更新於 2023 年且官方相容性只列至 AE 2023，現代版本支援不足
+mvrk-for-cavalry	僅支援 Cavalry，不是 After Effects 工具
+mvrk-for-davinci-resolve	僅支援 DaVinci Resolve，不是 After Effects 工具
+nano-banana-generative-fill-for-photoshop	僅支援 Photoshop，不是 After Effects 工具
+neat-freak	會離線修改 AEP XML 且無法復原，最後更新於 2018 年、相容性只列至 AE 2020
+nexa-bold	Animography 動態字型素材，非獨立 After Effects 外掛或腳本工具
+nft	官方惡搞概念頁，標示 Coming Soon 且從未實際提供產品
+morganite	Animography 字型素材，非獨立 After Effects 外掛或腳本工具
+motion-manager	僅支援 Cinema 4D 的關鍵影格與曲線管理工具，不是 After Effects 工具
+motion-presets-for-premiere-pro	僅支援 Premiere Pro，不是 After Effects 工具
+motioneer-lite	功能為同批收錄 Motioneer 完整版的精簡子集，避免重複
+move-in-time	官方標示已停售，且相容性只列至 AE 2020
+move-to	最後更新於 2022 年且官方相容性只列至 AE 2022，現代版本支援不足
+movieprint	獨立影片接觸表應用程式，最後更新於 2020 年，官方並警告近期 macOS／Apple Silicon 可能無法運作
+mocha-pro	已以 Boris FX Mocha Pro 收錄於 third-party.jsonl，避免同一產品重複
+mochaimport-for-nuke	官方標示已停售，且主要用途是 Mocha 與 Nuke 之間的資料交換
+mocode	官方標示已停售且不再提供更新或修補
+modeck-upfront	同一 MoDeck 服務的停售預付方案；改收錄仍在維護的主要 MoDeck 產品頁
+monoline-text	最後更新於 2018 年且官方相容性僅列至 AE CC 2018，現代版本支援不足
+monotize	官方已停止單獨提供，功能已整合進 TYPE 工具
+matrix	最後更新於 2013 年，官方相容性只列至 After Effects CS6，已不適合目前版本
+matrix-swiper-photoshop-extension	僅支援 Photoshop，不是 After Effects 工具
+mechanicus-transitions-for-fcpx	僅支援 Final Cut Pro X，不是 After Effects 工具
+meshed	Animography 動態字型素材，非獨立 After Effects 外掛或腳本工具
+mettle-flux	已以 Mettle FLUX 收錄於 third-party.jsonl，避免同一產品重複
+mirror-and-offset	官方標示已停售，並建議改用 Smart Key Reverse
+mix-color-layers	最後更新於 2020 年且官方相容性僅列至 AE 2020，現代版本支援不足
+mobchain-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobglow-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobknife-photoshop-plugin	僅支援 Photoshop，不是 After Effects 工具
+mobo-super-suite	僅為多個既有獨立產品的銷售套裝，資料庫應收錄各代表性工具而非重複套裝
+mask-transformer	與同批收錄的 Maskform 2 高度重疊；後者更新、更完整，具獨立縮放、傾斜、烘焙與移除控制
+maskstolayers	拆分遮罩到圖層的功能已由較新且會裁切邊界的 Masks to Cropped Layers II 涵蓋
+massrename	目前為 Premiere Pro 專用批次重新命名工具，官方仍標示 After Effects 版本尚未推出
+matchrate	官方標示已停售且不再提供
+malcolm-in-the-center	官方標示已停售，且相容性僅列至 AE CC／CS 系列舊版
+malty-closer	僅用於關閉開啟的合成分頁，功能過於單一且官方版本停留在早期 AE 世代
+markers-pro	Premiere Pro 專用標記管理工具，非 After Effects 工具
+linesculptor-for-cinema-4d	Cinema 4D 專用物件沿樣條排列工具，非 After Effects 工具
+linkup-suite	Premiere Pro 專用網路素材瀏覽與下載套件，非 After Effects 工具
+locations	官方相容性僅列到 AE CC 2015，版本過舊且不適合目前版本
+lockdown-for-davinci-resolve	DaVinci Resolve 專用版本，非 After Effects 工具
+log-for-davinci-resolve	DaVinci Resolve 專用工具，非 After Effects 工具
+looper-pack	由 2K 循環紋理影片、PNG 序列與 AEP 組成的素材包，不是外掛或腳本工具
+looper-pack-2	由 4K 循環紋理影片、PNG 序列與 AEP 組成的素材包，不是外掛或腳本工具
+looper-pro	Premiere Pro 專用循環動畫工具，非 After Effects 工具
+ltcprinter	僅提供 macOS 版本且官方相容性停留在 AE 2021，平台與版本限制過大
+lcdeffect	僅支援至舊版 AE CC，且 LCD／CRT 子像素效果已由收錄中的 TVPixel 涵蓋
+leemsanimationtools	官方標示已停售且不再提供，最新版本停留在 2017 年
+light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+lightman	官方相容性僅列到 CC 2015.3，版本過舊且代表性不足
+lightpath-transitions	Final Cut Pro X 專用轉場包，非 After Effects 工具
+lightroom-shortcut-icons	已停售的 Lightroom Stream Deck／Touch Portal 圖示與設定檔素材包
+lightspeed	動畫字型與影片素材包，不是 After Effects 外掛或腳本工具
+limber-lite	官方標示暫停供應，且完整版本 Limber 已收錄
+line-connection-for-cinema-4d	Cinema 4D 專用外掛，非 After Effects 工具
+line-dash-animated-typeface	動畫字型專案素材包，不是 After Effects 外掛或腳本工具
+layer-library	官方相容性僅列到 CS6，且已收錄功能更完整、仍持續維護的 LayerStash
+layer-selector-toolbar	官方相容性僅列到 CC 2015，版本過舊且代表性不足
+malty-cuber	官方頁明確標示已停售且不再提供
+malty-simple-camera-rig	官方頁明確標示已停售，並建議改用新版 HandyCam
+malty-snapshot	官方頁明確標示已停售且不再提供
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+looper-pro	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+loopmaster	一般關鍵影格、素材、Wiggle、旋轉與軌道循環功能和已收錄的 Loopy／Loop Tools Pro 高度重複
+lottiefiles	核心 Lottie 匯入匯出、預覽、相容性檢查與批次流程已由 Bodymovin／Lottie 和 LottiePacker 覆蓋
+ltcprinter	僅提供 Mac 版，最後更新於 2020 年且官方相容性只列到 AE 2021，代表性不足
+malcolm-in-the-center	官方頁標示 No Longer Available，已停售
+malty-closer	官方頁明確標示已停售且不再提供
+lcdeffect	最後更新於 2014 年且僅列到舊版 AE，LCD／CRT 像素與 RGB 分離效果亦與既有條目高度重複
+light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+lightman	最後更新於 2015 年且官方相容性僅列到 AE CC 2015.3，不符合目前版本代表性
+blob-it	與已收錄的 CC Blobbylize、Colloid 等黏液／果凍式有機變形功能高度重複
+box-it	與已收錄的 TextBox 2、Animated TextBlock 動態自適應文字框功能高度重複
+break-it	基本破碎功能與 AE 內建 Shatter、CC Pixel Polly 等既有條目高度重複
+breeze	官方說明僅泛稱建立波浪動畫，與多個既有波浪／擺動工具重疊且缺乏代表性差異
+candlecharts-ae	僅服務金融 K 線圖製作，使用情境過於小眾
+carousel-xpress	輪播與環狀／路徑排列功能和已收錄的 Circle Rig Pro 等工具高度重複
+centermasks	僅將遮罩重新置中，功能範圍過窄且代表性不足
+handycam	與已收錄的 Camera 3D Toolkit Pro／AE 3D RIG 等攝影機動畫與控制工具高度重複
+hyle	官方頁僅稱可自動化 AE 任務，缺乏足以準確描述具體功能範圍的說明
 kashida-pro	阿拉伯/波斯/烏爾都文排版工具，對中文使用者過於小眾
 gradient-lab	漸層模板包，功能與已收錄的 proGradient / GradientHub 重複
 organic-rig-pro	官方頁只有通用樣板文字，查不到實際功能說明
@@ -181,3 +273,495 @@ bend-layers	官方產品頁標示 No Longer Available，屬已停售工具
 blinky	官方產品頁標示 No Longer Available，功能已併入 TYPE，原產品已停售
 captionlab	官方產品頁僅列 Premiere Pro，且目前標示 No Longer Available，不支援 After Effects
 chameleon	官方產品頁明確標示 discontinued／No Longer Available，屬已停售工具
+ae-benchmark	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+ae-link-lightwave-to-after-effects-export	官方標示已停售，且是 LightWave 與 AE 之間的舊版橋接工具
+ae-shader-effector	官方標示已停售，頁面並建議改用其他 Effector 工具
+ae-suicide-after-effects-crash-recovery	僅適用舊版 macOS 的 AE 當機復原，平台與用途過於侷限
+aefx-shortcut-icons-and-profiles	Stream Deck／Touch Portal 的圖示與設定檔合集，屬素材／設定檔而非 AE 工具
+aemap	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+aeviewer	已收錄為 AEVIEWER Pro，不重複新增同一產品
+after-effects-pro-toolkit-for-stream-deck	Stream Deck 預先設定檔合集，不是 AE 外掛或腳本工具
+after-effects-shortcut-icons	Stream Deck／Touch Portal 捷徑圖示與設定檔，屬素材包
+after-spell	僅適用舊版 AE CC 2015，且頁面註明目前只有 macOS 能正常運作，代表性不足
+afteremoji	官方標示已停售
+ai-color-match-pro	已收錄為 AI Color Match，不重複新增同功能產品版本
+ai-relight	已收錄為 AI Relight Pro，不重複新增同一產品
+aibar	Adobe Illustrator 專用工具列，不支援 After Effects
+aibow-voice-gemini	Adobe Premiere Pro 專用語音合成外掛，不支援 After Effects
+akuto	動態字型產品，屬字型／動畫素材而非通用 AE 工具
+anicons-the-animated-icon-library	官方標示已停售，且屬動態圖示素材庫
+animated-textures-for-animation-composer	官方標示已停售，且屬 Animation Composer 的材質素材包
+animation-composer-pro	官方標示已停售的套裝產品，不新增舊版 bundle
+animationpatterns	已收錄為 animationPATTERNSpro，不重複新增舊版產品
+animography-amelie	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-anodine	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-bad-romance	官方標示已停售，且屬單一動態字型素材
+animography-bahn	官方標示已停售，且屬單一動態字型素材
+animography-barbour	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-basic-space	單一實驗性動態字型素材，不是通用 AE 外掛或腳本工具
+animography-binary	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-boomerang	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-burstype	單一動態字型素材與爆炸動畫素材，不是通用 AE 工具
+animography-cappuccino	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-enigma	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-explodots	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-fat-frank	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-fiesta	官方標示已停售，且屬單一動態字型素材
+animography-friction	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-haywire	官方標示已停售，且屬單一動態字型素材
+animography-hotdish	官方標示已停售，且屬單一動態字型素材
+animography-huboost	官方標示已停售，且屬單一動態字型素材
+animography-indie	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-ink	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-isotype	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-jasper	官方標示已永久下架，且屬單一動態字型素材
+animography-lasio-grotesk	官方標示已永久下架，且屬單一動態字型素材
+animography-league-spartan	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-lovelo	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-madita	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-madrid	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-magnus	官方標示已停售，且屬單一動態字型素材
+animography-mantis	官方標示已停售，且屬單一動態字型素材
+animography-mobilo-regular	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-moldover	官方產品頁未提供可核實的功能說明，且依產品系列判斷為動態字型素材
+animography-moshun-2224	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-multicolore	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-novecento	官方標示已永久下架，且屬單一動態字型素材
+animography-pincoya	官方標示已停售，且屬單一動態字型素材
+animography-pixelar	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-radiate	單一霓虹動態字型素材，不是通用 AE 外掛或腳本工具
+animography-razor	官方標示已永久下架，且屬單一動態字型素材
+animography-spirograph	官方標示已停售，且屬單一動態字型素材
+animography-type-36	單一動態字型素材，不是通用 AE 外掛或腳本工具
+counter-pro	與已收錄的 Number Maker 數字計數與格式動畫功能高度重複
+create3dshapes	與已收錄的 3D Primitives Generator／3D Modeler 幾何體生成用途高度重複
+cadence	與已收錄的 VoxMark 語音轉逐字標記功能高度重複
+ci-master-thumbnailer	與已收錄的 Batch Shot 批次產生合成與素材縮圖功能高度重複
+ci-move-anchor	與已收錄的 Move Anchor Point 錨點重定位功能高度重複
+coco-color-coworker	官方頁僅稱色彩助手，缺乏足以準確描述實際功能的說明
+command-frame	與已收錄的 FX Console、Reach Pro、KBar 等命令搜尋與快捷面板高度重複
+conform-studio	與已收錄的 AEPipeline 等 VFX 預合成、命名、替換與流程自動化工具高度重複
+create-pivotal-null	與已收錄的 Power Null／Move Anchor Point 建立控制 Null 與樞紐調整用途高度重複
+deepclear	與已收錄的 Neural Enhancement Suite／ClearPlus 影片增強、降噪與對比改善功能高度重複
+divide-and-corner	與已收錄的 Cut'n'Pack／Slice It Up 圖層切割與拼貼用途高度重複
+dupli-kit	與已收錄的 Array、mCloner Pro、Cloners + Effectors 等圖層規律複製工具高度重複
+easy-arrows	與已收錄的 Align To Path 圖形沿路徑定向功能高度重複
+easy-rounder	與已收錄的 LaPath、Smooth Rounder、Square Peg 等形狀圓角工具高度重複
+face-swapper	與已收錄的 Blace／BCC+ Face ML 等 GPU 或 ML 臉部替換工具高度重複
+easyshape-fx	官方頁僅稱可一鍵套用 cool effects，缺乏足以準確描述實際功能的說明
+elementary	官方頁僅籠統描述整合 3D 外掛與圖層，缺乏可核實的具體功能範圍
+fast-renamer	與已收錄的 AE Global Renamer 批次重新命名圖層功能高度重複
+find-my-aep	僅在 macOS Finder 顯示目前 AEP 檔案，功能過度單一且平台受限
+force-auto-save	與已收錄的 Auto Savior、aw-Autosaver、Auto Backup 自動儲存與備份功能高度重複
+fade-it	泛用淡入淡出轉場集合，與資料庫既有大量轉場與動畫工具高度重複
+fade-up-rtl	主要解決特定 RTL／LTR 多行文字逐字淡入需求，適用範圍過於小眾
+duckflow	僅 Windows 可用的系統音訊 ducking 工具，不直接處理 AE 專案音訊或畫面
+fog	霧、上帝光與擴散功能與既有 Fractal Noise 3D、Crate's Godrays、S_Rays 等工具高度重複
+fixel-alce	局部對比增強用途與已收錄的 ContrastUp 高度重複
+fraction	僅建立規則星形多邊形，AE 原生 Shape Layer 已可直接完成且功能過度單一
+fx-gradient	與已收錄的 proGradient 動態多點漸層生成與控制功能高度重複
+genome	與已收錄的 Array、mCloner Pro、Cloners + Effectors 等複製器工具高度重複
+glitch-control	泛用模組化故障效果與已收錄的 Data Glitch、GPUDog Pro 等工具高度重複
+gotype	泛用文字動畫工具與已收錄的 TextEvo 2、Type Anarchy、TypeMonkey 等高度重複
+gpuresize	GPU 影像插值放大與已收錄的 ScaleUp／Neural Enhancement Suite 高度重複
+guides	參考線建立與管理功能與已收錄的 Advanced Composition Grids／Grid Builder 高度重複
+animography-typogami	單一 2.5D 動態字型素材，不是通用 AE 外掛或腳本工具
+animography-voyager	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-webster	單一動態字型素材，不是通用 AE 外掛或腳本工具
+any-shake	Premiere Pro 專用晃動效果，不支援 After Effects
+anyfx360	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+arabictext-c4d	Cinema 4D 專用阿拉伯文字工具，不支援 After Effects
+architect-pro	Premiere Pro 專用時間軸工具，不支援 After Effects
+astleyizer	把人物轉成 Rick Astley 的單一玩笑效果，功能過於小眾
+aura-render-only	Aura 的無頭算圖授權，不是獨立外掛產品
+auraglow	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+blend	匯入工具判定已與 builtin-ae.jsonl 的 Blend 條目重複，不另行收錄 aescripts 版本
+auto-handwriting-rig-for-cinema-4d	Cinema 4D 專用手寫動畫綁定工具，不支援 After Effects
+auto-motion-tracker-for-objects	Premiere Pro 專用遮罩追蹤轉換工具，不支援 After Effects
+automated-video-editing-for-premiere-pro	Premiere Pro 專用自動剪輯工具，不支援 After Effects
+automation-blocks-for-premiere-pro	Premiere Pro 專用自動化工具，不支援 After Effects
+automation-toolkit	已收錄為 Automation Toolkit Pro，不重複新增舊版產品
+autosortbinspro	Premiere Pro 專用素材箱整理工具，不支援 After Effects
+avtic-auto	Premiere Pro 專用自動剪輯工具，不支援 After Effects
+avtic-for-davinci-resolve	DaVinci Resolve 專用工具，不支援 After Effects
+awkward-pause	官方標示已停售
+b-roll-genie	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+backgrounds-2	官方標示已停售，且屬 Animation Composer 背景素材包
+backup-it	Premiere Pro 專用序列備份工具，不支援 After Effects
+bad-tv	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+bad-tv-render-only	Bad TV 的無頭算圖授權，不是獨立外掛產品
+batch-markers-for-cavalry	Cavalry 專用時間標記工具，不支援 After Effects
+batch-processor-for-cinema-4d	Cinema 4D 專用 3D 格式批次轉換工具，不支援 After Effects
+bbtools-glow-and-glare	Photoshop 專用外掛，不支援 After Effects
+bbtools-shadow	Photoshop 專用外掛，不支援 After Effects
+bbtools-tiler	Photoshop 專用外掛，不支援 After Effects
+beatedit-for-davinci-resolve	DaVinci Resolve 專用版本，不支援 After Effects
+beatedit-for-premiere-pro	Premiere Pro 專用版本；AE 版另行以現有條目為準
+blenderae	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+blueprint	主要用 AE 與 Bodymovin 製作 CasparCG HTML 廣播模板，Windows 限定且用途過於專門
+boardfish	官方標示已下架，且是獨立的 Mac 分鏡排版程式
+boxer	功能與已選定收錄的 Box It 高度重複，皆為自動伸縮文字底框
+breakdowns	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+brevidy	Premiere Pro 專用社群影片 AI 工具，不支援 After Effects
+buena-depth-cue	套件內代表性工具已拆分收錄於 third-party.jsonl，不新增套裝包條目
+buena-depth-cue-render-only	Buena Depth Cue 的無頭算圖授權，不是獨立外掛產品
+burst-box	一次點擊的 burst 動畫素材合集，屬預製動畫包而非通用工具
+c4d-viewport-colors	Cinema 4D 專用視窗顏色腳本，不支援 After Effects
+c4d2hou	Cinema 4D 與 Houdini 的橋接工具，不支援 After Effects
+canvas-360pro	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+canvas-stk	官方標示已停售
+canvasflow-for-davinci-resolve	DaVinci Resolve 專用繪畫風格外掛，不支援 After Effects
+cavalry-asset-library	Cavalry 專用資產庫工具，不支援 After Effects
+cavalry-importer	官方標示已停售
+celwizard-frame-by-frame-library	320 多個逐格動畫元素的素材庫，屬素材包而非工具
+centrum	官方標示已停售
+chain-and-sprockets	官方標示已停售
+characteristic	官方標示已停售，並建議改用 Font Manager
+chat-video-pro	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+chromadrift-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+chromatic-aberration-for-fcpx	Final Cut Pro X 專用外掛，不支援 After Effects
+chrome-bar-wipes	Final Cut Pro X 專用轉場，不支援 After Effects
+chrome-rings-3d	Final Cut Pro X 專用轉場，不支援 After Effects
+chubs	單一動態字型素材，不是通用 AE 外掛或腳本工具
+chump-nft-engine	僅用於產生 NFT 圖像與 metadata，功能過於小眾且非一般 AE 工作流需求
+cinebrush-for-davinci-resolve	DaVinci Resolve 專用繪畫風格外掛，不支援 After Effects
+cinema-4d-shortcut-icons	Cinema 4D 的 Stream Deck／Loupedeck 圖示素材包，不支援 After Effects
+circle-align	已存在 AviUtl Circle Align 同功能條目，不重複新增
+colorful-style-pack-for-animation-composer	官方標示已停售，且屬 Animation Composer 樣式素材包
+colortwist-for-davinci-resolve	DaVinci Resolve 專用 DCTL 套裝，不支援 After Effects
+composite-brush-unreal	官方標示已停售
+compositioneer-dctl	DaVinci Resolve Studio 專用構圖 DCTL，不支援 After Effects
+compression-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+concept-buddy	官方標示已停售
+contextlab	官方說明僅稱影片剪輯工具，未明確標示支援 After Effects，暫不收錄
+corridorkey-by-blace-ai	已收錄為 CorridorKey，不重複新增新版商品頁條目
+create-duplicator-sequence-for-cavalry	Cavalry 專用動態序列工具，不支援 After Effects
+cropdragon	Premiere Pro 專用裁切工具，不支援 After Effects
+coco-color-wheel	屬 Coco Color CoWorker 的免費配套色輪，核心配色管理功能已由 CoWorker 條目涵蓋
+crossphere-bokeh-render-only	Crossphere Bokeh 的無頭算圖授權，不是獨立外掛產品
+crt-for-davinci-resolve	DaVinci Resolve 專用 CRT 外掛，不支援 After Effects
+custom-buttons-for-c4d	Cinema 4D 專用按鈕工具，不支援 After Effects
+cuttana-illustrator	Illustrator 專用文字切割工具，不支援 After Effects
+data-damage-animated-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+data-glitch	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+data-glitch-render-only	Data Glitch 2 的無頭算圖授權，不是獨立外掛產品
+data-storyteller	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+davinci-resolve-pro-profiles	DaVinci Resolve 的 Stream Deck／Touch Portal 設定檔與圖示素材包
+davinci-resolve-shortcut-icons	DaVinci Resolve 的快捷圖示與設定檔素材包
+decasteljau-bezier-curve	官方標示已停售
+depth-scanner-lite	已收錄完整版 Depth Scanner 2，不重複新增精簡版
+diffusion-glow-for-davinci-resolve	DaVinci Resolve／Fusion 專用外掛，不支援 After Effects
+dither-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+dither-pusher-photoshop-plugin	Photoshop 專用外掛，不支援 After Effects
+dojo-scripting-utility	官方標示已停售
+dojo-text-generator	官方標示已停售，並建議改用 MonkeyWords
+doppler	僅限 macOS，且只同步串流音樂與時間軸播放狀態，平台與用途過於侷限
+dot-pixels	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+dot-pixels-render-only	Dot Pixels 的無頭算圖授權，不是獨立外掛產品
+drag-zoom-pro-for-adobe-premiere-pro	Premiere Pro 專用版本，不重複收錄
+dreamferry	Premiere Pro 專用 AI 生成工具，不支援 After Effects
+duplicate-it	Premiere Pro 專用序列複製工具，不支援 After Effects
+dust-transition-for-davinci-resolve	DaVinci Resolve／Fusion 專用粒子轉場，不支援 After Effects
+dynamic-line-chart	官方標示已停售，並建議改用 Graph Master
+dynamic-textbox	功能與已選定收錄的 Box It 高度重複，皆為自動伸縮文字底框
+easy-pie-chart	官方標示已停售
+easy-slide-show	官方標示已停售
+ebberts-zucker-variety-pack	套裝包；Rubberize It、NodeKit、Wind、Beatnik 等個別工具應分開評估
+ebook-motion-graphics-in-after-effects-that-speaks-to-your-brain	免費電子書／教學內容，不是 AE 外掛或腳本工具
+edgy-style-pack-for-animation-composer	官方標示已停售，且屬 Animation Composer 樣式素材包
+efx-ab-compare	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-chromatic-aberration	同系列多個產品已明示不相容 CS6 以上，官方頁也未提供現代 AE 相容資訊
+efx-hdri-comp	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-keying-alpha-free	完整套件的三款免費精簡版，避免與套件重複且現代 AE 相容資訊不足
+efx-keying-alpha-plugin-suite	舊版 EFX 套件，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-render-elements-free	官方頁明示不相容 CS6 以上版本，已不適用現代 AE
+efx-render-elements-plugin-suite	舊版 EFX 套件，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-render-elements-z-depth-tools	舊版 EFX 系列工具，官方頁未提供現代 AE 相容資訊，暫不收錄
+efx-uniqueness	官方標示已停售且不相容 CS6 以上版本
+element-3d	已收錄於 third-party.jsonl，不重複新增 aescripts 市集頁版本
+emoji-library	以 9000 多個 emoji 為核心的素材庫，依規範不收純素材／圖示庫
+emojikit	動態 emoji 素材庫，屬素材包而非通用工具
+essential-sound-effects-for-animation-composer	官方標示已停售，且屬音效素材包
+essential-typography	官方標示已停售，且屬排版素材包
+events	官方說明未明確標示支援 After Effects，且功能偏獨立媒體分類，暫不收錄
+export-to-bytes	官方標示已停售
+exportforclient	官方標示已停售
+exportfoundry	Premiere Pro 專用批次輸出工具，不支援 After Effects
+exposure	以延長工作／賺錢為玩笑描述，沒有可核實的實際 AE 功能
+expression-toolbox	官方標示已停售，並建議改用 AEVIEWER 的 expression preset 功能
+extended-coffee-break	刻意增加算圖時間的玩笑工具，沒有實際生產價值
+extrudalizer	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+extrude-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+farabi-ligature-type-animation-tool	特定波斯／阿拉伯語動態字型集合，屬語系素材且用途過於小眾
+fast-bokeh	已收錄 Fast Bokeh Pro 於 third-party.jsonl，不重複新增市集頁版本
+fast-bokeh-openfx	OpenFX／Resolve／Fusion 專用版本，不支援 After Effects
+fast-bokeh-render-only	Fast Bokeh Pro 的無頭算圖授權，不是獨立外掛產品
+fast-spline-connector	Cinema 4D 專用 spline 工具，不支援 After Effects
+faux-dolly-zoom-for-fcpx	Final Cut Pro X 專用效果，不支援 After Effects
+fader-dctl	DaVinci Resolve 專用 DCTL，不支援 After Effects
+fcp-lower-thirds-toolkit	官方標示已停售，且為 Final Cut Pro 專用
+fcp-titles-toolkit	Final Cut Pro X 專用標題與轉場素材包，不支援 After Effects
+feedback-pro	Premiere Pro 專用回饋與版本管理工具，不支援 After Effects
+fig2ai	Illustrator 與 Figma 之間的橋接工具，不支援 After Effects
+file-sequence-exporter-for-cinema-4d	Cinema 4D 專用逐格 3D 檔案輸出工具，不支援 After Effects
+file-to-binary-converter	官方標示已停售
+filmmakers-transitions	官方標示已停售，且屬轉場素材包
+filmstro-pro	Premiere Pro 專用配樂工具，不支援 After Effects
+final-cut-pro-x-shortcut-icons	Final Cut Pro X 的快捷圖示與 Stream Deck／Touch Portal 設定檔素材包
+firestarter	Premiere Pro 專用專案整理工具，不支援 After Effects
+fixel-contrastica	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+fixel-contrastica-pr	Premiere Pro 版本且官方頁無功能說明，不支援 AE 收錄需求
+fixel-contrastica-ps	Photoshop 版本且官方頁無功能說明，不支援 After Effects
+fixel-detailizer	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+fixel-detailizer-pr	Premiere Pro 版本且官方頁無功能說明，不支援 AE 收錄需求
+fixel-detailizer-ps	Photoshop 版本且官方頁無功能說明，不支援 After Effects
+fixel-zone-selector-1-ps	Photoshop 專用明度遮罩工具，不支援 After Effects
+flapfont	單一動態字型素材，不是通用 AE 外掛或腳本工具
+flash-buffer-pro	Cinema 4D 專用 Object Buffer 管理工具，不支援 After Effects
+flexiglass-for-davinci-resolve	DaVinci Resolve 專用外掛，不支援 After Effects
+fleximist-diffusion-plugin-for-davinci-resolve	DaVinci Resolve 專用外掛，且官方頁無可核實說明
+floating-license-server	授權伺服器商品頁且無獨立 AE 功能說明，不是可搜尋的特效工具
+fluxion-warp	已收錄於 Fluxion 條目的 variants，不重複新增同系列影像扭曲版本
+font-previewer	功能與較完整的 Font Manager／FontShaper 字型工作流高度重疊，不再增加獨立預覽器條目
+font-previewer-lite	Font Previewer 的精簡版，不重複收錄
+font-styles-library	單純儲存字型樣式的面板，核心用途已由 Font Manager 類工具涵蓋
+fontlist-plus	官方標示已停售
+footage-looper	Premiere Pro 專用素材循環工具，不支援 After Effects
+freeform-pro	已收錄為 Mettle FreeForm Pro，不重複新增 aescripts 市集頁版本
+fs-texture-palette	手繪動態／靜態紋理與形狀素材合集，屬素材包而非工具
+ft-effect-instance	官方標示已停售
+ft-filmic-contrast	三款調色外掛的套裝包，依規範應個別評估而非收錄 bundle
+ft-lens-distortion	功能與已收錄的 VFX Suite Lens Distortion、Optics Compensation 等高度重複
+ft-markerexporter	官方標示已停售
+ft-toolbar	官方已 sunset 並建議改用 KBar
+fx-grainny-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+fx-launcher-pro	Premiere Pro 專用效果啟動器，不支援 After Effects
+fx-oscillograph-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+fx-remix-dctl	DaVinci Resolve 專用 DCTL，不支援 After Effects
+fx-texturator-800-dctl	DaVinci Resolve 專用 DCTL 與材質集合，不支援 After Effects
+fx-trippy-dctl	DaVinci Resolve Studio 專用 DCTL，不支援 After Effects
+gaussian-splatting-for-davinci-resolve	DaVinci Resolve 專用 Gaussian Splatting 工具，不支援 After Effects
+gaussian-splatting-for-nuke	商品 slug 與名稱指向 Nuke，官方摘要卻誤寫 After Effects，來源資訊矛盾故暫不收錄
+genbridge	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+geolayersmapdata	GEOlayers 3 的 Mapdata 訂閱授權，不是獨立 AE 工具
+geolayersmapdata-upfront	同一 GEOlayers Mapdata 訂閱的預付方案，不是獨立工具
+get-sh-t-done	官方說明僅稱把常見步驟壓成一步，缺乏可核實的具體功能，暫不收錄
+ghostscan-photoshop-extension	Photoshop 專用延伸套件，不支援 After Effects
+glitch-preset-pack-for-transition-master	Transition Master 的 glitch 預設包，屬素材／預設而非獨立工具
+glitch-vandalizer-photoshop-plugin	Photoshop 專用外掛，不支援 After Effects
+glitcher-transitions	Final Cut Pro X 專用轉場，不支援 After Effects
+grabdrop	下載來源與授權範圍不明，為避免鼓勵未授權媒體下載而不收錄
+gradino	單一動態字型素材，不是通用 AE 外掛或腳本工具
+graph-master-free	Graph Master 的免費精簡版，不與完整版重複收錄
+gridguide-for-after-effects	功能與已收錄的 Advanced Composition Grids 高度重疊，皆提供版面網格與參考線
+guidesup	功能與已收錄的 Guides／Advanced Composition Grids 高度重疊，皆以參考線與版面網格為核心
+halfline-for-illustrator	Illustrator 專用半色調／蝕刻工具，不支援 After Effects
+halftone-for-davinci-resolve	DaVinci Resolve 專用 DCTL，不支援 After Effects
+hand-drawn-stuff	官方標示已停售，且屬手繪素材包
+handy-particles-pro	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+head-rig	官方標示已停售
+hedcut-pro-for-davinci-resolve	DaVinci Resolve 專用 Hedcut／雕刻效果，不支援 After Effects
+hej-stylus	僅限 macOS 的手寫筆控制工具，平台與用途過於侷限
+helium	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+hidden-layer-cleanser	功能與已選定的 CI Layer Stripper 高度重疊，皆移除隱藏或無用圖層
+hover	功能與已選定的 CursorKit 高度重疊，皆建立游標與點擊互動動畫
+hypernova-animated-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+icon-library	以 86000 多個圖示與 emoji 為核心的素材庫，依規範不收純素材／圖示庫
+icon-mason	Illustrator 專用 IconJar 工具，不支援 After Effects
+icondock	以大量圖示搜尋與匯入為核心的素材庫，依規範不收圖示素材庫
+iconic-style-pack-for-animation-composer	官方標示已停售，且屬 Animation Composer 樣式素材包
+illustrator-shortcut-icons	Illustrator 的 Stream Deck／Touch Portal 圖示與設定檔素材包
+infocharts-creator	官方標示已停售並由 Infographics Toolkit 取代
+infographics-toolkit	官方標示已停售
+instant-assets-versioning-for-premiere-pro	Premiere Pro 專用素材版本切換工具，不支援 After Effects
+intellifolders	官方標示已停售
+introduction-to-after-effects-scripting-video-course	影片教學課程，不是 AE 外掛或腳本工具
+isolate	官方標示已停售
+isolate-tools-for-cinema-4d	Cinema 4D 專用且官方頁無可核實說明，不支援 After Effects
+key-visibility-for-cinema-4d	Cinema 4D 專用可見度動畫工具，不支援 After Effects
+keyfast	官方說明僅稱日常工具集合，缺乏可核實的具體功能，暫不收錄
+keymix	官方標示已停售
+kiona-animated-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+klutz-gpt	官方以「最不可靠」描述其 AI 寫腳本功能，品質與事實可靠性不足故不收錄
+koji-color	市集已不再販售且要求改向原廠取得，現有商品頁不是有效的持續維護來源
+kurulumun	Cinema 4D 專用 Python spline 外掛，不支援 After Effects
+kuwahara-dctl	DaVinci Resolve 專用 DCTL，不支援 After Effects
+labels-ppro	官方標示已下架，且為 Premiere Pro 專用
+laser-type	單一動態字型素材，不是通用 AE 外掛或腳本工具
+latex2svg	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+launchbox	只用來啟動 Ebberts+Zucker 自家工具的 launcher，不是獨立功能型 AE 工具
+layer-converter	官方標示已停售
+layer-force	Premiere Pro 專用自動轉場與 slideshow 工具，不支援 After Effects
+layer-groups	官方標示已停售
+layer-stage-for-cinema-4d	Cinema 4D 專用多鏡頭場景工具，不支援 After Effects
+layer-displayer	核心顯示／篩選功能已由 Items and Tags 涵蓋，不重複新增單一顯示工具
+layer-storage	自訂圖層分組功能與已收錄的 Items and Tags 高度重疊
+layers2grid	功能與已收錄的 Gridder 2 高度重疊，後者支援更多網格與陣列排列
+leemsanimationtools	官方標示已停售
+lightpath-transitions	Final Cut Pro X 專用轉場，不支援 After Effects
+lightroom-shortcut-icons	Lightroom Classic 的 Stream Deck／Touch Portal 圖示與設定檔素材包
+lightspeed	單一動態字型與附贈影片素材，不是通用 AE 工具
+limber-lite	官方標示目前不可用，並要求改用完整版 Limber
+line-connection-for-cinema-4d	Cinema 4D 專用連線生成工具，不支援 After Effects
+line-dash-animated-typeface	單一動態字型素材，不是通用 AE 外掛或腳本工具
+linesculptor-for-cinema-4d	Cinema 4D 專用 spline 排列工具，不支援 After Effects
+linkup-suite	Premiere Pro 專用網路媒體瀏覽與下載套件，不支援 After Effects
+lockdown-for-davinci-resolve	官方標示已停售，且為 DaVinci Resolve 專用
+log-for-davinci-resolve	DaVinci Resolve／Fusion 專用曲線編輯工具，不支援 After Effects
+looper-pack	40 組循環動畫紋理素材，屬素材包而非工具
+looper-pack-2	40 組 4K 循環紋理素材，屬素材包而非工具
+ae-benchmark	官方已停售，且官方說明指出基準測試結果不可靠
+ae-link-lightwave-to-after-effects-export	官方已停售，且主要是 LightWave 匯出橋接工具
+ae-shader-effector	官方已停售，已有其他仍維護的 Effector 工具可替代
+ae-suicide-after-effects-crash-recovery	僅支援舊版 macOS 的當機復原輔助程式，適用性有限
+aefx-shortcut-icons-and-profiles	快捷鍵圖示與設定檔素材，不是 AE 外掛或腳本工具
+aeviewer	與已收錄的 AEVIEWER Pro 功能重複
+after-effects-pro-toolkit-for-stream-deck	Stream Deck 預先設定檔素材，不是 AE 外掛或腳本工具
+after-effects-shortcut-icons	快捷鍵圖示素材，不是 AE 外掛或腳本工具
+after-spell	官方標示目前僅 macOS 可正常使用，且主要針對舊版 AE CC 2015
+afteremoji	官方已停售
+ai-color-match-pro	與已收錄的 AI Color Match 功能高度重複
+ai-relight	與已收錄的 AI Relight Pro 功能高度重複
+aibar	Adobe Illustrator 專用工具，不支援 After Effects
+aibow-voice-gemini	Adobe Premiere Pro 專用語音合成工具，不支援 After Effects
+akuto	單一動態字型素材，不是通用 AE 外掛或腳本工具
+anicons-the-animated-icon-library	動畫圖示素材庫，不是 AE 外掛或腳本工具
+animated-textures-for-animation-composer	Animation Composer 動畫紋理素材包，不是獨立工具
+animation-composer-pro	官方已停售，並已改為訂閱套裝
+animography-amelie	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-anodine	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-bad-romance	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-bahn	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-barbour	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-basic-space	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-binary	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-boomerang	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-burstype	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-cappuccino	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-enigma	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-explodots	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-fat-frank	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-fiesta	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-friction	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-haywire	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-hotdish	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-huboost	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-indie	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-ink	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-isotype	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-jasper	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-lasio-grotesk	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-league-spartan	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-lovelo	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-madita	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-madrid	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-magnus	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-mantis	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-mobilo-regular	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-moldover	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-moshun-2224	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-multicolore	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-novecento	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-pincoya	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-pixelar	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-radiate	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-razor	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-spirograph	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-type-36	單一動態字型素材，不是通用 AE 外掛或腳本工具
+one-click-export	僅支援 Premiere Pro／Media Encoder，不是 After Effects 工具
+origami-hexagons-pack-1	僅為同批收錄 Origami 的四種六角網格附加內容，非獨立工具
+outlined-style-pack-for-animation-composer	官方標示已停售，且為 Animation Composer 的樣式素材包
+overlap	官方標示已停售且不再提供
+overset-fixer-pro	僅支援 InDesign 的溢出文字修復，不是 After Effects 工具
+p9-scriptui-builder	官方標示已停售且不再提供
+paint-and-stick	官方明確標示不支援 Apple Silicon，現代 macOS 相容性不足
+paint-out	官方標示已停售，並建議改用 Lockdown
+parallel	僅支援 Premiere Pro 的時間碼同步，不是 After Effects 工具
+paragraph-on-a-path	已以官方分類頁 URL 收錄 Paragraph on a Path，僅為同產品的舊 sitemap 路徑
+parallel-animated-typeface	單一 Animography 動態字型素材，不是通用 After Effects 工具
+path-duplicator	官方相容性僅列至 After Effects CC 2015，現代版本支援不足
+permanent-markers-for-premiere-pro	僅支援 Premiere Pro，不是 After Effects 工具
+photoshop-pro-toolkit-for-stream-deck	Photoshop 的 Stream Deck 工具包，不是 After Effects 工具
+photoshop-shortcut-icons	Photoshop 快捷鍵圖示素材，不是 After Effects 工具
+pattoon	官方相容性僅列至 After Effects 2023，現代版本支援資訊不足
+perfect-pitch	僅支援 Premiere Pro 的音訊變速保留音高，不是 After Effects 工具
+pftrack-2d-data-importer	官方相容性僅列至 After Effects CC 2019，現代版本支援不足
+pixel-cloud	官方標示已停售且不再提供
+pixel-bender-accelerator-for-photoshop	Photoshop 專用版本，不是 After Effects 工具
+pixel-sorter-4-for-photoshop	Photoshop 專用版本，不是 After Effects 工具
+pixel-bender-accelerator	不支援 Apple Silicon，且官方相容性僅列至 After Effects 2020
+plexus-obj-sequence-exporter-for-c4d	Cinema 4D 專用 Plexus OBJ 序列匯出器，不是 After Effects 工具
+plexus-render-only	僅為 Plexus 的 render-only 授權選項，不是獨立效果或工具
+pointposition-c4d	Cinema 4D 專用位置通道外掛，不是 After Effects 工具
+polydivider-for-cinema-4d	Cinema 4D 專用多邊形細分工具，不是 After Effects 工具
+postproduction-master-for-photoshop	Photoshop 專用後製工具，不是 After Effects 工具
+pixie	獨立的 AI 圖片整理應用程式，不是 After Effects 外掛或腳本
+plumepack	僅支援 Premiere Pro 的專案彙整與媒體裁切工具，不是 After Effects 工具
+ppro-audio-batch-exporter	Premiere Pro 專用音訊批次匯出器，不是 After Effects 工具
+pq-art-parts	Premium Beat 的設計素材包，不是通用 After Effects 外掛或腳本
+pq-fui-toys	Premium Beat 的 FUI 動畫素材包，不是通用 After Effects 外掛或腳本
+pq-grit-kit	Premium Beat 的顆粒紋理素材包，不是通用 After Effects 外掛或腳本
+pq-mo-bits	Premium Beat 的動態圖形素材包，不是通用 After Effects 外掛或腳本
+pq-type-boi	Premium Beat 的文字動畫素材包，不是通用 After Effects 外掛或腳本
+plug-n-telligence	官方仍標示 Coming Soon，尚無可用產品可供查證與收錄
+powersearch	Premiere Pro 專用專案與逐字稿搜尋工具，不是 After Effects 工具
+pq-postperfect	Premium Beat 的後製視覺素材包，不是通用 After Effects 外掛或腳本
+premiere-pro-shortcut-icons	Premiere Pro 快捷鍵圖示素材，不是 After Effects 工具
+prism-and-hues-for-final-cut-pro-x	Final Cut Pro X 專用效果，不是 After Effects 工具
+prota-typeface	單一動態字型素材，不是通用 After Effects 外掛或腳本
+pre-compose-geek	產品已停止販售，且僅支援到 After Effects CC 2015
+pre-compose-pro	產品已停止販售，官方頁標示 No Longer Available
+project-cleaner	產品已停止販售，最後更新與相容版本停留在 2013 年／After Effects CC
+project-sync	產品已停止販售，最後相容版本停留在 After Effects CC 2014
+primitives	產品已停止販售，官方頁標示 No Longer Available
+project-item-labels	功能已由本庫收錄的 Prism 2 涵蓋；後者同時支援圖層、專案項目、遮罩及多種自動分類規則
+projection	產品已停止販售，官方明確建議改用本庫已收錄的 Projection 3D
+pt-autoexpress	URL alias；已由本庫 pt_AutoExpress 的官方 canonical 頁條目涵蓋
+pt-cropprecomps	URL alias；已由本庫 pt_CropPrecomps 的官方 canonical 頁條目涵蓋
+pt-effectsearch	URL alias；已由本庫 pt_EffectSearch 3 的官方 canonical 頁條目涵蓋
+pt-importsubtitles	URL alias；已由本庫 pt_ImportSubtitles 的官方 canonical 頁條目涵蓋
+qp-proxyman	產品已停止販售，最後相容版本停留在 After Effects CC 2015
+qualitycontrol	產品已停止販售，官方頁標示 No Longer Available
+qp-grade-assistant	雖仍展示販售，但官方相容清單只到 After Effects CC 2015，缺乏現代版本支援
+qp-nuclear-lut	官方相容清單只到 After Effects CC 2015，且內建色彩管理已大幅演進，不列為現代代表工具
+queuemaster	最後更新於 2020 年，官方相容清單只到 After Effects CC 2019；改收錄仍支援現代版本的 QueueUp
+quick-access	最後相容版本停留在 After Effects 2021，缺乏現代版本支援
+quick-add	最後相容版本停留在 After Effects 2022，且功能較基礎，不列為現代代表工具
+quick-preview	產品已停止販售，官方頁標示 No Longer Available
+quick-tonemapper	官方相容清單只到 After Effects 2022，缺乏近年版本支援
+pushr	Illustrator 與 Cinema 4D 專用橋接工具，相容清單不含 After Effects
+radnika	單一動畫字型素材，不是通用 After Effects 外掛或腳本
+rainfx-photoshop-extension	Photoshop 專用 Extension，不是 After Effects 工具
+random-wiggler	Premiere Pro 專用工具，相容清單不含 After Effects
+randomizer	功能被本輪收錄且持續支援現代 AE 的 Randomatic 2 完整涵蓋
+rasterfast	官方相容清單只到 After Effects 2020，缺乏現代版本支援
+rasterize-for-davinci-resolve	DaVinci Resolve 專用工具，相容清單不含 After Effects
+rav-rive-animation-viewer	獨立桌面 Rive 檢視與除錯應用程式，不是 After Effects 外掛或腳本
+rd-compsetter	最後更新於 2014 年，官方相容清單只到 After Effects CC／CS6 等舊版
+rd-kinda-sorta	最後更新於 2013 年，官方相容清單只到 After Effects CC 2014／CS6 等舊版
+rd-render-layers	最後更新於 2014 年，官方相容清單只到 After Effects CC／CS6 等舊版
+rd-scooter	舊版 redefinery 腳本，官方相容清單未涵蓋現代 After Effects
+rd-slicer	舊版 redefinery 腳本，官方相容清單未涵蓋現代 After Effects
+rd-studio-techniques	舊書附帶的範例腳本集合，不是持續維護的現代產品
+real-glow	產品已停產，官方頁指定改用仍在維護的 Deep Glow
+real-glow-render-only	已停產 Real Glow 的僅渲染授權附屬品，不是獨立工具
+realbook-for-cinema-4d	Cinema 4D 專用工具／素材，相容清單不含 After Effects
+recursive-scale-comp	最後更新於 2013 年，官方相容清單只到 After Effects CS6／CS5 等舊版
+rename-ninja	Photoshop 專用 UXP 外掛，不是 After Effects 工具
+realmagazine	Cinema 4D 專用的 3D 雜誌預設，相容清單不含 After Effects
+reduce-footage-layers	最後更新於 2020 年，官方相容清單只到 After Effects 2020
+rename-and-change-toolkit-for-premiere	Premiere Pro 專用且已停產，官方指定由 Rename It 與 Change It 取代
+rename-it	Premiere Pro 專用批次命名與整理工具，相容清單不含 After Effects
+render-templates	產品已停產，官方相容清單只到 After Effects CC 2015
+renderhogs	最後更新於 2021 年，官方相容清單只到 After Effects 2020
+rendersegments	Premiere Pro／Media Encoder 專用 Marker 分段輸出工具，相容清單不含 After Effects
+renomi	已停止販售的 Cinema 4D 多通道序列管理工具，不是 After Effects 外掛
+rescue-matte-cleaner	產品已停產且不再販售，官方相容清單只到 After Effects 2021
+rescue-matte-filler	產品已停產且不再販售，官方相容清單只到 After Effects 2021
+rendersounds	最後更新於 2016 年，官方相容清單只到 After Effects CC 2015／CS6 等舊版
+rigfast-web-browsers	產品已暫時停產且不再販售，並要求 AE 2019 使用 Legacy ExtendScript 運算式引擎
+rigomator	最後更新於 2020 年，官方相容清單只到 After Effects CC 2019
+ripple-edit	產品已停產且不再販售，官方相容清單只到 After Effects 2022
+roughcut	暫停販售且目前不相容 Premiere Pro，並非 After Effects 工具
+santas-little-credit-helper	最後更新於 2020 年，官方相容清單只到 After Effects 2020
+save-actions	功能已由同作者仍支援現代 AE、可保存更多物件類型的 Save Objects 2 完整擴充
