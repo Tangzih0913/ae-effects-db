@@ -1,4 +1,9 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+linesculptor-for-cinema-4d	Cinema 4D 專用物件沿樣條排列工具，非 After Effects 工具
+linkup-suite	Premiere Pro 專用網路素材瀏覽與下載套件，非 After Effects 工具
+locations	官方相容性僅列到 AE CC 2015，版本過舊且不適合目前版本
+lockdown-for-davinci-resolve	DaVinci Resolve 專用版本，非 After Effects 工具
+log-for-davinci-resolve	DaVinci Resolve 專用工具，非 After Effects 工具
 lcdeffect	僅支援至舊版 AE CC，且 LCD／CRT 子像素效果已由收錄中的 TVPixel 涵蓋
 leemsanimationtools	官方標示已停售且不再提供，最新版本停留在 2017 年
 light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
