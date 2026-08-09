@@ -1,4 +1,11 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+morganite	Animography 字型素材，非獨立 After Effects 外掛或腳本工具
+motion-manager	僅支援 Cinema 4D 的關鍵影格與曲線管理工具，不是 After Effects 工具
+motion-presets-for-premiere-pro	僅支援 Premiere Pro，不是 After Effects 工具
+motioneer-lite	功能為同批收錄 Motioneer 完整版的精簡子集，避免重複
+move-in-time	官方標示已停售，且相容性只列至 AE 2020
+move-to	最後更新於 2022 年且官方相容性只列至 AE 2022，現代版本支援不足
+movieprint	獨立影片接觸表應用程式，最後更新於 2020 年，官方並警告近期 macOS／Apple Silicon 可能無法運作
 mocha-pro	已以 Boris FX Mocha Pro 收錄於 third-party.jsonl，避免同一產品重複
 mochaimport-for-nuke	官方標示已停售，且主要用途是 Mocha 與 Nuke 之間的資料交換
 mocode	官方標示已停售且不再提供更新或修補
