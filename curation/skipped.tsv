@@ -1,4 +1,8 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+mask-transformer	與同批收錄的 Maskform 2 高度重疊；後者更新、更完整，具獨立縮放、傾斜、烘焙與移除控制
+maskstolayers	拆分遮罩到圖層的功能已由較新且會裁切邊界的 Masks to Cropped Layers II 涵蓋
+massrename	目前為 Premiere Pro 專用批次重新命名工具，官方仍標示 After Effects 版本尚未推出
+matchrate	官方標示已停售且不再提供
 malcolm-in-the-center	官方標示已停售，且相容性僅列至 AE CC／CS 系列舊版
 malty-closer	僅用於關閉開啟的合成分頁，功能過於單一且官方版本停留在早期 AE 世代
 markers-pro	Premiere Pro 專用標記管理工具，非 After Effects 工具
