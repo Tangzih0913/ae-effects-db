@@ -645,3 +645,11 @@ plexus-render-only	僅為 Plexus 的 render-only 授權選項，不是獨立效�
 pointposition-c4d	Cinema 4D 專用位置通道外掛，不是 After Effects 工具
 polydivider-for-cinema-4d	Cinema 4D 專用多邊形細分工具，不是 After Effects 工具
 postproduction-master-for-photoshop	Photoshop 專用後製工具，不是 After Effects 工具
+pixie	獨立的 AI 圖片整理應用程式，不是 After Effects 外掛或腳本
+plumepack	僅支援 Premiere Pro 的專案彙整與媒體裁切工具，不是 After Effects 工具
+ppro-audio-batch-exporter	Premiere Pro 專用音訊批次匯出器，不是 After Effects 工具
+pq-art-parts	Premium Beat 的設計素材包，不是通用 After Effects 外掛或腳本
+pq-fui-toys	Premium Beat 的 FUI 動畫素材包，不是通用 After Effects 外掛或腳本
+pq-grit-kit	Premium Beat 的顆粒紋理素材包，不是通用 After Effects 外掛或腳本
+pq-mo-bits	Premium Beat 的動態圖形素材包，不是通用 After Effects 外掛或腳本
+pq-type-boi	Premium Beat 的文字動畫素材包，不是通用 After Effects 外掛或腳本
