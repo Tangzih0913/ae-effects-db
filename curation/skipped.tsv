@@ -1,6 +1,8 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+handycam	與已收錄的 Camera 3D Toolkit Pro／AE 3D RIG 等攝影機動畫與控制工具高度重複
+hyle	官方頁僅稱可自動化 AE 任務，缺乏足以準確描述具體功能範圍的說明
 kashida-pro	阿拉伯/波斯/烏爾都文排版工具，對中文使用者過於小眾
 gradient-lab	漸層模板包，功能與已收錄的 proGradient / GradientHub 重複
 organic-rig-pro	官方頁只有通用樣板文字，查不到實際功能說明
