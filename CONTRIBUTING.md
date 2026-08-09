@@ -4,6 +4,53 @@
 
 > AI 助手請先讀 [AGENTS.md](AGENTS.md)（機器可讀規格在 [schema/effect.schema.json](schema/effect.schema.json)）。
 
+## ⚠️ 先看這個：最常見、也最需要避免的錯誤
+
+這個庫的搜尋是**拿你打的字去比對 `tags` 的子字串**，沒有向量、沒有語意理解。
+所以一筆資料有沒有價值，完全取決於 **desc 有沒有講清楚它在幹嘛**、**tags 有沒有涵蓋真人會打的字**。
+
+### ❌ 樣板化：整批條目只有名字不同
+
+這是目前最容易發生、也最沒有價值的貢獻方式——尤其是用 AI 一次生一整個系列的時候：
+
+```jsonc
+// ❌ 不要這樣。24 個調色效果全部套同一句話
+{"name":"BCC+ DeFog", "desc":"提供「BCC+ DeFog」的調色控制，適合修正色彩、明暗與影像風格。",
+ "tags":["BCC+ DeFog","Continuum Color and Tone","調色","After Effects","Boris FX"]}
+```
+
+問題在哪：
+- DeFog 是**去霧**，desc 完全沒講到，讀完還是不知道它做什麼
+- 搜「去霧」「除霾」→ **找不到它**
+- 搜「調色」→ 一次噴出 24 筆長得一模一樣的結果，反而更難挑
+
+```jsonc
+// ✅ 這樣才有用
+{"name":"BCC+ DeFog", "desc":"移除空氣中的霧霾與灰濛感，拉回遠景的對比與飽和度，救回陰天或空拍的灰片。",
+ "tags":["defog","dehaze","去霧","除霾","灰濛","對比還原","空拍","遠景","Continuum"]}
+```
+
+**兩個自我檢查**，寫完各問自己一次：
+
+1. **把效果名字遮掉**，這句 desc 還能不能分辨是哪個效果？不能就是樣板。
+2. **tags 去掉效果名之後**，跟同系列其他條目長得一樣嗎？一樣就是沒補到同義詞。
+   分類名（「調色」「轉場」「模糊與景深」）可以放，但**不算數**，不能拿它充數。
+   每筆至少要有 3 個「別人會搜、但分類名裡沒有」的詞：俗名、外觀、用途
+   （去霧／柔焦／散景／魚眼／耶穌光／灰飛煙滅／甩鏡／死白…）。
+
+跑 `python validate.py` 會自動幫你抓這兩件事，直接告訴你哪幾筆重複套版。
+
+### ❌ 其他常見問題
+
+| 錯誤 | 為什麼不行 |
+|---|---|
+| tags 全英文 | 這是給台灣使用者用的庫，中文搜不到等於沒收 |
+| desc 只寫功能名詞（「模糊工具」） | 要講**做什麼＋典型用途**，讀的人才知道該不該用它 |
+| url 用 slug 規則猜出來 | 一定要實際開過確認存在；猜錯的連結比沒連結更糟 |
+| 官方頁查不到說明就硬寫 | 寧可標 `unverified: true`，不要編 |
+| 收預設包／素材包／模板／LUT 包 | 這個庫收的是工具本身 |
+| 收 Premiere／Resolve／FCPX 專用外掛 | 以**官方頁列出的 host** 為準，第三方網站說支援 AE 不算 |
+
 ## 最快：用 AI 幫你生一行（推薦）
 
 把下面這段**提示詞**整段貼進 ChatGPT / Claude / 任何 AI，最後填上你要加的外掛名稱，它會吐一行可直接貼進資料庫的 JSON：
@@ -23,7 +70,11 @@
   workflow render expression animation preset utility distort mograph beauty edge emboss composite matte
   perspective kaleido vr recipe
 - tags：中英混合、至少 5 個，放英文名/中文名/俗名/用途/外觀等同義詞——這是搜尋關鍵，越多越好。
+  至少要有 3 個「分類名以外、真人會打的字」（俗名／外觀／用途），且必須有中文。
 - desc：一句「繁體中文」，說它做什麼＋典型用途（用繁中，勿用簡中詞）。
+- **禁止套版**：desc 不可以是「提供『XXX』的○○控制」這種只換名字的句型。
+  自我檢查：把效果名遮掉，這句話還能不能分辨是哪個效果？不能就重寫。
+  資料要來自該效果**自己的**官方說明頁，不是它所屬的分類。
 - url：**必填**，官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。
 - 選填：look（畫面外觀一句）、vendor（廠商/作者，不確定就寫 aescripts 或 未知/免費）、suite、aex（.aex 檔名）。
 - 若查不到可靠說明：desc 註明「（推測，未查證）」並加 "unverified":true。
@@ -73,7 +124,10 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
        workflow render expression animation preset utility distort mograph beauty edge emboss composite
        matte perspective kaleido vr recipe
      - tags：中英混合≥5個，放英文名/中文名/俗名/用途/外觀同義詞（搜尋關鍵，越多越好），最後放 "aescripts"。
+       其中至少 3 個必須是「分類名以外、真人會打的字」，且一定要有中文。
      - desc：一句繁體中文，做什麼＋典型用途（用繁中，勿簡中詞）。
+     - **不准套版**：同一批裡不可以出現「只有名字不同」的 desc 或 tags。
+       每筆都要讀該產品自己的頁面再寫；讀不到就別收，不要用分類名硬湊。
      - url：該產品在 aescripts 的官方頁 https://aescripts.com/<slug>/（務必是真實存在的頁面，不要杜撰）。
      - vendor：作者名（頁面上的 author），不確定就寫 "aescripts"。
      - 事實要準；查不到說明就別硬收。
@@ -118,11 +172,14 @@ git commit -am "add: XXX 外掛"
 再開 PR。
 
 ## 規矩（PR 前自檢）
-- [ ] `python validate.py` 通過（error 會被 CI 擋下）。
-- [ ] `desc` 用繁體中文、一句話、講清楚用途。
-- [ ] `tags` 有中英雙語與同義詞（≥5 個更好搜）。
+- [ ] `python validate.py` 通過（error 會被 CI 擋下；⚠ 警告不擋，但請盡量清掉）。
+- [ ] 一次加很多筆的話，跑 `python validate.py --strict`——它會把樣板化也算成錯誤。
+- [ ] `desc` 用繁體中文、一句話、講清楚**做什麼＋典型用途**。
+- [ ] **把效果名遮掉後，desc 還能分辨是哪個效果**（不是只有名字不同的樣板句）。
+- [ ] `tags` 中英雙語（一定要有中文），且去掉效果名後不與同系列其他條目雷同。
+- [ ] `url` 有實際開過確認存在，不是照 slug 規則猜的。
 - [ ] 放對資料檔、`cat` 用既有分類。
-- [ ] 作者/功能屬實；查不到就標 `unverified`。
+- [ ] 作者/功能屬實；查不到官方說明就標 `unverified`，或乾脆不收。
 - [ ] 不放盜版下載連結、不整段複製官方文案。
 
 有問題就開 Issue（有「新增特效」範本可用）。感謝你 ❤️
