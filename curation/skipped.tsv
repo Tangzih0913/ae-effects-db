@@ -1,4 +1,14 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+lcdeffect	僅支援至舊版 AE CC，且 LCD／CRT 子像素效果已由收錄中的 TVPixel 涵蓋
+leemsanimationtools	官方標示已停售且不再提供，最新版本停留在 2017 年
+light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+lightman	官方相容性僅列到 CC 2015.3，版本過舊且代表性不足
+lightpath-transitions	Final Cut Pro X 專用轉場包，非 After Effects 工具
+lightroom-shortcut-icons	已停售的 Lightroom Stream Deck／Touch Portal 圖示與設定檔素材包
+lightspeed	動畫字型與影片素材包，不是 After Effects 外掛或腳本工具
+limber-lite	官方標示暫停供應，且完整版本 Limber 已收錄
+line-connection-for-cinema-4d	Cinema 4D 專用外掛，非 After Effects 工具
+line-dash-animated-typeface	動畫字型專案素材包，不是 After Effects 外掛或腳本工具
 layer-library	官方相容性僅列到 CS6，且已收錄功能更完整、仍持續維護的 LayerStash
 layer-selector-toolbar	官方相容性僅列到 CC 2015，版本過舊且代表性不足
 malty-cuber	官方頁明確標示已停售且不再提供
