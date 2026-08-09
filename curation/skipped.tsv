@@ -181,3 +181,33 @@ bend-layers	官方產品頁標示 No Longer Available，屬已停售工具
 blinky	官方產品頁標示 No Longer Available，功能已併入 TYPE，原產品已停售
 captionlab	官方產品頁僅列 Premiere Pro，且目前標示 No Longer Available，不支援 After Effects
 chameleon	官方產品頁明確標示 discontinued／No Longer Available，屬已停售工具
+ae-benchmark	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+ae-link-lightwave-to-after-effects-export	官方標示已停售，且是 LightWave 與 AE 之間的舊版橋接工具
+ae-shader-effector	官方標示已停售，頁面並建議改用其他 Effector 工具
+ae-suicide-after-effects-crash-recovery	僅適用舊版 macOS 的 AE 當機復原，平台與用途過於侷限
+aefx-shortcut-icons-and-profiles	Stream Deck／Touch Portal 的圖示與設定檔合集，屬素材／設定檔而非 AE 工具
+aemap	官方產品頁未提供可核實的實際功能說明，依規範不以名稱猜測收錄
+aeviewer	已收錄為 AEVIEWER Pro，不重複新增同一產品
+after-effects-pro-toolkit-for-stream-deck	Stream Deck 預先設定檔合集，不是 AE 外掛或腳本工具
+after-effects-shortcut-icons	Stream Deck／Touch Portal 捷徑圖示與設定檔，屬素材包
+after-spell	僅適用舊版 AE CC 2015，且頁面註明目前只有 macOS 能正常運作，代表性不足
+afteremoji	官方標示已停售
+ai-color-match-pro	已收錄為 AI Color Match，不重複新增同功能產品版本
+ai-relight	已收錄為 AI Relight Pro，不重複新增同一產品
+aibar	Adobe Illustrator 專用工具列，不支援 After Effects
+aibow-voice-gemini	Adobe Premiere Pro 專用語音合成外掛，不支援 After Effects
+akuto	動態字型產品，屬字型／動畫素材而非通用 AE 工具
+anicons-the-animated-icon-library	官方標示已停售，且屬動態圖示素材庫
+animated-textures-for-animation-composer	官方標示已停售，且屬 Animation Composer 的材質素材包
+animation-composer-pro	官方標示已停售的套裝產品，不新增舊版 bundle
+animationpatterns	已收錄為 animationPATTERNSpro，不重複新增舊版產品
+animography-amelie	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-anodine	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-bad-romance	官方標示已停售，且屬單一動態字型素材
+animography-bahn	官方標示已停售，且屬單一動態字型素材
+animography-barbour	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-basic-space	單一實驗性動態字型素材，不是通用 AE 外掛或腳本工具
+animography-binary	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-boomerang	單一動態字型素材，不是通用 AE 外掛或腳本工具
+animography-burstype	單一動態字型素材與爆炸動畫素材，不是通用 AE 工具
+animography-cappuccino	單一動態字型素材，不是通用 AE 外掛或腳本工具
