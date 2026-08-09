@@ -1,6 +1,13 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+blob-it	與已收錄的 CC Blobbylize、Colloid 等黏液／果凍式有機變形功能高度重複
+box-it	與已收錄的 TextBox 2、Animated TextBlock 動態自適應文字框功能高度重複
+break-it	基本破碎功能與 AE 內建 Shatter、CC Pixel Polly 等既有條目高度重複
+breeze	官方說明僅泛稱建立波浪動畫，與多個既有波浪／擺動工具重疊且缺乏代表性差異
+candlecharts-ae	僅服務金融 K 線圖製作，使用情境過於小眾
+carousel-xpress	輪播與環狀／路徑排列功能和已收錄的 Circle Rig Pro 等工具高度重複
+centermasks	僅將遮罩重新置中，功能範圍過窄且代表性不足
 handycam	與已收錄的 Camera 3D Toolkit Pro／AE 3D RIG 等攝影機動畫與控制工具高度重複
 hyle	官方頁僅稱可自動化 AE 任務，缺乏足以準確描述具體功能範圍的說明
 kashida-pro	阿拉伯/波斯/烏爾都文排版工具，對中文使用者過於小眾
