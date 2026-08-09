@@ -1,4 +1,10 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+mocha-pro	已以 Boris FX Mocha Pro 收錄於 third-party.jsonl，避免同一產品重複
+mochaimport-for-nuke	官方標示已停售，且主要用途是 Mocha 與 Nuke 之間的資料交換
+mocode	官方標示已停售且不再提供更新或修補
+modeck-upfront	同一 MoDeck 服務的停售預付方案；改收錄仍在維護的主要 MoDeck 產品頁
+monoline-text	最後更新於 2018 年且官方相容性僅列至 AE CC 2018，現代版本支援不足
+monotize	官方已停止單獨提供，功能已整合進 TYPE 工具
 matrix	最後更新於 2013 年，官方相容性只列至 After Effects CS6，已不適合目前版本
 matrix-swiper-photoshop-extension	僅支援 Photoshop，不是 After Effects 工具
 mechanicus-transitions-for-fcpx	僅支援 Final Cut Pro X，不是 After Effects 工具
