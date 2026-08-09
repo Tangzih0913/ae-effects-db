@@ -261,6 +261,11 @@ elementary	官方頁僅籠統描述整合 3D 外掛與圖層，缺乏可核實�
 fast-renamer	與已收錄的 AE Global Renamer 批次重新命名圖層功能高度重複
 find-my-aep	僅在 macOS Finder 顯示目前 AEP 檔案，功能過度單一且平台受限
 force-auto-save	與已收錄的 Auto Savior、aw-Autosaver、Auto Backup 自動儲存與備份功能高度重複
+fade-it	泛用淡入淡出轉場集合，與資料庫既有大量轉場與動畫工具高度重複
+fade-up-rtl	主要解決特定 RTL／LTR 多行文字逐字淡入需求，適用範圍過於小眾
+duckflow	僅 Windows 可用的系統音訊 ducking 工具，不直接處理 AE 專案音訊或畫面
+fog	霧、上帝光與擴散功能與既有 Fractal Noise 3D、Crate's Godrays、S_Rays 等工具高度重複
+fixel-alce	局部對比增強用途與已收錄的 ContrastUp 高度重複
 animography-typogami	單一 2.5D 動態字型素材，不是通用 AE 外掛或腳本工具
 animography-voyager	單一動態字型素材，不是通用 AE 外掛或腳本工具
 animography-webster	單一動態字型素材，不是通用 AE 外掛或腳本工具
