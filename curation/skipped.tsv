@@ -1,4 +1,7 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+malty-cuber	官方頁明確標示已停售且不再提供
+malty-simple-camera-rig	官方頁明確標示已停售，並建議改用新版 HandyCam
+malty-snapshot	官方頁明確標示已停售且不再提供
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
 looper-pro	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
