@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 1262 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 1562 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜公認最漂亮的AE輝光，物理指數衰減、可調色散，一鍵好看｜https://aescripts.com/deep-glow/
@@ -833,6 +833,245 @@ BCC+ Ripple｜Continuum｜warp｜用三組可獨立控制的自動動畫漣漪�
 BCC+ Displacement Map｜Continuum｜warp｜依圖層亮度或色彩驅動畫面的水平與垂直置換，適合製作紋理變形、熱浪與自動化故障扭曲。｜https://borisfx.com/documentation/continuum/bcc-displacement-map-1/
 BCC+ Polar Displacement｜Continuum｜warp｜以貼圖控制徑向與角向位移來環繞扭曲畫面，適合製作旋渦、環形波動與抽象放射變形。｜https://borisfx.com/documentation/continuum/bcc-polar-displacement-1/
 BCC+ Vector Displacement｜Continuum｜warp｜利用貼圖的 RGB 通道分別控制三個方向的向量位移，適合製作立體紋理變形、液態扭曲與彩色故障。｜https://borisfx.com/documentation/continuum/bcc-vector-displacement-1/
+BCC Extruded EPS｜Continuum｜3d｜提供「BCC Extruded EPS」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-extruded-eps/
+BCC Extruded Spline｜Continuum｜3d｜提供「BCC Extruded Spline」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-extruded-spline/
+BCC Extruded Text｜Continuum｜text｜提供「BCC Extruded Text」的文字與標題控制，適合製作文字、標題與字體動畫。｜https://borisfx.com/documentation/continuum/bcc-extruded-text/
+BCC Layer Deformer｜Continuum｜3d｜提供「BCC Layer Deformer」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-layer-deformer/
+BCC Type-On Text｜Continuum｜text｜提供「BCC Type-On Text」的文字與標題控制，適合製作文字、標題與字體動畫。｜https://borisfx.com/documentation/continuum/bcc-type-on-text/
+BCC+ Borders｜Continuum｜stylize｜提供「BCC+ Borders」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-borders/
+BCC+ Color Infrared｜Continuum｜color｜提供「BCC+ Color Infrared」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-infrared/
+BCC+ Color Shadow｜Continuum｜color｜提供「BCC+ Color Shadow」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-shadow/
+BCC+ Harris Shutter｜Continuum｜stylize｜提供「BCC+ Harris Shutter」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-harris-shutter/
+BCC+ Infrared｜Continuum｜stylize｜提供「BCC+ Infrared」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-infrared/
+BCC+ Night Vision｜Continuum｜stylize｜提供「BCC+ Night Vision」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-night-vision/
+BCC+ X-Ray｜Continuum｜stylize｜提供「BCC+ X-Ray」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-x-ray/
+BCC Artists Poster｜Continuum｜stylize｜提供「BCC Artists Poster」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-artists-poster/
+BCC Bump Map｜Continuum｜stylize｜提供「BCC Bump Map」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-bump-map/
+BCC Median｜Continuum｜stylize｜提供「BCC Median」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-median/
+BCC Posterize｜Continuum｜stylize｜提供「BCC Posterize」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-posterize/
+BCC Spray Paint Noise｜Continuum｜stylize｜提供「BCC Spray Paint Noise」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-spray-paint-noise/
+BCC Tile Mosaic｜Continuum｜stylize｜提供「BCC Tile Mosaic」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-tile-mosaic/
+BCC+ Channel Blur｜Continuum｜blur｜提供「BCC+ Channel Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-channel-blur/
+BCC+ Channel Blur YUV｜Continuum｜blur｜提供「BCC+ Channel Blur YUV」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-channel-blur-yuv/
+BCC+ Detail｜Continuum｜blur｜提供「BCC+ Detail」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-detail/
+BCC+ Directional Blur｜Continuum｜blur｜提供「BCC+ Directional Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-directional-blur/
+BCC+ Lens Blur｜Continuum｜blur｜提供「BCC+ Lens Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-Lens-blur-1
+BCC+ Radial Blur｜Continuum｜blur｜提供「BCC+ Radial Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-radial-blur/
+BCC+ Smear Blur｜Continuum｜blur｜提供「BCC+ Smear Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-smear-blur/
+BCC Fast Lens Blur｜Continuum｜blur｜提供「BCC Fast Lens Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-fast-lens-blur/
+BCC Lens Shape｜Continuum｜blur｜提供「BCC Lens Shape」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-lens-shape/
+BCC Unsharp Mask｜Continuum｜blur｜提供「BCC Unsharp Mask」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-unsharp-mask/
+BCC Z-blur｜Continuum｜blur｜提供「BCC Z-blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-z-blur/
+BCC FX Browser｜Continuum｜stylize｜提供「BCC FX Browser」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-fx-browser/
+BCC+ Black and White｜Continuum｜color｜提供「BCC+ Black and White」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-black-and-white/
+BCC+ Color Link｜Continuum｜color｜提供「BCC+ Color Link」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-link
+BCC+ DeFog｜Continuum｜color｜提供「BCC+ DeFog」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-defog/
+BCC+ Develop｜Continuum｜color｜提供「BCC+ Develop」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-develop/
+BCC+ Enhancing｜Continuum｜color｜提供「BCC+ Enhancing」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-enhancing/
+BCC+ F Stop｜Continuum｜color｜提供「BCC+ F Stop」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-plus-f-stop/
+BCC+ Florescent｜Continuum｜color｜提供「BCC+ Florescent」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-plus-fluorescent/
+BCC+ Grade｜Continuum｜color｜提供「BCC+ Grade」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-grade/
+BCC+ Haze｜Continuum｜color｜提供「BCC+ Haze」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-plus-haze/
+BCC+ High Contrast｜Continuum｜color｜提供「BCC+ High Contrast」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-high-contrast/
+BCC+ Kelvin｜Continuum｜color｜提供「BCC+ Kelvin」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-kelvin/
+BCC+ Low Contrast｜Continuum｜color｜提供「BCC+ Low Contrast」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-low-contrast/
+BCC+ Polarizer｜Continuum｜color｜提供「BCC+ Polarizer」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-polarizer/
+BCC+ Selective Saturation｜Continuum｜color｜提供「BCC+ Selective Saturation」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-selective-saturation/
+BCC+ Shadows/Highlights｜Continuum｜light｜提供「BCC+ Shadows/Highlights」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-shadows-highlights/
+BCC Brightness Contrast｜Continuum｜color｜提供「BCC Brightness Contrast」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-brightness-contrast/
+BCC Color Balance｜Continuum｜color｜提供「BCC Color Balance」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-balance/
+BCC Color Correction｜Continuum｜color｜提供「BCC Color Correction」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-correction/
+BCC Colorize｜Continuum｜color｜提供「BCC Colorize」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-colorize/
+BCC Correct Selected Color｜Continuum｜color｜提供「BCC Correct Selected Color」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-correct-selected-color/
+BCC HSL｜Continuum｜color｜提供「BCC HSL」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-hue-sat-lightness/
+BCC Invert Solarize｜Continuum｜color｜提供「BCC Invert Solarize」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-invert-solarize/
+BCC Levels Gamma｜Continuum｜color｜提供「BCC Levels Gamma」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-levels-gamma/
+BCC Multitone Mix｜Continuum｜color｜提供「BCC Multitone Mix」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-multitone-mix/
+BCC Tritone｜Continuum｜color｜提供「BCC Tritone」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-tritone/
+BCC+ Atmospheric Glow｜Continuum｜light｜提供「BCC+ Atmospheric Glow」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-atmospheric-glow/
+BCC+ Bleach Bypass｜Continuum｜film｜提供「BCC+ Bleach Bypass」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-bleach-bypass/
+BCC+ Cross Processing｜Continuum｜film｜提供「BCC+ Cross Processing」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-cross-processing/
+BCC+ Day For Night｜Continuum｜film｜提供「BCC+ Day For Night」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-day-for-night/
+BCC+ Film Glow｜Continuum｜light｜提供「BCC+ Film Glow」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-plus-film-glow/
+BCC+ Film Grunge｜Continuum｜film｜提供「BCC+ Film Grunge」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-plus-film-grunge/
+BCC+ Flashing｜Continuum｜film｜提供「BCC+ Flashing」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-plus-flashing/
+BCC+ Light Flicker｜Continuum｜light｜提供「BCC+ Light Flicker」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-light-flicker
+BCC+ Orbs｜Continuum｜film｜提供「BCC+ Orbs」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-orbs
+BCC+ Smoke and Fog｜Continuum｜particles｜提供「BCC+ Smoke and Fog」的粒子與自然現象控制，適合製作粒子、煙火或自然現象動畫。｜https://borisfx.com/documentation/continuum/bcc-smoke-fog
+BCC+ Three Strip｜Continuum｜film｜提供「BCC+ Three Strip」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-three-strip/
+BCC+ Two Strip｜Continuum｜film｜提供「BCC+ Two Strip」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-plus-two-strip/
+BCC Deinterlace｜Continuum｜film｜提供「BCC Deinterlace」的底片與復古質感控制，適合模擬底片、類比影像與老舊媒體外觀。｜https://borisfx.com/documentation/continuum/bcc-deinterlace/
+BCC+ Color Gradient｜Continuum｜color｜提供「BCC+ Color Gradient」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-gradient/
+BCC+ Color Spot｜Continuum｜color｜提供「BCC+ Color Spot」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-color-spot/
+BCC+ Colorize Gradient｜Continuum｜color｜提供「BCC+ Colorize Gradient」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-colorize-gradient/
+BCC+ Dual Gradient｜Continuum｜stylize｜提供「BCC+ Dual Gradient」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-dual-gradient/
+BCC+ Gels｜Continuum｜stylize｜提供「BCC+ Gels」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-gels/
+BCC+ ND Gradient｜Continuum｜stylize｜提供「BCC+ ND Gradient」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-nd-gradient/
+BCC+ Photographic｜Continuum｜stylize｜提供「BCC+ Photographic」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-photographic/
+BCC+ Radial Tint｜Continuum｜stylize｜提供「BCC+ Radial Tint」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-radial-tint/
+BCC+ Sepia｜Continuum｜stylize｜提供「BCC+ Sepia」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-sepia/
+BCC+ Skin Tone｜Continuum｜color｜提供「BCC+ Skin Tone」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-skin-tone/
+BCC+ Split Tone｜Continuum｜color｜提供「BCC+ Split Tone」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-split-tone/
+BCC+ Sunset｜Continuum｜stylize｜提供「BCC+ Sunset」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-sunset/
+BCC+ Tint｜Continuum｜stylize｜提供「BCC+ Tint」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-tint/
+BCC+ DeBand｜Continuum｜stylize｜提供「BCC+ DeBand」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-deband/
+BCC+ DeBlock｜Continuum｜stylize｜提供「BCC+ DeBlock」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-deblock/
+BCC Broadcast Safe｜Continuum｜stylize｜提供「BCC Broadcast Safe」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-broadcast-safe/
+BCC Dropout Fixer｜Continuum｜restore｜提供「BCC Dropout Fixer」的修復與清理控制，適合清除瑕疵、雜訊或不需要的影像元素。｜https://borisfx.com/documentation/continuum/bcc-dropout-fixer/
+BCC Dust and Scratches｜Continuum｜stylize｜提供「BCC Dust and Scratches」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-dust-and-scratches/
+BCC Pixel Fixer｜Continuum｜restore｜提供「BCC Pixel Fixer」的修復與清理控制，適合清除瑕疵、雜訊或不需要的影像元素。｜https://borisfx.com/documentation/continuum/bcc-pixel-fixer/
+BCC+ Color Paste｜Continuum｜keying｜提供「BCC+ Color Paste」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-color-paste/
+BCC+ Composite｜Continuum｜keying｜提供「BCC+ Composite」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-plus-composite/
+BCC+ Edge Cleaner｜Continuum｜keying｜提供「BCC+ Edge Cleaner」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-edge-cleaner-1
+BCC+ Edge Composite｜Continuum｜keying｜提供「BCC+ Edge Composite」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-edge-composite/
+BCC+ Holdout Composite｜Continuum｜keying｜提供「BCC+ Holdout Composite」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-holdout-composite/
+BCC+ Linear Color Key｜Continuum｜keying｜提供「BCC+ Linear Color Key」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-linear-color-key-1
+BCC+ Linear Luma Key｜Continuum｜keying｜提供「BCC+ Linear Luma Key」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-linear-luma-key-1
+BCC+ Math Composite｜Continuum｜keying｜提供「BCC+ Math Composite」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-math-composite/
+BCC+ Non-Additive Mix｜Continuum｜keying｜提供「BCC+ Non-Additive Mix」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-non-additive-mix/
+BCC+ Optical Dissolve｜Continuum｜keying｜提供「BCC+ Optical Dissolve」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-optical-dissolve/
+BCC+ Pixel Chooser｜Continuum｜keying｜提供「BCC+ Pixel Chooser」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-pixel-chooser-1
+BCC+ Two Way Key｜Continuum｜keying｜提供「BCC+ Two Way Key」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-two-way-keyer
+BCC Alpha Process｜Continuum｜keying｜提供「BCC Alpha Process」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-alpha-process/
+BCC Chroma Key｜Continuum｜keying｜提供「BCC Chroma Key」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-chroma-key/
+BCC Composite Choker｜Continuum｜keying｜提供「BCC Composite Choker」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-composite-choker/
+BCC Make Alpha Key｜Continuum｜keying｜提供「BCC Make Alpha Key」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-make-alpha-key/
+BCC Matte Choker｜Continuum｜keying｜提供「BCC Matte Choker」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-matte-choker/
+BCC Matte Cleanup｜Continuum｜keying｜提供「BCC Matte Cleanup」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-matte-cleanup/
+BCC Premult｜Continuum｜keying｜提供「BCC Premult」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-premult/
+BCC RGB Blend｜Continuum｜keying｜提供「BCC RGB Blend」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-rgb-blend/
+BCC+ DeFringe｜Continuum｜stylize｜提供「BCC+ DeFringe」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-defringe/
+BCC+ Lens Distortion｜Continuum｜warp｜提供「BCC+ Lens Distortion」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-lens-distortion/
+BCC+ Radial Exposure｜Continuum｜stylize｜提供「BCC+ Radial Exposure」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-radial-exposure/
+BCC+ Wide Angle Lens｜Continuum｜stylize｜提供「BCC+ Wide Angle Lens」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-wide-angle-lens/
+BCC+ Ambient Light｜Continuum｜light｜提供「BCC+ Ambient Light」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-ambient-light/
+BCC+ Chroma Bands｜Continuum｜light｜提供「BCC+ Chroma Bands」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-chroma-bands/
+BCC+ Eye Light｜Continuum｜light｜提供「BCC+ Eye Light」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-eye-light/
+BCC+ Glow Darks｜Continuum｜light｜提供「BCC+ Glow Darks」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-glow-darks/
+BCC+ Glow Edges｜Continuum｜light｜提供「BCC+ Glow Edges」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-glow-edges/
+BCC+ Ice Halos｜Continuum｜light｜提供「BCC+ Ice Halos」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-ice-halos/
+BCC+ Key Light｜Continuum｜light｜提供「BCC+ Key Light」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-key-light/
+BCC+ Lens Flare｜Continuum｜light｜提供「BCC+ Lens Flare」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-lens-flare/
+BCC+ Light｜Continuum｜light｜提供「BCC+ Light」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-light/
+BCC+ Multi-Star｜Continuum｜light｜提供「BCC+ Multi-Star」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-plus-multi-star-dissolve/
+BCC+ Overexpose｜Continuum｜light｜提供「BCC+ Overexpose」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-overexpose/
+BCC+ Reflector｜Continuum｜light｜提供「BCC+ Reflector」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-reflector/
+BCC+ Streaks｜Continuum｜light｜提供「BCC+ Streaks」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-streaks/
+BCC Rays Puffy｜Continuum｜light｜提供「BCC Rays Puffy」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-rays-puffy/
+BCC Rays Radiant Edges｜Continuum｜light｜提供「BCC Rays Radiant Edges」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-rays-radiant-edges/
+BCC Reverse Spotlight｜Continuum｜light｜提供「BCC Reverse Spotlight」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-reverse-spotlight/
+BCC Spotlight｜Continuum｜light｜提供「BCC Spotlight」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-spotlight/
+BCC+ Center Spot｜Continuum｜stylize｜提供「BCC+ Center Spot」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-center-spot/
+BCC+ Depth of Field｜Continuum｜stylize｜提供「BCC+ Depth of Field」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-depth-of-field/
+BCC+ Diffusion｜Continuum｜stylize｜提供「BCC+ Diffusion」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-diffusion/
+BCC+ Double Fog｜Continuum｜stylize｜提供「BCC+ Double Fog」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-double-fog/
+BCC+ Fog｜Continuum｜stylize｜提供「BCC+ Fog」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-fog/
+BCC+ Frost｜Continuum｜stylize｜提供「BCC+ Frost」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-frost/
+BCC+ Halo｜Continuum｜stylize｜提供「BCC+ Halo」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-halo/
+BCC+ Mist｜Continuum｜stylize｜提供「BCC+ Mist」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-mist/
+BCC+ Net｜Continuum｜stylize｜提供「BCC+ Net」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-net/
+BCC+ Rack Focus｜Continuum｜stylize｜提供「BCC+ Rack Focus」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-rack-focus/
+BCC+ Silk｜Continuum｜stylize｜提供「BCC+ Silk」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-silk/
+BCC+ Split Field｜Continuum｜stylize｜提供「BCC+ Split Field」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-split-field/
+BCC+ Transform｜Continuum｜3d｜提供「BCC+ Transform」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-transform/
+BCC 3D Extruded Image Shatter｜Continuum｜3d｜提供「BCC 3D Extruded Image Shatter」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-3d-extruded-image-shatter/
+BCC 3D Image Shatter｜Continuum｜3d｜提供「BCC 3D Image Shatter」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-3d-image-shatter/
+BCC Cube｜Continuum｜3d｜提供「BCC Cube」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-cube/
+BCC Cylinder｜Continuum｜3d｜提供「BCC Cylinder」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-cylinder/
+BCC Fast Flipper｜Continuum｜3d｜提供「BCC Fast Flipper」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-fast-flipper/
+BCC Page Turn｜Continuum｜3d｜提供「BCC Page Turn」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-page-turn/
+BCC Pan and Zoom｜Continuum｜3d｜提供「BCC Pan and Zoom」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-pan-and-zoom/
+BCC Sphere｜Continuum｜3d｜提供「BCC Sphere」的三維與透視控制，適合建立三維物件、擠出或透視空間效果。｜https://borisfx.com/documentation/continuum/bcc-sphere/
+BCC Sphere Transition｜Continuum｜transition｜提供「BCC Sphere Transition」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-sphere-transition/
+BCC+ Mosaic｜Continuum｜stylize｜提供「BCC+ Mosaic」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-mosaic-1
+BCC Color Choker｜Continuum｜keying｜提供「BCC Color Choker」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-color-choker/
+BCC Colorize Glow｜Continuum｜light｜提供「BCC Colorize Glow」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-colorize-glow/
+BCC Drop Shadow｜Continuum｜stylize｜提供「BCC Drop Shadow」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-drop-shadow/
+BCC Emboss｜Continuum｜stylize｜提供「BCC Emboss」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-emboss/
+BCC Glow Alpha Edges｜Continuum｜light｜提供「BCC Glow Alpha Edges」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-glow-alpha-edges/
+BCC Multi-Shadow｜Continuum｜stylize｜提供「BCC Multi-Shadow」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-multi-shadow/
+BCC Reflection｜Continuum｜stylize｜提供「BCC Reflection」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-reflection/
+BCC RGB Edges｜Continuum｜stylize｜提供「BCC RGB Edges」的風格化控制，適合轉換成插畫、描邊或藝術化影像風格。｜https://borisfx.com/documentation/continuum/bcc-rgb-edges/
+BCC RGB PixelNoise｜Continuum｜texture｜提供「BCC RGB PixelNoise」的紋理與程序材質控制，適合生成程序紋理、雜訊與自然材質。｜https://borisfx.com/documentation/continuum/bcc-rgb-pixel-noise/
+BCC Scatterize｜Continuum｜stylize｜提供「BCC Scatterize」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-scatterize/
+BCC Caustics｜Continuum｜text｜提供「BCC Caustics」的文字與標題控制，適合製作文字、標題與字體動畫。｜https://borisfx.com/documentation/continuum/bcc-caustics/
+BCC Mixed Colors｜Continuum｜color｜提供「BCC Mixed Colors」的調色控制，適合修正色彩、明暗與影像風格。｜https://borisfx.com/documentation/continuum/bcc-mixed-colors/
+BCC Noise Map 2｜Continuum｜text｜提供「BCC Noise Map 2」的文字與標題控制，適合製作文字、標題與字體動畫。｜https://borisfx.com/documentation/continuum/bcc-noise-map-2/
+BCC Jitter｜Continuum｜time｜提供「BCC Jitter」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-jitter/
+BCC Jitter Basic｜Continuum｜time｜提供「BCC Jitter Basic」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-jitter-basic/
+BCC Looper｜Continuum｜time｜提供「BCC Looper」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-looper/
+BCC Posterize Time｜Continuum｜time｜提供「BCC Posterize Time」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-posterize-time/
+BCC Temporal Blur｜Continuum｜blur｜提供「BCC Temporal Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-temporal-blur/
+BCC Time Displacement｜Continuum｜time｜提供「BCC Time Displacement」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-time-displacement/
+BCC Trails Basic｜Continuum｜time｜提供「BCC Trails Basic」的時間與殘影控制，適合調整時間、循環、抖動或動態殘影。｜https://borisfx.com/documentation/continuum/bcc-trails-basic/
+BCC+ Atmospheric Glow Dissolve｜Continuum｜light｜提供「BCC+ Atmospheric Glow Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-atmospheric-glow-dissolve
+BCC+ Blur Dissolve｜Continuum｜blur｜提供「BCC+ Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-blur-dissolve/
+BCC+ Camera Shake Dissolve｜Continuum｜transition｜提供「BCC+ Camera Shake Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-camera-shake-dissolve/
+BCC+ Channel Blur Dissolve｜Continuum｜blur｜提供「BCC+ Channel Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-blur-dissolve/
+BCC+ Crash Zoom Dissolve｜Continuum｜transition｜提供「BCC+ Crash Zoom Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-crash-zoom-dissolve/
+BCC+ Cross Zom Dissolve｜Continuum｜transition｜提供「BCC+ Cross Zom Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-cross-zoom-dissolve/
+BCC+ Directional Blur Dissolve｜Continuum｜blur｜提供「BCC+ Directional Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-directional-blur-dissolve/
+BCC+ Dissolve｜Continuum｜transition｜提供「BCC+ Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-dissolve/
+BCC+ Film Glow Dissolve｜Continuum｜light｜提供「BCC+ Film Glow Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-plus-film-glow-dissolve/
+BCC+ Film Roll｜Continuum｜transition｜提供「BCC+ Film Roll」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-film-roll
+BCC+ Flutter Cut｜Continuum｜transition｜提供「BCC+ Flutter Cut」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-flutter-cut
+BCC+ Light Leaks Dissolve｜Continuum｜light｜提供「BCC+ Light Leaks Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-plus-light-leaks-dissolve/
+BCC+ Linear Wipe｜Continuum｜transition｜提供「BCC+ Linear Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-linear-wipe-1
+BCC+ Mosaic Dissolve｜Continuum｜transition｜提供「BCC+ Mosaic Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-mosaic-dissolve
+BCC+ Multi-Star Dissolve｜Continuum｜light｜提供「BCC+ Multi-Star Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-plus-multi-star-dissolve/
+BCC+ Orbs Dissolve｜Continuum｜transition｜提供「BCC+ Orbs Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-orbs-dissolve
+BCC+ Prism Dissolve｜Continuum｜transition｜提供「BCC+ Prism Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-prism-dissolve/
+BCC+ Rack Focus Dissolve｜Continuum｜transition｜提供「BCC+ Rack Focus Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-rack-focus-dissolve/
+BCC+ Radial Wipe｜Continuum｜transition｜提供「BCC+ Radial Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-radial-wipe-1
+BCC+ Rays Dissolve｜Continuum｜transition｜提供「BCC+ Rays Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-rays-dissolve/
+BCC+ Rectangular Wipe｜Continuum｜transition｜提供「BCC+ Rectangular Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-rectangular-wipe-1
+BCC+ Smoke and Fog Dissolve｜Continuum｜particles｜提供「BCC+ Smoke and Fog Dissolve」的粒子與自然現象控制，適合製作粒子、煙火或自然現象動畫。｜https://borisfx.com/documentation/continuum/bcc-smoke-and-fog-dissolve
+BCC+ Smoke Wipe｜Continuum｜particles｜提供「BCC+ Smoke Wipe」的粒子與自然現象控制，適合製作粒子、煙火或自然現象動畫。｜https://borisfx.com/documentation/continuum/bcc-smoke-wipe
+BCC+ Spin Blur Dissolve｜Continuum｜blur｜提供「BCC+ Spin Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-plus-spin-blur-dissolve/
+BCC+ Swish Glow｜Continuum｜light｜提供「BCC+ Swish Glow」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-swish-glow
+BCC+ Swish Prism｜Continuum｜transition｜提供「BCC+ Swish Prism」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-swish-prism
+BCC+ Swish Warp｜Continuum｜transition｜提供「BCC+ Swish Warp」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-swish-warp
+BCC+ Texture Wipe｜Continuum｜transition｜提供「BCC+ Texture Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-texture-wipe
+BCC+ Video Glitch Dissolve｜Continuum｜transition｜提供「BCC+ Video Glitch Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-plus-video-glitch-dissolve/
+BCC+ Vignette Wipe｜Continuum｜transition｜提供「BCC+ Vignette Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-vignette-wipe-1
+BCC Blobs Wipe｜Continuum｜transition｜提供「BCC Blobs Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-blobs-wipe/
+BCC Checker Wipe｜Continuum｜transition｜提供「BCC Checker Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-checker-wipe/
+BCC Colorize Glow Dissolve｜Continuum｜light｜提供「BCC Colorize Glow Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-colorize-glow-dissolve/
+BCC Composite Dissolve｜Continuum｜keying｜提供「BCC Composite Dissolve」的去背與合成控制，適合建立遮色片、去背並細修合成邊緣。｜https://borisfx.com/documentation/continuum/bcc-composite-dissolve/
+BCC Criss-Cross Wipe｜Continuum｜transition｜提供「BCC Criss-Cross Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-criss-cross-wipe/
+BCC Damaged TV Dissolve｜Continuum｜transition｜提供「BCC Damaged TV Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-damaged-tv-dissolve/
+BCC Grid Wipe｜Continuum｜transition｜提供「BCC Grid Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-grid-wipe/
+BCC Kaleida Dissolve｜Continuum｜transition｜提供「BCC Kaleida Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-kaleida-dissolve/
+BCC Lens Blur Dissolve｜Continuum｜blur｜提供「BCC Lens Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-lens-blur-dissolve/
+BCC Lens Distortion Wipe｜Continuum｜transition｜提供「BCC Lens Distortion Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-lens-distortion-wipe/
+BCC Lens Flare Dissolve｜Continuum｜light｜提供「BCC Lens Flare Dissolve」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-lens-flare-dissolve/
+BCC Lens Flare Round｜Continuum｜light｜提供「BCC Lens Flare Round」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-lens-flare-round/
+BCC Lens Flare Spiked｜Continuum｜light｜提供「BCC Lens Flare Spiked」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-lens-flare-spiked/
+BCC Light Wipe｜Continuum｜light｜提供「BCC Light Wipe」的發光與光效控制，適合製作光暈、鏡頭光與高光氣氛。｜https://borisfx.com/documentation/continuum/bcc-light-wipe/
+BCC Multi-Stretch Wipe｜Continuum｜transition｜提供「BCC Multi-Stretch Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-multi-stretch-wipe/
+BCC Multi-Stripe Wipe｜Continuum｜transition｜提供「BCC Multi-Stripe Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-multi-stripe-wipe/
+BCC Particle Illusion Dissolve｜Continuum｜particles｜提供「BCC Particle Illusion Dissolve」的粒子與自然現象控制，適合製作粒子、煙火或自然現象動畫。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion-dissolve/
+BCC RGB Blur Dissolve｜Continuum｜blur｜提供「BCC RGB Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-rgb-blur-dissolve/
+BCC RGB Displacement Dissolve｜Continuum｜transition｜提供「BCC RGB Displacement Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-rgb-displacement-dissolve/
+BCC Ribbon Wipe｜Continuum｜transition｜提供「BCC Ribbon Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-ribbon-wipe/
+BCC Rings Wipe｜Continuum｜transition｜提供「BCC Rings Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-rings-wipe/
+BCC Ripple Dissolve｜Continuum｜transition｜提供「BCC Ripple Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-ripple-dissolve/
+BCC Tile Wipe｜Continuum｜transition｜提供「BCC Tile Wipe」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-tile-wipe/
+BCC Tritone Dissolve｜Continuum｜transition｜提供「BCC Tritone Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-tritone-dissolve/
+BCC Vector Blur Dissolve｜Continuum｜blur｜提供「BCC Vector Blur Dissolve」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-vector-blur-dissolve/
+BCC Water Waves Dissolve｜Continuum｜transition｜提供「BCC Water Waves Dissolve」的轉場控制，適合建立可調節奏與外觀的鏡頭轉場。｜https://borisfx.com/documentation/continuum/bcc-water-waves-dissolve/
+BCC VR Blur｜Continuum｜blur｜提供「BCC VR Blur」的模糊與景深控制，適合柔化、散景與景深處理。｜https://borisfx.com/documentation/continuum/bcc-vr-blur/
+BCC VR Flicker Fixer｜Continuum｜restore｜提供「BCC VR Flicker Fixer」的修復與清理控制，適合清除瑕疵、雜訊或不需要的影像元素。｜https://borisfx.com/documentation/continuum/bcc-vr-flicker-fixer/
+BCC VR insert｜Continuum｜stylize｜提供「BCC VR insert」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-vr-insert/
+BCC VR Reorient｜Continuum｜stylize｜提供「BCC VR Reorient」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-vr-reorient/
+BCC VR Sharpen｜Continuum｜stylize｜提供「BCC VR Sharpen」的影像特效控制，適合快速建立可調整的視覺處理與動態設計效果。｜https://borisfx.com/documentation/continuum/bcc-vr-sharpen/
+BCC+ Polar Warp｜Continuum｜warp｜提供「BCC+ Polar Warp」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-polar-warp
+BCC+ ST Map｜Continuum｜warp｜提供「BCC+ ST Map」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-st-map
+BCC Bulge｜Continuum｜warp｜提供「BCC Bulge」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-bulge/
+BCC Curl｜Continuum｜warp｜提供「BCC Curl」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-curl/
+BCC Turbulence｜Continuum｜warp｜提供「BCC Turbulence」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-turbulence/
+BCC Twirl｜Continuum｜warp｜提供「BCC Twirl」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-twirl/
+BCC Wave｜Continuum｜warp｜提供「BCC Wave」的扭曲與變形控制，適合製作波紋、扭曲與幾何變形。｜https://borisfx.com/documentation/continuum/bcc-wave/
 Topaz Video AI｜未驗證｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
 Orb (VC Orb)｜未驗證｜3d｜免費：在AE內生成擬真3D星球/行星，含物理PBR著色、可設計大氣層光暈、地形凹凸貼圖、環境反射、雲層與自動陰影。做地球、外星球、太空場景神器。｜https://www.videocopilot.net/orb
 Fast Camera Lens Blur｜未驗證｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
@@ -1099,6 +1338,67 @@ S_FlutterCut｜Sapphire｜transition｜隨機快閃跳剪轉場。｜https://bor
 S_Dissolve系列｜Sapphire｜transition｜各式風格化溶解轉場(30種)：用輝光/模糊/扭曲/漏光/故障/漩渦等風格化的方式溶接兩鏡。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
 S_Wipe系列｜Sapphire｜transition｜圖案擦除轉場(20種)：用圓/星/時鐘/棋盤/雲/點等圖案擦出下一鏡。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
 S_Edit系列｜Sapphire｜transition｜剪輯輔助工具組：切變溶解、隨機跳剪、倒放、片段倒序等。｜https://borisfx.com/documentation/sapphire/ae/picture-index/
+S_AdvancedDefocus｜Sapphire｜blur｜以 Sapphire 的「AdvancedDefocus」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/advanceddefocus/
+S_BlurChannels｜Sapphire｜blur｜以 Sapphire 的「BlurChannels」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/blurchannels/
+S_BlurChroma｜Sapphire｜blur｜以 Sapphire 的「BlurChroma」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/blurchroma/
+S_BlurDirectional｜Sapphire｜blur｜以 Sapphire 的「BlurDirectional」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/blurdirectional/
+S_BlurMoCurves｜Sapphire｜blur｜以 Sapphire 的「BlurMoCurves」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/blurmocurves/
+S_ChannelSwitcher｜Sapphire｜stylize｜以 Sapphire 的「ChannelSwitcher」處理影像特效，適合建立可調整的視覺設計效果。｜https://borisfx.com/documentation/sapphire/ae/channelswitcher/
+S_ClampChroma｜Sapphire｜color｜以 Sapphire 的「ClampChroma」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/clampchroma/
+S_Clouds｜Sapphire｜time｜以 Sapphire 的「Clouds」處理時間與殘影，適合建立時間變化、閃爍與動態殘影。｜https://borisfx.com/documentation/sapphire/ae/clouds/
+S_CloudsColorSmooth｜Sapphire｜color｜以 Sapphire 的「CloudsColorSmooth」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/cloudscolorsmooth/
+S_CloudsMultColor｜Sapphire｜color｜以 Sapphire 的「CloudsMultColor」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/cloudsmultcolor/
+S_CloudsPerspective｜Sapphire｜time｜以 Sapphire 的「CloudsPerspective」處理時間與殘影，適合建立時間變化、閃爍與動態殘影。｜https://borisfx.com/documentation/sapphire/ae/cloudsperspective/
+S_CloudsPsyko｜Sapphire｜color｜以 Sapphire 的「CloudsPsyko」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/cloudspsyko/
+S_CloudsVortex｜Sapphire｜time｜以 Sapphire 的「CloudsVortex」處理時間與殘影，適合建立時間變化、閃爍與動態殘影。｜https://borisfx.com/documentation/sapphire/ae/cloudsvortex/
+S_Convolve｜Sapphire｜blur｜以 Sapphire 的「Convolve」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/convolve/
+S_ConvolveComp｜Sapphire｜blur｜以 Sapphire 的「ConvolveComp」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/convolvecomp/
+S_CutToDissolve｜Sapphire｜transition｜以 Sapphire 的「CutToDissolve」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/cuttodissolve/
+S_DefocusPrism｜Sapphire｜blur｜以 Sapphire 的「DefocusPrism」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/defocusprism/
+S_Dissolve｜Sapphire｜transition｜以 Sapphire 的「Dissolve」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolve/
+S_DissolveAutoPaint｜Sapphire｜transition｜以 Sapphire 的「DissolveAutoPaint」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolveautopaint/
+S_DissolveBlur｜Sapphire｜blur｜以 Sapphire 的「DissolveBlur」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/dissolveblur/
+S_DissolveBubble｜Sapphire｜transition｜以 Sapphire 的「DissolveBubble」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvebubble/
+S_DissolveDefocus｜Sapphire｜blur｜以 Sapphire 的「DissolveDefocus」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/dissolvedefocus/
+S_DissolveDiffuse｜Sapphire｜transition｜以 Sapphire 的「DissolveDiffuse」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvediffuse/
+S_DissolveDigitalDamage｜Sapphire｜transition｜以 Sapphire 的「DissolveDigitalDamage」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvedigitaldamage/
+S_DissolveDistort｜Sapphire｜transition｜以 Sapphire 的「DissolveDistort」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvedistort/
+S_DissolveEdgeRays｜Sapphire｜light｜以 Sapphire 的「DissolveEdgeRays」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolveedgerays/
+S_DissolveFilm｜Sapphire｜light｜以 Sapphire 的「DissolveFilm」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolvefilm/
+S_DissolveFlashbulbs｜Sapphire｜transition｜以 Sapphire 的「DissolveFlashbulbs」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolveflashbulbs/
+S_DissolveGlare｜Sapphire｜transition｜以 Sapphire 的「DissolveGlare」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolveglare/
+S_DissolveGlint｜Sapphire｜light｜以 Sapphire 的「DissolveGlint」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolveglint/
+S_DissolveGlintRainbow｜Sapphire｜light｜以 Sapphire 的「DissolveGlintRainbow」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolveglintrainbow/
+S_DissolveGlow｜Sapphire｜light｜以 Sapphire 的「DissolveGlow」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolveglow/
+S_DissolveLensFlare｜Sapphire｜light｜以 Sapphire 的「DissolveLensFlare」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolvelensflare/
+S_DissolveLightLeak｜Sapphire｜light｜以 Sapphire 的「DissolveLightLeak」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolvelightleak/
+S_DissolveLuma｜Sapphire｜transition｜以 Sapphire 的「DissolveLuma」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolveluma/
+S_DissolvePixelMosh｜Sapphire｜light｜以 Sapphire 的「DissolvePixelMosh」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolvepixelmosh/
+S_DissolvePixelSort｜Sapphire｜transition｜以 Sapphire 的「DissolvePixelSort」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvepixelsort/
+S_DissolvePuddle｜Sapphire｜transition｜以 Sapphire 的「DissolvePuddle」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvepuddle/
+S_DissolveRays｜Sapphire｜light｜以 Sapphire 的「DissolveRays」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolverays/
+S_DissolveShake｜Sapphire｜blur｜以 Sapphire 的「DissolveShake」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/dissolveshake/
+S_DissolveSpeckle｜Sapphire｜transition｜以 Sapphire 的「DissolveSpeckle」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvespeckle/
+S_DissolveStatic｜Sapphire｜transition｜以 Sapphire 的「DissolveStatic」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvestatic/
+S_DissolveTiles｜Sapphire｜transition｜以 Sapphire 的「DissolveTiles」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvetiles/
+S_DissolveUltraGlow｜Sapphire｜light｜以 Sapphire 的「DissolveUltraGlow」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolveultraglow/
+S_DissolveVortex｜Sapphire｜transition｜以 Sapphire 的「DissolveVortex」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvevortex/
+S_DissolveWaves｜Sapphire｜transition｜以 Sapphire 的「DissolveWaves」處理轉場，適合製作鏡頭切換與圖形轉場。｜https://borisfx.com/documentation/sapphire/ae/dissolvewaves/
+S_DissolveZap｜Sapphire｜light｜以 Sapphire 的「DissolveZap」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/dissolvezap/
+S_Distort｜Sapphire｜warp｜以 Sapphire 的「Distort」處理扭曲與變形，適合製作扭曲、波動與鏡頭變形。｜https://borisfx.com/documentation/sapphire/ae/distort/
+S_DistortBlur｜Sapphire｜blur｜以 Sapphire 的「DistortBlur」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/distortblur/
+S_DuoTone｜Sapphire｜color｜以 Sapphire 的「DuoTone」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/duotone/
+S_Dust｜Sapphire｜color｜以 Sapphire 的「Dust」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/dust/
+S_EdgeAwareBlur｜Sapphire｜blur｜以 Sapphire 的「EdgeAwareBlur」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/edgeawareblur/
+S_EdgeBlur｜Sapphire｜blur｜以 Sapphire 的「EdgeBlur」處理模糊與景深，適合柔化畫面、製作散景或景深。｜https://borisfx.com/documentation/sapphire/ae/edgeblur/
+S_EdgeFlash｜Sapphire｜light｜以 Sapphire 的「EdgeFlash」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/edgeflash/
+S_Effect｜Sapphire｜stylize｜以 Sapphire 的「Effect」處理影像特效，適合建立可調整的視覺設計效果。｜https://borisfx.com/documentation/sapphire/ae/effect/
+S_Flicker｜Sapphire｜color｜以 Sapphire 的「Flicker」處理調色，適合修正色彩、明暗與視覺風格。｜https://borisfx.com/documentation/sapphire/ae/flicker/
+S_FlickerMatch｜Sapphire｜light｜以 Sapphire 的「FlickerMatch」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/flickermatch/
+S_FlickerMatchColor｜Sapphire｜light｜以 Sapphire 的「FlickerMatchColor」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/flickermatchcolor/
+S_FlickerMatchMatte｜Sapphire｜keying｜以 Sapphire 的「FlickerMatchMatte」處理去背與遮色片，適合完成去背、遮色片與邊緣合成。｜https://borisfx.com/documentation/sapphire/ae/flickermatchmatte/
+S_FlickerMchMatteColor｜Sapphire｜keying｜以 Sapphire 的「FlickerMchMatteColor」處理去背與遮色片，適合完成去背、遮色片與邊緣合成。｜https://borisfx.com/documentation/sapphire/ae/flickermchmattecolor/
+S_FlickerRemove｜Sapphire｜light｜以 Sapphire 的「FlickerRemove」處理發光與光效，適合建立光暈、光芒與高光氣氛。｜https://borisfx.com/documentation/sapphire/ae/flickerremove/
 Element 3D｜第三方｜3d｜AE內即時3D物件/文字渲染引擎，匯入OBJ、材質動畫，做3D標題與場景｜https://www.videocopilot.net/products/element2/
 Optical Flares｜第三方｜flare｜最流行的鏡頭光暈外掛，介面直覺可拖拉編輯各鏡片元素，預設精美，做太陽光斑、科技光暈。｜https://www.videocopilot.net/products/opticalflares/
 Saber｜第三方｜light｜免費：光劍/能量光束/霓虹描邊，沿遮罩或文字發光｜https://www.videocopilot.net/blog/2015/03/new-plug-in-saber-now-available-100-free/
