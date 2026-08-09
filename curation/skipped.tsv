@@ -1,6 +1,12 @@
 # 刻意不收錄的 aescripts 產品（slug<TAB>原因）
 # 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
 # 想改變決定就把該行刪掉，它會重新出現在待評估清單。
+looper-pro	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
+loopmaster	一般關鍵影格、素材、Wiggle、旋轉與軌道循環功能和已收錄的 Loopy／Loop Tools Pro 高度重複
+lottiefiles	核心 Lottie 匯入匯出、預覽、相容性檢查與批次流程已由 Bodymovin／Lottie 和 LottiePacker 覆蓋
+ltcprinter	僅提供 Mac 版，最後更新於 2020 年且官方相容性只列到 AE 2021，代表性不足
+malcolm-in-the-center	官方頁標示 No Longer Available，已停售
+malty-closer	官方頁明確標示已停售且不再提供
 lcdeffect	最後更新於 2014 年且僅列到舊版 AE，LCD／CRT 像素與 RGB 分離效果亦與既有條目高度重複
 light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工具
 lightman	最後更新於 2015 年且官方相容性僅列到 AE CC 2015.3，不符合目前版本代表性
