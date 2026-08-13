@@ -28,7 +28,8 @@ DATA = os.path.join(ROOT, "data")
 REQUIRED = ("name", "kind", "cat", "tags", "desc", "url")
 ORDER = [
     "name", "suite", "vendor", "kind", "cat", "tags", "desc", "look",
-    "variants", "stack", "builtin", "url", "unverified", "aex",
+    "variants", "stack", "builtin", "url", "released", "updated", "date_url",
+    "unverified", "aex",
 ]
 
 

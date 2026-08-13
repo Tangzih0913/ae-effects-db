@@ -1,4 +1,4 @@
-# 刻意不收錄的 aescripts 產品（slug<TAB>原因）
+# 刻意不收錄的候選（slug 或穩定識別碼<TAB>具體原因）
 ninebysixteen	官方標示已停售且不再提供
 notecraft	僅支援 Premiere Pro，不是 After Effects 工具
 nx-3-strip	僅支援 DaVinci Resolve Studio，不是 After Effects 工具
@@ -836,3 +836,8 @@ cycore-cc-time-blend	官方手冊標示為 obsolete，已不會出現在效果�
 cycore-cc-time-blend-fx	官方手冊標示為 obsolete，已不會出現在效果選單，只供舊專案或動畫預設載入
 blacklight-composite-suite	官方頁明示為 Color Match Analyzer、Smart Matte Choker、Fill Matte Holes 三工具套裝包，依規則不以整包收錄
 polyline	官方商品頁明示已停售且不再提供支援，不收錄無現行支援的舊工具
+adobe-object-matte-26-2	Adobe 官方列為 AI 選取、隔離與追蹤工具，不是 Effect 面板中的內建效果；目前資料庫不把一般功能拆成效果條目
+adobe-parametric-meshes-26-0	Adobe 官方列為 3D Mesh 建模功能，不是可套用的內建效果
+adobe-substance-3d-materials-26-0	Adobe 官方列為 3D 材質工作流程，不是獨立內建效果
+adobe-quick-apply-26-2	Adobe 官方列為搜尋並執行效果、預設與命令的工作流程，不是效果本體
+adobe-advanced-3d-depth-of-field-26-3	Adobe 官方列為 Advanced 3D 算圖器的景深屬性，不是 Effect 面板中的獨立效果；既有 Depth of Field／Camera Lens Blur 已收錄

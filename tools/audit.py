@@ -30,19 +30,14 @@ def canonical_url(value: str) -> str:
 
 
 def popular_keys() -> list[str]:
-    path = os.path.join(ROOT, "index.html")
+    path = os.path.join(ROOT, "curation", "popularity.json")
     with open(path, encoding="utf-8") as handle:
-        source = handle.read()
-    match = re.search(
-        r"const POPULAR_KEYS\s*=\s*\[(.*?)const POPULAR_INDEX",
-        source,
-        re.S,
-    )
-    if not match:
-        raise ValueError("找不到 index.html 的 POPULAR_KEYS 區塊")
-    keys = re.findall(r'"([^"\n]+:[^"\n]+)"', match.group(1))
+        config = json.load(handle)
+    keys = config.get("featured")
+    if not isinstance(keys, list) or not all(isinstance(key, str) for key in keys):
+        raise ValueError("curation/popularity.json 的 featured 必須是字串陣列")
     if not keys:
-        raise ValueError("POPULAR_KEYS 沒有可解析的項目")
+        raise ValueError("curation/popularity.json 的 featured 不應為空")
     return keys
 
 

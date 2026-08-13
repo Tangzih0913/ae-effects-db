@@ -64,6 +64,21 @@
       "pattern": "^https?://",
       "description": "必填、已實際確認存在的官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/），不得憑名稱猜 slug。"
     },
+    "released": {
+      "type": "string",
+      "format": "date",
+      "description": "（選填）官方可查證的首次發行日期，ISO 8601 YYYY-MM-DD。"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "（選填）官方可查證的最近重大更新日期，ISO 8601 YYYY-MM-DD。"
+    },
+    "date_url": {
+      "type": "string",
+      "pattern": "^https?://",
+      "description": "填 released 或 updated 時必填，連到能直接支持日期的官方頁。"
+    },
     "unverified": {
       "type": "boolean",
       "description": "（選填）true = 查無官方說明、描述是推測。網頁會顯示 ⚠ 未驗證。查證後請移除此欄。"

@@ -26,6 +26,18 @@ class DatabaseConsistencyTests(unittest.TestCase):
     def test_chinese_fallback_segmentation(self):
         self.assertEqual(["煙霧", "霧模", "模擬"], search.segment(["煙霧模擬"]))
 
+    def test_simplified_chinese_and_aliases_are_searchable(self):
+        simplified = search.ranked(self.rows, ["发光"], require_all=True)
+        self.assertTrue(simplified)
+        self.assertTrue(any("Glow" in row["name"] for _, row in simplified[:10]))
+        slowmo = search.ranked(self.rows, ["slowmo"], require_all=True)
+        self.assertTrue(any(row["name"] == "Twixtor" for _, row in slowmo[:10]))
+
+    def test_common_english_typo_can_be_corrected(self):
+        corrected = search.correct_terms(self.rows, ["particlar"])
+        self.assertEqual(["particular"], corrected)
+        self.assertEqual("Particular", search.ranked(self.rows, corrected)[0][1]["name"])
+
     def test_prominent_scripts_and_plugins_are_classified_correctly(self):
         expected = {
             "AfterCodecs": "plugin",

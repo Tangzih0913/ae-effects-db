@@ -41,8 +41,10 @@ validate.py         校驗腳本（改完一定要跑）
 tools/find_new.py   列出 aescripts 上還沒收錄也還沒略過的候選
 tools/add.py        安全匯入：自動判重、檢查欄位、選對資料檔
 curation/skipped.tsv  刻意不收的項目＋原因（決策記憶，避免重複評估）
+curation/popularity.json  可解釋熱門度的人工精選清單、來源權重與各項最高分
 search.py           命令列搜尋
 index.html          靜態搜尋網頁（GitHub Pages）
+dist/web-index.json 網頁用的預建單檔搜尋索引（由 tools/build_index.py 生成）
 skill/find-effect/  Claude Code skill
 EXPANSION.md        持續擴充資料庫的標準作業流程
 ```
@@ -90,6 +92,8 @@ JSONL：**一行一個 JSON 物件，不是陣列、沒有逗號結尾、UTF-8�
 | `stack`/`builtin` | (選，僅 recipes) 要疊的效果清單／內建替代做法 |
 | `suite`/`vendor` | (選) 套件／廠商作者 |
 | `url` | **必填且已實際確認存在的官方產品頁**（aescripts 為 `https://aescripts.com/<slug>/`），不得憑名稱猜 slug |
+| `released`/`updated` | (選) 官方可查證的發行／重大更新日期，格式 `YYYY-MM-DD`；填任一日期時必須一起填 `date_url` |
+| `date_url` | (選) 直接支持日期的官方頁；不得拿資料檔順序或第三方文章推測日期 |
 | `unverified` | (選) `true`=查無官方說明、描述是推測，網頁顯示 ⚠。查證後移除 |
 | `aex` | (選) 對應的 `.aex` 檔名 |
 

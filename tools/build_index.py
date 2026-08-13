@@ -10,7 +10,7 @@
 
 用法：python tools/build_index.py
 """
-import json, os, glob, sys
+import json, os, glob, sys, unicodedata
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -26,14 +26,30 @@ SRC_LABEL = {
     "third-party": "第三方", "installed": "未驗證", "recipes": "配方",
 }
 
+
+def search_text(item):
+    parts = [
+        item.get("name", ""), item.get("kind", ""), item.get("cat", ""),
+        item.get("desc", ""), item.get("look", ""), item.get("suite", ""),
+        item.get("vendor", ""), " ".join(item.get("tags", [])),
+        " ".join(item.get("stack", [])),
+    ]
+    variants = item.get("variants")
+    if isinstance(variants, dict):
+        parts.extend((" ".join(variants), " ".join(map(str, variants.values()))))
+    return unicodedata.normalize("NFKC", " ".join(parts)).casefold()
+
 def main():
     rows = []
+    web_rows = []
     for path in sorted(glob.glob(os.path.join(DATA, "*.jsonl"))):
         src = os.path.splitext(os.path.basename(path))[0]
-        for line in open(path, encoding="utf-8"):
+        for rank, line in enumerate(open(path, encoding="utf-8")):
             line = line.strip()
             if line:
                 o = json.loads(line)
+                web = dict(o, _src=src, _rank=rank, _search=search_text(o))
+                web_rows.append(web)
                 o["src"] = SRC_LABEL.get(src, src)
                 rows.append(o)
 
@@ -41,6 +57,10 @@ def main():
     with open(os.path.join(DIST, "all.jsonl"), "w", encoding="utf-8", newline="\n") as f:
         for o in rows:
             f.write(json.dumps(o, ensure_ascii=False) + "\n")
+
+    with open(os.path.join(DIST, "web-index.json"), "w", encoding="utf-8", newline="\n") as f:
+        json.dump(web_rows, f, ensure_ascii=False, separators=(",", ":"))
+        f.write("\n")
 
     head = (
         "# After Effects 特效／外掛索引（繁體中文）\n"
@@ -55,8 +75,10 @@ def main():
 
     a = os.path.getsize(os.path.join(DIST, "all.jsonl")) / 1024
     b = os.path.getsize(os.path.join(DIST, "index.txt")) / 1024
+    c = os.path.getsize(os.path.join(DIST, "web-index.json")) / 1024
     print(f"✅ dist/all.jsonl（{len(rows)} 筆，{a:.0f} KB）")
     print(f"✅ dist/index.txt（精簡索引，{b:.0f} KB）")
+    print(f"✅ dist/web-index.json（網頁預建搜尋索引，{c:.0f} KB）")
 
 if __name__ == "__main__":
     main()

@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import collections
+import datetime as dt
 import glob
 import json
 import os
@@ -40,7 +41,7 @@ KNOWN_KINDS = {"plugin", "script", "builtin", "recipe"}
 REQUIRED = ("name", "kind", "cat", "tags", "desc", "url")
 OPTIONAL = {
     "look", "variants", "stack", "builtin", "suite", "vendor",
-    "unverified", "aex",
+    "released", "updated", "date_url", "unverified", "aex",
 }
 ALLOWED = set(REQUIRED) | OPTIONAL
 
@@ -60,6 +61,15 @@ def valid_url(value: object) -> bool:
 def canonical_url(value: str) -> str:
     """Normalize cosmetic URL differences without merging distinct product pages."""
     return value.strip().rstrip("/").casefold()
+
+
+def parse_date(value: object) -> dt.date | None:
+    if not isinstance(value, str):
+        return None
+    try:
+        return dt.date.fromisoformat(value)
+    except ValueError:
+        return None
 
 
 def quality_checks(rows: list[tuple[str, str, dict]]) -> list[str]:
@@ -173,6 +183,22 @@ def main() -> None:
                     errors.append(f"{loc} stack 必須是陣列")
                 if "unverified" in item and not isinstance(item["unverified"], bool):
                     errors.append(f"{loc} unverified 必須是 true/false")
+
+                released = parse_date(item.get("released")) if "released" in item else None
+                updated = parse_date(item.get("updated")) if "updated" in item else None
+                if "released" in item and released is None:
+                    errors.append(f"{loc} released 必須是 YYYY-MM-DD")
+                if "updated" in item and updated is None:
+                    errors.append(f"{loc} updated 必須是 YYYY-MM-DD")
+                if (released or updated) and not valid_url(item.get("date_url")):
+                    errors.append(f"{loc} 有日期時必須提供可查證的官方 date_url")
+                if released and updated and updated < released:
+                    errors.append(f"{loc} updated 不得早於 released")
+                today = dt.date.today()
+                if released and released > today:
+                    errors.append(f"{loc} released 不得晚於今天")
+                if updated and updated > today:
+                    errors.append(f"{loc} updated 不得晚於今天")
 
                 # 檔案即是資料分區，避免前端來源與型態互相矛盾。
                 if kind == "builtin" and filename != "builtin-ae.jsonl":

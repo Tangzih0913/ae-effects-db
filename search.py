@@ -11,7 +11,7 @@ AE 特效資料庫 - 命令列搜尋
     python search.py --list-cats
 無外部相依，純標準庫。搜尋 name / tags / desc / variants，中英皆可。
 """
-import json, sys, os, glob, argparse
+import json, sys, os, glob, argparse, unicodedata
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -19,6 +19,48 @@ except Exception:
     pass
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+
+SIMPLIFIED_TO_TRADITIONAL = str.maketrans({
+    "发": "發", "辉": "輝", "颜": "顏", "调": "調", "颗": "顆",
+    "过": "過", "转": "轉", "关": "關", "键": "鍵", "层": "層",
+    "罩": "罩", "踪": "蹤", "稳": "穩", "绿": "綠", "脚": "腳",
+    "插": "插", "内": "內", "动": "動", "边": "邊", "镜": "鏡",
+    "雾": "霧", "锐": "銳", "变": "變", "还": "還", "显": "顯",
+    "图": "圖", "线": "線", "选": "選", "场": "場", "复": "復",
+    "术": "術", "体": "體", "数": "數", "据": "據", "画": "畫",
+    "质": "質", "频": "頻", "拟": "擬", "应": "應", "滤": "濾",
+    "渐": "漸", "虚": "虛", "实": "實", "声": "聲", "缩": "縮",
+    "扩": "擴", "张": "張", "摆": "擺", "烧": "燒", "损": "損",
+})
+
+ALIASES = {
+    "slowmo": ("slow motion", "慢動作", "補幀", "升格"),
+    "slow-mo": ("slow motion", "慢動作", "補幀", "升格"),
+    "retiming": ("retime", "變速", "補幀"),
+    "key": ("keying", "去背", "摳像"),
+    "greenscreen": ("green screen", "綠幕", "去背"),
+    "glitch": ("故障", "數位故障", "破圖"),
+    "denoise": ("noise reduction", "降噪", "去雜訊"),
+    "beautify": ("beauty", "美膚", "磨皮"),
+}
+
+
+def normalize_text(value: object) -> str:
+    """統一寬度、大小寫與常見簡體字，讓 CLI 與網頁搜尋行為一致。"""
+    text = unicodedata.normalize("NFKC", str(value or ""))
+    return " ".join(text.translate(SIMPLIFIED_TO_TRADITIONAL).casefold().split())
+
+
+def term_groups(terms):
+    groups = []
+    for raw in terms:
+        term = normalize_text(raw)
+        if not term:
+            continue
+        values = {term}
+        values.update(normalize_text(alias) for alias in ALIASES.get(term, ()))
+        groups.append(values)
+    return groups
 
 def load():
     rows = []
@@ -45,7 +87,7 @@ def haystack(row):
     if isinstance(v, dict):
         parts.append(" ".join(v.keys()))
         parts.append(" ".join(str(x) for x in v.values()))
-    return " ".join(parts).lower()
+    return normalize_text(" ".join(parts))
 
 def _cjk_char(ch):
     return "一" <= ch <= "鿿" or "㐀" <= ch <= "䶿"
@@ -66,33 +108,88 @@ def segment(terms):
 
 def score(row, terms):
     text = haystack(row)
-    name = row.get("name", "").lower()
-    tags = " ".join(row.get("tags", [])).lower()
+    name = normalize_text(row.get("name", ""))
+    tags = normalize_text(" ".join(row.get("tags", [])))
     s = 0
-    for t in terms:
-        t = t.lower()
-        if not t:
-            continue
-        if t in name:
-            s += 5
-        if t in tags:
-            s += 3
-        if t in text:
-            s += 1
+    for group in term_groups(terms):
+        group_score = 0
+        for term in group:
+            value = (5 if term in name else 0) + (3 if term in tags else 0) + (1 if term in text else 0)
+            group_score = max(group_score, value)
+        s += group_score
+    phrase = " ".join(normalize_text(term) for term in terms if normalize_text(term))
+    if phrase:
+        if name == phrase:
+            s += 40
+        elif phrase in name:
+            s += 20
+        if phrase in tags:
+            s += 10
     return s
 
 def ranked(rows, terms, require_all=True):
     """依相關度排序；預設每個查詢詞都要命中同一筆資料。"""
-    lowered = [term.lower() for term in terms if term]
+    groups = term_groups(terms)
     found = []
     for row in rows:
         text = haystack(row)
-        if require_all and not all(term in text for term in lowered):
+        matches = [any(term in text for term in group) for group in groups]
+        if require_all and not all(matches):
             continue
-        value = score(row, lowered)
+        value = score(row, terms)
         if value > 0:
             found.append((value, row))
     return sorted(found, key=lambda item: (-item[0], item[1].get("name", "").casefold()))
+
+
+def levenshtein(a, b):
+    previous = list(range(len(b) + 1))
+    for i, char_a in enumerate(a, 1):
+        current = [i]
+        for j, char_b in enumerate(b, 1):
+            current.append(min(current[-1] + 1, previous[j] + 1, previous[j - 1] + (char_a != char_b)))
+        previous = current
+    return previous[-1]
+
+
+def vocabulary(rows):
+    words = set()
+    for row in rows:
+        values = [row.get("name", ""), *row.get("tags", [])]
+        for value in values:
+            words.update(part for part in re_split(normalize_text(value)) if len(part) >= 3)
+    return words
+
+
+def re_split(value):
+    current = []
+    for char in value:
+        if char.isalnum() or _cjk_char(char):
+            current.append(char)
+        elif current:
+            yield "".join(current)
+            current = []
+    if current:
+        yield "".join(current)
+
+
+def correct_terms(rows, terms):
+    words = vocabulary(rows)
+    corrected = []
+    changed = False
+    for raw in terms:
+        term = normalize_text(raw)
+        if len(term) < 4 or term in words or is_cjk(term):
+            corrected.append(term)
+            continue
+        limit = 2 if len(term) >= 7 else 1
+        candidates = sorted((levenshtein(term, word), word) for word in words if abs(len(word) - len(term)) <= limit)
+        if candidates and candidates[0][0] <= limit:
+            corrected.append(candidates[0][1])
+            changed = changed or candidates[0][1] != term
+        else:
+            corrected.append(term)
+    return corrected if changed else []
 
 def main():
     ap = argparse.ArgumentParser(add_help=True)
@@ -140,6 +237,13 @@ def main():
             scored = ranked(pool, segs, require_all=False)
             if scored:
                 print(f"找不到「{' '.join(args.terms)}」，已自動拆詞：{'、'.join(segs)}\n")
+
+    if not scored:
+        corrected = correct_terms(pool, args.terms)
+        if corrected:
+            scored = ranked(pool, corrected, require_all=not args.any)
+            if scored:
+                print(f"找不到「{' '.join(args.terms)}」，已修正為：{'、'.join(corrected)}\n")
 
     if not scored:
         print("找不到相符效果，換個關鍵字或用 --list-cats 看分類。")
