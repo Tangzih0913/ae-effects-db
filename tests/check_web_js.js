@@ -33,9 +33,11 @@ if (!searchAliases["グリッチ"]?.includes("glitch")) {
 
 const localization = JSON.parse(fs.readFileSync(path.join(root, "curation", "localization.json"), "utf8"));
 const dataUrls = new Set();
+const dataRows = [];
 for (const file of fs.readdirSync(path.join(root, "data")).filter(name => name.endsWith(".jsonl"))) {
   for (const line of fs.readFileSync(path.join(root, "data", file), "utf8").split(/\r?\n/).filter(Boolean)) {
     const row = JSON.parse(line);
+    dataRows.push(row);
     if (row.url) dataUrls.add(row.url);
     if (row.date_url) dataUrls.add(row.date_url);
   }
@@ -60,8 +62,33 @@ for (const rule of localization.official_category_rules || []) {
 for (const required of ["blur-sharpen", "color-correction", "distort", "generate", "immersive-video"]) {
   if (!ruleIds.has(required)) throw new Error(`Missing Adobe official category rule: ${required}`);
 }
-for (const contract of ["localizedOfficialUrl", "officialCategory", "siteCategoryTitle", "curation/localization.json"]) {
+const officialEffectCategories = localization.official_effect_categories || {};
+if (Object.keys(officialEffectCategories).length !== 269) throw new Error("Expected 269 effect-name-level Adobe category mappings");
+for (const [name, categoryId] of Object.entries(officialEffectCategories)) {
+  if (!dataRows.some(row => row.kind === "builtin" && row.name === name)) throw new Error(`Adobe category points to a missing built-in: ${name}`);
+  if (!localization.official_categories?.[categoryId]) throw new Error(`Unknown Adobe category ${categoryId} for ${name}`);
+}
+for (const [name, expectedCategory] of Object.entries({Keylight:"keying","CC Burn Film":"stylize","CC Rain":"simulation","Warp Stabilizer VFX":"distort"})) {
+  if (officialEffectCategories[name] !== expectedCategory) throw new Error(`${name} must map to Adobe category ${expectedCategory}`);
+}
+
+const japaneseVocabulary = JSON.parse(fs.readFileSync(path.join(root, "curation", "search-aliases.ja.json"), "utf8"));
+const japaneseAliases = japaneseVocabulary.aliases || {};
+if (Object.keys(japaneseAliases).length < 80) throw new Error("Japanese discovery vocabulary is unexpectedly small");
+const normalizeSearch = value => String(value || "").normalize("NFKC").toLowerCase().replace(/\s+/g, " ").trim();
+for (const [query, aliases] of Object.entries(japaneseAliases)) {
+  if (!/[\u3040-\u30ff\u4e00-\u9fff]/.test(query) || !Array.isArray(aliases) || aliases.length < 2) throw new Error(`Invalid Japanese alias: ${query}`);
+}
+for (const check of japaneseVocabulary.checks || []) {
+  const terms = [check.query,...(japaneseAliases[check.query] || [])].map(normalizeSearch);
+  const matches = dataRows.filter(row => {
+    const haystack = normalizeSearch([row.name,row.desc,row.look,row.vendor,row.suite,...(row.tags || [])].join(" "));
+    return terms.some(term => haystack.includes(term));
+  }).map(row => row.name);
+  if (!check.expected_any.some(name => matches.includes(name))) throw new Error(`Japanese query has no expected result: ${check.query}`);
+}
+for (const contract of ["localizedOfficialUrl", "officialCategory", "official_effect_categories", "siteCategoryTitle", "curation/localization.json", "curation/search-aliases.ja.json"]) {
   if (!html.includes(contract)) throw new Error(`Web localization integration is missing: ${contract}`);
 }
 
-console.log(`Web JavaScript, zh/en/ja locales, and ${localizedEntries.length} verified localized URLs are valid.`);
+console.log(`Web JavaScript, zh/en/ja locales, ${localizedEntries.length} verified localized URLs, 269 Adobe categories, and ${Object.keys(japaneseAliases).length} Japanese aliases are valid.`);

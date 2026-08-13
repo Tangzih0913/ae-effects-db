@@ -37,6 +37,11 @@ class LocalizationContractTests(unittest.TestCase):
             else:
                 self.fail(f"unapproved localized host: {target.hostname}")
 
+        color_url = "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html"
+        matte_url = "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html"
+        self.assertIn(color_url, mappings)
+        self.assertNotIn(matte_url, mappings, "Adobe's current Japanese Matte Effects page returns HTTP 404")
+
     def test_adobe_categories_have_official_english_and_japanese_labels(self):
         rules = self.manifest["official_category_rules"]
         self.assertEqual(len({rule["id"] for rule in rules}), len(rules))
@@ -45,6 +50,18 @@ class LocalizationContractTests(unittest.TestCase):
             self.assertTrue(rule["patterns"])
             self.assertTrue(rule["labels"]["en"])
             self.assertTrue(rule["labels"]["ja"])
+
+    def test_adobe_effect_name_map_covers_every_actual_effect(self):
+        categories = self.manifest["official_categories"]
+        mappings = self.manifest["official_effect_categories"]
+        exclusions = self.manifest["official_category_exclusions"]
+        builtins = {row["name"] for row in self.rows if row["kind"] == "builtin"}
+        self.assertEqual(269, len(mappings))
+        self.assertEqual({"Smart Mask Interpolation", "Time-Reverse Keyframes"}, set(exclusions))
+        self.assertEqual(builtins, set(mappings) | set(exclusions))
+        self.assertTrue(set(mappings.values()).issubset(categories))
+        self.assertEqual("keying", mappings["Keylight"])
+        self.assertEqual("stylize", mappings["CC Burn Film"])
 
     def test_site_taxonomy_is_declared_separately_from_vendor_categories(self):
         policy = self.manifest["policy"]

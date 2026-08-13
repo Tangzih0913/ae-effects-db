@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "verified_at": "2026-08-13",
   "policy": {
     "taxonomy": "The 42 categories are site-defined functional discovery categories, not vendor menu labels.",
@@ -12,6 +12,96 @@
     "adobe_effect_categories_ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html",
     "adobe_after_effects_languages": "https://helpx.adobe.com/jp/after-effects/system-requirements/2024.html",
     "maxon_red_giant_ja": "https://www.maxon.net/ja/red-giant"
+  },
+  "official_categories": {
+    "3d-channel": {
+      "en": "3D Channel",
+      "ja": "3D チャンネル"
+    },
+    "audio": {
+      "en": "Audio",
+      "ja": "オーディオ"
+    },
+    "blur-sharpen": {
+      "en": "Blur & Sharpen",
+      "ja": "ブラー＆シャープ"
+    },
+    "channel": {
+      "en": "Channel",
+      "ja": "チャンネル"
+    },
+    "color-correction": {
+      "en": "Color Correction",
+      "ja": "カラー補正"
+    },
+    "distort": {
+      "en": "Distort",
+      "ja": "ディストーション"
+    },
+    "expression-controls": {
+      "en": "Expression Controls",
+      "ja": "エクスプレッション制御"
+    },
+    "generate": {
+      "en": "Generate",
+      "ja": "描画"
+    },
+    "immersive-video": {
+      "en": "Immersive Video",
+      "ja": "イマーシブビデオ"
+    },
+    "keying": {
+      "en": "Keying",
+      "ja": "キーイング"
+    },
+    "matte": {
+      "en": "Matte",
+      "ja": "マット"
+    },
+    "noise-grain": {
+      "en": "Noise & Grain",
+      "ja": "ノイズ＆グレイン"
+    },
+    "perspective": {
+      "en": "Perspective",
+      "ja": "遠近"
+    },
+    "simulation": {
+      "en": "Simulation",
+      "ja": "シミュレーション"
+    },
+    "stylize": {
+      "en": "Stylize",
+      "ja": "スタイライズ"
+    },
+    "text": {
+      "en": "Text",
+      "ja": "テキスト"
+    },
+    "time": {
+      "en": "Time",
+      "ja": "時間"
+    },
+    "transition": {
+      "en": "Transition",
+      "ja": "トランジション"
+    },
+    "utility": {
+      "en": "Utility",
+      "ja": "ユーティリティ"
+    },
+    "boris-fx-mocha": {
+      "en": "Boris FX Mocha",
+      "ja": "Boris FX Mocha"
+    },
+    "cinema-4d": {
+      "en": "CINEMA 4D",
+      "ja": "Cinema 4D"
+    },
+    "obsolete": {
+      "en": "Obsolete",
+      "ja": "旧バージョン"
+    }
   },
   "official_category_rules": [
     {
@@ -41,7 +131,7 @@
         "/blur-and-sharpen-effects.html"
       ],
       "labels": {
-        "en": "Blur and Sharpen",
+        "en": "Blur & Sharpen",
         "ja": "ブラー＆シャープ"
       }
     },
@@ -134,7 +224,7 @@
         "/noise-and-grain-effects.html"
       ],
       "labels": {
-        "en": "Noise and Grain",
+        "en": "Noise & Grain",
         "ja": "ノイズ＆グレイン"
       }
     },
@@ -209,11 +299,289 @@
       }
     }
   ],
+  "official_effect_categories": {
+    "3D Camera Tracker": "perspective",
+    "3D Channel Extract": "3d-channel",
+    "3D Glasses": "perspective",
+    "3D Point Control": "expression-controls",
+    "4-Color Gradient": "generate",
+    "Add Grain": "noise-grain",
+    "Advanced Lightning": "generate",
+    "Advanced Spill Suppressor": "keying",
+    "Angle Control": "expression-controls",
+    "Apply Color LUT": "utility",
+    "Arithmetic": "channel",
+    "Audio Spectrum": "generate",
+    "Audio Waveform": "generate",
+    "Auto Color": "color-correction",
+    "Auto Contrast": "color-correction",
+    "Auto Levels": "color-correction",
+    "Backwards": "audio",
+    "Bass & Treble": "audio",
+    "Beam": "generate",
+    "Bevel Alpha": "perspective",
+    "Bevel Edges": "perspective",
+    "Bezier Warp": "distort",
+    "Bilateral Blur": "blur-sharpen",
+    "Black & White": "color-correction",
+    "Blend": "channel",
+    "Block Dissolve": "transition",
+    "Box Blur": "blur-sharpen",
+    "Brightness & Contrast": "color-correction",
+    "Broadcast Colors": "color-correction",
+    "Brush Strokes": "stylize",
+    "Bulge": "distort",
+    "Calculations": "channel",
+    "Camera Lens Blur": "blur-sharpen",
+    "Camera-Shake Deblur": "blur-sharpen",
+    "Card Dance": "simulation",
+    "Card Wipe": "transition",
+    "Cartoon": "stylize",
+    "Caustics": "simulation",
+    "CC Ball Action": "simulation",
+    "CC Bend It": "distort",
+    "CC Bender": "distort",
+    "CC Blobbylize": "distort",
+    "CC Block Load": "stylize",
+    "CC Bubbles": "simulation",
+    "CC Burn Film": "stylize",
+    "CC Color Neutralizer": "color-correction",
+    "CC Color Offset": "color-correction",
+    "CC Composite": "channel",
+    "CC Cross Blur": "blur-sharpen",
+    "CC Cylinder": "perspective",
+    "CC Drizzle": "simulation",
+    "CC Environment": "perspective",
+    "CC Flo Motion": "distort",
+    "CC Force Motion Blur": "time",
+    "CC Glass": "stylize",
+    "CC Glass Wipe": "transition",
+    "CC Glue Gun": "generate",
+    "CC Grid Wipe": "transition",
+    "CC Griddler": "distort",
+    "CC Hair": "simulation",
+    "CC HexTile": "stylize",
+    "CC Image Wipe": "transition",
+    "CC Jaws": "transition",
+    "CC Kaleida": "stylize",
+    "CC Kernel": "color-correction",
+    "CC Lens": "distort",
+    "CC Light Burst 2.5": "generate",
+    "CC Light Rays": "generate",
+    "CC Light Sweep": "generate",
+    "CC Light Wipe": "transition",
+    "CC Line Sweep": "transition",
+    "CC Mr. Mercury": "simulation",
+    "CC Mr. Smoothie": "stylize",
+    "CC Overbrights": "utility",
+    "CC Page Turn": "distort",
+    "CC Particle Systems II": "simulation",
+    "CC Particle World": "simulation",
+    "CC Pixel Polly": "simulation",
+    "CC Plastic": "stylize",
+    "CC Power Pin": "distort",
+    "CC Radial Blur": "blur-sharpen",
+    "CC Radial Fast Blur": "blur-sharpen",
+    "CC Radial Scale Wipe": "transition",
+    "CC Rain": "simulation",
+    "CC Rainfall": "simulation",
+    "CC RepeTile": "stylize",
+    "CC Ripple Pulse": "distort",
+    "CC Scale Wipe": "transition",
+    "CC Scatterize": "simulation",
+    "CC Simple Wire Removal": "keying",
+    "CC Slant": "distort",
+    "CC Smear": "distort",
+    "CC Snow": "simulation",
+    "CC Snowfall": "simulation",
+    "CC Sphere": "perspective",
+    "CC Split": "distort",
+    "CC Split 2": "distort",
+    "CC Spotlight": "perspective",
+    "CC Star Burst": "simulation",
+    "CC Threads": "generate",
+    "CC Threshold": "stylize",
+    "CC Threshold RGB": "stylize",
+    "CC Tiler": "distort",
+    "CC Toner": "color-correction",
+    "CC Twister": "transition",
+    "CC Vector Blur": "blur-sharpen",
+    "CC Vignette": "stylize",
+    "CC WarpoMatic": "transition",
+    "CC Wide Time": "time",
+    "Cell Pattern": "generate",
+    "Change Color": "color-correction",
+    "Change to Color": "color-correction",
+    "Channel Combiner": "channel",
+    "Channel Mixer": "color-correction",
+    "Checkbox Control": "expression-controls",
+    "Checkerboard": "generate",
+    "Cineon Converter": "utility",
+    "Circle": "generate",
+    "Color Balance": "color-correction",
+    "Color Balance (HLS)": "color-correction",
+    "Color Control": "expression-controls",
+    "Color Difference Key": "keying",
+    "Color Emboss": "stylize",
+    "Color Link": "color-correction",
+    "Color Profile Converter": "utility",
+    "Color Range": "keying",
+    "Color Stabilizer": "color-correction",
+    "Colorama": "color-correction",
+    "Compound Arithmetic": "channel",
+    "Compound Blur": "blur-sharpen",
+    "Corner Pin": "distort",
+    "Cryptomatte": "3d-channel",
+    "Curves": "color-correction",
+    "Curves / Tint / Tritone": "color-correction",
+    "Delay": "audio",
+    "Depth Matte": "3d-channel",
+    "Depth of Field": "3d-channel",
+    "Detail-preserving Upscale": "distort",
+    "Difference Matte": "keying",
+    "Directional Blur": "blur-sharpen",
+    "Displacement Map": "distort",
+    "Drop Shadow": "perspective",
+    "Dropdown Menu Control": "expression-controls",
+    "Dust & Scratches": "noise-grain",
+    "Echo": "time",
+    "Ellipse": "generate",
+    "Emboss": "stylize",
+    "Equalize": "color-correction",
+    "Exposure": "color-correction",
+    "Extract": "keying",
+    "Extractor": "3d-channel",
+    "Eyedropper Fill": "generate",
+    "Fast Box Blur": "blur-sharpen",
+    "Fill": "generate",
+    "Find Edges": "stylize",
+    "Flange & Chorus": "audio",
+    "Foam": "simulation",
+    "Fog 3D": "3d-channel",
+    "Fractal": "generate",
+    "Fractal Noise": "noise-grain",
+    "Gamma/Pedestal/Gain": "color-correction",
+    "Gaussian Blur": "blur-sharpen",
+    "Glow": "stylize",
+    "Gradient Wipe": "transition",
+    "Grid": "generate",
+    "Grow Bounds": "utility",
+    "HDR Compander": "utility",
+    "HDR Highlight Compression": "utility",
+    "High-Low Pass": "audio",
+    "Hue/Saturation": "color-correction",
+    "ID Matte": "3d-channel",
+    "IDentifier": "3d-channel",
+    "Inner/Outer Key": "keying",
+    "Invert": "channel",
+    "Iris Wipe": "transition",
+    "Key Cleaner": "keying",
+    "Keylight": "keying",
+    "Keylight (1.2)": "keying",
+    "Layer Control": "expression-controls",
+    "Leave Color": "color-correction",
+    "Lens Flare": "generate",
+    "Levels": "color-correction",
+    "Levels (Individual Controls)": "color-correction",
+    "Linear Color Key": "keying",
+    "Linear/Radial Wipe": "transition",
+    "Liquify": "distort",
+    "Lumetri Color": "color-correction",
+    "Magnify": "distort",
+    "Match Grain": "noise-grain",
+    "Matte Choker": "matte",
+    "Median": "noise-grain",
+    "Mesh Warp": "distort",
+    "Minimax": "channel",
+    "Mirror": "distort",
+    "Modulator": "audio",
+    "Mosaic": "stylize",
+    "Motion Tile": "stylize",
+    "Noise": "noise-grain",
+    "Noise Alpha": "noise-grain",
+    "Noise HLS": "noise-grain",
+    "Noise HLS Auto": "noise-grain",
+    "Offset": "distort",
+    "Optics Compensation": "distort",
+    "Paint Bucket": "generate",
+    "Parametric EQ": "audio",
+    "Particle Playground": "simulation",
+    "Photo Filter": "color-correction",
+    "Pixel Motion Blur": "time",
+    "Point Control": "expression-controls",
+    "Polar Coordinates": "distort",
+    "Posterize": "stylize",
+    "Posterize Time": "time",
+    "ProEXR (EXtractoR / IDentifier)": "3d-channel",
+    "PS Arbitrary Map": "color-correction",
+    "Radial Shadow": "perspective",
+    "Radial Wipe": "transition",
+    "Radio Waves": "generate",
+    "Refine Hard Matte": "matte",
+    "Refine Soft Matte": "matte",
+    "Remove Color Matting": "channel",
+    "Remove Grain": "noise-grain",
+    "Reshape": "distort",
+    "Reverb": "audio",
+    "Ripple": "distort",
+    "Rolling Shutter Repair": "distort",
+    "Roughen Edges": "stylize",
+    "Scatter": "stylize",
+    "Scribble": "generate",
+    "Selective Color": "color-correction",
+    "Set Channels": "channel",
+    "Set Matte": "channel",
+    "Shadow/Highlight": "color-correction",
+    "Sharpen": "blur-sharpen",
+    "Shatter": "simulation",
+    "Shift Channels": "channel",
+    "Simple Choker": "matte",
+    "Slider Control": "expression-controls",
+    "Smart Blur": "blur-sharpen",
+    "Smear": "distort",
+    "Solid Composite": "channel",
+    "Spherize": "distort",
+    "Stereo Mixer": "audio",
+    "Strobe Light": "stylize",
+    "Stroke": "generate",
+    "Texturize": "stylize",
+    "Threshold": "stylize",
+    "Time Difference": "time",
+    "Time Displacement": "time",
+    "Timecode": "text",
+    "Timewarp": "time",
+    "Tint": "color-correction",
+    "Tone": "audio",
+    "Transform": "distort",
+    "Tritone": "color-correction",
+    "Turbulent Displace": "distort",
+    "Turbulent Noise": "noise-grain",
+    "Twirl": "distort",
+    "Unsharp Mask": "blur-sharpen",
+    "Vegas": "generate",
+    "Venetian Blinds": "transition",
+    "Vibrance": "color-correction",
+    "VR / 沉浸式視訊效果組": "immersive-video",
+    "VR De-Noise": "immersive-video",
+    "VR Projection": "immersive-video",
+    "Warp Stabilizer": "distort",
+    "Warp Stabilizer VFX": "distort",
+    "Wave Warp": "distort",
+    "Wave World": "simulation",
+    "Write-on": "generate"
+  },
+  "official_category_exclusions": {
+    "Smart Mask Interpolation": "Adobe mask interpolation panel/tool, not an effect-menu entry.",
+    "Time-Reverse Keyframes": "Adobe keyframe command, not an effect-menu entry."
+  },
   "localized_urls": {
     "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/animate-shape-paths-and-masks/animating-shape-paths-masks.html#animate-a-mask-path-with-smart-mask-interpolation": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/animate-in-after-effects/animate-shape-paths-and-masks/animating-shape-paths-masks.html#animate-a-mask-path-with-smart-mask-interpolation"
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html"
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html": {
@@ -222,11 +590,17 @@
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html"
     },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-and-sharpen-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"
+    },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/adjust-colors/work-with-color-correction-effects/color-correction-effects.html"
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html"
@@ -236,6 +610,12 @@
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/keying-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/animate-in-after-effects/work-with-keying-effects/keying-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-and-grain-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"
     },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"
