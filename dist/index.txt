@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2510 筆　格式：名稱｜來源｜分類｜說明｜官方連結
+# 共 2524 筆　格式：名稱｜來源｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2413,6 +2413,20 @@ DissolveMaster｜第三方｜transition｜依亮度、指定色彩或柔和方�
 SpiceMaster Pro｜第三方｜transition｜利用可旋轉、翻轉與混合的 Spice 灰階圖控制柔邊轉場，適合自然溶解、標題揭露和動態遮色片。｜https://pixelan.com/sm25/intro.htm
 SpiceMaster Slice｜第三方｜transition｜依 Spice 圖樣把畫面切成區塊並加入推移、旋轉或縮放運動，適合幾何切片和節奏型鏡頭轉場。｜https://www.pixelan.com/sm25/sms-help-adobe-after-effects-win.htm
 SpiceMaster Glass｜第三方｜distort｜以 Spice 圖樣生成多變玻璃幾何、折射與霧面質感，適合玻璃擬態介面、液態折射和透明轉場。｜https://www.pixelan.com/sm25/help3.htm
+BlurMaster｜第三方｜transition｜整合線性、旋轉、縮放、交叉與螺旋模糊來設計可自訂轉場，適合夢境切換、快速甩鏡和柔焦溶接。｜https://www.pixelan.com/blurmaster/intro.htm
+FilmTouch Pro｜第三方｜film｜結合對比、Gamma、飽和度、擴散、暗角與漏光建立可精修的底片風格，適合婚禮、劇情片和懷舊 MV 調色。｜https://pixelan.com/filmtouch/intro.htm
+3D Six-Pack 3｜第三方｜transition｜以可調陰影、輝光和三維運動建立多種立體鏡頭切換，適合標題、圖形和影片的翻轉與空間轉場。｜https://pixelan.com/3d/help-adobe-after-effects.htm
+ChromaWarp｜第三方｜color｜在 RGB、HSV、HLS、YUV 等色彩空間分別扭曲與偏移通道，適合迷幻變色、色版故障和流動標題。｜https://www.pixelan.com/ce/features-cw.htm
+PosterWise｜第三方｜stylize｜把連續色調壓縮成可控制的海報色階與圖形色塊，適合卡通化人物、普普藝術和高對比標題背景。｜https://www.pixelan.com/ce/features.htm
+OrganiBlur｜第三方｜blur｜依影像亮度或 Spice 幾何形成可流動旋轉的有機模糊，適合液態變形、抽象人物和扭動文字。｜https://www.pixelan.com/ce/features-ob.htm
+BlurPro｜第三方｜blur｜提供可混合與動畫化的進階模糊控制，適合柔焦美化、真人動畫化外觀和局部抽象處理。｜https://www.pixelan.com/ce/features.htm
+RiseShine｜第三方｜emboss｜為文字、Logo 或影像加入可動畫化深度、反射與亮面光澤，適合玻璃字、濕潤表面和霓虹標題。｜https://pixelan.com/ce/features-rs.htm
+FlowTexture｜第三方｜distort｜用來源亮度或 Spice 圖驅動波形位移、折射光與程序紋理，適合液態表面、水波字和流動抽象背景。｜https://pixelan.com/cehelp/CreativEase-AE-HelpPDF.pdf
+GrainPlus｜第三方｜film｜加入可控制大小、密度與分布的影像顆粒，適合統一合成素材、模擬底片和增加類比質感。｜https://www.pixelan.com/ce/features.htm
+Spatterflex｜第三方｜texture｜生成可動畫化的顆粒與噴濺質地，適合油墨飛濺、髒污揭露和粗獷手作背景。｜https://www.pixelan.com/ce/features.htm
+StepMotion｜第三方｜time｜把連續運動量化成階梯式位置變化，適合停格動畫感、機械跳動和節奏化圖層運動。｜https://www.pixelan.com/ce/features.htm
+StepTime｜第三方｜time｜將素材時間取樣改為可控制的階梯與跳格播放，適合停格質感、時間故障和節拍同步畫面。｜https://www.pixelan.com/ce/features.htm
+KaleidElastic｜第三方｜kaleido｜依 Spice 幾何控制反射、角度、距離與柔化，適合可變形萬花筒、鏡射花紋和流動幾何背景。｜https://www.pixelan.com/ce/ceh/ce-ke01.htm
 Bokeh｜Universe｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
