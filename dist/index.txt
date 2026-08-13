@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2470 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2489 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1235,6 +1235,15 @@ CC HexTile｜AE內建｜builtin｜stylize｜六角蜂巢圖樣生成器，把畫
 CC Kernel｜AE內建｜builtin｜stylize｜提供可自行填入九個數值的 3×3 Convolution Matrix，中央格代表目前像素，其餘八格取樣周圍像素；不同 Kernel 可建立 Gaussian Blur、Sharpen、Emboss、Find Edges 等濾鏡，也能從內附 Animation Presets 延伸自訂效果。Divider 可整體縮放矩陣強度，Absolute Values 決定是否把負運算結果轉正；32 bpc 可保留負值，8／16 bpc 則顯示為黑。｜https://www.cycorefx.com/prod_ccfxhd.php
 CC Rain｜AE內建｜builtin｜particles｜產生帶速度、方向、深度與原生動態模糊的降雨粒子，適合替實拍、場景合成與暴風雨鏡頭補上前後景雨絲。｜https://www.cycorefx.com/popups/pluginlist.html
 CC Snow｜AE內建｜builtin｜particles｜產生可控制數量、速度、大小與搖擺幅度的飄雪粒子，適合冬季場景、節慶片頭與由微雪到風雪的天氣合成。｜https://www.cycorefx.com/popups/pluginlist.html
+Radial Blur｜AE內建｜builtin｜blur｜以指定中心製作旋轉或向外縮放的放射模糊，適合營造鏡頭急推、旋轉眩暈與高速衝擊感。｜https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html
+Mocha AE｜AE內建｜builtin｜tracking｜AE 隨附的 GPU 平面追蹤工具，可處理透視、動態模糊與出畫物件，常用於螢幕替換、四角定位及轉描遮罩。｜https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/track-motion/tracking-stabilizing-motion-cs5.html
+CINEWARE｜AE內建｜builtin｜3d｜直接在 AE 中算圖 Cinema 4D 場景並選擇相機、圖層與多重通道，適合免輸出中介影格的 C4D 合成流程。｜https://helpx.adobe.com/after-effects/desktop/work-with-other-applications/work-with-cinema-4d-and-cineware/c4d.html
+Video Limiter｜AE內建｜builtin｜color｜把亮度與色度訊號限制在指定 IRE 廣播合法範圍，適合交付電視節目或在輸出前防止超標色彩。｜https://helpx.adobe.com/after-effects/using/color-correction-effects.html
+Mocha shape｜AE內建｜builtin｜matte｜把 Mocha AE 的追蹤樣條轉成 AE 可合成的點陣遮色片，適合沿著移動物件建立精準轉描與透明區域。｜https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/compositing-in-after-effects/compositing-transparency-overview-resources.html
+Channel Blur｜AE內建｜builtin｜blur｜分別模糊紅、綠、藍或 Alpha 通道，適合清除單一色彩通道的壓縮雜訊或柔化透明邊緣。｜https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html
+Warp｜AE內建｜builtin｜warp｜用弧形、拱起、旗幟等預設樣式整體扭曲圖層，適合快速彎曲文字、標誌與平面圖像。｜https://helpx.adobe.com/after-effects/using/distort-effects.html
+Gradient Ramp｜AE內建｜builtin｜generate｜建立可動畫的線性或放射漸層，並用 Ramp Scatter 減少色帶，適合背景、光影過渡與遮罩控制圖。｜https://helpx.adobe.com/after-effects/using/generate-effects.html
+Numbers｜AE內建｜builtin｜text｜產生隨機或連續數字、日期與時間碼，適合製作計數器、流水號、倒數及會隨時間更新的資訊圖表。｜https://helpx.adobe.com/after-effects/using/text-effects.html
 BCC Particle Illusion｜Continuum｜plugin｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜plugin｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜plugin｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
@@ -2373,6 +2382,16 @@ Mappit｜第三方｜plugin｜vr｜把任意圖層放到球面貼圖的兩點之
 MapLine｜第三方｜plugin｜draw｜在球面貼圖的起終點間自動畫線，可控制粗細、端點、虛線與相位，適合製作世界地圖航線、城市連線和全球資料流。｜https://www.cycorefx.com/prod_cssutils.php
 Cycore Remap｜第三方｜plugin｜vr｜重新定位球面貼圖的赤道、極點與座標方向，並可跟隨 AE 3D 攝影機，適合校正全景朝向、對齊 CC Sphere 與製作球形扭曲。｜https://www.cycorefx.com/prod_cssutils.php
 MapDots｜第三方｜plugin｜generate｜在球面貼圖上產生均勻分布的點陣，適合建立地球資料節點、球形網點材質與 CC Sphere 的規則表面圖案。｜https://www.cycorefx.com/prod_cssutils.php
+MV_Convert｜第三方｜plugin｜workflow｜把 Blender、OTOY 等算圖器輸出的 32 位元浮點動態向量轉成 RE:Vision 格式，供 RSMB Pro、Twixtor Pro 等向量模式使用。｜https://revisionfx.com/products/motion_vectors_convert/after-effects/
+VC Reflect｜第三方｜plugin｜perspective｜快速替文字、標誌與預合成建立可調角度、距離與衰減的 2D 倒影，適合地板反射與產品展示構圖。｜https://www.videocopilot.net/products/m1/
+Fresh Curves｜第三方｜plugin｜color｜以可調貝茲控制柄編輯 RGBA、亮度、飽和度與色相曲線，還能依另一屬性做相對修正，適合精準調色與局部色彩重塑。｜https://www.frischluft.com/curves/index.php
+ZbornToy｜第三方｜plugin｜3d｜從深度圖重建可打光、貼材質、反射、折射與投射焦散的表面，適合在合成階段替 2D 算圖補上近似 3D 的材質與光影。｜https://www.frischluft.com/zborntoy/index.php
+Flair Amiga Rulez｜第三方｜plugin｜distort｜重現 Amiga demo scene 的 Zoom Rotator，讓影像持續縮放並繞三軸旋轉，適合復古電腦動畫、萬花隧道與迷幻循環。｜https://www.frischluft.com/flair/
+Flair Box Blur｜第三方｜plugin｜blur｜提供次像素精度方框模糊，能以遮罩逐像素控制模糊量並切換色差分離模式，適合局部柔焦與彩邊拖影。｜https://www.frischluft.com/flair/
+Flair Glass Sphere｜第三方｜plugin｜generate｜從圖層產生可調材質、燈光與折射的光亮玻璃球，適合水晶球、介面旋鈕、產品圖示與透鏡式視覺。｜https://www.frischluft.com/flair/
+Flair Mosaic Plane｜第三方｜plugin｜perspective｜把馬賽克貼到可自由旋轉與定位的虛擬平面，並能用遮罩逐像素改變方塊尺寸或角度，適合透視像素牆與碎塊轉場。｜https://www.frischluft.com/flair/
+Flair Highlight｜第三方｜plugin｜light｜從素材高光生成可控數量、半徑、色彩與強度的閃亮光絲，適合珠寶亮點、金屬反光與夢幻星芒動畫。｜https://www.frischluft.com/flair/
+Flair Volumetrics｜第三方｜plugin｜light｜以快速 2D 演算法模擬光線穿過素材，並依像素透明度控制遮擋，適合窗光、雲隙光、標題放射光與舞台光束。｜https://www.frischluft.com/flair/
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

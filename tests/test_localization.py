@@ -56,12 +56,14 @@ class LocalizationContractTests(unittest.TestCase):
         mappings = self.manifest["official_effect_categories"]
         exclusions = self.manifest["official_category_exclusions"]
         builtins = {row["name"] for row in self.rows if row["kind"] == "builtin"}
-        self.assertEqual(269, len(mappings))
+        self.assertEqual(278, len(mappings))
         self.assertEqual({"Smart Mask Interpolation", "Time-Reverse Keyframes"}, set(exclusions))
         self.assertEqual(builtins, set(mappings) | set(exclusions))
         self.assertTrue(set(mappings.values()).issubset(categories))
         self.assertEqual("keying", mappings["Keylight"])
         self.assertEqual("stylize", mappings["CC Burn Film"])
+        self.assertEqual("boris-fx-mocha", mappings["Mocha AE"])
+        self.assertEqual("cinema-4d", mappings["CINEWARE"])
 
     def test_site_taxonomy_is_declared_separately_from_vendor_categories(self):
         policy = self.manifest["policy"]

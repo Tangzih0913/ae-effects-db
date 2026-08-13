@@ -841,3 +841,17 @@ adobe-parametric-meshes-26-0	Adobe 官方列為 3D Mesh 建模功能，不是可
 adobe-substance-3d-materials-26-0	Adobe 官方列為 3D 材質工作流程，不是獨立內建效果
 adobe-quick-apply-26-2	Adobe 官方列為搜尋並執行效果、預設與命令的工作流程，不是效果本體
 adobe-advanced-3d-depth-of-field-26-3	Adobe 官方列為 Advanced 3D 算圖器的景深屬性，不是 Effect 面板中的獨立效果；既有 Depth of Field／Camera Lens Blur 已收錄
+adobe-median-legacy	Adobe 官方將此項標為 Legacy，功能已由現行 Median 涵蓋，避免收錄重複的舊版效果
+adobe-basic-3d-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行 3D 工具已涵蓋其功能
+adobe-basic-text-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行文字圖層已取代其功能
+adobe-color-key-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行 Keylight 與色鍵工具已取代
+adobe-gaussian-blur-legacy	Adobe 官方列在 Obsolete 分類，並明示現行 Gaussian Blur 為替代效果
+adobe-lightning-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行 Advanced Lightning 已取代
+adobe-luma-key-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行亮度遮色片工作流程已取代
+adobe-path-text-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行路徑文字動畫器已取代
+adobe-reduce-interlace-flicker-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容，且功能極小眾
+adobe-spill-suppressor-obsolete	Adobe 官方列在 Obsolete 分類，只為舊專案相容；現行 Advanced Spill Suppressor 已取代
+adobe-linear-wipe	已由 builtin-ae.jsonl 的 Linear/Radial Wipe 合併條目涵蓋，避免用不同名稱重複收錄
+frischluft-flair	官方頁是 8 個獨立效果的套裝，不以 bundle 另建一筆；有代表性的個別效果已分開收錄
+frischluft-flair-glow	功能與大量既有 Glow／Bloom 條目高度重複，官方差異不足以形成新的搜尋用途
+frischluft-flair-radial-blur	功能與 Adobe Radial Blur、CC Radial Blur 等既有條目高度重複，僅色差模式不足以避免搜尋結果重複

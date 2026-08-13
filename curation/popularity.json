@@ -4,6 +4,7 @@
   "featured": [
     "aescripts:Deep Glow 2",
     "third-party:Element 3D",
+    "builtin-ae:CINEWARE",
     "red-giant:Particular",
     "third-party:Optical Flares",
     "third-party:Saber",
@@ -11,6 +12,7 @@
     "third-party:Twixtor",
     "aescripts:Plexus 3",
     "third-party:Mocha Pro",
+    "builtin-ae:Mocha AE",
     "third-party:Neat Video",
     "aescripts:Lockdown",
     "aescripts:AutoFill",

@@ -14,7 +14,7 @@ PLUGIN_WORDS = ("外掛", "plugin", "plug-in", "effect", "濾鏡", "filter", ".a
 
 # 這些廠商在資料庫中的收錄項目都是原生外掛。aescripts 上「效果」也常被
 # 文案稱為 animation/tool，不能只靠關鍵字把它們降成腳本。
-PLUGIN_ONLY_VENDORS = {"Digital Anarchy", "FxFactory", "Rowbyte", "Superluminal"}
+PLUGIN_ONLY_VENDORS = {"Digital Anarchy", "FxFactory", "RE:Vision Effects", "Rowbyte", "Superluminal"}
 
 # 官方頁、安裝說明或檔案格式已逐筆確認的例外。混合式工具以主要介面判定：
 # CEP／ScriptUI 面板仍歸 script；可從 Effect 選單套用的原生模組歸 plugin。

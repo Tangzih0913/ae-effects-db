@@ -72,8 +72,8 @@ def guess_file(item: dict) -> str:
     return "third-party"
 
 
-def load_existing() -> tuple[dict[str, str], dict[str, str]]:
-    names: dict[str, str] = {}
+def load_existing() -> tuple[dict[str, list[dict[str, str]]], dict[str, str]]:
+    names: dict[str, list[dict[str, str]]] = {}
     aescripts_urls: dict[str, str] = {}
     for path in glob.glob(os.path.join(DATA, "*.jsonl")):
         with open(path, encoding="utf-8") as handle:
@@ -81,11 +81,33 @@ def load_existing() -> tuple[dict[str, str], dict[str, str]]:
                 if raw.strip():
                     item = json.loads(raw)
                     loc = f"{os.path.basename(path)}:{line_no}"
-                    names[item["name"].strip().casefold()] = loc
+                    names.setdefault(item["name"].strip().casefold(), []).append({
+                        "loc": loc,
+                        "kind": str(item.get("kind", "")),
+                        "url": str(item.get("url", "")),
+                    })
                     url = item.get("url", "")
                     if isinstance(url, str) and is_aescripts_url(url):
                         aescripts_urls[canonical_url(url)] = loc
     return names, aescripts_urls
+
+
+def duplicate_name_location(item: dict, entries: list[dict[str, str]]) -> str | None:
+    """Return the existing location only for a true same-product collision.
+
+    Different source types can legitimately share an official effect name, such
+    as Adobe's built-in Warp and Maxon Universe's Warp transition. The frontend
+    already keys rows by source plus name, and validation permits these rows as
+    long as their official URLs differ.
+    """
+    candidate_kind = str(item.get("kind", ""))
+    candidate_url = canonical_url(str(item.get("url", "")))
+    for entry in entries:
+        same_kind = entry.get("kind") == candidate_kind
+        same_url = canonical_url(entry.get("url", "")) == candidate_url
+        if same_kind or same_url:
+            return entry["loc"]
+    return None
 
 
 def reorder(item: dict) -> dict:
@@ -142,8 +164,9 @@ def main() -> None:
             continue
 
         key = str(item["name"]).strip().casefold()
-        if key in existing:
-            skipped.append(f"{item['name']}（已存在：{existing[key]}）")
+        duplicate_loc = duplicate_name_location(item, existing.get(key, []))
+        if duplicate_loc:
+            skipped.append(f"{item['name']}（已存在：{duplicate_loc}）")
             continue
 
         normalized_url = canonical_url(item["url"])
@@ -155,7 +178,11 @@ def main() -> None:
 
         target = args.file or guess_file(item)
         buckets.setdefault(target, []).append(reorder(item))
-        existing[key] = f"{target}.jsonl:new"
+        existing.setdefault(key, []).append({
+            "loc": f"{target}.jsonl:new",
+            "kind": str(item.get("kind", "")),
+            "url": str(item.get("url", "")),
+        })
         if is_aescripts_url(item["url"]):
             existing_aescripts_urls[normalized_url] = f"{target}.jsonl:new"
         added.append(f"{item['name']} → {target}.jsonl")

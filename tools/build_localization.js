@@ -145,7 +145,8 @@ async function fetchAdobeEffectCategories() {
     const category = alias.category || match?.category;
     if (category) categories[row.name] = category;
   }
-  if (Object.keys(categories).length < 269) throw new Error(`Mapped only ${Object.keys(categories).length}/271 built-in entries to Adobe categories`);
+  const expectedCount = builtinRows.filter(row => !OFFICIAL_CATEGORY_EXCLUSIONS[row.name]).length;
+  if (Object.keys(categories).length !== expectedCount) throw new Error(`Mapped only ${Object.keys(categories).length}/${expectedCount} actual built-in effects to Adobe categories`);
   return Object.fromEntries(Object.entries(categories).sort(([a],[b]) => a.localeCompare(b)));
 }
 
@@ -259,10 +260,13 @@ async function check() {
   const manifest = JSON.parse(fs.readFileSync(OUTPUT, "utf8"));
   const entries = Object.entries(manifest.localized_urls || {}).map(([original,locales]) => ({original,candidate:locales.ja}));
   const checked = await mapWithConcurrency(entries, 6, async item => ({...item,...await verifyJapanesePage(item.candidate)}));
-  const failures = checked.filter(item => !item.ok);
+  const mayRetainRateLimited = manifest.verified_at === VERIFY_DATE;
+  const rateLimited = checked.filter(item => !item.ok && item.reason === "HTTP 429" && mayRetainRateLimited);
+  const failures = checked.filter(item => !item.ok && (item.reason !== "HTTP 429" || !mayRetainRateLimited));
+  for (const item of rateLimited) console.warn(`RATE LIMITED ${item.candidate}: retaining today's verified mapping`);
   for (const failure of failures) console.error(`FAIL ${failure.candidate}: ${failure.reason}`);
   if (failures.length) process.exitCode = 1;
-  else console.log(`${entries.length} localized official URLs still pass live verification.`);
+  else console.log(`${entries.length - rateLimited.length} localized official URLs passed live verification; ${rateLimited.length} same-day verified mappings were retained after HTTP 429 rate limiting.`);
 }
 
 const mode = process.argv[2];

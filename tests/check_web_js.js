@@ -63,12 +63,12 @@ for (const required of ["blur-sharpen", "color-correction", "distort", "generate
   if (!ruleIds.has(required)) throw new Error(`Missing Adobe official category rule: ${required}`);
 }
 const officialEffectCategories = localization.official_effect_categories || {};
-if (Object.keys(officialEffectCategories).length !== 269) throw new Error("Expected 269 effect-name-level Adobe category mappings");
+if (Object.keys(officialEffectCategories).length !== 278) throw new Error("Expected 278 effect-name-level Adobe category mappings");
 for (const [name, categoryId] of Object.entries(officialEffectCategories)) {
   if (!dataRows.some(row => row.kind === "builtin" && row.name === name)) throw new Error(`Adobe category points to a missing built-in: ${name}`);
   if (!localization.official_categories?.[categoryId]) throw new Error(`Unknown Adobe category ${categoryId} for ${name}`);
 }
-for (const [name, expectedCategory] of Object.entries({Keylight:"keying","CC Burn Film":"stylize","CC Rain":"simulation","Warp Stabilizer VFX":"distort"})) {
+for (const [name, expectedCategory] of Object.entries({Keylight:"keying","CC Burn Film":"stylize","CC Rain":"simulation","Warp Stabilizer VFX":"distort","Mocha AE":"boris-fx-mocha",CINEWARE:"cinema-4d"})) {
   if (officialEffectCategories[name] !== expectedCategory) throw new Error(`${name} must map to Adobe category ${expectedCategory}`);
 }
 
@@ -91,4 +91,4 @@ for (const contract of ["localizedOfficialUrl", "officialCategory", "official_ef
   if (!html.includes(contract)) throw new Error(`Web localization integration is missing: ${contract}`);
 }
 
-console.log(`Web JavaScript, zh/en/ja locales, ${localizedEntries.length} verified localized URLs, 269 Adobe categories, and ${Object.keys(japaneseAliases).length} Japanese aliases are valid.`);
+console.log(`Web JavaScript, zh/en/ja locales, ${localizedEntries.length} verified localized URLs, 278 Adobe categories, and ${Object.keys(japaneseAliases).length} Japanese aliases are valid.`);
