@@ -1,0 +1,523 @@
+{
+  "version": 1,
+  "verified_at": "2026-08-13",
+  "policy": {
+    "taxonomy": "The 42 categories are site-defined functional discovery categories, not vendor menu labels.",
+    "product_names": "Official product spelling is preserved in every language.",
+    "descriptions": "Curated Traditional Chinese originals are shown in every language until a reviewed translation exists.",
+    "localized_urls": "Only locale-specific official pages that pass an HTTP and language check are listed; all other links keep the original official URL."
+  },
+  "sources": {
+    "adobe_effect_categories_en": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html",
+    "adobe_effect_categories_ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html",
+    "adobe_after_effects_languages": "https://helpx.adobe.com/jp/after-effects/system-requirements/2024.html",
+    "maxon_red_giant_ja": "https://www.maxon.net/ja/red-giant"
+  },
+  "official_category_rules": [
+    {
+      "id": "3d-channel",
+      "patterns": [
+        "/3d-channel-effects.html"
+      ],
+      "labels": {
+        "en": "3D Channel",
+        "ja": "3D チャンネル"
+      }
+    },
+    {
+      "id": "audio",
+      "patterns": [
+        "/audio-effects.html"
+      ],
+      "labels": {
+        "en": "Audio",
+        "ja": "オーディオ"
+      }
+    },
+    {
+      "id": "blur-sharpen",
+      "patterns": [
+        "/blur-sharpen-effects.html",
+        "/blur-and-sharpen-effects.html"
+      ],
+      "labels": {
+        "en": "Blur and Sharpen",
+        "ja": "ブラー＆シャープ"
+      }
+    },
+    {
+      "id": "channel",
+      "patterns": [
+        "/channel-effects.html"
+      ],
+      "labels": {
+        "en": "Channel",
+        "ja": "チャンネル"
+      }
+    },
+    {
+      "id": "color-correction",
+      "patterns": [
+        "/color-correction-effects.html"
+      ],
+      "labels": {
+        "en": "Color Correction",
+        "ja": "カラー補正"
+      }
+    },
+    {
+      "id": "distort",
+      "patterns": [
+        "/distort-effects.html",
+        "/detail-preserving-upscale-effect.html"
+      ],
+      "labels": {
+        "en": "Distort",
+        "ja": "ディストーション"
+      }
+    },
+    {
+      "id": "expression-controls",
+      "patterns": [
+        "/expression-controls-effects.html"
+      ],
+      "labels": {
+        "en": "Expression Controls",
+        "ja": "エクスプレッション制御"
+      }
+    },
+    {
+      "id": "generate",
+      "patterns": [
+        "/generate-effects.html"
+      ],
+      "labels": {
+        "en": "Generate",
+        "ja": "描画"
+      }
+    },
+    {
+      "id": "immersive-video",
+      "patterns": [
+        "/immersive-video-effects.html",
+        "/vr-effects.html"
+      ],
+      "labels": {
+        "en": "Immersive Video",
+        "ja": "イマーシブビデオ"
+      }
+    },
+    {
+      "id": "keying",
+      "patterns": [
+        "/keying-effects.html"
+      ],
+      "labels": {
+        "en": "Keying",
+        "ja": "キーイング"
+      }
+    },
+    {
+      "id": "matte",
+      "patterns": [
+        "/matte-effects.html"
+      ],
+      "labels": {
+        "en": "Matte",
+        "ja": "マット"
+      }
+    },
+    {
+      "id": "noise-grain",
+      "patterns": [
+        "/noise-grain-effects.html",
+        "/noise-and-grain-effects.html"
+      ],
+      "labels": {
+        "en": "Noise and Grain",
+        "ja": "ノイズ＆グレイン"
+      }
+    },
+    {
+      "id": "perspective",
+      "patterns": [
+        "/perspective-effects.html"
+      ],
+      "labels": {
+        "en": "Perspective",
+        "ja": "遠近"
+      }
+    },
+    {
+      "id": "simulation",
+      "patterns": [
+        "/simulation-effects.html"
+      ],
+      "labels": {
+        "en": "Simulation",
+        "ja": "シミュレーション"
+      }
+    },
+    {
+      "id": "stylize",
+      "patterns": [
+        "/stylize-effects.html"
+      ],
+      "labels": {
+        "en": "Stylize",
+        "ja": "スタイライズ"
+      }
+    },
+    {
+      "id": "text",
+      "patterns": [
+        "/text-effects.html"
+      ],
+      "labels": {
+        "en": "Text",
+        "ja": "テキスト"
+      }
+    },
+    {
+      "id": "time",
+      "patterns": [
+        "/time-effects.html"
+      ],
+      "labels": {
+        "en": "Time",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "transition",
+      "patterns": [
+        "/transition-effects.html"
+      ],
+      "labels": {
+        "en": "Transition",
+        "ja": "トランジション"
+      }
+    },
+    {
+      "id": "utility",
+      "patterns": [
+        "/utility-effects.html"
+      ],
+      "labels": {
+        "en": "Utility",
+        "ja": "ユーティリティ"
+      }
+    }
+  ],
+  "localized_urls": {
+    "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/animate-shape-paths-and-masks/animating-shape-paths-masks.html#animate-a-mask-path-with-smart-mask-interpolation": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/animate-in-after-effects/animate-shape-paths-and-masks/animating-shape-paths-masks.html#animate-a-mask-path-with-smart-mask-interpolation"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/audio-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/distort-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/noise-grain-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/simulation-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/desktop/immersive-video-and-vr/immersive-video-effects/vr-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/immersive-video-and-vr/immersive-video-effects/vr-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/3d-channel-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html#camera-shake-deblur": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html#camera-shake-deblur"
+    },
+    "https://helpx.adobe.com/after-effects/using/detail-preserving-upscale-effect.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/detail-preserving-upscale-effect.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/perspective-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/perspective-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/setting-selecting-deleting-keyframes.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/animate-in-after-effects/animation-keyframes/setting-selecting-deleting-keyframes.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/stylize-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"
+    },
+    "https://helpx.adobe.com/after-effects/using/utility-effects.html": {
+      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/colorista": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/colorista"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/cosmo": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/cosmo"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/denoiser": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/denoiser"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/film": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/film"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/magicbullet-looks": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/magicbullet-looks"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/mojo": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/mojo"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/parametric-curve": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/parametric-curve"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/color/renoiser": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/color/renoiser"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/motion-graphics/3d-stroke": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/motion-graphics/3d-stroke"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/motion-graphics/echospace": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/motion-graphics/echospace"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/form": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/form"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/geo": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/geo"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/horizon": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/horizon"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/lux": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/lux"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/mir": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/mir"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/tao": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/tao"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/trapcode-particular": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/particles-and-3d/trapcode-particular"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/analog": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/analog"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/array-gun": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/array-gun"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/av-club": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/av-club"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/blurs-and-glows": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/blurs-and-glows"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/bokeh": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/bokeh"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/carousel": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/carousel"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/chromatic-aberration": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/chromatic-aberration"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/chromatown-tool": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/chromatown-tool"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/color": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/color"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/distortions": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/distortions"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/ecto": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/ecto"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/electrify": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/electrify"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/finisher": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/finisher"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/generators": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/generators"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/glimmer": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/glimmer"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/glitch": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/glitch"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/glow": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/glow"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/grain16": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/grain16"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/hacker-text": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/hacker-text"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/halflight": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/halflight"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/heatwave": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/heatwave"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/holomatrix": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/holomatrix"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/hud-components": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/hud-components"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/knoll-light-factory-ez": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/knoll-light-factory-ez"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/line": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/line"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/logo-motion": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/logo-motion"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/luster": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/luster"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/motion-graphics": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/motion-graphics"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/numbers": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/numbers"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/overlight": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/overlight"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/pixel-dither": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/pixel-dither"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/progresso": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/progresso"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/quantum": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/quantum"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/reframe": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/reframe"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/retrograde": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/retrograde"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/screen-text": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/screen-text"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/shrinkray": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/shrinkray"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/sketchify-tool": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/sketchify-tool"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/stylize": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/stylize"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/symbol-mapper-tool": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/symbol-mapper-tool"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/text-tile": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/text-tile"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/texturize": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/texturize"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/texturize-motion": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/texturize-motion"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/title-motion": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/title-motion"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/transitions": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/transitions"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/type-cast": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/type-cast"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/type-on": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/type-on"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/typographic": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/typographic"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/utilities": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/utilities"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/universe/vhs": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/universe/vhs"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/bang": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/bang"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/depth-generator": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/depth-generator"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/king-pin-tracker": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/king-pin-tracker"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/lens-distortion-matcher": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/lens-distortion-matcher"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/primatte-keyer": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/primatte-keyer"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/real-lens-flares": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/real-lens-flares"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/reflection": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/reflection"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/shadow": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/shadow"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/spot-clone-tracker": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/spot-clone-tracker"
+    },
+    "https://www.maxon.net/en/product-detail/red-giant/vfx/supercomp": {
+      "ja": "https://www.maxon.net/ja/product-detail/red-giant/vfx/supercomp"
+    }
+  }
+}

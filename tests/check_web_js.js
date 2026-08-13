@@ -31,4 +31,37 @@ if (!searchAliases["グリッチ"]?.includes("glitch")) {
   throw new Error("Japanese search aliases are unavailable");
 }
 
-console.log("Web JavaScript and zh/en/ja locale contracts are valid.");
+const localization = JSON.parse(fs.readFileSync(path.join(root, "curation", "localization.json"), "utf8"));
+const dataUrls = new Set();
+for (const file of fs.readdirSync(path.join(root, "data")).filter(name => name.endsWith(".jsonl"))) {
+  for (const line of fs.readFileSync(path.join(root, "data", file), "utf8").split(/\r?\n/).filter(Boolean)) {
+    const row = JSON.parse(line);
+    if (row.url) dataUrls.add(row.url);
+    if (row.date_url) dataUrls.add(row.date_url);
+  }
+}
+const localizedEntries = Object.entries(localization.localized_urls || {});
+if (localizedEntries.length < 100) throw new Error("Expected at least 100 verified localized official URLs");
+for (const [original, variants] of localizedEntries) {
+  if (!dataUrls.has(original)) throw new Error(`Localized URL is not used by the database: ${original}`);
+  if (Object.keys(variants).join(",") !== "ja") throw new Error(`Only verified Japanese URL variants are currently allowed: ${original}`);
+  const source = new URL(original), target = new URL(variants.ja);
+  if (source.hostname !== target.hostname || source.href === target.href) throw new Error(`Invalid localized mapping: ${original}`);
+  if (target.hostname === "helpx.adobe.com" && !target.pathname.startsWith("/jp/")) throw new Error(`Adobe Japanese path is invalid: ${target.href}`);
+  if (target.hostname === "www.maxon.net" && !target.pathname.startsWith("/ja/")) throw new Error(`Maxon Japanese path is invalid: ${target.href}`);
+  if (!["helpx.adobe.com", "www.maxon.net"].includes(target.hostname)) throw new Error(`Unapproved localized host: ${target.hostname}`);
+}
+const ruleIds = new Set();
+for (const rule of localization.official_category_rules || []) {
+  if (ruleIds.has(rule.id)) throw new Error(`Duplicate official category rule: ${rule.id}`);
+  ruleIds.add(rule.id);
+  if (!rule.labels?.en || !rule.labels?.ja || !rule.patterns?.length) throw new Error(`Incomplete official category rule: ${rule.id}`);
+}
+for (const required of ["blur-sharpen", "color-correction", "distort", "generate", "immersive-video"]) {
+  if (!ruleIds.has(required)) throw new Error(`Missing Adobe official category rule: ${required}`);
+}
+for (const contract of ["localizedOfficialUrl", "officialCategory", "siteCategoryTitle", "curation/localization.json"]) {
+  if (!html.includes(contract)) throw new Error(`Web localization integration is missing: ${contract}`);
+}
+
+console.log(`Web JavaScript, zh/en/ja locales, and ${localizedEntries.length} verified localized URLs are valid.`);

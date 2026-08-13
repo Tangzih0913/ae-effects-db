@@ -21,8 +21,8 @@ jobs:
       - name: Run search and consistency tests
         run: python -m unittest discover -s tests -v
       - name: Validate web JavaScript and locales
-        run: node tests/check_web_js.js
+        run: node --check tools/build_localization.js && node tests/check_web_js.js
       - name: Verify generated indexes are current
         run: python tools/build_index.py && git diff --exit-code -- dist/
       - name: Compile Python tools
-        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py tools/build_index.py tools/classify_kind.py tests/test_consistency.py tests/test_web_ui.py
+        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py tools/build_index.py tools/classify_kind.py tests/test_consistency.py tests/test_localization.py tests/test_web_ui.py
