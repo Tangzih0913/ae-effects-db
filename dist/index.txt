@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2489 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2494 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2392,6 +2392,11 @@ Flair Glass Sphere｜第三方｜plugin｜generate｜從圖層產生可調材質
 Flair Mosaic Plane｜第三方｜plugin｜perspective｜把馬賽克貼到可自由旋轉與定位的虛擬平面，並能用遮罩逐像素改變方塊尺寸或角度，適合透視像素牆與碎塊轉場。｜https://www.frischluft.com/flair/
 Flair Highlight｜第三方｜plugin｜light｜從素材高光生成可控數量、半徑、色彩與強度的閃亮光絲，適合珠寶亮點、金屬反光與夢幻星芒動畫。｜https://www.frischluft.com/flair/
 Flair Volumetrics｜第三方｜plugin｜light｜以快速 2D 演算法模擬光線穿過素材，並依像素透明度控制遮擋，適合窗光、雲隙光、標題放射光與舞台光束。｜https://www.frischluft.com/flair/
+Island Chatter｜第三方｜plugin｜audio｜在文字圖層上用原生效果即時合成可重現的中、日、英文遊戲式角色語音，並由面板批次匯入分角色劇本、依節拍排台詞、接嘴型或 MIDI 旋律及烘焙音訊，適合角色對白、像素遊戲旁白與歌詞動畫。｜https://kadid.gumroad.com/l/IslandChatterAE
+Zoom｜第三方｜script｜workflow｜以可停駐面板的數值、拖曳與滑桿把合成檢視器縮放到任意倍率，另可裝輔助外掛用 Ctrl／Cmd＋滾輪和自訂快捷鍵維持游標位置縮放，適合檢查細節與快速穿梭大尺寸畫面。｜https://motionprincess.gumroad.com/l/ae-smooth-zoom
+EZ3D｜第三方｜script｜3d｜把所選 2D 圖層轉為 3D、各自建立父層 Null，再沿 Z 軸錯開並補償縮放以維持原構圖，也能對齊同一深度或還原設定，適合照片分層、景深推鏡與 2.5D 場景。｜https://motionbynick.gumroad.com/l/ez3d
+Japanese-effect-search｜第三方｜script｜workflow｜以日文、英文、平假名與片假名混合搜尋並直接套用 AE 效果、預設或執行腳本、擴充功能與常用命令，另含收藏、連續套用與隱藏舊效果選項，適合日文介面和輸入法工作流程。｜https://booth.pm/ja/items/7695646
+Layer Chicken｜第三方｜script｜workflow｜替已匯入 AE 的分層 Photoshop／Illustrator 文件找回後續在原檔新增的圖層，免去重新匯入整份 PSD／AI 再刪除多餘內容，適合設計稿反覆改版與補圖層的動態製作。｜https://booth.pm/ja/items/2728552
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

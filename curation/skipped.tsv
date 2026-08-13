@@ -855,3 +855,12 @@ adobe-linear-wipe	已由 builtin-ae.jsonl 的 Linear/Radial Wipe 合併條目涵
 frischluft-flair	官方頁是 8 個獨立效果的套裝，不以 bundle 另建一筆；有代表性的個別效果已分開收錄
 frischluft-flair-glow	功能與大量既有 Glow／Bloom 條目高度重複，官方差異不足以形成新的搜尋用途
 frischluft-flair-radial-blur	功能與 Adobe Radial Blur、CC Radial Blur 等既有條目高度重複，僅色差模式不足以避免搜尋結果重複
+gumroad-shy-filters-after-effects-script	依 Shy、圖層類型、父子關係、時間與屬性篩選圖層的功能已由 Layer Displayer 與更完整的 Shy Bar 涵蓋
+gumroad-scriptlauncher	可搜尋、整理並執行 JSX／JSXBIN 的啟動面板與既有 Tool Launcher 高度重複，後者另支援命令、效果、預設與可攜設定
+gumroad-easy-connect	動態連接圖層、箭頭、虛線與路徑追蹤用途已由 Connect Layers PRO 與 NodeKit 涵蓋，沒有形成新的搜尋用途
+gumroad-ytarj	同一個 PathPrep 已從 aescripts 官方產品頁收錄，不因 Gumroad 的另一個官方販售頁重複建檔
+gumroad-denjd	自動伸縮文字框與背景版面用途已由 TextDuratifier、Pins & Boxes 與 Type 涵蓋，功能差異不足以另建 FX TextFrame 條目
+booth-7769569	Shape to mask 只做 Shape 路徑轉 Mask，既有 MaskShapeConverter 已支援雙向轉換、關鍵影格與非 Bezier Path，MASKit 也涵蓋同用途
+booth-2307736	Alterna 的每隔指定數量重新選取圖層，與既有 Nth Layer Selector 的間隔選取功能相同
+booth-6815576	AE_BatchToolkit 的代理、效果、色彩空間與影格率批次管理已分別由 Layers Pro、Effect Remover Pro 與既有 AE 工作流程涵蓋，沒有足夠獨特的單一用途
+booth-5899013	ChoooooseiLayer 以 Null 把效果連到指定連續圖層範圍，與 AE Adjustment Layer 及既有 Control LMFX 的分組效果控制高度重疊，差異用途過窄

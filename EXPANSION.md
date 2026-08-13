@@ -29,6 +29,8 @@
 - c4dsky 的 After Effect、AE 插件、AE 腳本、AE 預設、Element 3D 分類已掃完；
 - aescripts sitemap 尚有大量未評估頁面，只作低優先候選池；
 - Adobe 目前效果清單、RE:Vision、Video Copilot 與 Frischluft 已做過一次差異檢查，但新版仍應依官方清單重跑差異。
+- Gumroad 第一批已掃 `After Effects` 搭配 script／plugin／panel／extension／ScriptUI／JSX／AEX 的搜尋結果與 8 個官方商品頁；已決策 Island Chatter、Shy Filters、Script Launcher、Zoom、Easy Connect、EZ3D、PathPrep、FX TextFrame，但尚未窮盡平台；
+- BOOTH 第一批已掃 `After Effects スクリプト`、`AE スクリプト`、`After Effects パネル`、`ScriptUI パネル` 的搜尋結果與 6 個官方商品頁；已決策 items 7769569、7695646、2307736、2728552、6815576、5899013，但尚未窮盡平台。
 
 ## 官方來源技巧
 
@@ -48,7 +50,7 @@
 每行一個壓縮 JSON 物件；至少具備 `name`、`kind`、`cat`、`tags`、`desc`、`url`。完成匯入後刪除暫存批次檔，不要提交。
 
 ```bash
-python tools/add.py batch.jsonl --dry-run
+python tools/add.py batch.jsonl --dry
 python tools/add.py batch.jsonl
 ```
 

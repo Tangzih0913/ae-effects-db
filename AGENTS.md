@@ -92,7 +92,7 @@
 | `installed.jsonl` | 從本機安裝證據辨識、又無法歸入前述產品線的工具 |
 | `recipes.jsonl` | 畫面感與效果堆疊配方 |
 
-請用 `python tools/add.py batch.jsonl` 匯入，讓工具負責 schema 檢查、判重與選檔。同名不一定等於重複：不同 `kind`、不同原廠 URL 的正式同名效果可以共存；同 kind 或同官方 URL 才是產品碰撞。
+請先用 `python tools/add.py batch.jsonl --dry` 預檢，再以 `python tools/add.py batch.jsonl` 匯入，讓工具負責 schema 檢查、判重與選檔。同名不一定等於重複：不同 `kind`、不同原廠 URL 的正式同名效果可以共存；同 kind 或同官方 URL 才是產品碰撞。
 
 ## 產生檔與策展設定
 
