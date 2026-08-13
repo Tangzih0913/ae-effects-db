@@ -8,10 +8,18 @@
   :root{
     --bg:#0e0f13; --panel:#171922; --panel2:#1e2130; --text:#e8eaf0; --muted:#9aa0b4;
     --accent:#6ea8fe; --accent2:#f0a; --border:#2a2e3f; --chip:#232735;
+    --plugin-bg:#101f2b; --plugin-border:#2b5d82; --plugin-label:#83c8ff;
+    --script-bg:#24182d; --script-border:#704789; --script-label:#dda4ff;
+    --builtin-bg:#15251d; --builtin-border:#397356; --builtin-label:#82dca9;
+    --recipe-bg:#292115; --recipe-border:#80652e; --recipe-label:#f0c66e;
   }
   @media (prefers-color-scheme: light){
     :root{ --bg:#f6f7fb; --panel:#fff; --panel2:#f0f2f8; --text:#1a1d29; --muted:#666e85;
-           --accent:#2563eb; --accent2:#c026a8; --border:#e2e5ee; --chip:#eef1f8;}
+           --accent:#2563eb; --accent2:#c026a8; --border:#e2e5ee; --chip:#eef1f8;
+           --plugin-bg:#edf7ff; --plugin-border:#9bc9ee; --plugin-label:#17649d;
+           --script-bg:#f8effd; --script-border:#d1abe5; --script-label:#7d3d9d;
+           --builtin-bg:#eef9f2; --builtin-border:#a7d7b7; --builtin-label:#267349;
+           --recipe-bg:#fff8e8; --recipe-border:#dfc682; --recipe-label:#8a6815;}
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 -apple-system,"Segoe UI",Roboto,"Noto Sans TC",sans-serif}
@@ -56,10 +64,25 @@
   .hint{color:var(--muted);font-size:12px;margin-top:8px}
   .hint b{color:var(--accent);cursor:pointer;font-weight:600}
   #count{color:var(--muted);font-size:12.5px;margin:14px 0 4px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:13px 15px;margin:9px 0}
+  .card{background:var(--panel);border:1px solid var(--border);border-left-width:4px;border-radius:12px;padding:13px 15px;margin:9px 0}
+  .card.kind-plugin{background:var(--plugin-bg);border-color:var(--plugin-border)}
+  .card.kind-script{background:var(--script-bg);border-color:var(--script-border)}
+  .card.kind-builtin{background:var(--builtin-bg);border-color:var(--builtin-border)}
+  .card.kind-recipe{background:var(--recipe-bg);border-color:var(--recipe-border)}
   .card .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
   .name{font-size:16px;font-weight:650}
-  .cat{font-size:11px;color:var(--accent);background:var(--chip);padding:2px 8px;border-radius:20px}
+  .kindbadge,.catbadge{font-size:11px;padding:2px 8px;border-radius:20px;border:1px solid transparent}
+  .kindbadge{font-weight:700}
+  .kindbadge.kind-plugin{color:var(--plugin-label);border-color:var(--plugin-border);background:color-mix(in srgb,var(--plugin-bg) 65%,transparent)}
+  .kindbadge.kind-script{color:var(--script-label);border-color:var(--script-border);background:color-mix(in srgb,var(--script-bg) 65%,transparent)}
+  .kindbadge.kind-builtin{color:var(--builtin-label);border-color:var(--builtin-border);background:color-mix(in srgb,var(--builtin-bg) 65%,transparent)}
+  .kindbadge.kind-recipe{color:var(--recipe-label);border-color:var(--recipe-border);background:color-mix(in srgb,var(--recipe-bg) 65%,transparent)}
+  .catbadge{color:var(--muted);background:var(--chip);border-color:var(--border)}
+  .kindlegend{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;color:var(--muted);font-size:11.5px}
+  .kindlegend span{display:inline-flex;align-items:center;gap:5px}
+  .kindlegend i{width:9px;height:9px;border-radius:3px;display:inline-block}
+  .kindlegend .plugin{background:var(--plugin-label)} .kindlegend .script{background:var(--script-label)}
+  .kindlegend .builtin{background:var(--builtin-label)} .kindlegend .recipe{background:var(--recipe-label)}
   .warn{font-size:11px;color:#e0a020;background:rgba(224,160,32,.13);padding:2px 8px;border-radius:20px}
   a.namelink{color:var(--text);text-decoration:none}
   a.namelink:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
@@ -110,6 +133,10 @@
     </div>
     <div id="activeFilters" class="actbar"></div>
     <div id="aiMsg" class="aimsg"></div>
+    <div class="kindlegend" aria-label="工具型態顏色圖例">
+      <span><i class="plugin"></i>外掛／效果</span><span><i class="script"></i>腳本／面板</span>
+      <span><i class="builtin"></i>AE 內建</span><span><i class="recipe"></i>效果配方</span>
+    </div>
     <div class="hint">試試：
       <b data-q="霓虹">霓虹</b> ·
       <b data-q="老電影">老電影</b> ·
@@ -142,6 +169,17 @@ const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sap
   "continuum":"Continuum","builtin-ae":"AE 內建","aescripts":"aescripts","third-party":"第三方",
   "installed":"未驗證","recipes":"配方"};
 const KIND_LABEL = {plugin:"外掛／效果",script:"腳本／面板",builtin:"AE 內建",recipe:"效果配方"};
+const CAT_LABEL = {
+  glow:"發光", "blur-glow":"模糊／發光", light:"光線", flare:"鏡頭光暈", particles:"粒子",
+  stylize:"風格化", film:"底片／復古", color:"調色", blur:"模糊", warp:"扭曲",
+  keying:"去背／鍵控", tracking:"追蹤", restore:"修復", time:"時間", transition:"轉場",
+  text:"文字", generate:"生成", "3d":"3D", draw:"繪圖", paint:"繪畫", art:"藝術化",
+  texture:"材質", audio:"音訊", physics:"物理", rigging:"綁定", workflow:"工作流程",
+  render:"算圖／輸出", expression:"表達式", animation:"動畫", preset:"預設管理",
+  utility:"工具", distort:"變形", mograph:"動態設計", beauty:"美顏", edge:"邊緣",
+  emboss:"浮雕", composite:"合成", matte:"遮罩", perspective:"透視", kaleido:"萬花筒",
+  vr:"VR／360", recipe:"效果配方"
+};
 let DATA = [];
 
 function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
@@ -224,7 +262,7 @@ function renderActive(){
 }
 
 const catFilter = makeFilter({btnId:"catBtn", panelId:"catPanel", label:"分類",
-  keyOf:d=>d.cat, labelOf:k=>k, sortByCount:true});
+  keyOf:d=>d.cat, labelOf:k=>CAT_LABEL[k]?`${CAT_LABEL[k]} · ${k}`:k, sortByCount:true});
 const srcFilter = makeFilter({btnId:"srcBtn", panelId:"srcPanel", label:"來源",
   keyOf:d=>d._src, labelOf:k=>SRC_LABEL[k]||k, sortByCount:false});
 const kindFilter = makeFilter({btnId:"kindBtn", panelId:"kindPanel", label:"型態",
@@ -371,10 +409,12 @@ function render(){
     const nameHtml = d.url
       ? `<a class="name namelink" href="${esc(d.url)}" target="_blank" rel="noopener" title="開啟官方頁">${hl(d.name,terms)}<span class="ext">↗</span></a>`
       : `<span class="name">${hl(d.name,terms)}</span>`;
-    return `<div class="card"><div class="top">
+    const kind=d.kind||"plugin";
+    const catLabel=CAT_LABEL[d.cat] ? `${CAT_LABEL[d.cat]} · ${d.cat}` : (d.cat||"");
+    return `<div class="card kind-${kind}"><div class="top">
         ${nameHtml}
-        <span class="cat">${esc(KIND_LABEL[d.kind]||d.kind||"")}</span>
-        <span class="cat">${esc(d.cat||"")}</span>${warn}
+        <span class="kindbadge kind-${kind}">${esc(KIND_LABEL[kind]||kind)}</span>
+        <span class="catbadge">${esc(catLabel)}</span>${warn}
         <span class="src">${esc(origin)}</span></div>
       <div class="desc">${hl(d.desc||"",terms)}</div>
       ${stack}${vars}<div class="tags">${tags}</div></div>`;
