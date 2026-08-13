@@ -4,7 +4,7 @@
   "title": "AE Effect DB entry",
   "description": "一筆特效/外掛條目。data/*.jsonl 每一行都是一個符合此 schema 的 JSON 物件（JSONL：一行一物件，無逗號、無陣列外框）。",
   "type": "object",
-  "required": ["name", "kind", "cat", "tags", "desc"],
+  "required": ["name", "kind", "cat", "tags", "desc", "url"],
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -24,7 +24,7 @@
     },
     "tags": {
       "type": "array",
-      "minItems": 3,
+      "minItems": 5,
       "items": { "type": "string", "minLength": 1 },
       "description": "中英混合關鍵字，搜尋主要靠這欄。務必同時放英文與繁中同義詞、俗名、常見講法。越多越好搜。"
     },
@@ -62,7 +62,7 @@
     "url": {
       "type": "string",
       "pattern": "^https?://",
-      "description": "官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。新增條目請務必附上；舊條目逐步補齊。"
+      "description": "必填、已實際確認存在的官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/），不得憑名稱猜 slug。"
     },
     "unverified": {
       "type": "boolean",

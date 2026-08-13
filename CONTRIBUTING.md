@@ -63,7 +63,7 @@
 
 規則：
 - 只輸出一行 JSON，不要美化、不要多餘標點。
-- 必填：name, kind, cat, tags, desc。
+- 必填：name, kind, cat, tags, desc, url。
 - kind：從 `plugin`（外掛／效果）、`script`（腳本／面板）、`builtin`（AE 內建）、`recipe`（效果配方）擇一。
 - name：效果原名（Sapphire 前綴 S_、Continuum 前綴 BCC/BCC+）。
 - cat：從這清單挑一個最貼切（小寫）：glow blur-glow light flare particles stylize film color blur warp

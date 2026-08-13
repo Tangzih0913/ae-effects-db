@@ -2,9 +2,9 @@ name: validate
 
 on:
   push:
-    paths: ["data/**", "validate.py", "schema/**"]
+    paths: ["data/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
   pull_request:
-    paths: ["data/**", "validate.py", "schema/**"]
+    paths: ["data/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
 
 jobs:
   validate:
@@ -15,4 +15,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Validate data/*.jsonl
-        run: python validate.py
+        run: python validate.py --strict
+      - name: Compile Python tools
+        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py

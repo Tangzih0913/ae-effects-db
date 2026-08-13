@@ -4,7 +4,7 @@
 AE 特效資料庫 - 命令列搜尋
 用法:
     python search.py 發光
-    python search.py glow bloom          # 多關鍵字(OR)
+    python search.py glow bloom          # 多關鍵字預設 AND，無結果才清楚標示並退回 OR
     python search.py --cat transition 甩鏡
     python search.py --suite sapphire glow
     python search.py --kind script 關鍵影格
@@ -12,6 +12,11 @@ AE 特效資料庫 - 命令列搜尋
 無外部相依，純標準庫。搜尋 name / tags / desc / variants，中英皆可。
 """
 import json, sys, os, glob, argparse
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -76,9 +81,23 @@ def score(row, terms):
             s += 1
     return s
 
+def ranked(rows, terms, require_all=True):
+    """依相關度排序；預設每個查詢詞都要命中同一筆資料。"""
+    lowered = [term.lower() for term in terms if term]
+    found = []
+    for row in rows:
+        text = haystack(row)
+        if require_all and not all(term in text for term in lowered):
+            continue
+        value = score(row, lowered)
+        if value > 0:
+            found.append((value, row))
+    return sorted(found, key=lambda item: (-item[0], item[1].get("name", "").casefold()))
+
 def main():
     ap = argparse.ArgumentParser(add_help=True)
-    ap.add_argument("terms", nargs="*", help="關鍵字(中英皆可，多個為 OR)")
+    ap.add_argument("terms", nargs="*", help="關鍵字（中英皆可，多個預設為 AND）")
+    ap.add_argument("--any", action="store_true", help="多個關鍵字改用 OR，符合任一個就顯示")
     ap.add_argument("--cat", help="限定分類 (glow/transition/particles/...)")
     ap.add_argument("--kind", choices=("plugin", "script", "builtin", "recipe"), help="限定工具型態")
     ap.add_argument("--suite", help="限定來源檔 (sapphire/continuum/universe/red-giant/builtin-ae/recipes/third-party)")
@@ -108,16 +127,17 @@ def main():
     if args.kind:
         pool = [r for r in pool if r.get("kind") == args.kind]
 
-    scored = [(score(r, args.terms), r) for r in pool]
-    scored = [x for x in scored if x[0] > 0]
-    scored.sort(key=lambda x: -x[0])
+    scored = ranked(pool, args.terms, require_all=not args.any)
+
+    if not scored and len(args.terms) > 1 and not args.any:
+        scored = ranked(pool, args.terms, require_all=False)
+        if scored:
+            print("沒有同時符合全部關鍵字，改顯示符合任一關鍵字。\n")
 
     if not scored:
         segs = segment(args.terms)
         if segs:
-            scored = [(score(r, segs), r) for r in pool]
-            scored = [x for x in scored if x[0] > 0]
-            scored.sort(key=lambda x: -x[0])
+            scored = ranked(pool, segs, require_all=False)
             if scored:
                 print(f"找不到「{' '.join(args.terms)}」，已自動拆詞：{'、'.join(segs)}\n")
 

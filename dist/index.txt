@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2824 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2498 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -29,7 +29,6 @@ AI Motion Blur｜aescripts｜plugin｜blur｜以本機 AI 估算畫面運動並�
 Blace 2｜aescripts｜plugin｜tracking｜在本機以 AI 自動偵測影片中的一張或多張臉並即時模糊，套用效果後即可運作；第二代採硬體加速並提升大尺寸影格的偵測速度與準確度。｜https://aescripts.com/blace/
 Motion Studio｜aescripts｜script｜workflow｜整合錨點吸附、內嵌速度／影響曲線、填色描邊、圖層 Focus 群組與工具搜尋；另含 Re-Key 關鍵幀庫、Key Assist、Delay、Falloff、Emitter 等完整動畫工作流。｜https://mtmograph.com/products/motion/
 Motion Tools Pro｜aescripts｜script｜workflow｜可建立最多四個獨立自訂面板的 AE 工作流指揮中心，整合 30 多項腳本與智慧 Widget，可複製關鍵幀、管理緩動與色票、調整錨點、排列連續動畫、最佳化 GIF，並從表達式庫套用或編寫自訂工具；新版另提供剛體物理與圖層分布功能。｜https://aescripts.com/motion-tools-pro/
-Animation Composer 3｜aescripts｜plugin｜preset｜已停售的可調動畫預設、預合成與音效瀏覽器，內含 100 多項免費內容並支援擴充包；每項都有影片預覽，可非破壞地加入、移除和自訂，也能收納自己的素材。｜https://aescripts.com/animation-composer/
 BeatEdit for After Effects｜aescripts｜plugin｜audio｜以專業節拍追蹤器分析音樂並寫入標記，可讓 2D／3D 屬性或時間重映射隨節拍跳動、重複關鍵幀、錯開圖層；還能選每隔數拍、隨機拍點或細分節奏。｜https://aescripts.com/beatedit-for-after-effects/
 Ease and Wizz｜aescripts｜script｜workflow｜將 Robert Penner 緩動方程以運算式套到任何動畫屬性，提供 Bounce、Elastic、Back、Expo、Cubic 等進出場與混合曲線；移動關鍵幀後會即時重新計算。｜https://aescripts.com/ease-and-wizz/
 Flow｜aescripts｜script｜workflow｜以正規化視覺曲線編輯器調整關鍵幀緩動，支援超越／下衝、套用為運算式、複製 CSS cubic-bezier 值，以及儲存、分享和管理多個曲線資料庫。｜https://aescripts.com/flow/
@@ -49,7 +48,6 @@ Newton 4｜aescripts｜script｜physics｜把任何 2D 圖層轉為具密度、�
 Bodymovin - Lottie｜aescripts｜script｜workflow｜把 AE 合成中受支援的 Shape、文字、遮罩、Matte、漸層、Trim Paths 與部分效果匯出成 Lottie JSON，必要時一併輸出 PNG 素材；可透過 lottie.js 在網頁的 SVG、Canvas 或 HTML 渲染，也能交給 iOS 與 Android 原生 Lottie 播放。僅支援 AE 功能子集，製作前應確認相容性。｜https://aescripts.com/bodymovin/
 True Comp Duplicator｜aescripts｜script｜workflow｜完整複製所選合成及其巢狀 Subcomp 階層，重複引用的合成只建立一次副本，並讓新版本都指向該副本；可保留或複製 Project Panel 資料夾結構、同步更新運算式，並設定多份副本、遞迴深度、素材複製、命名及含 Regex 的納入／排除條件。｜https://aescripts.com/true-comp-duplicator/
 BG Renderer MAX｜aescripts｜script｜render｜使用 After Effects 算圖引擎在背景輸出，讓使用者能繼續編輯專案；支援原生多執行緒與多程序、獨立算圖佇列、遠端進度監看及 Email／自動化服務通知。可先輸出影格序列，再自動編成 MP4 或 ProRes，並提供 CPU 限制、暫停與自訂 FFmpeg 指令等生產工具。｜https://aescripts.com/bg-renderer/
-RenderGarden｜aescripts｜script｜render｜把 Render Queue 中的合成切成多個稱為 Seeds 的片段，再由多個 Gardener 命令列程序透過 aerender 平行輸出，以利用單機多核心；亦可加入不限數量的 Gardener 網路節點擴充成小型算圖農場。產品已因 AE 原生 Multi-Frame Rendering 上線而停售，屬舊版工作流參考。｜https://www.mekajiki.com/rendergarden
 nexrender｜aescripts｜script｜render｜以 JSON Job 描述 AEP、目標合成、素材與前後處理步驟，透過 aerender 在命令列自動產生資料驅動或個人化影片。開源模組可替換影像、影片、音訊、文字與資料，並在算圖前後執行下載、編碼、複製或上傳；Server／Worker 與 HTTP API 架構則可把工作排程到多台 Windows 或 macOS 節點。屬面向開發者的自動化系統，不會啟動 AE 圖形介面。｜https://github.com/inlife/nexrender
 Connect Layers PRO｜aescripts｜script｜generate｜以 Shape Layer 與 Path Expressions 在所選圖層間建立無需關鍵幀的動態連接線，一鍵生成 Rope、Spanning Tree 或 Triangulation。介面可調階梯、圓弧、Bezier、Penner Easing 與動態曲率，加入圓形、方形、三角形或自訂箭頭，並控制純色／漸層、Trim、Dash、Offset、Repeater、Round Corners、Twist、Wiggle 與 Zig Zag；亦支援 AE 3D 圖層。｜https://aescripts.com/connect-layers/
 iExpressions 3｜aescripts｜script｜expression｜用圖形介面套用與設定 100 多個 AE Expressions，不必閱讀或撰寫程式碼，可建立動態模板、MOGRT、角色 Rig 與 Shape 動畫。能一鍵連結圖層或屬性、加入延遲、把結果烘焙成關鍵幀，並匯入自寫或網路取得的 Expression，自動分析程式碼後產生控制介面；成品在未安裝此外掛的 AE 或 Premiere Pro 中仍可運作。｜https://aescripts.com/iexpressions/
@@ -59,7 +57,6 @@ Ray Dynamic Texture｜aescripts｜script｜workflow｜把紋理連同圖層設�
 TextEvo 2｜aescripts｜script｜text｜依字母、單字或行套用延遲文字動畫，主要參數集中在單一 Pseudo Effect 中，並可堆疊多組效果製作更複雜的變化。支援順向、反向、隨機、由中央向外或由外向內等動畫方向，提供可調整成橫向或縱向的精簡面板與 Preset 系統。｜https://aescripts.com/textevo/
 Text2Spreadsheet｜aescripts｜script｜text｜一鍵把 AE 專案中的文字圖層匯出成只有可讀文字、不含易破壞技術資料的乾淨試算表，讓客戶、校稿者、翻譯或 AI 修改後再套回原專案。工具會持續追蹤已改名或移動的圖層、自動發現新增文字，並以新增欄位管理多個語言或修訂版本；支援 UTF-8、多行文字、CSV／Excel XML、資料夾與圖層名稱篩選、重複內容排除及匯入後的詳細變更狀態。｜https://aescripts.com/text2spreadsheet/
 DecomposeText｜aescripts｜script｜text｜把單一文字圖層依字元、單字或行拆成多個獨立圖層。可選擇以 Expression 保留原始精確位置，此時每層仍含完整原文但隱藏不需要的部分；也可採不用 Expression 的近似定位，讓每個新圖層只保留實際的一個字元、單字或一行文字。｜https://aescripts.com/decomposetext/
-Type Anarchy｜aescripts｜script｜text｜快速做風格化/破壞感文字排版與動態｜
 Captioneer｜aescripts｜script｜text｜在 After Effects 與 Premiere Pro 中從字幕來源選取 MOGRT Preset，快速建立可編輯的動畫字幕時間軸；支援離線 Auto-Captions 語音轉錄、SRT、所有語言、RTL 文字與自訂游標／Caption。可使用內建樣式或匯入自行製作及市集取得的 MOGRT；AE 版本以 Essential Graphics Precomp 建立字幕，文字可從 Properties 面板修改、時間可直接在 Timeline 調整。｜https://aescripts.com/captioneer/
 GEOlayers 3｜aescripts｜script｜generate｜直接在 AE 搜尋並繪製國家、城市、道路、建築、湖泊、河川、地標與行政區等地理圖徵，從線上資料源算圖成可編輯地圖資產。Mapcomp 可縮放、平移、Pitch 與 3D 旋轉，支援自訂 Map Style、自動多語標籤、路線動畫、3D 建築，以及匯入 CSV／TSV 做資料驅動 Shape Style；搭配 Helium、FreeForm Pro、Plexus 或 Trapcode Mir 可依真實高程建立 3D Landscape。｜https://aescripts.com/geolayers/
 Grid Builder｜aescripts｜script｜generate｜把 Timeline 裡的文字、Shape、向量、Footage 或 Precomp 排成可動畫的矩形、放射、路徑或球形網格，並以單一 Null 上的 Pseudo Effect 控制整個系統。可在 Extension 中拖放重排項目、不改變原圖層堆疊；Face Screen 讓元素持續朝向 Camera，Path Mode 能依路徑切線定向，Spherical Grid 還能以單一 Slider 智慧選擇最短路徑在目標間轉場。｜https://aescripts.com/grid-builder/
@@ -420,7 +417,6 @@ ASCII Generator｜aescripts｜plugin｜text｜把任意文字圖層轉成復古 
 ASH Syntax Highlighter｜aescripts｜script｜text｜在 AE 文字圖層加入程式碼編輯器式語法高亮，適合 FUI、教學影片與科技畫面。｜https://aescripts.com/ash-syntax-highlighter/
 AudioAmpToVideoSpeed｜aescripts｜script｜audio｜依 Audio Amplitude 圖層控制影片加速與減速，適合音樂反應剪輯、節拍變速與動態循環。｜https://aescripts.com/audioamptovideospeed/
 AudioToMarkers｜aescripts｜script｜audio｜依音訊強度加入標記、切割圖層或建立遞增文字，適合節拍剪輯、字幕提示與音樂同步。｜https://aescripts.com/audiotomarkers/
-Aurum｜aescripts｜plugin｜stylize｜針對 2D Logo、Text 與 Shape 的 PBR Metallic Effect，以 Roughness、Specular、Fresnel 與 Anisotropy 計算金屬反射。Smart Edge 會偵測圖層內部細節與邊界並雕進 Heightmap，增加凹凸深度；七組內建 HDRI Environments 加上 Custom Layer 可提供 Gallery、Studio、Rim Light 等反射。內建 Gold、Silver、Rose Gold、Bronze、Copper、Platinum、Brushed Steel、Black Chrome 八種 Presets，以及 Smooth、Round、Chisel Hard／Soft、Mesa 五種 Bevel。Add Blend Mode 可只把金屬亮澤疊回彩色品牌素材，保留原色。支援 8／16／32bpc、Mac Metal、Windows OpenCL 與 CPU Fallback；官方目前標示已停售。｜https://aescripts.com/aurum/
 Auto Audio Mixer｜aescripts｜plugin｜audio｜自動混合 Active Composition 的音訊圖層，會處理各層 In／Out Points，提供兩種 Mixing Options，並可把處理範圍設為整個 Composition 或 Work Area。能遞迴處理巢狀 Comps、延展剩餘音訊以銜接下一層或填滿時長、建立層間轉場、停用互相干擾的聲音，亦可依 Tag 略過指定音訊。可設定最低音量與 Linear、Bezier、Easy Ease 插值，並內含 High／Low Pass、Reverb、Bass／Treble、Flanger、Chorus 等九種 AE Audio Effects。｜https://aescripts.com/auto-audio-mixer/
 Auto Backup｜aescripts｜script｜workflow｜透過腳本儲存 AE 專案時，先把已存在的專案檔重新命名為 `原檔名.aep.old` 留作上一版，再寫入目前版本；適合檔案損壞或不穩定效果造成問題時快速回退。它補足原生 Auto-Save 的空窗：使用者每次手動 Save 都會重設 Auto-Save 計時，因此頻繁存檔反而可能只留下過時的自動備份。這是保留上一版的簡潔機制，並非完整多版本管理器。｜https://aescripts.com/auto-backup/
 Auto Lip-Sync｜aescripts｜plugin｜animation｜分析語音錄音並自動變形單一嘴部圖像，不必準備多組音素嘴型或手設關鍵影格；逐步精靈建立設定後，可自動加入牙齒與舌頭動畫，再用滑桿微調開口幅度、變形量及開閉嘴形，並以 Marker 指定需要更接近 O 型嘴的位置。不限語言，也可用於會移動的角色或物件。｜https://aescripts.com/auto-lip-sync/
@@ -459,17 +455,13 @@ CoDependencies｜aescripts｜script｜workflow｜把專案目錄外的來源素�
 Collage Pro｜aescripts｜plugin｜mograph｜在 AE 內建立可持續調整的水平或垂直拼貼。Easy Collage 自動把項目均分到尺寸一致的列，適合快速整齊版面；Advanced Collage 可自訂每列項目數、列與項目尺寸、順序及分隔，並增刪或移動單一項目與整列。版面由控制器非破壞管理，內建 Transform 與 Delay 動畫、Shrink／Expand、Freeze／Bake，也能轉為 Static Collage 後完全手動編輯。支援 Footage 與 Precomp，項目可用 Transform Effect 在框內獨立調位置與縮放而不破壞整體排版。｜https://aescripts.com/collage-pro/
 Colloid - Animated Typeface｜aescripts｜script｜text｜Animography 的逐格動畫字型，由 Oi Vaidas 設計；每個大寫字元由兩種彩色液體交會成形，帶有手繪液滴與細碎水珠，而且各字元時長不同，排字後會形成不規則流動節奏。全套以向量製作，可無損縮放；能改兩種顏色，並在 Smooth、Rough、Looping Wiggle 三種邊緣風格間切換。含 A–Z、0–9、常用標點、JSX 與整理好的 AEP，可透過 Font Manager 控制尺寸、字距、行距、對齊與 Time Offset。｜https://aescripts.com/colloid/
 Color Cone｜aescripts｜plugin｜color｜以雙圓錐視覺化的 HCL 色彩模型進行校色與 Look 設計；每個控制點指定來源色、目標色與作用半徑，小半徑可精準改色、大半徑可塑造整體氣氛，Auto-Radius 會避免多點重疊互相抵消。自有 Color Warp 技術讓大幅色變在 8-bit 素材仍保持平滑，並可協調混合白平衡、恢復及微調膚色、動畫化參數與匯出 LUT。｜https://aescripts.com/color-cone/
-ColorLibrary｜aescripts｜plugin｜color｜從選取合成的純色圖層、背景色與顏色屬性讀取並建立色票，也能用選色器或滴管新增、重新命名及刪除色票；支援以分號分隔的 CSV 與 Adobe ASE 匯入／匯出，色票會儲存在 AE 偏好設定中。產品已停售。｜https://aescripts.com/colorlibrary/
 Colour Scheme Generator｜aescripts｜plugin｜color｜依目前影像建立五個彼此搭配的可調色票；可啟用或停用調色盤、用 Gamma 做小幅修正，並更換 Random Seed 重新產生配色。｜https://aescripts.com/colour-scheme-generator/
 Comp Buddy｜aescripts｜script｜composite｜把 VFX 合成常用的 Edge Blur 與 Light Wrap 簡化成一鍵操作。Edge Width 可控制只柔化 Alpha 邊界的範圍，適合消除過度銳利的 CG Render，也可用於 Text、Shape Layer 或任何含 Alpha 的圖層；Light Wrap 則讓背景光色沿前景輪廓滲入，協助實拍與 CG、文字或圖形更自然地融入同一畫面。｜https://aescripts.com/comp-buddy/
 compCode｜aescripts｜script｜workflow｜把所選 Composition 或 Layers 轉成可直接執行、能重建原設計的 After Effects JSX，不需寫程式，輸出至少向下相容 CS6。可用 `//value`、`text:`、`file:`、`name:` Token 在執行時向使用者詢問數值、文字、替換素材與名稱，並選擇建立新 Comp 或套入目前 Comp、重用既有 Project Items。內含 compPack，可依原資料夾結構把多支腳本封裝成帶搜尋、品牌圖與資訊按鈕的獨立工具面板。受 AE Scripting API 限制，不支援 Master Properties、部分自訂資料、Gradient、Paint、Rotobrush、Puppet Pin 與多重文字樣式。｜https://aescripts.com/compcode/
 Compound Matte｜aescripts｜plugin｜matte｜讓單一來源圖層同時使用不限數量的 Matte 圖層，逐一以 Merge、Subtract、Intersect 或 Exclude 組合。提供 Quick 與 Complex 兩套引擎並會自動辨識切換，支援圖層不透明度與圖層效果；不使用 Set Matte，許多情況也能取代 AE 內建 Track Matte。｜https://aescripts.com/compound-matte/
 Control Maker｜aescripts｜script｜rigging｜從內附或自訂資料夾選取 Illustrator 圖示，匯入為形狀圖層控制器；可依選取圖層逐一命名與建立控制器、調整填色和描邊，並以 Shift 在多圖層中心只建一個控制器，或替選取的 Puppet Pins 建立且用表達式連接對應控制層。｜https://aescripts.com/control-maker/
-Copy Pasta｜aescripts｜script｜workflow｜把 AE 目前畫格一鍵複製到系統剪貼簿，或把剪貼簿中的圖片直接貼入 AE，免去先輸出、存檔再匯入的流程；可透過 Render Queue 取得較高品質副本，複製與貼上皆支援透明度，貼入圖片可存到專案目錄內的子資料夾。產品已停售，官方建議改用 imgPaster。｜https://aescripts.com/copy-pasta/
 Copy Paste Markers 2｜aescripts｜script｜workflow｜補足 AE 介面不能直接複製貼上圖層 Markers 的缺口，可把一個或多個標記複製到任意其他圖層。範圍可限定為目前時間的 Marker、整個合成長度內全部 Markers、Work Area 內，或播放頭之前／之後，適合在圖層間轉移節奏點、註解與提示。｜https://aescripts.com/copy-paste-markers/
-Copy Mattes｜aescripts｜plugin｜matte｜從指定圖層複製 Track Matte，再貼到單一或多個目標圖層；可連同相對屬性連結及父圖層複製、取代或刪除目標既有 Matte、替副本加前後綴，並依下方圖層的 In／Out Points 裁切。產品已停售，且建立於 AE 新 Track Matte 系統推出前，不適合新版流程。｜https://aescripts.com/copy-paste-mattes/
 CopyMask2Layer｜aescripts｜script｜workflow｜把遮罩從一個 2D 圖層轉移到另一個 2D 圖層時，維持遮罩在畫面中的精確位置；來源或目標圖層正在移動、縮放等變形，或遮罩路徑已有關鍵影格時仍可正確轉換。第二版原生支援 RotoBezier 遮罩。｜https://aescripts.com/copymask2layer/
-Corner Cutters｜aescripts｜script｜workflow｜由 26 支可透過工具列或單獨執行的 AE 實用腳本組成，涵蓋整理 Project Panel、紅黃綠進度標記、版面參考線、目前畫格存成 PNG、重新載入或替換素材、套用常用效果、消除剪輯空隙、快速裁片、淡入淡出、圖層標記，以及批次增減遮罩羽化與擴張等工作。產品已停售。｜https://aescripts.com/corner-cutters/
 Bento｜aescripts｜script｜mograph｜快速建立可調列欄、間距、圓角與隨機尺寸的 Bento 網格，並把格子轉成帶遮罩的預合成供多畫面排版。｜https://aescripts.com/bento/
 Blob It｜aescripts｜script｜stylize｜為圖形與物件加入圓潤、冒泡和果凍般晃動的液態變形，適合活潑的角色與動態圖形。｜https://aescripts.com/blob-it/
 Block Swap｜aescripts｜script｜stylize｜把影像切成區塊並隨機交換，可排除指定區域或混入其他時間影格，適合方塊故障、場景重組與轉場。｜https://aescripts.com/block-swap/
@@ -819,9 +811,7 @@ Roll it!｜aescripts｜plugin｜animation｜分析 Bezier Shape 或 Mask 的輪�
 Save Objects 2｜aescripts｜script｜workflow｜把合成、單一或多個圖層、屬性 Preset、Mask、Marker、關鍵影格插值、Expression、JSX 與 Font 保存成可搜尋、可預覽的跨專案資產庫；支援巢狀資料夾、多合成批次保存、共享來源路徑、Collect Files／字型收集及備份。｜https://aescripts.com/save-objects/
 ReverseMaskPath｜aescripts｜script｜workflow｜反轉所選遮罩路徑的行進方向，但不改變頂點與切線的位置；適合修正描邊、路徑動畫或依方向運算時的正反順序。｜https://aescripts.com/reversemaskpath/
 RubikCube｜aescripts｜plugin｜3d｜在 After Effects 中建立並動畫化可轉動的魔術方塊，省去手動排列小方塊與設定各層旋轉的繁瑣流程。｜https://aescripts.com/rubikcube/
-Save Comp As Project 2｜aescripts｜script｜workflow｜把一個或多個合成輸出成新的 After Effects 專案，可自動精簡專案並收集使用到的素材；原產品已停售，官方建議改用 AEVIEWER Pro。｜https://aescripts.com/save-comp-as-project/
 Scene Clip｜aescripts｜script｜workflow｜用縮圖與註解替合成中的場景建立目錄，之後可一鍵跳到指定位置，並能匯出、匯入清單供團隊協作與交接。｜https://aescripts.com/scene-clip/
-Screen Equalizer｜aescripts｜script｜keying｜利用乾淨背景參考畫面校正綠幕或藍幕上的皺褶、瑕疵與不均勻照明，先把色鍵背景整平，再交給 Keylight、Primatte 等工具去背；產品現已停售。｜https://aescripts.com/screen-equalizer/
 Screen Mapper｜aescripts｜script｜workflow｜在獨立畫布上設計多螢幕、電視牆或 Bento Grid 版型，再自動建立並正確命名、標色和定位 AE 主合成與預合成；支援格線、溝槽、尺規、吸附與版型分享。｜https://aescripts.com/screen-mapper/
 Screen Saver Exporter｜aescripts｜script｜render｜把 After Effects 或 Premiere Pro 製作的影片一鍵封裝成可散布的螢幕保護程式或 Windows .scr 檔，並提供填滿、符合比例等播放模式。｜https://aescripts.com/screen-saver-exporter/
 Scribe｜aescripts｜plugin｜text｜從內建單線字體庫產生保留逐字書寫動畫的形狀圖層文字，可調整書寫進度與筆畫粗細，也能重排筆畫順序、修改字形或加上 Repeater、漸層等形狀運算。｜https://aescripts.com/scribe/
@@ -834,33 +824,25 @@ Set Parent To Structure｜aescripts｜script｜rigging｜依 Duik 角色骨架�
 Set Path Keyframes｜aescripts｜script｜workflow｜透過 Animation 選單或自訂鍵盤捷徑，在目前時間替所選 Shape Layer 的全部 Path 屬性新增關鍵影格；若該時間已有完整關鍵影格則改為刪除。｜https://aescripts.com/set-path-keyframes/
 Set Render Queue Time Span｜aescripts｜script｜render｜批次修改算圖佇列項目的開始與結束時間，可各自採用合成工作區、完整合成長度或自訂起訖影格，並選擇套用全部或僅已勾選項目。｜https://aescripts.com/set-render-queue-time-span/
 ShakeTracker2AE｜aescripts｜plugin｜tracking｜把 Apple Shake 的追蹤資料匯入 After Effects 並轉成 Null 物件，方便將既有追蹤運動接到 AE 圖層與合成元素。｜https://aescripts.com/shaketracker2ae/
-Shape Elements Pack｜aescripts｜plugin｜preset｜提供可透過 Animation Composer 或 Premiere Composer 套用的動畫形狀元素，每個元素附合適的控制器、輔助圖層與多種 easing 選項；獨立商品已停售並改納入 Mister Horse 訂閱。｜https://aescripts.com/shape-elements-pack-for-animation-composer/
 Shape Layer Toolbar｜aescripts｜script｜workflow｜用可自訂按鈕快速加入 Shape Layer 元件與 Expression Controls，並能替各元件保存數值、運算式、被運算式隱藏的原值、漸層及關鍵影格，也可一次選取同類元件。｜https://aescripts.com/shape-layer-toolbar/
 Shape Library｜aescripts｜script｜workflow｜一鍵建立矩形、圓形、星形、愛心、箭頭、雲朵等基本 Shape Layer，並可把自己的 Logo、圖示、單一路徑或整個形狀圖層存入可重新命名與跨電腦搬移的自訂素材庫。｜https://aescripts.com/shape-library/
 Shape Motion｜aescripts｜plugin｜animation｜替圖層位置或至少有兩個數值的屬性建立圓形、矩形、多邊形、愛心、星芒線或迴圈運動，並用控制 Null 調整半徑、速度、邊數、緩動、起訖點、旋轉與縮放。｜https://aescripts.com/shape-motion/
 Shape Repeater Baker｜aescripts｜script｜workflow｜把 Shape Layer Repeater 產生的每個複本烘焙成可獨立控制的形狀實例，可選擇在完成後移除原 Repeater，適合需要逐個修改、動畫或拆分複本的情境。｜https://aescripts.com/shape-repeater-baker/
-Shape Transitions for Animation Composer｜aescripts｜plugin｜transition｜收錄超過 200 組可在 Animation Composer 預覽後拖放的形狀轉場，包含漸層圖形、快速矩形、網格與圓點等類型；全部由 AE 圖層組成，可修改顏色與內容，獨立商品現已停售。｜https://aescripts.com/shape-transitions-for-animation-composer/
-Shape Up｜aescripts｜plugin｜draw｜在加入合成前先預覽並定義橢圓、矩形、水平／垂直線、多邊形與星形，可設定尺寸、位置、錨點、對齊、描邊、圓角、複本數與顏色，產生不帶運算式或動畫的乾淨 Shape Layer；產品現已停售。｜https://aescripts.com/shape-up/
 ShapeMonkey｜aescripts｜plugin｜mograph｜用模組化形狀、插值組合、調色盤、放射陣列、轉場、漂移與亂流快速生成大量程序式 Shape Layer 動畫，也能使用自有形狀、文字與向量，並以 Marker 觸發節拍同步。｜https://aescripts.com/shapemonkey/
-Shapes and Masks｜aescripts｜script｜draw｜建立圓形、多邊形、可變圓角矩形、阿基米德／對數螺旋與星形遮罩，並可旋轉、縮放、水平或垂直鏡射、反轉方向、依間距細分曲線頂點，以及把遮罩資料輸出成文字檔；產品現已停售。｜https://aescripts.com/shapes-and-masks/
 Sheetah - Spritesheet Tools｜aescripts｜script｜render｜把整個 AE 合成快速算成單張 Sprite Sheet，自動估算合適的列欄配置並保留 Alpha，可輸出 PNG、TGA、TIF 與 2 的次方尺寸；另能設計自訂影格播放順序並匯出文字或 JSON 動畫序列。｜https://aescripts.com/sheetah-spritesheet-tools/
 Shortcakes｜aescripts｜script｜mograph｜依指定的 X、Y 數量，把合成中選取的圖層由上到下自動縮放並排成分割畫面，支援不同素材與合成尺寸，還能加入邊框、編號與形狀並輸出成 PNG。｜https://aescripts.com/shortcakes/
-ShotViz｜aescripts｜script｜workflow｜把 Cinema 4D 預覽檔內嵌的專案名、鏡頭號、攝影機、焦段、幀率、影格、日期與 Take 等 metadata 顯示在 AE 或 Premiere，並可調整字型、顏色、透明度和 Logo；產品現已停售。｜https://aescripts.com/shotviz/
 Signal｜aescripts｜plugin｜distort｜以亮度與色度調變、編碼再解碼的方式重建類比電視傳輸，可分別劣化訊號區段並加入多種雜訊、VHS 磁帶質感與電視彎曲，而非只疊一層仿舊紋理。｜https://aescripts.com/signal/
 Simple Text｜aescripts｜plugin｜text｜以熟悉的 Shape Layer 動畫控制文字的位置、錨點、旋轉、縮放與透明度，再把動態套給任意文字圖層；可設定字、詞或行之間的規則、反向或隨機延遲，並用 Bezier 路徑與 Graph Editor 微調。｜https://aescripts.com/simple-text/
 SimplifyMasks｜aescripts｜plugin｜matte｜分析所選遮罩並移除對輪廓影響最小的頂點，用較少節點保留原有形狀；特別適合整理 AE Auto-trace 產生的密集、抖動路徑。｜https://aescripts.com/simplifymasks/
 Skin Retouch｜aescripts｜plugin｜beauty｜一鍵在 AE 建立 Photoshop 式頻率分離流程，把保留毛孔與細節的高頻層和承載膚色、明暗的低頻層拆開；可只模糊低頻來磨皮，或在細節層用 Clone Stamp 去除皺紋。｜https://aescripts.com/skin-retouch/
 skinAnchor｜aescripts｜script｜workflow｜以九宮格按鈕把圖層錨點移到左、中、右與上、中、下的交點；Shift 點擊可改移圖層位置而保持錨點不動，Alt 點擊則能更換面板 Skin。｜https://aescripts.com/skinanchor/
-SkyBox 360 Post FX 1/2｜aescripts｜plugin｜vr｜為等距柱狀投影的 360°／VR 影片提供跨球面接縫的後製效果，第一套含 Blur、De-Noise、Sharpen、Glow，第二套含 Digital Glitch、Chromatic Aberrations、Fractal Noise、Color Gradients；支援單眼 2:1 與上下式立體 1:1，現已停售並整合進 Adobe。｜https://aescripts.com/skybox-360-post-fx/
 Skydome｜aescripts｜plugin｜3d｜一鍵替 AE 合成建立會回應攝影機位置、朝向、旋轉與鏡頭參數的 3D 環境背景合成，只要把 HDRI 或其他影像放進背景合成即可成為場景環境。｜https://aescripts.com/skydome/
 SlabText｜aescripts｜plugin｜text｜把段落中每一行文字自動調整到相同可用寬度，可控制用水平縮放或 Tracking 補足行寬、調整 Leading、自動配色並保留原格式，也能一鍵清除轉換。｜https://aescripts.com/slabtext/
 SlackOut｜aescripts｜script｜render｜用 Draft／Final 兩組輸出按鈕替 AE 合成套用指定 preset、自動遞增檔名並算到專案旁或自訂資料夾，完成後可直接上傳 Slack 頻道或使用者，並選擇刪除本機檔案。｜https://aescripts.com/slackout/
 Slate Create｜aescripts｜script｜workflow｜替選定合成快速建立片頭場記板，可從合成名稱自動填入資料，並依合成尺寸、畫面比例、幀率與長度產生正確資訊；內附三套可換成自有美術的模板，也能儲存常用欄位配置，適合審片、版本交付與團隊辨識鏡次。｜https://aescripts.com/slate-create/
 SLCTR｜aescripts｜script｜workflow｜依目前時間指示器的位置選取前方、後方或全部圖層，並可限定圖層類型、標籤色與工作區範圍；另能保持相對時間一起移到播放頭，或上下翻轉圖層順序，特別適合因配樂更換而重新安排複雜合成。｜https://aescripts.com/slctr/
 Slice It 3D｜aescripts｜plugin｜3d｜把預合成圖層沿 2D 遮罩切成具有模擬 3D 深度的多個部件，提供六種切割模式，能調整色彩、陰影、變形、燈光與厚度；切面可共用或個別指定素材，厚度也能依遮罩位置自動同步並製作關鍵幀動畫。｜https://aescripts.com/slice-it-3d/
-Slim Expression Controls｜aescripts｜script｜expression｜把分散的 Expression Controls 整合到單一 Pseudo Effect 中，讓模板作者用一組有名稱、有順序的控制介面管理滑桿、核取方塊與其他參數，減少效果面板雜亂。產品已停止販售，官方建議改用 Pseudo Effect Maker。｜https://aescripts.com/slim-expression-controls/
 Smart Adapt｜aescripts｜script｜workflow｜從一個或多個主版合成批次建立大量螢幕與社群尺寸版本，可依寬度或高度縮放、設定每個尺寸的對齊方式，並自動挑選長寬比最接近的主版複製適配；尺寸清單支援群組、前後綴、儲存與匯入匯出，月繳與年繳頁屬同一套工具。｜https://aescripts.com/smart-adapt/
-Smart Baker｜aescripts｜script｜expression｜將表達式烘焙成逐格關鍵幀後，偵測靜止區段與可用直線插值取代的連續數值，只保留真正需要的關鍵幀；可調整偵測門檻，在回到手動動畫時避免時間線塞滿每格取樣。產品已停止販售，官方相容性止於早期 AE 版本。｜https://aescripts.com/smart-baker/
 Smart Key Reverse 2｜aescripts｜script｜animation｜一鍵反轉多圖層的複雜關鍵幀動畫，同時保留各關鍵幀的相對時間、插值與 Roving Keyframe 行為；可在播放頭、工作區或各圖層入點至出點之間反轉，並限定全部、選取或指定屬性，方便把淡入快速做成對稱淡出。｜https://aescripts.com/smart-key-reverse/
 Smart Keyframe Navigator｜aescripts｜script｜workflow｜用兩個可綁定快捷鍵的腳本精準跳到上一個或下一個關鍵幀：未選取時檢查整個時間線，選取圖層時只檢查那些圖層，選取屬性時則只在指定屬性間導航，解決複雜時間線中預設 J、K 鍵無法限定範圍的問題。｜https://aescripts.com/smart-keyframe-navigator/
 Smart Posterizer｜aescripts｜plugin｜time｜掃描預合成、形狀、影像或影片的實際視覺變化，再讓其他有關鍵幀的屬性只在來源換畫時更新；比固定幀率的 Posterize Time 更能貼合逐格動畫節奏，也可建立二拍、三拍、四拍預設並把結果烘焙成關鍵幀。測試功能還能讓紋理跟隨帶擠壓伸展的算圖物件。｜https://aescripts.com/smart-posterizer/
@@ -871,7 +853,6 @@ Smart Selector｜aescripts｜script｜workflow｜在合成視窗放置 Point Con
 SMP Pro｜aescripts｜script｜workflow｜跨整個合成或指定圖層搜尋屬性，能依名稱、目前數值、是否有關鍵幀、靜態狀態或是否含表達式精準篩選；選取後可批次注入或移除表達式、刪除關鍵幀及修改同值屬性，適合除錯 Rig、清理誤設動畫與一次替換大量品牌色。｜https://aescripts.com/smp-pro/
 SnapKey – Capture Blend and Reuse Poses｜aescripts｜script｜animation｜擷取目前多個圖層與既有 Rig／動畫設定的狀態，將複雜 Pose 存成一個保留在目前 Composition 內的 Snap，之後可隨時 Recall、重複使用或在多個 Snaps 之間 Blend。適合角色姿勢切換、比較 Motion Variations、建立可組合的動作系統，無須每次從頭調整相同屬性；既有專案結構可直接使用，混合結果仍留在合成內並保持可編輯。官方 1.6.1 提供 Capture States、Advanced Blending 與 Key Animation，支援 AE 2025–2026。｜https://aescripts.com/snapkey/
 Snapshot FX｜aescripts｜script｜workflow｜記錄任意效果、Pseudo Effect 與控制器的完整參數和關鍵幀，之後可套用整份效果堆疊，或只更新指定元件；快照能以標籤、布林搜尋、來源圖層與目錄管理並透過網路資料夾共享，內建 FX Manager 也可列出專案中所有效果、跳到來源或暫時停用耗資源項目。｜https://aescripts.com/snapshot-fx/
-Social Beam｜aescripts｜script｜render｜從 AE 選取合成、啟動算圖並填寫貼文文字，即可依 Instagram 貼文需求處理影片尺寸、幀率與輸出設定，再透過 Dropbox 與 Facebook Business 帳號完成發布；官方僅支援一般 Instagram Posts，不含 Stories 與 Reels，且產品已停止販售。｜https://aescripts.com/social-beam/
 Social Exporter｜aescripts｜script｜render｜把目前合成依 YouTube、Instagram、TikTok、Facebook、LinkedIn 等平台預設批次建立不同尺寸版本並送入 AE Render Queue；可個別指定 Duplicate 或 Nest，也能強制全數複製或巢狀處理，支援自訂尺寸、幀率及 AE 可用的輸出格式，省去逐一重建社群版型。｜https://aescripts.com/social-exporter/
 Social Importer｜aescripts｜script｜workflow｜以 Instagram／Twitter 帳號或多個貼文連結直接匯入圖片、影片、帳號與貼文文字，套入會隨圖片比例及文字長度調整的內建模板；每套模板提供五十五個以上可設關鍵幀參數，並能儲存動畫與樣式、複製到其他貼文。官方目前因技術問題暫停供應。｜https://aescripts.com/social-importer/
 Solitude Animated Typeface｜aescripts｜plugin｜text｜以幾何圖形為設計核心的動態標題字體，包含二十六個英文大寫字母與十個數字；所有字元都由 AE Shape Layer 建構，因此可直接修改路徑、填色、筆畫與動畫，不需額外外掛，也能搭配 Characteristic 編排文字。｜https://aescripts.com/solitude-animated-typeface/
@@ -883,14 +864,12 @@ Spectra / Spectra Collection One｜aescripts｜plugin｜light｜一系列 1080p 
 Speed Lines｜aescripts｜plugin｜draw｜分析動畫圖層每一幀的位置，建立沿運動路徑跟隨的 Shape Layer 筆畫，即使來源受父子關係或表達式驅動也能追蹤；可調整線條數量、間距、粗細、長度、角度與偏移，還能鎖定終點並在生成後重新更新設定。｜https://aescripts.com/speed-lines/
 SpeedX｜aescripts｜plugin｜time｜利用具遮擋感知的 AI 光流估算逐像素運動向量，在原始幀之間合成新畫面，用於慢動作、升幀、變速與可變速反向播放；提供 Speed Ratio／Frame Number 兩種重定時方式，以及 Smooth、Sharp、Nearest、Blend 四種插值模式，並以 GPU 加速。｜https://aescripts.com/speedx/
 SpellCheck｜aescripts｜plugin｜text｜掃描目前選取合成及其所有巢狀預合成中的文字圖層，逐字檢查拼寫；遇到錯字時可手動輸入正確內容，或連至作者網站取得候選字詞，適合在模板、廣告與大量字幕交付前做最後文字品質檢查。｜https://aescripts.com/spellcheck/
-Spill Slayer｜aescripts｜script｜keying｜以八種演算法處理綠幕、藍幕或紅幕造成的反射溢色，可在紅綠藍任一通道抑制，或用背景取樣色替換污染區域；支援 8／16／32-bit float 與超白值，還能輸出 Spill Map 作為自然 Light Wrap 遮罩，適合搭配 Keylight、Primatte 等去背器。產品已停止販售。｜https://aescripts.com/spill-slayer/
 Spiral Maker｜aescripts｜plugin｜draw｜從選取的 Mask Path 一鍵產生螺旋與多層插值圖案，可替結果加入填色或描邊，並批次開啟／封閉路徑、反轉多個遮罩方向；支援 Bake 與 UnBake，方便在程序式控制和可直接編輯的路徑之間切換。｜https://aescripts.com/spiral-maker/
 Splash｜aescripts｜plugin｜particles｜替移動圖層程序式生成液體拖尾、飛濺粒子與動態 Blob，提供二十五項以上控制，可調出生時間、發射速率、數量、速度、方向、生命週期、尺寸、起訖色、重力與阻力；以 Seed 架構建立可重現的隨機變化，也能從預設快速起步。｜https://aescripts.com/splash/
 SplitImage｜aescripts｜script｜workflow｜將專案面板中選取的素材切成規則矩形區塊，快速建立可各自移動、翻轉或延遲的圖塊結構；適合在製作照片馬賽克、格狀揭露、碎片轉場與多片翻牌動畫前，省去逐格畫遮罩與裁切圖層的步驟。｜https://aescripts.com/splitimage/
 Springy FX｜aescripts｜plugin｜physics｜以關鍵幀動作為驅動，建立彈性延遲與次級變形的九件工具組：包含 Spring Parent Constraint，以及 Bend、Shear、Squash & Stretch、Jiggle、Bulge、Twist、Liquid 七種 Deformer 和可套用至單維數值效果參數的 Custom 工具；可調彈性、阻尼與時間偏移。｜https://aescripts.com/springy-fx/
 Sprite-O-Matic｜aescripts｜plugin｜animation｜選取 Sprite Sheet 並輸入欄數與列數，即可建立逐格播放的動畫合成；支援最後一列數量不完整的精靈圖，並可自訂每格持續時間、播放幀率與循環次數，適合匯入遊戲角色、像素動畫及圖示序列。｜https://aescripts.com/sprite-o-matic/
 Sprite Sheet From Comp｜aescripts｜script｜render｜把合成的每一幀排列成單張 PNG Sprite Sheet，可自訂水平欄數與垂直列數，或由 Auto 在涵蓋全部影格的前提下找出最接近正方形的配置；也能把輸出重新匯入時間線並自動建立逐格關鍵幀，還原原合成播放效果。｜https://aescripts.com/sprite-sheet-from-comp/
-Squall 2｜aescripts｜script｜workflow｜把 AE 動畫轉成可供 iOS App 使用的原生程式碼，能在手機上即時預覽，並透過 SDK、API 或剪貼簿產生 Swift／Objective-C Core Animation 程式碼；支援形狀、遮罩、Repeater、文字動畫與部分表達式，協助動態設計交付工程實作。產品已停止販售。｜https://aescripts.com/squall/
 Squirrel｜aescripts｜script｜workflow｜以類似 3D 軟體 Outliner 的樹狀介面瀏覽 After Effects 圖層階層，直接拖放即可建立或解除親子關係、把圖層分組，並能從樹中定位時間、搜尋與依標籤色辨識圖層。可展開巢狀預合成查看內容、切換影音開關、用 lightTable 隔離目標，亦支援剪下、複製及貼上圖層，適合整理大型角色綁定或多層合成。｜https://aescripts.com/squirrel/
 Stacker｜aescripts｜script｜workflow｜把選取圖層往上、下、左或右連續堆疊，並可設定對齊方式、固定起點與間距；計算時支援錨點、縮放及像素精準位置，也能在目前時間指標處處理位置關鍵幀。另可整理並重新編號合成、把圖層連接到控制器，選擇忽略父層縮放或旋轉，並儲存與載入設定供不同電腦或 AE 版本沿用。｜https://aescripts.com/stacker/
 StageTool｜aescripts｜script｜workflow｜在 After Effects 內輸入 LED 切片的尺寸與配置，建立一個或多個像素映射輸出合成，再把切片定位成實際舞台版型；可顯示棋盤格、外框、十字與即時位置提示，調整各切片色彩、縮放及旋轉，也能用 negative tiles 排除局部區域或加入標誌。完成後可擷取輸入、輸出與遮罩畫面，並匯出含矩形遮罩的 XML 給 Resolume Arena 5、6、7。｜https://aescripts.com/stagetool/
@@ -904,11 +883,9 @@ Storyboard Maker｜aescripts｜script｜workflow｜在 After Effects 內建立�
 Stretch-it 2｜aescripts｜plugin｜distort｜一鍵在文字、照片或影片上建立局部延伸變形，可放置多個 stretch point，並以 360 度方向控制每次拉伸；所有參數集中於 Effect Controls 且能製作動畫。文字層可直接修改圖層名稱更新內容，不必因更換字詞、字型或目標字元而重做原有效果，適合製作同一單字內極窄與過度延展的字形對比，也能把影像像素拖成長條。｜https://aescripts.com/stretch-it/
 Stroky｜aescripts｜plugin｜draw｜為 PNG、文字、形狀等任意圖層一鍵建立多層描邊，不受一般方法的單一外框與寬度限制，並改善粗描邊轉角容易破損或變形的問題。新增的描邊不會讓原圖層既有效果一起被外擴，可在同一處集中調整與製作動畫，適合需要反覆堆疊不同顏色、粗細之外框設計。｜https://aescripts.com/stroky/
 STRUCTURA｜aescripts｜script｜workflow｜以模糊邏輯與可擴充字典辨識 AE 專案素材脈絡，將散落項目整理成可控的專業階層。Smart Anchor 會尊重既有資料夾，把可判定的項目歸位、模糊項目放入 _SOURCE；Mirror Source 依硬碟路徑在 Project Panel 建立一比一結構；Blueprints 可套用 01_SHOTS、02_ASSETS、03_REF 等 VFX 架構，或讀取自訂 JSON 命名規則。整理時保留根層資料夾，並避免移動或改名 Limber、Deekay Tool 等複雜綁定資產。｜https://aescripts.com/structura/
-StylaRender - Neural Style Transfer｜aescripts｜plugin｜art｜以神經網路把任意圖片、合成或影片的視覺筆觸轉移到來源畫面，沒有固定預設限制；可調 Style Weight、風格特徵尺寸、處理次數，亦可保留原素材色彩。Grid 模式把超高解析度內容切成較小區塊供 GPU 或 CPU 處理；GPU 版需 NVIDIA CUDA，CPU 版需 AVX。官方因部分使用者相容與體驗問題已停止販售，但仍支援可正常使用的既有授權。｜https://aescripts.com/stylarender/
 Style Bandit｜aescripts｜script｜text｜從一個文字圖層複製 Character 與 Paragraph 設定，再一次貼到一個或多個文字圖層；涵蓋完整字型屬性與段落對齊，並可跨合成、跨專案使用。Copy Text Style 與 Paste Text Style 命令能配置到自訂鍵盤快捷鍵，適合在不改動文字內容的情況下快速統一大量標題、字幕與版面格式。｜https://aescripts.com/style-bandit/
 Style Box｜aescripts｜plugin｜stylize｜為文字、形狀圖層與預合成快速建立並切換設計樣式，套用後不額外堆出輔助圖層；每種風格保留可調參數，可在既有內容上繼續修改，官方並以更新方式擴充 Style Catalog。適合快速試看同一標題或圖形的不同造型，而不必手動重建多組效果鏈。｜https://aescripts.com/style-box/
 SuffixSlayer｜aescripts｜script｜render｜控制 After Effects 單張圖片輸出時是否移除自動附加的 `_#####` 影格編號，讓 JPG、PNG、TIFF 等 still render 直接得到預期檔名。可隨時啟用或停用，且會刻意忽略真正的影像序列，避免破壞連號；目前不支援自訂起始影格或輸出至子資料夾。｜https://aescripts.com/suffixslayer/
-Sunny Day｜aescripts｜plugin｜flare｜在缺少實拍陽光時加入模型化太陽耀光、光束與漏光，可讓效果隨攝影機移動或自行隨機動畫。提供 20 種可再設計的太陽樣式、25 種以上自動動畫漏光、色彩預設與強烈／細緻兩種算圖模式；鏡頭髒污會對畫面內光源產生反應，太陽位置則可用控制點或追蹤遮罩指定。官方已停止販售。｜https://aescripts.com/sunny-day/
 Super Collage｜aescripts｜plugin｜mograph｜用 104 組版型快速建立最多九格的照片或影片拼貼，並直接在 Effect Controls 預覽選擇。可在合成視窗拖曳角點、滑動邊界來重塑每格，角點與邊線能做動畫，另可控制圓角及格間距；內容會隨區塊變形動態適配，也能手動調整各格素材的位置與縮放。官方標明不相容 Apple Silicon。｜https://aescripts.com/super-collage/
 Super Resize Me!｜aescripts｜script｜workflow｜修改合成尺寸時同步等比例縮放其中所有子圖層與相關預合成，用於把完整專案由 HD 轉成 4K、由高解析度縮成小版本，或批次建立相同比例的輸出規格。Recursive 模式會沿起始合成向下處理相依預合成，也可關閉後只改單一合成；支援 2D、3D、攝影機、預設 3D Camera、父子關係及鎖定圖層。｜https://aescripts.com/super-resize-me/
 Super Shine｜aescripts｜plugin｜light｜在任意圖層快速建立可自訂的移動亮光與 shine sweep，以標記設定開始及結束時間，並直接指定掃光起點與終點。單一圖層可疊加多道光澤，設定面板可加入 Glow 等附加效果，也能啟用 Mirror Mode 生成對稱掃光，適合重複調整標誌、產品與文字的高光節奏。｜https://aescripts.com/super-shine/
@@ -931,26 +908,19 @@ The LoopMaker｜aescripts｜plugin｜time｜依選取圖層中最早 In Point �
 Throttle-n-Purge｜aescripts｜script｜utility｜以可停靠面板快速切換專案 8、16、32 bits per channel，控制舊版 AE 的 multiprocessing throttle 與 idle rendering，並一鍵 Purge 影像快取；Purge 按鈕可依習慣顯示或隱藏。亦能存取 CS3 隱藏的 Pixel Aspect Correction 預覽品質設定（修改後需重啟），主要用途是省去反覆進入 Preferences 的操作。｜https://aescripts.com/throttle-n-purge/
 Thumbs Up｜aescripts｜script｜render｜直接從 After Effects Composition 建立縮圖與 frame grab，可選預設、輸出資料夾、圖片格式及解析度。檔名能由合成名稱、縮圖寬高／解析度、完整日期或年、月、日、時、分、秒等變數動態組成，適合把同一畫面批次交付為社群封面、客戶網站預覽與多尺寸 still。亦支援 Premiere Sequence 與 Photoshop Document。｜https://aescripts.com/thumbs-up/
 Ticker｜aescripts｜plugin｜text｜從 TXT、CSV、TSV 或 JSON 建立 Ticker／Crawl，提供五種動畫、左中右對齊，以及橫向、由上到下、由下到上循環與上下重疊切換。可自動或手動間距、設定總時長、字型、粗體、標題／正文／分隔符色彩，完整支援 RTL、數字與特殊字元；另有背景、陰影、模糊、CC Force Motion Blur、拋物線路徑、Null 控制器、尺寸與 FPS 設定及預設管理。｜https://aescripts.com/ticker/
-Tickler｜aescripts｜plugin｜animation｜為選取圖層加入跳格 Transform 與動畫 Displacement Map，同時改變位置、縮放、旋轉，模擬逐格手繪或實體停格每幀略有差異的顫動，而不是單純 wiggle 表達式。可調速度與幅度，選擇將多層一起或各自預合成，亦可加入速度、強度可控的 Glow 模擬停格曝光差異；專用 Undo 只移除 Tickler 設定並保留後續人工修改。官方暫時停售。｜https://aescripts.com/tickler/
-TidyUp｜aescripts｜script｜workflow｜按類型把 Project Panel 項目整理到可自訂名稱的資料夾，可只處理指定類型、選取資料夾範圍，或忽略選取項目；亦能依名稱前綴整理 Pre-Comps。附有 Remove Unused Footage、Reduce Project、Remove Missing Footage，以及依使用者文字刪除或建資料夾歸檔的工具；舊資料夾會保留到 Old Folders 以便回復。官方已停售並推薦 Declutter。｜https://aescripts.com/tidyup/
 TikTokText｜aescripts｜script｜text｜在 AE 以單一文字層加單一形狀層重建 TikTok、Instagram Reels、YouTube Shorts／CapCut 常見社群文字，包含平滑粗外框、多行自適應文字框、單字 Accent 動畫、Neon Glow 與 Faux 3D Drop Depth。面板提供即時概略預覽、對齊與透明度等控制，現代版本聚焦可自訂的短影音風格而非只複製固定 TikTok 字型色彩。｜https://aescripts.com/tiktoktext/
 Tilda｜aescripts｜script｜draw｜選取形狀路徑後一鍵加入 Waves，以一條 JavaScript expression 和控制效果把原路徑改造成可動畫波浪；可調波長、波高、速度、圓度等參數，並對長度、高度與圓度加入隨機變化。支援 Bézier 與矩形、橢圓等 Parametric Paths，可把結果建立於相同或複製路徑，速度以 px/sec 獨立於波長。｜https://aescripts.com/tilda/
 Time Bend｜aescripts｜plugin｜time｜以映射圖的亮度或 RGB 通道，從最多 256 個不同時間點取樣並混合影格，取代 AE 傳統 Time Displacement 的單純位移。可指定前後向影格間距、時間偏移、Wrap／Mirror 邊界、映射曲線相位，以及加、減、乘、除與溢位混合；支援 AE 與 Premiere Pro、多影格算圖，但不使用 GPU。｜https://aescripts.com/time-bend/
 Time Offset Animation｜aescripts｜script｜animation｜把一個已完成動畫的來源層套用到多個未設動畫的子層，並依面板選項建立時間差，省去逐層複製、連結與平移關鍵影格的設定。適合排列物件、字卡或圖示依序進場；官方最後標示支援至 CC 2017，屬較舊腳本。｜https://aescripts.com/time-offset-animation/
 Timeremap Source｜aescripts｜plugin｜time｜把選取圖層各錯開一格排列後預合成，自動啟用 Time Remap 並用 viewControl 滑桿指定要顯示的影格，也就是切換預合成內對應的來源層。之後增添圖層時，表達式會依內部層數更新滑桿範圍，適合把大量版本收進單一乾淨控制層。｜https://aescripts.com/timeremap-source/
-TimeSpan｜aescripts｜script｜workflow｜在 AE 內以 Punch Clock 方式記錄開工與收工時間，可依客戶或專案名稱累積多筆工時，計算時薪與總金額，並匯出 Tab 分隔 TXT。另有重設誤觸開始時間的按鈕；官方已停售、僅列 CS3–CS6，相容性與資料可靠性不宜取代正式工時系統。｜https://aescripts.com/timespan/
 TinkerType｜aescripts｜plugin｜text｜在單一文字圖層內拆解並控制動態字，不必把每個字元分成獨立圖層；可調逐字元的位置、縮放、旋轉與透明度，加入 Fill 效果後還能動畫填色，加入 Gaussian Blur 後可控制模糊。支援 3D 文字設定，適合在保留文字可編輯性的前提下打散動畫節奏。｜https://aescripts.com/tinkertype/
-Tiny Tools｜aescripts｜script｜workflow｜已停售的 13 合一動態工具列，整合可命名變數的 Calc、清快取、四點 Color Matcher、表達式開關與烘焙、跨屬性 Link、方向鍵微調遮罩、圖層與來源名稱互換、含 Alpha 畫面截圖、重設算圖 Timespan、腳本搜尋啟動、全專案表達式搜尋取代與屬性 Toggler。官方相容性只列到 CC 2018。｜https://aescripts.com/tiny-tools/
 Titles Factory｜aescripts｜script｜text｜在 AE 擴充面板中瀏覽並加入 400 多款標題設計，涵蓋 Creative、Fashion、Minimal、Kinetic、Vintage 等 11 類；每款可各選三種進場與三種退場動作，並修改文字、字型、顏色與效果。動畫速度和總長可用標記調整，模板具自動適應版面能力。｜https://aescripts.com/titles-factory/
-ToDo Lite｜aescripts｜script｜workflow｜把簡易待辦清單停駐在 AE 工作區，讓製作途中收到的修改事項與專案工作直接記在應用程式旁。Lite 版每項文字只能單行，儲存的工作與待辦也綁定建立它們的電腦；官方已停售，且相容性僅列 CS3 至 CC 初期。｜https://aescripts.com/todo-lite/
 ToeJam｜aescripts｜script｜workflow｜只供舊版 macOS 使用的 AE 外部選單列工具：執行時終止 After Effects，藉此觸發目前工作專案的 Auto-Save；並附腳本，可在 AE 啟動與關閉時自動開關 ToeJam。官方需求為 Mac OS X 10.6 以上與 AE CS4 以上，但相容表僅列到 CS6，使用前須理解強制結束應用程式的風險。｜https://aescripts.com/toejam/
 Tool Launcher｜aescripts｜script｜workflow｜把腳本資料夾載入可搜尋的 tl_list 或自訂 tl_bar，並由 tl_panel 在預先停駐的位置顯示原本會開浮動視窗的 ScriptUI。除腳本外，也能執行內嵌 JavaScript、AE 選單與系統指令，或批次套用表達式、效果與動畫預設；圖示、修飾鍵、工具列及路徑可存入可攜設定檔，並能匯入 ft-toolbar 配置。｜https://aescripts.com/tool-launcher/
 Topograph｜aescripts｜plugin｜generate｜把影像、影片、文字或 Fractal Noise 等來源解讀成 3D 高度地貌，再按多個海拔水平切片並將每層輪廓畫回 2D 畫面。參數可即時設計與動畫化，因此既能做單格印刷圖樣，也能讓等高線隨來源亮度起伏；支援 AE 與 Media Encoder，官方列有 Apple Silicon 相容修正。｜https://aescripts.com/topograph/
-Toy Bricks｜aescripts｜plugin｜physics｜在 AE 的 3D 空間以剛體與約束模擬碰撞：Create 模式建立帶物理參數的 3D Null，Set 設定初始狀態與模擬起點，Bake 則把結果烘焙成位置與方向關鍵影格。可從圓錐、四面體、路徑凸包、Wavefront OBJ，以及形狀／文字圖層建立碰撞形狀；官方已停售且僅支援 CS4–CS6。｜https://aescripts.com/toy-bricks/
 Tracker2Mask｜aescripts｜script｜tracking｜根據 AE Point Tracker 的一至四個追蹤點，推算整個遮罩形狀在中間影格的移動，不必為每個遮罩頂點建立追蹤點。工作時先追出物件的主要運動、手動畫首尾遮罩，再讓腳本依追蹤資料預測中間關鍵影格；可穿插人工修正後反覆計算，加速複雜輪廓轉描。｜https://aescripts.com/tracker2mask/
 TrackerViz｜aescripts｜plugin｜tracking｜在追蹤點、圖層 Position 與 Path 頂點三種位置資料間轉換並建立控制結構。可平均多點得到較穩定位置，以兩點建立位置＋朝向＋距離縮放，以四點自動綁定 Corner Pin／CC Power Pin，也能把動態路徑頂點轉成 trackers 或 solids，反向由追蹤點／圖層位置生成動畫 Mask Path。｜https://aescripts.com/trackerviz/
 Trajectory｜aescripts｜script｜animation｜把選取圖層轉為 3D，等距分布在 startPosition 與 endPosition 兩個 Null 的連線上，移動端點即可讓整列跟著變形。第三個 controlLayer 統一控制旋轉與透明度，Transform Delay 可依層序錯開反應並反向排列，Compress Expand 則動態伸縮整段間距；官方相容性僅列 CS3–CS6。｜https://aescripts.com/trajectory/
-Transfusion - Style Transfer Suite｜aescripts｜plugin｜art｜已停售的早期 AE 機器學習風格轉換套件，包含載入 30 多款預訓練 TRX 樣式的 Transfusion Styles，以及以另一個 AE 圖層作任意風格參考、可選不同影像訓練模型的 Transfusion Blend。主要以 CPU 運算，Windows 僅對部分舊 NVIDIA 卡提供實驗 GPU 支援；官方現推薦速度、控制與時間一致性更佳的 StyleX。｜https://aescripts.com/transfusion/
 Trails｜aescripts｜plugin｜draw｜替任意圖層建立會即時跟隨位置變動的動態 Shape Layer 尾跡，不受原層複雜 parenting 或 expression 結構限制。Line Velocity 可讓線條物理感與長度依速度反應，Wiggler 加入隨機擺動，Add Movement 讓線條持續流動；亦可搭配 Trim Paths、Repeater、Zig Zag。Offset Trails 能前後錯時，Stick Trail 則把尾跡兩端黏到點或圖層。｜https://aescripts.com/trails/
 Transform Pack for Transformer｜aescripts｜plugin｜preset｜提供 50 款專為 Transformer 2 製作的一鍵動畫預設，可套用任何解析度的圖片或影片，並調整切片間距與動畫開始時間。舊版需另有 Transformer 2.3 以上才能使用；目前整套已直接內含於 Transformer 3，因此不必再獨立購買。｜https://aescripts.com/transform-pack-for-transformer/
 TranShape｜aescripts｜script｜workflow｜將選取 Shape Layer 的深層屬性載入可停駐 Inspector，從面板直接檢視、修改與設關鍵影格，減少在時間軸反覆展開 Contents 群組的操作。按 Get 讀取目前形狀後即可用滑桿與數值控制；官方因尚待解決的問題暫時下架，最後相容性只列到 AE 2020。｜https://aescripts.com/transhape/
@@ -979,7 +949,6 @@ Unsafe Area Overlay｜aescripts｜script｜workflow｜一鍵在合成中建立�
 Ustav — Text Layouts Editor｜aescripts｜script｜text｜在 After Effects 內建立並集中管理結構化文字版面。面板可新增三種尺寸標題、段落、編號清單、七種或自訂項目符號、可由 Marker 觸發勾選動畫的待辦清單，以及引言、分隔線與響應式 Callout；各文字區塊會連到同一個 Layout 輔助層，再以 pseudo-effect 統一調整寬度、字級、行距、字距、間隔、顏色與清單樣式。也能按類型選取所有標題或段落，方便批次換字型或套效果。｜https://aescripts.com/ustav/
 Utopian - Animated Typeface｜aescripts｜script｜text｜由 Alex Trochut 設計、Pablo Lozano 製作動畫的模組化動態字體，靈感來自 Mondrian、Sol LeWitt 與 De Stijl。每個字元都由矩形基本形逐步組成，以簡潔但出人意料的方式揭露字形，並提供四組可自訂色彩；套件包含輕量 JSX 與整理好的 AEP 字元工程，可透過 Font Manager 輸入文字、調整尺寸、字距、行距、對齊與時間錯位，也能用 Animography Controller 管理。｜https://aescripts.com/utopian-animated-typeface/
 UXLink｜aescripts｜script｜workflow｜用兩次點擊把 Figma 設計送進 After Effects，並盡量保留可動畫的原生結構。矩形、橢圓、多邊形與星形會成為可編輯 Shape Layer，向量、文字屬性與單層內多樣式字串亦可保留；巢狀 Frames、Groups、Components、Instances 與 overrides 會依原有階層和堆疊順序重建。它也傳送來源圖片、最多五個色標的線性／放射漸層、矩形裁切遮罩、Drop Shadow 與 Layer Blur，並以背景 companion app 連接兩端。｜https://aescripts.com/uxlink/
-Variable Diffusion｜aescripts｜plugin｜beauty｜以專有演算法模擬攝影機前實體玻璃擴散濾鏡的光線散射，不只是一般模糊或單純改色。可柔化皺紋、瑕疵、膚色不均與油光，內含九十多種 Skin Enhancer 預設，也能推展彩色氣氛、建立風格化 Look，或在 VFX 合成中以較符合光學直覺的亮部擴散取代傳統 Light Wrap。官方建議在 16-bpc、Linearize Working Space 的流程使用；產品已停售且僅支援舊版 macOS／AE。｜https://aescripts.com/variable-diffusion/
 Vector Paint Studio｜aescripts｜script｜paint｜把 AE Paint 筆畫整理成具名稱的群組，集中修改路徑、造型、Transform 與動畫，不必逐筆處理。可減少筆畫路徑上的控制點、建立依序寫出的 Stroke 動畫，並透過內建 ReTrack 引擎，把 Face Tracking、一般 Track Points、Masks、3D Camera 或 3D tracked solids 的追蹤資料套到整組筆畫；可選部分或全部生成的追蹤點，適合在移動人物與鏡頭上附著塗鴉。｜https://aescripts.com/vector-paint-studio/
 VectorBox｜aescripts｜plugin｜3d｜一鍵建立可用 Effect Controls 調整的彩色 3D 方盒，尺寸改變時仍維持一致的描邊粗細。VectorBox pseudo-effect 可分別控制寬高深、Stroke 尺寸與顏色，以及每一面的填色；Wireframe 可關閉面只留下輪廓，Squash & Stretch 則在兩組方盒尺寸之間插值。適合製作資訊圖表、等角圖形、包裝示意或具有一致線條語言的幾何動畫；官方註明尚未更新至 AE 2023。｜https://aescripts.com/vectorbox/
 Version Raptor｜aescripts｜script｜workflow｜替 After Effects 與 Premiere Pro 專案、合成或序列管理版本號與儲存節奏。Smart Version Up 會辨識名稱最後一組數字，沿用既有命名慣例並透過複製安全遞增，例如 project-v01 變成 v02；尚未含版號時可直接附加。它會按自訂時數提醒儲存，若硬碟上已存在更高版本則停用 Version Up 並警告目前可能開錯舊檔，避免覆寫最新成果。｜https://aescripts.com/version-raptor/
@@ -1005,14 +974,8 @@ WIR3D｜aescripts｜plugin｜3d｜在單一 Shape Layer 上建立參數化 3D �
 WobbleBox｜aescripts｜script｜animation｜套用 Shape Layer preset 即建立會對既有動畫產生果凍慣性反應的方盒 Rig，結構由 Joysticks 'n Sliders 與 inertia expressions 製作。Sliders 可獨立推動方盒的右、左、上、下邊，並調整各邊晃動的 Amplitude、Frequency 與 Decay；新版亦讓四個 Corner 加入 wobble。適合做會追隨位置或尺寸變化而彈動的 UI 框、標題底板、角色方形部件與卡通幾何圖形。｜https://aescripts.com/wobblebox/
 Wonder Panel Pro｜aescripts｜script｜workflow｜把常用 AE 操作集中成可自訂的一鍵工具列。可依預設名稱、顏色與設定建立 Solid、Shape、Text、Null、Camera、Light；調色盤支援 Adobe Color、ASE 匯入匯出、HEX 與 Color Picker，並能精準套用選取的 Shape Fill／Stroke 且保留 Gradient。另含 Align／Distribute、循環 Anchor Point、Ease／Hold Keyframe、清除 RAM 與 Disk Cache、單幀 PNG 輸出後匯入，以及 Composition Render 完成後自動重新匯入。按鈕排列、預設名稱、顏色與 Output Module 可匯出共享。｜https://aescripts.com/wonder-panel-pro/
 Word Cloud 2｜aescripts｜script｜text｜解析文字或 HTML，依詞語出現頻率賦予 Weight，讓常見詞以較大尺寸呈現，再用三種填充演算法與四種方向把文字無重疊地塞入指定 Shape。支援 44 種語言 Stop Words、124 種語言 Wikipedia 搜尋、多字型、多 Pass、多 Layers 與 Color Theme Editor。每組排版可保存成 State，透過 Text Layer Marker 的狀態編號在不同字雲間建立帶 Easing 的動畫；亦可 Bake／Unbake expressions，並輸出 SVG 或最高 8K PNG。｜https://aescripts.com/word-cloud/
-WQ Pro｜aescripts｜script｜workflow｜攔截時間軸圖層或 Viewer 中的雙擊，依目前按下的 Shift／Ctrl／Alt 等 Modifier Key 執行使用者登錄的任意腳本，且 Timeline 與 Viewer 可分別指定行為，相當於重新定義 AE 的雙擊快捷操作。內附 SWFolder 與 TLFolder 兩種時間軸資料夾流程、在 Viewer 雙擊 Shape Layer 選取 Path 的 Pathsel，以及把圖層移到最近前後邊界以填補間隙的 Happa；後期版本支援多圖層。產品已停售，相容性止於 AE 2024。｜https://aescripts.com/wq-pro/
 Write-On Animated Typefaces｜aescripts｜plugin｜text｜收錄十種可高度自訂的 Write-On 動態字體，每款含 84 個字元，共 840 個可直接在 AE 調整的字形，省去逐字畫 Pen Path 與設定關鍵幀。每個字元有三層客製結構，可控制 Stroke Color、Weight、Thickness、Roundness、Chisel-tip Angle、Hardness、Opacity、Spacing、Flow，以及 Rotation、X／Y Scale、Drop Shadow 與 Stroke Parameters；亦能加入 Illustrator Brush Stroke 增添筆觸質感。Null 提供統一父層供光暈或粒子跟隨，並支援 Font Manager 與 Universal Expressions。｜https://aescripts.com/write-on-animated-typefaces/
 XML Gibson｜aescripts｜script｜workflow｜把 After Effects 合成匯出成通用 XML，包含幾乎所有可由腳本讀取的合成資訊，例如 Layers、Keyframes 與 Effects，且內容保持可編輯，便於建立跨產品或自動化工作流程。它補足 AE 原生 XML 專案輸出只有少量參數可用的限制，也曾被用作轉換 HTML5 動畫的中介資料；但 Curves、Histograms 與部分文字屬性受 scripting API 限制無法匯出。產生的是 Generic XML，不會直接相容 Final Cut Pro 等應用程式，仍需自行轉換。｜https://aescripts.com/xml-gibson/
-YUVsoft Color Corrector｜aescripts｜plugin｜color｜針對 Side-by-Side S3D 素材，自動校正左右視圖之間的全域與局部色調差異；只需把外掛套到合成，輸出仍維持相同並排格式，適合在立體後期避免兩眼因曝光、白平衡或局部色偏不同而產生觀看疲勞。它也是 YUVsoft Stereo Processing Suite Lite 的組件之一。產品已停售，僅支援 Windows XP／7 時代的 AE CS5 至 CC 2014，且每眼解析度上限為 1080p。｜https://aescripts.com/yuvsoft-color-corrector/
-YUVsoft Depth from Stereo Lite｜aescripts｜plugin｜3d｜讀取 Side-by-Side 立體影片，自動估算畫面物件在左右眼之間的位移，為每一格輸出左眼與右眼各一張 Disparity／Depth Map。這些深度圖可用於立體生成、S3D 處理與 Stereo-to-Multiview，也能交給 YUVsoft Parallax Corrector Lite 重新設定 3D 視差。產品屬 Stereo Processing Suite Lite 且已停售；僅支援舊版 64-bit Windows 與 AE CS5 至 CC 2014，每眼來源不得超過 1080p。｜https://aescripts.com/yuvsoft-depth-from-stereo-lite/
-YUVsoft Geometry Corrector｜aescripts｜plugin｜3d｜自動分析 Side-by-Side 立體素材，修正左右眼視圖之間的 Tilt 與 Vertical Parallax 等幾何失配，輸出仍保持原本的並排格式。適合處理由雙機架設誤差、鏡頭角度或拍攝校準造成的垂直錯位，降低觀看立體影像時的視覺疲勞；也是 YUVsoft Stereo Processing Suite Lite 的組件之一。產品已停售，支援 Windows XP 64-bit／Windows 7 時代的 AE CS5 至 CC 2014，每眼解析度上限 1080p。｜https://aescripts.com/yuvsoft-geometry-corrector/
-YUVsoft Parallax Corrector Lite｜aescripts｜plugin｜3d｜利用 Disparity Map 改寫 Side-by-Side 立體影片的 Parallax，可增加或減少來源視差、分別調整左眼與右眼、移動 Zero Level／Convergence Point，並選擇性強化螢幕平面之前或之後的 3D 效果。需先準備視差圖，可搭配 YUVsoft Depth from Stereo Lite 自動產生。產品已停售，支援舊版 64-bit Windows 與 AE CS5 至 CC 2014，每眼素材上限 1080p。｜https://aescripts.com/yuvsoft-parallax-corrector-lite/
-YUVsoft Stereo Processing Suite Lite｜aescripts｜plugin｜3d｜整合四個 Side-by-Side S3D 自動後期工具：Color Corrector 匹配左右眼色彩，Geometry Corrector 修正傾斜與垂直視差，Depth from Stereo Lite 估算左右眼 Disparity Map，Parallax Corrector Lite 再用深度資料重設立體視差與會聚平面。可從素材校正一路完成深度分析及 3D 強度調整。套件已停售，僅支援舊版 64-bit Windows 與 AE CS5 至 CC 2014，每眼解析度上限 1080p。｜https://aescripts.com/yuvsoft-stereo-processing-suite-lite/
 Zaebects Fryer｜aescripts｜plugin｜stylize｜把目前的處理結果再次送回效果中反覆運算，以 Iterations 從輕微質地一路累積成嚴重的數位破壞。少量迭代可加入細小色偏、紋理與不穩定感；提高次數則會放大扭曲、壓縮般瑕疵與 Glitch，直到影像呈現被徹底「炸過」的混亂結果。適合實驗式視覺、故障轉場、MV 數位損傷與尋找不可預期的 Happy Accidents。｜https://aescripts.com/zaebects-fryer/
 Zercon - Animated Typeface｜aescripts｜script｜text｜由 Hanken Co. 設計字型、Jeroen Krielaars 製作動畫的可高度客製 Glitch Typeface。每個字元會使用隨機輸入，因此即使同字也能產生不同動畫；31 項控制涵蓋 Color、Duration、Stroke Width、Particle Count、Offset、Random Seed 等參數。動畫版為單字重與單樣式，含完整 Latin 字元，提供 JSX／AEP，並支援 Font Manager 與 Animography Controller，適合快速排出不重複的故障標題。｜https://aescripts.com/zercon-animated-typeface/
 Zone Below｜aescripts｜script｜workflow｜以一個 Zone Layer 動態顯示指定區域下方的圖層內容，生成的 Reveal Zone 可直接在畫面中移動或製作動畫，不必手動維護複雜的遮罩與 Track Matte。可建立不限數量的區域，並支援 Shape Layer、Text 與 Precomp；精簡面板適合快速製作局部穿透、聚光顯示、滑動揭露與會跟著物件移動的可見窗口。｜https://aescripts.com/zone-below/
@@ -1025,6 +988,10 @@ Fractal Noise 3D v2｜aescripts｜script｜3d｜GPU 加速的 True 3D Volumetric
 Path Selection Mode 2｜aescripts｜script｜workflow｜為 AE 加入專門的 Path Point Selection Mode，開啟後可直接以 Single-click 選取 Shape／Mask 路徑頂點；v2 新增 Double-click Mode，避免一般單擊操作時誤選控制點。Release Function 可在取消頂點選取時連同 Shape Group 一起取消，而不是留下群組被選取的原生狀態。能搭配 AE 既有 Ctrl＋上下方向鍵切換控制點；除了 Script UI，也可從選單直接開關並指派 Shortcut，勾選 Startup 後每次啟動 AE 自動進入此模式。｜https://aescripts.com/path-selection-mode/
 Moving Parents｜aescripts｜script｜animation｜多用途 Parenting 工具，可把任意數量圖層 Parent 到第一個所選圖層或新建 Null；Null 可放在所有圖層的計算中心或 Comp Center，並可讓 Duration 只覆蓋子層時段。Un-Parent 會暫時解除指定 Parent 的全部 Children，修改位置後以 Re-Parent 恢復原連結，也能納入 Locked Layers；另有選取 Siblings、Parent、Children 或設為 None 的快捷按鈕。Resize 可縮放新 Parent／Null，未建立父層時則連同 Keyframes 等比縮放各選取層。Drift、Move、Slam-In／Fly-Out 透過 Expressions 與 Effect Controls 在無關鍵影格下建立縮放／Z 漂移、XYZ 移動與進出場。Camera、Light、OBJ、3D Shape 可參與 Parenting，但因無法承載 Effect Sliders，動畫表達式需套在 Null Parent。｜https://aescripts.com/moving-parents/
 Trailer Credits Builder｜aescripts｜script｜text｜從 CSV 或 Excel 名單一鍵生成可自訂字體、換行、版面與進場動畫的電影預告式職員字幕。｜https://aescripts.com/trailer-credits-builder/
+Paint & Stick 2｜aescripts｜plugin｜paint｜直接在 AE 合成視窗用自訂或 Photoshop 筆刷繪畫，並以洋蔥皮製作逐格動畫或把筆觸貼合 3D 算圖；官方相容性僅列至 AE 2021，且不支援 Apple Silicon。｜https://aescripts.com/paint-and-stick/
+YY_Voronoi 2｜aescripts｜plugin｜texture｜生成可動畫的 Voronoi／Worley 細胞紋理並控制距離與分散方式，適合地形圖、水底焦散、裂紋與抽象背景。｜https://aescripts.com/yy_voronoi/
+YY_Ramp+｜aescripts｜plugin｜generate｜以不透明度、20 種混合模式、角度與菱形／反射形狀擴充一般 Ramp，適合製作可精細控制的漸層背景與著色來源。｜https://aescripts.com/yy_rampplus/
+Fryer｜aescripts｜plugin｜stylize｜反覆迭代處理影像以累積色偏、失真、紋理與數位損壞，適合製作 deep-fry 迷因、激烈故障與過度壓縮畫面。｜https://aescripts.com/zaebects-fryer/
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
@@ -1283,6 +1250,12 @@ Camera-Shake Deblur｜AE內建｜builtin｜restore｜利用前後較清晰的影
 Smart Mask Interpolation｜AE內建｜builtin｜workflow｜在兩個相鄰的遮罩路徑關鍵幀之間建立中間關鍵幀，可控制關鍵幀速率、頂點路徑、彎曲阻力、配對品質與新增頂點方式，讓形狀差異較大的遮罩也能平順過渡；從「視窗 > Mask Interpolation」開啟。｜https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/animate-shape-paths-and-masks/animating-shape-paths-masks.html#animate-a-mask-path-with-smart-mask-interpolation
 CC Mr. Smoothie｜AE內建｜builtin｜color｜AE 內建的 Cycore 效果，依畫面亮度把顏色重新對映成平滑漸層，做迷幻流動的變色質感。｜https://helpx.adobe.com/after-effects/using/stylize-effects.html
 Time-Reverse Keyframes｜AE內建｜builtin｜workflow｜將所選關鍵幀的時間順序反轉，用來快速倒放一段屬性動畫，或把淡入、位移等動作改成對稱的淡出與返回動畫；位於「動畫 > 關鍵幀輔助」選單。｜https://helpx.adobe.com/after-effects/using/setting-selecting-deleting-keyframes.html
+Cryptomatte｜AE內建｜builtin｜keying｜從3D算圖(C4D/Blender/Maya等)輸出的Cryptomatte通道，一鍵精準選取/隔離個別物件或材質做遮罩，不用手roto。3D合成調色必備。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+ProEXR (EXtractoR / IDentifier)｜AE內建｜builtin｜keying｜讀取多通道OpenEXR：EXtractoR抽取任意通道(Z深度、法線、AO、反射等AOV分層)、IDentifier依物件/材質ID建遮罩，供進階3D合成使用。｜https://helpx.adobe.com/after-effects/using/3d-channel-effects.html
+3D Glasses｜AE內建｜builtin｜3d｜內建：把左右眼兩個畫面合成立體視覺，輸出紅藍(anaglyph)眼鏡3D或並排/交錯立體格式。｜https://helpx.adobe.com/after-effects/using/perspective-effects.html
+Rolling Shutter Repair｜AE內建｜builtin｜restore｜內建：修正CMOS感光元件快速平移/震動造成的果凍效應(畫面歪斜傾倒)。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+Cineon Converter｜AE內建｜builtin｜color｜內建：Cineon/DPX膠片對數(log)與線性色彩空間互轉，處理掃描膠片素材。｜https://helpx.adobe.com/after-effects/using/utility-effects.html
+VR / 沉浸式視訊效果組｜AE內建｜builtin｜vr｜內建360/VR影片工具組，直接在等距長方投影(equirectangular)上做效果不產生接縫扭曲。｜https://helpx.adobe.com/after-effects/desktop/immersive-video-and-vr/immersive-video-effects/vr-effects.html
 BCC Particle Illusion｜Continuum｜plugin｜particles｜王牌粒子工具：獨立即時介面+數千種現成預設(煙火/魔法/煙霧/爆炸/火花)，拖放即用，新手也能做華麗粒子。｜https://borisfx.com/documentation/continuum/bcc-particle-illusion/
 BCC Particle Emitter 3D｜Continuum｜plugin｜particles｜3D粒子發射器，與AE攝影機整合，自訂粒子物理與外觀。｜https://borisfx.com/documentation/continuum/bcc-particle-emitter-3d/
 BCC Particle Array 3D｜Continuum｜plugin｜particles｜把圖層打散成3D粒子陣列排列/聚散。｜https://borisfx.com/documentation/continuum/bcc-particle-array-3d/
@@ -1632,7 +1605,6 @@ Topaz Video AI｜未驗證｜plugin｜restore｜AI影片修復增強引擎：把
 Orb (VC Orb)｜未驗證｜plugin｜3d｜免費：在AE內生成擬真3D星球/行星，含物理PBR著色、可設計大氣層光暈、地形凹凸貼圖、環境反射、雲層與自動陰影。做地球、外星球、太空場景神器。｜https://www.videocopilot.net/orb
 Fast Camera Lens Blur｜未驗證｜plugin｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
 Crate's Godrays｜未驗證｜plugin｜light｜免費：快速漂亮的體積光/放射光束，在畫面點一下設定發光點，調整光線長度、曝光、衰減與色差。從自然雲隙光到探照燈、全息光束都行。｜https://www.productioncrate.com/plugins/crates-easy-godrays
-Paint & Stick 2｜未驗證｜plugin｜paint｜直接在合成裡用自訂/Photoshop筆刷手繪，支援洋蔥皮做逐格(cel)手繪動畫；還能把塗畫『黏』貼到C4D/Maya的3D渲染或動態影片表面上。｜
 Tracery｜未驗證｜plugin｜generate｜用顏色自動追蹤畫面中最多512個點/區域(免打關鍵幀)，並以序列/星狀/全網格/最小生成樹方式連線，生成科技感電路、數據示意、視覺雜訊(clutter)圖形。｜https://aescripts.com/tracery/
 Physarum｜未驗證｜plugin｜generate｜模擬黏菌(physarum)覓食的有機生長網絡：由大量粒子依感測角度與軌跡衰減自組織成菌絲/血管/神經狀圖案，可與圖層互動。做有機抽象背景、生長動畫。｜https://aescripts.com/physarum/
 Feedback Studio｜未驗證｜plugin｜stylize｜GPU視訊回饋/回聲工具：把每幀重繪時做位移、旋轉、縮放、HSB變化，產生無限鏡像隧道、碎形、拖尾等迷幻效果，所有參數可上關鍵幀。｜https://aescripts.com/feedback-studio/
@@ -1642,23 +1614,11 @@ Furikake｜未驗證｜plugin｜particles｜輕量高效能粒子外掛，充分
 RetroDither｜未驗證｜plugin｜stylize｜GPU抖動(dithering)風格化，用復古電腦/遊戲主機的硬體色盤(Commodore 64、Apple II、CGA、ZX Spectrum)重繪畫面，做真實復古像素/點陣觀感。｜https://aescripts.com/retrodither/
 Motion Mosh｜未驗證｜plugin｜stylize｜即時datamosh風格故障：劫持畫面運動向量產生拖尾與像素位移，不需傳統『匯出破壞檔再匯入』流程，直接在AE/Pr裡即時互動調整。｜https://aescripts.com/motion-mosh/
 Pixel Galactic｜未驗證｜plugin｜stylize｜GPU把畫面運動轉成夢幻拖尾、故障回聲與流動像素扭曲，做唯美殘影/迷幻流動/輕度glitch。｜https://aescripts.com/pixel-galactic/
-AE Pixel Sorter 2｜未驗證｜plugin｜stylize｜經典像素排序glitch：依亮度/色相/飽和門檻把像素沿方向排序拉絲，做故障藝術、融化條紋、數位故障質感。｜
 Gaussian Splatting｜未驗證｜plugin｜3d｜在AE內即時GPU匯入/操作/渲染3D高斯潑濺(.ply)實景掃描模型：可球形/盒形裁切、最多合成10個模型、漸層上色、依透明度顯現、輸出深度Pass做3D合成。用PostShot/Scaniverse等產生splat再匯入。｜https://aescripts.com/gaussian-splatting/
-YY_Voronoi 2｜未驗證｜plugin｜texture｜程序化Voronoi(細胞/泰森多邊形)紋理生成器，多種距離度量與著色模式，可動畫。做地形圖、水底焦散、龜裂、細胞、抽象背景。｜
-YY_Ramp+｜未驗證｜plugin｜generate｜進階漸層/色階生成器，多色控制點、形狀與混合模式，比內建Ramp更靈活，做背景與著色來源。｜
-AOD 技術生成套件｜未驗證｜plugin｜generate｜一組技術/程序化生成與運算外掛，適合做貼圖、置換來源與生成藝術。｜
 Normal Mapper｜未驗證｜plugin｜generate｜以 GPU 加速把任意點陣素材的亮度轉成法線貼圖，可先用 AE 模糊、雜訊或高反差效果調整細節，再輸往 3D 軟體或引擎。｜https://aescripts.com/normal-mapper-for-ae/
-Cryptomatte｜未驗證｜plugin｜keying｜從3D算圖(C4D/Blender/Maya等)輸出的Cryptomatte通道，一鍵精準選取/隔離個別物件或材質做遮罩，不用手roto。3D合成調色必備。｜https://github.com/Psyop/Cryptomatte
-ProEXR (EXtractoR / IDentifier)｜未驗證｜plugin｜keying｜讀取多通道OpenEXR：EXtractoR抽取任意通道(Z深度、法線、AO、反射等AOV分層)、IDentifier依物件/材質ID建遮罩，供進階3D合成使用。｜
-3D Glasses｜未驗證｜plugin｜3d｜內建：把左右眼兩個畫面合成立體視覺，輸出紅藍(anaglyph)眼鏡3D或並排/交錯立體格式。｜
-Rolling Shutter Repair｜未驗證｜plugin｜restore｜內建：修正CMOS感光元件快速平移/震動造成的果凍效應(畫面歪斜傾倒)。｜
-Cineon Converter｜未驗證｜plugin｜color｜內建：Cineon/DPX膠片對數(log)與線性色彩空間互轉，處理掃描膠片素材。｜
-VR / 沉浸式視訊效果組｜未驗證｜plugin｜vr｜內建360/VR影片工具組，直接在等距長方投影(equirectangular)上做效果不產生接縫扭曲。｜
 Live2D Cubism (for AE)｜未驗證｜plugin｜rigging｜把Live2D Cubism的2D角色模型(.moc3)匯入AE播放與整合，做VTuber/2D立繪角色動畫合成。｜https://www.live2d.com/en/
 Chromabba｜未驗證｜plugin｜distort｜免費：快速色差/色散，RGB通道分離位移做鏡頭味或輕度故障。｜https://aescripts.com/chromabba/
 Boundary Fill｜未驗證｜plugin｜generate｜免費：在封閉線條邊界內做泛洪填色(像油漆桶)，方便手繪線稿上色。｜https://aescripts.com/boundary-fill/
-P_TextMask｜未驗證｜plugin｜text｜免費：把文字圖層轉成遮罩/路徑，方便對文字描邊、勾線或做路徑動畫。｜
-AviUtl Circle Align｜未驗證｜plugin｜workflow｜免費(移植自AviUtl)：把多個圖層自動排成圓形/環狀陣列佈局。｜
 Vectory｜未驗證｜plugin｜generate｜動態線條粒子動畫外掛：用線條連接運動的點/粒子做科技感連線網絡(類Plexus的線條表現)。｜https://aescripts.com/vectory/
 HydroChrome｜未驗證｜plugin｜generate｜生成抽象流動背景動畫：柔順流動的液態彩色底圖，做背景/氛圍。｜https://aescripts.com/hydrochrome/
 Nebulosity｜未驗證｜plugin｜generate｜三維體積星雲/煙霧特效：生成有立體體積感的星雲、太空雲氣、煙霧。｜https://aescripts.com/nebulosity/
@@ -1667,7 +1627,6 @@ Bevelizer｜未驗證｜plugin｜3d｜3D文字倒角+材質紋理貼圖特效：
 Bang｜未驗證｜plugin｜generate｜3D槍口火焰/閃光/火花槍火特效，做開槍射擊VFX(檔名 qpBang)。｜https://aescripts.com/bang/
 Potok｜未驗證｜plugin｜generate｜流體漸變著色特效動畫：液態流動的漸層色彩，做抽象流動背景/著色(Potok俄文為『流』)。｜https://aescripts.com/potok/
 Glasswork｜未驗證｜plugin｜distort｜真實玻璃折射視覺效果：模擬透過玻璃的折射扭曲與質感(AE/PR通用)。｜https://aescripts.com/glasswork/
-Fryer｜未驗證｜plugin｜stylize｜數位損壞/油炸(deep-fry)故障視覺特效：過曝、壓縮崩壞、飽和爆掉的meme式破壞風。｜
 Dropletee｜未驗證｜plugin｜warp｜液態扭曲拖尾視覺效果：畫面如液體般扭動拖曳。｜https://aescripts.com/dropletee/
 Diopter｜未驗證｜plugin｜blur｜光線折射模糊朦朧視覺效果：帶折射感的柔焦/朦朧，做唯美/夢幻氛圍。｜https://aescripts.com/diopter/
 F's ColorChange｜未驗證｜plugin｜color｜F's Plugins 的舊版指定色替換效果，原作者已明確把現行 ColorSwitch 稱為 F's ColorChange 的替代工具。以 Old／來源色定位畫面色塊，再換成 New／目標色，適合賽璐璐動畫撮影的局部配色修正；新版後繼工具另整合 Replace、Key、Extract，並可同時處理最多 32 色。此條目對應舊 CS6 `.aex`，不是現行 ColorSwitch 本體。｜https://github.com/bryful/F-s-PluginsProjects/tree/master/ColorSwitch
@@ -1694,326 +1653,41 @@ FluidMap / Fluxion｜未驗證｜plugin｜warp｜生成流體狀的灰階圖(map
 CC Kernel｜未驗證｜plugin｜stylize｜提供可自行填入九個數值的 3×3 Convolution Matrix，中央格代表目前像素，其餘八格取樣周圍像素；不同 Kernel 可建立 Gaussian Blur、Sharpen、Emboss、Find Edges 等濾鏡，也能從內附 Animation Presets 延伸自訂效果。Divider 可整體縮放矩陣強度，Absolute Values 決定是否把負運算結果轉正；32 bpc 可保留負值，8／16 bpc 則顯示為黑。｜https://www.cycorefx.com/prod_ccfxhd.php
 Polytrace｜未驗證｜plugin｜stylize｜演算法三角化外掛，把畫面轉成低多邊形風格，再複雜也算得很快，還能用遮罩點當三角化的控制點。｜https://elementsupply.co/products/polytrace
 Modulation 2｜未驗證｜plugin｜distort｜免寫程式快速做出訊號調變效果，含多種色彩模式與可調低通濾波，做掃描/干擾/波形視覺。｜https://aescripts.com/modulation/
-霓虹招牌・緩慢呼吸｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；搭配以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・快速脈衝｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；結合用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・由左掃入｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；再利用讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・由中心爆發｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；並以從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・環形擴散｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；同時透過以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・隨機閃爍｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；搭配用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・向上飄移｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；結合讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・鏡頭推近｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；再利用隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・鏡頭拉遠｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；並以在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・節拍跳切｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；同時透過以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・無縫循環｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；搭配將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・方向擦除｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；結合使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・旋轉聚合｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；再利用讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・深度穿越｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；並以配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-霓虹招牌・衝擊震動｜配方｜recipe｜recipe｜把輪廓推成明亮彩色光管，保留可讀邊緣與柔和溢光；同時透過在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・緩慢呼吸｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；結合以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・快速脈衝｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；再利用用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・由左掃入｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；並以讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・由中心爆發｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；同時透過從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・環形擴散｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；搭配以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・隨機閃爍｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；結合用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・向上飄移｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；再利用讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・鏡頭推近｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；並以隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・鏡頭拉遠｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；同時透過在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・節拍跳切｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；搭配以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・無縫循環｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；結合將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・方向擦除｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；再利用使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・旋轉聚合｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；並以讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・深度穿越｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；同時透過配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-復古 VHS・衝擊震動｜配方｜recipe｜recipe｜加入水平漂移、磁帶雜訊與 RGB 錯位，模擬老舊錄影帶訊號；搭配在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・緩慢呼吸｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；再利用以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・快速脈衝｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；並以用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・由左掃入｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；同時透過讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・由中心爆發｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；搭配從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・環形擴散｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；結合以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・隨機閃爍｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；再利用用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・向上飄移｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；並以讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・鏡頭推近｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；同時透過隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・鏡頭拉遠｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；搭配在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・節拍跳切｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；結合以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・無縫循環｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；再利用將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・方向擦除｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；並以使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・旋轉聚合｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；同時透過讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・深度穿越｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；搭配配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-全像投影・衝擊震動｜配方｜recipe｜recipe｜以掃描線、藍綠輝光和輕微位移建立透明全像投影；結合在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・緩慢呼吸｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；並以以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・快速脈衝｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；同時透過用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・由左掃入｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；搭配讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・由中心爆發｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；結合從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・環形擴散｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；再利用以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・隨機閃爍｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；並以用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・向上飄移｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；同時透過讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・鏡頭推近｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；搭配隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・鏡頭拉遠｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；結合在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・節拍跳切｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；再利用以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・無縫循環｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；並以將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・方向擦除｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；同時透過使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・旋轉聚合｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；搭配讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・深度穿越｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；結合配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-液態玻璃・衝擊震動｜配方｜recipe｜recipe｜利用流動位移與玻璃高光形成透明、黏稠且會折射背景的表面；再利用在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・緩慢呼吸｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；同時透過以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・快速脈衝｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；搭配用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・由左掃入｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；結合讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・由中心爆發｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；再利用從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・環形擴散｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；並以以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・隨機閃爍｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；同時透過用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・向上飄移｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；搭配讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・鏡頭推近｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；結合隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・鏡頭拉遠｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；再利用在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・節拍跳切｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；並以以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・無縫循環｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；同時透過將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・方向擦除｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；搭配使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・旋轉聚合｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；結合讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・深度穿越｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；再利用配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-漫畫網點・衝擊震動｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡和海報畫面；並以在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・緩慢呼吸｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；搭配以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・快速脈衝｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；結合用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・由左掃入｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；再利用讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・由中心爆發｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；並以從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・環形擴散｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；同時透過以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・隨機閃爍｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；搭配用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・向上飄移｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；結合讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・鏡頭推近｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；再利用隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・鏡頭拉遠｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；並以在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・節拍跳切｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；同時透過以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・無縫循環｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；搭配將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・方向擦除｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；結合使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・旋轉聚合｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；再利用讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・深度穿越｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；並以配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-熱感應畫面・衝擊震動｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化物體邊界，呈現監視器視覺；同時透過在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・緩慢呼吸｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；結合以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・快速脈衝｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；再利用用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・由左掃入｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；並以讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・由中心爆發｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；同時透過從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・環形擴散｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；搭配以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・隨機閃爍｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；結合用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・向上飄移｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；再利用讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・鏡頭推近｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；並以隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・鏡頭拉遠｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；同時透過在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・節拍跳切｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；搭配以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・無縫循環｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；結合將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・方向擦除｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；再利用使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・旋轉聚合｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；並以讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・深度穿越｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；同時透過配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-水墨暈染・衝擊震動｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，做出墨水在紙面滲開的有機輪廓；搭配在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・緩慢呼吸｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；再利用以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・快速脈衝｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；並以用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・由左掃入｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；同時透過讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・由中心爆發｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；搭配從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・環形擴散｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；結合以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・隨機閃爍｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；再利用用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・向上飄移｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；並以讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・鏡頭推近｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；同時透過隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・鏡頭拉遠｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；搭配在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・節拍跳切｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；結合以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・無縫循環｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；再利用將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・方向擦除｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；並以使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・旋轉聚合｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；同時透過讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・深度穿越｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；搭配配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-故障訊號・衝擊震動｜配方｜recipe｜recipe｜結合區塊缺損、分色與降格節奏，製作短促的數位訊號故障；結合在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・緩慢呼吸｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；並以以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・快速脈衝｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；同時透過用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・由左掃入｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；搭配讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・由中心爆發｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；結合從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・環形擴散｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；再利用以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・隨機閃爍｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；並以用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・向上飄移｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；同時透過讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・鏡頭推近｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；搭配隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・鏡頭拉遠｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；結合在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・節拍跳切｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；再利用以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・無縫循環｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；並以將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・方向擦除｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；同時透過使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・旋轉聚合｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；搭配讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・深度穿越｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；結合配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-夢境柔焦・衝擊震動｜配方｜recipe｜recipe｜擴散亮部並稍微抬升曝光，形成柔軟、低對比的夢境鏡頭；再利用在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・緩慢呼吸｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；同時透過以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・快速脈衝｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；搭配用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・由左掃入｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；結合讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・由中心爆發｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；再利用從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・環形擴散｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；並以以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・隨機閃爍｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；同時透過用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・向上飄移｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；搭配讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・鏡頭推近｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；結合隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・鏡頭拉遠｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；再利用在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・節拍跳切｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；並以以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・無縫循環｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；同時透過將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・方向擦除｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；搭配使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・旋轉聚合｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；結合讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・深度穿越｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；再利用配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-鉛筆素描・衝擊震動｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，將照片轉成清楚的鉛筆草圖；並以在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・緩慢呼吸｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；搭配以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・快速脈衝｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；結合用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・由左掃入｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；再利用讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・由中心爆發｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；並以從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・環形擴散｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；同時透過以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・隨機閃爍｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；搭配用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・向上飄移｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；結合讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・鏡頭推近｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；再利用隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・鏡頭拉遠｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；並以在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・節拍跳切｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；同時透過以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・無縫循環｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；搭配將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・方向擦除｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；結合使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・旋轉聚合｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；再利用讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・深度穿越｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；並以配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-金屬浮雕・衝擊震動｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo 與徽章；同時透過在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・緩慢呼吸｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；結合以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・快速脈衝｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；再利用用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・由左掃入｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；並以讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・由中心爆發｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；同時透過從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・環形擴散｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；搭配以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・隨機閃爍｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；結合用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・向上飄移｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；再利用讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・鏡頭推近｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；並以隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・鏡頭拉遠｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；同時透過在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・節拍跳切｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；搭配以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・無縫循環｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；結合將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・方向擦除｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；再利用使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・旋轉聚合｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；並以讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・深度穿越｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；同時透過配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-粒子消散・衝擊震動｜配方｜recipe｜recipe｜把圖層打散成發光碎片並延伸粒子尾流，呈現物件逐步瓦解；搭配在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・緩慢呼吸｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；再利用以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・快速脈衝｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；並以用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・由左掃入｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；同時透過讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・由中心爆發｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；搭配從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・環形擴散｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；結合以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・隨機閃爍｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；再利用用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・向上飄移｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；並以讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・鏡頭推近｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；同時透過隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・鏡頭拉遠｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；搭配在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・節拍跳切｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；結合以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・無縫循環｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；再利用將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・方向擦除｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；並以使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・旋轉聚合｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；同時透過讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・深度穿越｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；搭配配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-萬花筒鏡像・衝擊震動｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺和循環背景；結合在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・緩慢呼吸｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；並以以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・快速脈衝｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；同時透過用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・由左掃入｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；搭配讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・由中心爆發｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；結合從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・環形擴散｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；再利用以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・隨機閃爍｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；並以用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・向上飄移｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；同時透過讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・鏡頭推近｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；搭配隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・鏡頭拉遠｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；結合在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・節拍跳切｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；再利用以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・無縫循環｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；並以將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・方向擦除｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；同時透過使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・旋轉聚合｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；搭配讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・深度穿越｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；結合配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電影膠片・衝擊震動｜配方｜recipe｜recipe｜加入可控顆粒、曲線色調與鏡頭暗角，模擬電影負片質感；再利用在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・緩慢呼吸｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；同時透過以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・快速脈衝｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；搭配用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・由左掃入｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；結合讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・由中心爆發｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；再利用從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・環形擴散｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；並以以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・隨機閃爍｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；同時透過用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・向上飄移｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；搭配讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・鏡頭推近｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；結合隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・鏡頭拉遠｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；再利用在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・節拍跳切｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；並以以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・無縫循環｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；同時透過將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・方向擦除｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；搭配使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・旋轉聚合｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；結合讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・深度穿越｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；再利用配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-電流能量・衝擊震動｜配方｜recipe｜recipe｜生成分岔電弧並用擾動與輝光增添跳動感，適合能量特效；並以在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・緩慢呼吸｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；搭配以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・快速脈衝｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；結合用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・由左掃入｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；再利用讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・由中心爆發｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；並以從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・環形擴散｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；同時透過以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・隨機閃爍｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；搭配用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・向上飄移｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；結合讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・鏡頭推近｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；再利用隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・鏡頭拉遠｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；並以在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・節拍跳切｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；同時透過以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・無縫循環｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；搭配將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・方向擦除｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；結合使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・旋轉聚合｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；再利用讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・深度穿越｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；並以配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-像素馬賽克・衝擊震動｜配方｜recipe｜recipe｜將畫面量化成清楚色塊與像素格，製作復古遊戲或數位介面；同時透過在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・緩慢呼吸｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；結合以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・快速脈衝｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；再利用用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・由左掃入｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；並以讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・由中心爆發｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；同時透過從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・環形擴散｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；搭配以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・隨機閃爍｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；結合用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・向上飄移｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；再利用讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・鏡頭推近｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；並以隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・鏡頭拉遠｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；同時透過在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・節拍跳切｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；搭配以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・無縫循環｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；結合將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・方向擦除｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；再利用使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・旋轉聚合｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；並以讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・深度穿越｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；同時透過配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-紙張撕裂・衝擊震動｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗和陰影營造真實撕紙拼貼；搭配在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・緩慢呼吸｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；再利用以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・快速脈衝｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；並以用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・由左掃入｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；同時透過讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・由中心爆發｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；搭配從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・環形擴散｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；結合以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・隨機閃爍｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；再利用用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・向上飄移｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；並以讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・鏡頭推近｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；同時透過隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・鏡頭拉遠｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；搭配在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・節拍跳切｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；結合以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・無縫循環｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；再利用將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・方向擦除｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；並以使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・旋轉聚合｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；同時透過讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・深度穿越｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；搭配配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-監視器夜視・衝擊震動｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，模擬低光夜視設備；結合在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・緩慢呼吸｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；並以以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・快速脈衝｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；同時透過用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・由左掃入｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；搭配讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・由中心爆發｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；結合從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・環形擴散｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；再利用以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・隨機閃爍｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；並以用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・向上飄移｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；同時透過讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・鏡頭推近｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；搭配隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・鏡頭拉遠｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；結合在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・節拍跳切｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；再利用以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・無縫循環｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；並以將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・方向擦除｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；同時透過使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・旋轉聚合｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；搭配讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・深度穿越｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；結合配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-深度霧化・衝擊震動｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，強化前後景距離和空氣透視；再利用在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・緩慢呼吸｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；同時透過以低頻週期讓強度與尺度往復，適合持續存在的背景或標誌。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・快速脈衝｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；搭配用短促峰值推動亮度與變形，適合節拍點、警示和衝擊鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・由左掃入｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；結合讓主要變化沿水平遮罩逐步展開，適合標題進場與段落揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・由中心爆發｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；再利用從畫面中心向外擴張效果範圍，適合 Logo 揭示和能量爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・環形擴散｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；並以以圓形遮罩向外傳播變化，適合波紋、掃描與轉場節點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・隨機閃爍｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；同時透過用可控亂數驅動不規則強弱，適合故障、電力和有機質感。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・向上飄移｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；搭配讓紋理與位移持續上升，適合煙霧、熱氣和輕盈背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・鏡頭推近｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；結合隨尺度增加同步強化細節與光效，適合轉場和視覺聚焦。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・鏡頭拉遠｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；再利用在縮小過程逐步收斂效果，適合結尾退場與場景交代。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・節拍跳切｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；並以以 Posterize Time 和階梯關鍵格切出俐落節奏，適合音樂剪輯。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・無縫循環｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；同時透過將位移和演化參數首尾對齊，適合長時間播放的循環背景。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・方向擦除｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；搭配使用線性漸層控制效果退場，適合字幕、圖卡與鏡頭銜接。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・旋轉聚合｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；結合讓角度和尺度同步收束至中心，適合圖形聚合與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・深度穿越｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；再利用配合 3D 相機與分層視差推進，適合空間穿梭和片頭鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-發光描邊・衝擊震動｜配方｜recipe｜recipe｜抽出物件輪廓再控制粗細與溢光，建立乾淨的能量描邊；並以在關鍵幀附近加入快速衰減的位移與縮放，適合撞擊和爆點。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
-賽博龐克霓虹標題｜配方｜recipe｜recipe｜文字先做霓虹描邊發光，再疊故障位移與色差，加掃描線｜
-電影感調色（青橙）｜配方｜recipe｜recipe｜先一級校色統一曝光白平衡，再上青橙色調，加暗角與膠片顆粒｜
-老電影 / 復古膠片｜配方｜recipe｜recipe｜褪色調色 + 顆粒 + 刮痕塵點 + 抖動 + 暗角 + 輕微漏光｜
-舊錄影帶 VHS｜配方｜recipe｜recipe｜色度偏移 + 掃描線 + 訊號噪訊 + 追蹤失真 + 時間碼字幕｜
-科技 HUD / FUI 介面｜配方｜recipe｜recipe｜生成HUD元件 + 連線圖形 + 全息掃描 + 輝光｜
-能量光束 / 魔法｜配方｜recipe｜recipe｜沿路徑發光能量 + 粒子星塵 + 扭曲流動 + 輝光｜
-故障轉場｜配方｜recipe｜recipe｜急速放大+色差+數位方塊破碎切換｜
-甩鏡頭轉場｜配方｜recipe｜recipe｜方向模糊快速掃過接下一鏡｜
-夢幻唯美人像｜配方｜recipe｜recipe｜磨皮 + 柔光/halation + 亮部散景光斑 + 暖調｜
-爆炸 / 火焰 / 煙｜配方｜recipe｜recipe｜粒子火花 + 煙霧噪波 + 熱浪扭曲 + 衝擊波置換 + 輝光｜
-下雨 / 下雪 / 霧｜配方｜recipe｜recipe｜天氣粒子 + 大氣霧 + 景深 + 玻璃水痕｜
-水下 / 焦散｜配方｜recipe｜recipe｜焦散光紋 + 藍綠調 + 漂浮粒子 + 輕微扭曲｜
-移軸微縮模型｜配方｜recipe｜recipe｜上下漸變模糊 + 高飽和高對比｜
-3D 產品 / Logo 展示｜配方｜recipe｜recipe｜3D擠出 + 材質反光 + 掃光 + 地面倒影 + 光暈｜
-手寫描邊 Logo 顯現｜配方｜recipe｜recipe｜沿路徑書寫描邊 + 漸變填充 + 末端輝光｜
-音樂節奏視覺化｜配方｜recipe｜recipe｜音頻轉關鍵幀驅動縮放/發光/粒子｜
-小星球 / 360環形｜配方｜recipe｜recipe｜全景圖轉極座標成小星球｜
-駭客 / 終端機文字｜配方｜recipe｜recipe｜亂碼滾動 + 綠色終端 + 字元雨 + 掃描線｜
-復古 8-bit 像素｜配方｜recipe｜recipe｜像素化 + 抖動 + 有限色盤 + 掃描線｜
-隱形 / 折射斗篷｜配方｜recipe｜recipe｜以背景做色差置換扭曲，邊緣描邊微光｜
+賽博龐克霓虹標題｜配方｜recipe｜recipe｜文字先做霓虹描邊發光，再疊故障位移與色差，加掃描線｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+電影感調色（青橙）｜配方｜recipe｜recipe｜先一級校色統一曝光白平衡，再上青橙色調，加暗角與膠片顆粒｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+老電影 / 復古膠片｜配方｜recipe｜recipe｜褪色調色 + 顆粒 + 刮痕塵點 + 抖動 + 暗角 + 輕微漏光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+舊錄影帶 VHS｜配方｜recipe｜recipe｜色度偏移 + 掃描線 + 訊號噪訊 + 追蹤失真 + 時間碼字幕｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+科技 HUD / FUI 介面｜配方｜recipe｜recipe｜生成HUD元件 + 連線圖形 + 全息掃描 + 輝光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+能量光束 / 魔法｜配方｜recipe｜recipe｜沿路徑發光能量 + 粒子星塵 + 扭曲流動 + 輝光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+故障轉場｜配方｜recipe｜recipe｜急速放大+色差+數位方塊破碎切換｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+甩鏡頭轉場｜配方｜recipe｜recipe｜方向模糊快速掃過接下一鏡｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+夢幻唯美人像｜配方｜recipe｜recipe｜磨皮 + 柔光/halation + 亮部散景光斑 + 暖調｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+爆炸 / 火焰 / 煙｜配方｜recipe｜recipe｜粒子火花 + 煙霧噪波 + 熱浪扭曲 + 衝擊波置換 + 輝光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+下雨 / 下雪 / 霧｜配方｜recipe｜recipe｜天氣粒子 + 大氣霧 + 景深 + 玻璃水痕｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+水下 / 焦散｜配方｜recipe｜recipe｜焦散光紋 + 藍綠調 + 漂浮粒子 + 輕微扭曲｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+移軸微縮模型｜配方｜recipe｜recipe｜上下漸變模糊 + 高飽和高對比｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+3D 產品 / Logo 展示｜配方｜recipe｜recipe｜3D擠出 + 材質反光 + 掃光 + 地面倒影 + 光暈｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+手寫描邊 Logo 顯現｜配方｜recipe｜recipe｜沿路徑書寫描邊 + 漸變填充 + 末端輝光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+音樂節奏視覺化｜配方｜recipe｜recipe｜音頻轉關鍵幀驅動縮放/發光/粒子｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+小星球 / 360環形｜配方｜recipe｜recipe｜全景圖轉極座標成小星球｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+駭客 / 終端機文字｜配方｜recipe｜recipe｜亂碼滾動 + 綠色終端 + 字元雨 + 掃描線｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+復古 8-bit 像素｜配方｜recipe｜recipe｜像素化 + 抖動 + 有限色盤 + 掃描線｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+隱形 / 折射斗篷｜配方｜recipe｜recipe｜以背景做色差置換扭曲，邊緣描邊微光｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：全像投影｜配方｜recipe｜recipe｜以掃描線、藍綠輝光與輕微位移建立透明全像投影，適合科幻介面、通訊畫面與舞台視覺。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：液態玻璃｜配方｜recipe｜recipe｜以流動位移與玻璃高光塑造透明黏稠表面，適合產品轉場、抽象背景與玻璃擬態介面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：漫畫網點｜配方｜recipe｜recipe｜把明暗簡化成粗線與印刷網點，適合漫畫分鏡、復古海報與動態標題。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：熱感應畫面｜配方｜recipe｜recipe｜把亮度映射成熱成像偽彩色並強化邊界，適合監控介面、目標搜尋與科幻視角。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：水墨暈染｜配方｜recipe｜recipe｜擴張深色區域並擾動邊緣，適合片頭題字、國風轉場與墨水生長動畫。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：故障訊號｜配方｜recipe｜recipe｜結合區塊缺損、RGB 錯位與降格節奏，適合訊號中斷、監控畫面與數位干擾。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：夢境柔焦｜配方｜recipe｜recipe｜擴散亮部並降低局部對比，適合回憶段落、唯美人像與夢境鏡頭。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：鉛筆素描｜配方｜recipe｜recipe｜提取細節邊線再壓成單色階調，適合照片轉草圖、分鏡動畫與手繪揭示。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：金屬浮雕｜配方｜recipe｜recipe｜將亮暗邊緣塑成帶方向光的金屬浮雕，適合 Logo、徽章與工業風標題。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：粒子消散｜配方｜recipe｜recipe｜把圖層拆成碎片並延伸粒子尾流，適合人物瓦解、Logo 消散與傳送效果。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：萬花筒鏡像｜配方｜recipe｜recipe｜重複鏡射素材形成對稱幾何圖案，適合音樂視覺、舞台背景與無縫循環。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：紙張撕裂｜配方｜recipe｜recipe｜以不規則遮邊、紙纖維明暗與陰影營造真實撕紙，適合拼貼片頭與手作風轉場。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：監視器夜視｜配方｜recipe｜recipe｜把影像轉成高反差綠階並加入增益雜訊，適合監視器、軍事夜視與低光搜查畫面。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：深度霧化｜配方｜recipe｜recipe｜依深度拉開清晰度與霧量，適合 3D 場景、遠景合成與空氣透視。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
+內建配方：發光描邊｜配方｜recipe｜recipe｜抽出物件輪廓並控制粗細與溢光，適合角色能量邊、Logo 外框與科技掃描。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/effects-and-animation-presets/effect-list.html
 Particular｜Red Giant｜plugin｜particles｜業界標準3D粒子系統，AE做粒子的第一名。可做煙、火、火花、爆炸、魔法仙塵、粒子流體、雨雪、Logo粒子聚散/打散。含物理力場、風、湍流、群集，粒子可用貼圖或3D模型。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/trapcode-particular
 Form｜Red Giant｜plugin｜particles｜不衰減的3D粒子網格/有機形態生成器（粒子永遠存在，不像Particular會生滅）。做全息人像、音樂驅動的波形/律動、粒子地形、抽象生物體、星雲。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/form
 Mir｜Red Giant｜plugin｜3d｜快速3D多邊形網格生成器。做起伏地形、流動波浪面、無限隧道、低多邊形山脈、復古線框(wireframe)、抽象流動曲面。常帶漸層色與霧氣。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/mir
@@ -2352,7 +2026,7 @@ Element 3D｜第三方｜plugin｜3d｜AE內即時3D物件/文字渲染引擎，
 Optical Flares｜第三方｜plugin｜flare｜最流行的鏡頭光暈外掛，介面直覺可拖拉編輯各鏡片元素，預設精美，做太陽光斑、科技光暈。｜https://www.videocopilot.net/products/opticalflares/
 Saber｜第三方｜plugin｜light｜免費：光劍/能量光束/霓虹描邊，沿遮罩或文字發光｜https://www.videocopilot.net/blog/2015/03/new-plug-in-saber-now-available-100-free/
 Heat Distortion｜第三方｜plugin｜distort｜模擬熱空氣造成的畫面波動扭曲，做引擎熱氣、沙漠熱浪、能量場。｜https://www.videocopilot.net/products/heatdistortion/
-Color Vibrance｜第三方｜plugin｜color｜免費：為發光元素做單色能量著色，常搭配 Saber/Optical Flares 統一色調。｜
+Color Vibrance｜第三方｜plugin｜color｜免費：為發光元素做單色能量著色，常搭配 Saber/Optical Flares 統一色調。｜https://www.videocopilot.net/blog/2014/05/new-plug-in-color-vibrance/
 Twitch｜第三方｜plugin｜stylize｜把閃頻、抖動、模糊、色偏等隨機擾動組合起來，做緊張刺激的預告片節奏感風格化。｜https://www.videocopilot.net/products/twitch/
 FX Console｜第三方｜script｜workflow｜免費：用快捷鍵叫出搜尋框，打字就能套用效果與預設，另可快速存取畫面快照比對。｜https://www.videocopilot.net/blog/2018/05/fx-console-updated-to-v1-0-3
 Twixtor｜第三方｜plugin｜time｜光流極致慢動作補幀，比AE內建時間扭曲更乾淨｜https://revisionfx.com/products/twixtor/

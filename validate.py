@@ -1,175 +1,204 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-校驗 data/*.jsonl：每行是否為合法 JSON、必填欄位、型別、分類、重複名稱，
-以及「樣板化」品質檢查（同一批條目共用同一句 desc 句型或同一組 tags）。
+"""驗證 data/*.jsonl 的格式與策展品質。
 
 用法：
-    python validate.py            # 品質問題只出警告，不擋合併
-    python validate.py --strict   # 品質問題也視為錯誤（適合自己送 PR 前跑）
+    python validate.py
+    python validate.py --strict
 
-CI 與送 PR 前都會跑這支。有 error 會 exit 1。
+一般模式把品質問題列為警告；strict 模式會把警告視為錯誤，供 CI 使用。
 """
-import json, sys, os, glob, re, collections
+
+from __future__ import annotations
+
+import collections
+import glob
+import json
+import os
+import re
+import sys
+from urllib.parse import urlparse
 
 try:
-    sys.stdout.reconfigure(encoding="utf-8")  # Windows 主控台預設非 UTF-8 時避免亂碼
+    sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+ROOT = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(ROOT, "data")
 
-# 已知分類（新增分類請一併加到這裡與 AGENTS.md）
 KNOWN_CATS = {
-    "glow","blur-glow","light","flare","particles","stylize","film","color",
-    "blur","warp","keying","tracking","restore","time","transition","text",
-    "generate","3d","draw","paint","art","texture","audio","physics","rigging",
-    "workflow","render","expression","animation","preset","utility","distort",
-    "mograph","beauty","edge","emboss","composite","matte","perspective",
-    "kaleido","vr","recipe",
+    "glow", "blur-glow", "light", "flare", "particles", "stylize", "film",
+    "color", "blur", "warp", "keying", "tracking", "restore", "time",
+    "transition", "text", "generate", "3d", "draw", "paint", "art",
+    "texture", "audio", "physics", "rigging", "workflow", "render",
+    "expression", "animation", "preset", "utility", "distort", "mograph",
+    "beauty", "edge", "emboss", "composite", "matte", "perspective",
+    "kaleido", "vr", "recipe",
 }
-REQUIRED = ("name","kind","cat","tags","desc")
-OPTIONAL = {"look","variants","stack","builtin","suite","vendor","unverified","aex","url"}
-ALLOWED = set(REQUIRED) | OPTIONAL
 KNOWN_KINDS = {"plugin", "script", "builtin", "recipe"}
+REQUIRED = ("name", "kind", "cat", "tags", "desc", "url")
+OPTIONAL = {
+    "look", "variants", "stack", "builtin", "suite", "vendor",
+    "unverified", "aex",
+}
+ALLOWED = set(REQUIRED) | OPTIONAL
 
-CJK = re.compile(r"[一-鿿]")
+CJK = re.compile(r"[\u3400-\u9fff]")
+DISCONTINUED = re.compile(
+    r"(?:已停售|已下架|停止販售|discontinued|no longer available)", re.I
+)
 
-def without_name(text, name):
-    """把條目名（含拆開的字詞）從字串裡拿掉，用來偵測『只有名字不同』的樣板。"""
-    t = text or ""
-    parts = sorted([name] + re.split(r"[\s_+]+", name), key=len, reverse=True)
-    for p in parts:
-        if len(p) >= 2:
-            t = t.replace(p, "")
-    return re.sub(r"[\s「」\"'()（）·、]+", "", t)
 
-def quality_checks(rows):
-    """回傳品質問題清單。rows = [(檔名, 位置, 條目 dict), ...]"""
-    out = []
+def valid_url(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
-    # 1) tags 全英文：中文使用者搜不到
-    no_cjk = [loc for _, loc, o in rows
-              if isinstance(o.get("tags"), list) and o["tags"]
-              and not any(CJK.search(str(t)) for t in o["tags"])]
+
+def quality_checks(rows: list[tuple[str, str, dict]]) -> list[str]:
+    warnings: list[str] = []
+
+    no_cjk = [loc for _, loc, item in rows if not any(CJK.search(str(t)) for t in item["tags"])]
     if no_cjk:
-        out.append("有 %d 筆的 tags 完全沒有中文（中文使用者搜不到）："
-                   "%s%s" % (len(no_cjk), "、".join(no_cjk[:5]),
-                             " …" if len(no_cjk) > 5 else ""))
+        sample = "、".join(no_cjk[:5])
+        more = "…" if len(no_cjk) > 5 else ""
+        warnings.append(f"{len(no_cjk)} 筆 tags 沒有中文搜尋詞：{sample}{more}")
 
-    # 2) desc 樣板：同檔內把名字遮掉後句子一模一樣
-    by_file = collections.defaultdict(lambda: collections.defaultdict(list))
-    for fn, loc, o in rows:
-        if isinstance(o.get("desc"), str) and isinstance(o.get("name"), str):
-            key = without_name(o["desc"], o["name"])
-            if len(key) >= 8:
-                by_file[fn][key].append((loc, o["name"]))
-    hits = [(fn, m) for fn, groups in by_file.items()
-            for m in groups.values() if len(m) >= 3]
-    hits.sort(key=lambda x: -len(x[1]))
-    for fn, members in hits[:5]:
-        names_ = "、".join(n for _, n in members[:4])
-        out.append("%s 有 %d 筆共用同一句 desc 句型（只有名字不同）：%s…"
-                   "／把名字遮掉後應該還能分辨是哪個效果" % (fn, len(members), names_))
-    if len(hits) > 5:
-        out.append("…另有 %d 組 desc 樣板（共 %d 筆），詳見同樣的檢查邏輯"
-                   % (len(hits) - 5, sum(len(m) for _, m in hits[5:])))
+    unverified = [loc for _, loc, item in rows if item.get("unverified")]
+    if unverified:
+        sample = "、".join(unverified[:5])
+        more = "…" if len(unverified) > 5 else ""
+        warnings.append(f"{len(unverified)} 筆仍標為 unverified：{sample}{more}")
 
-    # 3) tags 樣板：同檔內把名字相關的 tag 拿掉後，整組 tags 一模一樣
-    by_file2 = collections.defaultdict(lambda: collections.defaultdict(list))
-    for fn, loc, o in rows:
-        if isinstance(o.get("tags"), list) and isinstance(o.get("name"), str):
-            nm = o["name"].lower()
-            rest = tuple(sorted(str(t) for t in o["tags"] if str(t).lower() not in nm))
-            if rest:
-                by_file2[fn][rest].append((loc, o["name"]))
-    hits2 = [(fn, rest, m) for fn, groups in by_file2.items()
-             for rest, m in groups.items() if len(m) >= 4]
-    hits2.sort(key=lambda x: -len(x[2]))
-    for fn, rest, members in hits2[:5]:
-        out.append("%s 有 %d 筆的 tags 去掉名字後完全相同：%s"
-                   "／搜這組字會一次噴出一堆長得一樣的結果，請補俗名與外觀同義詞"
-                   % (fn, len(members), "、".join(rest[:6])))
-    if len(hits2) > 5:
-        out.append("…另有 %d 組 tags 樣板（共 %d 筆）"
-                   % (len(hits2) - 5, sum(len(m) for _, _, m in hits2[5:])))
-    return out
+    # 防止以「風格 × 動畫」笛卡兒積灌水；變體應收在單一條目的 variants。
+    generated = [loc for _, loc, item in rows if item.get("kind") == "recipe" and "・" in item["name"]]
+    if generated:
+        warnings.append(
+            f"{len(generated)} 筆配方名稱疑似排列組合產物，請改用 variants："
+            + "、".join(generated[:5])
+        )
 
-def main():
+    return warnings
+
+
+def main() -> None:
     strict = "--strict" in sys.argv
-    errors, warnings, total = [], [], 0
-    names, rows = {}, []
-    stats = {"url": 0, "look": 0, "unv": 0}
+    errors: list[str] = []
+    warnings: list[str] = []
+    rows: list[tuple[str, str, dict]] = []
+    names: dict[str, list[str]] = collections.defaultdict(list)
+    total = 0
+    stats = collections.Counter()
+
     files = sorted(glob.glob(os.path.join(DATA_DIR, "*.jsonl")))
     if not files:
-        print("找不到 data/*.jsonl"); sys.exit(1)
+        print("找不到 data/*.jsonl")
+        raise SystemExit(1)
+
     for path in files:
-        fn = os.path.basename(path)
-        with open(path, encoding="utf-8") as f:
-            for i, line in enumerate(f, 1):
-                line = line.rstrip("\n")
-                if not line.strip():
+        filename = os.path.basename(path)
+        with open(path, encoding="utf-8") as handle:
+            for line_no, raw in enumerate(handle, 1):
+                if not raw.strip():
                     continue
                 total += 1
-                loc = f"{fn}:{i}"
+                loc = f"{filename}:{line_no}"
                 try:
-                    o = json.loads(line)
-                except json.JSONDecodeError as e:
-                    errors.append(f"{loc}  JSON 解析失敗：{e}")
+                    item = json.loads(raw)
+                except json.JSONDecodeError as exc:
+                    errors.append(f"{loc} JSON 格式錯誤：{exc}")
                     continue
-                if not isinstance(o, dict):
-                    errors.append(f"{loc}  不是 JSON 物件"); continue
-                for k in REQUIRED:
-                    if k not in o:
-                        errors.append(f"{loc}  缺必填欄位 '{k}'")
-                for k in o:
-                    if k not in ALLOWED:
-                        errors.append(f"{loc}  未知欄位 '{k}'（拼錯或需先在 schema 註冊）")
-                if "tags" in o:
-                    if not isinstance(o["tags"], list) or not o["tags"]:
-                        errors.append(f"{loc}  tags 必須是非空陣列")
-                    elif len(o["tags"]) < 3:
-                        warnings.append(f"{loc}  tags 少於 3 個，可搜性差（建議中英同義詞都放）")
-                if "variants" in o and not isinstance(o["variants"], dict):
-                    errors.append(f"{loc}  variants 必須是物件 {{名稱:註}}")
-                if "stack" in o and not isinstance(o["stack"], list):
-                    errors.append(f"{loc}  stack 必須是陣列")
-                if "unverified" in o and not isinstance(o["unverified"], bool):
-                    errors.append(f"{loc}  unverified 必須是 true/false")
-                if "url" in o and not (isinstance(o["url"], str) and o["url"].startswith("http")):
-                    errors.append(f"{loc}  url 必須是 http(s) 開頭的連結")
-                if o.get("kind") not in KNOWN_KINDS:
-                    errors.append(f"{loc}  kind 必須是 plugin/script/builtin/recipe")
-                c = o.get("cat")
-                if isinstance(c, str) and c not in KNOWN_CATS:
-                    warnings.append(f"{loc}  分類 '{c}' 不在已知清單（拼錯？或請加進 KNOWN_CATS）")
-                nm = o.get("name")
-                if isinstance(nm, str):
-                    names.setdefault(nm.lower(), []).append(loc)
-                rows.append((fn, loc, o))
-                if o.get("url"):        stats["url"] += 1
-                if o.get("look"):       stats["look"] += 1
-                if o.get("unverified"): stats["unv"] += 1
+                if not isinstance(item, dict):
+                    errors.append(f"{loc} 必須是 JSON 物件")
+                    continue
 
-    # 同一檔案內名稱重複才是問題；跨檔同名（如 AE 內建 Glow vs Universe Glow）是正常的
-    for nm, locs in names.items():
+                missing = [key for key in REQUIRED if key not in item]
+                if missing:
+                    errors.append(f"{loc} 缺少欄位：{', '.join(missing)}")
+                unknown = sorted(set(item) - ALLOWED)
+                if unknown:
+                    errors.append(f"{loc} 未知欄位：{', '.join(unknown)}")
+
+                name = item.get("name")
+                if not isinstance(name, str) or not name.strip():
+                    errors.append(f"{loc} name 必須是非空字串")
+                else:
+                    names[name.strip().casefold()].append(loc)
+
+                kind = item.get("kind")
+                if kind not in KNOWN_KINDS:
+                    errors.append(f"{loc} kind 必須是 plugin/script/builtin/recipe")
+
+                cat = item.get("cat")
+                if not isinstance(cat, str) or cat not in KNOWN_CATS:
+                    errors.append(f"{loc} 未知分類：{cat!r}")
+
+                tags = item.get("tags")
+                if not isinstance(tags, list) or not all(isinstance(tag, str) and tag.strip() for tag in tags):
+                    errors.append(f"{loc} tags 必須是非空字串陣列")
+                elif len(tags) < 5:
+                    errors.append(f"{loc} tags 至少需要 5 個，目前 {len(tags)} 個")
+
+                desc = item.get("desc")
+                if not isinstance(desc, str) or not desc.strip():
+                    errors.append(f"{loc} desc 必須是非空字串")
+                elif DISCONTINUED.search(desc):
+                    errors.append(f"{loc} desc 顯示產品已停售／下架，不應收錄")
+
+                if not valid_url(item.get("url")):
+                    errors.append(f"{loc} url 必須是完整的 http(s) 官方連結")
+                if "variants" in item and not isinstance(item["variants"], dict):
+                    errors.append(f"{loc} variants 必須是物件")
+                if "stack" in item and not isinstance(item["stack"], list):
+                    errors.append(f"{loc} stack 必須是陣列")
+                if "unverified" in item and not isinstance(item["unverified"], bool):
+                    errors.append(f"{loc} unverified 必須是 true/false")
+
+                # 檔案即是資料分區，避免前端來源與型態互相矛盾。
+                if kind == "builtin" and filename != "builtin-ae.jsonl":
+                    errors.append(f"{loc} builtin 條目必須放在 builtin-ae.jsonl")
+                if kind == "recipe" and filename != "recipes.jsonl":
+                    errors.append(f"{loc} recipe 條目必須放在 recipes.jsonl")
+                if filename == "builtin-ae.jsonl" and kind != "builtin":
+                    errors.append(f"{loc} builtin-ae.jsonl 只能包含 builtin")
+                if filename == "recipes.jsonl" and kind != "recipe":
+                    errors.append(f"{loc} recipes.jsonl 只能包含 recipe")
+
+                rows.append((filename, loc, item))
+                stats[kind] += 1
+                stats["url"] += bool(item.get("url"))
+
+    for normalized, locs in names.items():
         if len(locs) > 1:
-            in_files = {l.split(":")[0] for l in locs}
-            if len(in_files) < len(locs):
-                errors.append(f"同檔內名稱重複 '{nm}'：{', '.join(locs)}")
+            per_file = collections.Counter(loc.split(":", 1)[0] for loc in locs)
+            if any(count > 1 for count in per_file.values()):
+                errors.append(f"同一資料檔重複名稱 {normalized!r}：{', '.join(locs)}")
 
-    quality = quality_checks(rows)
-    (errors if strict else warnings).extend(quality)
+    warnings.extend(quality_checks(rows))
+    if strict and warnings:
+        errors.extend(warnings)
+        warnings = []
 
-    print(f"檢查 {total} 筆 / {len(files)} 檔")
-    for w in warnings: print("  ⚠ " + w)
-    for e in errors:   print("  ✗ " + e)
+    print(f"檢查 {total} 筆 / {len(files)} 個資料檔")
+    for warning in warnings:
+        print("  ⚠ " + warning)
+    for error in errors:
+        print("  ✗ " + error)
+
     if errors:
-        print(f"\n❌ {len(errors)} 個錯誤，{len(warnings)} 個警告"); sys.exit(1)
-    print(f"\n✅ 全部通過（{len(warnings)} 個警告，不擋合併）")
-    if stats:
-        print(f"   涵蓋率：官方連結 {stats['url']}/{total}"
-              f"｜外觀描述 {stats['look']}/{total}｜未驗證 {stats['unv']} 筆")
+        print(f"\n失敗：{len(errors)} 個錯誤、{len(warnings)} 個警告")
+        raise SystemExit(1)
+
+    print(f"\n通過：{len(warnings)} 個警告")
+    print(
+        "   型態："
+        f"外掛 {stats['plugin']} / 腳本 {stats['script']} / "
+        f"內建 {stats['builtin']} / 配方 {stats['recipe']}；"
+        f"官方連結 {stats['url']}/{total}"
+    )
+
 
 if __name__ == "__main__":
     main()

@@ -9,13 +9,13 @@
 **想用「貼參考圖」找效果？** 在搜尋頁按一下 **🤖 用 AI 找 / 貼圖找**，複製那段提示詞貼進
 ChatGPT / Claude / Gemini 就能用——不用安裝任何東西。提示詞也放在 **[PROMPT.md](PROMPT.md)**。
 
-> 740 筆條目，涵蓋約 1090+ 個特效（同族變體收合），資料於 2026-07 整理自各廠商官方最新清單，並比對本機 AE 2026 實裝外掛補齊。
+> **2,498 筆**經策展條目，涵蓋外掛、腳本、AE 內建效果與效果配方；每筆都有已查證的官方連結與至少 5 個中英搜尋標籤。
 
 ## 四種用法
 
 ### 1. 網頁（最萬用）
 **線上直接用（推薦）：https://xup61069.github.io/ae-effects-db/**
-即時搜尋、中英皆可、分類/來源篩選、關鍵字高亮，手機也能開。
+即時搜尋、中英皆可、分類／來源／型態篩選、關鍵字高亮，手機也能開。預設的「精選熱門」是人工精選、來源權重與資料檔順序組成的策展排序，不代表下載量。
 
 想在本機跑：因瀏覽器安全限制不能直接雙擊 `file://`，要經 HTTP 開啟：
 > ```bash
@@ -26,7 +26,7 @@ ChatGPT / Claude / Gemini 就能用——不用安裝任何東西。提示詞也
 ### 2. 命令列
 ```bash
 python search.py 發光              # 中文
-python search.py neon glow         # 英文多關鍵字(OR)
+python search.py neon glow         # 英文多關鍵字（預設 AND；無結果才退回 OR）
 python search.py --cat transition 甩鏡
 python search.py --suite sapphire glow
 python search.py --list-cats       # 看所有分類
@@ -37,9 +37,9 @@ python search.py --list-cats       # 看所有分類
 之後你就能**直接貼參考圖**問「這是什麼效果」，或描述一整個畫面感讓它拆解。
 搜尋頁上的 🤖 按鈕可以一鍵複製那段提示詞。
 
-### 4. Claude Code `/find-effect`
+### 4. Codex / Claude Code `/find-effect`
 在本專案裡直接說「找 XX 效果」或**貼一張參考圖**，skill 會分析畫面特徵→比對資料庫→給推薦與參數方向，還能透過 AE MCP 直接套用。
-skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用的話複製到你的 `.claude/skills/`，並把裡面的資料路徑改成你放 `data/` 的位置）。
+skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（安裝後請把資料路徑改成你放 `data/` 的位置）。
 
 ## 資料涵蓋
 
@@ -47,18 +47,18 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 |---|---|---|
 | `data/red-giant.jsonl` | Trapcode / Magic Bullet / VFX Suite | Maxon (Red Giant) |
 | `data/universe.jsonl` | Universe 全部工具 | Maxon (Red Giant) |
-| `data/sapphire.jsonl` | Sapphire 約 270 效果 | Boris FX |
-| `data/continuum.jsonl` | Continuum (BCC/BCC+) 約 330 效果 | Boris FX |
+| `data/sapphire.jsonl` | Sapphire 301 個效果 | Boris FX |
+| `data/continuum.jsonl` | Continuum (BCC/BCC+) 345 個效果 | Boris FX |
 | `data/builtin-ae.jsonl` | **AE 內建效果**（沒買外掛也搜得到） | Adobe |
 | `data/aescripts.jsonl` | **aescripts.com 熱門工具**（Deep Glow / Overlord / RubberHose / Motion / Plexus / Stardust / Beauty Box…） | aescripts+aeplugins 各作者 |
 | `data/third-party.jsonl` | 其他第三方（Video Copilot / RE:Vision / Neat Video / Mocha…） | 各家 |
-| `data/installed.jsonl` | **未驗證**：掃描本機 AE 實裝、官方清單沒收錄的（Topaz / VC Orb / Gaussian Splatting / Physarum / Soft Body / VR 沉浸式…）。其中查無官方說明、純用檔名推測的會標 ⚠ | 各家 |
+| `data/installed.jsonl` | 從本機 AE 實裝補出的工具，已逐筆回到官方頁查證 | 各家 |
 | `data/recipes.jsonl` | **配方庫**：一個「畫面感」對應要疊哪些效果 | 整理 |
 
 ## 資料格式（JSONL，一行一筆）
 
 ```json
-{"name":"S_Glow","suite":"Sapphire","kind":"plugin","cat":"glow","tags":["glow","bloom","發光","輝光"],"desc":"經典柔和輝光"}
+{"name":"S_Glow","suite":"Sapphire","kind":"plugin","cat":"glow","tags":["glow","bloom","發光","輝光","光暈"],"desc":"讓亮部自然向外溢光，適合霓虹、標題與高光強化。","url":"https://borisfx.com/documentation/sapphire/ae/glow/"}
 ```
 
 | 欄位 | 說明 |
@@ -66,11 +66,12 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 | `name` | 效果名（Sapphire 前綴 `S_`、Continuum 前綴 `BCC`/`BCC+`） |
 | `kind` | 型態：`plugin` 外掛／效果、`script` 腳本／面板、`builtin` AE 內建、`recipe` 效果配方 |
 | `cat` | 分類（glow/light/flare/particles/stylize/film/color/blur/warp/keying/tracking/restore/time/transition/text/generate/3d/recipe…） |
-| `tags` | **中英混合關鍵字——搜尋主要靠這欄** |
+| `tags` | **至少 5 個中英混合關鍵字——搜尋主要靠這欄** |
 | `desc` | 一句話中文說明 |
 | `variants` | (可選) 同族變體 `{名稱:簡註}`，例如 30 種 `S_Dissolve` 收在一行 |
 | `stack` / `builtin` | (配方專用) 要疊的效果清單，及純內建替代做法 |
 | `suite` / `vendor` | (可選) 套件 / 廠商 |
+| `url` | 已實際確認存在的官方產品頁，必填 |
 
 ## 搜尋為什麼有效（不需要向量資料庫）
 
@@ -95,6 +96,7 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 python validate.py              # 校驗全部資料（送 PR 時 CI 也會跑）
 python tools/find_new.py --desc # 列出 aescripts 上還沒收錄的候選＋官方說明
 python tools/add.py new.jsonl   # 安全匯入：自動判重、檢查欄位、選對資料檔
+python tools/audit.py           # 盤點型態、分類、官方網域與品質風險
 python tools/classify_kind.py   # 回填／重算工具型態
 python tools/organize_data.py   # 把 AE 內建與效果配方搬回正確資料檔
 ```
@@ -109,7 +111,7 @@ python tools/organize_data.py   # 把 AE 內建與效果配方搬回正確資料
 - aescripts 熱門/新品 · https://aescripts.com/?tab=viewed
 
 ## 關於
-本資料庫由 **Kadid**（[@xup61069](https://github.com/xup61069)）與 **Claude**（Anthropic）共同整理維護。
+本資料庫由 **Kadid**（[@xup61069](https://github.com/xup61069)）、**Codex**（OpenAI）與 **Claude**（Anthropic）共同整理維護。
 資料來自各廠商官方頁面逐筆查證，繁體中文說明與中英搜尋標籤為人工＋AI 協作編寫。
 
 歡迎一起補充 → [CONTRIBUTING.md](CONTRIBUTING.md)

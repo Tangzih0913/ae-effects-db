@@ -789,3 +789,44 @@ varitext-for-cinema-4d	官方相容性僅列 Cinema 4D，是可變字體樣條�
 voxferry	官方產品定位為 ElevenLabs in Premiere，僅供 Premiere Pro 的 AI 配音／變聲流程，並非 After Effects 工具
 waveloq-photoshop-plugin	官方相容性僅列 Photoshop 2023–2026，是 Photoshop UXP CRT／Circuit Bent 故障效果外掛
 wrap-it-for-ofx	這是 Resolve、Autodesk Flame 等 OFX 宿主版本，並非 After Effects 版本；AE 版另有獨立產品頁
+animation-composer	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+rendergarden	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+type-anarchy	官方產品頁已不可查，無法驗證目前功能與 AE 相容性
+colorlibrary	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+copy-pasta	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+copy-paste-mattes	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+corner-cutters	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+stylarender	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+sunny-day	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+tickler	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+tidyup	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+timespan	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+tiny-tools	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+todo-lite	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+toy-bricks	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+transfusion	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+variable-diffusion	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+wq-pro	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+yuvsoft-color-corrector	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+yuvsoft-depth-from-stereo-lite	官方頁或條目說明已標示停售／下架，不收錄 discontinued 產品
+ae-pixel-sorter-2	舊版且功能已由資料庫中的 Pixel Sorter 4 取代，不重複收錄
+aod-技術生成套件	屬未列出個別工具的套裝包，且沒有可核實的官方功能頁
+p_textmask	查無官方產品頁，無法驗證功能與目前 AE 相容性
+circle-align	官方相容性只列到 AE CC 2019，且僅做圓形排列，與既有排列／表達式工具高度重複
+aurum	官方商品頁明示已停售；即使功能完整，仍不符合現行收錄標準
+save-comp-as-project	官方商品頁明示已停售，且官方已建議改用 AEVIEWER Pro
+screen-equalizer	官方商品頁明示已停售，不再收錄無現行支援的舊版綠幕校正工具
+shape-elements-pack-for-animation-composer	純形狀元素包，且獨立商品已停售並改納入訂閱
+shape-transitions-for-animation-composer	純轉場預設包，且獨立商品已停售
+shape-up	官方商品頁明示已停售，不再收錄無現行支援的舊腳本
+shapes-and-masks	官方商品頁明示已停售，不再收錄無現行支援的舊腳本
+shotviz	官方商品頁明示已停售，不再收錄無現行支援的 metadata 工具
+skybox-360-post-fx	官方商品頁明示已停售，功能亦已整合進 Adobe 內建工具
+slim-expression-controls	官方商品頁明示停止販售，官方已建議改用 Pseudo Effect Maker
+smart-baker	官方商品頁明示停止販售，且相容性只到早期 AE 版本
+social-beam	官方商品頁明示停止販售，且發布流程已不支援現行 Stories／Reels
+spill-slayer	官方商品頁明示停止販售，不再收錄無現行支援的舊版去溢色工具
+squall	官方商品頁明示停止販售，不再收錄無現行支援的舊版程式碼輸出工具
+yuvsoft-geometry-corrector	官方商品頁明示已停售，且只支援 Windows 7／AE CC 2014 時代環境
+yuvsoft-parallax-corrector-lite	官方商品頁明示已停售，且只支援 Windows 7／AE CC 2014 時代環境
+yuvsoft-stereo-processing-suite-lite	已停售的套裝包，且只支援 Windows 7／AE CC 2014 時代環境

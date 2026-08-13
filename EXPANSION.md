@@ -64,9 +64,9 @@ https://xup61069.github.io/ae-effects-db/ 搜新加的關鍵字（若看到舊�
 - [ ] Rowbyte、Superluminal、Digital Anarchy、RE:Vision 的其他產品線
 - [ ] Video Copilot 全產品線複查
 - [ ] Boris FX Sapphire / Continuum 新版新增的效果（每年更新）
-- [ ] `data/installed.jsonl` 中剩下 20 筆 `unverified` 的查證（查到官方頁就補 `url`、改寫 `desc`、移除 `unverified`）
+- [x] `data/installed.jsonl` 的 `unverified` 條目已完成查證或依規則移除（2026-08）
 - [ ] `data/builtin-ae.jsonl` 若有 AE 新版新增效果，補進來
 
 ## 目前規模
 
-執行 `python validate.py` 會印出即時統計（總筆數、官方連結涵蓋率、未驗證筆數）。
+執行 `python validate.py --strict` 會印出即時統計；`python tools/audit.py` 另列資料檔、型態、分類、官方網域與品質風險。

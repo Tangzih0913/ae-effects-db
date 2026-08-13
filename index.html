@@ -27,9 +27,14 @@
   h1{margin:0 0 2px;font-size:18px;letter-spacing:.5px}
   .sub{color:var(--muted);font-size:12.5px}
   .wrap{max-width:920px;margin:0 auto;padding:0 18px}
-  #q{width:100%;margin-top:12px;padding:13px 15px;font-size:16px;border-radius:12px;border:1px solid var(--border);
+  .searchbox{position:relative;margin-top:12px}
+  #q{width:100%;padding:13px 44px 13px 15px;font-size:16px;border-radius:12px;border:1px solid var(--border);
      background:var(--panel);color:var(--text);outline:none}
   #q:focus{border-color:var(--accent)}
+  #clearQ{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:34px;height:34px;border:0;
+    border-radius:9px;background:transparent;color:var(--muted);font-size:18px;cursor:pointer}
+  #clearQ:hover{color:var(--text);background:var(--panel2)}
+  #clearQ[hidden]{display:none}
   .filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
   .filters select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:9px;padding:7px 9px;font-size:13px}
   .filters button{background:var(--panel);color:var(--accent);border:1px solid var(--border);border-radius:9px;
@@ -48,10 +53,10 @@
   .catpanel[hidden]{display:none}   /* 必要：class 的 display:flex 會蓋過 [hidden] 的 display:none */
   .actbar{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
   .actbar:empty{display:none;margin-top:0}
-  .actbar .a{font-size:12px;background:var(--accent);color:#fff;border-radius:20px;padding:3px 9px;
+  .actbar .a{font:inherit;font-size:12px;background:var(--accent);color:#fff;border:0;border-radius:20px;padding:3px 9px;
     cursor:pointer;user-select:none}
   .actbar .a .x{margin-left:6px;opacity:.85}
-  .actbar .allclr{font-size:12px;color:var(--muted);background:transparent;border:1px dashed var(--border);
+  .actbar .allclr{font:inherit;font-size:12px;color:var(--muted);background:transparent;border:1px dashed var(--border);
     border-radius:20px;padding:3px 9px;cursor:pointer}
   .catpanel .c{font-size:12.5px;border:1px solid var(--border);background:var(--panel2);color:var(--text);
     border-radius:20px;padding:4px 11px;cursor:pointer;user-select:none;white-space:nowrap}
@@ -61,9 +66,12 @@
   .catpanel .c.on .n{color:rgba(255,255,255,.8)}
   .catpanel .clr{color:var(--accent);border-style:dashed}
   .filters button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   .hint{color:var(--muted);font-size:12px;margin-top:8px}
   .hint b{color:var(--accent);cursor:pointer;font-weight:600}
   #count{color:var(--muted);font-size:12.5px;margin:14px 0 4px}
+  .summary{display:inline-flex;flex-wrap:wrap;gap:5px;margin-left:7px}
+  .summary i{font-style:normal;border:1px solid var(--border);border-radius:20px;padding:1px 7px}
   .card{background:var(--panel);border:1px solid var(--border);border-left-width:4px;border-radius:12px;padding:13px 15px;margin:9px 0}
   .card.kind-plugin{background:var(--plugin-bg);border-color:var(--plugin-border)}
   .card.kind-script{background:var(--script-bg);border-color:var(--script-border)}
@@ -95,36 +103,54 @@
   .variants{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
   .variants span{font-size:11.5px;background:var(--panel2);border:1px solid var(--border);border-radius:7px;padding:2px 7px;color:var(--muted)}
   .tags{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
-  .tags span{font-size:11px;color:var(--muted);background:var(--chip);border-radius:6px;padding:1px 7px;cursor:pointer}
-  .tags span:hover{color:var(--accent)}
+  .tags button{font:inherit;font-size:11px;color:var(--muted);background:var(--chip);border:0;border-radius:6px;padding:1px 7px;cursor:pointer}
+  .tags button:hover{color:var(--accent)}
   mark{background:transparent;color:var(--accent2);font-weight:700}
   footer{color:var(--muted);font-size:12px;text-align:center;padding:26px 0 40px}
   footer a{color:var(--accent)}
   .empty{color:var(--muted);text-align:center;padding:40px 0}
   .lnk{color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+  .more{display:block;margin:18px auto 4px;padding:9px 18px;border:1px solid var(--border);border-radius:10px;
+    background:var(--panel);color:var(--accent);font:inherit;cursor:pointer}
+  .more:hover{border-color:var(--accent)}
+  @media (max-width:640px){
+    header{position:static;padding:12px 0}
+    .wrap{padding:0 12px}
+    .filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+    .filters .dd,.filters .dd>button,.filters select{width:100%}
+    .aibtn{grid-column:1/-1;margin-left:0}
+    .catpanel{max-width:calc(100vw - 24px)}
+    .kindlegend{gap:5px 9px}
+    .card{padding:12px;margin:8px 0}
+    .src{width:100%;margin-left:0}
+    .summary{display:flex;margin:5px 0 0}
+  }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
     <h1>🎬 AE 特效資料庫</h1>
-    <div class="sub">描述你想要的畫面，找對應的 After Effects 特效 · Red Giant / Universe / Sapphire / Continuum / 內建 / 第三方</div>
-    <input id="q" placeholder="輸入描述… 例：發光、故障、老電影、甩鏡轉場、粒子、去背、慢動作" autofocus autocomplete="off">
+    <div class="sub">描述想要的畫面，從 AE 外掛、腳本、內建效果與效果配方中找工具</div>
+    <div class="searchbox">
+      <input id="q" placeholder="輸入描述… 例：發光、故障、老電影、甩鏡轉場、粒子、去背、慢動作" autofocus autocomplete="off" aria-label="搜尋 AE 特效">
+      <button id="clearQ" type="button" title="清除搜尋" aria-label="清除搜尋" hidden>×</button>
+    </div>
     <div class="filters">
       <span class="dd">
-        <button id="catBtn" type="button" title="可複選分類">分類 ▾</button>
+        <button id="catBtn" type="button" title="可複選分類" aria-expanded="false">分類 ▾</button>
         <div id="catPanel" class="catpanel" hidden></div>
       </span>
       <span class="dd">
-        <button id="srcBtn" type="button" title="可複選來源">來源 ▾</button>
+        <button id="srcBtn" type="button" title="可複選來源" aria-expanded="false">來源 ▾</button>
         <div id="srcPanel" class="catpanel" hidden></div>
       </span>
       <span class="dd">
-        <button id="kindBtn" type="button" title="可複選工具型態">型態 ▾</button>
+        <button id="kindBtn" type="button" title="可複選工具型態" aria-expanded="false">型態 ▾</button>
         <div id="kindPanel" class="catpanel" hidden></div>
       </span>
       <select id="sort" title="排序方式">
-        <option value="popular" selected>排序：熱門度</option>
+        <option value="popular" selected>排序：精選熱門</option>
         <option value="relevance">排序：相關度</option>
         <option value="name">排序：名稱 A–Z</option>
         <option value="source">排序：來源</option>
@@ -150,11 +176,11 @@
   </div>
 </header>
 <div class="wrap">
-  <div id="count"></div>
+  <div id="count" aria-live="polite"></div>
   <div id="results"></div>
 </div>
 <footer>
-  <div>共 <span id="total">…</span> 筆 · 點效果名稱可開官方頁 · 搭配 Claude Code <code>/find-effect</code> 可「貼圖」搜尋</div>
+  <div>共 <span id="total">…</span> 筆 · 點名稱開官方頁 · 搭配 Codex / Claude Code 的 <code>/find-effect</code> 可「貼圖」搜尋</div>
   <div style="margin-top:10px">
     找不到某個外掛？歡迎補充 →
     <a href="https://github.com/xup61069/ae-effects-db/issues/new?template=add-effect.yml" target="_blank" rel="noopener">回報缺少的特效</a> ·
@@ -167,7 +193,7 @@
 const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","installed","recipes"];
 const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sapphire",
   "continuum":"Continuum","builtin-ae":"AE 內建","aescripts":"aescripts","third-party":"第三方",
-  "installed":"未驗證","recipes":"配方"};
+  "installed":"本機補充","recipes":"配方"};
 const KIND_LABEL = {plugin:"外掛／效果",script:"腳本／面板",builtin:"AE 內建",recipe:"效果配方"};
 const CAT_LABEL = {
   glow:"發光", "blur-glow":"模糊／發光", light:"光線", flare:"鏡頭光暈", particles:"粒子",
@@ -181,22 +207,31 @@ const CAT_LABEL = {
   vr:"VR／360", recipe:"效果配方"
 };
 let DATA = [];
+let LOAD_ERRORS = [];
+let visibleLimit = 60;
 
-function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 
 async function boot(){
+  LOAD_ERRORS = [];
   const all = await Promise.all(FILES.map(async f=>{
     try{
-      const t = await (await fetch("data/"+f+".jsonl")).text();
+      const response = await fetch("data/"+f+".jsonl");
+      if(!response.ok) throw new Error(`HTTP ${response.status}`);
+      const t = await response.text();
       return t.split("\n").filter(l=>l.trim()).map((l,i)=>{
         try{const o=JSON.parse(l);o._src=f;o._rank=i;return o;}catch(e){return null;}
       }).filter(Boolean);
-    }catch(e){return [];}
+    }catch(e){LOAD_ERRORS.push(`${f}: ${e.message}`);return [];}
   }));
   DATA = all.flat();
   document.getElementById("total").textContent = DATA.length;
   // build filters
   catFilter.build(); srcFilter.build(); kindFilter.build();
+  restoreState();
+  if(LOAD_ERRORS.length){
+    document.getElementById("aiMsg").textContent=`⚠ 有 ${LOAD_ERRORS.length} 個資料檔載入失敗：${LOAD_ERRORS.join("、")}`;
+  }
   render();
 }
 
@@ -213,8 +248,8 @@ function makeFilter({btnId, panelId, label, keyOf, labelOf, sortByCount}){
     keys.sort(sortByCount ? (a,b)=>counts[b]-counts[a]||a.localeCompare(b)
                           : (a,b)=>FILES.indexOf(a)-FILES.indexOf(b));   // 來源維持原本的排列順序
     panel().innerHTML =
-      `<span class="c clr" data-clear="1">✕ 清除</span>` +
-      keys.map(k=>`<span class="c" data-k="${esc(k)}">${esc(labelOf(k))}<span class="n">${counts[k]}</span></span>`).join("");
+      `<button type="button" class="c clr" data-clear="1">✕ 清除</button>` +
+      keys.map(k=>`<button type="button" class="c" data-k="${esc(k)}" aria-pressed="false">${esc(labelOf(k))}<span class="n">${counts[k]}</span></button>`).join("");
     panel().addEventListener("click", e=>{
       const el = e.target.closest(".c");
       if(!el) return;
@@ -227,11 +262,14 @@ function makeFilter({btnId, panelId, label, keyOf, labelOf, sortByCount}){
       const willOpen = panel().hidden;
       closeAllPanels();                    // 一次只開一個
       panel().hidden = !willOpen;
+      btn().setAttribute("aria-expanded", String(willOpen));
     });
     panel().addEventListener("click", e=>e.stopPropagation());
   }
   function sync(){
-    panel().querySelectorAll(".c[data-k]").forEach(el=>el.classList.toggle("on", sel.has(el.dataset.k)));
+    panel().querySelectorAll(".c[data-k]").forEach(el=>{
+      const on=sel.has(el.dataset.k); el.classList.toggle("on",on); el.setAttribute("aria-pressed",String(on));
+    });
     btn().textContent = sel.size ? `${label} (${sel.size}) ▾` : `${label} ▾`;
     btn().classList.toggle("active", sel.size>0);
   }
@@ -240,6 +278,7 @@ function makeFilter({btnId, panelId, label, keyOf, labelOf, sortByCount}){
 
 function closeAllPanels(){
   document.querySelectorAll(".catpanel").forEach(p=>p.hidden=true);
+  ["catBtn","srcBtn","kindBtn"].forEach(id=>document.getElementById(id)?.setAttribute("aria-expanded","false"));
 }
 
 // 已選條件顯示成可個別移除的標籤，收起面板也看得到目前篩選了什麼
@@ -251,8 +290,8 @@ function renderActive(){
   });
   if(!items.length){ box.innerHTML=""; return; }
   box.innerHTML = items.map((it,i)=>
-      `<span class="a" data-i="${i}">${esc(it.text)}<span class="x">✕</span></span>`).join("")
-    + `<span class="allclr" data-all="1">全部清除</span>`;
+      `<button type="button" class="a" data-i="${i}">${esc(it.text)}<span class="x">✕</span></button>`).join("")
+    + `<button type="button" class="allclr" data-all="1">全部清除</button>`;
   box.querySelectorAll("[data-i]").forEach(el=>{
     el.onclick=()=>{ const it=items[+el.dataset.i]; it.f.sel.delete(it.k); it.f.sync(); renderActive(); render(); };
   });
@@ -269,19 +308,47 @@ const kindFilter = makeFilter({btnId:"kindBtn", panelId:"kindPanel", label:"型�
   keyOf:d=>d.kind, labelOf:k=>KIND_LABEL[k]||k, sortByCount:true});
 const selCats = catFilter.sel, selSrcs = srcFilter.sel, selKinds = kindFilter.sel;
 
+function restoreState(){
+  const params=new URLSearchParams(location.search);
+  document.getElementById("q").value=params.get("q")||"";
+  [["cat",selCats],["src",selSrcs],["kind",selKinds]].forEach(([key,set])=>{
+    (params.get(key)||"").split(",").filter(Boolean).forEach(value=>set.add(value));
+  });
+  const sort=params.get("sort");
+  if(["popular","relevance","name","source"].includes(sort)) document.getElementById("sort").value=sort;
+  catFilter.sync();srcFilter.sync();kindFilter.sync();renderActive();
+}
+function syncState(){
+  const url=new URL(location.href);
+  const setParam=(key,value)=>value?url.searchParams.set(key,value):url.searchParams.delete(key);
+  setParam("q",document.getElementById("q").value.trim());
+  setParam("cat",[...selCats].join(","));setParam("src",[...selSrcs].join(","));setParam("kind",[...selKinds].join(","));
+  const sort=document.getElementById("sort").value;
+  setParam("sort",sort==="popular"?"":sort);
+  history.replaceState(null,"",url);
+}
+
 function hay(d){
   let s=[d.name,d.kind,KIND_LABEL[d.kind],d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
   if(d.variants){s.push(Object.keys(d.variants).join(" "));s.push(Object.values(d.variants).join(" "));}
   return s.join(" ").toLowerCase();
 }
-function score(d,terms){
+function parseTerms(raw){
+  const terms=[];
+  const pattern=/"([^"]+)"|'([^']+)'|(\S+)/g;
+  let match;
+  while((match=pattern.exec(raw))) terms.push((match[1]||match[2]||match[3]).toLowerCase());
+  return [...new Set(terms)];
+}
+function score(d,terms,phrase=""){
   const name=(d.name||"").toLowerCase(), tags=(d.tags||[]).join(" ").toLowerCase(), text=hay(d);
   let sc=0;
   for(const t of terms){if(!t)continue;
     if(name.includes(t))sc+=5; if(tags.includes(t))sc+=3; if(text.includes(t))sc+=1;}
+  if(phrase){if(name===phrase)sc+=40;else if(name.includes(phrase))sc+=20;if(tags.includes(phrase))sc+=10;}
   return sc;
 }
-// 明確列出跨來源最常用、最具代表性的工具；其餘沿用各資料檔的策展順序。
+// 這是人工精選與資料來源順序組成的策展排序，不是下載量或使用者追蹤數據。
 // key 加上來源，避免 Glow 之類的同名效果互相覆蓋。
 const POPULAR_KEYS = [
   "aescripts:Deep Glow 2", "third-party:Element 3D", "red-giant:Particular",
@@ -295,7 +362,7 @@ const POPULAR_KEYS = [
   "continuum:BCC Title Studio", "builtin-ae:Fractal Noise"
 ];
 POPULAR_KEYS.push(
-  "aescripts:Animation Composer 3", "aescripts:KBar 3", "aescripts:Flow",
+  "aescripts:KBar 3", "aescripts:Flow",
   "aescripts:Pixel Sorter 4", "aescripts:Newton 4", "aescripts:Joysticks 'n Sliders",
   "builtin-ae:Camera Lens Blur", "builtin-ae:Turbulent Displace", "builtin-ae:Warp Stabilizer",
   "builtin-ae:Keylight (1.2)", "builtin-ae:Lumetri Color", "builtin-ae:Curves",
@@ -331,10 +398,10 @@ function resultCmp(a,b,hasTerms){
   if(mode==="relevance" && hasTerms) return b[0]-a[0]||popularCmp(a[1],b[1]);
   return (hasTerms?b[0]-a[0]:0)||popularCmp(a[1],b[1]);
 }
-function sortedResults(pool,terms){
+function sortedResults(pool,terms,{requireAll=true,phrase=""}={}){
   const hasTerms=terms.length>0;
-  return pool.map(d=>[hasTerms?score(d,terms):0,d])
-    .filter(x=>!hasTerms||x[0]>0)
+  return pool.map(d=>[hasTerms?score(d,terms,phrase):0,d])
+    .filter(x=>!hasTerms||(requireAll?terms.every(t=>hay(x[1]).includes(t)):x[0]>0))
     .sort((a,b)=>resultCmp(a,b,hasTerms)).map(x=>x[1]);
 }
 function hl(txt,terms){
@@ -360,31 +427,43 @@ function segment(terms){
   return [...new Set(out)];
 }
 
-function render(){
+function render(preserveLimit=false){
+  if(!preserveLimit) visibleLimit=60;
   const raw=document.getElementById("q").value.trim().toLowerCase();
-  const terms=raw.split(/\s+/).filter(Boolean);
+  const terms=parseTerms(raw);
+  const phrase=terms.join(" ");
   let pool=DATA;
   if(selCats.size)pool=pool.filter(d=>selCats.has(d.cat));
   if(selSrcs.size)pool=pool.filter(d=>selSrcs.has(d._src));
   if(selKinds.size)pool=pool.filter(d=>selKinds.has(d.kind));
-  let list, segNote="";
+  let list, searchNote="", highlightTerms=[...terms];
   if(terms.length){
-    list=sortedResults(pool,terms);
+    list=sortedResults(pool,terms,{requireAll:true,phrase});
     if(!list.length){
-      const segs=segment(terms);
-      if(segs.length){
-        list=sortedResults(pool,segs);
-        if(list.length){ segNote=`（找不到「${esc(raw)}」，已自動拆詞：${segs.map(esc).join("、")}）`; window.__segTerms=segs; }
+      if(terms.length>1){
+        list=sortedResults(pool,terms,{requireAll:false,phrase});
+        if(list.length) searchNote=`沒有同時符合全部關鍵字，改顯示符合任一關鍵字`;
       }
-    }else{ window.__segTerms=null; }
+      if(!list.length){
+        const segs=segment(terms);
+        if(segs.length){
+          list=sortedResults(pool,segs,{requireAll:false});
+          if(list.length){searchNote=`找不到「${esc(raw)}」，已自動拆詞：${segs.map(esc).join("、")}`;highlightTerms.push(...segs);}
+        }
+      }
+    }
   }else{
     list=sortedResults(pool,[]);
-    window.__segTerms=null;
   }
-  if(segNote) terms.push(...window.__segTerms);
+  const kindCounts=list.reduce((counts,d)=>{counts[d.kind]=(counts[d.kind]||0)+1;return counts;},{});
+  const summary=Object.entries(kindCounts).map(([kind,n])=>`<i>${esc(KIND_LABEL[kind]||kind)} ${n}</i>`).join("");
+  const popularNote=!raw&&document.getElementById("sort").value==="popular"
+    ? ` <span title="由人工精選清單、來源權重與資料檔策展順序組成；不是下載量統計">· 精選熱門為策展排序 ⓘ</span>`:"";
   document.getElementById("count").innerHTML =
-    (raw||selCats.size||selSrcs.size||selKinds.size)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
-                     : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
+    ((raw||selCats.size||selSrcs.size||selKinds.size)? `${list.length} 筆結果`:`瀏覽全部 ${list.length} 筆`) +
+    (searchNote?` <span>· ${searchNote}</span>`:popularNote) + `<span class="summary">${summary}</span>`;
+  syncState();
+  document.getElementById("clearQ").hidden=!raw;
   const box=document.getElementById("results");
   if(!list.length){
     const hasFilter = selCats.size || selSrcs.size || selKinds.size;
@@ -396,19 +475,19 @@ function render(){
       catFilter.sync(); srcFilter.sync(); kindFilter.sync(); renderActive(); render(); };
     return;
   }
-  box.innerHTML=list.slice(0,200).map(d=>{
+  box.innerHTML=list.slice(0,visibleLimit).map(d=>{
     const origin=d.suite||d.vendor||SRC_LABEL[d._src]||d._src;
     let stack="";
-    if(d.stack) stack='<ul class="stack">'+d.stack.map(s=>"<li>▸ "+hl(s,terms)+"</li>").join("")+
-      (d.builtin?'<li style="color:var(--accent)">內建替代：'+hl(d.builtin,terms)+'</li>':"")+"</ul>";
+    if(d.stack) stack='<ul class="stack">'+d.stack.map(s=>"<li>▸ "+hl(s,highlightTerms)+"</li>").join("")+
+      (d.builtin?'<li style="color:var(--accent)">內建替代：'+hl(d.builtin,highlightTerms)+'</li>':"")+"</ul>";
     let vars="";
     if(d.variants) vars='<div class="variants">'+Object.entries(d.variants).map(([k,v])=>
       "<span>"+esc(k)+" · "+esc(v)+"</span>").join("")+"</div>";
-    let tags=(d.tags||[]).slice(0,12).map(t=>`<span data-q="${esc(t)}">${esc(t)}</span>`).join("");
+    let tags=(d.tags||[]).slice(0,12).map(t=>`<button type="button" data-q="${esc(t)}">${esc(t)}</button>`).join("");
     const warn = d.unverified ? '<span class="warn">⚠ 未驗證</span>' : '';
     const nameHtml = d.url
-      ? `<a class="name namelink" href="${esc(d.url)}" target="_blank" rel="noopener" title="開啟官方頁">${hl(d.name,terms)}<span class="ext">↗</span></a>`
-      : `<span class="name">${hl(d.name,terms)}</span>`;
+      ? `<a class="name namelink" href="${esc(d.url)}" target="_blank" rel="noopener" title="開啟官方頁">${hl(d.name,highlightTerms)}<span class="ext">↗</span></a>`
+      : `<span class="name">${hl(d.name,highlightTerms)}</span>`;
     const kind=d.kind||"plugin";
     const catLabel=CAT_LABEL[d.cat] ? `${CAT_LABEL[d.cat]} · ${d.cat}` : (d.cat||"");
     return `<div class="card kind-${kind}"><div class="top">
@@ -416,9 +495,11 @@ function render(){
         <span class="kindbadge kind-${kind}">${esc(KIND_LABEL[kind]||kind)}</span>
         <span class="catbadge">${esc(catLabel)}</span>${warn}
         <span class="src">${esc(origin)}</span></div>
-      <div class="desc">${hl(d.desc||"",terms)}</div>
+      <div class="desc">${hl(d.desc||"",highlightTerms)}</div>
       ${stack}${vars}<div class="tags">${tags}</div></div>`;
-  }).join("") + (list.length>200?'<div class="empty">… 前 200 筆，縮小關鍵字看更精準結果</div>':"");
+  }).join("") + (list.length>visibleLimit
+    ? `<button id="loadMore" class="more" type="button">顯示更多（尚有 ${list.length-visibleLimit} 筆）</button>`:"");
+  document.getElementById("loadMore")?.addEventListener("click",()=>{visibleLimit+=60;render(true);});
 }
 
 // 一鍵複製 AI 提示詞：貼進任何 AI 就能用「描述或貼圖」找特效
@@ -469,8 +550,11 @@ document.getElementById("aiBtn").addEventListener("click", async ()=>{
   }
 });
 
-document.getElementById("q").addEventListener("input",render);
-document.getElementById("sort").addEventListener("change",render);
+document.getElementById("q").addEventListener("input",()=>render());
+document.getElementById("clearQ").addEventListener("click",()=>{
+  const input=document.getElementById("q");input.value="";input.focus();render();
+});
+document.getElementById("sort").addEventListener("change",()=>render());
 // 點面板以外的地方、或按 Esc，就收起篩選面板
 document.addEventListener("click", closeAllPanels);
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeAllPanels(); });
