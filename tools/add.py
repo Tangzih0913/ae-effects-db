@@ -39,6 +39,14 @@ def valid_url(value: object) -> bool:
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
+def canonical_url(value: str) -> str:
+    return value.strip().rstrip("/").casefold()
+
+
+def is_aescripts_url(value: str) -> bool:
+    return urlparse(value).netloc.casefold() in {"aescripts.com", "www.aescripts.com"}
+
+
 def guess_file(item: dict) -> str:
     url = item.get("url", "")
     suite = item.get("suite", "")
@@ -63,15 +71,20 @@ def guess_file(item: dict) -> str:
     return "third-party"
 
 
-def load_existing() -> dict[str, str]:
+def load_existing() -> tuple[dict[str, str], dict[str, str]]:
     names: dict[str, str] = {}
+    aescripts_urls: dict[str, str] = {}
     for path in glob.glob(os.path.join(DATA, "*.jsonl")):
         with open(path, encoding="utf-8") as handle:
             for line_no, raw in enumerate(handle, 1):
                 if raw.strip():
                     item = json.loads(raw)
-                    names[item["name"].strip().casefold()] = f"{os.path.basename(path)}:{line_no}"
-    return names
+                    loc = f"{os.path.basename(path)}:{line_no}"
+                    names[item["name"].strip().casefold()] = loc
+                    url = item.get("url", "")
+                    if isinstance(url, str) and is_aescripts_url(url):
+                        aescripts_urls[canonical_url(url)] = loc
+    return names, aescripts_urls
 
 
 def reorder(item: dict) -> dict:
@@ -92,7 +105,7 @@ def main() -> None:
         if args.src == "-"
         else open(args.src, encoding="utf-8-sig").read()
     )
-    existing = load_existing()
+    existing, existing_aescripts_urls = load_existing()
     buckets: dict[str, list[dict]] = {}
     added: list[str] = []
     skipped: list[str] = []
@@ -118,6 +131,11 @@ def main() -> None:
         if not isinstance(item.get("tags"), list) or len(item["tags"]) < 5:
             errors.append(f"第 {line_no} 行「{item.get('name', '?')}」至少需要 5 個 tags")
             continue
+        if not isinstance(item.get("desc"), str) or len(item["desc"].strip()) < 18:
+            errors.append(
+                f"第 {line_no} 行「{item.get('name', '?')}」desc 至少需 18 字，並說明功能與典型用途"
+            )
+            continue
         if not valid_url(item.get("url")):
             errors.append(f"第 {line_no} 行「{item.get('name', '?')}」缺少有效官方 URL")
             continue
@@ -127,9 +145,18 @@ def main() -> None:
             skipped.append(f"{item['name']}（已存在：{existing[key]}）")
             continue
 
+        normalized_url = canonical_url(item["url"])
+        if is_aescripts_url(item["url"]) and normalized_url in existing_aescripts_urls:
+            skipped.append(
+                f"{item['name']}（商品頁已存在：{existing_aescripts_urls[normalized_url]}）"
+            )
+            continue
+
         target = args.file or guess_file(item)
         buckets.setdefault(target, []).append(reorder(item))
         existing[key] = f"{target}.jsonl:new"
+        if is_aescripts_url(item["url"]):
+            existing_aescripts_urls[normalized_url] = f"{target}.jsonl:new"
         added.append(f"{item['name']} → {target}.jsonl")
 
     for message in errors:

@@ -2,9 +2,9 @@ name: validate
 
 on:
   push:
-    paths: ["data/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
+    paths: ["data/**", "index.html", "tests/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
   pull_request:
-    paths: ["data/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
+    paths: ["data/**", "index.html", "tests/**", "validate.py", "search.py", "tools/add.py", "tools/audit.py", "schema/**"]
 
 jobs:
   validate:
@@ -16,5 +16,9 @@ jobs:
           python-version: "3.12"
       - name: Validate data/*.jsonl
         run: python validate.py --strict
+      - name: Audit curated keys and duplicate products
+        run: python tools/audit.py --strict
+      - name: Run search and consistency tests
+        run: python -m unittest discover -s tests -v
       - name: Compile Python tools
-        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py
+        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py tools/build_index.py tests/test_consistency.py

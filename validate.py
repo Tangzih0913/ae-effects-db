@@ -57,6 +57,11 @@ def valid_url(value: object) -> bool:
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
+def canonical_url(value: str) -> str:
+    """Normalize cosmetic URL differences without merging distinct product pages."""
+    return value.strip().rstrip("/").casefold()
+
+
 def quality_checks(rows: list[tuple[str, str, dict]]) -> list[str]:
     warnings: list[str] = []
 
@@ -89,15 +94,17 @@ def main() -> None:
     warnings: list[str] = []
     rows: list[tuple[str, str, dict]] = []
     names: dict[str, list[str]] = collections.defaultdict(list)
+    name_urls: dict[tuple[str, str], list[str]] = collections.defaultdict(list)
+    aescripts_urls: dict[str, list[tuple[str, str]]] = collections.defaultdict(list)
     total = 0
     stats = collections.Counter()
 
-    files = sorted(glob.glob(os.path.join(DATA_DIR, "*.jsonl")))
-    if not files:
+    data_files = sorted(glob.glob(os.path.join(DATA_DIR, "*.jsonl")))
+    if not data_files:
         print("找不到 data/*.jsonl")
         raise SystemExit(1)
 
-    for path in files:
+    for path in data_files:
         filename = os.path.basename(path)
         with open(path, encoding="utf-8") as handle:
             for line_no, raw in enumerate(handle, 1):
@@ -140,15 +147,26 @@ def main() -> None:
                     errors.append(f"{loc} tags 必須是非空字串陣列")
                 elif len(tags) < 5:
                     errors.append(f"{loc} tags 至少需要 5 個，目前 {len(tags)} 個")
+                elif len({tag.strip().casefold() for tag in tags}) != len(tags):
+                    errors.append(f"{loc} tags 含有重複詞（不分大小寫）")
 
                 desc = item.get("desc")
                 if not isinstance(desc, str) or not desc.strip():
                     errors.append(f"{loc} desc 必須是非空字串")
+                elif len(desc.strip()) < 18:
+                    errors.append(f"{loc} desc 至少需 18 字，並說明功能與典型用途")
                 elif DISCONTINUED.search(desc):
                     errors.append(f"{loc} desc 顯示產品已停售／下架，不應收錄")
 
-                if not valid_url(item.get("url")):
+                url = item.get("url")
+                if not valid_url(url):
                     errors.append(f"{loc} url 必須是完整的 http(s) 官方連結")
+                elif isinstance(name, str) and name.strip():
+                    normalized_url = canonical_url(url)
+                    normalized_name = name.strip().casefold()
+                    name_urls[(normalized_name, normalized_url)].append(loc)
+                    if urlparse(normalized_url).netloc in {"aescripts.com", "www.aescripts.com"}:
+                        aescripts_urls[normalized_url].append((loc, normalized_name))
                 if "variants" in item and not isinstance(item["variants"], dict):
                     errors.append(f"{loc} variants 必須是物件")
                 if "stack" in item and not isinstance(item["stack"], list):
@@ -176,12 +194,27 @@ def main() -> None:
             if any(count > 1 for count in per_file.values()):
                 errors.append(f"同一資料檔重複名稱 {normalized!r}：{', '.join(locs)}")
 
+    for (normalized_name, normalized_url), locs in name_urls.items():
+        source_files = {loc.split(":", 1)[0] for loc in locs}
+        if len(locs) > 1 and len(source_files) > 1:
+            errors.append(
+                f"跨資料檔重複產品 {normalized_name!r}（{normalized_url}）：{', '.join(locs)}"
+            )
+
+    for normalized_url, entries in aescripts_urls.items():
+        distinct_names = {name for _, name in entries}
+        if len(distinct_names) > 1:
+            errors.append(
+                f"同一 aescripts 商品頁對應多個名稱（{normalized_url}）："
+                + ", ".join(loc for loc, _ in entries)
+            )
+
     warnings.extend(quality_checks(rows))
     if strict and warnings:
         errors.extend(warnings)
         warnings = []
 
-    print(f"檢查 {total} 筆 / {len(files)} 個資料檔")
+    print(f"檢查 {total} 筆 / {len(data_files)} 個資料檔")
     for warning in warnings:
         print("  ⚠ " + warning)
     for error in errors:
