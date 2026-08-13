@@ -39,7 +39,7 @@ class LocalizationContractTests(unittest.TestCase):
 
         color_url = "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html"
         matte_url = "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/matte-effects.html"
-        self.assertIn(color_url, mappings)
+        self.assertNotIn(color_url, mappings, "Adobe's current Japanese Color Correction page returns HTTP 404")
         self.assertNotIn(matte_url, mappings, "Adobe's current Japanese Matte Effects page returns HTTP 404")
 
     def test_adobe_categories_have_official_english_and_japanese_labels(self):

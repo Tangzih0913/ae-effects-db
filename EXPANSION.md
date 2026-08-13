@@ -35,6 +35,10 @@
 - BOOTH 第二批已掃 `After Effects`／`AfterEffects` 熱門列表首批軟體候選與 8 個官方商品頁；已決策 Texton、SHIG Project Starter、CleanLayer、All Font Changer、BaraMoji、RZNC Geometry Generator、SyncFX、BeatPad，但尚未窮盡平台。
 - Gumroad 第三批已掃 `After Effects ScriptUI animation tool`、`After Effects JSXBIN panel`、`After Effects script panel`、`After Effects workflow script jsx` 等搜尋結果與 6 個官方商品頁；已決策 CoreKit Pro 3、WordFlow、SubTitle Animator、MessCtrl、TimeOffset、Quick Wiggle，但尚未窮盡平台；
 - BOOTH 第三批已掃 `After Effects スクリプト アニメーション`、`AfterEffects ScriptUI パネル`、`After Effects用スクリプト ScriptUI` 等搜尋結果與 9 個官方商品頁；已決策 BlinkPanel、Shy Folder、RplEffect、CenterOrigin、AutoTargetUI、Japanese_manuscript_paper、baraji、Set Adjustment、Bowl Wobble，但尚未窮盡平台。
+- Payhip／獨立站第四批已檢查 After Toolkit、Pulse X、One Click Liquid Glass、SaaS Panel Kit 的官方商店或產品頁；原始 HTTP 檢查會遭 Payhip 防機器人回應 403，但已用可渲染的官方頁面核對內容，本批均因資訊不足或功能重疊略過，平台尚未窮盡。
+- Gumroad 第四批已檢查 Motion UI 官方商品頁，因通用工具組功能與既有條目高度重疊而略過，平台尚未窮盡。
+- BOOTH 第四批已掃 7 個官方商品頁；已決策 Siawase_FontShuffle、BPM同期モーションスクリプト、ColorPalette、Aulymo、moti、ShapeFit Panel、TSK_Input Expression，但尚未窮盡平台。
+- Ko-fi 第四批以 After Effects script／panel／tool 關鍵字搜尋；結果主要為素材與預設包，未找到兼具官方商品頁、明確 AE 腳本功能與差異化價值的候選，平台尚未窮盡。
 
 ## 官方來源技巧
 

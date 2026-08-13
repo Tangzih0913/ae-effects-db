@@ -611,9 +611,6 @@
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/channel-effects.html"
     },
-    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/color-correction-effects.html": {
-      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/adjust-colors/work-with-color-correction-effects/color-correction-effects.html"
-    },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/cycore-plugins.html"
     },
@@ -644,9 +641,6 @@
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"
     },
-    "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html": {
-      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/transition-effects.html"
-    },
     "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html"
     },
@@ -656,9 +650,6 @@
     "https://helpx.adobe.com/after-effects/desktop/work-with-other-applications/work-with-cinema-4d-and-cineware/c4d.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/work-with-other-applications/work-with-cinema-4d-and-cineware/c4d.html"
     },
-    "https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/compositing-in-after-effects/compositing-transparency-overview-resources.html": {
-      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/work-with-transparency-and-compositing/compositing-in-after-effects/compositing-transparency-overview-resources.html"
-    },
     "https://helpx.adobe.com/after-effects/using/3d-channel-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/3d-channel-effects.html"
     },
@@ -667,9 +658,6 @@
     },
     "https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html#camera-shake-deblur": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/blur-sharpen-effects.html#camera-shake-deblur"
-    },
-    "https://helpx.adobe.com/after-effects/using/color-correction-effects.html": {
-      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/adjust-colors/work-with-color-correction-effects/color-correction-effects.html"
     },
     "https://helpx.adobe.com/after-effects/using/detail-preserving-upscale-effect.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/detail-preserving-upscale-effect.html"
@@ -688,9 +676,6 @@
     },
     "https://helpx.adobe.com/after-effects/using/stylize-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html"
-    },
-    "https://helpx.adobe.com/after-effects/using/text-effects.html": {
-      "ja": "https://helpx.adobe.com/jp/after-effects/desktop/add-text/text-effects/text-effects.html"
     },
     "https://helpx.adobe.com/after-effects/using/utility-effects.html": {
       "ja": "https://helpx.adobe.com/jp/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/utility-effects.html"

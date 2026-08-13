@@ -882,3 +882,12 @@ gumroad-messctrl	MessCtrl 的鍵盤命令列、效果搜尋與工具啟動核心
 gumroad-quickwiggle	Quick Wiggle 只替位置、旋轉、縮放與透明度加入基本 wiggle 運算式，功能過窄且已有大量運算式與隨機動畫工具
 booth-7763648	Japanese_manuscript_paper 僅生成單一原稿紙格線風格，使用情境過窄，且可用 AE 原生 Shape／Grid 工作流快速重建
 booth-7985661	baraji 雖能保留效果與格式拆字，但核心仍與 DecomposeText、TextExploder、Text Split and Animate 的字元／單字／行拆分重疊
+payhip-after-toolkit	After Toolkit 目前只能確認 Payhip 商店首頁的工具組概述，缺少可穩定引用的獨立產品頁與足夠功能細節，暫不建立資料列
+payhip-pulse-x	Pulse X 集中預合成、複製、裁切、建立 Null／Adjustment／Solid 與排列等常見操作，與現有多套工作流程面板高度重疊
+payhip-tmqzs	One Click Liquid Glass 的折射、位移、內光與控制層工作流已由 MB Liquid Glass 及資料庫內建 Liquid Glass 配方涵蓋
+payhip-m8ayu	SaaS Panel Kit 的多層玻璃面板、位移、邊緣光與外框建置，與既有 Liquid Glass 系統及自動 UI 面板工具重疊
+gumroad-motion-ui	Motion UI 將預設、緩動、文字、網格、形狀與合成工具集合成通用面板，各核心能力已有更專門的既有條目，暫不重複收錄
+booth-3394210	BPM 同期モーションスクリプト的節拍表達式與逐層延遲已由功能更完整的 BeatPad 涵蓋
+booth-6775944	ColorPalette 的調色盤預設與表達式連動換色已由 Ray Dynamic Color 2、ColorFlow、Pigment 與 Coco Color CoWorker 等既有工具涵蓋
+booth-6749475	TSK_Input Expression 僅提供跨圖層批次套用、刪除與保存表達式，與既有 Expression Kit 等表達式管理工具重疊且範圍較窄
+booth-8033875	moti 雖是物理碰撞工具，但名稱會與既有 aescripts MoTi 腳本產生同型態碰撞；為避免搜尋與前端識別混淆，暫不另建同名資料列
