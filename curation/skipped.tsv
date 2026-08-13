@@ -127,6 +127,7 @@ thesaucecode	ASCII 效果與已收錄的 RXXR 重複，且需匯出 PNG 序列�
 easify-pro	官方頁明示為 Premiere Pro 的曲線編輯器
 grid-composer	與已收錄的 Grid Builder／Advanced Composition Grids 功能重複
 claude-scripter	AI 腳本助手，與已收錄的 AE GPT／mirAI 重複
+clips-exporter	官方相容性僅列 Premiere Pro；功能是把 Premiere 時間軸片段逐一批次輸出，並非 After Effects 工具
 path-selection-mode	極小型單一功能腳本（路徑點點選方式）
 fractal-volume	與已收錄的 Fractal Noise 3D 同為 3D 碎形雜訊，功能重複
 colume	與已收錄的 Light Volume 同廠同類（3D 燈光渲染），功能重複
@@ -686,3 +687,105 @@ ripple-edit	產品已停產且不再販售，官方相容清單只到 After Effe
 roughcut	暫停販售且目前不相容 Premiere Pro，並非 After Effects 工具
 santas-little-credit-helper	最後更新於 2020 年，官方相容清單只到 After Effects 2020
 save-actions	功能已由同作者仍支援現代 AE、可保存更多物件類型的 Save Objects 2 完整擴充
+scatter-stuff-photoshop-extension	僅供 Photoshop 使用的擴充功能，不是 After Effects 工具
+script2sequence	僅支援 Premiere Pro，不是 After Effects 工具
+selector-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+separate-rgb	已在 third-party.jsonl 收錄 Rowbyte Separate RGB，避免以不同商品網址重複建檔
+separate-rgb-render-only	僅是 Separate RGB 的無介面算圖節點授權，不是獨立效果
+sequence-hub	僅支援 Premiere Pro，不是 After Effects 工具
+sequence-ninja	Windows 獨立桌面程式，沒有 After Effects 整合
+set-matte-texture-pack-02	已與 Pack 01 合併收錄為 Set Matte Texture Packs 01/02 variants
+sfx-studio	僅支援 Premiere Pro，不是 After Effects 工具
+shadowcast-for-davinci-resolve	僅供 DaVinci Resolve 使用，不是 After Effects 工具
+shape-shifters	Adobe 面板內的虛擬寵物遊戲，不提供特效、動畫或製作工作流功能
+shareio	僅供 Cinema 4D 使用，不是 After Effects 工具
+shhh	僅支援 Premiere Pro，不是 After Effects 工具
+shotify	僅支援 Premiere Pro，不是 After Effects 工具
+shotlist-creator-for-davinci-resolve	僅供 DaVinci Resolve 使用，不是 After Effects 工具
+silence-remover	僅支援 Premiere Pro，不是 After Effects 工具
+silica-for-davinci-resolve	僅供 DaVinci Resolve 使用，不是 After Effects 工具
+simple-mix-dctl	DaVinci Resolve 的 DCTL 工具，不是 After Effects 效果
+skybox-360-post-fx-2	已與第一套合併收錄為 SkyBox 360 Post FX 1/2 variants
+skybox-360-vr-tools-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+skybox-360-vr-transitions-pack-1-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+skybox-360-vr-transitions-pack-2-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+slash-transitions	僅供 Final Cut Pro X 使用，不是 After Effects 工具
+slice-it-up-cinema4d	僅供 Cinema 4D 使用，不是 After Effects 工具
+slice-it-up-illustrator	僅供 Illustrator 使用，不是 After Effects 工具
+slip-sync	僅供 Premiere Pro 使用，不是 After Effects 工具
+smart-adapt-annual	與 smart-adapt 為同一產品的年繳訂閱頁，已合併收錄
+smart-collect-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+smartcollect-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartcommand-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartelements-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartlib	Nuke 專用的專案與鏡頭管理系統，不是 After Effects 工具
+smartlink-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartlog-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartlook-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartmedia	雖可獨立啟動但以 Nuke 為轉檔引擎，官方相容性僅列 Nuke／NukeX
+smartmessage	僅供 Nuke／NukeX 與 Maya 使用，不是 After Effects 工具
+smartrecents	Nuke 專用的近期腳本選擇器，不是 After Effects 工具
+smartrender-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartrescue-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartscripter-for-nuke	僅供 Nuke／NukeX 使用，不是 After Effects 工具
+smartshelves	Nuke 專用的節點與 Gizmo 工具架管理器，不是 After Effects 工具
+social-exporter-premiere-pro	僅供 Premiere Pro 使用；AE 版本已另以 social-exporter 收錄
+spectra-collection-one	與 spectra 為同系列素材，已合併為 Spectra / Spectra Collection One 條目並以 variants 區分
+spiderweb-c4d	僅供 Cinema 4D 使用，不是 After Effects 工具
+spraydelic-photoshop-plugin	僅供 Photoshop 使用，不是 After Effects 工具
+squash-and-stretch-pro	與 squash-and-stretch 為同產品的 Pro 版本，已合併為 Squash & Stretch Free / Pro V2 條目並以 variants 區分
+stack-the-bend-c4d	僅供 Cinema 4D 使用，不是 After Effects 工具
+still-exporter	僅供 Premiere Pro 使用，不是 After Effects 工具
+stone-dctl	僅供 DaVinci Resolve Studio 使用的 DCTL，不是 After Effects 工具
+stop-motion-convert	僅供 Premiere Pro 使用，不是 After Effects 工具
+storyboard-maker-premiere	僅供 Premiere Pro 使用；AE 版本已另以 storyboard-maker 收錄
+stretchmatic-photoshop-extension	僅供 Photoshop 使用，不是 After Effects 工具
+strokestyler	官方產品頁已不再提供可核對的功能、平台或版本內容，暫不收錄
+styler-durden-dctl	僅供 DaVinci Resolve Studio 使用的 DCTL，不是 After Effects 工具
+submachine	字幕產生與套用功能僅供 Premiere Pro 使用；After Effects 只用於修改隨附 MOGRT，不是其執行平台
+surgeon-dctl	僅供 DaVinci Resolve 使用的 DCTL 示波器分析工具，不是 After Effects 工具
+svg2premiere	僅供 Premiere Pro 使用，不是 After Effects 工具
+swift-slides	僅供 Premiere Pro 使用，不是 After Effects 工具
+switch-camera-by-markers-c4d	僅供 Cinema 4D 使用，不是 After Effects 工具
+system-monitor-pro-for-cinema-4d	僅供 Cinema 4D 使用；AE 版本已另以 system-monitor-pro-for-after-effects 收錄
+takematpass	僅供 Cinema 4D 使用，不是 After Effects 工具
+target-4d	僅供 Cinema 4D 使用，不是 After Effects 工具
+tca-redshift-bg-and-floor	僅供 Cinema 4D／Redshift 使用，不是 After Effects 工具
+templater-bot	與 templater 為同產品家族的 Bot 版本，已合併為 Templater Rig / Pro / Bot 條目並以 variants 區分
+templater-bot-annual	Templater Bot 年繳授權銷售頁；功能已合併至 Templater Rig / Pro / Bot 條目
+templater-bot-upfront	Templater Bot upfront 授權銷售頁；功能已合併至 Templater Rig / Pro / Bot 條目
+templater-pro	與 templater 為同產品家族的 Pro 版本，已合併為 Templater Rig / Pro / Bot 條目並以 variants 區分
+templater-pro-annual	Templater Pro 年繳授權銷售頁；功能已合併至 Templater Rig / Pro / Bot 條目
+templater-pro-upfront	Templater Pro upfront 授權銷售頁；功能已合併至 Templater Rig / Pro / Bot 條目
+terrain-builder-cinema	僅供 Cinema 4D 使用，不是 After Effects 工具
+text-presets-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+text-replacer-for-premiere-pro	僅在 Premiere Pro 處理由 AE 建立的 MOGRT，不是 After Effects 工具
+textreverser	官方產品網址目前只回傳站務條款，沒有可核對的功能、作者或相容資訊；暫不收錄
+textyle-premiere	僅供 Premiere Pro 使用，不是 After Effects 工具
+the-power-of-expression	After Effects 表達式教學書／電子書，不是特效、外掛或腳本工具
+tiles-for-davinci-resolve	僅供 DaVinci Resolve Studio 使用，不是 After Effects 工具
+tp-partio	僅供 Cinema 4D R13–R15 使用的 Thinking Particles 快取外掛，且已停售；不是 After Effects 產品
+tracker-master	官方因與另一產品衝突而移除，頁面只剩 Tracks Tools、Video Clone、Corner Clone 等教學標題，無足夠功能說明可可靠建檔
+transcriptive	已停售的 Premiere Pro 專用逐字稿粗剪面板，不支援 After Effects
+transition-master-basic	與已收錄的 Transition Master 2 Basic / Pro 為同一產品的免費套用版本，合併為 variants 避免重複搜尋結果
+transition-placer	僅供 Premiere Pro 2024–2026 使用，不是 After Effects 工具
+transitions-for-premiere-composer	Premiere Composer 專用轉場素材包，不是 After Effects 工具
+transmitter-for-premiere-pro	僅供 Premiere Pro 使用，不是 After Effects 工具
+trapcode-mir	已由 red-giant.jsonl 的 Mir 條目收錄，且連結目前 Maxon 官方產品頁；不重複加入舊 aescripts 商品頁版本
+true-exif	僅供 Premiere Pro 使用的拍攝中繼資料面板，不是 After Effects 工具
+tvpixel	已由 third-party.jsonl 的 Rowbyte TVPixel 條目收錄並附官方廠商頁，不重複加入 aescripts 商品頁版本
+tvpixel-render-only	僅是既有 TVPixel 的算圖節點授權，不是另一個效果；功能已由 third-party.jsonl 的 TVPixel 條目涵蓋
+ultimate-titles	官方相容性僅列 Premiere Pro 2020–2021，屬 Premiere 標題產生器，不是 After Effects 工具
+umami	僅供 Cinema 4D R12–R23 使用的隨機參數樣條產生器，不是 After Effects 工具
+uniform-resizer-c4d	僅供 Cinema 4D R16–R21 使用的精確等比例縮放工具，不是 After Effects 工具
+uniport	僅供 Photoshop CC 2018–2023 使用的向量匯入擴充套件，不支援 After Effects
+ultimate-toolkit-for-premiere-pro	官方產品名稱與相容性均限定 Premiere Pro，並非 After Effects 工具
+unreality	官方頁面目前僅顯示 Coming Soon 與概念宣傳，尚無可核實的功能、版本或發布資訊
+unmult	資料庫已在 universe.jsonl 收錄同名 Unmult 黑底轉 Alpha 效果，避免以 aescripts 商店頁重複建檔
+unwarp-for-photoshop	官方頁面與產品名稱均限定 Photoshop，並非 After Effects 工具
+uv-colorizer	官方相容性僅列 Cinema 4D，是建立 UV islands Color ID 的 C4D Python 腳本
+vanish-bg	官方相容性僅列 Premiere Pro CC 2022+，並非 After Effects 工具
+varitext-for-cinema-4d	官方相容性僅列 Cinema 4D，是可變字體樣條生成器，並非 After Effects 工具
+voxferry	官方產品定位為 ElevenLabs in Premiere，僅供 Premiere Pro 的 AI 配音／變聲流程，並非 After Effects 工具
+waveloq-photoshop-plugin	官方相容性僅列 Photoshop 2023–2026，是 Photoshop UXP CRT／Circuit Bent 故障效果外掛
+wrap-it-for-ofx	這是 Resolve、Autodesk Flame 等 OFX 宿主版本，並非 After Effects 版本；AE 版另有獨立產品頁
