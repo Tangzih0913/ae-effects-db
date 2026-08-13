@@ -21,6 +21,7 @@ PLUGIN_ONLY_VENDORS = {"Digital Anarchy", "FxFactory", "RE:Vision Effects", "Row
 KIND_OVERRIDES = {
     "AfterCodecs": "plugin",
     "Auto Crop 3": "plugin",
+    "AutoTargetUI": "script",
     "BAO Boa": "plugin",
     "BAO Bones": "plugin",
     "BAO Joint": "plugin",
@@ -28,6 +29,7 @@ KIND_OVERRIDES = {
     "BAO Mask 3D Warper": "plugin",
     "BAO Mask Avenger 2": "plugin",
     "Blob it!": "script",
+    "Bowl Wobble": "script",
     "Change Default Easing for After Effects": "script",
     "ColorVSN": "plugin",
     "Depth Scanner 2": "plugin",

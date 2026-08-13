@@ -875,3 +875,10 @@ booth-8040283	CleanLayer 只提供批次移除所選層的 Expressions 與 Effec
 booth-8480357	All Font Changer 的目前合成與巢狀預合成字型替換已由 pt_TextEdit 2 與 Project Font Pro 的跨專案字型管理涵蓋
 booth-6759404	BaraMoji 的保留書式逐字拆層與既有 DecomposeText、Text Split and Animate 的文字分解用途高度重複
 booth-8555624	RZNC Geometry Generator 以固定魔法陣、神聖幾何、星座與 Cyber 預設組合原生 Shape，與 Circle Rig Pro、Looping Lines 等幾何生成用途重複且風格範圍過窄
+gumroad-corekitpro	CoreKit Pro 3 的錨點、對齊、裁切、色盤、預設與專案整理已由既有專用工具及綜合工作流程面板涵蓋，40 多項工具未形成足夠獨特的核心能力
+gumroad-siuajq	WordFlow 的文字拆成字元／單字／行及依序動畫，與 DecomposeText、TextExploder、Text Split and Animate 等既有項目高度重疊
+gumroad-subtitleanimator	SubTitle Animator 的 SRT 匯入與字幕進出動畫已由 motionXpart、pt_ImportSubtitles、Captioneer 與既有字幕工具涵蓋
+gumroad-messctrl	MessCtrl 的鍵盤命令列、效果搜尋與工具啟動核心已由 Quick Menu 3、Command Frame、FX Console 涵蓋，附加資產瀏覽不足以避免整體重複
+gumroad-quickwiggle	Quick Wiggle 只替位置、旋轉、縮放與透明度加入基本 wiggle 運算式，功能過窄且已有大量運算式與隨機動畫工具
+booth-7763648	Japanese_manuscript_paper 僅生成單一原稿紙格線風格，使用情境過窄，且可用 AE 原生 Shape／Grid 工作流快速重建
+booth-7985661	baraji 雖能保留效果與格式拆字，但核心仍與 DecomposeText、TextExploder、Text Split and Animate 的字元／單字／行拆分重疊
