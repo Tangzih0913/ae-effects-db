@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2511 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2515 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2414,6 +2414,10 @@ Aulymo｜第三方｜script｜animation｜批次替歌詞或文字圖層建立�
 ShapeFit Panel｜第三方｜script｜text｜把文字逐字拆分並自動配置形狀或圖片底板，可選每字獨立或整段單一背景，底板會依字元尺寸自動縮放並由主控形狀統一調整，且能還原處理前狀態，適合字幕標籤、資訊卡與動態字牌。｜https://booth.pm/ja/items/7845172
 TXT-NA Importer｜第三方｜script｜text｜從指定資料夾成批尋找互相對應的 TXT 與 WAV／MP3／M4A，將音訊匯入合成、建立文字圖層並裁到同樣長度，再把每組旁白與文字首尾相接排列，適合大量口播、解說與逐段配音影片。｜https://booth.pm/ja/items/5602851
 MojiFlex｜第三方｜script｜text｜把文字按字元或輪廓零件拆分，為各字自動建立 Null 綁定，再生成由隨機散開位置聚合回原排版的動畫；可調距離、種子、進出緩動與逐字預合成，適合歌詞、標題與拆字聚合動態。｜https://booth.pm/ja/items/8542363
+Path to Position｜第三方｜script｜animation｜把選取的 Shape Path 或 Mask Path 動畫取樣並轉換成 Position 關鍵影格，可指定要烘焙的時間區間，適合把既有路徑變形軌跡改造成可重新編輯、套用或調整速度的圖層移動動畫。｜https://booth.pm/ja/items/7798738
+SyncAudio_To_Precomp｜第三方｜script｜audio｜把父合成選取的音訊依正確時間偏移同步複製到一個或多個預合成，並以不參與算圖的 Guide Layer 放在頂部或底部；重新同步會自動覆寫，也能從選取或全部合成批次移除，適合 MV 與節奏動畫深入預合成時持續對拍。｜https://booth.pm/ja/items/7948604
+Lab_LS｜第三方｜script｜animation｜讀取 A.I.VOICE 等合成語音軟體輸出的 .lab 音素時間檔，在口型圖層加入 Time Remap、控制表達式與對應 Marker，讓預先排列的嘴型依日文音素自動切換，適合立繪、VTuber 與合成語音角色動畫。｜https://booth.pm/ja/items/7633077
+MorphMesh｜第三方｜plugin｜transition｜以 Optical Flow 自動對應兩個圖層的相似區域，沿估算流向同時扭曲並替換影像，而非只做交叉淡化；可調變形量、溶接銳度、光流細節與平滑度、邊緣固定及品質，並以多執行緒和快取改善預覽，適合人像、物件與圖像間的連續變形轉場。｜https://booth.pm/ja/items/6234376
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

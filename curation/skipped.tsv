@@ -902,3 +902,19 @@ booth-7368084	NeonBlink 只把單一霓虹外框、出現與閃爍預設套到�
 booth-6812550	Aurgan 官方 BOOTH 商品頁目前回傳 HTTP 404，且依素材類型整理專案的功能亦與 OrganizerPro 重疊
 booth-3697864	自動ループ化スクリプト只加入 Time Remap、loop 表達式並延長圖層，已由 LoopMaster、Loop Tools Pro 等循環工具涵蓋
 booth-8566324	Ascify 將靜態或動態圖層轉成 ASCII 字元畫的核心能力已由 L3tt3rM4pp3r2 與 ASCII Generator 涵蓋
+booth-7920682	MatchLayerDuration 的依首選圖層統一長度與連續排列，已由 Rift、SequenceLayers 等既有時序排列工具涵蓋
+booth-6832164	Arrange Layers 的固定間距水平／垂直排列已由 Layers2Grid、Gridder 2 與多套對齊工具涵蓋
+booth-7783900	Random Placement 的複製並隨機改變位置、縮放與旋轉，已由 Cloners + Effectors、MotionMonkey 等隨機配置工具涵蓋
+booth-7938074	SelectiveAdjustment 的指定圖層調整效果已由功能相同且已收錄的 Set Adjustment 涵蓋
+booth-7763065	レイヤー移動スクリプト只把選取圖層移到時間軸最上或最下，功能過窄且多套圖層管理工具已提供排序能力
+booth-8384799	Label & Finder Bar 的名稱搜尋、選取與標籤色設定已由 AM Select And Set、Zorro、Labion 類工具涵蓋
+booth-6668813	此 SyncFX 僅把選取屬性表達式套到多圖層，與既有 Expression Kit、SwiftShift 類批次表達式工具重疊
+booth-6804395	グリッドレイアウト官方 BOOTH 商品頁目前回傳 HTTP 404，且網格排列能力亦與 Layers2Grid、Gridder 2 重疊
+booth-5679558	Marker Tools 的複製、位移、編輯與刪除標記能力已由 Marker Maestro Pro、Marker Batch Editor、Copy Paste Markers 2 等工具涵蓋
+booth-7948212	DropFrameEXP v2 的二拍／三拍／四拍取樣與烘焙已由 Smart Posterizer、Posterize Time 與 StepTime 等既有工具涵蓋
+payhip-sh7ci	TIDY LAYERS 使用控制層、comment 與 Shy 建立疑似資料夾，與已收錄的 Shy Folder 幾乎相同
+payhip-tnvuy	Project Organizer 的素材分類、缺檔資料夾、清除未用項目與標籤統一，已由 OrganizerPro 等完整專案整理工具涵蓋
+payhip-uo18o	Binzii_FastEase 依播放頭位置調整兩個關鍵影格的緩動峰值，但資料庫已有 Flow、Kease、CurveConductor 等更完整曲線工具
+payhip-1o8i3	AM Reverse Path 只反轉選取的 Mask／Bezier Shape Path 方向，已由 ReverseMaskPath、Penpal 2 等既有路徑工具涵蓋
+booth-7923918	AudioGlide 的父合成音樂同步到預合成及批次清理，與本批功能更完整且支援多選的 SyncAudio_To_Precomp 重疊
+booth-7866112	Deckard 的預合成深層複製與來源置換已由 True Comp Duplicator、CompCode 等既有工具涵蓋
