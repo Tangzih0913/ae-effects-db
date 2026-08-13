@@ -31,6 +31,8 @@
 - Adobe 目前效果清單、RE:Vision、Video Copilot 與 Frischluft 已做過一次差異檢查，但新版仍應依官方清單重跑差異。
 - Gumroad 第一批已掃 `After Effects` 搭配 script／plugin／panel／extension／ScriptUI／JSX／AEX 的搜尋結果與 8 個官方商品頁；已決策 Island Chatter、Shy Filters、Script Launcher、Zoom、Easy Connect、EZ3D、PathPrep、FX TextFrame，但尚未窮盡平台；
 - BOOTH 第一批已掃 `After Effects スクリプト`、`AE スクリプト`、`After Effects パネル`、`ScriptUI パネル` 的搜尋結果與 6 個官方商品頁；已決策 items 7769569、7695646、2307736、2728552、6815576、5899013，但尚未窮盡平台。
+- Gumroad 第二批已掃 `After Effects ScriptUI panel`、`After Effects jsxbin workflow` 的搜尋結果與 7 個官方商品頁；已決策 ImpactFX、Grid Layers、Apex Control Pro、Keyframe Buddy、Quick Tools Pro、Visual States PRO、Dither FX PRO，但尚未窮盡平台；
+- BOOTH 第二批已掃 `After Effects`／`AfterEffects` 熱門列表首批軟體候選與 8 個官方商品頁；已決策 Texton、SHIG Project Starter、CleanLayer、All Font Changer、BaraMoji、RZNC Geometry Generator、SyncFX、BeatPad，但尚未窮盡平台。
 
 ## 官方來源技巧
 

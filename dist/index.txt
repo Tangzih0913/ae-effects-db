@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2494 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2498 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2397,6 +2397,10 @@ Zoom｜第三方｜script｜workflow｜以可停駐面板的數值、拖曳與�
 EZ3D｜第三方｜script｜3d｜把所選 2D 圖層轉為 3D、各自建立父層 Null，再沿 Z 軸錯開並補償縮放以維持原構圖，也能對齊同一深度或還原設定，適合照片分層、景深推鏡與 2.5D 場景。｜https://motionbynick.gumroad.com/l/ez3d
 Japanese-effect-search｜第三方｜script｜workflow｜以日文、英文、平假名與片假名混合搜尋並直接套用 AE 效果、預設或執行腳本、擴充功能與常用命令，另含收藏、連續套用與隱藏舊效果選項，適合日文介面和輸入法工作流程。｜https://booth.pm/ja/items/7695646
 Layer Chicken｜第三方｜script｜workflow｜替已匯入 AE 的分層 Photoshop／Illustrator 文件找回後續在原檔新增的圖層，免去重新匯入整份 PSD／AI 再刪除多餘內容，適合設計稿反覆改版與補圖層的動態製作。｜https://booth.pm/ja/items/2728552
+Dither FX PRO｜第三方｜script｜stylize｜以 JSXBIN 一鍵把選取圖層包進可重用的 AE 原生抖色結構，並保留可調控制供不同鏡頭反覆套用，適合復古遊戲、像素化音樂視覺與科技故障短片。｜https://s1lax.gumroad.com/l/DitheringBitmap
+SHIG Project Starter｜第三方｜script｜workflow｜依專案名、解析度、FPS、初始片長與色彩深度建立 MV 製作資料夾及 00_MAIN／00_RENDER 合成，並可把兩個合成、工作區和主合成圖層同步延長到 WAV 音樂長度，適合歌曲 MV 開案與統一專案結構。｜https://booth.pm/ja/items/8625638
+SyncFX｜第三方｜script｜workflow｜以第一個選取圖層為來源，把效果同步到其餘圖層並可依指定影格逐層延遲，另能批次刪除或開關效果、移除表達式及建立父層 Null，適合多物件套用一致又錯開的效果動畫。｜https://booth.pm/ja/items/4852868
+BeatPad｜第三方｜script｜animation｜集中八種 BPM 工具，以節拍同步屬性變化、配置 Marker、複製或階梯式改變關鍵影格、依拍點切割圖層並用點擊估算速度，適合音樂錄影帶、歌詞動畫與節奏剪輯。｜https://booth.pm/ja/items/7329831
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

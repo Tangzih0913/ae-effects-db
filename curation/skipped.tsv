@@ -864,3 +864,14 @@ booth-7769569	Shape to mask 只做 Shape 路徑轉 Mask，既有 MaskShapeConver
 booth-2307736	Alterna 的每隔指定數量重新選取圖層，與既有 Nth Layer Selector 的間隔選取功能相同
 booth-6815576	AE_BatchToolkit 的代理、效果、色彩空間與影格率批次管理已分別由 Layers Pro、Effect Remover Pro 與既有 AE 工作流程涵蓋，沒有足夠獨特的單一用途
 booth-5899013	ChoooooseiLayer 以 Null 把效果連到指定連續圖層範圍，與 AE Adjustment Layer 及既有 Control LMFX 的分組效果控制高度重疊，差異用途過窄
+gumroad-impactfx	單次建立衝擊鏡頭震動與既有 BCC+ Camera Shake、Universe Camera Shake、S_Shake 及多款震動工具高度重複
+gumroad-gridlayerscopy	方格、圓形與三角形排列圖層的用途已由 Layers2Grid、Gridder 2 與 Tweaks 的多種 Spreaders 涵蓋
+gumroad-jvfrb	Apex Control Pro 把 Wiggle、九點錨點、Bounce 與 Loop 表達式合成一個面板，但四項都是既有工具充分涵蓋的常見功能
+gumroad-keyframebuddy	快速選層、加入常用屬性關鍵影格與依標籤選取的用途已由 Keyframe Manager 等既有關鍵影格工具涵蓋
+gumroad-qtp3	FX Search、專案整理、預合成與錨點工具已由 Quick Menu 3、Command Frame、FX Console 及既有工作流程面板涵蓋
+gumroad-visualstates	同一個 Visual States 已從 aescripts 官方產品頁收錄，不因 Gumroad 的 PRO 販售頁重複建檔
+booth-7838882	Texton 的逐字拆層、進出場、錯開、緩動與縮放旋轉透明度動畫已由 Text Split and Animate、Text Force、DecomposeText 等條目涵蓋
+booth-8040283	CleanLayer 只提供批次移除所選層的 Expressions 與 Effects，既有 Effect Remover Pro 及多項專案清理工具功能更完整
+booth-8480357	All Font Changer 的目前合成與巢狀預合成字型替換已由 pt_TextEdit 2 與 Project Font Pro 的跨專案字型管理涵蓋
+booth-6759404	BaraMoji 的保留書式逐字拆層與既有 DecomposeText、Text Split and Animate 的文字分解用途高度重複
+booth-8555624	RZNC Geometry Generator 以固定魔法陣、神聖幾何、星座與 Cyber 預設組合原生 Shape，與 Circle Rig Pro、Looping Lines 等幾何生成用途重複且風格範圍過窄
