@@ -96,6 +96,10 @@
         <button id="srcBtn" type="button" title="可複選來源">來源 ▾</button>
         <div id="srcPanel" class="catpanel" hidden></div>
       </span>
+      <span class="dd">
+        <button id="kindBtn" type="button" title="可複選工具型態">型態 ▾</button>
+        <div id="kindPanel" class="catpanel" hidden></div>
+      </span>
       <select id="sort" title="排序方式">
         <option value="popular" selected>排序：熱門度</option>
         <option value="relevance">排序：相關度</option>
@@ -137,6 +141,7 @@ const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescr
 const SRC_LABEL = {"red-giant":"Red Giant","universe":"Universe","sapphire":"Sapphire",
   "continuum":"Continuum","builtin-ae":"AE 內建","aescripts":"aescripts","third-party":"第三方",
   "installed":"未驗證","recipes":"配方"};
+const KIND_LABEL = {plugin:"外掛／效果",script:"腳本／面板",builtin:"AE 內建",recipe:"效果配方"};
 let DATA = [];
 
 function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
@@ -153,7 +158,7 @@ async function boot(){
   DATA = all.flat();
   document.getElementById("total").textContent = DATA.length;
   // build filters
-  catFilter.build(); srcFilter.build();
+  catFilter.build(); srcFilter.build(); kindFilter.build();
   render();
 }
 
@@ -203,7 +208,7 @@ function closeAllPanels(){
 function renderActive(){
   const box=document.getElementById("activeFilters");
   const items=[];
-  [catFilter, srcFilter].forEach(f=>{
+  [catFilter, srcFilter, kindFilter].forEach(f=>{
     f.sel.forEach(k=>items.push({f,k,text:f.labelOf(k)}));
   });
   if(!items.length){ box.innerHTML=""; return; }
@@ -214,18 +219,20 @@ function renderActive(){
     el.onclick=()=>{ const it=items[+el.dataset.i]; it.f.sel.delete(it.k); it.f.sync(); renderActive(); render(); };
   });
   const all=box.querySelector("[data-all]");
-  if(all) all.onclick=()=>{ catFilter.sel.clear(); srcFilter.sel.clear();
-    catFilter.sync(); srcFilter.sync(); renderActive(); render(); };
+  if(all) all.onclick=()=>{ catFilter.sel.clear(); srcFilter.sel.clear(); kindFilter.sel.clear();
+    catFilter.sync(); srcFilter.sync(); kindFilter.sync(); renderActive(); render(); };
 }
 
 const catFilter = makeFilter({btnId:"catBtn", panelId:"catPanel", label:"分類",
   keyOf:d=>d.cat, labelOf:k=>k, sortByCount:true});
 const srcFilter = makeFilter({btnId:"srcBtn", panelId:"srcPanel", label:"來源",
   keyOf:d=>d._src, labelOf:k=>SRC_LABEL[k]||k, sortByCount:false});
-const selCats = catFilter.sel, selSrcs = srcFilter.sel;
+const kindFilter = makeFilter({btnId:"kindBtn", panelId:"kindPanel", label:"型態",
+  keyOf:d=>d.kind, labelOf:k=>KIND_LABEL[k]||k, sortByCount:true});
+const selCats = catFilter.sel, selSrcs = srcFilter.sel, selKinds = kindFilter.sel;
 
 function hay(d){
-  let s=[d.name,d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
+  let s=[d.name,d.kind,KIND_LABEL[d.kind],d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
   if(d.variants){s.push(Object.keys(d.variants).join(" "));s.push(Object.values(d.variants).join(" "));}
   return s.join(" ").toLowerCase();
 }
@@ -321,6 +328,7 @@ function render(){
   let pool=DATA;
   if(selCats.size)pool=pool.filter(d=>selCats.has(d.cat));
   if(selSrcs.size)pool=pool.filter(d=>selSrcs.has(d._src));
+  if(selKinds.size)pool=pool.filter(d=>selKinds.has(d.kind));
   let list, segNote="";
   if(terms.length){
     list=sortedResults(pool,terms);
@@ -337,17 +345,17 @@ function render(){
   }
   if(segNote) terms.push(...window.__segTerms);
   document.getElementById("count").innerHTML =
-    (raw||selCats.size||selSrcs.size)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
+    (raw||selCats.size||selSrcs.size||selKinds.size)? `${list.length} 筆結果${segNote?' <span style="color:var(--muted)">'+segNote+'</span>':''}`
                      : `瀏覽全部 ${list.length} 筆（輸入關鍵字開始搜尋）`;
   const box=document.getElementById("results");
   if(!list.length){
-    const hasFilter = selCats.size || selSrcs.size;
+    const hasFilter = selCats.size || selSrcs.size || selKinds.size;
     box.innerHTML = '<div class="empty">' + (hasFilter
       ? '這組篩選沒有結果，試著<b class="lnk" id="emptyClear">清除篩選</b>或改選其他分類／來源'
       : '找不到，換個說法試試（例：發光 / glow / 光暈 / 輝光）') + '</div>';
     const ec = document.getElementById("emptyClear");
-    if(ec) ec.onclick = ()=>{ catFilter.sel.clear(); srcFilter.sel.clear();
-      catFilter.sync(); srcFilter.sync(); renderActive(); render(); };
+    if(ec) ec.onclick = ()=>{ catFilter.sel.clear(); srcFilter.sel.clear(); kindFilter.sel.clear();
+      catFilter.sync(); srcFilter.sync(); kindFilter.sync(); renderActive(); render(); };
     return;
   }
   box.innerHTML=list.slice(0,200).map(d=>{
@@ -365,6 +373,7 @@ function render(){
       : `<span class="name">${hl(d.name,terms)}</span>`;
     return `<div class="card"><div class="top">
         ${nameHtml}
+        <span class="cat">${esc(KIND_LABEL[d.kind]||d.kind||"")}</span>
         <span class="cat">${esc(d.cat||"")}</span>${warn}
         <span class="src">${esc(origin)}</span></div>
       <div class="desc">${hl(d.desc||"",terms)}</div>

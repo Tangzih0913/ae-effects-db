@@ -20,8 +20,8 @@ except Exception:
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
-REQUIRED = ("name", "cat", "tags", "desc")
-ORDER = ["name","suite","vendor","cat","tags","desc","look","variants","stack","builtin","url","unverified","aex"]
+REQUIRED = ("name", "kind", "cat", "tags", "desc")
+ORDER = ["name","suite","vendor","kind","cat","tags","desc","look","variants","stack","builtin","url","unverified","aex"]
 
 def guess_file(o):
     u, v, s = o.get("url",""), o.get("vendor",""), o.get("suite","")

@@ -72,7 +72,7 @@ python validate.py --strict                  # 一次加很多筆時用：樣板
 
 JSONL：**一行一個 JSON 物件，不是陣列、沒有逗號結尾、UTF-8、不要美化換行**。
 
-必填 `name` `cat` `tags` `desc`；其餘選填。完整規格見 [`schema/effect.schema.json`](schema/effect.schema.json)。
+必填 `name` `kind` `cat` `tags` `desc`；其餘選填。完整規格見 [`schema/effect.schema.json`](schema/effect.schema.json)。
 
 ```json
 {"name":"S_Glow","cat":"glow","tags":["glow","bloom","發光","輝光","柔光","光暈"],"desc":"經典柔和輝光，讓亮部往外柔順發光。","look":"亮部往外柔和溢光","suite":"Sapphire"}
@@ -81,7 +81,8 @@ JSONL：**一行一個 JSON 物件，不是陣列、沒有逗號結尾、UTF-8�
 | 欄位 | 說明 |
 |---|---|
 | `name` | 效果名（Sapphire=`S_`、Continuum=`BCC`/`BCC+`；群組用「XX系列/工具組」） |
-| `cat` | 分類，小寫，見下方清單 |
+| `kind` | 工具型態：`plugin` 外掛／效果、`script` 腳本／面板、`builtin` AE 內建、`recipe` 效果配方 |
+| `cat` | 功能分類，小寫，見下方清單 |
 | `tags` | **中英混合關鍵字，至少 3 個，越多越好**。放英文名、中文名、俗名、用途、外觀 |
 | `desc` | 一句繁中：做什麼＋典型用途 |
 | `look` | (選) 畫面外觀一句 |

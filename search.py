@@ -7,6 +7,7 @@ AE 特效資料庫 - 命令列搜尋
     python search.py glow bloom          # 多關鍵字(OR)
     python search.py --cat transition 甩鏡
     python search.py --suite sapphire glow
+    python search.py --kind script 關鍵影格
     python search.py --list-cats
 無外部相依，純標準庫。搜尋 name / tags / desc / variants，中英皆可。
 """
@@ -32,7 +33,7 @@ def load():
     return rows
 
 def haystack(row):
-    parts = [row.get("name", ""), row.get("cat", ""), row.get("desc", ""),
+    parts = [row.get("name", ""), row.get("kind", ""), row.get("cat", ""), row.get("desc", ""),
              row.get("look", ""), row.get("suite", ""), row.get("vendor", ""),
              " ".join(row.get("tags", []))]
     v = row.get("variants")
@@ -79,6 +80,7 @@ def main():
     ap = argparse.ArgumentParser(add_help=True)
     ap.add_argument("terms", nargs="*", help="關鍵字(中英皆可，多個為 OR)")
     ap.add_argument("--cat", help="限定分類 (glow/transition/particles/...)")
+    ap.add_argument("--kind", choices=("plugin", "script", "builtin", "recipe"), help="限定工具型態")
     ap.add_argument("--suite", help="限定來源檔 (sapphire/continuum/universe/red-giant/builtin-ae/recipes/third-party)")
     ap.add_argument("--top", type=int, default=15, help="顯示前 N 筆 (預設15)")
     ap.add_argument("--list-cats", action="store_true", help="列出所有分類與筆數")
@@ -103,6 +105,8 @@ def main():
         pool = [r for r in pool if args.suite.lower() in r["_src"].lower()]
     if args.cat:
         pool = [r for r in pool if r.get("cat", "").lower() == args.cat.lower()]
+    if args.kind:
+        pool = [r for r in pool if r.get("kind") == args.kind]
 
     scored = [(score(r, args.terms), r) for r in pool]
     scored = [x for x in scored if x[0] > 0]
@@ -123,7 +127,7 @@ def main():
 
     for s, r in scored[:args.top]:
         origin = r.get("suite") or r.get("vendor") or r["_src"]
-        print(f"[{r.get('cat','?'):10}] {r['name']}  ({origin})")
+        print(f"[{r.get('kind','?'):7}/{r.get('cat','?'):10}] {r['name']}  ({origin})")
         print(f"            {r.get('desc','')}")
         v = r.get("variants")
         if isinstance(v, dict):

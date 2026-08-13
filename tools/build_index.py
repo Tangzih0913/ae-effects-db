@@ -44,14 +44,14 @@ def main():
 
     head = (
         "# After Effects 特效／外掛索引（繁體中文）\n"
-        f"# 共 {len(rows)} 筆　格式：名稱｜來源｜分類｜說明｜官方連結\n"
+        f"# 共 {len(rows)} 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結\n"
         "# 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl\n"
         "# 線上搜尋：https://xup61069.github.io/ae-effects-db/\n"
     )
     with open(os.path.join(DIST, "index.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write(head)
         for o in rows:
-            f.write(f"{o['name']}｜{o['src']}｜{o.get('cat','')}｜{o.get('desc','')}｜{o.get('url','')}\n")
+            f.write(f"{o['name']}｜{o['src']}｜{o.get('kind','')}｜{o.get('cat','')}｜{o.get('desc','')}｜{o.get('url','')}\n")
 
     a = os.path.getsize(os.path.join(DIST, "all.jsonl")) / 1024
     b = os.path.getsize(os.path.join(DIST, "index.txt")) / 1024

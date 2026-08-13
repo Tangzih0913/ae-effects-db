@@ -17,6 +17,11 @@
       "pattern": "^[a-z0-9-]+$",
       "description": "分類（小寫，見 AGENTS.md 的分類清單）。常見：glow light flare particles stylize film color blur warp keying tracking restore time transition text generate 3d draw paint art texture audio physics rigging workflow render color recipe。"
     },
+    "kind": {
+      "type": "string",
+      "enum": ["plugin", "script", "builtin", "recipe"],
+      "description": "工具型態：plugin=外掛／效果、script=腳本／面板、builtin=AE 內建、recipe=效果配方。"
+    },
     "tags": {
       "type": "array",
       "minItems": 3,
