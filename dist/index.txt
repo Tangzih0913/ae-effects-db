@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2472 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2470 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -18,12 +18,12 @@ VoluMax 7｜aescripts｜script｜3d｜以深度圖將單張人像或風景轉為
 Mettle FreeForm Pro｜aescripts｜plugin｜warp｜以網格變形、3D 置換貼圖與基本體三大工具把平面圖層塑成立體表面，可由雜訊、影像或影片驅動變形，並用 Generator 複製成陣列。｜https://mettle.com/product/freeform-pro/
 Mettle ShapeShifter AE｜aescripts｜script｜3d｜在 AE 內把文字、形狀圖層與遮罩生成真正 3D 物件，支援形狀變形、線性／球形置換、彎曲膨脹扭轉、燈光陰影、反射折射與物件複製。｜https://mettle.com/product/shapeshifter-ae/
 Plexus 3｜aescripts｜plugin｜particles｜以模組化物件建立點、線與即時三角面，依粒子間距離控制連線和表面；可由幾何、文字、路徑、OBJ 序列等來源生成複雜的 3D 網絡動畫。｜https://aescripts.com/plexus/
-Stardust｜aescripts｜script｜particles｜在單一 3D 空間以節點串接發射器、粒子、Replica、力場、模型、文字、遮罩與物理模擬；可將粒子或模型轉成 OpenVDB 體積，渲染煙霧與體積光。｜https://aescripts.com/stardust/
+Stardust｜aescripts｜plugin｜particles｜在單一 3D 空間以節點串接發射器、粒子、Replica、力場、模型、文字、遮罩與物理模擬；可將粒子或模型轉成 OpenVDB 體積，渲染煙霧與體積光。｜https://aescripts.com/stardust/
 Beauty Box Video｜aescripts｜plugin｜beauty｜自動分析並追蹤膚色產生遮罩，只對皮膚平滑、淡化皺紋瑕疵與降低油光；以 GPU 加速即時修膚，同時保持眼睛、嘴唇、頭髮等重要細節清晰。｜https://digitalanarchy.com/beauty-box-video/
-Flicker Free 3｜aescripts｜script｜restore｜分析前後最多 39 幀的亮度變化，修正縮時曝光跳動、高幀率慢動作、LED／電力週期造成的滾動條紋，以及老舊影片閃爍，同時盡量保留原始色彩與細節。｜https://digitalanarchy.com/Flicker/main.html
-BAO Boa｜aescripts｜script｜warp｜將任何圖層沿遮罩路徑精準彎曲的樣條變形器，可逐段對齊頂點、旋轉扭轉、保留局部不變形，並在 3D 空間擠出且回應攝影機與燈光。｜https://aescripts.com/bao-boa/
-BAO Mask Avenger 2｜aescripts｜script｜animation｜逐一控制 AE 遮罩頂點與切線的位置、關鍵幀、緩動、表達式及 3D 深度，可連結 Null 或追蹤點；第二代以背景烘焙保留預覽快取。｜https://aescripts.com/bao-mask-avenger/
-BAO Layer Sculptor｜aescripts｜script｜warp｜在要控制的位置繪製一個或多個遮罩，再動畫遮罩以精準彎曲任何圖層；可用 In-betweener 自動補中間形狀，或在選取時間與參考遮罩間建立移動式 Morph。｜https://aescripts.com/bao-layer-sculptor/
+Flicker Free 3｜aescripts｜plugin｜restore｜分析前後最多 39 幀的亮度變化，修正縮時曝光跳動、高幀率慢動作、LED／電力週期造成的滾動條紋，以及老舊影片閃爍，同時盡量保留原始色彩與細節。｜https://digitalanarchy.com/flicker-free/
+BAO Boa｜aescripts｜plugin｜warp｜將任何圖層沿遮罩路徑精準彎曲的樣條變形器，可逐段對齊頂點、旋轉扭轉、保留局部不變形，並在 3D 空間擠出且回應攝影機與燈光。｜https://aescripts.com/bao-boa/
+BAO Mask Avenger 2｜aescripts｜plugin｜animation｜逐一控制 AE 遮罩頂點與切線的位置、關鍵幀、緩動、表達式及 3D 深度，可連結 Null 或追蹤點；第二代以背景烘焙保留預覽快取。｜https://aescripts.com/bao-mask-avenger/
+BAO Layer Sculptor｜aescripts｜plugin｜warp｜在要控制的位置繪製一個或多個遮罩，再動畫遮罩以精準彎曲任何圖層；可用 In-betweener 自動補中間形狀，或在選取時間與參考遮罩間建立移動式 Morph。｜https://aescripts.com/bao-layer-sculptor/
 Motion Upscaler｜aescripts｜script｜restore｜以專為 3D 算圖、動漫、卡通與動態圖形訓練的本機 AI，將 PNG 序列、多張圖片或影片放大 2×、3×、4×；可直接讀取 AE 專案並完整保留 Alpha。｜https://aescripts.com/motion-upscaler/
 AI Motion Blur｜aescripts｜plugin｜blur｜以本機 AI 估算畫面運動並補上可調強度的自然動態模糊，適合高速快門、過度銳利的數位影像、縮時攝影、動畫與抽象渲染，也可輸出動態向量。｜https://aescripts.com/ai-motion-blur/
 Blace 2｜aescripts｜plugin｜tracking｜在本機以 AI 自動偵測影片中的一張或多張臉並即時模糊，套用效果後即可運作；第二代採硬體加速並提升大尺寸影格的偵測速度與準確度。｜https://aescripts.com/blace/
@@ -38,11 +38,11 @@ Explode Shape Layers 3｜aescripts｜script｜workflow｜把 Shape Layer 內每�
 Limber 2｜aescripts｜script｜rigging｜將向量、點陣、AI、預合成、路徑或 Puppet Pin 素材轉成四肢，並以 IK、FK、FreeK 三種模式動畫；支援伸縮、Anti-pop、透視縮短、Auto-flop 與三節肢體。｜https://aescripts.com/limber/
 Buttcapper｜aescripts｜script｜workflow｜依目前選取範圍，一鍵批次設定形狀描邊的平頭、圓頭或突出端點；搭配修飾鍵可改斜接、圓接或斜角接合，並能套用維持描邊寬度的運算式。｜https://battleaxe.co/buttcapper
 Comp Replicator: CSV Driven Batch Comps｜aescripts｜script｜render｜以 CSV、TSV 或 TXT 試算表資料大量複製並客製 AE 合成，可替換文字與圖層素材、依檔名搜尋或從路徑匯入來源，並自動複製完整巢狀合成結構。完成後可加入 Render Queue、送往 Adobe Media Encoder，或複製既有算圖項目，適合在地化、標題版本與大量個人化影片。｜https://aescripts.com/comp-replicator/
-Joysticks 'n Sliders｜aescripts｜script｜rigging｜將原點、上下左右五個極端姿勢建立成二維搖桿並自動插值，或用滑桿混合不限數量的姿勢；支援形狀路徑、遮罩、Puppet Pin 與 Switch Template 素材替換。｜https://aescripts.com/joystick-n-sliders/
+Joysticks 'n Sliders｜aescripts｜script｜rigging｜將原點、上下左右五個極端姿勢建立成二維搖桿並自動插值，或用滑桿混合不限數量的姿勢；支援形狀路徑、遮罩、Puppet Pin 與 Switch Template 素材替換。｜https://aescripts.com/joysticks-n-sliders/
 PuppetTools 3｜aescripts｜script｜rigging｜為 Puppet Pin、Shape Path、Mask Path 或圖層位置建立可自訂外觀、尺寸、名稱與行為的控制器；選取三個連續圖層即可一鍵建立簡單 IK 系統。｜https://aescripts.com/puppettools/
 AutoSway｜aescripts｜script｜animation｜沿 Puppet Pins 或串連多個圖層建立可調搖擺，Layer 模式支援 2D／3D 彎曲與扭轉；可設定 Decay 讓晃動逐漸停止，並在 Bake／Unbake 間轉換以降低運算負擔。｜https://aescripts.com/autosway/
-pt_Multiplane｜aescripts｜script｜3d｜把分層 Photoshop／Illustrator 圖稿沿 Z 軸自動或隨機排成 3D 多平面，並以縮放運算式補償深度，因此可調整層距而不改變原始攝影機視角的構圖。｜https://aescripts.com/pt_multiplane/
-Newton 4｜aescripts｜script｜physics｜把任何 2D 圖層轉為具密度、摩擦、彈性等屬性的物體，以七種物體與七種關節模擬重力碰撞；第四代加入 Waterlike 浮力阻力、碰撞觸發動畫、傳送門與循環，輸出仍是可編輯關鍵幀。｜https://aescripts.com/newton/
+pt_Multiplane｜aescripts｜script｜3d｜把分層 Photoshop／Illustrator 圖稿沿 Z 軸自動或隨機排成 3D 多平面，並以縮放運算式補償深度，因此可調整層距而不改變原始攝影機視角的構圖。｜https://aescripts.com/pt-multiplane/
+Newton 4｜aescripts｜plugin｜physics｜把任何 2D 圖層轉為具密度、摩擦、彈性等屬性的物體，以七種物體與七種關節模擬重力碰撞；第四代加入 Waterlike 浮力阻力、碰撞觸發動畫、傳送門與循環，輸出仍是可編輯關鍵幀。｜https://aescripts.com/newton/
 Bodymovin - Lottie｜aescripts｜script｜workflow｜把 AE 合成中受支援的 Shape、文字、遮罩、Matte、漸層、Trim Paths 與部分效果匯出成 Lottie JSON，必要時一併輸出 PNG 素材；可透過 lottie.js 在網頁的 SVG、Canvas 或 HTML 渲染，也能交給 iOS 與 Android 原生 Lottie 播放。僅支援 AE 功能子集，製作前應確認相容性。｜https://aescripts.com/bodymovin/
 True Comp Duplicator｜aescripts｜script｜workflow｜完整複製所選合成及其巢狀 Subcomp 階層，重複引用的合成只建立一次副本，並讓新版本都指向該副本；可保留或複製 Project Panel 資料夾結構、同步更新運算式，並設定多份副本、遞迴深度、素材複製、命名及含 Regex 的納入／排除條件。｜https://aescripts.com/true-comp-duplicator/
 BG Renderer MAX｜aescripts｜script｜render｜使用 After Effects 算圖引擎在背景輸出，讓使用者能繼續編輯專案；支援原生多執行緒與多程序、獨立算圖佇列、遠端進度監看及 Email／自動化服務通知。可先輸出影格序列，再自動編成 MP4 或 ProRes，並提供 CPU 限制、暫停與自訂 FFmpeg 指令等生產工具。｜https://aescripts.com/bg-renderer/
@@ -64,7 +64,7 @@ GifGun 2｜aescripts｜script｜render｜從 AE 一鍵或批次輸出多個合�
 Zorro-The Layer Tagger｜aescripts｜script｜workflow｜為 AE 圖層加入可重複使用的文字標籤，像管理照片標籤一樣，依 Tag 選取或隔離同一群組；一個圖層可按用途加入不同分類，而不必依賴 Timeline 相鄰位置或 Parenting。另支援 Layer Color Label，適合在多合成與大量圖層專案中快速找出角色部件、效果層、文字或待修改項目。｜https://aescripts.com/zorro-the-layer-tagger/
 Move Anchor Point 4｜aescripts｜script｜workflow｜在不移動圖層畫面位置的前提下，透過可自訂網格把 Anchor Point 精確移到邊角、中心或任意預設位置。模組化介面可只保留需要的控制區，並能儲存常用自訂 Move 與 Z-Space Preset；Search Matching 可依圖層名稱條件，批次把不同類型圖層的錨點移到指定位置。｜https://aescripts.com/move-anchor-point/
 Rift｜aescripts｜script｜workflow｜在精簡面板中分別移動、排序、錯開或隨機化多圖層的 In／Out Points、Source Start、Markers、Keyframes 等時間屬性。可只影響播放頭之前、之後或指定範圍，使用相對或絕對數值；Sequence 能在指定總時間內採 Linear、Ease In、Ease Out 或 Ease Both 排列，並以 Expo 控制非線性強度，另可用固定 Offset Stagger 或範圍 Randomize。輸入欄能辨識秒、影格、分鐘、小時與毫秒。｜https://aescripts.com/rift/
-Auto Crop 3｜aescripts｜script｜workflow｜依合成內所有圖層的 Alpha Channel，以像素精度把 Comp 尺寸裁到可見內容邊界；可只分析目前影格，或掃描完整時間範圍，找出不切掉任何動畫的最小尺寸。原生 Plugin 可直接裁目前合成或批次處理 Project Panel 選取項目，亦能先擴展邊界納入畫面外圖層；裁切被多個合成引用的 Precomp 時會自動修正所有 Instance 的位置，盡量維持原畫面。｜https://aescripts.com/auto-crop/
+Auto Crop 3｜aescripts｜plugin｜workflow｜依合成內所有圖層的 Alpha Channel，以像素精度把 Comp 尺寸裁到可見內容邊界；可只分析目前影格，或掃描完整時間範圍，找出不切掉任何動畫的最小尺寸。原生 Plugin 可直接裁目前合成或批次處理 Project Panel 選取項目，亦能先擴展邊界納入畫面外圖層；裁切被多個合成引用的 Precomp 時會自動修正所有 Instance 的位置，盡量維持原畫面。｜https://aescripts.com/auto-crop/
 GPUDog Pro｜aescripts｜plugin｜stylize｜即時GPU特效包(WebGPU/Metal)：故障、扭曲、調色、生成、像素化、分形等大量高速特效，Pro版內建即時WGSL著色器編輯器可自寫效果。｜https://aescripts.com/gpudog/
 Foldspace｜aescripts｜plugin｜3d｜在 AE 中建立、編輯與動畫化 GPU 加速的 3D 彎曲表面；每片 Surface 由 16 個可自由放置的三維控制點定義，同一效果可建立不限數量、可交疊或相交的獨立曲面。Front、Back 與具厚度時的側面可各用任意 AE Layer 當 Texture，並設定 Diffuse、Specular、Shininess 與 Opacity。曲面或控制點能附著到 AE 圖層繼承動畫，支援原生 Camera／Light；Roll Modifier 可用 Angle、Tilt、Radius 快速捲成管狀或螺旋。｜https://aescripts.com/foldspace/
 PhysicDesk 2｜aescripts｜plugin｜physics｜在 AE 面板內即時建立、播放與錄製 2D 物理場景，包含 Dynamic、Static、Motor、Elastic、Soft Body、Keyframed／PhysLink 等物體模式，以及 Pivot、Weld、Spring、Piston、Wheel、Rope／Chain 關節。可加入粒子、傳送門、磁鐵、排斥、爆炸、破碎、音訊頻段驅動；第二版新增帶飛濺、泡沫、白水與排水區的 Liquid Simulation、碰撞 Squash & Stretch、尋找命中目標軌跡的 Goal Solver 和沿手繪路徑彈性跟隨的 Path Spring。結果可輸出成 AE 原生關鍵幀、Expressions 或可編輯 Shape Layers。｜https://aescripts.com/physicdesk/
@@ -78,14 +78,14 @@ AE Actions｜aescripts｜plugin｜workflow｜把 Timeline 編輯、Transform、P
 Folder Fanatic｜aescripts｜plugin｜workflow｜建立、管理並重用自訂 AE Project Panel 資料夾結構，透過 Rulesets 將素材一鍵歸入指定位置；既有專案的目錄層級也能匯入成可重用結構。可為資料夾設定 Label Color，並保護不應被移動的核心資料夾，適合把個人或團隊的工程分類規範反覆套到新專案。｜https://aescripts.com/folder-fanatic/
 RenderSmith｜aescripts｜plugin｜render｜把 Proxy、PreRender 與 Final Render 集中在同一面板：Easy Proxy／PreRender 可批次背景算圖並自動連回來源，Ghost Mode 暫時隱藏重型圖層以加速預覽，Final Render 會遵循既有 Output Module、顯示即時進度並用 _vXX 自動版號避免覆寫。Quality Guard 會掃描工作區中的已知不相容外掛並改用 AE 內部算圖；aerender 當機時可用 Safe Mode 重試，結構變更前則由 Auto Backup 建立可一鍵還原的 AEP 快照。｜https://aescripts.com/rendersmith/
 MARKr｜aescripts｜plugin｜text｜一鍵替文字加入已動畫化的 Underline、Highlight、Scribble、Strike 或 Half-box 強調元素；建立後會持續跟隨 Source Text 的內容、字級與位置變化，不必每次改字都重新調整裝飾。｜https://aescripts.com/markr/
-Plumebus｜aescripts｜script｜particles｜直接在 AE Timeline 以 GPU 即時求解並渲染 3D 體積煙霧與火焰；Emission、Forces、Simulation、Rendering 與 Lighting 參數皆可關鍵幀化，拖曳播放頭時會原地重算，不需預先 Bake 或往返外部程式。支援多個 Emitters、以 3D Layers 當 Colliders、原生 AE Lights／Camera、體積光散射與 Motion Blur；亦可從追蹤 Null、文字、Shape 或動畫 3D 圖層發射，並在獨立 Real-Time Editor 高速調整後雙向同步回圖層。｜https://aescripts.com/plumebus/
-Glaze｜aescripts｜script｜distort｜依任意圖層自身 Alpha 一鍵生成有實際邊緣厚度的折射玻璃，不必建立 3D 或 Track Matte；可指定 Background Layer，並即時調整 Thickness、Refraction、Chromatic Aberration、Frosted Roughness、Glass Blur 與 Reflection。Solid、Liquid、Chaos、Crystal、Real Glass 五種模式涵蓋平滑、液滴、渦流、寶石切面與厚邊光學；內建 Studio HDRI 亦可載入自有環境，降低折射並提高反射時還能製作 Chrome／Metal。｜https://aescripts.com/glaze/
+Plumebus｜aescripts｜plugin｜particles｜直接在 AE Timeline 以 GPU 即時求解並渲染 3D 體積煙霧與火焰；Emission、Forces、Simulation、Rendering 與 Lighting 參數皆可關鍵幀化，拖曳播放頭時會原地重算，不需預先 Bake 或往返外部程式。支援多個 Emitters、以 3D Layers 當 Colliders、原生 AE Lights／Camera、體積光散射與 Motion Blur；亦可從追蹤 Null、文字、Shape 或動畫 3D 圖層發射，並在獨立 Real-Time Editor 高速調整後雙向同步回圖層。｜https://aescripts.com/plumebus/
+Glaze｜aescripts｜plugin｜distort｜依任意圖層自身 Alpha 一鍵生成有實際邊緣厚度的折射玻璃，不必建立 3D 或 Track Matte；可指定 Background Layer，並即時調整 Thickness、Refraction、Chromatic Aberration、Frosted Roughness、Glass Blur 與 Reflection。Solid、Liquid、Chaos、Crystal、Real Glass 五種模式涵蓋平滑、液滴、渦流、寶石切面與厚邊光學；內建 Studio HDRI 亦可載入自有環境，降低折射並提高反射時還能製作 Chrome／Metal。｜https://aescripts.com/glaze/
 EtchX｜aescripts｜plugin｜paint｜把 AE／Premiere Pro 影片轉成 Engraving、Cross-Hatch、Charcoal、Dry Ink、Scratchboard 或 Technical Pen 六種插畫系統，並提供每種八款、合計 48 組 Presets。與逐格重新描線的 Sketch Effect 不同，線條會跟隨人物、材質摺痕與 Camera Motion，降低動畫閃爍；可調 Density、Scale、Flow、Detail、Contours、Paper、Color 與運動黏著程度，也能分離主筆畫、次要排線、輪廓、填色和紙面供後續合成。｜https://aescripts.com/etchx/
-XDoG Studio｜aescripts｜script｜art｜以 Extended Difference of Gaussians／DoG 邊緣處理，把 Footage、Stills、Precomps 與 Motion Graphics 轉為可精細控制的圖像化線稿。可調 Line Detail、Edge Width、Threshold Response、Posterization、Flow-guided Smoothing、Color、Saturation、Brightness 與 Blend；GPU 支援 Windows 的 CUDA／OpenCL，另有 CPU Fallback，目前僅相容 Windows。｜https://aescripts.com/xdog-studio/
-Risograph｜aescripts｜script｜art｜以多 Pass GPU Pipeline 模擬實體 Digital Duplicator，而非只疊一層復古 Texture。可選 Dots、Lines、Stipples、Blue Noise、Bayer、Voronoi、Diffusion 等七種 Halftone Screen，並控制獨立 Ink Plates、Dot Gain、Opacity、Overprint、Coverage 與 Ink Pooling；還能加入 Misregistration、Drift、Ghost Impression、Roller Marks、Reticulation、Fading、Specks 和 Uneven Transfer。提供 29 個 Press Presets、11 個 Machine Profiles、DPI 與 Ink Kits，可用程序紙張、保留原圖底材或輸出透明油墨層。｜https://aescripts.com/risograph/
-PathSmear｜aescripts｜script｜light｜沿 Mask Path 的方向拉伸圖層亮部，生成非放射式的方向性 Light Streak；可選單向或雙向，並控制 Threshold、Length、Falloff、Direction、Tint 與 Blend Mode。Inner、Outer、Overall Glow 可分別調 Radius、Intensity、Decay，另有 Direction-field Smoothness、Samples、Dynamic Sampling 與 Ignore Alpha；GPU 即時運算並支援 8／16／32-bit。｜https://aescripts.com/pathsmear/
-MeltFlow Blur｜aescripts｜script｜blur｜以指定 Point 為中心套用 GPU 加速的 Melting-style Blur，可設定作用區域的位置、尺寸、Aspect Ratio、Rotation 與邊緣 Falloff，並用 Preserve 保留原色或以 Inward 反轉熔流方向。Flow 可選五種 Turbulence Map 並動畫 Phase，支援 Seamless Loop；Scatter 控制散射、Diffusion 加入顆粒 Noise，Wind 則決定模糊流向。｜https://aescripts.com/meltflow-blur/
-Reflow｜aescripts｜script｜particles｜指定 Source 與 Target 後，以單一 Transform Slider 讓文字、Logo 或影像確定性地溶解成粒子並重組為另一圖層，可自由拖曳預覽。粒子存在於 True 3D 空間，會回應 Comp Camera、Depth of Field 與一鍵 Null Controllers；Scatter、Swirl、Turbulence 控制運動，Timing 可依 Brightness、Saturation、Color 或 Alpha 錯開。粒子外形可用 Circle、Line、Arrow、Curved Trail 或任意 Layer Sprite，多執行緒渲染最多支援 200,000 顆。｜https://aescripts.com/reflow/
+XDoG Studio｜aescripts｜plugin｜art｜以 Extended Difference of Gaussians／DoG 邊緣處理，把 Footage、Stills、Precomps 與 Motion Graphics 轉為可精細控制的圖像化線稿。可調 Line Detail、Edge Width、Threshold Response、Posterization、Flow-guided Smoothing、Color、Saturation、Brightness 與 Blend；GPU 支援 Windows 的 CUDA／OpenCL，另有 CPU Fallback，目前僅相容 Windows。｜https://aescripts.com/xdog-studio/
+Risograph｜aescripts｜plugin｜art｜以多 Pass GPU Pipeline 模擬實體 Digital Duplicator，而非只疊一層復古 Texture。可選 Dots、Lines、Stipples、Blue Noise、Bayer、Voronoi、Diffusion 等七種 Halftone Screen，並控制獨立 Ink Plates、Dot Gain、Opacity、Overprint、Coverage 與 Ink Pooling；還能加入 Misregistration、Drift、Ghost Impression、Roller Marks、Reticulation、Fading、Specks 和 Uneven Transfer。提供 29 個 Press Presets、11 個 Machine Profiles、DPI 與 Ink Kits，可用程序紙張、保留原圖底材或輸出透明油墨層。｜https://aescripts.com/risograph/
+PathSmear｜aescripts｜plugin｜light｜沿 Mask Path 的方向拉伸圖層亮部，生成非放射式的方向性 Light Streak；可選單向或雙向，並控制 Threshold、Length、Falloff、Direction、Tint 與 Blend Mode。Inner、Outer、Overall Glow 可分別調 Radius、Intensity、Decay，另有 Direction-field Smoothness、Samples、Dynamic Sampling 與 Ignore Alpha；GPU 即時運算並支援 8／16／32-bit。｜https://aescripts.com/pathsmear/
+MeltFlow Blur｜aescripts｜plugin｜blur｜以指定 Point 為中心套用 GPU 加速的 Melting-style Blur，可設定作用區域的位置、尺寸、Aspect Ratio、Rotation 與邊緣 Falloff，並用 Preserve 保留原色或以 Inward 反轉熔流方向。Flow 可選五種 Turbulence Map 並動畫 Phase，支援 Seamless Loop；Scatter 控制散射、Diffusion 加入顆粒 Noise，Wind 則決定模糊流向。｜https://aescripts.com/meltflow-blur/
+Reflow｜aescripts｜plugin｜particles｜指定 Source 與 Target 後，以單一 Transform Slider 讓文字、Logo 或影像確定性地溶解成粒子並重組為另一圖層，可自由拖曳預覽。粒子存在於 True 3D 空間，會回應 Comp Camera、Depth of Field 與一鍵 Null Controllers；Scatter、Swirl、Turbulence 控制運動，Timing 可依 Brightness、Saturation、Color 或 Alpha 錯開。粒子外形可用 Circle、Line、Arrow、Curved Trail 或任意 Layer Sprite，多執行緒渲染最多支援 200,000 顆。｜https://aescripts.com/reflow/
 ParticleShapes｜aescripts｜script｜particles｜把 Shape Layer 轉為以 AE Standard Elements 建構的粒子動畫，提供 12 組 Presets，且交付專案時不需第三方 Plugin。Emitter 可決定數量、出生時間與位置；Style 控制尺寸、出入場、顏色、透明度與形狀；Behaviour／Forces 則設定速度、方向、旋轉、漂移與重力。可 Bake 成 3D Keyframes 加快 RAM Preview，也能把 3D Position／Rotation Morph 為 2D 動畫，讓 Z Position 對應 Scale、3D Rotation 對應形狀比例，再匯入 Lottie Creator。｜https://aescripts.com/particleshapes/
 Soft Flow｜aescripts｜plugin｜physics｜一鍵替任何 Shape Layer 加入自動生成的 Soft-body Deformation，不必手動畫關鍵幀或調 Graph Editor。它會回應 Position、Scale 與 Rotation 動畫，產生 Drag、Inertia、Overshoot、Follow Through 與 Settling；可分別調整 Softness Intensity、Reaction Speed 與 Damping，從輕微彈性到強烈 Jelly Wobble。支援 Rectangle、Circle、Polygon、Custom Path、Text Outlines 與 Imported Vectors，能即時預覽、儲存 Preset，且不依賴第三方外掛。｜https://aescripts.com/soft-flow/
 Amalgam｜aescripts｜plugin｜stylize｜組合包：二次曝光(double exposure)效果＋平滑轉場外掛，AE/Pr通用。｜https://aescripts.com/amalgam/
@@ -171,17 +171,16 @@ mCloner Pro｜aescripts｜plugin｜mograph｜高效能圖層克隆系統，可�
 LayerStash｜aescripts｜script｜workflow｜把 Text、Shape、Solid、Adjustment、Null 或 Precomp 圖層連同全部屬性、關鍵影格、效果、運算式與文字動畫器存入資料庫，再一鍵載入任何 AE 專案。可用 Client／Project Profiles 分類並搜尋，亦能把指定圖層或整個 Profile 匯出成 .layerstash 檔供團隊匯入。Premium Group Mode 可把多個所選圖層存成單一群組，載入時保留並重連群組內 Parenting Chains、Track Mattes 與跨圖層 Expressions；Duplicate Comp Hierarchy 會建立真正獨立的預合成階層副本，避免原生 Ctrl／Cmd+D 仍連到同一 Precomp。亦支援 Layer Styles、Blending Mode、圖層時序與 Shape Adjustment Layer 等細節還原。｜https://aescripts.com/layerstash/
 TypeMonkey｜aescripts｜script｜text｜依控制面板參數自動產生、排版並動畫化 Kinetic Typography。每個字詞會沿合成或 Work Area 均勻分配，建立帶 Parent 的 Camera 依序指向下一個字；時間軸不靠傳統 Keyframes，移動 Marker 就能快速改節奏，Marker Sync 亦可一鍵對齊既有標記層以同步音樂或旁白。可手動調整字詞的尺寸、位置、旋轉與透明度，指定或隨機套用多種文字轉場，並控制鏡頭插值、Auto-Rotate、Auto-Frame、Motion Blur；支援 Preset 儲存載入、Kuler 色盤與第三方 TextMods。自動 Build／Clean 流程適合反覆試版，另附 MonkeyTools 圖層顯示、鎖定、場景拆分與重複標記清理工具。｜https://aescripts.com/typemonkey/
 Control LMFX｜aescripts｜script｜workflow｜把圖層與效果建立成可跨目前作用中合成操作的群組，集中控制整組圖層的可見性與行為，並對多個所選合成中同一效果的參數批次調整。FX Manager 可查看全專案效果啟用狀態及哪些圖層正在使用所選效果；Timeline Preset Filters 則快速只顯示需要的圖層類型。面板另整合 Quick Palette／Palette Manager、Pre-Compose 與快捷解包、Recolor Keyframes、FPS Editor、Expression Tool、Render Layers、圖層／合成重新命名和自訂專案資料夾排序。Duplicate Compositions 可選擇複製或只分組，並自動更新 Expressions 內的 comp() 名稱；Quick Actions 也提供 Null、Track Matte 等常用操作。｜https://aescripts.com/control-lmfx/
-Depth Scanner 2｜aescripts｜script｜3d｜用 AI 自動從影片估算深度圖，可拿來做景深虛化、體積霧光、偽 3D 視差等效果；第二代改善了跨影格閃爍問題。｜https://aescripts.com/depth-scanner/
+Depth Scanner 2｜aescripts｜plugin｜3d｜用 AI 自動從影片估算深度圖，可拿來做景深虛化、體積霧光、偽 3D 視差等效果；第二代改善了跨影格閃爍問題。｜https://aescripts.com/depth-scanner/
 Dust Transition｜aescripts｜plugin｜transition｜GPU 加速的影像粉塵化外掛，把畫面溶解成數百萬個像素尺寸粒子。提供 Linear、Noise 與 Image-based 三種轉場：可控制線性擦除角度／羽化、雜訊尺度／對比，或以黑白圖片與預合成亮度精準決定消散形狀。粒子可受多種 Noise Algorithms 扭曲並加入 Wind、Gravity，使用 Gradient Ramp、Blend Mode 與顏色雜訊上色，再以 Shine 模擬砂粒反光；可堆疊最多 20 層增加沙塵細節。支援 3D Space、AE Camera Depth of Field、粒子朝攝影機消散、MSAA、可見機率與 Dust Size 控制；Draw Mode 能把粒子層和剩餘原圖分開輸出，方便另行合成。｜https://aescripts.com/dust-transition/
 sWITCH｜aescripts｜script｜workflow｜在整個專案中替換素材或合成，並自動保留原本的縮放、位置、遮罩與父子關係，套模板換圖不會跑版。｜https://aescripts.com/switch/
 MAD PAINTER｜aescripts｜plugin｜art｜以純演算法在影片上生成繪畫筆觸的 GPU 加速外掛，不使用生成式 AI；可調整不同 Brush Sizes 並控制 Paint Styles，把動態素材轉成密集筆刷構成的手繪／油畫影像。Windows 需要具 CUDA 或 OpenCL 的 GPU，macOS 支援 Intel 與 Apple Silicon、需 macOS 12 以上；沒有 Hardware Acceleration 的電腦無法使用。亦相容 Premiere Pro，可用於影片藝術化而不必逐格手繪。｜https://aescripts.com/mad-painter/
 Jlitch｜aescripts｜plugin｜stylize｜把壓縮錯誤與畫面回授變成故障藝術，從輕微數位雜訊到整片迷幻扭曲都能調。｜https://aescripts.com/jlitch/
 PathBlurFX｜aescripts｜plugin｜blur｜由 Mask Path 計算向量場，再沿曲線方向對影像模糊，可做類 Motion Blur 的流動殘影、文字與 Shape 融化式 Smear，或忽略透明度把像素拉成連續 Streak。可分別設定路徑起點與終點的 Blur Amount，沿路徑位移 Start／End Blur Positions 並建立位置衰減，亦可平滑尖銳的方向變化。Dynamic Sampling 會在模糊長度改變時維持一致的取樣密度，避免長拖尾局部變稀或品質不均。｜https://aescripts.com/pathblurfx/
-BAO Bones｜aescripts｜script｜rigging｜在 AE 裡用 IK 骨骼綁定角色，三個步驟就能建好骨架開始擺動作，做人物走路動畫很快。｜https://aescripts.com/bao-bones/
+BAO Bones｜aescripts｜plugin｜rigging｜在 AE 裡用 IK 骨骼綁定角色，三個步驟就能建好骨架開始擺動作，做人物走路動畫很快。｜https://aescripts.com/bao-bones/
 Fluxion｜aescripts｜plugin｜particles｜GPU 粒子外掛，從一條或多條 Mask 建立 Vector Field，讓粒子自然沿遮罩方向流動；可調場域寬度、Falloff、Scale、Sampling Density，反轉流向或讓粒子越過路徑端點繼續前進。Emitter 可選 Mask、Box、Sphere 或 Point，控制發射率、壽命與 Seed；提供 9 種內建粒子形狀及 Custom Layer Particle，並可調速度、尺寸、透明度、旋轉和隨機差異，以曲線設定 Size／Opacity over Life。物理包含 Gravity、Wind、Air Resistance，三種 Turbulence 可控制強度、速度、密度與 Seed；支援 3D、AE Camera Focus Distance 景深、Motion Blur、8 種混合模式及 Simulation Scale 時間控制。｜https://aescripts.com/fluxion/
 Lorenz System｜aescripts｜script｜generate｜在目前合成中計算 Lorenz System，並把這個混沌動力系統的 2D Projection 直接建立為 AE Paths，方便再用 Stroke、Trim Paths 或其他原生 Shape／Mask 工具著色與動畫化。下載內容包含範例專案與附註解的 Script Source Code，可自行修改演算法或延伸用途；官方相容性列至 AE 2020／CC 2017–2019，屬較舊但可編輯的數學視覺化腳本。｜https://aescripts.com/lorenz-system/
 AutoCaption｜aescripts｜plugin｜text｜將音訊或影片上傳至伺服器，以 Deepgram Nova-3 與 OpenAI Whisper Large v3 轉錄成可繼續編輯的原生 AE 文字圖層；支援自動語言偵測與 99 種語言。可選逐字、每層二至三字、依節奏與語意分成 2–5 字或完整句子，輸出為單一或多個圖層，並套用 30 多種可改字型、色彩、時序與動畫的樣式；另支援 Typewriter、Wiggle、Pulse、Float、逐字時間碼、RTL 及 SRT 匯入／匯出。需網路，單檔上限 200 MB。｜https://aescripts.com/autocaption/
-Blacklight Composite Suite｜aescripts｜script｜composite｜專為 Compositing 設計的三工具套件。免費的 Color Match Analyzer 可一鍵在兩個圖層間匹配色彩，用於同段鏡頭 Shot Matching 或讓 Foreground 貼合 Background，既能分析全畫面也能只取指定區域並以高精度控制微調。Smart Matte Choker 可選擇性地只向特定方向收縮 Matte，保留細小邊緣細節，並提供多種 Edge Processes 或維持原始邊緣銳利度。Fill Matte Holes 則自動修補 Keying 後不需要的透明孔洞，可用 Size Threshold 與 Fade Range 限制處理範圍以減少逐格閃爍，不必手動畫 Roto／Mask。｜https://aescripts.com/blacklight-composite-suite/
 Extendo｜aescripts｜plugin｜edge｜AE 上少見的邊緣延展外掛，把去背後殘缺的邊緣往外補回細節，修 roto 邊緣很好用。｜https://aescripts.com/extendo/
 Type ReAlign｜aescripts｜script｜text｜切換文字圖層的對齊方式時保持文字位置不跑掉，改左右置中排版不用重新對位。｜https://aescripts.com/type-realign/
 RXXR｜aescripts｜script｜stylize｜生成 ASCII 字元與像素風的科技故障效果，內建樣式預設與漸層，做駭客／終端機畫面很對味。｜https://aescripts.com/rxxr/
@@ -202,34 +201,34 @@ DeepCopy｜aescripts｜script｜workflow｜一鍵把預合成（含底下巢狀�
 Dynamic Shadow 3｜aescripts｜script｜light｜Visual Shadow 引擎會對一個或多個所選物件加入陰影、光線與 Reflection，並依圖層彼此位置自動調整角度，用較少設定模擬自然 Sunlight。內建超過 19 種 Shadow Styles 與 12 種 Light Styles，可先預覽再套用，之後分別調整陰影、照明和反射參數。另有 3D Shadow 模式，可由任意 Shape 建立 Directional 3D Shadow 與基礎反射；適合為文字、圖示或平面產品圖快速補上方向一致的落地感，而非進行完整物理光線追蹤。｜https://aescripts.com/dynamic-shadow/
 Pause Cleaner｜aescripts｜script｜audio｜自動偵測音軌中的靜音段並產生剪掉空白的新合成，口播影片抓節奏不用一段段手動切。｜https://aescripts.com/pause-cleaner/
 Ballpoint｜aescripts｜plugin｜art｜GPU 加速的 Ballpoint Texture Engine，把每格影片重畫成密集、會隨畫面動態與細節反應的原子筆線條，模擬舊筆記紙上的塗鴉、Technical Drawing、Punk Zine 或 Forensic Diagram。內建 Robocop、Curls、Web 等不同 Stroke Styles，從機械式急促線段到鬆散有機亂線皆可選；所有元素可設 Keyframes，多項參數具 Brush-sensitive 反應，可在時間軸調節 Complexity、Flow 與 Texture，並適合製作線稿逐步顯現的 Reveal Animation。提供 Presets 且可即時預覽；需要 OpenCL／OpenGL 硬體支援，macOS 需 12 以上並支援 Intel／Apple Silicon。｜https://aescripts.com/ballpoint/
-ReScanX｜aescripts｜script｜stylize｜把畫面重建成掃描線輪廓影像，做出等高線地形圖、熱顯像或監視螢幕那種電子掃描感。｜https://aescripts.com/rescanx/
+ReScanX｜aescripts｜plugin｜stylize｜把畫面重建成掃描線輪廓影像，做出等高線地形圖、熱顯像或監視螢幕那種電子掃描感。｜https://aescripts.com/rescanx/
 FoldCraft｜aescripts｜plugin｜animation｜將一般媒體、文字、Alpha-channel 素材或 Keyed／Green-screen Footage 切成可移動層片，再建立具有遮擋、翻面與重疊關係的 Paper-fold／Origami Animation，而非單純平面擦除。Standard、Text、Alpha 與 Green Screen 等模式可分別處理標題、Logo、透明圖示、人物或物件；Texture、Borders、Blending、Jitter 與 Timing 控制能在乾淨幾何摺疊和手作紙張質感之間調整。適用標題包裝、Logo Reveal、產品畫面、社群短片及摺紙轉場，並同時支援 After Effects 與 Premiere Pro。｜https://aescripts.com/foldcraft/
 Free Compose｜aescripts｜script｜workflow｜在原合成時間軸內建立類 Photoshop 的可展開／折疊圖層群組，不必真的 Pre-compose，因此圖層仍可直接存取，也不會因預合成邊界裁掉內容或中斷既有 Expressions／Parenting。可建立 Nested Groups、移動 Group Control Layer 即整組沿時間軸移動，從群組層新增／移除 Effects 並依巢狀順序同步；Mask 可套到整組且選擇在 Effects 前或後計算，內部圖層仍能像 Track Matte 內容般調整。另可記住原狀態地切換整組 Visibility／Audibility／Lock、拉伸群組時序、複製群組、設定 Track Matte，以及在動畫後重新定位平均位置建立的 Group Anchor。｜https://aescripts.com/free-compose/
 COMP-O-RAMA｜aescripts｜script｜workflow｜把多個 Composition Presets 或自訂規格拖入 Queue，一鍵批次建立全部合成。內建 30 種 Social、HD、4K、Cinema、Broadcast、Animation 與 High Frame Rate Formats，可自建 Presets、收藏常用項並用巢狀資料夾拖放整理。Smart Naming 提供 {preset}、{index}、{width}、{height}、{fps}、{project} 等 14 個 Built-in Tokens，也能建立 Custom Tokens，讓整批合成依同一 Pattern 自動命名。Bulk Edit 可一次修改多個 Queue Items 的 Width、Height、FPS、Duration、Background Color，並 Match Current Composition。完整 Queue 可存成 Brand Pack、Social Bundle 等 Template，在其他專案一鍵重建相同交件組合，另提供 Project Report 與完整 Undo。｜https://aescripts.com/comp-o-rama/
 Oscilloscope｜aescripts｜script｜generate｜把圖片、音訊或路徑變成發光的類比示波器軌跡，可調光束粗細、螢光殘影與閃爍。｜https://aescripts.com/oscilloscope/
 Safest Zone｜aescripts｜script｜workflow｜在設計 Social Videos、Ads、Thumbnails 與 Campaign Variants 時，把平台 UI、裁切區或客戶限制保留為可見 Safe Zones。內建常見社群平台 Presets，可先 Preview 再加入所選 Composition；也能一次選多個 Layout，為每種安全框 Duplicate Composition 並自動套用相符 Guide。任何 Shape Layer 可轉成可重用 Custom Preset，處理品牌範本、罕見版位或一次性規格。Color、Opacity、Guide-layer Status 與 Lock State 可跨所選合成 Bulk Update；自訂 Presets 支援 Inline Rename、Name Color 及拖放排序。｜https://aescripts.com/safest-zone/
-ColorVSN｜aescripts｜script｜color｜用色彩映射把灰階資訊換成濃烈配色，可當調色工具做假色、熱顯像那類強烈風格。｜https://aescripts.com/colorvsn/
+ColorVSN｜aescripts｜plugin｜color｜用色彩映射把灰階資訊換成濃烈配色，可當調色工具做假色、熱顯像那類強烈風格。｜https://aescripts.com/colorvsn/
 Fractal Terrain｜aescripts｜script｜generate｜以高品質 Fractal Noise 作為高度資料，再用 Ray-casting 在 After Effects 內直接生成可動畫、可自訂的 3D Terrain。支援 Composition Camera／Lights，能把 3D Layer 以 Texture 投射到地形，GPU 最佳化的 Post Effects 亦包含 Depth of Field。除了基本 Mountain Range，可建立 Lava Field 熔岩地表、關閉 Atmosphere 的 Lunar Surface、動畫 Offset 的 Ripple Waves，或用 Base Terrain、Flatten Band 與 Fog 組成帶階梯高原和體積霧的山谷。支援 Windows 10+、macOS 11+ Apple Silicon，GPU 後端包含 Metal、CUDA 與 OpenCL。｜https://aescripts.com/fractal-terrain/
-Fluid｜aescripts｜script｜particles｜GPU 加速的 2D Navier–Stokes Fluid Simulation，讀取任意 Layer Alpha Contour 作流體發射器；第二組獨立 Emitter 可使用不同顏色，形成雙流碰撞與混色。任何 Alpha Layer 亦可作 Collider，以 Bounce、Friction 控制反應，Invisible Colliders 可用隱藏邊界導流。動畫 Source Point 時會把移動速度轉成 Emission Velocity，Tail Length、Velocity Dissipation、Front Bombe、Wake Width 隨速度變化；也能把 Mask Path 貼成 Source Point Keyframes。物理含 Gravity、Wind、Buoyancy、Vorticity、Swirl、Viscosity 與三層 fBm Turbulence；五種 Color Modes、Pseudo-volumetric Shading、Bloom 和四級品質可兼顧預覽與算圖，且模擬與合成解析度無關。｜https://aescripts.com/fluid/
+Fluid｜aescripts｜plugin｜particles｜GPU 加速的 2D Navier–Stokes Fluid Simulation，讀取任意 Layer Alpha Contour 作流體發射器；第二組獨立 Emitter 可使用不同顏色，形成雙流碰撞與混色。任何 Alpha Layer 亦可作 Collider，以 Bounce、Friction 控制反應，Invisible Colliders 可用隱藏邊界導流。動畫 Source Point 時會把移動速度轉成 Emission Velocity，Tail Length、Velocity Dissipation、Front Bombe、Wake Width 隨速度變化；也能把 Mask Path 貼成 Source Point Keyframes。物理含 Gravity、Wind、Buoyancy、Vorticity、Swirl、Viscosity 與三層 fBm Turbulence；五種 Color Modes、Pseudo-volumetric Shading、Bloom 和四級品質可兼顧預覽與算圖，且模擬與合成解析度無關。｜https://aescripts.com/fluid/
 SceneStasher｜aescripts｜script｜workflow｜把圖層與關鍵影格的選取狀態存成按鈕，之後一鍵跳回那個時間點與選取，反覆微調長片段很省事。｜https://aescripts.com/scenestasher/
 Stipple｜aescripts｜plugin｜art｜用 GPU 物理模擬把影片重建成具時序一致性的點描圖案，適合製作不閃爍的報紙網點、插畫點畫與自訂 Sprite 動畫。｜https://aescripts.com/stipple/
 Light Volume｜aescripts｜plugin｜light｜把 AE Composition 內的 Point Lights 與 Spotlights 渲染成真正位於 3D Space 的可見體積光，並支援多盞燈同時作用。可精細控制 Light Softness、Falloff 與 Source Size，再加入 Distortion 讓筆直光束自然融入霧氣；Dust 模組只在較亮的體積區域生成懸浮微粒，增加空氣厚度。Depth Map Input 可限制光霧的 Render Area，讓前景物體或外部 3D 深度資料正確遮擋光束。全程 GPU 加速，適合舞台 Spotlights、God Rays、室內窗光與帶塵埃的霧化照明。｜https://aescripts.com/light-volume/
 Face Director｜aescripts｜plugin｜beauty｜在既有影片上動畫化 Facial Expressions、Eye／Head Direction 與 Neck Height，用於修正不合場景的表情、讓剪接前後嘴巴與眼神維持 Continuity、挽救演員笑場，或把五官推到誇張極限。可直接在 Preview Window 拖曳臉部特徵調整，不必只靠數值滑桿；Puppet Mode 則指定另一個 Layer 作 Driver Video，把其臉部表演轉移到目標。支援 After Effects、Premiere Pro、DaVinci Resolve 與 Nuke，並可在 macOS／Windows 使用。｜https://aescripts.com/face-director/
 Pixel Sorter 4｜aescripts｜plugin｜stylize｜像素排序的元祖外掛，把畫面像素依亮度等條件重排拉出長條，做故障藝術與數位撕裂感。｜https://aescripts.com/pixel-sorter/
-Pixion｜aescripts｜script｜particles｜以圖層像素驅動的粒子系統，依畫面亮度與顏色決定粒子行為，做影像匯聚成形或碎散的效果。｜https://aescripts.com/pixion/
+Pixion｜aescripts｜plugin｜particles｜以圖層像素驅動的粒子系統，依畫面亮度與顏色決定粒子行為，做影像匯聚成形或碎散的效果。｜https://aescripts.com/pixion/
 VoxPattern｜aescripts｜plugin｜3d｜GPU 加速外掛，直接在 3D 空間中生成幾何圖案陣列，做科技感背景與立體圖形牆。｜https://aescripts.com/voxpattern/
 OverAct｜aescripts｜script｜animation｜為既有 AE 關鍵影格加入可直接用動畫語言控制的 Overshoot 或 Bounce，不必調 Frequency、Decay、Gravity。可指定過衝／彈跳次數與總影格數，再調 Amplitude、後段週期 Dampen、最後穩定或最後彈跳、Time Dilation、Peak Easing、Peak Timing 與 Peak Dampen；Enable 可決定同一屬性中哪些關鍵影格套用表達式，也能一次處理多個屬性並儲存預設。｜https://aescripts.com/overact/
 QuickImporter｜aescripts｜script｜workflow｜取代一般檔案匯入對話框，以可容忍拼字錯誤的高速模糊搜尋從數千個檔案中找素材；滑過圖示即可試聽音訊，影片可開啟 Media Player 預覽，影像序列會合併成單一搜尋結果。支援 Favorites、Recent folders 與路徑自動完成，並可在 After Effects、Premiere Pro、Audition 共用授權。縮圖依 macOS Quick Look 提供多種格式，Windows 僅有 JPG／PNG；AIFF 不支援音訊預覽。｜https://aescripts.com/quickimporter/
 VECTIS｜aescripts｜plugin｜draw｜從任何路徑畫出有深度感的偽 3D 貝茲線條，筆畫粗細會依 Z 深度與攝影機距離自動變化。｜https://aescripts.com/vectis/
-Ray Projector｜aescripts｜script｜3d｜先依 Source Image 的 Transparency 或 Color Intensity 偵測邊緣並轉成 Contour，再沿指定 Distance／Direction 擠出為真正的 3D Model。模型以 Semi-transparent Material 與 Spherical Reflection Map 著色，內建六組 Reflection Maps，也可指定任何 AE Layer 作 Custom Environment Map；另能沿 Extrusion Axis 疊加 Gradient Coloring，區分前後深度。生成物可在 3D Space 內 Transform，並直接回應 AE Native Camera。GPU 加速，適合將 Logo、文字輪廓或圖像邊界變成玻璃感、反射式光柱與可繞拍的立體擠出。｜https://aescripts.com/ray-projector/
+Ray Projector｜aescripts｜plugin｜3d｜先依 Source Image 的 Transparency 或 Color Intensity 偵測邊緣並轉成 Contour，再沿指定 Distance／Direction 擠出為真正的 3D Model。模型以 Semi-transparent Material 與 Spherical Reflection Map 著色，內建六組 Reflection Maps，也可指定任何 AE Layer 作 Custom Environment Map；另能沿 Extrusion Axis 疊加 Gradient Coloring，區分前後深度。生成物可在 3D Space 內 Transform，並直接回應 AE Native Camera。GPU 加速，適合將 Logo、文字輪廓或圖像邊界變成玻璃感、反射式光柱與可繞拍的立體擠出。｜https://aescripts.com/ray-projector/
 LED Architect｜aescripts｜script｜workflow｜算 LED 大屏的解析度、面板數量、耗電與重量，並一鍵產生帶參考線與測試圖的合成，做舞台大屏內容用。｜https://aescripts.com/led-architect/
-Interlaced Glitch｜aescripts｜script｜film｜重現舊類比與早期數位攝影機的真實隔行錄影特徵，包含 Interlacing Artifacts、Scanlines、細微信號瑕疵與不完美運動；可從千禧年代家用 Camcorder 到柔和、像被時間磨損的 Lo-fi 影像逐項調整，而非只能套固定素材。完整支援 Multi-Frame Rendering，兼顧現代 AE 算圖流程。｜https://aescripts.com/interlaced-glitch/
+Interlaced Glitch｜aescripts｜plugin｜film｜重現舊類比與早期數位攝影機的真實隔行錄影特徵，包含 Interlacing Artifacts、Scanlines、細微信號瑕疵與不完美運動；可從千禧年代家用 Camcorder 到柔和、像被時間磨損的 Lo-fi 影像逐項調整，而非只能套固定素材。完整支援 Multi-Frame Rendering，兼顧現代 AE 算圖流程。｜https://aescripts.com/interlaced-glitch/
 CHR0MA｜aescripts｜script｜color｜用 Oklab 色彩科學取代內建的色相／飽和度，調色時亮度感受一致，不會拉出死灰或螢光的怪色。｜https://aescripts.com/chr0ma/
 Compstronaut｜aescripts｜script｜workflow｜像瀏覽器一樣在 AE 裡上一頁／下一頁跳回剛才的合成與時間點，在深層巢狀合成間來回不會迷路。｜https://aescripts.com/compstronaut/
 Keystone｜aescripts｜script｜animation｜動畫師的排列工具箱：對齊、依序錯開（stagger）、排序、拉伸關鍵影格與標籤上色，做整齊的序列動畫很快。｜https://aescripts.com/keystone/
 TextFlex｜aescripts｜script｜text｜把文字動畫依字元、單字或行拆開控制，不用 K 關鍵影格就能做出有彈性的文字進出場。｜https://aescripts.com/textflex/
 Torn Paper｜aescripts｜script｜texture｜把任何有遮罩的圖層變成擬真撕紙邊緣，做拼貼與手作風格不用再去找素材或在 Photoshop 慢慢刷。｜https://aescripts.com/torn-paper/
-Power Cylinder｜aescripts｜script｜3d｜把圖層包成可控的 3D 圓柱，支援橢圓變形、展開、自體陰影、反射與景深，做捲軸或圓柱標籤動畫。｜https://aescripts.com/power-cylinder/
+Power Cylinder｜aescripts｜plugin｜3d｜把圖層包成可控的 3D 圓柱，支援橢圓變形、展開、自體陰影、反射與景深，做捲軸或圓柱標籤動畫。｜https://aescripts.com/power-cylinder/
 StyleX｜aescripts｜script｜art｜用 AI 把影片轉成卡通、素描、繪畫或半色調等風格，做轉繪風影片不用逐格處理。｜https://aescripts.com/stylex/
 Root｜aescripts｜script｜workflow｜把散在電腦各處的素材蒐集打包成乾淨的獨立專案，自動找回遺失媒體並整理資料夾，交件與備份很省事。｜https://aescripts.com/root/
 Slitscan｜aescripts｜plugin｜distort｜原生外掛，做出狹縫掃描效果——不同時間的畫面被拉成長條，產生時間被抹開的實驗感影像。｜https://aescripts.com/slitscan/
@@ -241,13 +240,13 @@ Pixel Encoder｜aescripts｜script｜stylize｜把影片轉成粗糙的像素動
 MaskPNGscatter｜aescripts｜script｜mograph｜把 PNG 或圖層在遮罩範圍內隨機散佈成上百份，做粒子感的裝飾元素或圖樣填充。｜https://aescripts.com/maskpngscatter/
 Wave The Path｜aescripts｜plugin｜animation｜GPU 加速外掛，把任何路徑變成流動的波形動畫，做音波、水波與抽象曲線律動。｜https://aescripts.com/wave-the-path/
 Motion Extractor｜aescripts｜script｜stylize｜只保留畫面中在動的部分，把靜止背景抹掉，讓平凡素材變成有詩意的動態抽象影像。｜https://aescripts.com/motion-extractor/
-loopFlow｜aescripts｜script｜animation｜把靜態照片的局部（水流、雲、頭髮）動起來變成無縫循環影片，也就是所謂的動態照片／Cinemagraph。｜https://aescripts.com/loopflow/
+loopFlow｜aescripts｜plugin｜animation｜把靜態照片的局部（水流、雲、頭髮）動起來變成無縫循環影片，也就是所謂的動態照片／Cinemagraph。｜https://aescripts.com/loopflow/
 Polymorph｜aescripts｜script｜workflow｜把合成裡任一圖層替換或接上另一個圖層——形狀、文字、素材、空物件都行，換素材保留原本動畫。｜https://aescripts.com/polymorph/
 Split Blur｜aescripts｜plugin｜blur｜帶萬花筒與旋轉感的模糊外掛，模糊之餘還會產生繪畫般的層疊筆觸，做夢幻氛圍背景。｜https://aescripts.com/split-blur/
 Expression Kit｜aescripts｜script｜expression｜把 140 組可直接使用的 Expressions 分成七大類集中管理，點選即開啟可快／慢速播放的 Live Preview，並在套用前即時調整每組專屬參數。可依 Property Type、Difficulty 篩選，收藏 Favorites／Recent；內容包含 23 組逐字 Text Animator、動態文字、Gravity／Bounce／Elastic Physics，以及 Position、Velocity、Direction 等 Motion Expressions。Stagger 依 Frames 自動錯開所選 Layers，Freeze 把運算式鎖定在指定影格；Expression Manager 掃描全專案並顯示 Valid／Error／Disabled 狀態，可整批啟停或貼到全部／所選圖層。內建 Editor 能直接修改並保存 Code。｜https://aescripts.com/expression-kit/
 m's Halftone｜aescripts｜plugin｜stylize｜做網點半色調處理的外掛，加上效果就能用、不需另外做圖層對應，模擬印刷網點與漫畫風。｜https://aescripts.com/ms-halftone/
 Superpose｜aescripts｜script｜restore｜自動生成 clean plate，把固定機位素材中移動的雨、雪、人群等物體移除，還原乾淨背景。｜https://aescripts.com/superpose/
-Holora｜aescripts｜script｜color｜依觀看角度產生全息鐳射般的變色效果，做彩虹色貼紙、金屬鐳射質感的標題或包裝。｜https://aescripts.com/holora/
+Holora｜aescripts｜plugin｜color｜依觀看角度產生全息鐳射般的變色效果，做彩虹色貼紙、金屬鐳射質感的標題或包裝。｜https://aescripts.com/holora/
 Diffusae｜aescripts｜script｜art｜在 AE 裡直接互動使用生成式 AI 產生／改寫畫面，第二代加入跨影格穩定模型讓動態不再閃爍。｜https://aescripts.com/diffusae/
 Aura｜aescripts｜plugin｜mograph｜在 AE 3D 空間以 GPU 生成高密度程序波形，可沿路徑、遮罩或多個圖層發射並輸出 SVG，適合抽象線場、流動曲面與幾何片頭。｜https://aescripts.com/aura/
 Nexanim｜aescripts｜script｜animation｜把動畫的「進度」與「數值」拆開的新式動畫系統，改數值時曲線不會走樣，也更容易讓多個動畫同步。｜https://aescripts.com/nexanim/
@@ -255,7 +254,7 @@ Versioner｜aescripts｜script｜workflow｜在同一個專案裡管理多語言
 Effect Remover Pro｜aescripts｜script｜workflow｜完全離線的 Effects 管理面板，可掃描 Composition 中使用的效果，並即時搜尋所選圖層上的 Effect。能逐項永久 Remove、暫時 Hide／Disable 供 A／B 測試，或重新 Show／Enable；也可一鍵 Remove All、Hide All、Show All，整批操作皆支援 Ctrl／Cmd＋Z Undo。Favorites 可保存常用效果並直接套到所選圖層，跨工作階段保留；清單支援 Auto 與 Manual Refresh。｜https://aescripts.com/effect-remover-pro/
 QuickOpen｜aescripts｜script｜workflow｜快速開啟、管理與儲存專案檔的面板，可自訂存檔命名與工作流程，接手多案子時切換很快。｜https://aescripts.com/quickopen/
 Project Font Pro｜aescripts｜script｜text｜掃描整個 Project、Selected Comps 或 Active Comp 的 Text Layers，列出每種 Font 的使用數量、所在 Composition，並可一鍵開啟目標合成。替換時能鎖定特定 Font 或以 Layer Name／Regex Filters 縮小範圍，再選擇只改 Typeface、Weight、Size、Color 或 Alignment；Missing Fonts 也能集中搜尋並一次替換。Grab Layer Style 可從參考文字擷取 Font、Size、Color、Stroke、Alignment、Leading、Tracking，再只勾選需要的項目套到指定字型。執行前會統計篩選後受影響的圖層數，降低全專案批改誤傷。｜https://aescripts.com/project-font-pro/
-NatuRamp｜aescripts｜script｜generate｜生成不均勻分佈的自然漸層，比 AE 內建漸層更有機，做柔和背景不會有生硬的線性感。｜https://aescripts.com/naturamp/
+NatuRamp｜aescripts｜plugin｜generate｜生成不均勻分佈的自然漸層，比 AE 內建漸層更有機，做柔和背景不會有生硬的線性感。｜https://aescripts.com/naturamp/
 Loop This! Wiggle｜aescripts｜script｜expression｜產生可完美無縫循環的 wiggle 晃動，用運算式或直接烘成關鍵影格，做循環動態背景不會接縫。｜https://aescripts.com/loop-this-wiggle/
 Transformer｜aescripts｜script｜warp｜把素材做透視變形與多畫面排列的動畫工具，內建大量預設，做視頻牆、畫軸與立體排版效果。｜https://aescripts.com/transformer/
 ToothPaste｜aescripts｜script｜workflow｜直接把剪貼簿裡的 SVG 貼進 AE 變成形狀圖層，從 Illustrator 或 Figma 搬圖示不用再匯出檔案。｜https://aescripts.com/toothpaste/
@@ -270,7 +269,7 @@ AE Sheets｜aescripts｜script｜workflow｜在試算表式面板中索引與管
 Keyless Zoom｜aescripts｜script｜animation｜用開始、結束與時間參數驅動 AE 程序式攝影機，不必手動畫關鍵影格。Intelligent Zoom to Fit 能為選取的 3D 圖層自動取景，即使它經旋轉、Orientation、縮放或多層 Null 父子鏈仍會計算邊界；Overscan 1.0 對齊精確包圍盒。提供 Zoom In、Zoom Out、Zoom to Fit、即時互動預覽，以及 Smooth、Snappy、Cinematic、BounceBack 四種緩動與強度、過衝控制。Bake 只把實際動畫區段轉為關鍵影格，保留區段間空白並移除控制 Null，方便後續手動精修。｜https://aescripts.com/keyless-zoom/
 FacePro｜aescripts｜plugin｜beauty｜AI 人像修飾外掛會自動偵測單張或多張臉，產生像素級皮膚遮罩並排除頭髮、眼睛、眉毛、嘴唇與背景；也可改用 Skin Color 或外部 Mask，並檢視、微調遮罩。專用模型能依周圍皮膚脈絡去除斑點、痘痘與小疤痕，柔化膚質時保留細節；另有美白、以局部曝光與紋理校正去油光，以及針對皮膚的 Hue、Saturation、Lightness、Density、Contrast 控制。｜https://aescripts.com/facepro/
 Workflower｜aescripts｜script｜workflow｜圖層工作流工具組：建群組、把調整圖層只套用在選取圖層、複製圖層、合併遮罩與預先算圖。｜https://aescripts.com/workflower/
-AfterCodecs｜aescripts｜script｜render｜在 AE／Premiere／AME 裡直接輸出 ProRes、H264、H265、HAP，不需安裝 QuickTime，還能批次大量輸出。｜https://aescripts.com/aftercodecs/
+AfterCodecs｜aescripts｜plugin｜render｜在 AE／Premiere／AME 裡直接輸出 ProRes、H264、H265、HAP，不需安裝 QuickTime，還能批次大量輸出。｜https://aescripts.com/aftercodecs/
 Goodbye Greenscreen 2｜aescripts｜plugin｜keying｜完全在本機執行的 C++ AI 人物 Matting 外掛，不需手動畫 Mask 或 Keyframes。Automasking 可處理 Portrait、Full-body 與人物群組，針對長髮和複雜背景提供七種模型選擇，BiRefNet 為目前預設；Clean Plate Matting 將原影片與同場景乾淨背景合成 Matte，像強化版 Difference Matte；Color Mode 則是只選 Screen Color 的 AI Color Keyer。可做 Matte Refinement，並輸出 Result、Matte、Warped Background 或 Matchpoints。支援 AE／Premiere，本機影像不上傳；Windows 建議 NVIDIA 8GB VRAM，Apple Silicon 需 macOS Sequoia 以上及至少 16GB RAM。｜https://aescripts.com/goodbye-greenscreen/
 LogoSwap｜aescripts｜script｜restore｜用 AI 把畫面中的 Logo 移除或換成另一個品牌標誌，做多品牌版本的廣告很方便。｜https://aescripts.com/logoswap/
 Color Grade Prompter｜aescripts｜script｜color｜用文字描述或參考圖讓 AI 自動調色，並可把結果匯出成 LUT 在其他軟體沿用。｜https://aescripts.com/color-grade-prompter/
@@ -365,7 +364,7 @@ Light Patterns｜aescripts｜script｜light｜生成會動的光影圖案（類�
 Circle Rig Pro｜aescripts｜script｜mograph｜把圖層排成圓形、放射或螺旋陣列，可加效果器、可循環 wiggle 與時間延遲，做環狀輪播動畫。｜https://aescripts.com/circle-rig-pro/
 Quick Depth｜aescripts｜plugin｜3d｜從任何素材快速估算出深度圖的外掛，第三代加入跨影格穩定與畫質提升，可用來做景深、霧與偽 3D。｜https://aescripts.com/quick-depth/
 Cell Division｜aescripts｜script｜stylize｜把圖層邊緣變成會互相融合分裂的透明液滴，內建 21 種樣式，做有機的黏稠分裂效果。｜https://aescripts.com/cell-division/
-Influx｜aescripts｜script｜workflow｜全能匯入外掛，讓 AE／Premiere／AME 原生讀取 MKV 等原本不支援的格式與編碼，不用先轉檔。｜https://aescripts.com/influx/
+Influx｜aescripts｜plugin｜workflow｜全能匯入外掛，讓 AE／Premiere／AME 原生讀取 MKV 等原本不支援的格式與編碼，不用先轉檔。｜https://aescripts.com/influx/
 CuttanaNir｜aescripts｜script｜draw｜做手寫（write-on）動畫的工具組，把文字切割分離後依筆順逐段寫出來。｜https://aescripts.com/cuttananir/
 ExpressionUniversalizer｜aescripts｜script｜expression｜把專案裡的運算式轉成任何語言版本的 AE 都能跑，解決中文版 AE 打開英文模板運算式報錯的問題。｜https://aescripts.com/expressionuniversalizer/
 Slice it Up｜aescripts｜script｜mograph｜程序化、非破壞式地把圖層切成條片，切完還能隨時改參數，做切片轉場與分割排版。｜https://aescripts.com/slice-it-up/
@@ -430,8 +429,8 @@ Baconizer for AE｜aescripts｜plugin｜utility｜illo 推出的免費趣味外�
 Bake Parented Transform｜aescripts｜script｜workflow｜把父子階層造成的運動烘焙成未綁定圖層的關鍵影格，適合匯出、交接與解除父層關係。｜https://aescripts.com/bake-parented-transform/
 BAO Distortion Selector｜aescripts｜script｜distort｜以可調柔和度精確限制 Puppet、Liquify 等變形作用區域，適合局部角色修形與受控扭曲。｜https://aescripts.com/bao-distortion-selector/
 BAO Dynamic Comp｜aescripts｜script｜workflow｜讓多個 AE 專案共享並更新同一組合成，適合重用片頭、品牌元件與跨專案模板。｜https://aescripts.com/bao-dynamic-comp/
-BAO Joint｜aescripts｜script｜rigging｜把圖層綁到兩個不同父層並在兩者間建立會變形的關節，適合手肘、膝蓋與軟性連接。｜https://aescripts.com/bao-joint/
-BAO Mask 3D Warper｜aescripts｜script｜3d｜使用遮罩進行 3D 造型與精確 2D 扭曲，適合角色動畫、平面轉曲面與偽立體物件。｜https://aescripts.com/bao-mask-3d-warper/
+BAO Joint｜aescripts｜plugin｜rigging｜把圖層綁到兩個不同父層並在兩者間建立會變形的關節，適合手肘、膝蓋與軟性連接。｜https://aescripts.com/bao-joint/
+BAO Mask 3D Warper｜aescripts｜plugin｜3d｜使用遮罩進行 3D 造型與精確 2D 扭曲，適合角色動畫、平面轉曲面與偽立體物件。｜https://aescripts.com/bao-mask-3d-warper/
 BAO Mask Brush｜aescripts｜script｜paint｜沿遮罩路徑在 3D 空間套用自訂筆刷並支援動態模糊與擠壓伸展，適合線條與角色動畫。｜https://aescripts.com/bao-mask-brush/
 Batch Search N Replace Paths｜aescripts｜script｜workflow｜在多個 AEP 中批次搜尋並替換素材路徑，適合更換伺服器、資料夾架構與大量專案搬移。｜https://aescripts.com/batch-search-n-replace-paths/
 BatchProcessor｜aescripts｜script｜workflow｜批次處理所選專案項目，可統一縮放並套用相同預設，適合大量影片與合成的標準化操作。｜https://aescripts.com/batchprocessor/
@@ -524,7 +523,7 @@ Expression Calculator｜aescripts｜script｜expression｜計算屬性套用表�
 Expressionist｜aescripts｜script｜expression｜為 AE 表達式工作流程加入語法高亮、行號、多游標與行內錯誤提示，並可快速把表達式套用到多個屬性。｜https://aescripts.com/expressionist/
 Exte｜aescripts｜script｜draw｜從形狀路徑上指定兩個點建立可動畫的延伸線，快速製作導線、標註與向外生長的線條。｜https://aescripts.com/exte/
 EZ Marker Align｜aescripts｜script｜workflow｜把一個圖層上的標記與另一個圖層的標記快速對齊，適合節奏同步、分段動畫與模板時間配置。｜https://aescripts.com/ez-marker-align/
-Face Swapper｜aescripts｜script｜composite｜以 GPU 執行專業臉部替換並提供可商用模型，適合 VFX 鏡頭中的演員替身、修補與創意換臉。｜https://aescripts.com/face-swapper/
+Face Swapper｜aescripts｜plugin｜composite｜以 GPU 執行專業臉部替換並提供可商用模型，適合 VFX 鏡頭中的演員替身、修補與創意換臉。｜https://aescripts.com/face-swapper/
 Face Tracker to Nulls｜aescripts｜script｜tracking｜把 AE Face Tracker 的追蹤結果轉成 Null 控制點，方便把五官運動用於特效綁定、遮罩與臉部圖形動畫。｜https://aescripts.com/face-tracker-to-nulls/
 Fade It｜aescripts｜script｜transition｜快速為 AE 圖層套用多種淡入與淡出動畫，減少日常轉場與大量圖層進出場的重複設定。｜https://aescripts.com/fade-it/
 Fade Up RTL｜aescripts｜script｜text｜為 RTL 與 LTR 多行段落文字建立逐字或逐詞 Fade Up 動畫，補足阿拉伯文等由右至左排版需求。｜https://aescripts.com/fade-up-rtl/
@@ -563,8 +562,8 @@ ft-UVPass｜aescripts｜script｜composite｜利用 UV／ST Map 與 Position Map
 FXAA｜aescripts｜plugin｜restore｜在 AE 中套用業界常用的 FXAA 即時反鋸齒，快速平滑 3D 算圖、遊戲畫面與銳利幾何邊緣。｜https://aescripts.com/fxaa/
 Glitch Control｜aescripts｜plugin｜stylize｜以模組化控制快速建立經典數位故障、畫面錯位與訊號干擾，適合科技、音樂與轉場視覺。｜https://aescripts.com/glitch-control/
 Google Earth Studio Toolkit｜aescripts｜script｜mograph｜快速新增與管理 Google Earth Studio 畫面上的 pins、標籤與連接線，適合地理簡報、路線與新聞地圖動畫。｜https://aescripts.com/google-earth-studio-toolkit/
-GPUResize｜aescripts｜script｜restore｜以 GPU 執行快速進階影像插值與縮放，適合大量調整解析度、放大素材與高效重新取樣。｜https://aescripts.com/gpuresize/
-Hacksaw｜aescripts｜script｜distort｜以隨機產生的置換圖樣扭曲 AE／Premiere 畫面，建立撕裂、波動與程序化故障效果。｜https://aescripts.com/hacksaw/
+GPUResize｜aescripts｜plugin｜restore｜以 GPU 執行快速進階影像插值與縮放，適合大量調整解析度、放大素材與高效重新取樣。｜https://aescripts.com/gpuresize/
+Hacksaw｜aescripts｜plugin｜distort｜以隨機產生的置換圖樣扭曲 AE／Premiere 畫面，建立撕裂、波動與程序化故障效果。｜https://aescripts.com/hacksaw/
 Handy Hands 2｜aescripts｜script｜rigging｜一鍵建立、設定樣式並擺出可靈活調整的角色手掌，適合插畫人物與解說動畫的手勢製作。｜https://aescripts.com/handy-hands/
 HandyCam｜aescripts｜script｜3d｜簡化 AE 攝影機的建立、綁定與動畫控制，讓常見運鏡不必直接處理複雜的原生 Camera 參數。｜https://aescripts.com/handycam/
 Helix｜aescripts｜script｜draw｜以類似 Cinema 4D Helix 的簡易控制在 AE 中建立螺旋路徑，適合彈簧、DNA、軌跡與線條動畫。｜https://aescripts.com/helix/
@@ -621,9 +620,9 @@ FBX to AE Pro｜aescripts｜script｜3d｜在 FBX 與 AE 合成之間匯入或�
 Find & Replace Keyframes｜aescripts｜script｜animation｜尋找所有符合指定數值的關鍵影格並批次替換成新值，適合修正大型動畫中的重複設定。｜https://aescripts.com/find-and-replace-keyframes/
 Flatten Layers 2｜aescripts｜script｜workflow｜不預先算圖即可把多個圖層分組並無損扁平化成背景單層，也能隨時切回未扁平化狀態。｜https://aescripts.com/flatten-layers/
 DMAPR: Displacement Map Generator｜aescripts｜plugin｜generate｜在 AE 中建立可供位移與變形使用的高控制度 Displacement Map，適合紋理擾動、地形與程序化扭曲（僅支援 Windows）。｜https://aescripts.com/dmapr-displacement-map-generator/
-Fixel DeLightIT 2｜aescripts｜script｜color｜針對畫面高光區域最佳化色彩並揭露亮部細節，快速修正過亮區的偏色與層次流失。｜https://aescripts.com/fixel-delightit/
-Fixel EdgeHancer 3｜aescripts｜script｜edge｜只強調影像邊緣而不提高周圍像素對比，並提供保留邊緣控制，適合精準增加輪廓與細節清晰度。｜https://aescripts.com/fixel-edgehancer/
-Fixel LightIT 2｜aescripts｜script｜color｜以非線性遮罩辨識陰影區域，最佳化暗部色彩並揭露細節，避免整體提亮造成高光與中間調失衡。｜https://aescripts.com/fixel-lightit/
+Fixel DeLightIT 2｜aescripts｜plugin｜color｜針對畫面高光區域最佳化色彩並揭露亮部細節，快速修正過亮區的偏色與層次流失。｜https://aescripts.com/fixel-delightit/
+Fixel EdgeHancer 3｜aescripts｜plugin｜edge｜只強調影像邊緣而不提高周圍像素對比，並提供保留邊緣控制，適合精準增加輪廓與細節清晰度。｜https://aescripts.com/fixel-edgehancer/
+Fixel LightIT 2｜aescripts｜plugin｜color｜以非線性遮罩辨識陰影區域，最佳化暗部色彩並揭露細節，避免整體提亮造成高光與中間調失衡。｜https://aescripts.com/fixel-lightit/
 Geometrize!｜aescripts｜script｜art｜把來源影像重建成抽象形狀排列，快速製作幾何插畫、低多邊形與程序化圖像風格。｜https://aescripts.com/geometrize/
 Graph Master 3｜aescripts｜plugin｜generate｜以快速資料輸入建立可動畫圖表，並支援雷達圖等類型，適合簡報、報告與資訊視覺化。｜https://aescripts.com/graph-master/
 Line Em Up｜aescripts｜script｜workflow｜以運算式將文字與一般圖層水平或垂直對齊、等距分布，內容、縮放或顯示狀態改變時會自動重排，適合製作可調整的 MOGRT 版面。｜https://aescripts.com/line-em-up/
@@ -717,18 +716,17 @@ Photolapse｜aescripts｜script｜animation｜把多張照片快速編排成 Fla
 PhotoOrientationFixer｜aescripts｜script｜workflow｜讀取相機照片的 XMP 方向中繼資料，自動旋轉合成中的選取圖層，修正 After Effects 未依拍攝方向顯示直幅或橫幅照片的問題。｜https://aescripts.com/photoorientationfixer/
 Pinna｜aescripts｜script｜rigging｜為選取的路徑點建立可自由增刪的控制、跟隨或追蹤空物件，可讓路徑點與空物件互相跟隨角度、把空物件動畫烘焙回路徑，並修正群組變形造成的偏移。｜https://aescripts.com/pinna/
 Pixel Pusher｜aescripts｜script｜workflow｜依自訂像素值在 X、Y、Z 軸推移選取圖層，支援多圖層遞迴操作、關鍵影格、小數位移、倍率鍵與可設定快捷鍵，適合精確微調版面與動畫位置。｜https://aescripts.com/pixel-pusher/
-Pixel Melt｜aescripts｜script｜distort｜依像素亮度曲線分配速度與延展量，讓每個像素沿指定方向獨立拉伸和位移；可使用其他圖層控制速度與延展，並加入掃描線調變、著色、環繞及缺口填補。｜https://aescripts.com/pixel-melt/
+Pixel Melt｜aescripts｜plugin｜distort｜依像素亮度曲線分配速度與延展量，讓每個像素沿指定方向獨立拉伸和位移；可使用其他圖層控制速度與延展，並加入掃描線調變、著色、環繞及缺口填補。｜https://aescripts.com/pixel-melt/
 Pixelfan｜aescripts｜script｜stylize｜沿任意路徑或遮罩使用另一個圖層作為筆畫紋理，並以可動畫化參數調整結果；Original Frame 模式可直接取底層畫面作為沿路徑展開的材質。｜https://aescripts.com/pixelfan/
 PixelsWorld｜aescripts｜plugin｜generate｜在 After Effects 內執行 Processing 風格、Lua、GLSL 與 Shadertoy 程式碼生成 2D／3D 圖形，可用幾何試算表建立模型、讀取影像與音訊資料並分享程式預設；官方目前僅支援 Windows。｜https://aescripts.com/pixelsworld/
-Pixelocybe｜aescripts｜script｜distort｜依來源或第二輸入圖層的亮度動態改變馬賽克區塊尺寸與位移，可分別處理 RGB、Alpha 或亮度通道，並以曲線、相位、陰影、偏移與透明度門檻塑造效果。｜https://aescripts.com/pixelocybe/
-Pixy Halftone｜aescripts｜script｜stylize｜依亮度把影像即時轉為方形、圓形、三角形、菱形、迷宮或隨機圖案半色調，可控制圖形大小、間距、顏色、尺寸與不透明度對比，並支援來源色彩與 Alpha。｜https://aescripts.com/pixy-halftone/
+Pixelocybe｜aescripts｜plugin｜distort｜依來源或第二輸入圖層的亮度動態改變馬賽克區塊尺寸與位移，可分別處理 RGB、Alpha 或亮度通道，並以曲線、相位、陰影、偏移與透明度門檻塑造效果。｜https://aescripts.com/pixelocybe/
+Pixy Halftone｜aescripts｜plugin｜stylize｜依亮度把影像即時轉為方形、圓形、三角形、菱形、迷宮或隨機圖案半色調，可控制圖形大小、間距、顏色、尺寸與不透明度對比，並支援來源色彩與 Alpha。｜https://aescripts.com/pixy-halftone/
 Plotter｜aescripts｜script｜art｜使用 16 種演算法把影片或影像轉成向量藝術，涵蓋方塊、Delaunay、半色調、線稿、馬賽克、針線、螺旋、點描與波浪，並可套用來源色彩、輸出 SVG 或轉為形狀圖層。｜https://aescripts.com/plotter/
 Pointers｜aescripts｜script｜rigging｜把任意圖層或空間屬性吸附並連結到另一圖層的位置，自動處理 2D、3D 與既有父層座標轉換；可動畫化延遲與偏移，分開連結旋轉和縮放，並讓燈光、攝影機或效果控制點跟隨圖層。｜https://aescripts.com/pointers/
 POP Captions｜aescripts｜script｜text｜一鍵把文字圖層建立為可逐字彈出的字幕動畫，以單一控制層管理效果，能自動依字數設定動畫範圍、同步前景與背景字型尺寸，並分別控制文字、背景顏色及背景動畫。｜https://aescripts.com/pop-captions/
 Position Matte 2｜aescripts｜script｜matte｜從 3D 軟體輸出的 World Position Pass 快速建立區域遮色片，減少額外遮罩通道與手工 roto；可用素材、形狀或預合成作為投影，並支援平鋪、偏移、世界旋轉、格線、放射波與光線模式。｜https://aescripts.com/position-matte/
 Power Sphere｜aescripts｜plugin｜3d｜直接在 After Effects 生成可變形的 3D 球體，支援橢圓扭曲、球面展開與反轉、材質滑動、反射貼圖、深度合成、自我陰影、景深，以及合成燈光和攝影機。｜https://aescripts.com/power-sphere/
-Power Hyperboloid｜aescripts｜script｜3d｜生成雙葉 3D 雙曲面並在合成空間中移動、變形、反轉、重複延伸或展開成平面，提供豐富著色、自我陰影、反射、景深，以及合成燈光與攝影機支援。｜https://aescripts.com/power-hyperboloid/
-Polyline｜aescripts｜script｜generate｜生成彩色且可完整控制的動畫多邊形線條，適合製作程序式幾何、科技介面、抽象背景與線條運動圖形，並支援 Apple Silicon。｜https://aescripts.com/polyline/
+Power Hyperboloid｜aescripts｜plugin｜3d｜生成雙葉 3D 雙曲面並在合成空間中移動、變形、反轉、重複延伸或展開成平面，提供豐富著色、自我陰影、反射、景深，以及合成燈光與攝影機支援。｜https://aescripts.com/power-hyperboloid/
 Power Droste｜aescripts｜plugin｜distort｜建立多功能螺旋與 Droste 遞迴變形，提供 Levels 和 Strands 兩種渲染模式，可進行 3D 旋轉與展開，並分別控制多股螺旋的材質和額外變形。｜https://aescripts.com/power-droste/
 PrayMitive｜aescripts｜plugin｜3d｜在 After Effects 內以 GPU 即時建立並組合 14 種光線步進 3D 基本體，支援平滑聯集、相減、交集、獨立材質及波浪、漣漪、扭轉、彎曲等可動畫形變。｜https://aescripts.com/praymitive/
 Precomp Anchor Repo｜aescripts｜script｜workflow｜依圖層、合成或父層的實際內容範圍重新定位錨點或位置，能分析預合成、遮罩、Track Matte 與部分運算式，減少目測校正。｜https://aescripts.com/precomp-anchor-repo/
@@ -899,7 +897,7 @@ Trajectory｜aescripts｜script｜animation｜把選取圖層轉為 3D，等距�
 Trails｜aescripts｜plugin｜draw｜替任意圖層建立會即時跟隨位置變動的動態 Shape Layer 尾跡，不受原層複雜 parenting 或 expression 結構限制。Line Velocity 可讓線條物理感與長度依速度反應，Wiggler 加入隨機擺動，Add Movement 讓線條持續流動；亦可搭配 Trim Paths、Repeater、Zig Zag。Offset Trails 能前後錯時，Stick Trail 則把尾跡兩端黏到點或圖層。｜https://aescripts.com/trails/
 Transform Pack for Transformer｜aescripts｜plugin｜preset｜提供 50 款專為 Transformer 2 製作的一鍵動畫預設，可套用任何解析度的圖片或影片，並調整切片間距與動畫開始時間。舊版需另有 Transformer 2.3 以上才能使用；目前整套已直接內含於 Transformer 3，因此不必再獨立購買。｜https://aescripts.com/transform-pack-for-transformer/
 TranShape｜aescripts｜script｜workflow｜將選取 Shape Layer 的深層屬性載入可停駐 Inspector，從面板直接檢視、修改與設關鍵影格，減少在時間軸反覆展開 Contents 群組的操作。按 Get 讀取目前形狀後即可用滑桿與數值控制；官方因尚待解決的問題暫時下架，最後相容性只列到 AE 2020。｜https://aescripts.com/transhape/
-Transition Master 2 Basic / Pro｜aescripts｜script｜transition｜跨 AE、Premiere Pro、DaVinci Resolve 與 Nuke 使用的原生式轉場系統。免費 Basic 版含 5 款預設、可調 ease 速度並匯入 Pro 輸出的轉場；Pro 可從 40 多款庫開始自訂，以 Transform、Grid、Time Remap、後製與完整 easing 組合轉場，並依參考影像明暗決定各區域先後，之後儲存、跨軟體分享或販售預設。｜https://aescripts.com/transition-master-pro/
+Transition Master 2 Basic / Pro｜aescripts｜plugin｜transition｜跨 AE、Premiere Pro、DaVinci Resolve 與 Nuke 使用的原生式轉場系統。免費 Basic 版含 5 款預設、可調 ease 速度並匯入 Pro 輸出的轉場；Pro 可從 40 多款庫開始自訂，以 Transform、Grid、Time Remap、後製與完整 easing 組合轉場，並依參考影像明暗決定各區域先後，之後儲存、跨軟體分享或販售預設。｜https://aescripts.com/transition-master-pro/
 TranslateExpressions｜aescripts｜script｜expression｜依目前執行中的 After Effects 語言，自動翻譯 expression 內引用的控制項名稱，處理專案從另一種 AE 介面語系開啟時，因效果或參數顯示名稱不同而失效的連結。用途聚焦跨語系專案相容，不負責翻譯表達式程式邏輯本身。｜https://aescripts.com/translateexpressions/
 Trigger｜aescripts｜script｜time｜用同名 Layer Marker 從外層合成呼叫預合成內的指定動畫區段，讓複雜動畫從固定線性時間軸變成事件式片段。Retime 會建立 Trigger Null 與時間重映射 expression；可在目前時間、所選圖層入點或 Position／Scale／Rotation／Opacity 關鍵影格處批次建事件，並自動同步到所有外層 precomp 實例。移動外層標記即可非破壞改時、測試版本或串接多段動作。｜https://aescripts.com/trigger/
 Trim N Collect｜aescripts｜script｜workflow｜分析整個 AE 專案實際用到的媒體區段，只裁切／轉碼所需範圍並保留指定 handles，再把專案重新連結到精簡檔案，供封存或交接。可合併重疊區段與間隙、略過完整使用的素材，處理一般圖像序列及多通道 OpenEXR，選擇複製完整序列、C4D 檔或只轉碼不 Collect，並可用範本及匯出腳本建立資料夾與專案位深等環境。｜https://aescripts.com/trim-n-collect/
@@ -956,7 +954,7 @@ Zercon - Animated Typeface｜aescripts｜script｜text｜由 Hanken Co. 設計�
 Zone Below｜aescripts｜script｜workflow｜以一個 Zone Layer 動態顯示指定區域下方的圖層內容，生成的 Reveal Zone 可直接在畫面中移動或製作動畫，不必手動維護複雜的遮罩與 Track Matte。可建立不限數量的區域，並支援 Shape Layer、Text 與 Precomp；精簡面板適合快速製作局部穿透、聚光顯示、滑動揭露與會跟著物件移動的可見窗口。｜https://aescripts.com/zone-below/
 Zujal Animated Typeface｜aescripts｜plugin｜text｜由 Igor Petrovic 設計、Butlerm 發行的手寫漫畫風 Animated Typeface，全部以 Vector Shape Layers 建立，字元沿 Path Stroke 寫出。包含大小寫、數字與 7 個常用符號，共 69 個 Glyph；主筆畫與 Accent Trail 可用兩種顏色，並能在顯現過程加入 Highlight。提供 JSX，支援 Characteristic 與 Font Manager，無需外掛或預渲染，向量結構可自由縮放。｜https://aescripts.com/zujal-animated-typeface/
 Trim Comp to Contents｜aescripts｜script｜workflow｜依圖層最早的 In Point 與最晚的 Out Point，自動縮短或延長目前合成的 Duration，且不改變圖層彼此的相對時間；即使圖層超出合成開頭或結尾，也能把合成範圍擴張到完整容納。可選擇全部或已選圖層、納入或忽略 Locked Layers、遞迴裁切 Nested Comps，以及保留非零的 Comp Start Time。除可停駐 UI 外，也能由 ft-toolbar 等啟動器無介面執行，並用 Alt／Shift／Ctrl 快速切換選項。｜https://aescripts.com/trim-to-comp-contents/
-Fluxion Warp｜aescripts｜script｜distort｜由一條或多條 Mask 產生 Vector Field，再以 Pixel Advection 把原影像沿流場方向推送與扭曲。可調 Field Width、Strength 與 Width Falloff，反轉流向、決定像素抵達 Mask Endpoints 後的行為，並以四種 Edge Handling Modes 處理畫面邊界。內建三種 Turbulence，可控制 Noise Map Scale、亂流速度並動畫 Noise Phase，讓規則的路徑推流變成自然液態或氣流形變；操作集中在簡潔介面。與 Fluxion 粒子版不同，本款直接搬移來源像素，不建立發射器或粒子。｜https://aescripts.com/fluxion-warp/
+Fluxion Warp｜aescripts｜plugin｜distort｜由一條或多條 Mask 產生 Vector Field，再以 Pixel Advection 把原影像沿流場方向推送與扭曲。可調 Field Width、Strength 與 Width Falloff，反轉流向、決定像素抵達 Mask Endpoints 後的行為，並以四種 Edge Handling Modes 處理畫面邊界。內建三種 Turbulence，可控制 Noise Map Scale、亂流速度並動畫 Noise Phase，讓規則的路徑推流變成自然液態或氣流形變；操作集中在簡潔介面。與 Fluxion 粒子版不同，本款直接搬移來源像素，不建立發射器或粒子。｜https://aescripts.com/fluxion-warp/
 Feedback Studio｜aescripts｜plugin｜stylize｜模擬 Video Feedback Loop，把過去影格像 Audio Delay／Echo 一樣反覆送回目前畫面，所有參數皆可動畫化。每次迴圈可沿 X／Y Translation、Zoom 與 Rotation 重新放置影格，再逐次改變 Hue、Saturation、Brightness 或套用 Recursive Negative、Blur／Sharpen；內建 Luma Key 與 Chroma Key 可限制哪些區域進入回授。三種 Mirror Modes 能把回音轉成 Fractal／Kaleidoscopic 圖案，少量參數偏移即可形成長拖尾、無限隧道或不斷演化的抽象結構。GPU 加速可在合適工作站全解析度即時處理；官方教學要求使用時停用 MFR。｜https://aescripts.com/feedback-studio/
 Dropletee｜aescripts｜plugin｜distort｜以時間累積影格建立液態表面，再依 Surface Normals 推移來源像素，疊加 Iridescent Colors 與 Lighting，形成油膜、肥皂泡、酸液或流動波紋；透過 WebGPU 在 GPU 上運算。除 Final Result 外，可輸出未風格化的 Clean Accumulation、Alpha Mask 或 Normal Map，另有 Noise、Palette、Light Debug Views，方便把中間資料交給後續合成。快取提供三種模式：Live Preview 可即時調參並保留最多 120 Frames、Compute 一鍵快取完整序列並在畫面顯示進度、Auto Cache 則播放時間軸時背景累積。僅支援 After Effects、不支援 Premiere Pro；目前相容 AE 2023–2026，macOS 10.15+ Intel／Apple Silicon 與 Windows 10+。｜https://aescripts.com/dropletee/
 Fractal Noise 3D v2｜aescripts｜plugin｜3d｜GPU 加速的 True 3D Volumetric Fractal Noise Renderer，在空間中建立真正的三維雜訊場，而非平面假深度；AE Camera 可直接穿越體積，Point、Spot、Directional 與 Ambient Lights 從任意方向照明，製作積雲、Atmospheric Fog 與 God Rays。Geometry 可選 Box、Sphere、Sphere2、Cylinder 等；v2 的 Domain Warp 以 Twist／Vortex 扭曲 Perlin Noise 取樣座標，產生流動、漩渦和更有機的雲氣。任何 3D Layer 可作 Obstacle，在霧中擋光投影，Transmission 則讓光線部分穿透；Depth Map 可與外部 CG 或實拍正確前後遮擋。支援 Metal、CUDA、OpenCL、MFR 與 8／16／32bpc。｜https://aescripts.com/fractal-noise-3d/
@@ -2039,7 +2037,7 @@ TVPixel｜第三方｜plugin｜stylize｜把畫面重組成可調尺寸的 RGB �
 Fast Bokeh Pro｜第三方｜plugin｜blur｜依深度圖快速生成保留物件邊緣的高品質散景模糊，適合合成景深、焦點轉移與自訂光圈形狀。｜https://www.rowbyte.com/fast-bokeh
 Buena Depth Cue Depth｜第三方｜plugin｜perspective｜從 2.5D 合成建立可驅動其他效果的灰階深度圖，適合補出景深、空氣透視與虛擬攝影機移動的空間層次。｜https://www.rowbyte.com/buena-depth-cue
 Buena Depth Cue Rack Focus｜第三方｜plugin｜blur｜依 Z 距離快速設定景深與焦點目標，適合在 2.5D 場景中製作電影式拉焦和閱讀焦點引導。｜https://www.rowbyte.com/buena-depth-cue
-Buena Depth Cue Camera Mapper｜第三方｜script｜perspective｜把照片或影片片段投影到 AE 的多個 3D 平面，適合用單張影像重建 2.5D 場景並製作帶視差的虛擬運鏡。｜https://www.rowbyte.com/buena-depth-cue
+Buena Depth Cue Camera Mapper｜第三方｜plugin｜perspective｜把照片或影片片段投影到 AE 的多個 3D 平面，適合用單張影像重建 2.5D 場景並製作帶視差的虛擬運鏡。｜https://docs.rowbyte.com/buena-depth-cue/camera_mapper/
 Buena Depth Cue Flipside｜第三方｜plugin｜3d｜將另一圖層貼到 2D 圖層背面而不產生間隙，適合製作卡片翻面、雙面標牌與紙張旋轉動畫。｜https://www.rowbyte.com/buena-depth-cue
 Data Storyteller｜第三方｜plugin｜mograph｜把 CSV、Excel 或 JSON 資料直接轉成可動畫的長條圖、折線圖、散佈圖與世界／美國地圖，適合紀錄片、企業影片和數據敘事。｜https://digitalanarchy.com/data-storyteller/
 RE:Vision DEFlicker｜第三方｜plugin｜restore｜結合逐像素追蹤與局部色彩轉移來平滑高速攝影、縮時與人造光源造成的閃爍，亦可修復緩慢移動的暗色滾動條紋。｜https://revisionfx.com/products/deflicker/after-effects/
@@ -2227,8 +2225,8 @@ FxFactory Pro Videoconference｜第三方｜plugin｜transition｜以視訊會�
 FxFactory Pro Waves Wipe｜第三方｜plugin｜transition｜以波浪擦拭在兩個鏡頭間切換，適合節奏剪輯、片頭與圖形化轉場。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/transitions/waveswipe.html
 FxFactory Pro Whoosh｜第三方｜plugin｜transition｜以高速甩鏡切換在兩個鏡頭間切換，適合節奏剪輯、片頭與圖形化轉場。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/transitions/whoosh.html
 FxFactory Pro Zoom Dissolve｜第三方｜plugin｜transition｜以縮放溶接在兩個鏡頭間切換，適合節奏剪輯、片頭與圖形化轉場。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/transitions/zoomdissolve.html
-FxFactory Pro Frame Info｜第三方｜script｜utility｜提供影格與素材資訊疊字功能，適合算圖檢查、素材處理與交付工作流程。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/video/frameinfo.html
-FxFactory Pro Upscale｜第三方｜script｜utility｜提供高品質影像放大功能，適合算圖檢查、素材處理與交付工作流程。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/video/upscale.html
+FxFactory Pro Frame Info｜第三方｜plugin｜utility｜提供影格與素材資訊疊字功能，適合算圖檢查、素材處理與交付工作流程。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/video/frameinfo.html
+FxFactory Pro Upscale｜第三方｜plugin｜utility｜提供高品質影像放大功能，適合算圖檢查、素材處理與交付工作流程。｜https://fxfactory.com/downloads/docs/noiseindustries/fxfactorypro/Documentation/video/upscale.html
 FxFactory Pro Channel Block｜第三方｜plugin｜color｜進行色彩通道方塊化，適合專業校色、色彩管理與風格調整。｜https://fxfactory.com/help/fxfactorypro/129C7791-9795-4CDC-97FF-749087F40086.localized/02B9A4AB-4586-43E7-B1D6-F101FDC2F232.localized/index.html
 FxFactory Pro Crush｜第三方｜plugin｜color｜進行高對比壓黑壓白，適合專業校色、色彩管理與風格調整。｜https://fxfactory.com/help/fxfactorypro/129C7791-9795-4CDC-97FF-749087F40086.localized/866A7D18-8350-48FD-8276-8F86F09FDE2C.localized/index.html
 FxFactory Pro Duotone/Tritone｜第三方｜plugin｜color｜進行雙色與三色調映射，適合專業校色、色彩管理與風格調整。｜https://fxfactory.com/help/fxfactorypro/129C7791-9795-4CDC-97FF-749087F40086.localized/BF1E250F-E500-48CA-BCDA-33E25A0106CF.localized/index.html
@@ -2259,13 +2257,13 @@ FxFactory Pro Reflected Tile｜第三方｜plugin｜distort｜把來源處理成
 FxFactory Pro Rotated Tile｜第三方｜plugin｜distort｜把來源處理成旋轉重複磁磚，適合版面重組、幾何背景與動態變形。｜https://fxfactory.com/help/fxfactorypro/621018B1-1934-4102-80A2-5D97BD51A6C5.localized/12E3DFBA-7267-4471-9653-5D17F9578A07.localized/index.html
 FxFactory Pro Triangular Kaleidoscope｜第三方｜plugin｜distort｜把來源處理成三角萬花筒，適合版面重組、幾何背景與動態變形。｜https://fxfactory.com/help/fxfactorypro/621018B1-1934-4102-80A2-5D97BD51A6C5.localized/A333413D-DCA2-47A6-A285-FF0DD8E8F5E0.localized/index.html
 FxFactory Pro Triangular Tile｜第三方｜plugin｜distort｜把來源處理成三角磁磚排列，適合版面重組、幾何背景與動態變形。｜https://fxfactory.com/help/fxfactorypro/621018B1-1934-4102-80A2-5D97BD51A6C5.localized/6124125D-41F4-45C0-B76D-B6209AD3BE93.localized/index.html
-FxFactory Pro FPS｜第三方｜script｜utility｜提供幀率資訊顯示工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/5204DD73-4061-409B-B092-C6E7BDD7393F.localized/index.html
+FxFactory Pro FPS｜第三方｜plugin｜utility｜提供幀率資訊顯示工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/5204DD73-4061-409B-B092-C6E7BDD7393F.localized/index.html
 FxFactory Pro Isolate Depth｜第三方｜plugin｜matte｜利用依深度隔離區域建立可動畫化選區，適合人物去背、景深分層與局部特效。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/82C3C94F-7D60-4275-BB1E-262E5741B0AB.localized/index.html
 FxFactory Pro Isolate Subject｜第三方｜plugin｜matte｜利用自動人物主體遮罩建立可動畫化選區，適合人物去背、景深分層與局部特效。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/4CB4D029-8F67-414C-8AC2-CCB0D63EB26F.localized/index.html
-FxFactory Pro Portrait to Landscape｜第三方｜script｜utility｜提供直式素材延展為橫式工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/C7FCBED9-C258-4D6E-887C-FEC167B52B52.localized/index.html
-FxFactory Pro Side-by-Side｜第三方｜script｜utility｜提供左右並排比較工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/67997E6F-B091-44A2-9CD1-6CDED4409800.localized/index.html
-FxFactory Pro Trackable PiP｜第三方｜script｜utility｜提供可追蹤子母畫面工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/10226D09-70F5-40B4-9FB1-6999DC62BF60.localized/index.html
-FxFactory Pro Upscaler｜第三方｜script｜utility｜提供智慧影像放大工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/C7C0D731-F335-4ADE-AF3C-F71A40406413.localized/index.html
+FxFactory Pro Portrait to Landscape｜第三方｜plugin｜utility｜提供直式素材延展為橫式工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/C7FCBED9-C258-4D6E-887C-FEC167B52B52.localized/index.html
+FxFactory Pro Side-by-Side｜第三方｜plugin｜utility｜提供左右並排比較工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/67997E6F-B091-44A2-9CD1-6CDED4409800.localized/index.html
+FxFactory Pro Trackable PiP｜第三方｜plugin｜utility｜提供可追蹤子母畫面工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/10226D09-70F5-40B4-9FB1-6999DC62BF60.localized/index.html
+FxFactory Pro Upscaler｜第三方｜plugin｜utility｜提供智慧影像放大工具，適合素材整理、版面轉換與交付檢查。｜https://fxfactory.com/help/fxfactorypro/1672801B-74E1-49CF-8E87-5D69472D26D5.localized/C7C0D731-F335-4ADE-AF3C-F71A40406413.localized/index.html
 Wipology Comicbook Wipe｜第三方｜plugin｜transition｜以漫畫墨線擦拭逐步揭露下一個鏡頭，適合社群短片、片頭與節奏型剪輯。｜https://fxfactory.com/help/wipology/69E7B329-F896-4391-A5A6-C010EDCC0393.localized/2CEED3CA-FFF2-4567-9A11-5E7BB61A5587.localized/index.html
 Wipology Defocus Wipe｜第三方｜plugin｜transition｜以失焦模糊擦拭逐步揭露下一個鏡頭，適合社群短片、片頭與節奏型剪輯。｜https://fxfactory.com/help/wipology/69E7B329-F896-4391-A5A6-C010EDCC0393.localized/35AC8BF1-991A-44C6-8749-EC510407D648.localized/index.html
 Wipology Edges Wipe｜第三方｜plugin｜transition｜以輪廓線擦拭逐步揭露下一個鏡頭，適合社群短片、片頭與節奏型剪輯。｜https://fxfactory.com/help/wipology/69E7B329-F896-4391-A5A6-C010EDCC0393.localized/4536BDDB-A5E7-4E00-B196-42678400C1A2.localized/index.html
@@ -2328,7 +2326,7 @@ Revolve 360｜第三方｜plugin｜vr｜調整與旋轉等距柱狀 360 度影�
 Rolling Credits｜第三方｜plugin｜text｜以畫面控制建立具樣式的滾動職員字幕，適合電影片尾、活動名單和贊助資訊。｜https://fxfactory.com/info/rollingcredits/
 Subtitles｜第三方｜plugin｜text｜讀取標準 SubRip SRT 資料並生成字幕，適合翻譯影片、訪談與多語版本交付。｜https://fxfactory.com/info/subtitles/
 Viewfinder HUD｜第三方｜plugin｜generate｜生成多種相機觀景窗與高科技 HUD 圖形，適合軍事、科幻和監控畫面。｜https://fxfactory.com/info/hud/
-Ximport AE｜第三方｜script｜workflow｜把 Final Cut Pro 剪輯工程遷移到 After Effects，適合保留時間軸結構進行合成與動態設計。｜https://fxfactory.com/info/ximportae/
+Ximport AE｜第三方｜plugin｜workflow｜把 Final Cut Pro 剪輯工程遷移到 After Effects，適合保留時間軸結構進行合成與動態設計。｜https://fxfactory.com/info/ximportae/
 Log Neutralizer｜第三方｜plugin｜color｜將常見攝影機 Log 素材轉成自然的 Rec.709 對比與色彩，適合快速建立後續調色起點。｜https://fxfactory.com/info/logneutralizer/
 Warping Wheels｜第三方｜plugin｜color｜以保留膚色的色輪調整陰影、中間調與高光，適合人物為主的電影調色。｜https://fxfactory.com/info/warpingwheels/
 DFISH｜第三方｜plugin｜restore｜移除魚眼鏡頭的桶狀彎曲並拉直畫面，適合運動相機、超廣角與監控素材。｜https://fxfactory.com/info/dfish/
@@ -2341,8 +2339,8 @@ FxTiles｜第三方｜plugin｜3d｜把影像切成可三維翻動的磁磚並�
 Andy's Better 3D｜第三方｜plugin｜3d｜以簡化控制在三維空間調整二維內容，適合照片牆、標題景深和快速透視動畫。｜https://fxfactory.com/info/better3d/
 Andy's Elastic Aspect｜第三方｜plugin｜distort｜將非標準比例素材延展至 16:9 並減少主體變形，適合直式或窄幅舊素材的橫版交付。｜https://fxfactory.com/info/elasticaspect/
 Andy's Gradient Filter｜第三方｜plugin｜color｜模擬中性密度漸層鏡來壓暗天空或局部亮區，適合平衡風景素材的上下曝光。｜https://fxfactory.com/info/gradientfilter/
-Andy's Region Tool｜第三方｜script｜utility｜把其他效果限制在指定矩形或區域內，適合局部修色、測試比較和快速遮罩。｜https://fxfactory.com/info/regiontool/
-Andy's Safe Guides｜第三方｜script｜utility｜顯示多種標題與動作安全區疊圖，適合電視播出、社群裁切和版面檢查。｜https://fxfactory.com/info/safeguides/
+Andy's Region Tool｜第三方｜plugin｜utility｜把其他效果限制在指定矩形或區域內，適合局部修色、測試比較和快速遮罩。｜https://fxfactory.com/info/regiontool/
+Andy's Safe Guides｜第三方｜plugin｜utility｜顯示多種標題與動作安全區疊圖，適合電視播出、社群裁切和版面檢查。｜https://fxfactory.com/info/safeguides/
 Andy's Swish Transitions｜第三方｜plugin｜transition｜建立帶方向性模糊的甩鏡溶接與平移轉場，適合旅遊、活動和快節奏剪輯。｜https://fxfactory.com/info/swishtransitions/
 Light Show Filter｜第三方｜plugin｜light｜把輝光、光溢、閃芒、扭曲與環境質感套在單一圖層，適合標題發光、霓虹影像和能源掃光動畫。｜https://fxfactory.com/help/lightshow/A83AAAD5-9681-4004-8B58-AD33DA9B467B.localized/302E1E58-D59B-4CC1-91F2-F91C7F0806E8.localized/index.html
 Light Show Transition｜第三方｜plugin｜transition｜以自動進度混合輝光、光溢與折射扭曲來切換兩個鏡頭，適合高能量片頭、霓虹 MV 和節奏剪輯。｜https://fxfactory.com/help/lightshow/A83AAAD5-9681-4004-8B58-AD33DA9B467B.localized/1E35084F-4175-41EE-9363-A1C60944F165.localized/index.html

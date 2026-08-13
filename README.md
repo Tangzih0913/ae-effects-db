@@ -9,7 +9,7 @@
 **想用「貼參考圖」找效果？** 在搜尋頁按一下 **🤖 用 AI 找 / 貼圖找**，複製那段提示詞貼進
 ChatGPT / Claude / Gemini 就能用——不用安裝任何東西。提示詞也放在 **[PROMPT.md](PROMPT.md)**。
 
-> **2,472 筆**經策展條目，涵蓋外掛、腳本、AE 內建效果與效果配方；每筆都有已查證的官方連結、至少 5 個中英搜尋標籤，以及「功能＋典型用途」說明。
+> **2,470 筆**經策展條目，涵蓋外掛、腳本、AE 內建效果與效果配方；每筆都有已查證的官方連結、至少 5 個中英搜尋標籤，以及「功能＋典型用途」說明。
 
 ## 四種用法
 
@@ -97,7 +97,8 @@ python validate.py              # 校驗全部資料（送 PR 時 CI 也會跑�
 python tools/find_new.py --desc # 列出 aescripts 上還沒收錄的候選＋官方說明
 python tools/add.py new.jsonl   # 安全匯入：自動判重、檢查欄位、選對資料檔
 python tools/audit.py           # 盤點型態、分類、官方網域與品質風險
-python tools/classify_kind.py   # 回填／重算工具型態
+python tools/classify_kind.py   # 只列出建議型態，不修改資料
+python tools/classify_kind.py --apply  # 人工確認後才套用型態修正
 python tools/organize_data.py   # 把 AE 內建與效果配方搬回正確資料檔
 ```
 
