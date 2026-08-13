@@ -891,3 +891,14 @@ booth-3394210	BPM 同期モーションスクリプト的節拍表達式與逐�
 booth-6775944	ColorPalette 的調色盤預設與表達式連動換色已由 Ray Dynamic Color 2、ColorFlow、Pigment 與 Coco Color CoWorker 等既有工具涵蓋
 booth-6749475	TSK_Input Expression 僅提供跨圖層批次套用、刪除與保存表達式，與既有 Expression Kit 等表達式管理工具重疊且範圍較窄
 booth-8033875	moti 雖是物理碰撞工具，但名稱會與既有 aescripts MoTi 腳本產生同型態碰撞；為避免搜尋與前端識別混淆，暫不另建同名資料列
+booth-8081031	Particle launcher 主要是一鍵套用七組 CC Particle World 固定設定的預設啟動器，既有內建效果與 ParticleShapes 等粒子工具已涵蓋更完整控制
+booth-7832845	Script Launcher 的 JSX 登錄、執行與編輯能力已由既有 Script Launcher、Tool Launcher 等腳本啟動工具涵蓋
+booth-6675321	Auto Camera 僅建立由 Null 控制的相機圖層，功能過窄且已有 Camera 3D Toolkit Pro、AutoOrientCamera 等完整相機工具
+booth-7926435	AE Project Folder Organizer 的依類型分資料夾與未使用素材整理已由 OrganizerPro 等專案整理工具涵蓋
+booth-6797983	Auto Crop Comp 的依選取 2D 圖層邊界裁切合成已由 Auto Crop 3、CropROI 與 CropPrecomps 等既有工具涵蓋
+booth-8058788	Nanten ExAI 的自然語言生成、修復與微調表達式能力已由 mirAI 與涵蓋更廣的 AE GPT 收錄
+booth-8257916	QuickComp 的選取合成算圖並指定為代理工作流已由 CreateProxies 等既有代理建立工具涵蓋
+booth-7368084	NeonBlink 只把單一霓虹外框、出現與閃爍預設套到文字，BlinkPanel 與既有霓虹／Glow 工具已有更完整控制
+booth-6812550	Aurgan 官方 BOOTH 商品頁目前回傳 HTTP 404，且依素材類型整理專案的功能亦與 OrganizerPro 重疊
+booth-3697864	自動ループ化スクリプト只加入 Time Remap、loop 表達式並延長圖層，已由 LoopMaster、Loop Tools Pro 等循環工具涵蓋
+booth-8566324	Ascify 將靜態或動態圖層轉成 ASCII 字元畫的核心能力已由 L3tt3rM4pp3r2 與 ASCII Generator 涵蓋

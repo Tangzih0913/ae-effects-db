@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2509 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2511 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2412,6 +2412,8 @@ Bowl Wobble｜第三方｜script｜physics｜替碗、球底容器或其他圓�
 Siawase_FontShuffle｜第三方｜script｜text｜以可重現的隨機方式逐字切換字型，能限制使用數量與字級範圍、調整更新頻率，並儲存常用字型清單，適合製作快速跳字、雜誌拼貼與故障排版動畫。｜https://booth.pm/ja/items/8034193
 Aulymo｜第三方｜script｜animation｜批次替歌詞或文字圖層建立六類進出場動作，可調進出時間、圖層錯開、隨機種子與進階緩動，也支援 3D 與分離維度屬性，適合大量製作音樂錄影帶字幕與節奏排版。｜https://booth.pm/ja/items/6403113
 ShapeFit Panel｜第三方｜script｜text｜把文字逐字拆分並自動配置形狀或圖片底板，可選每字獨立或整段單一背景，底板會依字元尺寸自動縮放並由主控形狀統一調整，且能還原處理前狀態，適合字幕標籤、資訊卡與動態字牌。｜https://booth.pm/ja/items/7845172
+TXT-NA Importer｜第三方｜script｜text｜從指定資料夾成批尋找互相對應的 TXT 與 WAV／MP3／M4A，將音訊匯入合成、建立文字圖層並裁到同樣長度，再把每組旁白與文字首尾相接排列，適合大量口播、解說與逐段配音影片。｜https://booth.pm/ja/items/5602851
+MojiFlex｜第三方｜script｜text｜把文字按字元或輪廓零件拆分，為各字自動建立 Null 綁定，再生成由隨機散開位置聚合回原排版的動畫；可調距離、種子、進出緩動與逐字預合成，適合歌詞、標題與拆字聚合動態。｜https://booth.pm/ja/items/8542363
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

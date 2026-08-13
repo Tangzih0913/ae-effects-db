@@ -39,6 +39,8 @@
 - Gumroad 第四批已檢查 Motion UI 官方商品頁，因通用工具組功能與既有條目高度重疊而略過，平台尚未窮盡。
 - BOOTH 第四批已掃 7 個官方商品頁；已決策 Siawase_FontShuffle、BPM同期モーションスクリプト、ColorPalette、Aulymo、moti、ShapeFit Panel、TSK_Input Expression，但尚未窮盡平台。
 - Ko-fi 第四批以 After Effects script／panel／tool 關鍵字搜尋；結果主要為素材與預設包，未找到兼具官方商品頁、明確 AE 腳本功能與差異化價值的候選，平台尚未窮盡。
+- BOOTH 第五批以自動化、ScriptUI、代理、相機、粒子、文字與旁白等關鍵字掃描 13 個官方商品頁；已決策 Particle launcher、Script Launcher、Auto Camera、AE Project Folder Organizer、Auto Crop Comp、Nanten ExAI、QuickComp、NeonBlink、Aurgan、TXT-NA Importer、自動ループ化スクリプト、MojiFlex、Ascify，其中 Aurgan 頁面已回 HTTP 404，其餘頁面均回 HTTP 200，平台尚未窮盡。
+- Itch.io／Ko-fi 第五批搜尋仍以 AE 素材、模板及預設包為主，未找到比本批 BOOTH 候選更可信且具獨立工具功能的官方商品頁，平台尚未窮盡。
 
 ## 官方來源技巧
 
