@@ -47,7 +47,8 @@
 | tags 全英文 | 這是給台灣使用者用的庫，中文搜不到等於沒收 |
 | desc 只寫功能名詞（「模糊工具」） | 要講**做什麼＋典型用途**，讀的人才知道該不該用它 |
 | url 用 slug 規則猜出來 | 一定要實際開過確認存在；猜錯的連結比沒連結更糟 |
-| 官方頁查不到說明就硬寫 | 寧可標 `unverified: true`，不要編 |
+| 官方頁查不到具體功能仍硬寫 | 新候選直接略過並記錄原因；不要用 `unverified` 湊數 |
+| 產品已停售／下架／只供舊版相容 | 資料庫不收 discontinued、obsolete 或 legacy-only 工具 |
 | 收預設包／素材包／模板／LUT 包 | 這個庫收的是工具本身 |
 | 收 Premiere／Resolve／FCPX 專用外掛 | 以**官方頁列出的 host** 為準，第三方網站說支援 AE 不算 |
 
@@ -78,7 +79,8 @@
   資料要來自該效果**自己的**官方說明頁，不是它所屬的分類。
 - url：**必填**，官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。
 - 選填：look（畫面外觀一句）、vendor（廠商/作者，不確定就寫 aescripts 或 未知/免費）、suite、aex（.aex 檔名）。
-- 若查不到可靠說明：desc 註明「（推測，未查證）」並加 "unverified":true。
+- 若查不到可靠的原廠功能說明：不要輸出 JSON，改為「略過：官方頁無具體功能說明」。
+- 新候選不得以 `unverified:true` 湊數；此旗標只供維護者處理使用者明確要求保留的本機檔案證據。
 - 要事實準確，不要編造作者或功能。
 
 該放哪個檔：Trapcode/MagicBullet/VFX→red-giant.jsonl；Universe→universe.jsonl；Sapphire→sapphire.jsonl；
@@ -114,10 +116,12 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
    收錄條件（要同時成立）：
      - 尚未在已收錄清單中（名稱或功能沒重複）。
      - 功能實用、有代表性（暢銷/常被討論/解決常見需求）。
+     - 原廠頁明列支援 After Effects，且能確認實際功能。
    直接略過（不要收）：
      - 已收錄，或與現有條目功能高度重複（例如又一個普通 glow、又一個普通 blur）。
      - 冷門、極小眾、實驗性、幾乎沒人用的。
-     - 純預設包/素材包/教學，而非真正的外掛或腳本工具。
+     - 純預設包/素材包/模板/LUT/教學，或 bundle，而非獨立工具。
+     - 非 AE host、已停售/下架/obsolete/legacy-only，或官方頁沒有具體功能說明。
 4) 決定收錄的，輸出「一行」壓縮 JSON，欄位規則：
      必填 name, kind, cat, tags, desc, url
      - kind 從 plugin / script / builtin / recipe 擇一
@@ -133,6 +137,7 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
      - url：該產品在 aescripts 的官方頁 https://aescripts.com/<slug>/（務必是真實存在的頁面，不要杜撰）。
      - vendor：作者名（頁面上的 author），不確定就寫 "aescripts"。
      - 事實要準；查不到說明就別硬收。
+     - 不得使用或提及盜版／破解資源站；任何候選線索都要回原廠頁查證。
 5) 每產一批（例如 10 筆）就停下讓我確認，並附一句「這批略過了哪些、為什麼」。
 
 輸出格式範例（每行一筆，後面不用箭頭，全部都放 aescripts.jsonl）：
@@ -143,7 +148,7 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 
 </details>
 
-拿到那行 JSON 後，貼到對應的 `data/xxx.jsonl` 檔案最後一行即可（見下方送出方式）。
+拿到那行 JSON 後，仍要由維護者判重、確認官方網址並通過驗證。能使用終端機時，請先存成 `batch.jsonl`，再執行 `python tools/add.py batch.jsonl --dry-run` 與 `python tools/add.py batch.jsonl`；不要直接繞過匯入器大量貼入。
 
 > 想「貼參考圖找效果」而不是加資料？直接把圖丟給 AI 問「這畫面是什麼 AE 效果」，或用線上搜尋頁 https://xup61069.github.io/ae-effects-db/
 
@@ -181,7 +186,8 @@ git commit -am "add: XXX 外掛"
 - [ ] `tags` 中英雙語（一定要有中文），且去掉效果名後不與同系列其他條目雷同。
 - [ ] `url` 有實際開過確認存在，不是照 slug 規則猜的。
 - [ ] 放對資料檔、`cat` 用既有分類。
-- [ ] 作者/功能屬實；查不到官方說明就標 `unverified`，或乾脆不收。
+- [ ] 作者／功能／AE host 屬實；查不到原廠具體說明就不收。
+- [ ] 產品仍在販售或維護，不是 discontinued、obsolete 或 legacy-only。
 - [ ] 不放盜版下載連結、不整段複製官方文案。
 
 有問題就開 Issue（有「新增特效」範本可用）。感謝你 ❤️

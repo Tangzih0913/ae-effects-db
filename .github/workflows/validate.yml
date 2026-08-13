@@ -2,9 +2,9 @@ name: validate
 
 on:
   push:
-    paths: ["data/**", "dist/**", "curation/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
+    paths: ["*.md", "llms.txt", ".github/**", "data/**", "dist/**", "curation/**", "skill/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
   pull_request:
-    paths: ["data/**", "dist/**", "curation/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
+    paths: ["*.md", "llms.txt", ".github/**", "data/**", "dist/**", "curation/**", "skill/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
 
 jobs:
   validate:
@@ -25,4 +25,4 @@ jobs:
       - name: Verify generated indexes are current
         run: python tools/build_index.py && git diff --exit-code -- dist/
       - name: Compile Python tools
-        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py tools/build_index.py tools/classify_kind.py tests/test_consistency.py tests/test_localization.py tests/test_web_ui.py
+        run: python -m py_compile validate.py search.py tools/add.py tools/audit.py tools/build_index.py tools/classify_kind.py tests/test_consistency.py tests/test_docs.py tests/test_localization.py tests/test_web_ui.py

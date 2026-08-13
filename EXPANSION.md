@@ -1,73 +1,112 @@
-# 擴充作業手冊（給專門擴充資料庫的工作階段）
+# EXPANSION.md — 持續擴充作業手冊
 
-> 這份是「持續擴大資料庫」的標準流程。新開一個對話要做擴充時，先讀這份 +
-> [AGENTS.md](AGENTS.md)（格式規範），就能直接開工，不用重新摸索。
+做資料擴充前，必須先完整讀 [`AGENTS.md`](AGENTS.md)。本檔只描述批次研究、決策、匯入與發佈流程；資料格式與硬性品質規則以 `AGENTS.md`、schema 與驗證器為準。
 
-## 一輪標準流程
+## 每輪流程
+
+一般一批以 10～15 個「已作出收／不收決策的候選」為單位；使用者另有批量要求時從其指示。
+
+1. 從官方產品線、官方效果清單或高訊號榜單取得候選。
+2. 搜尋全部 `data/*.jsonl` 的 `name`、`variants`、官方 URL 與功能同義詞。
+3. 回原廠頁確認 AE host、實際功能、是否仍販售，以及 URL 是否存在。
+4. 收錄者寫入暫存 `batch.jsonl`，執行 `python tools/add.py batch.jsonl`。
+5. 不收者把穩定 slug／識別字與具體理由追加到 `curation/skipped.tsv`。
+6. 重建索引、完整驗證、提交並推送。
+7. 等 GitHub Actions 與 Pages 完成，再驗證正式站。
+
+`curation/skipped.tsv` 是長期決策記憶。不要只寫「不適合」；應寫明是 bundle、非 AE host、停售、無功能說明、太小眾，或與哪一筆高度重複。
+
+## 候選來源優先順序
+
+1. Adobe、Boris FX、Maxon 與既有主要廠商的最新版官方清單差異。
+2. Rowbyte、Superluminal、Digital Anarchy、RE:Vision Effects、Video Copilot 等原廠產品線缺口。
+3. LookAE 等列表只能用來發現名稱；所有事實一律回原廠確認。
+4. aescripts 先看 viewed／bestselling 或明確分類中的高訊號產品；sitemap 尚有大量低命中候選，不優先掃。
+
+來源進度（最後整理：2026-08-13）：
+
+- LookAE After Effects 列表已掃到第 64 頁；
+- c4dsky 的 After Effect、AE 插件、AE 腳本、AE 預設、Element 3D 分類已掃完；
+- aescripts sitemap 尚有大量未評估頁面，只作低優先候選池；
+- Adobe 目前效果清單、RE:Vision、Video Copilot 與 Frischluft 已做過一次差異檢查，但新版仍應依官方清單重跑差異。
+
+## 官方來源技巧
+
+| 來源 | 可靠做法 |
+|---|---|
+| aescripts | 先用 `python tools/find_new.py --limit 30 --desc`；slug 以 `tools/.sitemap_cache.xml`／官方 sitemap 為準。產品頁可用 Python `urllib` 帶 User-Agent 讀 meta description；若仍無實際說明就略過 |
+| Sapphire | 比對官方 picture index 與 `data/sapphire.jsonl`；個別效果以官方 documentation 頁確認 |
+| Continuum | 比對官方 BCC effects list 與 `data/continuum.jsonl`；不要自行推測新 ML 效果 slug |
+| Maxon／Red Giant | 頁面由前端渲染時用瀏覽器檢查 DOM；路徑例外很多，不能依名稱拼網址 |
+| Adobe 內建 | 以最新版官方 effect list 與分類頁為準；obsolete／legacy 不收，面板工具與效果選單項目要分開判斷 |
+| 其他原廠 | 只接受原廠產品、文件或支援頁；轉售頁與第三方 host 宣稱不算證據 |
+
+一次抓列表時控制在 3～4 頁，避免逾時。候選站若不適合出現在 repo，絕對不要把站名、連結或文案寫進資料與 curation 檔。
+
+## 暫存批次格式
+
+每行一個壓縮 JSON 物件；至少具備 `name`、`kind`、`cat`、`tags`、`desc`、`url`。完成匯入後刪除暫存批次檔，不要提交。
 
 ```bash
-python tools/find_new.py --limit 30 --desc     # 1. 取出待評估清單＋官方說明
-# 2. 逐一判斷收/不收（標準見下）
-python tools/add.py batch.jsonl                # 3. 收的：寫成 JSONL 後匯入（自動判重+選檔）
-#    不收的：把 slug 與原因寫進 curation/skipped.tsv
-python validate.py                             # 4. 校驗
-git add -A && git commit -m "Add N plugins: ..." && git push
+python tools/add.py batch.jsonl --dry-run
+python tools/add.py batch.jsonl
 ```
 
-推上去後 GitHub Pages 約 40–70 秒自動重建。驗證：開
-https://xup61069.github.io/ae-effects-db/ 搜新加的關鍵字（若看到舊資料，網址加 `?v=2` 避開快取）。
+匯入器會判重與選檔，但不能代替人工功能判斷。同名跨來源可能合法；功能相同但名稱不同也可能是重複。
 
-## 收錄判斷標準
+## 完整驗證
 
-**收**（要同時成立）
-- 尚未收錄，且與現有條目功能沒有高度重複
-- 功能實用、有代表性（暢銷／常被討論／解決常見需求）
-- 是真的能在 After Effects 用的外掛或腳本
+```bash
+python validate.py --strict
+python tools/audit.py --strict
+python tools/classify_kind.py
+python -m unittest discover -s tests -v
+node tests/check_web_js.js
+python tools/build_index.py
+git diff --check
+```
 
-**不收**（寫進 `curation/skipped.tsv` 並註明原因）
-- 純預設包／素材包／模板／教學，而非工具本身
-- 套裝包（bundle）——個別工具已收錄就好
-- 其他軟體專用（Premiere / Photoshop / Resolve / Audition / Cavalry…）
-- 官方頁查不到實際功能說明（不要用猜的硬收）
-- 極小眾（例：特定語系排版工具）或功能與既有條目重複
+若修改多語資料、官方分類或在地化網址，再執行：
 
-> `curation/skipped.tsv` 是「決策記憶」——寫進去之後 `find_new.py` 就不會再問第二次。
-> 改變主意就把那行刪掉，它會重新出現在待評估清單。
+```bash
+node tools/build_localization.js --write
+node tools/build_localization.js --check
+```
 
-## 資料品質要求（每一筆）
+若資料、熱門度、在地化或搜尋別名有更新，檢查 `index.html` 的 `ASSET_VERSION` 是否需要遞增，避免正式站使用舊快取。
 
-| 欄位 | 要求 |
-|---|---|
-| `kind` | 必填：`plugin` 外掛／效果、`script` 腳本／面板、`builtin` AE 內建、`recipe` 效果配方 |
-| `desc` | 繁體中文一句話：**做什麼 ＋ 典型用途**。不要只寫功能名詞 |
-| `tags` | **中英混合 ≥5 個**：英文名、中文名、俗名、用途、外觀。這是搜尋命中的關鍵 |
-| `url` | **必填**，官方產品頁，且必須真實存在（不要憑 slug 猜） |
-| `released` / `updated` | 選填；只填官方可查證的 ISO 日期，並同時附 `date_url`。不確定就留空 |
-| `look` | 建議填：畫面看起來像什麼 |
-| `vendor` | 作者／廠商；不確定就寫 `aescripts` 或 `未知/免費` |
+## 發佈與正式站確認
 
-## 各來源怎麼取得正確資料（踩過的坑）
+先依使用者要求設定提交作者與 trailers，再提交並推送。不要假設一定走 main 或 PR；以當次維護流程為準。
 
-| 來源 | 方法 |
-|---|---|
-| **aescripts** | slug 清單用 `https://aescripts.com/media/sitemap/sitemap.xml`（主站 `/sitemap.xml` 被 Cloudflare 擋，這支 curl 可過）。產品說明抓該頁 `<meta name="description">` |
-| **Boris Sapphire** | 官方 picture-index 頁抓 doc 連結；效果頁 = `/documentation/sapphire/ae/<去掉S_的小寫名>/` |
-| **Boris Continuum** | 官方 bcc-effects-list 抓連結；新 ML 工具的 slug 常不同（如 `bcc-witnessprotection`），要個別實測 |
-| **Maxon Universe / Red Giant** | 網站是前端渲染，**curl 抓不到連結，要用瀏覽器讀 DOM**。slug 有例外（`symbol-mapper-tool`）。Red Giant 現在的路徑是 `/product-detail/red-giant/<類別>/<工具>` |
-| **Adobe 內建** | `helpx.adobe.com` 的 curl 會卡住，要用瀏覽器；分類頁在 `.../list-of-effects/<分類>-effects.html` |
-| **其他廠商** | 一律連原廠官網，不要連轉售頁 |
+```bash
+git status -sb
+git diff --cached --check
+git commit
+git push
+```
 
-**鐵則：URL 一律驗證過才寫入**（HTTP 200 或出現在官方索引），絕不憑名稱猜 slug。
+推送後用 commit SHA 監看：
 
-## 還沒掃過的方向（下次可以往這裡挖）
+```bash
+gh run list --commit <sha>
+gh run watch <run-id> --exit-status
+```
 
-- [ ] aescripts 依分類逐類掃（Text / Particles / Keying / Color…），比只看熱門榜更全面
-- [ ] Rowbyte、Superluminal、Digital Anarchy、RE:Vision 的其他產品線
-- [ ] Video Copilot 全產品線複查
-- [ ] Boris FX Sapphire / Continuum 新版新增的效果（每年更新）
-- [x] `data/installed.jsonl` 的 `unverified` 條目已完成查證或依規則移除（2026-08）
-- [ ] `data/builtin-ae.jsonl` 若有 AE 新版新增效果，補進來
+必須確認 validate、build-index 與 Pages 成功。最後直接抓正式站的 `dist/web-index.json`（附新的 cache-busting query）確認：
 
-## 目前規模
+- 總筆數與本機一致；
+- 本批所有新名稱存在；
+- 同名跨來源條目仍可區分；
+- 熱門清單與多語映射沒有失效；
+- repo 工作樹乾淨，`HEAD` 與遠端分支一致。
 
-執行 `python validate.py --strict` 會印出即時統計；`python tools/audit.py` 另列資料檔、型態、分類、官方網域與品質風險。
+## 每批回報格式
+
+回報應包含：
+
+- 收錄名稱；
+- 略過 slug／名稱與逐筆具體理由；
+- 最新總筆數與型態統計；
+- 驗證、GitHub Actions、Pages 與正式站結果；
+- commit 連結。
