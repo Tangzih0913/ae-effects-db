@@ -2,9 +2,9 @@ name: validate
 
 on:
   push:
-    paths: ["data/**", "dist/**", "curation/**", "index.html", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
+    paths: ["data/**", "dist/**", "curation/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
   pull_request:
-    paths: ["data/**", "dist/**", "curation/**", "index.html", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
+    paths: ["data/**", "dist/**", "curation/**", "index.html", "i18n.js", "tests/**", "validate.py", "search.py", "tools/**", "schema/**"]
 
 jobs:
   validate:
@@ -20,6 +20,8 @@ jobs:
         run: python tools/audit.py --strict
       - name: Run search and consistency tests
         run: python -m unittest discover -s tests -v
+      - name: Validate web JavaScript and locales
+        run: node tests/check_web_js.js
       - name: Verify generated indexes are current
         run: python tools/build_index.py && git diff --exit-code -- dist/
       - name: Compile Python tools

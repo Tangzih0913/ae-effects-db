@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = (ROOT / "index.html").read_text(encoding="utf-8")
+I18N = (ROOT / "i18n.js").read_text(encoding="utf-8")
 
 
 class WebUiContractTests(unittest.TestCase):
@@ -56,6 +57,23 @@ class WebUiContractTests(unittest.TestCase):
         for kind in ("plugin", "script", "builtin", "recipe"):
             self.assertIn(f".card.kind-{kind}", HTML)
             self.assertIn(f".kindbadge.kind-{kind}", HTML)
+
+    def test_english_and_japanese_are_shareable_complete_locales(self):
+        self.assertIn('src="i18n.js?', HTML)
+        self.assertIn('data-lang="en"', HTML)
+        self.assertIn('data-lang="ja"', HTML)
+        self.assertIn('setParam("lang"', HTML)
+        self.assertIn('htmlLang:"en"', I18N)
+        self.assertIn('htmlLang:"ja"', I18N)
+        self.assertIn('AE エフェクトデータベース', I18N)
+        self.assertIn('AE Effects Database', I18N)
+        self.assertIn('"グリッチ":["glitch"', I18N)
+
+    def test_non_chinese_locales_label_curated_description_fallback(self):
+        self.assertIn('id="languageNote"', HTML)
+        self.assertIn('descriptionOriginal', HTML)
+        self.assertIn('Traditional Chinese original', I18N)
+        self.assertIn('繁体字中国語の原文', I18N)
 
 
 if __name__ == "__main__":
