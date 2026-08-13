@@ -58,12 +58,13 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 ## 資料格式（JSONL，一行一筆）
 
 ```json
-{"name":"S_Glow","cat":"glow","tags":["glow","bloom","發光","輝光"],"desc":"經典柔和輝光"}
+{"name":"S_Glow","suite":"Sapphire","kind":"plugin","cat":"glow","tags":["glow","bloom","發光","輝光"],"desc":"經典柔和輝光"}
 ```
 
 | 欄位 | 說明 |
 |---|---|
 | `name` | 效果名（Sapphire 前綴 `S_`、Continuum 前綴 `BCC`/`BCC+`） |
+| `kind` | 型態：`plugin` 外掛／效果、`script` 腳本／面板、`builtin` AE 內建、`recipe` 效果配方 |
 | `cat` | 分類（glow/light/flare/particles/stylize/film/color/blur/warp/keying/tracking/restore/time/transition/text/generate/3d/recipe…） |
 | `tags` | **中英混合關鍵字——搜尋主要靠這欄** |
 | `desc` | 一句話中文說明 |
@@ -94,6 +95,8 @@ skill 檔：[`skill/find-effect/SKILL.md`](skill/find-effect/SKILL.md)（要用�
 python validate.py              # 校驗全部資料（送 PR 時 CI 也會跑）
 python tools/find_new.py --desc # 列出 aescripts 上還沒收錄的候選＋官方說明
 python tools/add.py new.jsonl   # 安全匯入：自動判重、檢查欄位、選對資料檔
+python tools/classify_kind.py   # 回填／重算工具型態
+python tools/organize_data.py   # 把 AE 內建與效果配方搬回正確資料檔
 ```
 
 新增一行 JSON 到對應 `data/*.jsonl` 即可；新套件就開新 `.jsonl`。

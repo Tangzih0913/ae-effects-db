@@ -25,13 +25,14 @@ ORDER = ["name","suite","vendor","kind","cat","tags","desc","look","variants","s
 
 def guess_file(o):
     u, v, s = o.get("url",""), o.get("vendor",""), o.get("suite","")
+    if o.get("kind") == "recipe" or o.get("stack") or o.get("cat") == "recipe": return "recipes"
+    if o.get("kind") == "builtin": return "builtin-ae"
     if "borisfx.com/documentation/sapphire" in u: return "sapphire"
     if "borisfx.com/documentation/continuum" in u: return "continuum"
     if "helpx.adobe.com" in u: return "builtin-ae"
     if "maxon.net" in u and "/universe/" in u: return "universe"
     if "maxon.net" in u: return "red-giant"
     if "Trapcode" in s or "Magic Bullet" in s or "VFX Suite" in s: return "red-giant"
-    if o.get("stack") or o.get("cat") == "recipe": return "recipes"
     if "aescripts.com" in u: return "aescripts"
     if o.get("unverified") or o.get("aex"): return "installed"
     return "third-party"

@@ -75,7 +75,7 @@ JSONL：**一行一個 JSON 物件，不是陣列、沒有逗號結尾、UTF-8�
 必填 `name` `kind` `cat` `tags` `desc`；其餘選填。完整規格見 [`schema/effect.schema.json`](schema/effect.schema.json)。
 
 ```json
-{"name":"S_Glow","cat":"glow","tags":["glow","bloom","發光","輝光","柔光","光暈"],"desc":"經典柔和輝光，讓亮部往外柔順發光。","look":"亮部往外柔和溢光","suite":"Sapphire"}
+{"name":"S_Glow","suite":"Sapphire","kind":"plugin","cat":"glow","tags":["glow","bloom","發光","輝光","柔光","光暈"],"desc":"經典柔和輝光，讓亮部往外柔順發光。","look":"亮部往外柔和溢光"}
 ```
 
 | 欄位 | 說明 |

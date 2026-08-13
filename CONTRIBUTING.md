@@ -63,7 +63,8 @@
 
 規則：
 - 只輸出一行 JSON，不要美化、不要多餘標點。
-- 必填：name, cat, tags, desc。
+- 必填：name, kind, cat, tags, desc。
+- kind：從 `plugin`（外掛／效果）、`script`（腳本／面板）、`builtin`（AE 內建）、`recipe`（效果配方）擇一。
 - name：效果原名（Sapphire 前綴 S_、Continuum 前綴 BCC/BCC+）。
 - cat：從這清單挑一個最貼切（小寫）：glow blur-glow light flare particles stylize film color blur warp
   keying tracking restore time transition text generate 3d draw paint art texture audio physics rigging
@@ -85,7 +86,7 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 其他有官網的廠商→third-party.jsonl；畫面感配方→recipes.jsonl。
 
 輸出範例：
-{"name":"Deep Glow 2","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈","溢光"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光，公認最漂亮的 AE 發光外掛。","look":"亮部柔和外擴、衰減真實","vendor":"Plugin Everything","url":"https://aescripts.com/deep-glow/"}
+{"name":"Deep Glow 2","vendor":"Plugin Everything","kind":"plugin","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈","溢光"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光，公認最漂亮的 AE 發光外掛。","look":"亮部柔和外擴、衰減真實","url":"https://aescripts.com/deep-glow/"}
 → 放進 aescripts.jsonl
 
 現在請處理這個外掛：<填外掛名稱或官網連結>
@@ -118,7 +119,8 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
      - 冷門、極小眾、實驗性、幾乎沒人用的。
      - 純預設包/素材包/教學，而非真正的外掛或腳本工具。
 4) 決定收錄的，輸出「一行」壓縮 JSON，欄位規則：
-     必填 name, cat, tags, desc, url
+     必填 name, kind, cat, tags, desc, url
+     - kind 從 plugin / script / builtin / recipe 擇一
      - cat 從此清單挑（小寫）：glow blur-glow light flare particles stylize film color blur warp keying
        tracking restore time transition text generate 3d draw paint art texture audio physics rigging
        workflow render expression animation preset utility distort mograph beauty edge emboss composite
@@ -134,7 +136,7 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 5) 每產一批（例如 10 筆）就停下讓我確認，並附一句「這批略過了哪些、為什麼」。
 
 輸出格式範例（每行一筆，後面不用箭頭，全部都放 aescripts.jsonl）：
-{"name":"Foldspace","cat":"3d","tags":["fold","bend","warp","curve","book","彎折","翻書","摺疊","3D扭曲","aescripts"],"desc":"在3D空間彎折/翻摺平面，做翻書、摺紙、曲面扭曲，控制點可連結其他圖層。","vendor":"aescripts","url":"https://aescripts.com/foldspace/"}
+{"name":"Foldspace","vendor":"aescripts","kind":"plugin","cat":"3d","tags":["fold","bend","warp","curve","book","彎折","翻書","摺疊","3D扭曲","aescripts"],"desc":"在3D空間彎折/翻摺平面，做翻書、摺紙、曲面扭曲，控制點可連結其他圖層。","url":"https://aescripts.com/foldspace/"}
 
 先做第 1 步，把已收錄清單抓回來並回報數量，再開始第一批。
 ```
@@ -150,7 +152,7 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 一個特效一行 JSON，搜尋主要靠 `tags`（所以中英同義詞塞好塞滿）：
 
 ```json
-{"name":"S_Rays","cat":"light","tags":["god rays","light shafts","volumetric","丁達爾","體積光","上帝光","放射光線","雲隙光"],"desc":"從亮部放射的體積光/上帝光，做雲隙光、窗光、神聖光束。","look":"從亮處放射的可見光柱","suite":"Sapphire"}
+{"name":"S_Rays","suite":"Sapphire","kind":"plugin","cat":"light","tags":["god rays","light shafts","volumetric","丁達爾","體積光","上帝光","放射光線","雲隙光"],"desc":"從亮部放射的體積光/上帝光，做雲隙光、窗光、神聖光束。","look":"從亮處放射的可見光柱"}
 ```
 
 欄位與分類完整說明見 [AGENTS.md](AGENTS.md)。

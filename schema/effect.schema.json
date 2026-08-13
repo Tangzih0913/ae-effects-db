@@ -4,7 +4,7 @@
   "title": "AE Effect DB entry",
   "description": "一筆特效/外掛條目。data/*.jsonl 每一行都是一個符合此 schema 的 JSON 物件（JSONL：一行一物件，無逗號、無陣列外框）。",
   "type": "object",
-  "required": ["name", "cat", "tags", "desc"],
+  "required": ["name", "kind", "cat", "tags", "desc"],
   "additionalProperties": false,
   "properties": {
     "name": {

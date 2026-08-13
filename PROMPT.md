@@ -15,7 +15,7 @@
 你是我的 After Effects 特效顧問。請先讀取這份繁體中文特效資料庫：
 https://raw.githubusercontent.com/xup61069/ae-effects-db/main/dist/index.txt
 
-（格式：名稱｜來源｜分類｜說明｜官方連結。需要中英搜尋標籤與外觀描述時，
+（格式：名稱｜來源｜型態｜分類｜說明｜官方連結。需要中英搜尋標籤與外觀描述時，
 再讀完整版 https://raw.githubusercontent.com/xup61069/ae-effects-db/main/dist/all.jsonl）
 
 之後我會用文字描述想要的畫面，或直接貼參考圖。請你：
@@ -41,7 +41,8 @@ https://raw.githubusercontent.com/xup61069/ae-effects-db/main/dist/index.txt
 
 規則：
 - 只輸出一行 JSON，不要美化、不要多餘標點。
-- 必填：name, cat, tags, desc, url
+- 必填：name, kind, cat, tags, desc, url
+- kind 從 `plugin`（外掛／效果）、`script`（腳本／面板）、`builtin`（AE 內建）、`recipe`（效果配方）擇一。
 - cat 從這清單挑一個最貼切（小寫）：glow blur-glow light flare particles stylize film color blur warp
   keying tracking restore time transition text generate 3d draw paint art texture audio physics rigging
   workflow render expression animation preset utility distort mograph beauty edge emboss composite matte
@@ -57,7 +58,7 @@ Sapphire→sapphire.jsonl；Continuum→continuum.jsonl；AE內建→builtin-ae.
 aescripts 市集→aescripts.jsonl；其他有官網的廠商→third-party.jsonl；畫面感配方→recipes.jsonl。
 
 輸出範例：
-{"name":"Deep Glow 2","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光。","look":"亮部柔和外擴、衰減真實","vendor":"Plugin Everything","url":"https://aescripts.com/deep-glow/"}
+{"name":"Deep Glow 2","vendor":"Plugin Everything","kind":"plugin","cat":"glow","tags":["glow","bloom","physical","發光","輝光","柔光","光暈"],"desc":"物理精確的高品質輝光，一鍵讓亮部自然溢光。","look":"亮部柔和外擴、衰減真實","url":"https://aescripts.com/deep-glow/"}
 → 放進 aescripts.jsonl
 
 現在請處理這個外掛：<填外掛名稱或官網連結>
