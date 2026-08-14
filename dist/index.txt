@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2666 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2667 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1867,6 +1867,7 @@ Real Lens Flares｜Red Giant｜plugin｜flare｜以真實鏡頭光學模型＋�
 Depth Generator｜Red Giant｜plugin｜keying｜在AE內直接從實拍素材或圖片產生灰階深度(Z-depth)通道。有了深度圖就能做依距離的遮罩、景深虛化(配Bokeh)、讓粒子(Particular)繞著人物飛、加霧與煙更有層次，甚至做紅藍3D立體對或在Mir裡做真3D擠出。｜https://www.maxon.net/en/product-detail/red-giant/vfx/depth-generator
 Geo｜Red Giant｜plugin｜3d｜在AE裡處理3D模型的簡易但強大方案：可用Maxon Capsule模型庫或自行匯入(C4D/OBJ/FBX/GLB/glTF等7種格式)，用任何AE圖層或合成當材質貼圖，用cloner控制做各種形狀的陣列，還能把幾何體的陰影投射到指定圖層上。｜https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/geo
 Parametric Curve｜Red Giant｜plugin｜color｜為HDR影片設計的進階貝茲曲線調色工具：用HDR曲線LUT處理畫面，並把曲線直接疊在畫面上檢視，提供比一般曲線/色階更精準的控制。｜https://www.maxon.net/en/product-detail/red-giant/color/parametric-curve
+Maxon Studio｜Red Giant｜plugin｜workflow｜在 After Effects 內以視覺化面板集中管理、搜尋並套用 Red Giant 與 Universe 工具、預設及 Capsules，適合快速建立可重用的動態圖形、效果堆疊與品牌模板。｜https://www.maxon.net/en/product-detail/red-giant/maxon-studio
 S_Glow｜Sapphire｜plugin｜glow｜Sapphire招牌的經典柔和輝光，最常用，讓亮部柔順外擴發光。做標題、燈光、夢幻氛圍。｜https://borisfx.com/documentation/sapphire/ae/glow/
 S_UltraGlow｜Sapphire｜plugin｜glow｜新一代物理精確輝光，含色散與多種品質模式，比S_Glow更真實高階。｜https://borisfx.com/documentation/sapphire/ae/ultraglow/
 S_GlowAura｜Sapphire｜plugin｜glow｜放射狀光環輝光，沿輪廓向外放光，適合替人物、Logo 與能量物件加上輪廓放射光。｜https://borisfx.com/documentation/sapphire/ae/glowaura/

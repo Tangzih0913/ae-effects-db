@@ -23,7 +23,7 @@
 3. LookAE 等列表只能用來發現名稱；所有事實一律回原廠確認。
 4. aescripts 先看 viewed／bestselling 或明確分類中的高訊號產品；sitemap 尚有大量低命中候選，不優先掃。
 
-## 掃描進度（截至 2026-08-14）
+## 掃描進度（截至 2026-08-15）
 
 BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
 
@@ -42,6 +42,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 11 | Digital Anarchy 免費線補齊＋BOOTH 80 個新 id（圖形アニメーション／テロップスクリプト／カメラワーク） | SRT Importer for AE、Ugly Box、Backdrop Designer、Flicker Freak、Simple Gradient；SYMMETRY、Anchor to Shape、wakuwaku、MVLyrics2Layers、Chromix、GlyphForge、OTM_JPtypewriter（另補錄 booth-3027685） | Cartoon Bubble（Photoshop 用）；73 個（VRChat／Warudo／Blender／Unity／Photoshop／OBS／YMM4 插件與素材包）。Rowbyte 7 工具與 Superluminal Stardust 覆蓋已確認。BOOTH 累計收錄 97、略過 696 |
 | 12 | aescripts sitemap 50 候選（find_new.py --limit 50） | Mask Color Pro、NoPrecomp、RoundPro、Snapola、Thicc Pro、ToneCraft、UI Mockup Builder、Unrender、Whiteboard Rig Builder、Font Animator、AE Fusion 3D Bridge、Rename-a-Duper、VKO Shader、Flagship | mate-for-premiere（Premiere Pro only）；text-background-pro（Photoshop only）。BOOTH 累計收錄 97、略過 696 |
 | 13 | aescripts 收尾（multiview、texto）＋BOOTH 1431 個新 id（轉場／形狀／表達式／AEプラグイン等關鍵字），篩出 122 個 AE 相關候選逐筆評估 | texto（aescripts）；BOOTH 53 筆：NeSprite for AfterEffects、Puppet Hair Fx、m's BaraBara、HEISEI-VHS、Stretch、Circle Repeater、Select ShapePath & addKey、Border、KANTA Random3D／dot2／Grid／Radial／Morph & Spiral & Distort、Auto Textbox、Peek-a-boo、RGBDelay、EasyPhysics、FoldLayers、Symmetrika、Notal、Lyric IN、Grupico、FlashOpacity、EaseSwinger、Windows Maker、タドコロノード、sep_color、A_Halfdots、Nate Essentials Pack、De-Comp、ColorfulEcho、KF_ProjectSeamlessShift、HL_PixelSort／PlacerPro／Border、Impact Lines、DiceLine、A_StarTrail、A_Outline、Sequwise、Mt's PixelSoter、EfficientText、Add Keyflames、QuartzJump、A_Glossy、EffectsDrive、KeyframePlus、Closer、OneEase、StepSizer、ZLoop、WANI Glitch、WANI 16mm Film | multiview（Premiere only）；67 個 BOOTH（純預設檔／AEP 模板／素材集／點子合集／非 AE host／說明不足），MultiSlicer 已見 installed.jsonl 故不重複收。BOOTH 累計收錄 150、略過 764 |
+| 14 | Maxon／Red Giant 官方產品線差異＋FxFactory 與 Boris FX 官方清單交叉核實 | **Maxon Studio**；FxFactory 的 LightSpeed Transitions、Transition Builder、Vertical Editing Tools、Podcaster Visuals 均僅支援 Final Cut Pro 而略過；Grunge Effects 雖列 AE 但官方頁以 overlays 為主且功能說明不足而略過；Continuum 疑似缺口均已由既有 variants／條目覆蓋 | 1 筆新增；5 個逐頁核實候選略過 |
 
 ## 官方來源技巧
 
