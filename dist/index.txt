@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2515 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2523 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2418,6 +2418,14 @@ Path to Position｜第三方｜script｜animation｜把選取的 Shape Path 或 
 SyncAudio_To_Precomp｜第三方｜script｜audio｜把父合成選取的音訊依正確時間偏移同步複製到一個或多個預合成，並以不參與算圖的 Guide Layer 放在頂部或底部；重新同步會自動覆寫，也能從選取或全部合成批次移除，適合 MV 與節奏動畫深入預合成時持續對拍。｜https://booth.pm/ja/items/7948604
 Lab_LS｜第三方｜script｜animation｜讀取 A.I.VOICE 等合成語音軟體輸出的 .lab 音素時間檔，在口型圖層加入 Time Remap、控制表達式與對應 Marker，讓預先排列的嘴型依日文音素自動切換，適合立繪、VTuber 與合成語音角色動畫。｜https://booth.pm/ja/items/7633077
 MorphMesh｜第三方｜plugin｜transition｜以 Optical Flow 自動對應兩個圖層的相似區域，沿估算流向同時扭曲並替換影像，而非只做交叉淡化；可調變形量、溶接銳度、光流細節與平滑度、邊緣固定及品質，並以多執行緒和快取改善預覽，適合人像、物件與圖像間的連續變形轉場。｜https://booth.pm/ja/items/6234376
+NodeField｜第三方｜plugin｜mograph｜用吸管選取影像中的一個顏色，自動偵測相同區域並生成隨畫面追蹤的 HUD 方框、座標與掃描線，不需任何追蹤設定，適合科幻鎖定框、監視器、AI 辨識與數據視覺化演出。｜https://booth.pm/ja/items/8647642
+TextOrbit｜第三方｜script｜text｜把文字逐字拆開自動排列成圓周或螺旋，可即時調整半徑與字距並處理全形半形混排，適合唱片盤、印章、Logo 環繞與徽章風標題製作。｜https://booth.pm/ja/items/8648718
+Katana Slash Pro｜第三方｜script｜text｜把選取的文字以刀斬開並一次完成斬擊後的擴散、墨漬、殘光或花瓣演出，提供居合、袈裟、X 字等六種斬法與刀／光束刀切換，適合動畫風標題、MV 與遊戲風片段。｜https://booth.pm/ja/items/8664462
+Words Scatter Pro｜第三方｜script｜text｜把文字圖層變成會爆散成光粒的消失動畫，或讓光粒從四周聚集拼回文字，內建閃亮、紙吹雪、寶石、霓虹、花瓣等十種風格，適合片頭、歌詞與節奏轉場。｜https://booth.pm/ja/items/8619607
+Palf PixelPaint｜第三方｜plugin｜draw｜以二值像素格重現 Write-on 與沿 Mask 路徑的 Stroke 兩類繪製效果，可調畫筆大小、間隔、解析度與繪製樣式，適合復古像素風寫字、光效與逐格繪製動畫。｜https://booth.pm/ja/items/8664433
+Syndromee Text Distribute｜第三方｜plugin｜text｜把文字逐字拆開並分散到螺旋、網格、漩渦、波浪、圓環、球體或折疊等 2D／3D 佈局，可加階梯動畫、Plexus 風字形連線與色彩循環，適合科技感片頭與字形空間演出。｜https://booth.pm/ja/items/8572304
+UltraBarabara｜第三方｜script｜text｜把文字字形逐筆畫分解成可獨立控制的零件，提供與 GG 分解相近的操作流程，適合漢字標題的逐筆書寫、拆散重組與筆畫動畫。｜https://booth.pm/ja/items/8303123
+FacePartSelector｜第三方｜script｜rigging｜把人物插圖的多組表情差分整理成可用下拉選單與關鍵影格切換的控制，方便在角色動畫中逐格切換表情，適合立繪、VTuber 與角色動畫。｜https://booth.pm/ja/items/8342499
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

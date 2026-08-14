@@ -43,6 +43,7 @@
 - Itch.io／Ko-fi 第五批搜尋仍以 AE 素材、模板及預設包為主，未找到比本批 BOOTH 候選更可信且具獨立工具功能的官方商品頁，平台尚未窮盡。
 - BOOTH 第六批以 Marker、Keyframe、Layer、Path、Audio、Lip Sync 與 Morph 等關鍵字掃描 16 個官方商品頁；已決策 MatchLayerDuration、Arrange Layers、Random Placement、SelectiveAdjustment、レイヤー移動スクリプト、Label & Finder Bar、SyncFX、グリッドレイアウト、Marker Tools、DropFrameEXP v2、Path to Position、SyncAudio_To_Precomp、AudioGlide、Lab_LS、Deckard、MorphMesh，其中グリッドレイアウト頁面回 HTTP 404，其餘頁面均回 HTTP 200，平台尚未窮盡。
 - Payhip 第六批已檢查 TIDY LAYERS、Project Organizer、Binzii_FastEase、AM Reverse Path 四個官方商品頁；頁面可正常渲染，但原始 HTTP 驗證仍會遭平台防機器人阻擋，本批均因與既有工具重疊而略過，平台尚未窮盡。
+- BOOTH 第七批以顏色偵測、HUD、圓形文字、斬擊、像素、字形 3D 佈局等關鍵字掃描並驗證 8 個官方商品頁（全部 HTTP 200）；收錄 NodeField、TextOrbit、Katana Slash Pro、Words Scatter Pro、Palf PixelPaint、Syndromee Text Distribute、UltraBarabara、FacePartSelector，另以功能重疊或描述不足略過 40 個候選並記錄於 skipped.tsv，平台尚未窮盡。
 
 ## 官方來源技巧
 
