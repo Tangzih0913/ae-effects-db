@@ -52,6 +52,43 @@
 | 收預設包／素材包／模板／LUT 包 | 這個庫收的是工具本身 |
 | 收 Premiere／Resolve／FCPX 專用外掛 | 以**官方頁列出的 host** 為準，第三方網站說支援 AE 不算 |
 
+## 來源、熱門度與略過重審
+
+這個庫的來源與對應資料檔：
+
+| 來源 | 放哪個檔 | 判重重點 |
+|---|---|---|
+| aescripts 市集 | `aescripts.jsonl` | 產品名 |
+| BOOTH.pm（日本同人商店） | `booth.jsonl` | **日文原名＋作者名**（同名產品很多，光比 name 會誤判） |
+| Gumroad | `gumroad.jsonl` | 產品名＋作者名 |
+| 各廠商官網（Boris FX、Red Giant、RE:Vision…） | `third-party.jsonl`／各產品線檔 | 產品名 |
+| AE 內建 | `builtin-ae.jsonl` | — |
+| 畫面感配方 | `recipes.jsonl` | — |
+
+**功能重疊不是略過的理由。** 兩個工具功能相似時，不要直接略過後到的；依這個順序判斷：
+
+1. 原廠頁的功能說明是否具體；
+2. 商店熱門度：BOOTH 看 wish_lists_count、Gumroad 看評價數等；
+3. 是否仍在更新維護；
+4. 既有條目是否真的覆蓋同樣需求——實作方式不同、用途不同、品質更好，就該收。
+
+**知名作者的招牌工具一律收錄**（例如 Nisai、Plugin Everything 等），`vendor` 填正確作者名，讓搜作者名找得到。
+
+略過的一定要寫進 `curation/skipped.tsv`，原因具體到日後不必重查。**略過不是永久判決**：每隔一段時間要用熱門度重新檢視之前略過的名單，值得的就收回來，並從 `skipped.tsv` 移除該行。
+
+## 搜尋同義詞（查得到才算數）
+
+搜尋是子字串比對，所以「真人會怎麼打」比「官方怎麼寫」重要。跨語言的同義詞統一放在兩處，**改一處就要同步另一處**：
+
+- `search.py` 的 `ALIASES`（CLI 用）
+- `index.html` 的 `SEARCH_ALIASES`（網站用）
+
+例如「講話」的群組涵蓋 語音／voice／speech／配音／旁白／口白／朗讀 等，所以查「講話」也會找到叫「語音」的工具。
+
+- 發現查某個詞找不到已知工具（例：查「講話」找不到語音工具）→ 不是資料缺，是別名缺詞，把詞加進上面兩個清單。
+- 別名只收**幾乎可互換**的詞；用途不同的近義詞不要硬塞，避免一次噴出一堆不相關結果。
+- `tags` 一樣要寫真實用語，別名只是補齊其它說法。
+
 ## 最快：用 AI 幫你生一行（推薦）
 
 把下面這段**提示詞**整段貼進 ChatGPT / Claude / 任何 AI，最後填上你要加的外掛名稱，它會吐一行可直接貼進資料庫的 JSON：
@@ -77,14 +114,16 @@
 - **禁止套版**：desc 不可以是「提供『XXX』的○○控制」這種只換名字的句型。
   自我檢查：把效果名遮掉，這句話還能不能分辨是哪個效果？不能就重寫。
   資料要來自該效果**自己的**官方說明頁，不是它所屬的分類。
-- url：**必填**，官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/）。
-- 選填：look（畫面外觀一句）、vendor（廠商/作者，不確定就寫 aescripts 或 未知/免費）、suite、aex（.aex 檔名）。
+- url：**必填**，官方產品頁連結（aescripts 為 https://aescripts.com/<slug>/、BOOTH 為 https://booth.pm/ja/items/<id>/、Gumroad 為 https://<author>.gumroad.com/l/<slug>/）。
+- 選填：look（畫面外觀一句）、vendor（廠商/作者，BOOTH／Gumroad 必須填作者名，不確定就寫 aescripts 或 未知/免費）、suite、aex（.aex 檔名）。
 - 若查不到可靠的原廠功能說明：不要輸出 JSON，改為「略過：官方頁無具體功能說明」。
 - 新候選不得以 `unverified:true` 湊數；此旗標只供維護者處理使用者明確要求保留的本機檔案證據。
+- **功能與既有條目重疊不是略過理由**：先看熱門度（BOOTH wish_lists_count、Gumroad 評價數）與品質，實作不同、品質較好或知名作者的招牌工具都要收。
 - 要事實準確，不要編造作者或功能。
 
 該放哪個檔：Trapcode/MagicBullet/VFX→red-giant.jsonl；Universe→universe.jsonl；Sapphire→sapphire.jsonl；
 Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→aescripts.jsonl；
+BOOTH（booth.pm）→booth.jsonl（判重連同日文原名與作者名）；Gumroad→gumroad.jsonl（判重連同作者名）；
 其他有官網的廠商→third-party.jsonl；畫面感配方→recipes.jsonl。
 
 輸出範例：
@@ -113,15 +152,16 @@ Continuum→continuum.jsonl；AE內建→builtin-ae.jsonl；aescripts市集→ae
 2) 逐頁瀏覽 aescripts.com（建議依 https://aescripts.com/?tab=viewed 最多瀏覽、
    或 ?tab=bestselling 暢銷、或各分類），一個一個看產品。
 3) 對每個產品做「收/不收」判斷：
-   收錄條件（要同時成立）：
-     - 尚未在已收錄清單中（名稱或功能沒重複）。
+    收錄條件（要同時成立）：
+     - 尚未在已收錄清單中（名稱、variants、日文原名、作者名、官方 URL 都要比對）。
      - 功能實用、有代表性（暢銷/常被討論/解決常見需求）。
      - 原廠頁明列支援 After Effects，且能確認實際功能。
-   直接略過（不要收）：
-     - 已收錄，或與現有條目功能高度重複（例如又一個普通 glow、又一個普通 blur）。
-     - 冷門、極小眾、實驗性、幾乎沒人用的。
+    直接略過（不要收）：
+     - 已收錄（含 variants、日文原名、作者名）。
      - 純預設包/素材包/模板/LUT/教學，或 bundle，而非獨立工具。
      - 非 AE host、已停售/下架/obsolete/legacy-only，或官方頁沒有具體功能說明。
+    **功能與既有條目重疊不是略過理由**：先查熱門度（BOOTH wish_lists_count、Gumroad 評價數）與品質，
+    實作不同、品質較好或知名作者的招牌工具都要收，vendor 標正確作者名。
 4) 決定收錄的，輸出「一行」壓縮 JSON，欄位規則：
      必填 name, kind, cat, tags, desc, url
      - kind 從 plugin / script / builtin / recipe 擇一
@@ -184,6 +224,9 @@ git commit -am "add: XXX 外掛"
 - [ ] `desc` 用繁體中文、一句話、講清楚**做什麼＋典型用途**。
 - [ ] **把效果名遮掉後，desc 還能分辨是哪個效果**（不是只有名字不同的樣板句）。
 - [ ] `tags` 中英雙語（一定要有中文），且去掉效果名後不與同系列其他條目雷同。
+- [ ] 加了新的多語同義詞時，`search.py` 的 `ALIASES` 與 `index.html` 的 `SEARCH_ALIASES` 已同步（例：查「講話」也找得到語音工具）。
+- [ ] BOOTH／Gumroad 條目：`vendor` 填作者名、日文原名有進 `tags`、URL 實際存在。
+- [ ] 因重疊之外的理由略過的候選已記到 `curation/skipped.tsv`（原因具體）；重疊不再自動略過，除非已查過熱門度與品質。
 - [ ] `url` 有實際開過確認存在，不是照 slug 規則猜的。
 - [ ] 放對資料檔、`cat` 用既有分類。
 - [ ] 作者／功能／AE host 屬實；查不到原廠具體說明就不收。

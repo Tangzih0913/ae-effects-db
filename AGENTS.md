@@ -92,10 +92,31 @@
 | `builtin-ae.jsonl` | Adobe AE 內建效果／工具與 CycoreFX |
 | `aescripts.jsonl` | aescripts 市集產品 |
 | `third-party.jsonl` | 其他有獨立原廠頁的廠商 |
+| `booth.jsonl` | BOOTH.pm（日本同人商店）工具；判重時連同日文原名與作者名一起搜，同名產品很多 |
+| `gumroad.jsonl` | Gumroad 上架的獨立工具；判重時連同作者名一起搜 |
 | `installed.jsonl` | 從本機安裝證據辨識、又無法歸入前述產品線的工具 |
 | `recipes.jsonl` | 畫面感與效果堆疊配方 |
 
 請先用 `python tools/add.py batch.jsonl --dry` 預檢，再以 `python tools/add.py batch.jsonl` 匯入，讓工具負責 schema 檢查、判重與選檔。同名不一定等於重複：不同 `kind`、不同原廠 URL 的正式同名效果可以共存；同 kind 或同官方 URL 才是產品碰撞。
+
+## 搜尋同義關鍵字（ALIASES）
+
+搜尋是子字串比對，不是語意搜尋。跨語言同義詞集中在兩處，**改一處必須同步另一處**：
+
+- `search.py` 的 `ALIASES`（CLI）；
+- `index.html` 的 `SEARCH_ALIASES`（網站）。
+
+例如「講話」群組涵蓋 語音／voice／speech／配音／旁白／口白／朗讀 等，所以查「講話」能找到叫「語音」的工具。
+
+- 發現「查某個詞找不到已知工具」（例：查「講話」找不到語音工具）時，是別名群組缺詞，把該詞加進 `ALIASES`／`SEARCH_ALIASES`，而不是只補單筆 `tags`。
+- 別名只放「幾乎可互換」的詞；近義但用途不同的詞不要硬塞進同一群組，避免搜尋噪音。
+- 寫 `tags` 仍要用該工具真實的用語，別名負責補齊其它說法。
+
+## 略過名單重審
+
+`curation/skipped.tsv` 是決策記憶，不是永久判決。每次擴充前先掃描一遍。
+
+對先前因「與既有條目重疊」略過的候選，以熱門度（BOOTH `wish_lists_count`、Gumroad 評價數等）與作者知名度重審：熱門度明顯領先同類、品質較好，或知名作者（如 Nisai）的招牌工具 → 收錄，並從 `skipped.tsv` 移除該行、批次記錄寫進 `EXPANSION.md`。
 
 ## 產生檔與策展設定
 
