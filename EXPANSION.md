@@ -44,6 +44,7 @@
 - BOOTH 第六批以 Marker、Keyframe、Layer、Path、Audio、Lip Sync 與 Morph 等關鍵字掃描 16 個官方商品頁；已決策 MatchLayerDuration、Arrange Layers、Random Placement、SelectiveAdjustment、レイヤー移動スクリプト、Label & Finder Bar、SyncFX、グリッドレイアウト、Marker Tools、DropFrameEXP v2、Path to Position、SyncAudio_To_Precomp、AudioGlide、Lab_LS、Deckard、MorphMesh，其中グリッドレイアウト頁面回 HTTP 404，其餘頁面均回 HTTP 200，平台尚未窮盡。
 - Payhip 第六批已檢查 TIDY LAYERS、Project Organizer、Binzii_FastEase、AM Reverse Path 四個官方商品頁；頁面可正常渲染，但原始 HTTP 驗證仍會遭平台防機器人阻擋，本批均因與既有工具重疊而略過，平台尚未窮盡。
 - BOOTH 第七批以顏色偵測、HUD、圓形文字、斬擊、像素、字形 3D 佈局等關鍵字掃描並驗證 8 個官方商品頁（全部 HTTP 200）；收錄 NodeField、TextOrbit、Katana Slash Pro、Words Scatter Pro、Palf PixelPaint、Syndromee Text Distribute、UltraBarabara、FacePartSelector，另以功能重疊或描述不足略過 40 個候選並記錄於 skipped.tsv，平台尚未窮盡。
+- BOOTH 第八批以工具型候選清單（461 個，經素材／BGM／VRchat／Photoshop 等過濾後）逐筆抓取 meta 驗證並判重；收錄 Palf FontMixer、AlignLab、SaveAnimation、3D Grid Panel、HourFlow 五個（功能獨立，不與既有工具重疊），並以素材、非 AE、重疊或過窄為由略過 424 個候選且記錄於 skipped.tsv（另修復 skipped.tsv 中 39 筆以字面換行黏在同行的紀錄）。BOOTH 累計已涵蓋約 536 個商品 id（收錄 34 ＋ 略過 502），平台尚未窮盡。
 
 ## 官方來源技巧
 

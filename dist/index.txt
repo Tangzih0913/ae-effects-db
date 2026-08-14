@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2523 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2528 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2426,6 +2426,11 @@ Palf PixelPaint｜第三方｜plugin｜draw｜以二值像素格重現 Write-on 
 Syndromee Text Distribute｜第三方｜plugin｜text｜把文字逐字拆開並分散到螺旋、網格、漩渦、波浪、圓環、球體或折疊等 2D／3D 佈局，可加階梯動畫、Plexus 風字形連線與色彩循環，適合科技感片頭與字形空間演出。｜https://booth.pm/ja/items/8572304
 UltraBarabara｜第三方｜script｜text｜把文字字形逐筆畫分解成可獨立控制的零件，提供與 GG 分解相近的操作流程，適合漢字標題的逐筆書寫、拆散重組與筆畫動畫。｜https://booth.pm/ja/items/8303123
 FacePartSelector｜第三方｜script｜rigging｜把人物插圖的多組表情差分整理成可用下拉選單與關鍵影格切換的控制，方便在角色動畫中逐格切換表情，適合立繪、VTuber 與角色動畫。｜https://booth.pm/ja/items/8342499
+Palf FontMixer｜第三方｜script｜text｜依文字種類（全形、半形、日文假名等）批次變更字型，提供近似 Illustrator 合成字型的功能，可用授權金鑰啟用，適合大量文字一次統一或混排多字型的標題與字幕。｜https://booth.pm/ja/items/6326089
+AlignLab｜第三方｜script｜mograph｜用直線、圓形、網格、螺旋、多邊形、沿遮罩或關鍵影格路徑、波形與隨機等模式批次自動配置圖層位置，適合需要快速做出幾何陣列、環繞標題或沿路徑散佈的排版與陣列動畫。｜https://booth.pm/ja/items/7013921
+SaveAnimation｜第三方｜script｜workflow｜把圖層的動畫關鍵影格、效果與整個合成保存下來並隨時呼叫，另可記錄圖層的顯示／隱藏、鎖定、模式與 Solo 等狀態，在任何合成中套用，適合常用動畫與效果的反覆重用及版本比對。｜https://booth.pm/ja/items/7360236
+3D Grid Panel｜第三方｜script｜3d｜在合成內生成 Blender／Maya 風格的 3D 網格基準平面，作為 3D 圖層配置、空間掌握與攝影機構圖的參考輔助，適合 3D 場景搭建與多圖層深度安排時對齊空間。｜https://booth.pm/ja/items/7885371
+HourFlow｜第三方｜script｜workflow｜以翻頁時鐘風格的 CEP 面板自動追蹤並記錄各專案的工作時間，即使 AE 開啟對話框也不會停止計時，適合自由接案與團隊需要估算專案工時、對外報價或檢視自身產出效率的工作流。｜https://booth.pm/ja/items/8308026
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

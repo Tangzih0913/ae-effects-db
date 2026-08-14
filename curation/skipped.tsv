@@ -1,4 +1,6 @@
 # 刻意不收錄的候選（slug 或穩定識別碼<TAB>具體原因）
+# 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
+# 想改變決定就把該行刪掉，它會重新出現在待評估清單。
 ninebysixteen	官方標示已停售且不再提供
 notecraft	僅支援 Premiere Pro，不是 After Effects 工具
 nx-3-strip	僅支援 DaVinci Resolve Studio，不是 After Effects 工具
@@ -73,8 +75,6 @@ layer-selector-toolbar	官方相容性僅列到 CC 2015，版本過舊且代表�
 malty-cuber	官方頁明確標示已停售且不再提供
 malty-simple-camera-rig	官方頁明確標示已停售，並建議改用新版 HandyCam
 malty-snapshot	官方頁明確標示已停售且不再提供
-# 目的：讓每次擴充作業不用重複評估同樣的東西。tools/find_new.py 會自動排除這裡的項目。
-# 想改變決定就把該行刪掉，它會重新出現在待評估清單。
 loopmaster	一般關鍵影格、素材、Wiggle、旋轉與軌道循環功能和已收錄的 Loopy／Loop Tools Pro 高度重複
 lottiefiles	核心 Lottie 匯入匯出、預覽、相容性檢查與批次流程已由 Bodymovin／Lottie 和 LottiePacker 覆蓋
 blob-it	與已收錄的 CC Blobbylize、Colloid 等黏液／果凍式有機變形功能高度重複
@@ -812,7 +812,6 @@ yuvsoft-depth-from-stereo-lite	官方頁或條目說明已標示停售／下架�
 ae-pixel-sorter-2	舊版且功能已由資料庫中的 Pixel Sorter 4 取代，不重複收錄
 aod-技術生成套件	屬未列出個別工具的套裝包，且沒有可核實的官方功能頁
 p_textmask	查無官方產品頁，無法驗證功能與目前 AE 相容性
-circle-align	官方相容性只列到 AE CC 2019，且僅做圓形排列，與既有排列／表達式工具高度重複
 aurum	官方商品頁明示已停售；即使功能完整，仍不符合現行收錄標準
 save-comp-as-project	官方商品頁明示已停售，且官方已建議改用 AEVIEWER Pro
 screen-equalizer	官方商品頁明示已停售，不再收錄無現行支援的舊版綠幕校正工具
@@ -918,4 +917,467 @@ payhip-uo18o	Binzii_FastEase 依播放頭位置調整兩個關鍵影格的緩動
 payhip-1o8i3	AM Reverse Path 只反轉選取的 Mask／Bezier Shape Path 方向，已由 ReverseMaskPath、Penpal 2 等既有路徑工具涵蓋
 booth-7923918	AudioGlide 的父合成音樂同步到預合成及批次清理，與本批功能更完整且支援多選的 SyncAudio_To_Precomp 重疊
 booth-7866112	Deckard 的預合成深層複製與來源置換已由 True Comp Duplicator、CompCode 等既有工具涵蓋
-booth-7918555	效果啟動器，與已收錄的 FX Console（快捷鍵呼叫搜尋框套用效果）功能高度重疊，且標榜日文版 AE 專用，市場過窄\nbooth-7703858	效果／FFX／腳本搜尋啟動器，與已收錄的 FX Console 重疊\nbooth-7946436	僅清除 AE 快取與磁碟快取，屬單一維護功能，與已收錄的 AE Purger／Throttle-n-Purge 重疊\nbooth-5510500	預合成解除／圖層轉移／克隆工具，與已收錄的 Un-PreCompose、True Comp Duplicator 等重疊\nbooth-8016864	專案自動整理分類工具，與已收錄的 OrganizerPro 重疊，且官方頁未提供具體功能說明\nbooth-8647898	鏡頭光斑外掛，與已收錄的 Optical Flares、Knoll Light Factory 及 BCC Lens Flare 等高度重疊\nbooth-8620753	簡易粒子閃光外掛，與已收錄的 Particular、Stardust、ParticleShapes 等粒子工具重疊，功能過窄\nbooth-8615135	調色外掛，與已收錄的 Color Genius、Dehancer 及 BCC+ Grade 等色彩工具重疊\nbooth-8683443	AE 2026 專用調色外掛（僅 Windows），與已收錄的 Color Genius、Dehancer 等重疊，且平台與版本範圍過窄\nbooth-8699285	Illustrator 素材整理面板，屬單一流程輔助，功能過窄\nbooth-8705398	常用字型管理工具，與已收錄的 Project Font Pro、pt_TextEdit 等重疊\nbooth-8664334	散景效果外掛，與已收錄的 Fast Bokeh Pro、Crossphere Bokeh、BCC Bokeh 等重疊\nbooth-8705527	玻璃碎裂轉場，與已收錄的 Voronoi Shatter 3、Break It!、Shatter 等重疊\nbooth-8618241	光線／光束外掛，官方頁描述不足且與已收錄的 Light Sweep、S_Streaks 等光線工具重疊\nbooth-8603133	風搖擺動畫工具，與已收錄的 AutoSway、Breeze 等重疊\nbooth-6463912	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊\nbooth-7747398	多段描邊外掛，官方頁描述不足，且與已收錄的 Thicc Stroke、3D Stroke 等重疊\nbooth-7839641	緩動＋物理＋色板三合一，分別與已收錄的 Flow、Newton、Ray Dynamic Color 2 重疊\nbooth-8004669	BPM 標記生成器，與已收錄的 AudioToMarkers、Beat Assistant 等重疊\nbooth-8024651	文字拆分動畫工具，與已收錄的 Text Split and Animate、DecomposeText 等重疊\nbooth-8028067	物理式彈跳／タメ（蓄力）動畫工具，與已收錄的 Easy Bounce、RetroBounce、Squash & Stretch 等重疊\nbooth-8124837	音樂連動動畫工具，與已收錄的 BeatPad、Universal Audio、BCC Beat Reactor 等重疊\nbooth-8127965	文字框自動生成工具，與已收錄的 TextBox 2、Box It!、ShapeFit Panel 等重疊\nbooth-8133054	假 3D 方塊生成器，與已收錄的 Create3DShapes、Isomatic FX 等重疊\nbooth-8140610	字幕作業工具，官方頁描述不足且與已收錄的 Captioneer、TypeAnimeJP 等字幕工具重疊\nbooth-8237538	Trim Path 連動 Null 產生器，功能過窄\nbooth-8337763	圖層重新命名工具，與已收錄的 Fast Renamer、Renamer2 等重疊\nbooth-8471328	圓角矩形調整工具，與已收錄的 RectControl 等重疊，功能過窄\nbooth-8547494	Shape 預設檢視器，官方頁描述不足\nbooth-8570213	文字動畫工具，與已收錄的 Text Force、TypePlay 等重疊\nbooth-8594840	以 Null 繪製 3D 描邊，與已收錄的 3D Stroke、Filament 系列重疊\nbooth-8626270	HUD 介面生成工具，與已收錄的 HUD Components、circuitFX 及本次收錄的 NodeField 重疊\nbooth-8627108	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊\nbooth-8656108	圖層連結複製工具，官方頁為 prototype 原型版且未完整說明功能\nbooth-8694935	螢火蟲效果外掛，官方頁描述不足\nbooth-8065162	色彩管理面板，與已收錄的 Ray Dynamic Color 2、Pigment 等色彩工具重疊\nbooth-8407863	音訊轉 MIDI 工具，並非 After Effects 工具，而是音樂製作用途\nbooth-7955064	Checkerboard 格線產生器，功能過窄\nbooth-8382671	Figma 設計轉 AE 匯出工具，與已收錄的 UXLink、Overlord 2 的 Figma→AE 功能重疊\nbooth-8009919	AE 與 Blender／Maya 相機同步橋接工具，與已收錄的 BlenderAe 的相機／座標同步功能重疊\n
+booth-7918555	效果啟動器，與已收錄的 FX Console（快捷鍵呼叫搜尋框套用效果）功能高度重疊，且標榜日文版 AE 專用，市場過窄
+booth-7703858	效果／FFX／腳本搜尋啟動器，與已收錄的 FX Console 重疊
+booth-7946436	僅清除 AE 快取與磁碟快取，屬單一維護功能，與已收錄的 AE Purger／Throttle-n-Purge 重疊
+booth-5510500	預合成解除／圖層轉移／克隆工具，與已收錄的 Un-PreCompose、True Comp Duplicator 等重疊
+booth-8016864	專案自動整理分類工具，與已收錄的 OrganizerPro 重疊，且官方頁未提供具體功能說明
+booth-8647898	鏡頭光斑外掛，與已收錄的 Optical Flares、Knoll Light Factory 及 BCC Lens Flare 等高度重疊
+booth-8620753	簡易粒子閃光外掛，與已收錄的 Particular、Stardust、ParticleShapes 等粒子工具重疊，功能過窄
+booth-8615135	調色外掛，與已收錄的 Color Genius、Dehancer 及 BCC+ Grade 等色彩工具重疊
+booth-8683443	AE 2026 專用調色外掛（僅 Windows），與已收錄的 Color Genius、Dehancer 等重疊，且平台與版本範圍過窄
+booth-8699285	Illustrator 素材整理面板，屬單一流程輔助，功能過窄
+booth-8705398	常用字型管理工具，與已收錄的 Project Font Pro、pt_TextEdit 等重疊
+booth-8664334	散景效果外掛，與已收錄的 Fast Bokeh Pro、Crossphere Bokeh、BCC Bokeh 等重疊
+booth-8705527	玻璃碎裂轉場，與已收錄的 Voronoi Shatter 3、Break It!、Shatter 等重疊
+booth-8618241	光線／光束外掛，官方頁描述不足且與已收錄的 Light Sweep、S_Streaks 等光線工具重疊
+booth-8603133	風搖擺動畫工具，與已收錄的 AutoSway、Breeze 等重疊
+booth-6463912	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊
+booth-7747398	多段描邊外掛，官方頁描述不足，且與已收錄的 Thicc Stroke、3D Stroke 等重疊
+booth-7839641	緩動＋物理＋色板三合一，分別與已收錄的 Flow、Newton、Ray Dynamic Color 2 重疊
+booth-8004669	BPM 標記生成器，與已收錄的 AudioToMarkers、Beat Assistant 等重疊
+booth-8024651	文字拆分動畫工具，與已收錄的 Text Split and Animate、DecomposeText 等重疊
+booth-8028067	物理式彈跳／タメ（蓄力）動畫工具，與已收錄的 Easy Bounce、RetroBounce、Squash & Stretch 等重疊
+booth-8124837	音樂連動動畫工具，與已收錄的 BeatPad、Universal Audio、BCC Beat Reactor 等重疊
+booth-8127965	文字框自動生成工具，與已收錄的 TextBox 2、Box It!、ShapeFit Panel 等重疊
+booth-8133054	假 3D 方塊生成器，與已收錄的 Create3DShapes、Isomatic FX 等重疊
+booth-8140610	字幕作業工具，官方頁描述不足且與已收錄的 Captioneer、TypeAnimeJP 等字幕工具重疊
+booth-8237538	Trim Path 連動 Null 產生器，功能過窄
+booth-8337763	圖層重新命名工具，與已收錄的 Fast Renamer、Renamer2 等重疊
+booth-8471328	圓角矩形調整工具，與已收錄的 RectControl 等重疊，功能過窄
+booth-8547494	Shape 預設檢視器，官方頁描述不足
+booth-8570213	文字動畫工具，與已收錄的 Text Force、TypePlay 等重疊
+booth-8594840	以 Null 繪製 3D 描邊，與已收錄的 3D Stroke、Filament 系列重疊
+booth-8626270	HUD 介面生成工具，與已收錄的 HUD Components、circuitFX 及本次收錄的 NodeField 重疊
+booth-8627108	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊
+booth-8656108	圖層連結複製工具，官方頁為 prototype 原型版且未完整說明功能
+booth-8694935	螢火蟲效果外掛，官方頁描述不足
+booth-8065162	色彩管理面板，與已收錄的 Ray Dynamic Color 2、Pigment 等色彩工具重疊
+booth-8407863	音訊轉 MIDI 工具，並非 After Effects 工具，而是音樂製作用途
+booth-7955064	Checkerboard 格線產生器，功能過窄
+booth-8382671	Figma 設計轉 AE 匯出工具，與已收錄的 UXLink、Overlord 2 的 Figma→AE 功能重疊
+booth-8009919	AE 與 Blender／Maya 相機同步橋接工具，與已收錄的 BlenderAe 的相機／座標同步功能重疊
+booth-2308074	功能與既有工具重疊或偏窄，暫不收錄
+booth-2308107	功能與既有工具重疊或偏窄，暫不收錄
+booth-2899026	功能與既有工具重疊或偏窄，暫不收錄
+booth-3036337	功能單一或偏窄的工具腳本，暫不收錄
+booth-3884551	OBS／桌面應用／非 AE 插件
+booth-4582443	其他剪輯軟體專用工具，非 AE 工具
+booth-4638952	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-4672884	功能單一或偏窄的工具腳本，暫不收錄
+booth-4680210	BGM／效果音素材，非 AE 工具
+booth-4717122	功能與既有工具重疊或偏窄，暫不收錄
+booth-4815780	功能與既有工具重疊或偏窄，暫不收錄
+booth-4815812	遊戲／其他軟體工具或實體硬體，非 AE 工具
+booth-4823813	功能與既有工具重疊或偏窄，暫不收錄
+booth-4823866	功能與既有工具重疊或偏窄，暫不收錄
+booth-4889598	OBS／桌面應用／非 AE 插件
+booth-4896660	功能與既有工具重疊或偏窄，暫不收錄
+booth-4918154	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-4967878	功能與既有工具重疊或偏窄，暫不收錄
+booth-5053741	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-5137439	影片／轉場／模板素材，非 AE 工具
+booth-5181117	其他剪輯軟體專用工具，非 AE 工具
+booth-5199818	其他剪輯軟體專用工具，非 AE 工具
+booth-5239822	BGM／效果音素材，非 AE 工具
+booth-5253664	功能與既有工具重疊或偏窄，暫不收錄
+booth-5363477	功能與既有工具重疊或偏窄，暫不收錄
+booth-5371051	功能與既有工具重疊或偏窄，暫不收錄
+booth-5448126	影片／轉場／模板素材，非 AE 工具
+booth-5526488	影片／轉場／模板素材，非 AE 工具
+booth-5533711	影片／轉場／模板素材，非 AE 工具
+booth-5553388	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-5560844	影片／轉場／模板素材，非 AE 工具
+booth-5607576	功能與既有工具重疊或偏窄，暫不收錄
+booth-5658228	影片／轉場／模板素材，非 AE 工具
+booth-5754293	功能與既有工具重疊或偏窄，暫不收錄
+booth-5892231	功能與既有工具重疊或偏窄，暫不收錄
+booth-5912007	影片／轉場／模板素材，非 AE 工具
+booth-5930535	功能與既有工具重疊或偏窄，暫不收錄
+booth-5935567	功能與既有工具重疊或偏窄，暫不收錄
+booth-5959422	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-5977130	功能與既有工具重疊或偏窄，暫不收錄
+booth-6005565	其他剪輯軟體專用工具，非 AE 工具
+booth-6023035	功能與既有工具重疊或偏窄，暫不收錄
+booth-6034581	功能與既有工具重疊或偏窄，暫不收錄
+booth-6035255	功能單一或偏窄的工具腳本，暫不收錄
+booth-6050529	功能與既有工具重疊或偏窄，暫不收錄
+booth-6115166	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-6156483	其他剪輯軟體專用工具，非 AE 工具
+booth-6157425	其他剪輯軟體專用工具，非 AE 工具
+booth-6158908	其他剪輯軟體專用工具，非 AE 工具
+booth-6314815	影片／轉場／模板素材，非 AE 工具
+booth-6329518	功能單一或偏窄的工具腳本，暫不收錄
+booth-6338775	影片／轉場／模板素材，非 AE 工具
+booth-6354871	功能與既有工具重疊或偏窄，暫不收錄
+booth-6570661	影片／轉場／模板素材，非 AE 工具
+booth-6574031	功能與既有工具重疊或偏窄，暫不收錄
+booth-6598360	功能與既有工具重疊或偏窄，暫不收錄
+booth-6645153	影片／轉場／模板素材，非 AE 工具
+booth-6646102	功能與既有工具重疊或偏窄，暫不收錄
+booth-6652211	影片／轉場／模板素材，非 AE 工具
+booth-6724131	BGM／效果音素材，非 AE 工具
+booth-6733757	功能與既有工具重疊或偏窄，暫不收錄
+booth-6735261	功能與既有工具重疊或偏窄，暫不收錄
+booth-6789538	功能與既有工具重疊或偏窄，暫不收錄
+booth-6813457	功能單一或偏窄的工具腳本，暫不收錄
+booth-6859773	其他剪輯軟體專用工具，非 AE 工具
+booth-6859891	其他剪輯軟體專用工具，非 AE 工具
+booth-6859898	其他剪輯軟體專用工具，非 AE 工具
+booth-6859907	其他剪輯軟體專用工具，非 AE 工具
+booth-6859950	影片／轉場／模板素材，非 AE 工具
+booth-6899909	影片／轉場／模板素材，非 AE 工具
+booth-6926580	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-6928051	影片／轉場／模板素材，非 AE 工具
+booth-6972849	功能與既有工具重疊或偏窄，暫不收錄
+booth-6974366	遊戲／其他軟體工具或實體硬體，非 AE 工具
+booth-7025105	功能與既有工具重疊或偏窄，暫不收錄
+booth-7034381	功能與既有工具重疊或偏窄，暫不收錄
+booth-7038517	影片／轉場／模板素材，非 AE 工具
+booth-7066086	功能與既有工具重疊或偏窄，暫不收錄
+booth-7080235	功能與既有工具重疊或偏窄，暫不收錄
+booth-7152542	功能與既有工具重疊或偏窄，暫不收錄
+booth-7176429	功能與既有工具重疊或偏窄，暫不收錄
+booth-7187728	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7195571	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7213517	功能與既有工具重疊或偏窄，暫不收錄
+booth-7266089	功能與既有工具重疊或偏窄，暫不收錄
+booth-7353891	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7420389	功能與既有工具重疊或偏窄，暫不收錄
+booth-7588334	影片／轉場／模板素材，非 AE 工具
+booth-7589056	影片／轉場／模板素材，非 AE 工具
+booth-7589073	影片／轉場／模板素材，非 AE 工具
+booth-7590981	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7672717	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7673903	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7680542	功能與既有工具重疊或偏窄，暫不收錄
+booth-7696970	功能與既有工具重疊或偏窄，暫不收錄
+booth-7716028	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7726008	功能與既有工具重疊或偏窄，暫不收錄
+booth-7742853	功能與既有工具重疊或偏窄，暫不收錄
+booth-7755523	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-7807641	功能與既有工具重疊或偏窄，暫不收錄
+booth-7814465	影片／轉場／模板素材，非 AE 工具
+booth-7837396	功能與既有工具重疊或偏窄，暫不收錄
+booth-7877762	功能與既有工具重疊或偏窄，暫不收錄
+booth-7883002	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-7889426	功能與既有工具重疊或偏窄，暫不收錄
+booth-7891588	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-7901979	功能與既有工具重疊或偏窄，暫不收錄
+booth-7902307	功能與既有工具重疊或偏窄，暫不收錄
+booth-7902317	功能單一或偏窄的工具腳本，暫不收錄
+booth-7925787	OBS／桌面應用／非 AE 插件
+booth-7942873	OBS／桌面應用／非 AE 插件
+booth-7957551	影片／轉場／模板素材，非 AE 工具
+booth-7961308	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-7981677	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-7982438	功能與既有工具重疊或偏窄，暫不收錄
+booth-7983547	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7983576	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7983594	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-7985776	功能與既有工具重疊或偏窄，暫不收錄
+booth-8008951	其他剪輯軟體專用工具，非 AE 工具
+booth-8043727	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8044134	影片／轉場／模板素材，非 AE 工具
+booth-8048318	影片／轉場／模板素材，非 AE 工具
+booth-8052153	功能與既有工具重疊或偏窄，暫不收錄
+booth-8063745	功能與既有工具重疊或偏窄，暫不收錄
+booth-8066925	功能與既有工具重疊或偏窄，暫不收錄
+booth-8082372	影片／轉場／模板素材，非 AE 工具
+booth-8082537	影片／轉場／模板素材，非 AE 工具
+booth-8082569	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8083872	BGM／效果音素材，非 AE 工具
+booth-8087797	功能與既有工具重疊或偏窄，暫不收錄
+booth-8089765	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8092692	功能與既有工具重疊或偏窄，暫不收錄
+booth-8096145	功能與既有工具重疊或偏窄，暫不收錄
+booth-8127229	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8130004	功能與既有工具重疊或偏窄，暫不收錄
+booth-8130167	OBS／桌面應用／非 AE 插件
+booth-8143492	功能與既有工具重疊或偏窄，暫不收錄
+booth-8147945	影片／轉場／模板素材，非 AE 工具
+booth-8153454	功能單一或偏窄的工具腳本，暫不收錄
+booth-8157423	功能與既有工具重疊或偏窄，暫不收錄
+booth-8171788	功能與既有工具重疊或偏窄，暫不收錄
+booth-8176571	功能與既有工具重疊或偏窄，暫不收錄
+booth-8176824	功能與既有工具重疊或偏窄，暫不收錄
+booth-8182799	BGM／效果音素材，非 AE 工具
+booth-8182835	BGM／效果音素材，非 AE 工具
+booth-8182868	BGM／效果音素材，非 AE 工具
+booth-8182900	BGM／效果音素材，非 AE 工具
+booth-8182928	BGM／效果音素材，非 AE 工具
+booth-8183369	BGM／效果音素材，非 AE 工具
+booth-8183410	BGM／效果音素材，非 AE 工具
+booth-8183457	BGM／效果音素材，非 AE 工具
+booth-8183482	BGM／效果音素材，非 AE 工具
+booth-8183518	BGM／效果音素材，非 AE 工具
+booth-8183546	BGM／效果音素材，非 AE 工具
+booth-8183640	BGM／效果音素材，非 AE 工具
+booth-8183663	BGM／效果音素材，非 AE 工具
+booth-8190017	BGM／效果音素材，非 AE 工具
+booth-8194092	功能與既有工具重疊或偏窄，暫不收錄
+booth-8194849	功能單一或偏窄的工具腳本，暫不收錄
+booth-8199722	功能與既有工具重疊或偏窄，暫不收錄
+booth-8217535	功能與既有工具重疊或偏窄，暫不收錄
+booth-8222977	功能與既有工具重疊或偏窄，暫不收錄
+booth-8242478	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8252699	影片／轉場／模板素材，非 AE 工具
+booth-8266268	功能與既有工具重疊或偏窄，暫不收錄
+booth-8290967	OBS／桌面應用／非 AE 插件
+booth-8292828	功能與既有工具重疊或偏窄，暫不收錄
+booth-8293489	BGM／效果音素材，非 AE 工具
+booth-8296369	影片／轉場／模板素材，非 AE 工具
+booth-8298091	TRPG／桌遊素材或劇本，非 AE 工具
+booth-8308334	影片／轉場／模板素材，非 AE 工具
+booth-8315961	OBS／桌面應用／非 AE 插件
+booth-8317350	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8330000	功能與既有工具重疊或偏窄，暫不收錄
+booth-8339688	影片／轉場／模板素材，非 AE 工具
+booth-8339972	影片／轉場／模板素材，非 AE 工具
+booth-8344160	OBS／桌面應用／非 AE 插件
+booth-8345991	影片／轉場／模板素材，非 AE 工具
+booth-8348271	影片／轉場／模板素材，非 AE 工具
+booth-8362356	OBS／桌面應用／非 AE 插件
+booth-8364091	影片／轉場／模板素材，非 AE 工具
+booth-8364148	功能與既有工具重疊或偏窄，暫不收錄
+booth-8369118	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8369158	影片／轉場／模板素材，非 AE 工具
+booth-8373597	影片／轉場／模板素材，非 AE 工具
+booth-8381383	功能與既有工具重疊或偏窄，暫不收錄
+booth-8386208	影片／轉場／模板素材，非 AE 工具
+booth-8386500	影片／轉場／模板素材，非 AE 工具
+booth-8392320	功能與既有工具重疊或偏窄，暫不收錄
+booth-8404901	其他剪輯軟體專用工具，非 AE 工具
+booth-8406142	其他剪輯軟體專用工具，非 AE 工具
+booth-8408817	影片／轉場／模板素材，非 AE 工具
+booth-8417920	功能與既有工具重疊或偏窄，暫不收錄
+booth-8419806	影片／轉場／模板素材，非 AE 工具
+booth-8420731	功能與既有工具重疊或偏窄，暫不收錄
+booth-8420761	影片／轉場／模板素材，非 AE 工具
+booth-8420879	影片／轉場／模板素材，非 AE 工具
+booth-8425381	功能與既有工具重疊或偏窄，暫不收錄
+booth-8429097	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8439082	功能與既有工具重疊或偏窄，暫不收錄
+booth-8440208	OBS／桌面應用／非 AE 插件
+booth-8443701	功能與既有工具重疊或偏窄，暫不收錄
+booth-8447311	功能與既有工具重疊或偏窄，暫不收錄
+booth-8448364	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8451006	其他剪輯軟體專用工具，非 AE 工具
+booth-8468704	功能與既有工具重疊或偏窄，暫不收錄
+booth-8475992	BGM／效果音素材，非 AE 工具
+booth-8480988	影片／轉場／模板素材，非 AE 工具
+booth-8483001	影片／轉場／模板素材，非 AE 工具
+booth-8492852	影片／轉場／模板素材，非 AE 工具
+booth-8496549	功能與既有工具重疊或偏窄，暫不收錄
+booth-8497222	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8497435	功能與既有工具重疊或偏窄，暫不收錄
+booth-8502309	影片／轉場／模板素材，非 AE 工具
+booth-8508744	影片／轉場／模板素材，非 AE 工具
+booth-8511099	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8513969	影片／轉場／模板素材，非 AE 工具
+booth-8514743	功能與既有工具重疊或偏窄，暫不收錄
+booth-8516148	影片／轉場／模板素材，非 AE 工具
+booth-8516161	影片／轉場／模板素材，非 AE 工具
+booth-8517293	功能與既有工具重疊或偏窄，暫不收錄
+booth-8518916	影片／轉場／模板素材，非 AE 工具
+booth-8522397	影片／轉場／模板素材，非 AE 工具
+booth-8522431	影片／轉場／模板素材，非 AE 工具
+booth-8522509	影片／轉場／模板素材，非 AE 工具
+booth-8524104	影片／轉場／模板素材，非 AE 工具
+booth-8524677	影片／轉場／模板素材，非 AE 工具
+booth-8524683	影片／轉場／模板素材，非 AE 工具
+booth-8524693	影片／轉場／模板素材，非 AE 工具
+booth-8524903	影片／轉場／模板素材，非 AE 工具
+booth-8524969	影片／轉場／模板素材，非 AE 工具
+booth-8529162	功能與既有工具重疊或偏窄，暫不收錄
+booth-8533297	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8534430	功能與既有工具重疊或偏窄，暫不收錄
+booth-8534541	功能與既有工具重疊或偏窄，暫不收錄
+booth-8534623	OBS／桌面應用／非 AE 插件
+booth-8537637	其他剪輯軟體專用工具，非 AE 工具
+booth-8540076	影片／轉場／模板素材，非 AE 工具
+booth-8542768	其他剪輯軟體專用工具，非 AE 工具
+booth-8545650	其他剪輯軟體專用工具，非 AE 工具
+booth-8546346	功能與既有工具重疊或偏窄，暫不收錄
+booth-8547196	功能與既有工具重疊或偏窄，暫不收錄
+booth-8547635	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8548101	其他剪輯軟體專用工具，非 AE 工具
+booth-8548297	影片／轉場／模板素材，非 AE 工具
+booth-8548676	影片／轉場／模板素材，非 AE 工具
+booth-8551038	其他剪輯軟體專用工具，非 AE 工具
+booth-8551564	功能與既有工具重疊或偏窄，暫不收錄
+booth-8552545	影片／轉場／模板素材，非 AE 工具
+booth-8553101	功能與既有工具重疊或偏窄，暫不收錄
+booth-8559336	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8561858	影片／轉場／模板素材，非 AE 工具
+booth-8562570	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8571165	影片／轉場／模板素材，非 AE 工具
+booth-8574824	影片／轉場／模板素材，非 AE 工具
+booth-8577934	影片／轉場／模板素材，非 AE 工具
+booth-8580859	功能單一或偏窄的工具腳本，暫不收錄
+booth-8582921	影片／轉場／模板素材，非 AE 工具
+booth-8587788	OBS／桌面應用／非 AE 插件
+booth-8589261	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8590882	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8597061	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8600075	影片／轉場／模板素材，非 AE 工具
+booth-8600213	功能與既有工具重疊或偏窄，暫不收錄
+booth-8603171	OBS／桌面應用／非 AE 插件
+booth-8603672	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8607677	其他剪輯軟體專用工具，非 AE 工具
+booth-8608237	功能與既有工具重疊或偏窄，暫不收錄
+booth-8609193	功能單一或偏窄的工具腳本，暫不收錄
+booth-8609782	功能與既有工具重疊或偏窄，暫不收錄
+booth-8610082	影片／轉場／模板素材，非 AE 工具
+booth-8610120	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8610140	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8613865	功能與既有工具重疊或偏窄，暫不收錄
+booth-8614456	功能與既有工具重疊或偏窄，暫不收錄
+booth-8614479	其他剪輯軟體專用工具，非 AE 工具
+booth-8615682	功能與既有工具重疊或偏窄，暫不收錄
+booth-8618413	其他剪輯軟體專用工具，非 AE 工具
+booth-8618941	影片／轉場／模板素材，非 AE 工具
+booth-8619108	功能與既有工具重疊或偏窄，暫不收錄
+booth-8619572	功能與既有工具重疊或偏窄，暫不收錄
+booth-8621631	功能與既有工具重疊或偏窄，暫不收錄
+booth-8622580	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8622802	功能與既有工具重疊或偏窄，暫不收錄
+booth-8623980	影片／轉場／模板素材，非 AE 工具
+booth-8624145	功能與既有工具重疊或偏窄，暫不收錄
+booth-8624742	功能與既有工具重疊或偏窄，暫不收錄
+booth-8624865	功能與既有工具重疊或偏窄，暫不收錄
+booth-8625776	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8626014	影片／轉場／模板素材，非 AE 工具
+booth-8626504	遊戲／其他軟體工具或實體硬體，非 AE 工具
+booth-8627879	功能與既有工具重疊或偏窄，暫不收錄
+booth-8629198	功能與既有工具重疊或偏窄，暫不收錄
+booth-8631107	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8632019	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8632246	功能與既有工具重疊或偏窄，暫不收錄
+booth-8632415	功能與既有工具重疊或偏窄，暫不收錄
+booth-8632916	OBS／桌面應用／非 AE 插件
+booth-8633055	TRPG／桌遊素材或劇本，非 AE 工具
+booth-8633545	其他剪輯軟體專用工具，非 AE 工具
+booth-8633917	功能與既有工具重疊或偏窄，暫不收錄
+booth-8634589	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8634765	影片／轉場／模板素材，非 AE 工具
+booth-8635228	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8635458	功能與既有工具重疊或偏窄，暫不收錄
+booth-8635968	OBS／桌面應用／非 AE 插件
+booth-8636195	影片／轉場／模板素材，非 AE 工具
+booth-8636402	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8638296	OBS／桌面應用／非 AE 插件
+booth-8641028	影片／轉場／模板素材，非 AE 工具
+booth-8641393	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8646515	功能與既有工具重疊或偏窄，暫不收錄
+booth-8648376	影片／轉場／模板素材，非 AE 工具
+booth-8648751	功能與既有工具重疊或偏窄，暫不收錄
+booth-8648765	影片／轉場／模板素材，非 AE 工具
+booth-8649281	功能與既有工具重疊或偏窄，暫不收錄
+booth-8649527	功能與既有工具重疊或偏窄，暫不收錄
+booth-8651159	影片／轉場／模板素材，非 AE 工具
+booth-8651648	功能與既有工具重疊或偏窄，暫不收錄
+booth-8652066	影片／轉場／模板素材，非 AE 工具
+booth-8652752	功能與既有工具重疊或偏窄，暫不收錄
+booth-8653385	影片／轉場／模板素材，非 AE 工具
+booth-8653832	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8654007	功能與既有工具重疊或偏窄，暫不收錄
+booth-8654824	功能與既有工具重疊或偏窄，暫不收錄
+booth-8656599	BGM／效果音素材，非 AE 工具
+booth-8656916	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8656958	BGM／效果音素材，非 AE 工具
+booth-8658747	功能與既有工具重疊或偏窄，暫不收錄
+booth-8659011	影片／轉場／模板素材，非 AE 工具
+booth-8662729	功能與既有工具重疊或偏窄，暫不收錄
+booth-8663016	BGM／效果音素材，非 AE 工具
+booth-8665427	功能與既有工具重疊或偏窄，暫不收錄
+booth-8668011	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8668720	OBS／桌面應用／非 AE 插件
+booth-8669685	功能與既有工具重疊或偏窄，暫不收錄
+booth-8669813	OBS／桌面應用／非 AE 插件
+booth-8671212	功能與既有工具重疊或偏窄，暫不收錄
+booth-8671436	影片／轉場／模板素材，非 AE 工具
+booth-8671815	影片／轉場／模板素材，非 AE 工具
+booth-8674545	影片／轉場／模板素材，非 AE 工具
+booth-8674972	功能與既有工具重疊或偏窄，暫不收錄
+booth-8678280	功能與既有工具重疊或偏窄，暫不收錄
+booth-8678361	影片／轉場／模板素材，非 AE 工具
+booth-8678491	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8680103	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8680455	影片／轉場／模板素材，非 AE 工具
+booth-8680574	影片／轉場／模板素材，非 AE 工具
+booth-8681385	影片／轉場／模板素材，非 AE 工具
+booth-8681412	影片／轉場／模板素材，非 AE 工具
+booth-8681965	其他剪輯軟體專用工具，非 AE 工具
+booth-8682299	OBS／桌面應用／非 AE 插件
+booth-8682549	OBS／桌面應用／非 AE 插件
+booth-8682575	功能與既有工具重疊或偏窄，暫不收錄
+booth-8682925	影片／轉場／模板素材，非 AE 工具
+booth-8684379	影片／轉場／模板素材，非 AE 工具
+booth-8685183	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8685469	TRPG／桌遊素材或劇本，非 AE 工具
+booth-8686711	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8686731	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8686968	影片／轉場／模板素材，非 AE 工具
+booth-8688223	功能與既有工具重疊或偏窄，暫不收錄
+booth-8688577	功能與既有工具重疊或偏窄，暫不收錄
+booth-8688712	影片／轉場／模板素材，非 AE 工具
+booth-8689439	影片／轉場／模板素材，非 AE 工具
+booth-8689840	影片／轉場／模板素材，非 AE 工具
+booth-8690367	影片／轉場／模板素材，非 AE 工具
+booth-8690377	其他剪輯軟體專用工具，非 AE 工具
+booth-8691148	影片／轉場／模板素材，非 AE 工具
+booth-8692555	影片／轉場／模板素材，非 AE 工具
+booth-8692703	功能與既有工具重疊或偏窄，暫不收錄
+booth-8693317	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8693318	OBS／桌面應用／非 AE 插件
+booth-8693330	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8693374	其他剪輯軟體專用工具，非 AE 工具
+booth-8693458	OBS／桌面應用／非 AE 插件
+booth-8693882	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8694176	OBS／桌面應用／非 AE 插件
+booth-8695731	影片／轉場／模板素材，非 AE 工具
+booth-8696385	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8696574	影片／轉場／模板素材，非 AE 工具
+booth-8696818	影片／轉場／模板素材，非 AE 工具
+booth-8697419	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8698706	BGM／效果音素材，非 AE 工具
+booth-8699457	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8699762	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8701018	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8701080	BGM／效果音素材，非 AE 工具
+booth-8701591	OBS／桌面應用／非 AE 插件
+booth-8701682	功能與既有工具重疊或偏窄，暫不收錄
+booth-8701956	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8702003	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8702049	TRPG／桌遊素材或劇本，非 AE 工具
+booth-8702440	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8703129	BGM／效果音素材，非 AE 工具
+booth-8703303	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8703452	OBS／桌面應用／非 AE 插件
+booth-8703459	影片／轉場／模板素材，非 AE 工具
+booth-8704551	功能與既有工具重疊或偏窄，暫不收錄
+booth-8704625	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8705410	OBS／桌面應用／非 AE 插件
+booth-8705578	OBS／桌面應用／非 AE 插件
+booth-8706159	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8706531	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8706775	影片／轉場／模板素材，非 AE 工具
+booth-8707437	影片／轉場／模板素材，非 AE 工具
+booth-8708652	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8708850	影片／轉場／模板素材，非 AE 工具
+booth-8708932	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8708974	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
+booth-8709808	影片／轉場／模板素材，非 AE 工具
+booth-8710140	功能與既有工具重疊或偏窄，暫不收錄
+booth-8710195	影片／轉場／模板素材，非 AE 工具
+booth-8710617	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8710833	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8710966	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8711002	功能與既有工具重疊或偏窄，暫不收錄
+booth-8711500	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8711735	BGM／效果音素材，非 AE 工具
+booth-8711867	功能與既有工具重疊或偏窄，暫不收錄
+booth-8712888	VRChat／Unity／3D 模型或元件，非 AE 工具
+booth-8713781	OBS／桌面應用／非 AE 插件
+booth-8713782	VRChat／Unity／3D 模型或元件，非 AE 工具
