@@ -25,7 +25,7 @@
 
 ## 掃描進度（截至 2026-08-14）
 
-BOOTH 累計評估約 793 個商品 id（**收錄 97、略過 696**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
+BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
 
 | 批 | 平台／範圍 | 收錄 | 略過 |
 |---|---|---|---|
@@ -41,6 +41,7 @@ BOOTH 累計評估約 793 個商品 id（**收錄 97、略過 696**）；Gumroad
 | 10 | 官方產品線補齊＋BOOTH 200 個新 id（モーショングラフィックス／テキストアニメーション等關鍵字） | 15 筆：ARRI Film Lab、NormaliZe、Expression一括置換、CROP MOVER、autoRect、autoParallax 2、FontSync、Choiceloop、TextAlign、AutoDuration、SubText2Layers、CSV Text Source Manager、すりこみくん、EasyTextBox、EasyToner2（13 筆為 BOOTH） | ARRI Look Library（LUT 包）；Frischluft Retrodots／HSL Selection；Digital Anarchy ShotNotes／EFF-IT!（Premiere only）；151 個（.ffx 預設包、VJ／素材包）。BOOTH 累計收錄 90、略過 623 |
 | 11 | Digital Anarchy 免費線補齊＋BOOTH 80 個新 id（圖形アニメーション／テロップスクリプト／カメラワーク） | SRT Importer for AE、Ugly Box、Backdrop Designer、Flicker Freak、Simple Gradient；SYMMETRY、Anchor to Shape、wakuwaku、MVLyrics2Layers、Chromix、GlyphForge、OTM_JPtypewriter（另補錄 booth-3027685） | Cartoon Bubble（Photoshop 用）；73 個（VRChat／Warudo／Blender／Unity／Photoshop／OBS／YMM4 插件與素材包）。Rowbyte 7 工具與 Superluminal Stardust 覆蓋已確認。BOOTH 累計收錄 97、略過 696 |
 | 12 | aescripts sitemap 50 候選（find_new.py --limit 50） | Mask Color Pro、NoPrecomp、RoundPro、Snapola、Thicc Pro、ToneCraft、UI Mockup Builder、Unrender、Whiteboard Rig Builder、Font Animator、AE Fusion 3D Bridge、Rename-a-Duper、VKO Shader、Flagship | mate-for-premiere（Premiere Pro only）；text-background-pro（Photoshop only）。BOOTH 累計收錄 97、略過 696 |
+| 13 | aescripts 收尾（multiview、texto）＋BOOTH 1431 個新 id（轉場／形狀／表達式／AEプラグイン等關鍵字），篩出 122 個 AE 相關候選逐筆評估 | texto（aescripts）；BOOTH 53 筆：NeSprite for AfterEffects、Puppet Hair Fx、m's BaraBara、HEISEI-VHS、Stretch、Circle Repeater、Select ShapePath & addKey、Border、KANTA Random3D／dot2／Grid／Radial／Morph & Spiral & Distort、Auto Textbox、Peek-a-boo、RGBDelay、EasyPhysics、FoldLayers、Symmetrika、Notal、Lyric IN、Grupico、FlashOpacity、EaseSwinger、Windows Maker、タドコロノード、sep_color、A_Halfdots、Nate Essentials Pack、De-Comp、ColorfulEcho、KF_ProjectSeamlessShift、HL_PixelSort／PlacerPro／Border、Impact Lines、DiceLine、A_StarTrail、A_Outline、Sequwise、Mt's PixelSoter、EfficientText、Add Keyflames、QuartzJump、A_Glossy、EffectsDrive、KeyframePlus、Closer、OneEase、StepSizer、ZLoop、WANI Glitch、WANI 16mm Film | multiview（Premiere only）；67 個 BOOTH（純預設檔／AEP 模板／素材集／點子合集／非 AE host／說明不足），MultiSlicer 已見 installed.jsonl 故不重複收。BOOTH 累計收錄 150、略過 764 |
 
 ## 官方來源技巧
 
