@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2571 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2586 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2474,6 +2474,21 @@ Figma to After Effects Exporter｜BOOTH｜script｜workflow｜把 Figma 設計�
 Spookie｜BOOTH｜script｜workflow｜管理並啟動其他 UI 附帶腳本的啟動器工具，可註冊常用工具並快速呼叫，另附 SpookieEffecter 與 SpookieSide 等輔助腳本，適合腳本數量多、需要統一入口的作業流程。｜https://booth.pm/ja/items/2308107
 Renamus｜BOOTH｜script｜workflow｜依「文字＋數字」規則批次重新命名圖層的腳本，可設定編號範圍與格式，一次整理大量圖層名稱，適合大型專案與素材量多的圖層整理作業。｜https://booth.pm/ja/items/2308074
 Shape to mask｜BOOTH｜script｜mograph｜把形狀圖層的形狀轉換為遮罩（Mask）的腳本，支援矩形、橢圓與自訂形狀，並保留動畫關鍵影格，適合需要把形狀當遮罩使用或整理遮罩結構的作業。｜https://booth.pm/ja/items/7769569
+ARRI Film Lab｜第三方｜plugin｜film｜以 ARRI 色彩科學與影像處理技術重現類比底片的顆粒、色調、光暈與片門晃動（gate weave），即時 4K 底片質感模擬；相容 LogC4/C3 或線性 AWG4/AWG3 管線的各種相機 RGB 素材，適用電影感調色與復古質感製作。｜https://revisionfx.com/products/arrifilmlab/
+NormaliZe｜第三方｜plugin｜utility｜免費的法線貼圖（Normal Map）正規化 After Effects filter：重排 RGB=XYZ 向量並可對各軸翻轉/反向或全域反向；勾選傳統格式可把 -1.0..1.0 浮點法線轉為 0.0..1.0，也可將任意影像色彩向量正規化以最大化飽和度。｜https://www.frischluft.com/free/index.php
+Expression一括置換｜BOOTH｜script｜workflow｜一鍵批次置換專案內所有合成的 Expression 文字，v1.2 起可選擇僅置換全文或依合成名稱／圖層名稱／特效名稱限定範圍；解決跨語言 AE 專案或購買模板後因 Expression 語言差異產生的錯誤。｜https://booth.pm/ja/items/4584992
+CROP MOVER｜BOOTH｜script｜animation｜從裁切範圍內出現的入場動畫製作腳本：選好動線、時間與 easing 設定後一鍵套用，內建多種出現動畫與製作輔助功能；適合 Logo、組合文字、樣式化 PSD 文字等設計素材，以及企業內製廣宣動畫。｜https://booth.pm/ja/items/5082868
+autoRect｜BOOTH｜script｜workflow｜一鍵為選取圖層建立與其尺寸完全吻合的形狀圖層（以數行 Expression 組成的普通形狀圖層，非外掛），用於文字方塊、素材邊框、Track Matte 等日常工作流程，AEP 易於共享且擴充性高。｜https://booth.pm/ja/items/1234425
+autoParallax 2｜BOOTH｜script｜3d｜在 After Effects 中操作 3D 圖層 Z 座標時自動取消視覺縮放變化的視差腳本：調整 Z 軸即可產生景深動畫而版面大小維持不變，第一代操作與功能皆獲提升，適合 3D 空間排版與相機運動製作。｜https://booth.pm/ja/items/1234415
+FontSync｜BOOTH｜script｜text｜將合成內（含預合成）所有使用指定字型的文字統一替換為另一字型的腳本：先選一個文字圖層設為目標、再選一個設為來源，同字型的全部文字即被替換，其他字型不受影響。｜https://booth.pm/ja/items/6479159
+Choiceloop｜BOOTH｜script｜animation｜只對選取的鍵影格套用循環的腳本：例如位置鍵影格有 5 個、只選後 3 個執行時，前 2 個鍵照常播放，通過後僅以選取的 3 個鍵循環；支援 Kbar 登錄，適合局部重複動作製作。｜https://booth.pm/ja/items/6754918
+TextAlign｜BOOTH｜script｜text｜在不改變文字位置的前提下切換左／中／右對齊的腳本（內附 Kbar 圖示）：直接改對齊屬性會造成文字位移，此腳本自動補償該位移；左中右三個獨立腳本可各自綁定快捷鍵。｜https://booth.pm/ja/items/6766508
+AutoDuration｜BOOTH｜script｜workflow｜依合成內圖層長度自動增減合成 Duration 的腳本：縮短可用內建功能，但延長需開啟合成設定手動修改，此腳本一鍵完成兩者，適合頻繁調整合成長度的作業。｜https://booth.pm/ja/items/6467583
+SubText2Layers｜BOOTH｜script｜text｜從輸入表單逐行建立文字圖層，或讀取 SRT 字幕檔自動生成 After Effects 文字圖層的字幕／歌詞製作腳本；也可從選取文字圖層匯出 SRT 檔，雙向支援字幕作業流程。｜https://booth.pm/ja/items/6807318
+CSV Text Source Manager｜BOOTH｜script｜text｜以 CSV 資料管理文字圖層內容的腳本：讀入 CSV 後自動切換文字圖層的 Text Source，並可用鍵影格控制數值來切換 CSV 行與不透明度，大量文字內容的調整免手動，適合多行歌詞／字幕資料作業。｜https://booth.pm/ja/items/6924220
+すりこみくん｜BOOTH｜script｜workflow｜記憶父圖層在時間軸的移動量後，把該差分一併套用到全部子（含孫）圖層入點／出點的腳本；解決調整父層時點後需手動逐層微調的麻煩，適合親子結構的角色動畫與剪輯時機修正。｜https://booth.pm/ja/items/7853360
+EasyTextBox｜BOOTH｜plugin｜text｜隨文字圖層內容自動生成並即時追蹤的背景方塊原生 C++ 外掛：支援圓角、斜體、漸層與點狀／條紋裝飾圖樣，提供背景、疊加、文字鏤空、遮罩填色等多種合成模式，MFR 多框渲染最佳化。｜https://booth.pm/ja/items/8210684
+EasyToner2｜BOOTH｜plugin｜stylize｜一鍵產生漫畫／復古網點風格半色調表現的 After Effects 原生外掛：以標準特效組合製作既繁瑣又耗資源，此工具直接輸出網點圖樣並提供參數調整，適合插畫調與復古質感演出。｜https://booth.pm/ja/items/8110900
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
