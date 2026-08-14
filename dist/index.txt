@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2586 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2598 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2489,6 +2489,18 @@ CSV Text Source Manager｜BOOTH｜script｜text｜以 CSV 資料管理文字圖�
 すりこみくん｜BOOTH｜script｜workflow｜記憶父圖層在時間軸的移動量後，把該差分一併套用到全部子（含孫）圖層入點／出點的腳本；解決調整父層時點後需手動逐層微調的麻煩，適合親子結構的角色動畫與剪輯時機修正。｜https://booth.pm/ja/items/7853360
 EasyTextBox｜BOOTH｜plugin｜text｜隨文字圖層內容自動生成並即時追蹤的背景方塊原生 C++ 外掛：支援圓角、斜體、漸層與點狀／條紋裝飾圖樣，提供背景、疊加、文字鏤空、遮罩填色等多種合成模式，MFR 多框渲染最佳化。｜https://booth.pm/ja/items/8210684
 EasyToner2｜BOOTH｜plugin｜stylize｜一鍵產生漫畫／復古網點風格半色調表現的 After Effects 原生外掛：以標準特效組合製作既繁瑣又耗資源，此工具直接輸出網點圖樣並提供參數調整，適合插畫調與復古質感演出。｜https://booth.pm/ja/items/8110900
+SRT Importer for AE｜第三方｜script｜workflow｜Digital Anarchy 免費腳本：選擇 SRT 檔後自動產生完整的字幕文字圖層，可直接在 AE 內調整字型、大小、顏色與背景圖形，完成後可將字幕帶回 Premiere Pro 使用。｜https://digitalanarchy.com/srt-importer/
+Ugly Box｜第三方｜plugin｜stylize｜Digital Anarchy 免費外掛，基於 Beauty Box 技術反向操作，讓人物快速呈現生病、醜陋、喪屍化的皮膚質感，適合恐怖與喪屍題材影片。｜https://digitalanarchy.com/ugly-box/
+Backdrop Designer｜第三方｜plugin｜generate｜Digital Anarchy 免費外掛：以智慧演算法即時產生高解析度、與解析度無關的背景，模擬攝影棚 muslin 布幕質感，內建多組自然風背景預設。｜https://digitalanarchy.com/backdrop-designer/
+Flicker Freak｜第三方｜plugin｜stylize｜Digital Anarchy 免費外掛：以 Freak Time 控制黑格持續影格數、Random Freak 隨機化範圍，製造恐怖片般的隨機閃爍，也能用於時間流逝素材的閃爍修復。｜https://digitalanarchy.com/flicker-freak/
+Simple Gradient｜第三方｜plugin｜generate｜Digital Anarchy 免費外掛：極簡的雙色漸層產生器，支援線性／圓形漸層、位置控制與動畫，源自 Light Wrap Fantastic 開發時對簡易漸層的需求，安裝即可用。｜https://digitalanarchy.com/simple-gradient/
+SYMMETRY｜BOOTH｜script｜animation｜Riesz 的 AE 腳本：將所選圖層的屬性質與關鍵影格以合成中央為軸做對稱鏡射，位置、動畫一併鏡像反轉，適合對稱排列與舞蹈式動畫製作。｜https://booth.pm/ja/items/6601532
+Anchor to Shape｜BOOTH｜script｜utility｜Riku Kojima 的 AE 腳本：選取多個圖層後一鍵執行，以 shape 圖層將各圖層的錨點（anchor point）彼此結線連結，方便視覺化圖層之間的相對位置。｜https://booth.pm/ja/items/6582964
+wakuwaku｜BOOTH｜script｜workflow｜津崎商店的 AE 腳本：將指定合成（comp）的工作區面板配置儲存成檔，之後可一鍵還原同一版面，省去每次開專案重新排面板的時間。｜https://booth.pm/ja/items/7194539
+MVLyrics2Layers｜BOOTH｜script｜text｜Studio ロ 的 AE 腳本：讀入 MusicXML／UST 檔後自動依音樂節奏建立歌詞圖層，並輸出 BPM 資訊的關鍵影格，可套用動畫 preset，簡化 MV 歌詞顯示作業。｜https://booth.pm/ja/items/5789671
+Chromix｜BOOTH｜script｜workflow｜simry 的 AE 色彩管理腳本（ScriptUI Panel）：建立自己的色彩預設並儲存、呼出，可將色票一鍵套用至選取的多個圖層，統一專案配色。｜https://booth.pm/ja/items/7431908
+GlyphForge｜BOOTH｜script｜generate｜yamacube 的 AE 腳本：附裝飾背景的網格圖案產生器，內建多組預設與調色介面，一鍵套用於テロップ、動態圖形製作，省去費工的背景設計。｜https://booth.pm/ja/items/8341336
+OTM_JPtypewriter｜BOOTH｜script｜text｜もぐらの書庫的 AE 腳本：重現日文 IME 輸入時かな→漢字轉換的動畫演出，適合テロップ、MV、解説影片的日文打字效果（測試於 AE v25.6）。｜https://booth.pm/ja/items/7888618
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
