@@ -43,6 +43,7 @@ KIND_OVERRIDES = {
     "Fractal Noise 3D v2": "plugin",
     "Glaze": "plugin",
     "GPUResize": "plugin",
+    "GlyphForge": "script",
     "Hacksaw": "plugin",
     "Holora": "plugin",
     "Influx": "plugin",
@@ -67,6 +68,7 @@ KIND_OVERRIDES = {
     "Reflow": "plugin",
     "ReScanX": "plugin",
     "Risograph": "plugin",
+    "SRT Importer for AE": "script",
     "Transition Master 2 Basic / Pro": "plugin",
     "XDoG Studio": "plugin",
 }
