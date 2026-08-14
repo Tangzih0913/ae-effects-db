@@ -4,7 +4,7 @@
 
 ## 每輪流程
 
-一般一批以 10～15 個「已作出收／不收決策的候選」為單位；使用者另有批量要求時從其指示。
+一般一批以 **50 個「已作出收／不收決策的候選」**為單位；候選數不足或需要人工確認時可分批暫停。使用者另有批量要求時從其指示。
 
 1. 從官方產品線、官方效果清單或高訊號榜單取得候選。
 2. 搜尋全部 `data/*.jsonl` 的 `name`、`variants`、官方 URL 與功能同義詞。
@@ -23,31 +23,23 @@
 3. LookAE 等列表只能用來發現名稱；所有事實一律回原廠確認。
 4. aescripts 先看 viewed／bestselling 或明確分類中的高訊號產品；sitemap 尚有大量低命中候選，不優先掃。
 
-來源進度（最後整理：2026-08-13）：
+## 掃描進度（截至 2026-08-14）
 
-- LookAE After Effects 列表已掃到第 64 頁；
-- c4dsky 的 After Effect、AE 插件、AE 腳本、AE 預設、Element 3D 分類已掃完；
-- aescripts sitemap 尚有大量未評估頁面，只作低優先候選池；
-- Adobe 目前效果清單、RE:Vision、Video Copilot 與 Frischluft 已做過一次差異檢查，但新版仍應依官方清單重跑差異。
-- Gumroad 第一批已掃 `After Effects` 搭配 script／plugin／panel／extension／ScriptUI／JSX／AEX 的搜尋結果與 8 個官方商品頁；已決策 Island Chatter、Shy Filters、Script Launcher、Zoom、Easy Connect、EZ3D、PathPrep、FX TextFrame，但尚未窮盡平台；
-- BOOTH 第一批已掃 `After Effects スクリプト`、`AE スクリプト`、`After Effects パネル`、`ScriptUI パネル` 的搜尋結果與 6 個官方商品頁；已決策 items 7769569、7695646、2307736、2728552、6815576、5899013，但尚未窮盡平台。
-- Gumroad 第二批已掃 `After Effects ScriptUI panel`、`After Effects jsxbin workflow` 的搜尋結果與 7 個官方商品頁；已決策 ImpactFX、Grid Layers、Apex Control Pro、Keyframe Buddy、Quick Tools Pro、Visual States PRO、Dither FX PRO，但尚未窮盡平台；
-- BOOTH 第二批已掃 `After Effects`／`AfterEffects` 熱門列表首批軟體候選與 8 個官方商品頁；已決策 Texton、SHIG Project Starter、CleanLayer、All Font Changer、BaraMoji、RZNC Geometry Generator、SyncFX、BeatPad，但尚未窮盡平台。
-- Gumroad 第三批已掃 `After Effects ScriptUI animation tool`、`After Effects JSXBIN panel`、`After Effects script panel`、`After Effects workflow script jsx` 等搜尋結果與 6 個官方商品頁；已決策 CoreKit Pro 3、WordFlow、SubTitle Animator、MessCtrl、TimeOffset、Quick Wiggle，但尚未窮盡平台；
-- BOOTH 第三批已掃 `After Effects スクリプト アニメーション`、`AfterEffects ScriptUI パネル`、`After Effects用スクリプト ScriptUI` 等搜尋結果與 9 個官方商品頁；已決策 BlinkPanel、Shy Folder、RplEffect、CenterOrigin、AutoTargetUI、Japanese_manuscript_paper、baraji、Set Adjustment、Bowl Wobble，但尚未窮盡平台。
-- Payhip／獨立站第四批已檢查 After Toolkit、Pulse X、One Click Liquid Glass、SaaS Panel Kit 的官方商店或產品頁；原始 HTTP 檢查會遭 Payhip 防機器人回應 403，但已用可渲染的官方頁面核對內容，本批均因資訊不足或功能重疊略過，平台尚未窮盡。
-- Gumroad 第四批已檢查 Motion UI 官方商品頁，因通用工具組功能與既有條目高度重疊而略過，平台尚未窮盡。
-- BOOTH 第四批已掃 7 個官方商品頁；已決策 Siawase_FontShuffle、BPM同期モーションスクリプト、ColorPalette、Aulymo、moti、ShapeFit Panel、TSK_Input Expression，但尚未窮盡平台。
-- Ko-fi 第四批以 After Effects script／panel／tool 關鍵字搜尋；結果主要為素材與預設包，未找到兼具官方商品頁、明確 AE 腳本功能與差異化價值的候選，平台尚未窮盡。
-- BOOTH 第五批以自動化、ScriptUI、代理、相機、粒子、文字與旁白等關鍵字掃描 13 個官方商品頁；已決策 Particle launcher、Script Launcher、Auto Camera、AE Project Folder Organizer、Auto Crop Comp、Nanten ExAI、QuickComp、NeonBlink、Aurgan、TXT-NA Importer、自動ループ化スクリプト、MojiFlex、Ascify，其中 Aurgan 頁面已回 HTTP 404，其餘頁面均回 HTTP 200，平台尚未窮盡。
-- Itch.io／Ko-fi 第五批搜尋仍以 AE 素材、模板及預設包為主，未找到比本批 BOOTH 候選更可信且具獨立工具功能的官方商品頁，平台尚未窮盡。
-- BOOTH 第六批以 Marker、Keyframe、Layer、Path、Audio、Lip Sync 與 Morph 等關鍵字掃描 16 個官方商品頁；已決策 MatchLayerDuration、Arrange Layers、Random Placement、SelectiveAdjustment、レイヤー移動スクリプト、Label & Finder Bar、SyncFX、グリッドレイアウト、Marker Tools、DropFrameEXP v2、Path to Position、SyncAudio_To_Precomp、AudioGlide、Lab_LS、Deckard、MorphMesh，其中グリッドレイアウト頁面回 HTTP 404，其餘頁面均回 HTTP 200，平台尚未窮盡。
-- Payhip 第六批已檢查 TIDY LAYERS、Project Organizer、Binzii_FastEase、AM Reverse Path 四個官方商品頁；頁面可正常渲染，但原始 HTTP 驗證仍會遭平台防機器人阻擋，本批均因與既有工具重疊而略過，平台尚未窮盡。
-- BOOTH 第七批以顏色偵測、HUD、圓形文字、斬擊、像素、字形 3D 佈局等關鍵字掃描並驗證 8 個官方商品頁（全部 HTTP 200）；收錄 NodeField、TextOrbit、Katana Slash Pro、Words Scatter Pro、Palf PixelPaint、Syndromee Text Distribute、UltraBarabara、FacePartSelector，另以功能重疊或描述不足略過 40 個候選並記錄於 skipped.tsv，平台尚未窮盡。
-- BOOTH 第八批以工具型候選清單（461 個，經素材／BGM／VRchat／Photoshop 等過濾後）逐筆抓取 meta 驗證並判重；收錄 Palf FontMixer、AlignLab、SaveAnimation、3D Grid Panel、HourFlow 五個（功能獨立，不與既有工具重疊），並以素材、非 AE、重疊或過窄為由略過 424 個候選且記錄於 skipped.tsv（另修復 skipped.tsv 中 39 筆以字面換行黏在同行的紀錄）。BOOTH 累計已涵蓋約 536 個商品 id（收錄 34 ＋ 略過 502），平台尚未窮盡。
-- 收錄規則調整（2026-08-14）：功能重疊不再作為略過理由，改以熱門度（BOOTH wish_lists_count 等）、品質與實作差異判斷；知名作者的招牌工具一律收錄。據此以 BOOTH wish 數重審先前略過名單，第九批共收錄 43 筆（Nisai 17 筆：Nisai Stroke、MultiEase、RandomMotionNS、ひらがなだけ小さくする、テキスト状態保持文字分解、DelayAnimator、BPMコマ落ちウィグラー、BPM同期モーション、NotepadNS、ゴリ押しリピーター、自動ループ化、レイヤー追加ツールバー、アウトポイント階段状、位置間隔調整、プレビュー拡大率、マーカーコピー、親ヌル作成；重審收錄 26 筆：Everything、Auto Motion、Texflow、baraji、Blobin、Grungefy、Texton、Palf MotionTextBox、Compote、HL_LyricMotioner、ALStroke 2、Auto Camera、SimuDrop、Overbleed、NGS_ShapeLibrary、yama ultimate path、Effect Dash、MojiDropper、mojula、Filament 3D、LayoutKit+、Ascify、Figma to After Effects Exporter、Spookie、Renamus、Shape to mask）；因撞名略過 BOOTH ColorFlow（與 aescripts ColorFlow 同名）與 moti（與 aescripts MoTi 同名），另以「與 Nisai テキスト状態保持文字分解幾乎相同」略過 361do 的 BaraMoji；30 個已收錄 id 已自 skipped.tsv 移除（BOOTH 累計收錄 77、略過 472）。
-- 官方產品線補齊（2026-08-14）：RE:Vision 收錄 ARRI Film Lab（原廠頁 HTTP 200、AE host 確認；ARRI Look Library 因本質為 LUT 包略過）；Frischluft 收錄免費的 NormaliZe（normal map 正規化），Retrodots／HSL Selection 因極小眾且與 Flair／Lenscare 內建重疊略過；Digital Anarchy 的 ShotNotes／EFF-IT! 官方下載頁明示 Premiere Pro only（URL 路徑雖含 -and-ae）略過。BOOTH 第十批以モーショングラフィックス／テキストアニメーション／アニメーションプリセット／AfterEffectsスクリプト／AEスクリプト／AfterEffects ツール等關鍵字掃描約 200 個新 id 並逐筆抓 meta 判重；收錄 15 筆（ARRI Film Lab、NormaliZe、Expression一括置換、CROP MOVER、autoRect、autoParallax 2、FontSync、Choiceloop、TextAlign、AutoDuration、SubText2Layers、CSV Text Source Manager、すりこみくん、EasyTextBox、EasyToner2；其中 13 筆為 BOOTH 工具，純 .ffx 預設包與 VJ／素材包等 151 個 id 記錄於 skipped.tsv）。BOOTH 累計收錄 90、略過 623。
-- 第十一批（2026-08-14）：Digital Anarchy 免費產品線補齊（SRT Importer for AE、Ugly Box、Backdrop Designer、Flicker Freak、Simple Gradient 五個，官方頁均 HTTP 200 且 AE host 確認；Cartoon Bubble 為 Photoshop 用略過）；Rowbyte（Plexus、Stipple、Aura、TV Distortion Bundle、Fast Bokeh Pro、Buena Depth Cue、Comp Screenshot）與 Superluminal（Stardust）產品線確認已全覆蓋。BOOTH 以圖形アニメーション／テロップスクリプト／カメラワーク關鍵字掃描 80 個新 id，收錄 7 筆（SYMMETRY、Anchor to Shape、wakuwaku、MVLyrics2Layers、Chromix、GlyphForge、OTM_JPtypewriter），其餘 VRChat／Warudo／Blender／Unity／Photoshop／OBS／YMM4 插件與素材包、講座書籍等 73 個 id 記錄於 skipped.tsv（另補錄 batch 10 遺漏的 booth-3027685 HDRI 素材）。BOOTH 累計收錄 97、略過 696。
+BOOTH 累計評估約 793 個商品 id（**收錄 97、略過 696**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
+
+| 批 | 平台／範圍 | 收錄 | 略過 |
+|---|---|---|---|
+| 1 | Gumroad 8 頁；BOOTH 6 頁 | Island Chatter、Shy Filters、Script Launcher、Zoom、Easy Connect、EZ3D、PathPrep、FX TextFrame；BOOTH id 7769569、7695646、2307736、2728552、6815576、5899013 | — |
+| 2 | Gumroad（ScriptUI panel／jsxbin workflow）；BOOTH 熱門列表首批 | ImpactFX、Grid Layers、Apex Control Pro、Keyframe Buddy、Quick Tools Pro、Visual States PRO、Dither FX PRO；Texton、SHIG Project Starter、CleanLayer、All Font Changer、BaraMoji、RZNC Geometry Generator、SyncFX、BeatPad | — |
+| 3 | Gumroad（ScriptUI animation tool 等 4 組關鍵字）；BOOTH（スクリプト アニメーション 等 3 組關鍵字） | CoreKit Pro 3、WordFlow、SubTitle Animator、MessCtrl、TimeOffset、Quick Wiggle；BlinkPanel、Shy Folder、RplEffect、CenterOrigin、AutoTargetUI、Japanese_manuscript_paper、baraji、Set Adjustment、Bowl Wobble | — |
+| 4 | Payhip／獨立站 4 頁；Gumroad 1 頁；BOOTH 7 頁；Ko-fi | Siawase_FontShuffle、BPM同期モーションスクリプト、ColorPalette、Aulymo、moti、ShapeFit Panel、TSK_Input Expression | After Toolkit、Pulse X、One Click Liquid Glass、SaaS Panel Kit（Payhip 資訊不足）；Motion UI（Gumroad，重疊）；Ko-fi 無候選 |
+| 5 | BOOTH 13 頁（自動化／ScriptUI／相機／粒子／文字／旁白關鍵字）；Itch.io／Ko-fi | Particle launcher、Script Launcher、Auto Camera、AE Project Folder Organizer、Auto Crop Comp、Nanten ExAI、QuickComp、NeonBlink、TXT-NA Importer、自動ループ化スクリプト、MojiFlex、Ascify | Aurgan（404）；Itch／Ko-fi 無候選 |
+| 6 | BOOTH 16 頁（Marker／Keyframe／Layer／Path／Audio／Lip Sync／Morph 關鍵字）；Payhip 4 頁 | MatchLayerDuration、Arrange Layers、Random Placement、SelectiveAdjustment、レイヤー移動スクリプト、Label & Finder Bar、SyncFX、Marker Tools、DropFrameEXP v2、Path to Position、SyncAudio_To_Precomp、AudioGlide、Lab_LS、Deckard、MorphMesh | グリッドレイアウト（404）；TIDY LAYERS、Project Organizer、Binzii_FastEase、AM Reverse Path（Payhip，重疊） |
+| 7 | BOOTH 8 頁（顏色偵測／HUD／圓形文字／斬擊／像素／字形 3D 關鍵字） | NodeField、TextOrbit、Katana Slash Pro、Words Scatter Pro、Palf PixelPaint、Syndromee Text Distribute、UltraBarabara、FacePartSelector | 40 個（功能重疊或描述不足） |
+| 8 | BOOTH 461 個候選（過濾素材／BGM／VRchat／Photoshop 後） | Palf FontMixer、AlignLab、SaveAnimation、3D Grid Panel、HourFlow | 424 個（素材、非 AE、重疊或過窄）；另修復 skipped.tsv 39 筆換行黏貼。BOOTH 累計收錄 34＋略過 502 |
+| 9 | 規則調整後以 BOOTH wish 數重審先前略過名單 | **43 筆**：Nisai 17（Nisai Stroke、MultiEase、RandomMotionNS、ひらがなだけ小さくする、テキスト状態保持文字分解、DelayAnimator、BPMコマ落ちウィグラー、BPM同期モーション、NotepadNS、ゴリ押しリピーター、自動ループ化、レイヤー追加ツールバー、アウトポイント階段状、位置間隔調整、プレビュー拡大率、マーカーコピー、親ヌル作成）＋重審 26（Everything、Auto Motion、Texflow、baraji、Blobin、Grungefy、Texton、Palf MotionTextBox、Compote、HL_LyricMotioner、ALStroke 2、Auto Camera、SimuDrop、Overbleed、NGS_ShapeLibrary、yama ultimate path、Effect Dash、MojiDropper、mojula、Filament 3D、LayoutKit+、Ascify、Figma to After Effects Exporter、Spookie、Renamus、Shape to mask） | ColorFlow、moti（與 aescripts 同名）；BaraMoji（與 Nisai テキスト状態保持文字分解幾乎相同）；30 個已收錄 id 自 skipped.tsv 移除。BOOTH 累計收錄 77、略過 472 |
+| 10 | 官方產品線補齊＋BOOTH 200 個新 id（モーショングラフィックス／テキストアニメーション等關鍵字） | 15 筆：ARRI Film Lab、NormaliZe、Expression一括置換、CROP MOVER、autoRect、autoParallax 2、FontSync、Choiceloop、TextAlign、AutoDuration、SubText2Layers、CSV Text Source Manager、すりこみくん、EasyTextBox、EasyToner2（13 筆為 BOOTH） | ARRI Look Library（LUT 包）；Frischluft Retrodots／HSL Selection；Digital Anarchy ShotNotes／EFF-IT!（Premiere only）；151 個（.ffx 預設包、VJ／素材包）。BOOTH 累計收錄 90、略過 623 |
+| 11 | Digital Anarchy 免費線補齊＋BOOTH 80 個新 id（圖形アニメーション／テロップスクリプト／カメラワーク） | SRT Importer for AE、Ugly Box、Backdrop Designer、Flicker Freak、Simple Gradient；SYMMETRY、Anchor to Shape、wakuwaku、MVLyrics2Layers、Chromix、GlyphForge、OTM_JPtypewriter（另補錄 booth-3027685） | Cartoon Bubble（Photoshop 用）；73 個（VRChat／Warudo／Blender／Unity／Photoshop／OBS／YMM4 插件與素材包）。Rowbyte 7 工具與 Superluminal Stardust 覆蓋已確認。BOOTH 累計收錄 97、略過 696 |
 
 ## 官方來源技巧
 

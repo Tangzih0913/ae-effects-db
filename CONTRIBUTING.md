@@ -178,7 +178,7 @@ BOOTH（booth.pm）→booth.jsonl（判重連同日文原名與作者名）；Gu
      - vendor：作者名（頁面上的 author），不確定就寫 "aescripts"。
      - 事實要準；查不到說明就別硬收。
      - 不得使用或提及盜版／破解資源站；任何候選線索都要回原廠頁查證。
-5) 每產一批（例如 10 筆）就停下讓我確認，並附一句「這批略過了哪些、為什麼」。
+5) 每產一批（例如 50 筆）就停下讓我確認，並附一句「這批略過了哪些、為什麼」。
 
 輸出格式範例（每行一筆，後面不用箭頭，全部都放 aescripts.jsonl）：
 {"name":"Foldspace","vendor":"aescripts","kind":"plugin","cat":"3d","tags":["fold","bend","warp","curve","book","彎折","翻書","摺疊","3D扭曲","aescripts"],"desc":"在3D空間彎折/翻摺平面，做翻書、摺紙、曲面扭曲，控制點可連結其他圖層。","url":"https://aescripts.com/foldspace/"}
