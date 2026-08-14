@@ -21,7 +21,9 @@ PLUGIN_ONLY_VENDORS = {"Digital Anarchy", "FxFactory", "RE:Vision Effects", "Row
 KIND_OVERRIDES = {
     "AfterCodecs": "plugin",
     "Auto Crop 3": "plugin",
+    "AE Fusion 3D Bridge": "script",
     "AutoTargetUI": "script",
+    "UI Mockup Builder": "script",
     "BAO Boa": "plugin",
     "BAO Bones": "plugin",
     "BAO Joint": "plugin",
