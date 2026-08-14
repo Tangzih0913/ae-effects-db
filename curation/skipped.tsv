@@ -66,7 +66,7 @@ light-equalizer	官方頁標示為 Premiere Pro 專用，非 After Effects 工�
 lightman	官方相容性僅列到 CC 2015.3，版本過舊且代表性不足
 lightpath-transitions	Final Cut Pro X 專用轉場包，非 After Effects 工具
 lightroom-shortcut-icons	已停售的 Lightroom Stream Deck／Touch Portal 圖示與設定檔素材包
-lightspeed	動畫字型與影片素材包，不是 After Effects 外掛或腳本工具
+lightspeed	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
 limber-lite	官方標示暫停供應，且完整版本 Limber 已收錄
 line-connection-for-cinema-4d	Cinema 4D 專用外掛，非 After Effects 工具
 line-dash-animated-typeface	動畫字型專案素材包，不是 After Effects 外掛或腳本工具
@@ -1650,3 +1650,7 @@ booth-8347254	Premiere Pro 專用啟動器面板，非 AE 工具
 booth-7738010	官方說明以 Premiere Pro 為主（VOICEVOX 連携），AE 側未具體說明功能
 booth-8306432	素材集（155 種手繪效果 MOV/AEP 包 darenoki_face），非工具
 multiview	僅支援 Premiere Pro（官方說明 native Premiere motion，無 MOGRT 或 AE 支援）
+podcastervisuals	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
+transitionbuilder	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
+verticaleditingtools	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
+grungeeffects	官方頁雖列出 After Effects，但內容主體是 overlays 素材包，且缺乏足夠的獨立工具功能說明，依純素材包排除規則略過
