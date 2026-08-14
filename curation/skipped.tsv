@@ -859,7 +859,6 @@ gumroad-scriptlauncher	可搜尋、整理並執行 JSX／JSXBIN 的啟動面板�
 gumroad-easy-connect	動態連接圖層、箭頭、虛線與路徑追蹤用途已由 Connect Layers PRO 與 NodeKit 涵蓋，沒有形成新的搜尋用途
 gumroad-ytarj	同一個 PathPrep 已從 aescripts 官方產品頁收錄，不因 Gumroad 的另一個官方販售頁重複建檔
 gumroad-denjd	自動伸縮文字框與背景版面用途已由 TextDuratifier、Pins & Boxes 與 Type 涵蓋，功能差異不足以另建 FX TextFrame 條目
-booth-7769569	Shape to mask 只做 Shape 路徑轉 Mask，既有 MaskShapeConverter 已支援雙向轉換、關鍵影格與非 Bezier Path，MASKit 也涵蓋同用途
 booth-2307736	Alterna 的每隔指定數量重新選取圖層，與既有 Nth Layer Selector 的間隔選取功能相同
 booth-6815576	AE_BatchToolkit 的代理、效果、色彩空間與影格率批次管理已分別由 Layers Pro、Effect Remover Pro 與既有 AE 工作流程涵蓋，沒有足夠獨特的單一用途
 booth-5899013	ChoooooseiLayer 以 Null 把效果連到指定連續圖層範圍，與 AE Adjustment Layer 及既有 Control LMFX 的分組效果控制高度重疊，差異用途過窄
@@ -869,7 +868,6 @@ gumroad-jvfrb	Apex Control Pro 把 Wiggle、九點錨點、Bounce 與 Loop 表�
 gumroad-keyframebuddy	快速選層、加入常用屬性關鍵影格與依標籤選取的用途已由 Keyframe Manager 等既有關鍵影格工具涵蓋
 gumroad-qtp3	FX Search、專案整理、預合成與錨點工具已由 Quick Menu 3、Command Frame、FX Console 及既有工作流程面板涵蓋
 gumroad-visualstates	同一個 Visual States 已從 aescripts 官方產品頁收錄，不因 Gumroad 的 PRO 販售頁重複建檔
-booth-7838882	Texton 的逐字拆層、進出場、錯開、緩動與縮放旋轉透明度動畫已由 Text Split and Animate、Text Force、DecomposeText 等條目涵蓋
 booth-8040283	CleanLayer 只提供批次移除所選層的 Expressions 與 Effects，既有 Effect Remover Pro 及多項專案清理工具功能更完整
 booth-8480357	All Font Changer 的目前合成與巢狀預合成字型替換已由 pt_TextEdit 2 與 Project Font Pro 的跨專案字型管理涵蓋
 booth-6759404	BaraMoji 的保留書式逐字拆層與既有 DecomposeText、Text Split and Animate 的文字分解用途高度重複
@@ -880,27 +878,22 @@ gumroad-subtitleanimator	SubTitle Animator 的 SRT 匯入與字幕進出動畫�
 gumroad-messctrl	MessCtrl 的鍵盤命令列、效果搜尋與工具啟動核心已由 Quick Menu 3、Command Frame、FX Console 涵蓋，附加資產瀏覽不足以避免整體重複
 gumroad-quickwiggle	Quick Wiggle 只替位置、旋轉、縮放與透明度加入基本 wiggle 運算式，功能過窄且已有大量運算式與隨機動畫工具
 booth-7763648	Japanese_manuscript_paper 僅生成單一原稿紙格線風格，使用情境過窄，且可用 AE 原生 Shape／Grid 工作流快速重建
-booth-7985661	baraji 雖能保留效果與格式拆字，但核心仍與 DecomposeText、TextExploder、Text Split and Animate 的字元／單字／行拆分重疊
 payhip-after-toolkit	After Toolkit 目前只能確認 Payhip 商店首頁的工具組概述，缺少可穩定引用的獨立產品頁與足夠功能細節，暫不建立資料列
 payhip-pulse-x	Pulse X 集中預合成、複製、裁切、建立 Null／Adjustment／Solid 與排列等常見操作，與現有多套工作流程面板高度重疊
 payhip-tmqzs	One Click Liquid Glass 的折射、位移、內光與控制層工作流已由 MB Liquid Glass 及資料庫內建 Liquid Glass 配方涵蓋
 payhip-m8ayu	SaaS Panel Kit 的多層玻璃面板、位移、邊緣光與外框建置，與既有 Liquid Glass 系統及自動 UI 面板工具重疊
 gumroad-motion-ui	Motion UI 將預設、緩動、文字、網格、形狀與合成工具集合成通用面板，各核心能力已有更專門的既有條目，暫不重複收錄
-booth-3394210	BPM 同期モーションスクリプト的節拍表達式與逐層延遲已由功能更完整的 BeatPad 涵蓋
 booth-6775944	ColorPalette 的調色盤預設與表達式連動換色已由 Ray Dynamic Color 2、ColorFlow、Pigment 與 Coco Color CoWorker 等既有工具涵蓋
 booth-6749475	TSK_Input Expression 僅提供跨圖層批次套用、刪除與保存表達式，與既有 Expression Kit 等表達式管理工具重疊且範圍較窄
 booth-8033875	moti 雖是物理碰撞工具，但名稱會與既有 aescripts MoTi 腳本產生同型態碰撞；為避免搜尋與前端識別混淆，暫不另建同名資料列
 booth-8081031	Particle launcher 主要是一鍵套用七組 CC Particle World 固定設定的預設啟動器，既有內建效果與 ParticleShapes 等粒子工具已涵蓋更完整控制
 booth-7832845	Script Launcher 的 JSX 登錄、執行與編輯能力已由既有 Script Launcher、Tool Launcher 等腳本啟動工具涵蓋
-booth-6675321	Auto Camera 僅建立由 Null 控制的相機圖層，功能過窄且已有 Camera 3D Toolkit Pro、AutoOrientCamera 等完整相機工具
 booth-7926435	AE Project Folder Organizer 的依類型分資料夾與未使用素材整理已由 OrganizerPro 等專案整理工具涵蓋
 booth-6797983	Auto Crop Comp 的依選取 2D 圖層邊界裁切合成已由 Auto Crop 3、CropROI 與 CropPrecomps 等既有工具涵蓋
 booth-8058788	Nanten ExAI 的自然語言生成、修復與微調表達式能力已由 mirAI 與涵蓋更廣的 AE GPT 收錄
 booth-8257916	QuickComp 的選取合成算圖並指定為代理工作流已由 CreateProxies 等既有代理建立工具涵蓋
 booth-7368084	NeonBlink 只把單一霓虹外框、出現與閃爍預設套到文字，BlinkPanel 與既有霓虹／Glow 工具已有更完整控制
 booth-6812550	Aurgan 官方 BOOTH 商品頁目前回傳 HTTP 404，且依素材類型整理專案的功能亦與 OrganizerPro 重疊
-booth-3697864	自動ループ化スクリプト只加入 Time Remap、loop 表達式並延長圖層，已由 LoopMaster、Loop Tools Pro 等循環工具涵蓋
-booth-8566324	Ascify 將靜態或動態圖層轉成 ASCII 字元畫的核心能力已由 L3tt3rM4pp3r2 與 ASCII Generator 涵蓋
 booth-7920682	MatchLayerDuration 的依首選圖層統一長度與連續排列，已由 Rift、SequenceLayers 等既有時序排列工具涵蓋
 booth-6832164	Arrange Layers 的固定間距水平／垂直排列已由 Layers2Grid、Gridder 2 與多套對齊工具涵蓋
 booth-7783900	Random Placement 的複製並隨機改變位置、縮放與旋轉，已由 Cloners + Effectors、MotionMonkey 等隨機配置工具涵蓋
@@ -917,7 +910,6 @@ payhip-uo18o	Binzii_FastEase 依播放頭位置調整兩個關鍵影格的緩動
 payhip-1o8i3	AM Reverse Path 只反轉選取的 Mask／Bezier Shape Path 方向，已由 ReverseMaskPath、Penpal 2 等既有路徑工具涵蓋
 booth-7923918	AudioGlide 的父合成音樂同步到預合成及批次清理，與本批功能更完整且支援多選的 SyncAudio_To_Precomp 重疊
 booth-7866112	Deckard 的預合成深層複製與來源置換已由 True Comp Duplicator、CompCode 等既有工具涵蓋
-booth-7918555	效果啟動器，與已收錄的 FX Console（快捷鍵呼叫搜尋框套用效果）功能高度重疊，且標榜日文版 AE 專用，市場過窄
 booth-7703858	效果／FFX／腳本搜尋啟動器，與已收錄的 FX Console 重疊
 booth-7946436	僅清除 AE 快取與磁碟快取，屬單一維護功能，與已收錄的 AE Purger／Throttle-n-Purge 重疊
 booth-5510500	預合成解除／圖層轉移／克隆工具，與已收錄的 Un-PreCompose、True Comp Duplicator 等重疊
@@ -932,11 +924,8 @@ booth-8664334	散景效果外掛，與已收錄的 Fast Bokeh Pro、Crossphere B
 booth-8705527	玻璃碎裂轉場，與已收錄的 Voronoi Shatter 3、Break It!、Shatter 等重疊
 booth-8618241	光線／光束外掛，官方頁描述不足且與已收錄的 Light Sweep、S_Streaks 等光線工具重疊
 booth-8603133	風搖擺動畫工具，與已收錄的 AutoSway、Breeze 等重疊
-booth-6463912	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊
-booth-7747398	多段描邊外掛，官方頁描述不足，且與已收錄的 Thicc Stroke、3D Stroke 等重疊
 booth-7839641	緩動＋物理＋色板三合一，分別與已收錄的 Flow、Newton、Ray Dynamic Color 2 重疊
 booth-8004669	BPM 標記生成器，與已收錄的 AudioToMarkers、Beat Assistant 等重疊
-booth-8024651	文字拆分動畫工具，與已收錄的 Text Split and Animate、DecomposeText 等重疊
 booth-8028067	物理式彈跳／タメ（蓄力）動畫工具，與已收錄的 Easy Bounce、RetroBounce、Squash & Stretch 等重疊
 booth-8124837	音樂連動動畫工具，與已收錄的 BeatPad、Universal Audio、BCC Beat Reactor 等重疊
 booth-8127965	文字框自動生成工具，與已收錄的 TextBox 2、Box It!、ShapeFit Panel 等重疊
@@ -947,7 +936,6 @@ booth-8337763	圖層重新命名工具，與已收錄的 Fast Renamer、Renamer2
 booth-8471328	圓角矩形調整工具，與已收錄的 RectControl 等重疊，功能過窄
 booth-8547494	Shape 預設檢視器，官方頁描述不足
 booth-8570213	文字動畫工具，與已收錄的 Text Force、TypePlay 等重疊
-booth-8594840	以 Null 繪製 3D 描邊，與已收錄的 3D Stroke、Filament 系列重疊
 booth-8626270	HUD 介面生成工具，與已收錄的 HUD Components、circuitFX 及本次收錄的 NodeField 重疊
 booth-8627108	緩動曲線工具，與已收錄的 Flow、Kease、CurveConductor 等重疊
 booth-8656108	圖層連結複製工具，官方頁為 prototype 原型版且未完整說明功能
@@ -955,25 +943,19 @@ booth-8694935	螢火蟲效果外掛，官方頁描述不足
 booth-8065162	色彩管理面板，與已收錄的 Ray Dynamic Color 2、Pigment 等色彩工具重疊
 booth-8407863	音訊轉 MIDI 工具，並非 After Effects 工具，而是音樂製作用途
 booth-7955064	Checkerboard 格線產生器，功能過窄
-booth-8382671	Figma 設計轉 AE 匯出工具，與已收錄的 UXLink、Overlord 2 的 Figma→AE 功能重疊
 booth-8009919	AE 與 Blender／Maya 相機同步橋接工具，與已收錄的 BlenderAe 的相機／座標同步功能重疊
-booth-2308074	功能與既有工具重疊或偏窄，暫不收錄
-booth-2308107	功能與既有工具重疊或偏窄，暫不收錄
 booth-2899026	功能與既有工具重疊或偏窄，暫不收錄
-booth-3036337	功能單一或偏窄的工具腳本，暫不收錄
 booth-3884551	OBS／桌面應用／非 AE 插件
 booth-4582443	其他剪輯軟體專用工具，非 AE 工具
 booth-4638952	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-4672884	功能單一或偏窄的工具腳本，暫不收錄
 booth-4680210	BGM／效果音素材，非 AE 工具
-booth-4717122	功能與既有工具重疊或偏窄，暫不收錄
 booth-4815780	功能與既有工具重疊或偏窄，暫不收錄
 booth-4815812	遊戲／其他軟體工具或實體硬體，非 AE 工具
 booth-4823813	功能與既有工具重疊或偏窄，暫不收錄
 booth-4823866	功能與既有工具重疊或偏窄，暫不收錄
 booth-4889598	OBS／桌面應用／非 AE 插件
 booth-4896660	功能與既有工具重疊或偏窄，暫不收錄
-booth-4918154	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-4967878	功能與既有工具重疊或偏窄，暫不收錄
 booth-5053741	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-5137439	影片／轉場／模板素材，非 AE 工具
@@ -1014,7 +996,6 @@ booth-6570661	影片／轉場／模板素材，非 AE 工具
 booth-6574031	功能與既有工具重疊或偏窄，暫不收錄
 booth-6598360	功能與既有工具重疊或偏窄，暫不收錄
 booth-6645153	影片／轉場／模板素材，非 AE 工具
-booth-6646102	功能與既有工具重疊或偏窄，暫不收錄
 booth-6652211	影片／轉場／模板素材，非 AE 工具
 booth-6724131	BGM／效果音素材，非 AE 工具
 booth-6733757	功能與既有工具重疊或偏窄，暫不收錄
@@ -1029,14 +1010,10 @@ booth-6859950	影片／轉場／模板素材，非 AE 工具
 booth-6899909	影片／轉場／模板素材，非 AE 工具
 booth-6926580	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-6928051	影片／轉場／模板素材，非 AE 工具
-booth-6972849	功能與既有工具重疊或偏窄，暫不收錄
 booth-6974366	遊戲／其他軟體工具或實體硬體，非 AE 工具
 booth-7025105	功能與既有工具重疊或偏窄，暫不收錄
 booth-7034381	功能與既有工具重疊或偏窄，暫不收錄
 booth-7038517	影片／轉場／模板素材，非 AE 工具
-booth-7066086	功能與既有工具重疊或偏窄，暫不收錄
-booth-7080235	功能與既有工具重疊或偏窄，暫不收錄
-booth-7152542	功能與既有工具重疊或偏窄，暫不收錄
 booth-7176429	功能與既有工具重疊或偏窄，暫不收錄
 booth-7187728	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-7195571	VRChat／Unity／3D 模型或元件，非 AE 工具
@@ -1057,7 +1034,6 @@ booth-7726008	功能與既有工具重疊或偏窄，暫不收錄
 booth-7742853	功能與既有工具重疊或偏窄，暫不收錄
 booth-7755523	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
 booth-7807641	功能與既有工具重疊或偏窄，暫不收錄
-booth-7814465	影片／轉場／模板素材，非 AE 工具
 booth-7837396	功能與既有工具重疊或偏窄，暫不收錄
 booth-7877762	功能與既有工具重疊或偏窄，暫不收錄
 booth-7883002	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
@@ -1087,7 +1063,6 @@ booth-8082372	影片／轉場／模板素材，非 AE 工具
 booth-8082537	影片／轉場／模板素材，非 AE 工具
 booth-8082569	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
 booth-8083872	BGM／效果音素材，非 AE 工具
-booth-8087797	功能與既有工具重疊或偏窄，暫不收錄
 booth-8089765	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-8092692	功能與既有工具重疊或偏窄，暫不收錄
 booth-8096145	功能與既有工具重疊或偏窄，暫不收錄
@@ -1097,7 +1072,6 @@ booth-8130167	OBS／桌面應用／非 AE 插件
 booth-8143492	功能與既有工具重疊或偏窄，暫不收錄
 booth-8147945	影片／轉場／模板素材，非 AE 工具
 booth-8153454	功能單一或偏窄的工具腳本，暫不收錄
-booth-8157423	功能與既有工具重疊或偏窄，暫不收錄
 booth-8171788	功能與既有工具重疊或偏窄，暫不收錄
 booth-8176571	功能與既有工具重疊或偏窄，暫不收錄
 booth-8176824	功能與既有工具重疊或偏窄，暫不收錄
@@ -1141,7 +1115,6 @@ booth-8362356	OBS／桌面應用／非 AE 插件
 booth-8364091	影片／轉場／模板素材，非 AE 工具
 booth-8364148	功能與既有工具重疊或偏窄，暫不收錄
 booth-8369118	Photoshop／Illustrator 專用工具或 PSD 素材，非 AE 工具
-booth-8369158	影片／轉場／模板素材，非 AE 工具
 booth-8373597	影片／轉場／模板素材，非 AE 工具
 booth-8381383	功能與既有工具重疊或偏窄，暫不收錄
 booth-8386208	影片／轉場／模板素材，非 AE 工具
@@ -1253,7 +1226,6 @@ booth-8627879	功能與既有工具重疊或偏窄，暫不收錄
 booth-8629198	功能與既有工具重疊或偏窄，暫不收錄
 booth-8631107	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-8632019	VRChat／Unity／3D 模型或元件，非 AE 工具
-booth-8632246	功能與既有工具重疊或偏窄，暫不收錄
 booth-8632415	功能與既有工具重疊或偏窄，暫不收錄
 booth-8632916	OBS／桌面應用／非 AE 插件
 booth-8633055	TRPG／桌遊素材或劇本，非 AE 工具
@@ -1288,14 +1260,12 @@ booth-8656916	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-8656958	BGM／效果音素材，非 AE 工具
 booth-8658747	功能與既有工具重疊或偏窄，暫不收錄
 booth-8659011	影片／轉場／模板素材，非 AE 工具
-booth-8662729	功能與既有工具重疊或偏窄，暫不收錄
 booth-8663016	BGM／效果音素材，非 AE 工具
 booth-8665427	功能與既有工具重疊或偏窄，暫不收錄
 booth-8668011	VRChat／Unity／3D 模型或元件，非 AE 工具
 booth-8668720	OBS／桌面應用／非 AE 插件
 booth-8669685	功能與既有工具重疊或偏窄，暫不收錄
 booth-8669813	OBS／桌面應用／非 AE 插件
-booth-8671212	功能與既有工具重疊或偏窄，暫不收錄
 booth-8671436	影片／轉場／模板素材，非 AE 工具
 booth-8671815	影片／轉場／模板素材，非 AE 工具
 booth-8674545	影片／轉場／模板素材，非 AE 工具

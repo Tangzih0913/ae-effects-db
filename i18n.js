@@ -1,7 +1,7 @@
 (function(){
   const sharedSources={
     "red-giant":"Red Giant",universe:"Universe",sapphire:"Sapphire",continuum:"Continuum",
-    aescripts:"aescripts"
+    aescripts:"aescripts",booth:"BOOTH",gumroad:"Gumroad"
   };
   const zh={
     htmlLang:"zh-Hant",locale:"zh-Hant",label:"繁中",

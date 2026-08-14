@@ -11,6 +11,7 @@
 用法：python tools/build_index.py
 """
 import json, os, glob, sys, unicodedata
+from urllib.parse import urlparse
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -23,8 +24,22 @@ DIST = os.path.join(ROOT, "dist")
 SRC_LABEL = {
     "red-giant": "Red Giant", "universe": "Universe", "sapphire": "Sapphire",
     "continuum": "Continuum", "builtin-ae": "AE內建", "aescripts": "aescripts",
-    "third-party": "第三方", "installed": "未驗證", "recipes": "配方",
+    "third-party": "第三方", "booth": "BOOTH", "gumroad": "Gumroad",
+    "installed": "未驗證", "recipes": "配方",
 }
+
+
+def derive_src(src, url):
+    """依官方 URL 主機把商店來源（BOOTH、Gumroad）從資料檔來源拆出來。"""
+    try:
+        host = (urlparse(url).netloc or "").casefold()
+    except Exception:
+        host = ""
+    if host == "booth.pm" or host.endswith(".booth.pm"):
+        return "booth"
+    if host == "gumroad.com" or host.endswith(".gumroad.com"):
+        return "gumroad"
+    return src
 
 
 def search_text(item):
@@ -43,11 +58,12 @@ def main():
     rows = []
     web_rows = []
     for path in sorted(glob.glob(os.path.join(DATA, "*.jsonl"))):
-        src = os.path.splitext(os.path.basename(path))[0]
+        file_src = os.path.splitext(os.path.basename(path))[0]
         for rank, line in enumerate(open(path, encoding="utf-8")):
             line = line.strip()
             if line:
                 o = json.loads(line)
+                src = derive_src(file_src, o.get("url", ""))
                 web = dict(o, _src=src, _rank=rank, _search=search_text(o))
                 web_rows.append(web)
                 o["src"] = SRC_LABEL.get(src, src)
