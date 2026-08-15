@@ -118,6 +118,8 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 
 | 73 | Gumroad 高訊號 ScriptUI／JSXBIN 搜尋續輪 | **DoCharts**；官方 Gumroad 頁確認可停駐的 JSXBIN 長條圖設計面板、二十多項位置／尺寸／色彩／動畫控制與 6 則評價 | Organize Project Assets Pro、superSelect、Find and Replace in Expressions、Magic Animator Pro 等候選持續逐頁判重；模板與已覆蓋功能不重複收錄 | 1 筆新增；最新總筆數 2,961 |
 
+| 74 | Gumroad 高訊號屬性工作流續輪 | **superSelect - for After Effects**；官方 Gumroad 頁確認 JSXBIN、可停駐面板、跨所選／同父層／全合成選取及揭露相同屬性，且有 24 則評價 | Organize Project Assets Pro 與 Folder Fanatic 功能高度重疊，略過決策待安全寫入既存編碼混雜的記錄檔 | 1 筆新增；最新總筆數 2,962 |
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
