@@ -1872,6 +1872,12 @@ booth-7873414	Adobe IME KillSwitch 是 Windows 常駐工具，非 After Effects 
 booth-6638311	Stream Deck After Effects 圖示 PNG 素材，非工具
 booth-8442109	Member Color Glow 是 AEP 專案檔，非獨立外掛或腳本
 booth-2581216	ChromaticAberrationYY 官方頁明示停止支援，且建議改用其他外掛
+booth-6661270	FlipKun 官方頁僅提供版本／2D Layer only 資訊，功能描述不足以建立可搜尋條目
+booth-6828150	4-Color Gradient Randomizer 官方頁缺乏足夠功能與操作說明
+booth-6433047	MuteAudio 只對選取圖層切換音訊，功能過窄
+booth-6458491	AutoRename 只複製合成並依數字命名，功能過窄
+booth-5743926	Parent Link 只切換相鄰圖層父子關係，功能過窄且與既有 parent 工具重疊
+booth-8088353	FramePosition 只改變影片檔播放速度，功能過窄且缺乏完整 AE 工具說明
 booth-4870460	Remove Text Animator 只重現 AE 內建「移除所有文字動畫器」命令，無需另收錄
 booth-4151107	只是啟動 After Effects 英文版的空白文字檔，非 AE 工具
 booth-5639699	Motion Graphics 習作 #3 是限制研究／練習用途的 AEP 專案檔，非可安裝工具

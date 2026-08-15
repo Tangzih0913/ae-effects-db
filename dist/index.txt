@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2798 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2818 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1216,6 +1216,26 @@ Spiral Master｜BOOTH｜script｜mograph｜將選取圖層依數量複製並沿�
 Replace Text｜BOOTH｜script｜text｜以文字輸入框一鍵替換選取圖層文字，支援大量文字批次變更與文字屬性複製，適合字幕、模板與多語版本製作；官方頁提供試用版與 ScriptUI 工作流。｜https://booth.pm/ja/items/4884466
 Text Auto Generator｜BOOTH｜script｜text｜以 Google 試算表輸入歌詞或字幕，自動產生帶時間、顏色與階梯式錯開的 After Effects JSX，將每行輸出成獨立文字圖層並自動設定顯示時機，支援 After Effects 2023 以上。｜https://booth.pm/ja/items/6814054
 Mask⇆Shape｜BOOTH｜script｜workflow｜在 After Effects 中互轉 Shape Path 與 Mask Path，能儲存路徑後貼到指定圖層、以 Ctrl 建立全畫面 Shape Layer，並支援多遮罩分割與 KBar 呼叫。｜https://booth.pm/ja/items/6669600
+Overshoot and Bounce Lite｜BOOTH｜script｜animation｜為使用者指定的圖層屬性加入慣性、overshoot 與 bounce 演算法，快速建立彈性反彈與緩入緩出動畫，適合動態設計中的位置、縮放與旋轉動畫。｜https://booth.pm/ja/items/5188059
+Mascrop｜BOOTH｜script｜workflow｜依套用於預合成圖層的 Mask 範圍裁切預合成，縮小過大的碰撞範圍以便操作；支援保留原圖層、直接處理原合成等選項，適合清理預合成尺寸。｜https://booth.pm/ja/items/6693119
+Keyframe Navigator｜BOOTH｜script｜workflow｜以 First、Previous、Nearest、Next、Last 五個按鈕快速跳到關鍵影格，會依是否選取圖層自動搜尋選取圖層或整個合成，並可用 Ctrl 切換到 Marker 導覽。｜https://booth.pm/ja/items/7341266
+Loop Panel｜BOOTH｜script｜expression｜在 After Effects 面板以一鍵方式替選取圖層屬性加入循環表達式，快速設定 Cycle、Pingpong 或 Offset 等循環方式，適合重複動畫與背景動態。｜https://booth.pm/ja/items/5267735
+Filine｜BOOTH｜script｜expression｜為 Shape Layer 的 Fill 與 Stroke 不透明度建立同步控制，提供核取方塊或滑桿讓填色與描邊互換或按數值反向變化，適合閃爍與線面切換效果。｜https://booth.pm/ja/items/7049011
+Rasterize All｜BOOTH｜script｜workflow｜一鍵開關 After Effects 專案全部圖層的連續柵格化，另提供加入 Motion Blur 的版本與下拉控制，適合批次整理向量、形狀與文字圖層的渲染設定。｜https://booth.pm/ja/items/5187774
+TransLayerGen｜BOOTH｜script｜transition｜在播放頭前後自動建立 A／B 場景並顯示轉場點時間與影格編號，將選定的合成快速準備成可製作轉場的兩段式圖層結構。｜https://booth.pm/ja/items/6622132
+Bubble Fill｜BOOTH｜plugin｜generate｜以圖層 Alpha 或亮度讀取文字、Shape、影像與預合成，將其內部重新組成大小與密度各異的泡泡圓形，適合文字、Logo、MV、歌詞與 motion graphics 的泡泡填充效果。｜https://booth.pm/ja/items/8498362
+AdvancedTiling｜BOOTH｜script｜workflow｜批次修改專案面板選取素材的幀率與循環次數，再將素材平鋪到新合成中；提供中英文介面與排列模式，適合快速建立素材網格與重複動畫合成。｜https://booth.pm/ja/items/6758872
+Auto Transition｜BOOTH｜script｜transition｜選取一個或多個圖層後一鍵建立自動轉場，支援 X／Y／Z 六個方向、旋轉以及以 Null 控制已有位置或旋轉關鍵影格的圖層，會自動產生所需關鍵影格。｜https://booth.pm/ja/items/7586909
+Auto Ring｜BOOTH｜script｜mograph｜自動將專案檔案或圖層排列成環形結構，適合建立圓周式圖形、環狀版面與放射式 motion graphics。｜https://booth.pm/ja/items/5251178
+Folder Importer｜BOOTH｜script｜workflow｜批次匯入資料夾並同步資料夾內容的 After Effects 腳本，適合將外部素材集中匯入專案並在重複更新時維持資料夾結構。｜https://booth.pm/ja/items/6748214
+FEF Finder｜BOOTH｜script｜workflow｜搜尋 After Effects 專案中使用或未使用的字型、文字內容、效果、素材與 Marker，並列出遺失項目，適合交付前檢查專案依賴與清理未使用資源。｜https://booth.pm/ja/items/5188006
+Text Synchronizer｜BOOTH｜script｜text｜同步 After Effects 文字圖層的文字內容與樣式，適合在多個字幕、標題或模板圖層間快速保持內容與排版一致。｜https://booth.pm/ja/items/5187945
+CenterAlign2Comp｜BOOTH｜script｜text｜將多個選取文字圖層的 Anchor Point 移到各自中心，再將圖層對齊到合成中央而保持 Y 值，支援 KBar 或快捷鍵呼叫。｜https://booth.pm/ja/items/6435967
+FlexibleAnim｜BOOTH｜script｜animation｜依圖層 In Point 與 Out Point 自動建立不透明度、縮放、旋轉或位置動畫，支援面板模式與 Lite 版本，適合快速為多個圖層套用進出場動畫。｜https://booth.pm/ja/items/5255303
+Parallax Controls｜BOOTH｜script｜3d｜自動依相機與畫面比例設定平面圖層的 Z 軸距離，並提供對焦控制以維持視覺尺寸與構圖比例，適合建立 2.5D 景深與視差動畫。｜https://booth.pm/ja/items/5188070
+FolderToComp｜BOOTH｜script｜workflow｜批次處理專案資料夾中的媒體檔案，為素材建立新的合成並依序排列，適合把大量匯入素材快速轉成可管理的合成結構。｜https://booth.pm/ja/items/6748242
+Switch It｜BOOTH｜script｜workflow｜以關鍵字搜尋圖層效果並批次切換開關或刪除，適合在大型合成中快速定位指定效果、清理效果堆疊與建立可重複的整理工作流。｜https://booth.pm/ja/items/7176220
+Text Repeater｜BOOTH｜plugin｜mograph｜以 Repeat、Circular、Random、Grid 四種模式複製並排列文字或圖形，Grid 模式可讀取亮度圖控制位置、縮放、旋轉與不透明度，另提供不需預合成的全域變形控制。｜https://booth.pm/ja/items/8231771
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
