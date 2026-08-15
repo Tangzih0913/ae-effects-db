@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2732 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2741 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1150,6 +1150,15 @@ ExprOne bate｜BOOTH｜script｜expression｜以整合 Monaco Editor 的 CEP 面
 NGS_FPS_TimeFrame_Calc｜BOOTH｜script｜utility｜在 After Effects 面板中把秒數、影格數與合成 FPS 互相換算並快速輸入，適合依不同幀率計算片長、標記時間與動畫關鍵影格位置。｜https://booth.pm/ja/items/7788323
 CompExtendor｜BOOTH｜script｜workflow｜從浮動面板直接調整 After Effects 合成的持續時間、起始時間與結束邊界，不必反覆開啟 Composition Settings，適合快速修正片長與時間軸範圍。｜https://booth.pm/ja/items/7146717
 AudioFade_v1.0｜BOOTH｜script｜audio｜為選取的音訊圖層自動建立平滑的音量淡出，不必手動插入多個 dB 關鍵影格，適合 BGM、旁白與片尾音效的自然收尾。｜https://booth.pm/ja/items/8475992
+Halftone Pro｜BOOTH｜plugin｜stylize｜把影像轉成可精細控制的半色調網點，支援亮度、CMYK、RGB 與自訂雙色模式、十種網點形狀、通道分離角度及多種混合方式，並支援 8／16／32 bpc 與多幀算圖，適合漫畫、印刷與復古影像風格。｜https://booth.pm/ja/items/8000066
+KANTA Dissolve 2｜BOOTH｜plugin｜transition｜擴充 AE 區塊溶解的外掛，可分別控制方塊寬高、邊緣柔化與四種溶解方向，並支援隨機、左至右、上至下及中心向外等進行模式，適合故障、像素與幾何轉場。｜https://booth.pm/ja/items/7933705
+Cyberpunk One-Click Filter｜BOOTH｜script｜stylize｜以 After Effects 腳本一鍵套用五種賽博龐克視覺濾鏡，包含色彩故障、賽博雜訊、螺旋故障、波紋位移與邊緣強化，可快速把照片或影片轉成帶訊號干擾的科技風格。｜https://booth.pm/ja/items/7210625
+Footage Path Replacer｜BOOTH｜script｜workflow｜批次替換 After Effects 專案中素材的檔案路徑，特別適合動畫與 3D CG 鏡頭在不同磁碟或算圖環境間重新連結，也提供可修改的文字版與直接使用的二進位版。｜https://booth.pm/ja/items/7010867
+ぶんつむ｜BOOTH｜script｜text｜把選取的文字圖層依換行或空白加換行拆成多個文字圖層，並可按指定秒數依序顯示與自動置中，適合日文字幕、旁白文字與逐段文字動畫的前置整理。｜https://booth.pm/ja/items/6917253
+Set Track Matte｜BOOTH｜script｜matte｜針對 After Effects 2023 之後的軌道遮罩操作提供快捷腳本，可把最後選取的圖層設為 Alpha Matte 並在單獨選取既有遮罩時解除設定，適合以快捷鍵快速整理合成遮罩。｜https://booth.pm/ja/items/6185672
+ShapeDrive｜BOOTH｜script｜workflow｜以面板搜尋並批次操作多個 Shape Layer 的屬性，可從清單快速選取多條路徑、切換填色與描邊、一次修改線寬及執行其他常用處理，適合形狀圖層數量龐大的合成。｜https://booth.pm/ja/items/2589169
+Color Shifter｜BOOTH｜script｜animation｜依移動物件的運動軌跡建立最多三種顏色的拖尾合成，讓物件移動時留下可辨識的彩色路徑，適合速度線、殘影、節奏動畫與視覺化運動方向。｜https://booth.pm/ja/items/5251745
+アニメの撮影用ツール｜BOOTH｜script｜workflow｜面向動畫攝影流程的 After Effects 工具，處理不同鏡頭合成尺寸、線稿合成雙倍工作尺寸、圖層位置對齊與處理後圖層出點修正，適合需要在多種 cut 規格間切換的動畫 CG 合成。｜https://booth.pm/ja/items/1994425
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html

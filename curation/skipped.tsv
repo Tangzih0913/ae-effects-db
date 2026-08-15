@@ -1718,3 +1718,53 @@ booth-5223973	Project Replacer 官方頁僅有批次取代／插入素材的一�
 booth-8362356	Random Square 僅在單一圖層生成正方形隨機格子，功能範圍過窄，且現有 Grid／陣列工具已覆蓋主要需求
 booth-7943646	くいっくらんてゃ的腳本、效果與預設一鍵啟動、分類、收藏及最近使用功能，與已收錄的 ValetAE、Spookie 等工具管理器高度重疊
 booth-7763065	LayerMover 僅將圖層移到最上或最下，屬單一排序操作，已有多個圖層管理工具涵蓋且功能過窄
+booth-8672906	アニメ風手書きエフェクト素材集（テクスチャ），屬動畫素材包而非 AE 工具
+booth-8604840	Lit. 色んな花びらパーティクルセット，屬粒子素材包而非 AE 工具
+booth-8592174	Lit. Kawaii particle，屬粒子素材包而非 AE 工具
+booth-8578350	Lit. Kawaii particle，屬粒子素材包而非 AE 工具
+booth-8562321	アニメ風手書きエフェクト素材集（エレメント），屬動畫素材包而非 AE 工具
+booth-8388516	アニメ風手書きエフェクト素材集（墨），屬動畫素材包而非 AE 工具
+booth-8383016	研究用 AEP（楕円形工具モーション），是研究／示範專案檔而非可安裝工具
+booth-8357696	研究用 AEP（深海探索風表現），是研究／示範專案檔而非可安裝工具
+booth-6727822	5 種 Shape Effect 集，屬預設／效果素材包而非獨立工具
+booth-8348940	研究用 AEP（ポップなタイポグラフィ），是研究／示範專案檔而非可安裝工具
+booth-8236896	アニメ風手書きエフェクト素材集（攻撃系），屬動畫素材包而非 AE 工具
+booth-8129934	かわいい動画素材集，屬素材包而非 AE 工具
+booth-7974255	アニメ風手書きエフェクト（フレア），屬效果素材包而非 AE 工具
+booth-7965759	Premiere Pro 字幕模板，非 After Effects 工具
+booth-7957853	AE Novel 是把教學內容嵌入 AE 的實驗性教程外掛，屬教材而非可獨立收錄工具
+booth-7957319	Lit. Geometric Animation，屬動畫素材／預設而非 AE 工具
+booth-7920328	ずんだ式ハーフトーン製作キット，屬預設／素材包而非獨立工具
+booth-7926215	Assistive Tools 將大量對齊、文字、裁切、關鍵影格與圖層操作打包成工具集，無單一核心產品，且多項功能已有收錄工具涵蓋
+booth-7888348	玻璃碎片風粒子素材，屬素材而非 AE 工具
+booth-7834603	Lit. Effect Pack Vol.1，屬效果素材包而非獨立工具
+booth-7498996	scl_Film Strip 是單純 .ffx 預設，不收錄純預設檔
+booth-7297007	批次置中 Anchor Point 的單一操作，與既有 Move Anchor Point／Anchor Pro 等工具高度重疊
+booth-6958990	枠簡単プリセット是單純 After Effects 預設，不收錄純預設檔
+booth-6956424	縱橫反轉只執行單一 Transform 操作，功能過窄且內建功能可直接完成
+booth-6913065	PowerPinTool 僅對內建 Power Pin 做輕量便利化，功能範圍過窄
+booth-6670374	アニメ水しぶき・波エフェクト AEP，屬研究／效果專案檔而非工具
+booth-6658045	アニメ風落雷與衝擊波 AEP，屬研究／效果專案檔而非工具
+booth-6280086	After Effects 免費幻燈片模板，屬 AEP 模板而非工具
+booth-6185708	UnPrecomposer 與既有 Un-PreCompose／De-Comp 功能高度重疊
+booth-6154618	批次重新命名圖層，與既有 Renamus／AE Global Renamer 等工具高度重疊
+booth-6124075	球體反應發光 AEP，屬研究／效果專案檔而非工具
+booth-5922126	Utilibits 是多功能 AE 腳本套件，依不把整包當單一工具收錄的規則略過
+booth-5630147	hs_Camera Rig 官方頁只有底線說明，缺乏足夠功能與相容性細節
+booth-5251785	Comp Checker 僅建立黑白、反相與網格檢查導層，屬過窄的單一輔助操作
+booth-4852548	明滅文字動畫器是單純文字動畫預設，不收錄純預設檔
+booth-4770258	特殊複製僅複製合成圖層及其內容，與既有 True Comp Duplicator／複製工具重疊
+booth-4717708	BG Color Changer 只循環切換合成背景色，功能過窄
+booth-4137695	Shy Group 與既有 Shy Folder／Grupico 等時間軸分組工具高度重疊
+booth-3944632	Time Change 與既有 AutoDuration／CompExtendor 等合成尺調整工具高度重疊
+booth-2755162	Pathp 只調整路徑控制點與手柄顯示尺寸，功能過窄
+booth-2308068	PathRev 只反轉 Shape Path 方向，功能過窄且不支援 Mask Path
+booth-2308062	GreenRoom 是腳本啟動器，與既有 Spookie／ValetAE 等工具管理器高度重疊
+booth-2308032	Chesstics 是圖層網格排序工具，與已收錄 Checkerboard Grid Tool 等功能重疊
+booth-1199960	LongShadow 是單純 After Effects 預設，不收錄純預設檔
+booth-1072862	單鍵建立時間碼腳本與既有 Calc AE／時間碼工具高度重疊
+booth-8428737	簡單色彩面板與既有 Chromix 等色彩預設／調色工具高度重疊，且免費版只能保存一個顏色
+booth-4870460	Remove Text Animator 只重現 AE 內建「移除所有文字動畫器」命令，無需另收錄
+booth-4151107	只是啟動 After Effects 英文版的空白文字檔，非 AE 工具
+booth-5639699	Motion Graphics 習作 #3 是限制研究／練習用途的 AEP 專案檔，非可安裝工具
+booth-3983444	NekoAllergy 動畫專案檔是已完成影片的 AEP 參考檔，非獨立 AE 工具

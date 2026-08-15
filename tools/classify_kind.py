@@ -75,6 +75,10 @@ KIND_OVERRIDES = {
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",
+    "Cyberpunk One-Click Filter": "script",
+    "Color Shifter": "script",
+    "ぶんつむ": "script",
+    "アニメの撮影用ツール": "script",
     "Transition Master 2 Basic / Pro": "plugin",
     "XDoG Studio": "plugin",
 }
