@@ -55,6 +55,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 24 | KeenTools 五個官方產品頁逐頁核實 | GeoTracker for After Effects 已存在；FaceBuilder／GeoTracker／FaceTracker for Blender 均限定 Blender；FaceTracker 官方頁明示為 Foundry Nuke plugin node，均不是 After Effects host | 1 筆既有；4 個候選略過 |
 | 25 | Video Copilot 五個官方產品／下載頁逐一核實 | ORB、Saber、VC Reflect、Color Vibrance、FX Console 均已存在；官方頁面確認其 After Effects host、功能與下載／更新資訊，本輪不重複新增 | 5 筆既有 |
 | 26 | Motion Boutique 五個官方產品頁逐頁核實 | Newton 4、Plotter、Connect Layers PRO、Pastiche 2、Autostereogram 均已存在於 `aescripts.jsonl`；官方原廠頁確認其 After Effects host 與功能，本輪不重複新增 | 5 筆既有 |
+| 27 | ProductionCrate 五個官方產品頁逐頁核實 | **Crates Perfect Screen、Crates Black Hole、Crates Unmult、Retro Film Essentials、Crates HyperGlitch**；五個產品頁均明確支援 After Effects，匯入器 dry-run 通過；分類器將 Crates Unmult 修正為 `script` 後完整驗證通過 | 5 筆新增 |
 
 ## 官方來源技巧
 
