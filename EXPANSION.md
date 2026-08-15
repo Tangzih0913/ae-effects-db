@@ -49,6 +49,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 18 | FxFactory Light Kit／ParticleMetrix／Volumetrix／Viewfinder HUD 逐頁核實 | Viewfinder HUD 已存在於 `third-party.jsonl`；Light Kit 2、ParticleMetrix、Volumetrix 官方頁均標示停售而略過 | 1 筆既有；3 個候選略過 |
 | 19 | FxFactory Luca Visual FX 五個現行產品頁逐頁核實 | Custom Title Path、Shadows & Substance、Fireworks、Layer Scan、3D Video Polygons 的 `Works in` 均只列 Final Cut Pro，均不符合 After Effects 收錄條件 | 5 個候選略過 |
 | 20 | FxFactory omotion 五個產品頁逐頁核實 | **Smart Blur**；Luma Glitch、Fisheye、Drip、Deep Pan 已存在；Magic Captions 為 Final Cut Pro workflow extension 而略過；Smart Blur 與 Adobe 內建同名但以 FxFactory plugin／官方 URL 分別收錄 | 1 筆新增；4 筆既有；1 個候選略過 |
+| 21 | FxFactory omotion 第二輪五個產品頁逐頁核實 | Magic Transitions 已存在；Active Transitions、Volumetric Transitions、Paper Pieces、Blinding Lights 的 `Works in` 均只列 Final Cut Pro，均不符合 After Effects 收錄條件 | 1 筆既有；4 個候選略過 |
 
 ## 官方來源技巧
 
