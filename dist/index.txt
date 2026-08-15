@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2966 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2967 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2002,6 +2002,7 @@ Find and Replace in Expressions｜Gumroad｜script｜expression｜以可停駐�
 PathPrep for After Effects｜Gumroad｜script｜workflow｜以可停駐 JSXBIN 面板批次把矩形、橢圓與 Polystar 等參數形狀轉為可編輯的 Bezier Paths，並可把 Anchor、Position、Scale、Rotation 烘焙進路徑、全選路徑或複製乾淨向量資料，適合在大量形狀圖層交付給 Illustrator、進階路徑動畫或逐點編修前快速整理。｜https://synthetick.gumroad.com/l/ytarj
 Keyframe - AI image generator for After Effects｜Gumroad｜script｜workflow｜以 ScriptUI 面板從合成時間軸擷取單一畫格，交給 Replicate 的 Kontext、Nano Banana、Qwen Edit、Flux Fill 或 Seedream 模型做參考圖改圖與遮罩修補，再自動匯回並依序整理影像，適合建立影片風格定格、逐幀 VFX 概念稿與供 AI 影片工具使用的一致來源畫面。｜https://ericday.gumroad.com/l/keyframe
 Post Notes 2｜Gumroad｜script｜workflow｜以 ZXP 擴充在每個合成內建立富文字筆記與可勾選待辦，資料會嵌入 AEP 因而能隨專案交接、讓其他使用者繼續檢視與編輯，適合整理剪輯修改事項、客戶回饋與跨部門製作清單。｜https://ivoreemint.gumroad.com/l/postnotes
+Code Buddy (EZ After Effects Expressions)｜Gumroad｜script｜expression｜以可停駐 ScriptUI 面板保存、命名、編輯與套用個人常用 expressions，能從排序後的清單將程式套至目前屬性或一次清除所選屬性上的 expression，適合把反覆使用的控制器、動畫與版型程式整理成可長期取用的個人工具庫。｜https://motionbynick.gumroad.com/l/codebuddy
 Topaz Video AI｜未驗證｜plugin｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
 Fast Camera Lens Blur｜未驗證｜plugin｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
 Crate's Godrays｜未驗證｜plugin｜light｜免費：快速漂亮的體積光/放射光束，在畫面點一下設定發光點，調整光線長度、曝光、衰減與色差。從自然雲隙光到探照燈、全息光束都行。｜https://www.productioncrate.com/plugins/crates-easy-godrays
