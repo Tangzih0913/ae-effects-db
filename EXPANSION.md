@@ -115,6 +115,31 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 70 | 交叉掃描 `AfterEffect`、`After Effects` 標籤後的 BOOTH 工具候選 | **ツールアシストセット、SolidEffects、S_tools_EffectSearcher、Layer Switcher、Additional Transform、Cleanup!、Swap Two Selected Layers Source、Easy Fader、Nulltilities、Generate Puppet Rig、アンダーライン引きmuscle**；逐頁核實工具面板、Solid 建立、效果搜尋、來源交換、Null／Puppet Rig、透明度與文字工作流功能後加入 `booth.jsonl` | AE／Element 3D 預設、AEP／FFX 模板、HUD 素材、FX Console 設定檔與作品專案 | 11 筆新增、17 筆略過；最新總筆數 2,920 |
 | 71 | 交叉標籤批次官方頁核實的 AEP 作品候選 | —；確認 Motion Graphics 習作 #5–14、2 秒 Motion Graphics #1–18、Maru、Pre：あ與 Element3D 預設資料均為研究或作品 AEP，非獨立工具 | 15 筆均為 AEP 作品、練習檔或專案預設 | 0 筆新增、15 筆略過；最新總筆數 2,920 |
 
+## 英／日文翻譯批次進度（截至 2026-08-15）
+
+資料規格（`AGENTS.md` 欄位表）允許 `desc_en`／`desc_ja`／`look_en`／`look_ja`；英／日介面缺翻譯時回退中文並標「原文」。進度以來源檔案計：
+
+| 檔案 | 筆數 | 已完成翻譯 | 狀態 |
+|---|---|---|---|
+| `builtin-ae.jsonl` | 280 | 280（155 個 look 全部翻譯） | ✅ 100% |
+| `aescripts.jsonl` | 995 | 12（featured 批次） | 進行中 |
+| `third-party.jsonl` | 457 | 11（featured 批次） | 進行中 |
+| `sapphire.jsonl` | 301 | 3（featured 批次） | 進行中 |
+| `continuum.jsonl` | 345 | 4（featured 批次） | 進行中 |
+| `red-giant.jsonl` | 34 | 4（featured 批次） | 進行中 |
+| `universe.jsonl` | 99 | 2（featured 批次） | 進行中 |
+| `booth.jsonl` | 359 | 0 | 待翻譯 |
+| `installed.jsonl` | 40 | 0 | 待翻譯 |
+| `recipes.jsonl` | 35 | 0 | 待翻譯 |
+| `gumroad.jsonl` | 5 | 0 | 待翻譯 |
+
+方針：
+
+- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交）。
+- 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
+- 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
+- 建議下一個優先順序：`aescripts.jsonl`（首頁高曝光）與 `third-party.jsonl` 依熱門度批次進行。
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
