@@ -114,6 +114,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 69 | BOOTH AfterEffects 剩餘候選第三輪人工抽查 | —；確認配信背景、VTuber／影片轉場、綠幕與 MV 素材、AEP／MP4／WAV 作品、Photoshop 樣式與教學專案均非獨立 AE 工具 | 15 筆均為素材、模板、作品或教學專案 | 0 筆新增、15 筆略過；最新總筆數 2,909 |
 | 70 | 交叉掃描 `AfterEffect`、`After Effects` 標籤後的 BOOTH 工具候選 | **ツールアシストセット、SolidEffects、S_tools_EffectSearcher、Layer Switcher、Additional Transform、Cleanup!、Swap Two Selected Layers Source、Easy Fader、Nulltilities、Generate Puppet Rig、アンダーライン引きmuscle**；逐頁核實工具面板、Solid 建立、效果搜尋、來源交換、Null／Puppet Rig、透明度與文字工作流功能後加入 `booth.jsonl` | AE／Element 3D 預設、AEP／FFX 模板、HUD 素材、FX Console 設定檔與作品專案 | 11 筆新增、17 筆略過；最新總筆數 2,920 |
 | 71 | 交叉標籤批次官方頁核實的 AEP 作品候選 | —；確認 Motion Graphics 習作 #5–14、2 秒 Motion Graphics #1–18、Maru、Pre：あ與 Element3D 預設資料均為研究或作品 AEP，非獨立工具 | 15 筆均為 AEP 作品、練習檔或專案預設 | 0 筆新增、15 筆略過；最新總筆數 2,920 |
+| 72 | 合併 fork（Tangzih0913）的 `booth-next`（7 commits）與 `gumroad-next`（18 commits） | **自動ファイル作成スクリプト、ばらばらに出現・消滅、マスクパスの上に画像が動け！、フォルダにある素材のリネーム、レイヤーの状態覚えておいてscript、簡易版レイヤーリネーム、簡単なWiggle制御、Auto-tress and mask layer auto-detection、シェイプレイヤーのGroupを個別レイヤーに分離、Position and Scale Key ConfirmationScript、コンポ差し替え、3Dレイヤー選択→プリコンポしてメッシュワープ、JapyTextEngine、シェイプを横移動させるだけの仕組みセット、SmartImport、Salis_OpenFileLocation、8Bit PixCam、moji_marker_cut、TextAnimator、カットナンバー増分スクリプト、StairTrim**（21 筆 BOOTH）；**Project Info List Exporter、RAFIKIT Toolbox、LetterBlack Gen AI、VHS Emulator、Field Driver、UI Animator Pro、3D to 2D、MGFX v2.0、DIIS、EaseCurve、DoCharts、superSelect、Find and Replace in Expressions、PathPrep、Keyframe、Post Notes 2、Code Buddy**（17 筆 Gumroad） | 其餘 74 個 fork 分支（含 `fork/main`）均無獨有 commit 已吸收；`skipped.tsv` 以 fork 相對 merge-base 的 89 筆新略過記錄做聯集（未復活上游已汰除的舊記錄）；全部 38 筆新條目已補英／日翻譯與 look 翻譯 | 38 筆新增（BOOTH 21＋Gumroad 17）；最新總筆數 2,988 |
 
 ## 英／日文翻譯批次進度（截至 2026-08-15）
 
@@ -128,10 +129,10 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | `continuum.jsonl` | 345 | 345（326 個 look 全部翻譯） | ✅ 100% |
 | `red-giant.jsonl` | 34 | 34（Trapcode／Magic Bullet／VFX Suite 全數） | ✅ 100% |
 | `universe.jsonl` | 99 | 99（Maxon Universe 全數） | ✅ 100% |
-| `booth.jsonl` | 359 | 359（102 個 look 全部翻譯） | ✅ 100% |
+| `booth.jsonl` | 380 | 380（103 個 look 全部翻譯） | ✅ 100% |
 | `installed.jsonl` | 40 | 40（本機安裝辨識工具全數） | ✅ 100% |
 | `recipes.jsonl` | 35 | 35（畫面感與效果堆疊配方全數） | ✅ 100% |
-| `gumroad.jsonl` | 5 | 5（Gumroad 獨立工具全數） | ✅ 100% |
+| `gumroad.jsonl` | 22 | 22（5 個 look 全部翻譯） | ✅ 100% |
 
 方針：
 
