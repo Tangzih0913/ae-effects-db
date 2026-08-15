@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2909 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2920 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1327,6 +1327,17 @@ Pro Line Extract｜BOOTH｜plugin｜stylize｜After Effects 專業線稿抽取�
 Inner Glow Plus｜BOOTH｜plugin｜light｜After Effects 高品質內側光暈外掛，以 Distance Field 計算光暈分布，支援 8／16／32-bit、Vulkan GPU 加速與多執行緒快速渲染。｜https://booth.pm/ja/items/8060307
 Fadio｜BOOTH｜script｜audio｜After Effects 音訊腳本，可對選取的 Audio Layer 快速建立淡出效果，適合在聲音剪輯與動態設計流程中減少手動設定。｜https://booth.pm/ja/items/7110447
 imp&comp ver2.5｜BOOTH｜script｜workflow｜After Effects 動畫攝影工作流腳本，自動匯入並整理素材、建立與設定合成、配置圖層，還可排序、改名、取代或刪除素材及調整合成尺寸與片長。｜https://booth.pm/ja/items/7302423
+ツールアシストセット｜BOOTH｜script｜workflow｜After Effects 工具輔助腳本，將常用工具、快捷鍵、圖層操作與圖層建立功能集中到一鍵按鈕，並可自行改寫或加入圖片擴充功能。｜https://booth.pm/ja/items/7761630
+SolidEffects｜BOOTH｜script｜workflow｜After Effects 固態圖層效果建立腳本，可一鍵建立並命名已套用 Fractal Noise、Particle World、Particle System II 或 Saber 的 Solid，減少重複設定。｜https://booth.pm/ja/items/6135735
+S_tools_EffectSearcher｜BOOTH｜script｜workflow｜After Effects ScriptUI 面板，可取得內建與第三方效果資訊、排序與篩選效果清單，並雙擊定位目標合成，方便檢索與管理專案效果。｜https://booth.pm/ja/items/6110504
+Layer Switcher｜BOOTH｜script｜workflow｜After Effects 圖層切換腳本，使用選取圖層的不透明度在顯示與隱藏狀態之間切換，適合快速管理構圖內的替代圖層。｜https://booth.pm/ja/items/4803361
+Additional Transform｜BOOTH｜script｜workflow｜After Effects 腳本，為圖層建立第二組 Transform 屬性，讓同一圖層可擁有額外的位置、旋轉與縮放控制，適合分層調整動畫。｜https://booth.pm/ja/items/4827289
+Cleanup!｜BOOTH｜script｜workflow｜After Effects 專案整理腳本，作為可停駐的 ScriptUI 面板或浮動視窗掃描未使用項目並清理 Project Panel，協助維持專案結構整潔。｜https://booth.pm/ja/items/8073055
+Swap Two Selected Layers Source｜BOOTH｜script｜workflow｜After Effects ExtendScript，可交換目前合成中兩個選取 AV 圖層的來源，同時保留位置、不透明度、效果與 Mat 等版面設定，並支援一次 Undo。｜https://booth.pm/ja/items/7947861
+Easy Fader｜BOOTH｜script｜animation｜After Effects JSX 腳本，依指定幀數在選取圖層的不透明度上套用淡入與淡出，快速建立一致長度的透明度動畫。｜https://booth.pm/ja/items/7286789
+Nulltilities｜BOOTH｜script｜rigging｜After Effects JSX 工具組，提供 Nullize 與 Parent Null 功能，可將選取圖層轉為 Null 化狀態或建立父 Null，並個別控制位置、旋轉與縮放繼承。｜https://booth.pm/ja/items/7280676
+Generate Puppet Rig｜BOOTH｜script｜rigging｜After Effects JSX 腳本，依 Puppet Pin 效果的針點位置建立 Null 圖層並設定針點參照，快速把 Puppet Pin 動畫轉成可用 Null 控制器操作的 Rig。｜https://booth.pm/ja/items/7280639
+アンダーライン引きmuscle｜BOOTH｜script｜text｜After Effects 文字腳本，可在 Text Layer 下方建立可調整長度與顏色的底線，也支援 Overline，並以文字圖層寬度作為最大長度基準。｜https://booth.pm/ja/items/5412559
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
