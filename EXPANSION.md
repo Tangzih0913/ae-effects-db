@@ -105,6 +105,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 66 | BthJon、Aiém、3223.pics 等 BOOTH 作者頁自動核實後人工複查 | **Stroke Outline、CropPlus、StarSpikes Pro、GlassRain、Pro Line Extract、Inner Glow Plus、Fadio、imp&comp ver2.5**；確認描邊、裁切、光學繞射、玻璃雨滴、線稿抽取、內側光暈、音訊淡出與動畫攝影匯入工作流用途後加入 `booth.jsonl` | — | 8 筆新增；最新總筆數 2,909 |
 | 67 | BOOTH AfterEffects 剩餘候選第一輪自動核實 | —；確認 Premiere MOGRT、AEP 專案、研究素材、`.ffx`／Animation Preset 與作品檔均不屬於可獨立安裝／執行的 AE 腳本或外掛 | 14 筆略過；其中 2 個舊預設頁稍後重試因頻率限制暫未取得完整頁面 | 0 筆新增、14 筆略過；最新總筆數 2,909 |
 | 68 | BOOTH AfterEffects 剩餘候選第二輪自動核實 | —；重試 4924763／4925911 後確認為 Long Shadow 與 Shape Particle `.ffx` 預設，並補核 4 個帶有 plugin／preset 字樣但實際為 AEP／影片素材的商品 | 6 筆均非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、6 筆略過；最新總筆數 2,909 |
+| 69 | BOOTH AfterEffects 剩餘候選第三輪人工抽查 | —；確認配信背景、VTuber／影片轉場、綠幕與 MV 素材、AEP／MP4／WAV 作品、Photoshop 樣式與教學專案均非獨立 AE 工具 | 15 筆均為素材、模板、作品或教學專案 | 0 筆新增、15 筆略過；最新總筆數 2,909 |
 
 ## 官方來源技巧
 
