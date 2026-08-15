@@ -101,6 +101,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 62 | totonoe-plugin、emmaofficial、あおみデザインスタジオ、renderscript 等 BOOTH 作者頁補充核實 | **Totonoe Skin Retouch、AE To Blender Velocity Tools、任意の回数ループアニメーション、Multiframe 100 to 0 Strobe**；確認肌膚偵測修飾、AE／Blender Alembic 速度交換、指定次數循環與逐幀 Strobe 不透明度腳本用途後加入 `booth.jsonl` | 影片／音訊轉換桌面程式、FFX／Layer Style 預設、AEP／教學專案與 PNG／AI 素材 | 4 筆新增、8 筆略過；最新總筆數 2,899 |
 | 63 | HoTo Movie、ITO Movie Studio、hanamuradesign、battlerssoftware、Reflex Frames 等 BOOTH 商品頁交叉核實 | **HoTo Movie Color Palette、Sound Panel**；確認跨 Premiere Pro／After Effects 的色彩管理面板與 BGM／SE 音素材搜尋配置面板後加入 `booth.jsonl` | MOV／MP4／AEP 素材與模板、Photoshop 專用外掛、獨立 ffmpeg 轉檔工具、紋理預設與資訊不足的 Organizer | 2 筆新增、20 筆略過；最新總筆數 2,901 |
 | 64 | Guild、Shiasa、Telop Design Lab、PURTON、ぶれんどあ〜と、fried-potato.club 等 BOOTH 商品頁補充核實 | —；確認 Grid、X Y Scale、Marker Counter、文字卡頓均為 `.ffx` 預設，另確認 VHS、效果線、3D Cube、Call Out、Shape 與泡泡為模板／AEP／影片素材 | 10 筆均非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、10 筆略過；最新總筆數 2,901 |
+| 65 | Text Recipe Shop 的 BOOTH After Effects 第 5–6 頁商品 | —；逐頁確認 YouTube 結尾、遊戲実況、直式字幕、文字效果、霓虹、粒子、Kinetic Typography 等商品核心均為 PDF／數值教學配方，附帶 AE 檔案者仍屬教材而非獨立工具 | 27 筆均為教學配方、PDF、數值設定或教材專案，非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、27 筆略過；最新總筆數 2,901 |
 
 ## 官方來源技巧
 
