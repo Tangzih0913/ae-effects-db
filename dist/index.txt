@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2828 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2839 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1246,6 +1246,17 @@ Position Separate｜BOOTH｜script｜workflow｜以面板一鍵對多個選取�
 Link Same Position｜BOOTH｜script｜rigging｜從選取圖層中找出相同位置的圖層並自動分組、建立父子連結，會以最新圖層作為父層，適合 UI 動畫、模板與大量圖層整理。｜https://booth.pm/ja/items/8071421
 TextCase｜BOOTH｜script｜text｜批次轉換文字圖層的英文大小寫，支援全大寫、全小寫、單詞首字大寫、行首大寫、每單詞或每逗點換行，並可保留原有文字樣式設定。｜https://booth.pm/ja/items/6561167
 RTTTL Tone Converter｜BOOTH｜script｜audio｜以 RTTTL 語法輸入旋律並傳送到 After Effects，適合快速建立音調序列、音樂視覺化與節奏動畫的基礎資料。｜https://booth.pm/ja/items/7005735
+MegaGlitch｜BOOTH｜plugin｜stylize｜以 10 種可組合效果模擬數位信號損壞、VHS 故障與資料壓縮錯誤，提供智慧時序引擎自動產生可控制的 glitch burst、區域限制、28 種混合模式、5 種邊緣處理與 8／16／32 bit 支援。｜https://booth.pm/ja/items/8074334
+ProNoise｜BOOTH｜plugin｜texture｜提供 8 種雜訊模式、28 種混合模式與色差、閃爍、抖動控制的專業雜訊生成外掛，適合膠片老化、CRT 顯示器與信號干擾效果，支援 8／16／32 bit 與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8076947
+AnalogTV｜BOOTH｜plugin｜film｜模擬真實 CRT 電視、VHS 播放與 CCTV 監視器的視覺特性，依類比影像信號從攝影機到螢幕的物理順序處理，支援 8／16／32 bit 與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8079580
+RainRipple｜BOOTH｜plugin｜warp｜以物理式三層波動模型模擬圖層上的雨滴水面波紋，支援 Gerstner 風波、Corner Pin、色差、合成／位移／法線圖輸出與 8／16／32 bit Multi-Frame Rendering。｜https://booth.pm/ja/items/8084679
+HotWave｜BOOTH｜plugin｜warp｜模擬溫差造成的空氣折射與陽炎熱霧，適合沙漠、引擎排氣、火焰上方、工業煙囪與蒸氣場景，支援 8／16／32 bit、Multi-Frame Rendering 與多執行緒處理。｜https://booth.pm/ja/items/8089679
+VHS Effect｜BOOTH｜plugin｜film｜模擬完整 NTSC／VHS 複合影像瑕疵，包括模糊、色滲、ringing、雜訊、磁頭切換、雪花與 tracking error，支援 8／16／32 bit 浮點、Multi-Frame Rendering 與多執行緒。｜https://booth.pm/ja/items/8097807
+Film Damage｜BOOTH｜plugin｜film｜以程序方式模擬 8mm／16mm 膠片放映時的各種缺陷與特性，為數位影像加入不需額外素材的真實復古電影質感。｜https://booth.pm/ja/items/8124411
+Pro Chromatic Aberration｜BOOTH｜plugin｜stylize｜依光學原理模擬橫向與縱向色差及變形鏡頭效果，內建 27 種混合模式，支援 AVX2 多核心、Windows Threadpool、8／16／32 bit 浮點色彩與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8146922
+Camera Shake CA｜BOOTH｜plugin｜animation｜模擬電影手持攝影機的真實抖動，將 Motion Blur 與色差整合並依相機運動量連動色差強度，支援 8／16／32 bit 浮點與 AVX2 多核心加速。｜https://booth.pm/ja/items/8193717
+Advfill｜BOOTH｜plugin｜stylize｜把填色、混合、Matte 與半色調整合成一個 AE 外掛，支援 Solid、雙點漸層與 Gradient Map，多種漸層形狀、27 種混合模式，以及 Dot／Line／Cross／Ring 半色調控制。｜https://booth.pm/ja/items/8281388
+LuminGlow｜BOOTH｜plugin｜glow｜適用於 After Effects 與 Premiere Pro 的曝光光暈外掛，提供雙重 Glow、Streak 條紋光與 18 種混合模式，並以 AVX2 與多執行緒加速渲染。｜https://booth.pm/ja/items/8446501
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
