@@ -1697,3 +1697,5 @@ motionx	Adobe Exchange 評分僅 1.0／5 且有 2025 年無法使用回報，核
 ignition-post-package-exporter	Adobe Exchange 與 Idonix 原廠說明均停留於 2018，版本 1.0.2 僅支援舊 AE 世代，屬 legacy／維護不足的專案打包器
 maya-live-link	Adobe Exchange 最新 v1.0.5 僅列 AE 25.9；2026 使用者多次回報 AE 2026 不相容，雖功能明確仍不符合現代版本支援標準
 llm-assistant-premiere-after-effects	Adobe Exchange 的 project-context LLM、JavaScript expressions 與一般問答功能，與既有 Motionist AI Assistant 的 JSX、expressions、動畫與 quick actions 高度重疊；未有足夠獨立功能或作者訊號另立條目
+motion-array-extension	原廠明列為訂閱式素材、模板、preset 與 music library 的 Adobe panel；legacy plugin pack 已退休並改由 Library Extension 取代，屬素材／bundle workflow 而非獨立 AE 工具
+syncsketch-after-effects	SyncSketch 原廠只核實雲端 frame-accurate review、註記、3D model collaboration、API 與 webhooks，沒有官方 After Effects plugin、CEP／UXP panel 或 AE host／安裝證據
