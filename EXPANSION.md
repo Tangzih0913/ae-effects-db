@@ -112,6 +112,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 73 | `AE` 標籤官方頁深入核實的文字與 Shape 工具 | **JapyTextEngine、シェイプを横移動させるだけの仕組みセット**；確認字型輪廓向量文字外掛與 Shape 水平循環移動腳本用途後加入 `booth.jsonl` | 18 筆 Element3D／影片素材、AEP／MP4／OBJ 專案與 Motion Graphics 學習檔 | 2 筆新增、18 筆略過；最新總筆數 2,934 |
 | 74 | BOOTH「After Effects Script」完整搜尋結果逐頁核實 | **SmartImport、Salis_OpenFileLocation**；確認遞迴素材差分匯入整理與從圖層／專案面板開啟原始素材位置的 AE 腳本功能後加入 `booth.jsonl` | 12 筆 VRChat／Unity 資產、1 筆 VRChat shader、1 個工具套裝與 1 筆功能說明不足腳本 | 2 筆新增、15 筆略過；最新總筆數 2,936 |
 | 75 | BOOTH `After Effects`／`AfterEffects`／`AE` 加上 `スクリプト` 標籤的交叉掃描 | —；`After Effects`／`AfterEffects` 的 360 筆結果僅有 2 筆既有未決商品，`AE` 交叉結果另混入其他 Adobe／3D／VR 平台工具 | 2 筆 Premiere／Illustrator、8 筆 Photoshop、2 筆 AviUtl、1 筆 Maya、10 筆 Unity／VRChat 與 1 筆 AE host 無法核實的改變檔 | 0 筆新增、24 筆略過；最新總筆數 2,936 |
+| 76 | BOOTH `After Effects Plugin`／`プラグイン` 交叉搜尋 | **8Bit PixCam**；確認其為與 NeSprite 不同、鎖定四色灰階色盤的 Game Boy Pocket Camera 風格 AE 點陣外掛後加入 `booth.jsonl` | 其餘結果仍在逐頁核實；已確認的項目多為 Premiere／Photoshop／Unity／VRChat 工具、MOGRT、AEP 或影像素材 | 1 筆新增；最新總筆數 2,937 |
 
 ## 官方來源技巧
 

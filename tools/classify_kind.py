@@ -169,6 +169,7 @@ KIND_OVERRIDES = {
     "シェイプを横移動させるだけの仕組みセット": "script",
     "SmartImport": "script",
     "Salis_OpenFileLocation": "script",
+    "8Bit PixCam": "plugin",
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",
