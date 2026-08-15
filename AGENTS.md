@@ -158,3 +158,17 @@ git diff --check
 - 不使用破壞性 reset／checkout 清掉別人的工作。
 - 提交身分與共同作者依當次使用者要求，不自行冒用貢獻者。
 - 每次提交聚焦一個可說明、可驗證的主題。
+
+## 合併 fork／舊分支的坑
+
+合併他人的 fork 或停滯分支（2026-08 實際踩過）：
+
+- **先確認分支有沒有獨有 commit**：`git rev-list --count origin/main..<branch>`。fork 的 main 常只是落後上游，數十個功能分支也可能早已全被上游吸收，白合併一輪。
+- **平行擴充大量重複**：fork 與上游同時做資料擴充時，diff 顯示「+318 行」不代表有 318 筆新資料。實測 789 筆 fork 條目裡 770 筆與上游重複、1 筆已停售，實際新增為 0。合併前先以 URL／name 比對，別被行數騙。
+- **JSONL 判重要看 URL，不只看 name**：同一產品在兩邊拼法略異（大小寫、版本尾碼）時，只比 name 會漏，`python validate.py --strict` 會抓出重複官方 URL。同時也要比對 base：上游已汰除的條目（如 `installed.jsonl` 被清理 74→40）不能從舊分支復活。
+- **`curation/skipped.tsv` 是嚴格按 slug 排序的聯集檔**：衝突解法是兩邊取聯集再排序；但純聯集會復活「上游已收錄」的過時略過記錄，解完必須拿 `data/*.jsonl` 的 `name`（含 `variants`）交叉掃一次，把已被收錄的 slug 刪掉。
+- **`dist/` 是產生檔，永遠不手解衝突**：衝突時任取一邊（`git checkout --ours -- dist/...`），合併完跑 `python tools/build_index.py` 重產生即可。
+- **解析衝突標記容易 off-by-one**：用 `git show :2:<path>`（ours）／`:3:`（theirs）／`:1:`（base）拿乾淨 stage 內容，比手切 `<<<<<<<` 區塊可靠。
+- **fork 條目本身可能是壞的**：遇過 JSON 中文截斷、缺 `kind` 欄位的條目。合併後務必 `python validate.py --strict`，並抽查新條目的官方頁（查證後發現已停售就按標準記入 `skipped.tsv`，不進資料庫）。
+- **Windows PowerShell 終端的中文全是亂碼**：git／python 的 stdout 顯示 `�` 只是顯示問題，檔案是完好的 UTF-8，不要因為亂碼去「修」檔案。寫檔用 `[System.IO.File]::WriteAllLines($path, $lines, [System.Text.UTF8Encoding]::new($false))` 保持無 BOM；PowerShell 5.1 的 `Set-Content -Encoding UTF8` 會加 BOM，不要用。
+- **PowerShell 沒有 heredoc**：`python - <<'EOF'` 在 PowerShell 會直接語法錯誤；含中文的多行 `python -c` 引號也很脆。腳本寫到暫存檔再執行。
