@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2869 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2889 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1287,6 +1287,26 @@ Calculator｜BOOTH｜script｜utility｜After Effects 計算器腳本，提供�
 Salis_OpenCompSettings｜BOOTH｜script｜workflow｜After Effects 無介面腳本，可從巢狀合成圖層直接快速開啟其合成設定，適合註冊到 KBar 或快捷鍵以減少逐層開啟合成的操作。｜https://booth.pm/ja/items/6910773
 ys_TextAnMaka｜BOOTH｜script｜text｜After Effects 文字工作流程腳本，核心功能可依合成標記逐一配置文字圖層，另含多項歌詞影片輔助功能，適合 MV 與字幕配置。｜https://booth.pm/ja/items/6867642
 Randomizer｜BOOTH｜script｜animation｜After Effects 隨機化腳本，可對 Transform 或自訂屬性的數值套用隨機偏移，適合快速建立位置、旋轉、縮放或其他屬性的隨機動畫效果。｜https://booth.pm/ja/items/6759772
+CompMaster｜BOOTH｜script｜workflow｜After Effects 合成設定管理腳本，以單一介面批次修改多個合成的尺寸、時間設定與 Motion Blur 等選項，適合統一專案合成規格。｜https://booth.pm/ja/items/6673617
+MojiMixer｜BOOTH｜script｜text｜After Effects 日英混排文字腳本，可依和文、歐文、數字與符號等字元種類自動套用不同字型，減少逐字設定字型的手動工作。｜https://booth.pm/ja/items/6657930
+Paralign｜BOOTH｜script｜text｜After Effects 段落調整腳本，以文字圖層的 Bounding Box 為基準變更行對齊，避免從段落面板切換對齊方式時發生位置偏移。｜https://booth.pm/ja/items/6645052
+Build Importer v6｜BOOTH｜script｜workflow｜After Effects 匯入啟動腳本，可將常用的 AEP 檔案與 Footage 註冊到最多 16 個按鈕，之後直接從面板匯入，省去反覆尋找資料夾的流程。｜https://booth.pm/ja/items/6627168
+Proxy Manager v2｜BOOTH｜script｜render｜After Effects Proxy 輔助腳本，可批次建立 Proxy 並在 v2 面板中設定範本與 Proxy 儲存資料夾名稱，協助管理大型素材的算圖工作流程。｜https://booth.pm/ja/items/6639881
+FrameGrid｜BOOTH｜script｜mograph｜After Effects 格線排版腳本，可將畫面分成指定長短邊格數，設定圖層與格線間距，並選擇 Fit to Grid 或依長短邊的縮放方式排列圖層。｜https://booth.pm/ja/items/6633051
+CreateCompMask｜BOOTH｜script｜workflow｜After Effects 腳本，可在素材圖層上建立精準符合合成尺寸的矩形遮罩，即使圖層已放大並超出合成範圍，也能維持合成邊界大小。｜https://booth.pm/ja/items/6471422
+Effects Switch｜BOOTH｜script｜workflow｜After Effects 效果管理腳本，可批次開關選取圖層中的指定效果，也能一次加入或刪除效果，適合快速切換多圖層的處理狀態。｜https://booth.pm/ja/items/6458542
+Layer Follower｜BOOTH｜script｜workflow｜After Effects 圖層排序腳本，設定目標圖層後可將同一合成內的選取圖層移到目標圖層上方或下方，並對齊目標圖層的開始時間。｜https://booth.pm/ja/items/5757528
+Time Modifier｜BOOTH｜script｜workflow｜After Effects 時間長度腳本，可修改選取圖層或 Precomp 的片長，支援增減時間、依播放頭、第一或最後圖層時間，以及直接指定合成時長。｜https://booth.pm/ja/items/5648936
+Audio Sync｜BOOTH｜script｜audio｜After Effects 音訊同步腳本，可將主合成音樂同步到 Precomp，提供表達式同步與自動移動圖層時間兩種模式，並附簡單文字圖層時間軸功能。｜https://booth.pm/ja/items/5620354
+Script Performance｜BOOTH｜script｜utility｜After Effects 腳本效能工具，用來計算腳本檔案執行所花費的時間，適合比較不同腳本或檢查自動化流程的執行速度。｜https://booth.pm/ja/items/5412730
+MotionBlur All｜BOOTH｜script｜workflow｜After Effects 腳本，可一鍵開啟或關閉專案中所有圖層的 Motion Blur 設定，適合在算圖前後快速統一動態模糊狀態。｜https://booth.pm/ja/items/5259143
+1A2B｜BOOTH｜script｜utility｜可在 After Effects 內執行的互動猜數字遊戲腳本，將簡單的 1A2B 遊戲放入 AE 面板流程中，屬於可直接執行的趣味工具。｜https://booth.pm/ja/items/5251245
+Auto Fader｜BOOTH｜script｜animation｜After Effects 淡入淡出腳本，依圖層的 In Point 與 Out Point 自動設定不透明度關鍵影格，不必手動建立淡入淡出動畫。｜https://booth.pm/ja/items/5210563
+Explode Layer｜BOOTH｜script｜workflow｜After Effects 形狀圖層分離腳本，可將形狀群組拆成獨立圖層，並把文字圖層與 AI 向量圖層自動轉成形狀後再進行分離。｜https://booth.pm/ja/items/5187916
+RplSolidName｜BOOTH｜script｜workflow｜After Effects 批次命名腳本，可依指定的取代前後文字修改 Solid 圖層名稱，支援只取代部分或全部名稱，以及排除不想變更的文字。｜https://booth.pm/ja/items/4907981
+RplFont｜BOOTH｜script｜text｜After Effects 批次字型腳本，選取文字圖層後可取得目前字型名稱並一次變更多個文字圖層的字型設定。｜https://booth.pm/ja/items/4907979
+RplCompDur｜BOOTH｜script｜workflow｜After Effects 合成片長腳本，可批次變更多個合成的 Duration，適合統一專案內合成時間並減少逐一開啟設定的操作。｜https://booth.pm/ja/items/4907952
+RplCompName｜BOOTH｜script｜workflow｜After Effects 合成命名腳本，可依指定文字批次取代部分或全部合成名稱，並能設定排除文字以避免改動特定合成。｜https://booth.pm/ja/items/4907278
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
