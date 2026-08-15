@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2723 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2728 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2626,6 +2626,11 @@ Mosaic (Yanobox)｜第三方｜plugin｜stylize｜在 After Effects 以像素紋
 FreqReact｜第三方｜plugin｜audio｜在 After Effects 分析音樂頻率並用多種 reactors 驅動縮放、位置、光暈、文字與外掛屬性，適合製作音訊反應視覺與音樂視覺化。｜https://freqreact.com/
 Anubis｜第三方｜script｜render｜在 After Effects 一鍵把合成輸出成命名一致的小型 MP4 並送到正確資料夾，適合快速分享進度、團隊審片與日常預覽算圖。｜https://battleaxe.co/anubis
 Mouse Pack｜第三方｜script｜mograph｜在 After Effects 以 ScriptUI 面板一鍵加入動畫滑鼠游標、切換九種游標狀態並建立點擊動畫，適合 UI mockup 與螢幕錄製示範。｜https://www.aescreens.com/tools/mouse-pack
+Get Rect 2｜第三方｜script｜utility｜在 After Effects 以 Script UI Panel 建立會隨圖層尺寸與位置自動變化的智慧矩形、track matte、lower third 與動畫描邊，適合 UI 與字幕版型。｜https://www.aescreens.com/tools/get-rect
+Speed｜第三方｜script｜workflow｜在 After Effects 以 Script UI Panel 對圖層、關鍵影格、合成與預合成內容加速、減速、反轉或重映射時間，並保持音效同步。｜https://www.aescreens.com/tools/speed
+Pearelax｜第三方｜plugin｜3d｜在 After Effects 將分層 2D 合成或 Photoshop 照片快速轉成可控制攝影機的 3D 視差場景，適合照片動畫與多層空間推鏡。｜https://www.aescreens.com/tools/pearelax
+Nice O Metric｜第三方｜plugin｜3d｜在 After Effects 一鍵建立符合合成尺寸的等角攝影機並擠出平面圖層，快速把普通合成轉成可用 KBar 操作的等角 3D 場景。｜https://www.aescreens.com/tools/nice-o-metric
+Xplode｜第三方｜script｜workflow｜在 After Effects 將形狀圖層拆成獨立圖層並分離位置維度，同時保留效果、表達式與緩動，還能自動清除多餘關鍵影格。｜https://www.aescreens.com/tools/xplode
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
