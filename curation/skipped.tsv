@@ -1715,3 +1715,6 @@ booth-8176824	3D Align Center 商品頁雖以 After Effects 為標題，但動�
 booth-7406035	BPM Waveform 官方頁明確是 Unity Editor script，並非 After Effects 工具
 booth-7822000	CreateShapePlus 只生成單一加號 Shape，功能範圍過窄，暫不列入資料庫
 booth-5223973	Project Replacer 官方頁僅有批次取代／插入素材的一句說明，缺乏足夠功能與相容性細節，暫不收錄
+booth-8362356	Random Square 僅在單一圖層生成正方形隨機格子，功能範圍過窄，且現有 Grid／陣列工具已覆蓋主要需求
+booth-7943646	くいっくらんてゃ的腳本、效果與預設一鍵啟動、分類、收藏及最近使用功能，與已收錄的 ValetAE、Spookie 等工具管理器高度重疊
+booth-7763065	LayerMover 僅將圖層移到最上或最下，屬單一排序操作，已有多個圖層管理工具涵蓋且功能過窄

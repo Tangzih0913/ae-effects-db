@@ -72,6 +72,8 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 
 | 38 | BOOTH 文字、工作流程、深度與動畫工具第二輪逐頁核實 | **MojiFlow、Shuffle It!、ValetAE、Depth FX、OutMotioner、ShapePresetViewer**；逐頁確認官方 BOOTH 商品頁的 After Effects host、功能、安裝型態與現行版本，並以匯入器判重後加入 `booth.jsonl` | 3D Align Center（商品頁的動作環境欄位與 AE 標題矛盾）；BPM Waveform（Unity 專用）；CreateShapePlus（單一加號圖形，範圍過窄）；Project Replacer（官方功能與相容性說明不足） | 6 筆新增；4 個候選略過；最新總筆數 2,726 |
 
+| 39 | BOOTH 最新排序頁的文字、表達式、網格與時間工作流工具 | **TextMotion Studio、Checkerboard Grid Tool、ExprOne bate、NGS_FPS_TimeFrame_Calc、CompExtendor、AudioFade_v1.0**；逐頁確認官方頁列出的 After Effects host、功能與安裝方式，且 Overbleed、Notal、Effect Dash 等同頁候選已在資料庫中而不重複加入 | Random Square（單一正方形隨機格子，範圍過窄）；くいっくらんてゃ（與 ValetAE／Spookie 的啟動器功能重疊）；LayerMover（單一圖層上下排序操作，範圍過窄） | 6 筆新增；3 個候選略過；最新總筆數 2,732 |
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
