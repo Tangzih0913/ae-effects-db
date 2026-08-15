@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2741 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2743 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1159,6 +1159,8 @@ Set Track Matte｜BOOTH｜script｜matte｜針對 After Effects 2023 之後的�
 ShapeDrive｜BOOTH｜script｜workflow｜以面板搜尋並批次操作多個 Shape Layer 的屬性，可從清單快速選取多條路徑、切換填色與描邊、一次修改線寬及執行其他常用處理，適合形狀圖層數量龐大的合成。｜https://booth.pm/ja/items/2589169
 Color Shifter｜BOOTH｜script｜animation｜依移動物件的運動軌跡建立最多三種顏色的拖尾合成，讓物件移動時留下可辨識的彩色路徑，適合速度線、殘影、節奏動畫與視覺化運動方向。｜https://booth.pm/ja/items/5251745
 アニメの撮影用ツール｜BOOTH｜script｜workflow｜面向動畫攝影流程的 After Effects 工具，處理不同鏡頭合成尺寸、線稿合成雙倍工作尺寸、圖層位置對齊與處理後圖層出點修正，適合需要在多種 cut 規格間切換的動畫 CG 合成。｜https://booth.pm/ja/items/1994425
+Express ver1.0.3｜BOOTH｜script｜expression｜以 ScriptUI 面板一鍵為選取屬性加入 time、wiggle 或 loopOut 表達式，省去反覆輸入常用表達式的工作，適合快速建立循環、抖動與時間驅動動畫。｜https://booth.pm/ja/items/6726227
+WavyNote｜BOOTH｜script｜text｜在 After Effects 面板中保存、管理與動畫化歌詞或筆記，提供富文字編輯、字型與顏色設定，並可一次建立單一文字層或按字元分開建立文字層，適合歌詞影片與逐字動態排版。｜https://booth.pm/ja/items/7597762
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html

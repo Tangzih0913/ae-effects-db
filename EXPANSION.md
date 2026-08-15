@@ -25,7 +25,7 @@
 
 ## 掃描進度（截至 2026-08-15）
 
-BOOTH 累計評估約 987 個商品 id（**收錄 180、略過 820**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
+BOOTH 累計評估約 989 個商品 id（**收錄 182、略過 820**）；Gumroad、Payhip、Ko-fi、Itch.io 與官方產品線狀態見下表。所有略過決策都記在 `curation/skipped.tsv`。
 
 | 批 | 平台／範圍 | 收錄 | 略過 |
 |---|---|---|---|
@@ -75,6 +75,8 @@ BOOTH 累計評估約 987 個商品 id（**收錄 180、略過 820**）；Gumroa
 | 39 | BOOTH 最新排序頁的文字、表達式、網格與時間工作流工具 | **TextMotion Studio、Checkerboard Grid Tool、ExprOne bate、NGS_FPS_TimeFrame_Calc、CompExtendor、AudioFade_v1.0**；逐頁確認官方頁列出的 After Effects host、功能與安裝方式，且 Overbleed、Notal、Effect Dash 等同頁候選已在資料庫中而不重複加入 | Random Square（單一正方形隨機格子，範圍過窄）；くいっくらんてゃ（與 ValetAE／Spookie 的啟動器功能重疊）；LayerMover（單一圖層上下排序操作，範圍過窄） | 6 筆新增；3 個候選略過；最新總筆數 2,732 |
 
 | 40 | BOOTH After Effects 分類頁 9 頁（527 個商品）逐頁掃描，針對未處理的腳本／外掛／工具回官方頁核實 | **Halftone Pro、KANTA Dissolve 2、Cyberpunk One-Click Filter、Footage Path Replacer、ぶんつむ、Set Track Matte、ShapeDrive、Color Shifter、アニメの撮影用ツール**；核對官方頁的 AE host、功能說明與工具型態後，以 `tools/add.py --dry --file booth` 判重並匯入 | Assistive Tools（多功能工具集且與既有工具重疊）；多個粒子／手繪／動畫素材包、AEP 研究檔與純預設；單一 Anchor／PowerPin／背景色／路徑操作；UnPrecomposer、Shy Group、Time Change、GreenRoom、Chesstics 等與既有工作流工具重疊；另記錄官方頁功能不足或非 AE host 的候選 | 9 筆新增；約 50 個候選略過；最新總筆數 2,741 |
+
+| 41 | BOOTH 的 After Effects／script／plugin／extension 標籤交叉掃描 | **Express ver1.0.3、WavyNote**；逐頁確認官方商品頁的 ScriptUI／面板型態、支援版本與歌詞／表達式功能，並以匯入器判重後加入 `booth.jsonl` | 無新增略過項目；其餘交叉標籤候選均已收錄或在 `skipped.tsv` 有既有決策 | 2 筆新增；最新總筆數 2,743 |
 
 ## 官方來源技巧
 
