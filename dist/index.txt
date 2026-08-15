@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2718 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2723 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -982,6 +982,8 @@ texto｜aescripts｜script｜text｜一鍵為文字套用逐字、逐詞或逐�
 I Ate Mushrooms｜aescripts｜plugin｜art｜在 After Effects 以本機神經網路從文字、物件類別或自有素材生成可循環的抽象影像與轉場，適合實驗動畫、程序化背景和迷幻視覺。｜https://aescripts.com/i-ate-mushrooms/
 Easy Comp｜aescripts｜plugin｜composite｜在 After Effects 以本機 AI 自動融合疊放素材並匹配色彩，不必手動畫遮罩，適合快速完成視覺特效合成與鏡頭整合。｜https://aescripts.com/easy-comp/
 Frankenstein｜aescripts｜plugin｜matte｜在 After Effects 以本機 AI 為皮膚、眼睛、嘴巴與牙齒建立精確臉部遮罩，適合人像美顏、局部調色和風格化合成。｜https://aescripts.com/frankenstein/
+Hover｜aescripts｜plugin｜mograph｜在 After Effects 自動建立游標 hover、按鈕亮度、滑鼠點擊與抓取手勢動畫，適合 UI 原型、產品示範與軟體操作影片。｜https://aescripts.com/hover/
+CropBox｜aescripts｜script｜utility｜在 After Effects Composition panel 直接拖曳裁切框，以吸附、邊距與常用長寬比快速重構合成或圖層，適合多平台重新構圖。｜https://aescripts.com/cropbox/
 Japanese-effect-search｜BOOTH｜script｜workflow｜以日文、英文、平假名與片假名混合搜尋並直接套用 AE 效果、預設或執行腳本、擴充功能與常用命令，另含收藏、連續套用與隱藏舊效果選項，適合日文介面和輸入法工作流程。｜https://booth.pm/ja/items/7695646
 Layer Chicken｜BOOTH｜script｜workflow｜替已匯入 AE 的分層 Photoshop／Illustrator 文件找回後續在原檔新增的圖層，免去重新匯入整份 PSD／AI 再刪除多餘內容，適合設計稿反覆改版與補圖層的動態製作。｜https://booth.pm/ja/items/2728552
 SHIG Project Starter｜BOOTH｜script｜workflow｜依專案名、解析度、FPS、初始片長與色彩深度建立 MV 製作資料夾及 00_MAIN／00_RENDER 合成，並可把兩個合成、工作區和主合成圖層同步延長到 WAV 音樂長度，適合歌曲 MV 開案與統一專案結構。｜https://booth.pm/ja/items/8625638
@@ -2621,6 +2623,9 @@ Fold (Zoetrope Software)｜第三方｜plugin｜3d｜在 After Effects 以程序
 Painterly Transitions｜第三方｜plugin｜transition｜在 After Effects 以手工繪製的筆觸與畫意質感製作鏡頭轉場，適合短片、片頭與藝術風格剪輯。｜https://fxfactory.com/info/painterlytransitions/
 Artitude｜第三方｜plugin｜stylize｜在 After Effects 模擬真實世界媒材的影像質感，適合把數位圖形、影片與合成畫面轉成具有實體媒材風格的視覺效果。｜https://fxfactory.com/info/artitude/
 Mosaic (Yanobox)｜第三方｜plugin｜stylize｜在 After Effects 以像素紋理、ASCII 字元、可自訂圖案與自適應平鋪重組影像，適合科技介面、資料視覺化與程序化動態背景。｜https://fxfactory.com/info/mosaic/
+FreqReact｜第三方｜plugin｜audio｜在 After Effects 分析音樂頻率並用多種 reactors 驅動縮放、位置、光暈、文字與外掛屬性，適合製作音訊反應視覺與音樂視覺化。｜https://freqreact.com/
+Anubis｜第三方｜script｜render｜在 After Effects 一鍵把合成輸出成命名一致的小型 MP4 並送到正確資料夾，適合快速分享進度、團隊審片與日常預覽算圖。｜https://battleaxe.co/anubis
+Mouse Pack｜第三方｜script｜mograph｜在 After Effects 以 ScriptUI 面板一鍵加入動畫滑鼠游標、切換九種游標狀態並建立點擊動畫，適合 UI mockup 與螢幕錄製示範。｜https://www.aescreens.com/tools/mouse-pack
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
