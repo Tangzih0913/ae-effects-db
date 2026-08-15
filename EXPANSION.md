@@ -94,6 +94,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 55 | kanta227eizo、Terrible Junk Show、simry、Riesz、yochu 等作者頁交叉核實 | **PathEdit、SyncOpacity**；確認 Shape Path 操作、關鍵影格與父層不透明度同步的 AE 腳本用途後加入 `booth.jsonl` | DaVinci／Illustrator／Photoshop 工具、YMM4 cache、VRChat 商品與影片素材 | 2 筆新增；其餘候選略過；最新總筆數 2,845 |
 | 56 | keneizo、岡崎有希、k4a - shop、852話、salis、ゆゆっきんぐだむ、そよの雑貨展、Pindang2 等 BOOTH After Effects 候選 | **PersWarp、oilpaint、Shapepath Select and Addkey、MangaTone、Salis_PathEditor、Salis LayerMaster、MixFont、Color Palette、Mirror Positions**；依官方商品頁核實透視變形、油畫與漫畫網點外掛、Shape 路徑與圖層建立、混合字型、色票及位置鏡像腳本用途後加入 `booth.jsonl` | AEP 專案／字幕範本、影片素材、重複文字替換功能、FX Console 設定檔與搜尋框範本 | 9 筆新增、6 筆略過；最新總筆數 2,854 |
 | 57 | ema-akiyama、nana7se、binzii、yasucg、ruprous、Eirlys、みずぴょんショップ等最新 BOOTH After Effects 候選 | **Cache Monitor、AlignKit、Binzii_FastEase!、Comp Changer、YTTS2MK、ひらがなだけを小さくするスクリプト、涙目うるうる表現の半自動化スクリプト**；逐頁核實快取監控、圖層對齊分布、播放頭緩動、合成設定批次修改、YouTube 時間戳標記、日文假名縮放與淚眼半自動化腳本用途後加入 `booth.jsonl` | 動畫預設、獨立攝影機錄製程式、MP4／手繪效果素材、AEP 專案與成品動畫、下架商品 | 7 筆新增、8 筆略過；最新總筆數 2,861 |
+| 58 | 鳩 スクリプト売り、BthJon、nagisa-12-34、salis、yorusoramovie_store 等 BOOTH 腳本作者頁 | **ペアレントくん、Copy Kun、Insert Keyframes、ランダム配置、Calculator、Salis_OpenCompSettings、ys_TextAnMaka、Randomizer**；依官方頁確認父子關係、屬性複製、關鍵影格插入、隨機配置、計算、巢狀合成設定、歌詞文字配置與屬性隨機偏移用途後加入 `booth.jsonl` | Shape／文字效果預設、Premiere Pro 面板與僅使用內建效果的預設 | 8 筆新增、5 筆略過；最新總筆數 2,869 |
 
 ## 官方來源技巧
 
