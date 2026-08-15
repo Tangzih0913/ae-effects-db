@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2901 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2909 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1319,6 +1319,14 @@ AE To Blender Velocity Tools｜BOOTH｜script｜workflow｜After Effects 與 Ble
 Multiframe 100 to 0 Strobe｜BOOTH｜script｜animation｜After Effects 腳本，對選取圖層加入每一幀 100% 到 0% 交替的不透明度閃爍效果，支援不同幀率並可快速建立連續 Strobe 動畫。｜https://booth.pm/ja/items/5401710
 HoTo Movie Color Palette｜BOOTH｜script｜color｜支援 Premiere Pro 與 After Effects 的色彩管理面板，可登錄與管理常用顏色，適合字幕、圖形與動態設計工作流程中快速套用色彩。｜https://booth.pm/ja/items/8507596
 Sound Panel｜BOOTH｜script｜audio｜支援 Premiere Pro 與 After Effects 的音素材管理面板，可快速搜尋、預覽並配置常用 BGM 與 SE，減少反覆開啟資料夾尋找聲音檔案的操作。｜https://booth.pm/ja/items/8507580
+Stroke Outline｜BOOTH｜plugin｜stylize｜After Effects 描邊效果外掛，支援內側／中央／外側描邊、圓角、邊緣模糊、虛線、漸層填色、半色調與多種混合模式。｜https://booth.pm/ja/items/7983218
+CropPlus｜BOOTH｜plugin｜distort｜After Effects 裁切效果外掛，提供邊緣羽化、縮放、延展填充、偏移與多種填充模式，並支援 8／16／32-bit 與多幀渲染。｜https://booth.pm/ja/items/8011561
+StarSpikes Pro｜BOOTH｜plugin｜light｜After Effects 光學繞射外掛，自動偵測高亮區域並模擬鏡頭濾鏡的星形光芒與 Cross Filter 效果，支援 8／16／32-bit 與多幀渲染。｜https://booth.pm/ja/items/8026031
+GlassRain｜BOOTH｜plugin｜stylize｜After Effects 玻璃雨滴效果外掛，模擬水滴凝結、滑落、合併與水痕，並呈現玻璃表面的折射、反射、焦散與色散效果。｜https://booth.pm/ja/items/8054175
+Pro Line Extract｜BOOTH｜plugin｜stylize｜After Effects 專業線稿抽取外掛，為動畫、插畫與漫畫提供多種邊緣偵測演算法、線色模式、輸出模式與混合模式。｜https://booth.pm/ja/items/8055947
+Inner Glow Plus｜BOOTH｜plugin｜light｜After Effects 高品質內側光暈外掛，以 Distance Field 計算光暈分布，支援 8／16／32-bit、Vulkan GPU 加速與多執行緒快速渲染。｜https://booth.pm/ja/items/8060307
+Fadio｜BOOTH｜script｜audio｜After Effects 音訊腳本，可對選取的 Audio Layer 快速建立淡出效果，適合在聲音剪輯與動態設計流程中減少手動設定。｜https://booth.pm/ja/items/7110447
+imp&comp ver2.5｜BOOTH｜script｜workflow｜After Effects 動畫攝影工作流腳本，自動匯入並整理素材、建立與設定合成、配置圖層，還可排序、改名、取代或刪除素材及調整合成尺寸與片長。｜https://booth.pm/ja/items/7302423
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
