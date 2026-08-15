@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2743 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2760 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1161,6 +1161,23 @@ Color Shifter｜BOOTH｜script｜animation｜依移動物件的運動軌跡建�
 アニメの撮影用ツール｜BOOTH｜script｜workflow｜面向動畫攝影流程的 After Effects 工具，處理不同鏡頭合成尺寸、線稿合成雙倍工作尺寸、圖層位置對齊與處理後圖層出點修正，適合需要在多種 cut 規格間切換的動畫 CG 合成。｜https://booth.pm/ja/items/1994425
 Express ver1.0.3｜BOOTH｜script｜expression｜以 ScriptUI 面板一鍵為選取屬性加入 time、wiggle 或 loopOut 表達式，省去反覆輸入常用表達式的工作，適合快速建立循環、抖動與時間驅動動畫。｜https://booth.pm/ja/items/6726227
 WavyNote｜BOOTH｜script｜text｜在 After Effects 面板中保存、管理與動畫化歌詞或筆記，提供富文字編輯、字型與顏色設定，並可一次建立單一文字層或按字元分開建立文字層，適合歌詞影片與逐字動態排版。｜https://booth.pm/ja/items/7597762
+Property Batch Select｜BOOTH｜script｜workflow｜批次選取所選圖層的屬性與關鍵影格，也能一次選取多個圖層的相同屬性，適合在大型合成中快速準備共同動畫或搭配表達式工具使用。｜https://booth.pm/ja/items/8716911
+Palf Stripe｜BOOTH｜plugin｜generate｜在圖層上生成可動畫的角度條紋圖案，能分別控制粗細、間距、位置、角度、相位、顏色與合成方式，適合圖形背景、遮罩紋理與節奏型視覺。｜https://booth.pm/ja/items/8716081
+Palf Scallop｜BOOTH｜plugin｜transition｜以重複圓弧扇貝形狀切割圖層 Alpha，支援單側擦拭與雙側開合轉場，並可調整週期、深度、中心、角度、相位與邊緣對稱，適合幾何化揭露與切換。｜https://booth.pm/ja/items/8716082
+Palf Gingham｜BOOTH｜plugin｜stylize｜在圖層上生成可調的格紋織物效果，能分別控制底色、經緯線、交叉透明度、斜向切割角度與填充率，並選擇與原畫面的混合方式，適合布料與圖案質感。｜https://booth.pm/ja/items/8716085
+Palf KiraKira｜BOOTH｜plugin｜light｜針對圖層內各個獨立 Alpha 形狀生成方向性帽狀高光，可調亮帶方向、距離、長度、圓角、柔化、顏色、混合模式與小形狀閾值，適合 Logo、文字與圖形閃光。｜https://booth.pm/ja/items/8716086
+FavoritesLibrary｜BOOTH｜script｜workflow｜把 AE 圖層連同效果與關鍵影格保存到可跨專案使用的收藏庫，重新啟動 AE 或電腦後仍能呼叫，適合建立可重用的圖層與動畫素材集合。｜https://booth.pm/ja/items/8715764
+posterizeMe｜BOOTH｜script｜expression｜以 After Effects 腳本面板快速為選取屬性或關鍵影格加入 posterizeTime、loopOut continue 與 wiggle 表達式，適合抽格、循環與抖動動畫的快速建立。｜https://booth.pm/ja/items/8595233
+LookScope｜BOOTH｜plugin｜color｜把 After Effects 畫面中的亮度、色度與色相分布轉成可旋轉的 3D Scope，支援 Point／Surface 模式、GPU 視窗、密度與平滑控制，適合檢查色彩結構與調色偏差。｜https://booth.pm/ja/items/8592955
+Fractal Gacha｜BOOTH｜plugin｜generate｜針對 Fractal Noise 的對比、亮度、Sub Influence 與複雜度在指定範圍內隨機抽取參數，讓使用者可反覆生成並挑選喜歡的紋理外觀，適合快速探索抽象背景。｜https://booth.pm/ja/items/8585413
+Fractal Simplifier｜BOOTH｜script｜generate｜以專用面板集中調整 Fractal Noise 的對比、亮度、Sub Influence 與複雜度，並能一鍵加入表達式，適合快速整理分形雜訊背景與程序化變化。｜https://booth.pm/ja/items/8522589
+APRM｜BOOTH｜script｜workflow｜以 3×3 面板在物件、選取範圍或合成三種基準間移動 Anchor Point，並補償 Scale、Rotation、Skew、父子關係與關鍵影格造成的位置變化，適合批次精準調整 2D 圖層樞紐。｜https://booth.pm/ja/items/8525162
+MasterNodes｜BOOTH｜script｜workflow｜掃描 After Effects 專案並以互動式節點圖呈現合成、預合成、圖層、素材、效果、關鍵影格與註記的關係，支援搜尋、篩選、書籤與雙擊回到 AE 對應項目，適合理解大型專案結構。｜https://booth.pm/ja/items/8430687
+NGS_縦横切替｜BOOTH｜script｜text｜在 After Effects 中快速切換文字圖層的縱排與橫排方向，提供 ScriptUI 面板版及可由 KBar 等工具呼叫的腳本版，適合日文字幕與直排標題排版。｜https://booth.pm/ja/items/8155950
+XDTS Importer AE｜BOOTH｜script｜workflow｜把 Clip Studio Paint 匯出的 .xdts 與 Exposure Sheet 自動匯入 After Effects，依原動畫時間表整理時間軸與圖層，省去逐層輸出影像序列的流程，適合 2D 動畫攝影。｜https://booth.pm/ja/items/8057635
+MIDI Visualizer｜BOOTH｜plugin｜audio｜將 MIDI 檔匯入 After Effects 並自動繪製音符，支援自訂音符外觀、顏色與動畫，適合把演奏資料轉成節奏同步的音樂視覺化畫面。｜https://booth.pm/ja/items/8441365
+Takt RadialBlur｜BOOTH｜plugin｜blur｜以 GPU 加速產生中心放射狀模糊，提供比 AE 內建 Radial Blur 更快的處理與更多可調參數，支援 8／16／32 bit 色彩深度，適合速度感與鏡頭衝刺效果。｜https://booth.pm/ja/items/4130288
+GraphicTone｜BOOTH｜plugin｜stylize｜依畫面像素的色彩平衡生成色調波紋，可製作新型故障視覺，並能配合模糊效果形成平滑波浪；以 CPU 計算降低記憶體使用並支援即時預覽。｜https://booth.pm/ja/items/3708682
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
