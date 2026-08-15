@@ -1689,3 +1689,7 @@ bodymovin	官方 GitHub／Adobe Exchange 對應的 Bodymovin 已存在於 aescri
 motion-factory-file-manager	官方 Adobe Exchange 版本 3.3.7 最後更新於 2021 年，近期評論回報對最新 After Effects 不相容，視為維護／相容性不足而略過
 motion-factory	官方現行產品主要是模板、LUT、VFX、轉場與音效素材商店／訂閱套件，屬 bundle／素材包；不以整體產品新增工具條目
 guide-layout-for-after-effects	只有 Adobe Exchange marketplace 頁面可核實，未找到可辨識的原廠產品／文件頁；同類現行 GuideGuide 已有完整原廠功能頁，避免弱來源與近重複
+audiogen-ai	官方頁可核實 After Effects 文字轉語音／歌曲功能，但 Adobe Exchange 評分僅 1.8／5，且多則使用者回報免費標示與實際需 API key／訂閱不一致；本輪暫不收錄
+audiogen-for-after-effects	與 Audiogen AI 同一官方產品的 AE slug；因付費／免費標示爭議與低評分暫不收錄，避免兩個識別碼重複研究
+flex-gui-pro	原廠頁宣稱 v7.0.1，但 Adobe Exchange 仍為 v3.1.0，版本落差大且有授權連線／停止工作的回報；現行功能範圍與維護狀態不一致，暫不收錄
+jet-by-clinch	只有 Adobe Exchange marketplace listing 可核實，未找到可靠 Clinch 原廠產品／文件頁；且用途偏專門 DCO／HTML5 廣告模板 workflow，暫不收錄
