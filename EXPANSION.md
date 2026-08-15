@@ -127,6 +127,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 79 | Gumroad expression 管理續輪 | **Code Buddy (EZ After Effects Expressions)**；官方 Gumroad 頁確認可停駐 ScriptUI、使用者 expression 的持久化保存／編輯／套用、1,306 次下載與 15 則評價 | 以個人程式庫流程區隔通用工具啟動器與內建 expression 套件；其餘 CEP 預設包、轉場包與直接重複候選不納入 | 1 筆新增；最新總筆數 2,967 |
 | 80 | Gumroad Marker 算圖工作流續輪 | **Render Markers**；官方 Gumroad 頁確認將無時長合成 Marker 轉單幀輸出、帶時長 Marker 轉影片片段並批次加入 Render Queue | 與 Render Frame at Markers 的單幀輸出及 Queue Work Area 的手動片段設定功能互補，保留不同 Marker-to-render 實作 | 1 筆新增；最新總筆數 2,968 |
 | 81 | Gumroad 程序化 HUD 續輪 | **Machine Vision**；官方 Gumroad 頁確認 CC 2020+ 的 JSXBIN，分析影片並生成可調取樣、資料標籤、節點、框選與連線的機器視覺疊圖 | IZI SNAPLAYOUT 與多個現有響應式版面工具重疊；SmartPrecomp 與 Matte Tool 2 的預合成／反預合成功能重疊；僅保留素材分析式 HUD 的不同實作 | 1 筆新增；最新總筆數 2,969 |
+| 82 | Gumroad 音訊剪輯工作流續輪 | **BeatFlow**；官方 Gumroad 頁確認可於 AE 對音訊分別執行節拍偵測與語音靜音裁切，建立片語標記並依音訊標記切割圖層，已有 350 次銷售 | BeatEdit 僅處理音樂節拍標記與動畫驅動；ExtractMask 的透明物件拆分已由 Matte Tool 2 直接涵蓋；BARBACHART 與既有長條圖工具重疊 | 1 筆新增；最新總筆數 2,970 |
 
 ## 官方來源技巧
 
