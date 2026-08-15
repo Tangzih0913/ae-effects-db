@@ -126,6 +126,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 78 | Gumroad 專案註記工作流續輪 | **Post Notes 2**；官方 Gumroad 頁確認 AE／Premiere 2019+ 的 ZXP、合成綁定筆記、待辦與 AEP 內嵌共享，並有 16 則評價 | Easy Carousel 與 Carousel XPress 直接重複；WordFlow 已有略過記憶且由完整文字拆分工具覆蓋；素材／預設包不納入 | 1 筆新增；最新總筆數 2,966 |
 | 79 | Gumroad expression 管理續輪 | **Code Buddy (EZ After Effects Expressions)**；官方 Gumroad 頁確認可停駐 ScriptUI、使用者 expression 的持久化保存／編輯／套用、1,306 次下載與 15 則評價 | 以個人程式庫流程區隔通用工具啟動器與內建 expression 套件；其餘 CEP 預設包、轉場包與直接重複候選不納入 | 1 筆新增；最新總筆數 2,967 |
 | 80 | Gumroad Marker 算圖工作流續輪 | **Render Markers**；官方 Gumroad 頁確認將無時長合成 Marker 轉單幀輸出、帶時長 Marker 轉影片片段並批次加入 Render Queue | 與 Render Frame at Markers 的單幀輸出及 Queue Work Area 的手動片段設定功能互補，保留不同 Marker-to-render 實作 | 1 筆新增；最新總筆數 2,968 |
+| 81 | Gumroad 程序化 HUD 續輪 | **Machine Vision**；官方 Gumroad 頁確認 CC 2020+ 的 JSXBIN，分析影片並生成可調取樣、資料標籤、節點、框選與連線的機器視覺疊圖 | IZI SNAPLAYOUT 與多個現有響應式版面工具重疊；SmartPrecomp 與 Matte Tool 2 的預合成／反預合成功能重疊；僅保留素材分析式 HUD 的不同實作 | 1 筆新增；最新總筆數 2,969 |
 
 ## 官方來源技巧
 
