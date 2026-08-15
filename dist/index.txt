@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2953 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2954 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1989,6 +1989,7 @@ TimeOffset｜Gumroad｜script｜workflow｜以時間游標為分界，把前後�
 Project Info List Exporter｜Gumroad｜script｜workflow｜以可搜尋、可排序的清單盤點 After Effects 專案中的合成、圖層、效果、缺失外掛、素材路徑、Expression、Mask 與 Render Queue 資料，並提供素材整理與清理工具，適合交接、除錯及大型專案稽核。｜https://davidtorno.gumroad.com/l/aeprojectile
 RAFIKIT Toolbox｜Gumroad｜script｜workflow｜將圖層建立、預合成與拆解、專案整理、快取清理、SRT 字幕匯入、文字動畫、常用效果、Bounce 表達式與 easing 集中在四分頁 ScriptUI 面板，適合縮短日常 Motion Design 的重複操作。｜https://kumailrafiqi.gumroad.com/l/rafikittoolbox
 LetterBlack Gen AI｜Gumroad｜script｜workflow｜在 After Effects 2025+ 的 CEP 擴充中以 OpenAI、Claude 或 Gemini 對話生成動畫、效果與表達式，先即時預覽再套用，並可批次處理圖層／合成及協助修復腳本錯誤，適合加速反覆的動態設計自動化。｜https://letterblack.gumroad.com/l/letterblack_Gen_AI
+VHS Emulator for AE and Premiere Pro｜Gumroad｜script｜film｜透過 Adobe AE 2024／2025+ 的 VHSfx 擴充一鍵把 VHS 模擬套到影片、文字或 Logo，提供拖放式的類比錄影帶復古外觀，適合懷舊片頭、社群字卡與舊電視風格合成。｜https://animafx.gumroad.com/l/vhs
 Topaz Video AI｜未驗證｜plugin｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
 Fast Camera Lens Blur｜未驗證｜plugin｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
 Crate's Godrays｜未驗證｜plugin｜light｜免費：快速漂亮的體積光/放射光束，在畫面點一下設定發光點，調整光線長度、曝光、衰減與色差。從自然雲隙光到探照燈、全息光束都行。｜https://www.productioncrate.com/plugins/crates-easy-godrays
