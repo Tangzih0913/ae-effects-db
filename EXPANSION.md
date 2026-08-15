@@ -118,6 +118,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 73 | Gumroad 上游同步後續收錄 | **Render Markers、Machine Vision、BeatFlow、Forma、PinRig、RigtRect**；重新以官方 Gumroad 頁核對 Marker-to-render、影片分析 HUD、音訊節拍／語音裁切、OBJ 線框、Logo 構圖導引與雙控制器響應式矩形工作流，並補齊英／日描述及可見外觀翻譯 | 六筆均為上游 fork 合併後仍僅存在於本分支的已驗證條目，分別維持不同於既有 Marker、HUD、音訊、3D 與 Rigging 工具的工作流 | 6 筆新增；最新總筆數 2,994 |
 | 74 | Gumroad 最新排序掃描器首輪（3 頁） | —；27 個結果、26 個唯一 slug 均逐項判定為委託服務、Ableton／VRChat 工具、AEP 專案檔、說明不足商品、PNG 疊圖、Photoshop PSD 素材或 YouTube 訂閱服務 | `fjsatt`、`dxdudn`、`wxzlwd`、`kcxxlg` 等 26 個 slug 已寫入 `skipped.tsv`，附可重審的具體理由；無合格 AE 外掛／腳本 | 0 筆新增；最新總筆數 2,994 |
 | 75 | Gumroad `After Effects Script` 最新排序交叉查詢 | —；候選僅有 4 個新 Hyperpix 金箔／亮粉文字效果 slug，官方同系列頁已確認為 Photoshop Smart Object PSD | `rcrdom`、`fyfmda`、`tdmuwe`、`xyuzw` 已寫入 `skipped.tsv`；其餘結果為已記錄的 PSD 或訂閱服務；無合格 AE 外掛／腳本 | 0 筆新增；最新總筆數 2,994 |
+| 76 | Gumroad `After Effects JSX` 最新排序交叉查詢 | **AE Linguine**；官方 Gumroad 頁確認提供 `AE_Linguine_V1.jsx` ScriptUI 面板，可在 AE CC 2021–2026+ 間切換英文、西班牙文與法文介面，並以 Debug Database 偏好設定處理與提供授權自動移轉 | Jumpli 僅整合通用彈跳 expression、複製偏移與 Squircle，且僅 1 則評價，已由 RAFIKIT Toolbox、Array、RectControl 等較完整工具覆蓋；其餘候選待 Gumroad 限流解除後續核實 | 1 筆新增；最新總筆數 2,995 |
 
 ## 英／日文翻譯批次進度（截至 2026-08-15）
 
@@ -135,14 +136,14 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | `booth.jsonl` | 380 | 380（103 個 look 全部翻譯） | ✅ 100% |
 | `installed.jsonl` | 40 | 40（本機安裝辨識工具全數） | ✅ 100% |
 | `recipes.jsonl` | 35 | 35（畫面感與效果堆疊配方全數） | ✅ 100% |
-| `gumroad.jsonl` | 28 | 28（10 個 look 全部翻譯） | ✅ 100% |
+| `gumroad.jsonl` | 29 | 29（10 個 look 全部翻譯） | ✅ 100% |
 
 方針：
 
 - 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交），第七批為 `red-giant` 全數（同日完成並提交），第八批為 `universe` 全數（同日完成並提交），第九批為 `installed` 全數（同日完成並提交），第十批為 `recipes` 全數（同日完成並提交），第十一批為 `gumroad` 全數（同日完成並提交），第十二批為 `booth` 全數 359 筆（分六個批次注入，102 個 look 全部翻譯，同日完成並提交）。
 - 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
 - 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
-- 全部 11 個資料檔的英／日翻譯均已完成（2,994 筆，107 筆 look 亦全數翻譯），不再有待翻譯來源。
+- 全部 11 個資料檔的英／日翻譯均已完成（2,995 筆，107 筆 look 亦全數翻譯），不再有待翻譯來源。
 
 ## 官方來源技巧
 
