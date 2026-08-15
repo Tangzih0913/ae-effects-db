@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2741 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2950 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1147,6 +1147,215 @@ ZLoop｜BOOTH｜plugin｜3d｜把指定圖層沿 Z 軸連續複製並配合 3D �
 WANI Glitch｜BOOTH｜plugin｜stylize｜以物理訊號模型重現劣化的故障外掛，內建 13 種 artifacts，涵蓋區塊雜訊、資料殘缺、掃描線、頻道偏移與電磁干擾等，適合寫實故障演出。｜https://booth.pm/ja/items/8120071
 WANI 16mm Film｜BOOTH｜plugin｜stylize｜模擬 16mm 底片拍攝質感的外掛，內建 7 種軟片庫與粒子、刮痕、漏光、褪色等參數，適合復古膠片質感。macOS 限定。｜https://booth.pm/ja/items/8114996
 KANTA Morph & Spiral & Distort｜BOOTH｜plugin｜stylize｜內含三支外掛的組合：物件間平滑變形的 Morph、螺旋卷曲的 Spiral 與高品質扭曲的 Distort，適合變形、卷動與故障演出。Windows 限定。｜https://booth.pm/ja/items/8488628
+A_Flutter｜BOOTH｜plugin｜warp｜把任意圖層變形成像風中紙張般飄動的循環效果，可分別調整折痕、搖曳、波紋與陰影，並替紙張背面套用不同紋理，適合卡片、海報與圖層轉場。｜https://booth.pm/ja/items/8654824
+NGS_EaseCraft｜BOOTH｜script｜animation｜以可編輯的曲線編輯器為關鍵影格套用 Bezier、Elastic 或 Bounce 緩動，支援預設管理、快速選取、曲線匯入與未分割 Position 的自動分軸，適合細調動畫節奏。｜https://booth.pm/ja/items/7726008
+RenderDrop｜BOOTH｜script｜render｜在 After Effects、Premiere Pro 與 Media Encoder 算圖開始、完成或出錯時即時通知 Discord，並可透過官方 OAuth 將輸出自動上傳 Dropbox 或 Google Drive，適合遠端監看與交付流程。｜https://booth.pm/ja/items/7979020
+sbtr_project_cleaner｜BOOTH｜script｜workflow｜批次整理 After Effects 專案面板，可合併同尺寸同色的平面、Null 與調整圖層，並檢查後刪除未使用的素材，適合精簡大型專案與交付前清理。｜https://booth.pm/ja/items/8583336
+Clarix｜BOOTH｜script｜workflow｜用四種可勾選模式批次清除所選圖層的效果、表達式、屬性關鍵影格或文字動畫器，並保存面板設定，適合快速重置圖層與整理複雜動畫。｜https://booth.pm/ja/items/7266089
+quick_jimaku｜BOOTH｜script｜text｜讀取字幕 JSON 與音訊資料，自動在新合成建立文字圖層並配置對應音檔，也附文字轉 JSON 工具，適合旁白、字幕與逐段配音的快速排版。｜https://booth.pm/ja/items/7150288
+Create Cut Comp｜BOOTH｜script｜workflow｜依輸入的 cut 編號與 take 縮寫複製基礎合成、建立資料夾並自動命名輸出合成，還能調整含 Bold 的合成長度與填入作業者文字，適合動畫攝影的鏡頭管理。｜https://booth.pm/ja/items/7229231
+ばなぼっくす｜BOOTH｜script｜workflow｜把常用 Shape Layer 與多圖層合成集中在 Library 合成中管理，從面板雙擊即可放入目前合成，適合建立可跨專案重用的圖形與場景素材庫。｜https://booth.pm/ja/items/8561858
+BPMc｜BOOTH｜script｜animation｜依 BPM 節拍為選取圖層建立不透明度表達式與控制 Null，讓圖片、背景或表情按拍點自動顯示與隱藏，適合音樂錄影帶與節奏型切換動畫。｜https://booth.pm/ja/items/8580859
+MojiFlow｜BOOTH｜script｜text｜在 After Effects 內以可視化佈局區域與自訂 Flow Line 自動生成可編輯的動態排版，支援橫排、直排、多語字型與即時預覽，適合標題、歌詞和曲線文字設計。｜https://booth.pm/ja/items/8529162
+Shuffle It!｜BOOTH｜script｜text｜以面板與可編輯控制器快速製作逐字隨機打散、方向變化、彈跳與 2D／3D 文字動畫，支援路徑分段、複製貼上、合併動畫器與烘焙，適合動態標題和 kinetic typography。｜https://booth.pm/ja/items/8092692
+ValetAE｜BOOTH｜script｜utility｜集中管理 After Effects 的 JSX、JSXBIN、ScriptUI 面板與擴充功能，提供收藏、最近使用、搜尋、個別備註及工作區切換，適合安裝大量腳本後建立統一入口。｜https://booth.pm/ja/items/8032399
+Depth FX｜BOOTH｜plugin｜3d｜以本機 AI 從照片或影片估算深度並在同一個 AE 外掛中產生視差、深度霧、景深與前後景調色，適合把平面素材快速做成可控的偽 3D 鏡頭。｜https://booth.pm/ja/items/8547196
+OutMotioner｜BOOTH｜script｜animation｜將選取屬性的既有關鍵影格與緩動反轉後複製到播放頭區間，並可將結果對齊圖層 Out Point，適合快速建立倒放、回彈或由出點結束的動畫變體。｜https://booth.pm/ja/items/8553101
+ShapePresetViewer｜BOOTH｜script｜workflow｜把 Contents 內的 Shape Layer、關鍵影格、表達式與 Slider Control 連結保存成可重用的 .spg 形狀預設，方便預覽、套用與分享自製圖形動畫。｜https://booth.pm/ja/items/8547494
+TextMotion Studio｜BOOTH｜script｜text｜以可預覽的 After Effects 擴充面板管理文字、Shape、背景與轉場動畫，支援 SRT 匯入、音樂節拍標記、收藏播放清單及自訂動畫註冊，適合歌詞影片與日文動態排版。｜https://booth.pm/ja/items/8697867
+Checkerboard Grid Tool｜BOOTH｜script｜mograph｜把選取圖層依棋盤格網格排列並建立交錯移動動畫，支援 3D 圖層、攝影機、父子關係保留、隨機排列與可還原的控制 Null，適合大量圖塊與物件陣列動畫。｜https://booth.pm/ja/items/7955064
+ExprOne bate｜BOOTH｜script｜expression｜以整合 Monaco Editor 的 CEP 面板撰寫、搜尋與批次套用 After Effects 表達式，提供語法檢查、專案圖層與效果自動完成、控制效果佇列及屬性樹搜尋，適合管理複雜表達式工作流。｜https://booth.pm/ja/items/7837396
+NGS_FPS_TimeFrame_Calc｜BOOTH｜script｜utility｜在 After Effects 面板中把秒數、影格數與合成 FPS 互相換算並快速輸入，適合依不同幀率計算片長、標記時間與動畫關鍵影格位置。｜https://booth.pm/ja/items/7788323
+CompExtendor｜BOOTH｜script｜workflow｜從浮動面板直接調整 After Effects 合成的持續時間、起始時間與結束邊界，不必反覆開啟 Composition Settings，適合快速修正片長與時間軸範圍。｜https://booth.pm/ja/items/7146717
+AudioFade_v1.0｜BOOTH｜script｜audio｜為選取的音訊圖層自動建立平滑的音量淡出，不必手動插入多個 dB 關鍵影格，適合 BGM、旁白與片尾音效的自然收尾。｜https://booth.pm/ja/items/8475992
+Halftone Pro｜BOOTH｜plugin｜stylize｜把影像轉成可精細控制的半色調網點，支援亮度、CMYK、RGB 與自訂雙色模式、十種網點形狀、通道分離角度及多種混合方式，並支援 8／16／32 bpc 與多幀算圖，適合漫畫、印刷與復古影像風格。｜https://booth.pm/ja/items/8000066
+KANTA Dissolve 2｜BOOTH｜plugin｜transition｜擴充 AE 區塊溶解的外掛，可分別控制方塊寬高、邊緣柔化與四種溶解方向，並支援隨機、左至右、上至下及中心向外等進行模式，適合故障、像素與幾何轉場。｜https://booth.pm/ja/items/7933705
+Cyberpunk One-Click Filter｜BOOTH｜script｜stylize｜以 After Effects 腳本一鍵套用五種賽博龐克視覺濾鏡，包含色彩故障、賽博雜訊、螺旋故障、波紋位移與邊緣強化，可快速把照片或影片轉成帶訊號干擾的科技風格。｜https://booth.pm/ja/items/7210625
+Footage Path Replacer｜BOOTH｜script｜workflow｜批次替換 After Effects 專案中素材的檔案路徑，特別適合動畫與 3D CG 鏡頭在不同磁碟或算圖環境間重新連結，也提供可修改的文字版與直接使用的二進位版。｜https://booth.pm/ja/items/7010867
+ぶんつむ｜BOOTH｜script｜text｜把選取的文字圖層依換行或空白加換行拆成多個文字圖層，並可按指定秒數依序顯示與自動置中，適合日文字幕、旁白文字與逐段文字動畫的前置整理。｜https://booth.pm/ja/items/6917253
+Set Track Matte｜BOOTH｜script｜matte｜針對 After Effects 2023 之後的軌道遮罩操作提供快捷腳本，可把最後選取的圖層設為 Alpha Matte 並在單獨選取既有遮罩時解除設定，適合以快捷鍵快速整理合成遮罩。｜https://booth.pm/ja/items/6185672
+ShapeDrive｜BOOTH｜script｜workflow｜以面板搜尋並批次操作多個 Shape Layer 的屬性，可從清單快速選取多條路徑、切換填色與描邊、一次修改線寬及執行其他常用處理，適合形狀圖層數量龐大的合成。｜https://booth.pm/ja/items/2589169
+Color Shifter｜BOOTH｜script｜animation｜依移動物件的運動軌跡建立最多三種顏色的拖尾合成，讓物件移動時留下可辨識的彩色路徑，適合速度線、殘影、節奏動畫與視覺化運動方向。｜https://booth.pm/ja/items/5251745
+アニメの撮影用ツール｜BOOTH｜script｜workflow｜面向動畫攝影流程的 After Effects 工具，處理不同鏡頭合成尺寸、線稿合成雙倍工作尺寸、圖層位置對齊與處理後圖層出點修正，適合需要在多種 cut 規格間切換的動畫 CG 合成。｜https://booth.pm/ja/items/1994425
+Express ver1.0.3｜BOOTH｜script｜expression｜以 ScriptUI 面板一鍵為選取屬性加入 time、wiggle 或 loopOut 表達式，省去反覆輸入常用表達式的工作，適合快速建立循環、抖動與時間驅動動畫。｜https://booth.pm/ja/items/6726227
+WavyNote｜BOOTH｜script｜text｜在 After Effects 面板中保存、管理與動畫化歌詞或筆記，提供富文字編輯、字型與顏色設定，並可一次建立單一文字層或按字元分開建立文字層，適合歌詞影片與逐字動態排版。｜https://booth.pm/ja/items/7597762
+Property Batch Select｜BOOTH｜script｜workflow｜批次選取所選圖層的屬性與關鍵影格，也能一次選取多個圖層的相同屬性，適合在大型合成中快速準備共同動畫或搭配表達式工具使用。｜https://booth.pm/ja/items/8716911
+Palf Stripe｜BOOTH｜plugin｜generate｜在圖層上生成可動畫的角度條紋圖案，能分別控制粗細、間距、位置、角度、相位、顏色與合成方式，適合圖形背景、遮罩紋理與節奏型視覺。｜https://booth.pm/ja/items/8716081
+Palf Scallop｜BOOTH｜plugin｜transition｜以重複圓弧扇貝形狀切割圖層 Alpha，支援單側擦拭與雙側開合轉場，並可調整週期、深度、中心、角度、相位與邊緣對稱，適合幾何化揭露與切換。｜https://booth.pm/ja/items/8716082
+Palf Gingham｜BOOTH｜plugin｜stylize｜在圖層上生成可調的格紋織物效果，能分別控制底色、經緯線、交叉透明度、斜向切割角度與填充率，並選擇與原畫面的混合方式，適合布料與圖案質感。｜https://booth.pm/ja/items/8716085
+Palf KiraKira｜BOOTH｜plugin｜light｜針對圖層內各個獨立 Alpha 形狀生成方向性帽狀高光，可調亮帶方向、距離、長度、圓角、柔化、顏色、混合模式與小形狀閾值，適合 Logo、文字與圖形閃光。｜https://booth.pm/ja/items/8716086
+FavoritesLibrary｜BOOTH｜script｜workflow｜把 AE 圖層連同效果與關鍵影格保存到可跨專案使用的收藏庫，重新啟動 AE 或電腦後仍能呼叫，適合建立可重用的圖層與動畫素材集合。｜https://booth.pm/ja/items/8715764
+posterizeMe｜BOOTH｜script｜expression｜以 After Effects 腳本面板快速為選取屬性或關鍵影格加入 posterizeTime、loopOut continue 與 wiggle 表達式，適合抽格、循環與抖動動畫的快速建立。｜https://booth.pm/ja/items/8595233
+LookScope｜BOOTH｜plugin｜color｜把 After Effects 畫面中的亮度、色度與色相分布轉成可旋轉的 3D Scope，支援 Point／Surface 模式、GPU 視窗、密度與平滑控制，適合檢查色彩結構與調色偏差。｜https://booth.pm/ja/items/8592955
+Fractal Gacha｜BOOTH｜plugin｜generate｜針對 Fractal Noise 的對比、亮度、Sub Influence 與複雜度在指定範圍內隨機抽取參數，讓使用者可反覆生成並挑選喜歡的紋理外觀，適合快速探索抽象背景。｜https://booth.pm/ja/items/8585413
+Fractal Simplifier｜BOOTH｜script｜generate｜以專用面板集中調整 Fractal Noise 的對比、亮度、Sub Influence 與複雜度，並能一鍵加入表達式，適合快速整理分形雜訊背景與程序化變化。｜https://booth.pm/ja/items/8522589
+APRM｜BOOTH｜script｜workflow｜以 3×3 面板在物件、選取範圍或合成三種基準間移動 Anchor Point，並補償 Scale、Rotation、Skew、父子關係與關鍵影格造成的位置變化，適合批次精準調整 2D 圖層樞紐。｜https://booth.pm/ja/items/8525162
+MasterNodes｜BOOTH｜script｜workflow｜掃描 After Effects 專案並以互動式節點圖呈現合成、預合成、圖層、素材、效果、關鍵影格與註記的關係，支援搜尋、篩選、書籤與雙擊回到 AE 對應項目，適合理解大型專案結構。｜https://booth.pm/ja/items/8430687
+NGS_縦横切替｜BOOTH｜script｜text｜在 After Effects 中快速切換文字圖層的縱排與橫排方向，提供 ScriptUI 面板版及可由 KBar 等工具呼叫的腳本版，適合日文字幕與直排標題排版。｜https://booth.pm/ja/items/8155950
+XDTS Importer AE｜BOOTH｜script｜workflow｜把 Clip Studio Paint 匯出的 .xdts 與 Exposure Sheet 自動匯入 After Effects，依原動畫時間表整理時間軸與圖層，省去逐層輸出影像序列的流程，適合 2D 動畫攝影。｜https://booth.pm/ja/items/8057635
+MIDI Visualizer｜BOOTH｜plugin｜audio｜將 MIDI 檔匯入 After Effects 並自動繪製音符，支援自訂音符外觀、顏色與動畫，適合把演奏資料轉成節奏同步的音樂視覺化畫面。｜https://booth.pm/ja/items/8441365
+Takt RadialBlur｜BOOTH｜plugin｜blur｜以 GPU 加速產生中心放射狀模糊，提供比 AE 內建 Radial Blur 更快的處理與更多可調參數，支援 8／16／32 bit 色彩深度，適合速度感與鏡頭衝刺效果。｜https://booth.pm/ja/items/4130288
+GraphicTone｜BOOTH｜plugin｜stylize｜依畫面像素的色彩平衡生成色調波紋，可製作新型故障視覺，並能配合模糊效果形成平滑波浪；以 CPU 計算降低記憶體使用並支援即時預覽。｜https://booth.pm/ja/items/3708682
+SimpleExtrude｜BOOTH｜plugin｜3d｜從圖層 alpha 自動抽取輪廓並沿 Z 軸擠出成立體圖形，支援孔洞、AE 3D 相機與環境／平行／聚光／點光源同步，並提供內建簡易燈光、GPU CUDA／OpenCL、8／16／32 bit、側面材質、輪廓簡化與中心旋轉等控制；維持單一圖層即可製作 Logo、文字與去背素材的偽 3D 效果。｜https://booth.pm/ja/items/8592339
+ばなわっぺん｜BOOTH｜script｜text｜將歌詞動態與 MV 製作中把形狀放到文字背後的工作自動化：登記一個 Shape 或預合成後，可對多個文字或文字外框逐字配置，並選擇每字建立 Precomp 或複製 Shape 後以 Null 綁定，省去逐字複製與定位。｜https://booth.pm/ja/items/8561753
+Labels Lite｜BOOTH｜script｜workflow｜以輕量面板管理 After Effects 標籤：依目前選取狀態分別改變關鍵影格、圖層或專案項目的標籤色，並可用 Ctrl＋點擊批次選取相同標籤顏色的項目，還會記住最近操作的是圖層或專案內容。｜https://booth.pm/ja/items/7969936
+Seiton｜BOOTH｜script｜workflow｜以 After Effects／Premiere Pro 擴充功能一鍵整理專案，能建立與移動資料夾、套用標籤並清理 AE 專案面板中的空資料夾；只操作專案內項目、不刪除磁碟檔案，AE 支援單次 Undo，並提供 Windows／macOS 及 2025／2026 版本支援。｜https://booth.pm/ja/items/7852224
+3D Shape Generator｜BOOTH｜script｜3d｜用 Shape Layer 生成多種可控的 3D 形狀，包括立方體、長方體、三／五／六角柱與多種錐體；建立後可用控制 Null 與滑桿即時調整尺寸、旋轉與整體操作，面板也能列出並刪除已生成的形狀。｜https://booth.pm/ja/items/7794840
+SmartLayerGen｜BOOTH｜script｜workflow｜以尺寸與顏色快速生成常用圖層，會重用專案內相同平面、用 Shape 取代不必要的 Null／調整平面，並自動命名與同步標籤色；支援符合合成尺寸、置底、對選取圖層套遮罩、建立父 Null、依選取圖層長度建立調整層、自動描圖與導引圖層等快捷操作。｜https://booth.pm/ja/items/5932999
+Slider Connect｜BOOTH｜script｜expression｜讓 After Effects 使用者不必深入效果內容即可快速把數值寫入 Slider 控制項，並簡化表達式的套用與關閉，集中處理滑桿與表達式的常用操作。｜https://booth.pm/ja/items/1403693
+HL_Fontory｜BOOTH｜script｜workflow｜在 After Effects、Photoshop 與 Illustrator 內管理、預覽及套用大量字型的 ZXP 擴充功能，提供即時預覽、自訂預覽文字、收藏與資料夾分類、日／英／中／韓語言篩選、多種排序及自動更新通知；選取文字圖層後可直接套用字型。｜https://booth.pm/ja/items/7898425
+JPNGGlitch｜BOOTH｜plugin｜stylize｜以 JPEG 影像損壞與 PNG 影像錯誤為靈感產生多種 glitch 扭曲，針對處理速度最佳化，部分參數可即時播放，支援 Multi-Frame Rendering 與效果鏡像，並提供 Adobe After Effects 2022／2023／2024 Windows 版本。｜https://booth.pm/ja/items/3643803
+Syndromee Bevelized｜BOOTH｜plugin｜stylize｜把文字、Shape 與 Logo 轉成金屬、金色、玻璃或面 bevel 質感的 After Effects 外掛，整合帶輪廓的斜角光照、可編輯色彩循環漸層、色調曲線、折射與邊緣線控制，支援 AE 2020 以上、Windows／macOS、8／16／32 bit 與 CPU 渲染。｜https://booth.pm/ja/items/8478202
+AESpriteGrid｜BOOTH｜script｜generate｜將 After Effects 圖層動畫一鍵整理成 sprite sheet，支援多圖層批次處理與兩種排列模式，適合把複雜合成轉成遊戲或動畫製作可用的精靈表；以 ScriptUI 面板安裝並支援 After Effects 2025。｜https://booth.pm/ja/items/7130530
+Quantize｜BOOTH｜plugin｜stylize｜重現影像縮小後再放大的像素量化質感，提供高速處理、Multi-Frame Rendering 與 8／16／32 bpc 支援，適合製作低解析度、像素化與復古數位影像效果。｜https://booth.pm/ja/items/3649370
+TexGraph｜BOOTH｜plugin｜stylize｜把影片畫面轉成文字構成的圖像效果，提供文字大小、輪廓侵蝕、抖色、從來源取文字與背景色、背景透明度等控制；支援 Windows 與 After Effects 24.5 的 8 bpc 工作流。｜https://booth.pm/ja/items/7582311
+Geode｜BOOTH｜script｜mograph｜以可停駐面板把選取的多個圖層依同向、交錯、四向或隨機 360 度等模式移動，能指定方向與距離，適合快速製作多物件錯位與動態排版；以 ZXP 擴充功能安裝並核實支援 AE 2025／2026。｜https://booth.pm/ja/items/8350983
+Stainless｜BOOTH｜plugin｜stylize｜以指定角度對畫面套用帶條紋的 dither 合成效果，提供 Gaussian Blur、Directional Blur 長度、Minimax 半徑、Alpha／Luminance 通道與 Dissolve 強度等控制，適合製作方向性顆粒與數位風格化效果。｜https://booth.pm/ja/items/8168265
+Weaver｜BOOTH｜plugin｜edge｜偵測圖層輪廓或讀取 Mask Path，將輪廓扭曲成多條錯開相位的波形線並繪製出來；支援 8／16／32 bit、Multi-Frame Rendering、macOS Apple Silicon／Intel 與 Windows，適合線條、波形與 glitch 動畫。｜https://booth.pm/ja/items/8517877
+Anime Sync｜BOOTH｜script｜rigging｜依聲音自動建立角色口型變化與嘴型替換的 After Effects 腳本工具，將語音驅動的角色動畫流程簡化為可重複的同步設定，適合角色對話、歌唱與動畫口型製作。｜https://booth.pm/ja/items/5188052
+SimpleStroke｜BOOTH｜plugin｜edge｜以 Marching Squares 演算法為圖層建立乾淨輪廓描邊，提供半徑、顏色與只繪製描邊等控制，支援 OpenCL GPU 加速與 Windows After Effects 2024／2025／2026。｜https://booth.pm/ja/items/8310909
+A_Motion｜BOOTH｜plugin｜text｜將文字預合成後轉成像素動畫效果，讓文字不必依賴 Selector Expression 即可建立動畫，並提供文字間距、合併間隙與彩色文字動畫等控制；支援 After Effects 2019 以上、Windows 與 Apple Silicon Mac。｜https://booth.pm/ja/items/8448036
+AutoArrange｜BOOTH｜script｜3d｜將選取圖層依 3D XZ 座標自動排列成圓形，能設定排列數量、中心距離與 Y 軸隨機量，適合快速建立環狀構圖與 3D 圖層隊列。｜https://booth.pm/ja/items/4890815
+LiteGlow｜BOOTH｜plugin｜glow｜提供簡潔直覺的 After Effects Glow 外掛，以 Strength、Radius、Threshold 與 Quality 四個參數控制輝光；支援 Windows／macOS After Effects 2025，採 MIT 授權並可免費使用。｜https://booth.pm/ja/items/6939869
+GlitchCore｜BOOTH｜plugin｜stylize｜把 glitch 效果直接套用到圖層的 After Effects 外掛，安裝 AEX 後可從 Plug-ins 資料夾載入，官方頁確認 Windows 與 After Effects CC 2026。｜https://booth.pm/ja/items/8358059
+TrueDither｜BOOTH｜plugin｜stylize｜提供 43 種色盤與 27 種抖色模式的 After Effects 外掛，支援自訂抖色、以任意圖層作 Effects Map、Downscale、強度與閾值控制，適合像素化、復古色彩與風格化輸出。｜https://booth.pm/ja/items/8081316
+ShapeDistort｜BOOTH｜plugin｜distort｜用正弦波與三角波產生 Swirl、Radial、Direction 三種幾何扭曲，並可加入相位與振幅雜訊製作有機液體或 glitch 動態；支援畫面邊界擴張與 8／16／32 bit 浮點色彩。｜https://booth.pm/ja/items/7727383
+EdgeDetec｜BOOTH｜plugin｜edge｜從影像抽取輪廓線的 After Effects 外掛，提供 Magnitude、Simple Line、Canny 與 DoG 四種偵測演算法，支援 OpenCV 高精度邊緣、Alpha 反轉控制與 8／16／32 bit 浮點色彩。｜https://booth.pm/ja/items/7736235
+Random N-gon｜BOOTH｜script｜generate｜在 After Effects 以面板隨機生成 3 至 12 邊的多邊形，提供滑桿與核取方塊調整形狀，適合快速建立幾何圖形、隨機背景與程序化 motion graphics 元件。｜https://booth.pm/ja/items/5444063
+SRT Converter｜BOOTH｜script｜text｜在 After Effects 內提供 SRT 匯入與匯出的多種方式，能以標記、關鍵影格或文字圖層建立字幕，並附字幕編輯器、文字批次替換、分行位置表達式與等距字幕配置功能。｜https://booth.pm/ja/items/5188068
+Multi Cut Maker｜BOOTH｜script｜workflow｜自動建立分割畫面與多螢幕網格，支援 2×2、3×3 或自訂行列、依網格建立合成、把選取圖層自動置入並調整縮放，另可控制間距與 HD／4K／直式影片尺寸。｜https://booth.pm/ja/items/8177359
+QuickTrim｜BOOTH｜script｜workflow｜以一鍵操作裁切合成內的空白區域，將合成邊界修整到內容範圍；安裝於 ScriptsUI 後可從面板執行，適合快速清理完成的合成。｜https://booth.pm/ja/items/7142067
+CompAndLayerRenamer v3｜BOOTH｜script｜workflow｜同時整理大量合成與圖層名稱的腳本，支援流水號、文字替換與命名規則，並會自動修正表達式引用以避免改名後連結失效，適合大型專案資產整理。｜https://booth.pm/ja/items/7948209
+Ref Board｜BOOTH｜script｜workflow｜在 Premiere Pro／After Effects 面板中建立可拖放參考圖板，能從 Google Images、Pinterest、Behance、Instagram 或本機拖入圖片，並自動保存與恢復畫布上的圖片與位置。｜https://booth.pm/ja/items/8031426
+NWayDither｜BOOTH｜plugin｜stylize｜提供多種抖色方式的 After Effects 外掛，支援誤差擴散、隨機、單色與 Alpha 通道抖色、Gamma 校正及像素尺寸控制，並以多執行緒加速誤差擴散處理。｜https://booth.pm/ja/items/2188406
+FastBilateralFilter｜BOOTH｜plugin｜blur｜以 CUDA 加速保留輪廓的雙邊濾波器，可降噪並產生近似繪畫的減色效果，支援 8／16／32 bpc、Multi-Frame Rendering 與無 CUDA 時的 CPU 模式。｜https://booth.pm/ja/items/2856522
+PaintAnimation｜BOOTH｜script｜animation｜在 After Effects 面板中為原生 Paint 筆畫套用循環動態，提供 wiggle、flow、drip、scatter 與 pulse 等動畫模式，適合手繪線條、動畫塗鴉、motion graphics 與逐格風格效果。｜https://booth.pm/ja/items/8358044
+Spiral Master｜BOOTH｜script｜mograph｜將選取圖層依數量複製並沿圓形或螺旋排列，能設定半徑、Z 軸間距、旋轉間距與 Anchor Point 朝向，並建立 Null 滑桿控制器供後續動畫與調整。｜https://booth.pm/ja/items/7856068
+Replace Text｜BOOTH｜script｜text｜以文字輸入框一鍵替換選取圖層文字，支援大量文字批次變更與文字屬性複製，適合字幕、模板與多語版本製作；官方頁提供試用版與 ScriptUI 工作流。｜https://booth.pm/ja/items/4884466
+Text Auto Generator｜BOOTH｜script｜text｜以 Google 試算表輸入歌詞或字幕，自動產生帶時間、顏色與階梯式錯開的 After Effects JSX，將每行輸出成獨立文字圖層並自動設定顯示時機，支援 After Effects 2023 以上。｜https://booth.pm/ja/items/6814054
+Mask⇆Shape｜BOOTH｜script｜workflow｜在 After Effects 中互轉 Shape Path 與 Mask Path，能儲存路徑後貼到指定圖層、以 Ctrl 建立全畫面 Shape Layer，並支援多遮罩分割與 KBar 呼叫。｜https://booth.pm/ja/items/6669600
+Overshoot and Bounce Lite｜BOOTH｜script｜animation｜為使用者指定的圖層屬性加入慣性、overshoot 與 bounce 演算法，快速建立彈性反彈與緩入緩出動畫，適合動態設計中的位置、縮放與旋轉動畫。｜https://booth.pm/ja/items/5188059
+Mascrop｜BOOTH｜script｜workflow｜依套用於預合成圖層的 Mask 範圍裁切預合成，縮小過大的碰撞範圍以便操作；支援保留原圖層、直接處理原合成等選項，適合清理預合成尺寸。｜https://booth.pm/ja/items/6693119
+Keyframe Navigator｜BOOTH｜script｜workflow｜以 First、Previous、Nearest、Next、Last 五個按鈕快速跳到關鍵影格，會依是否選取圖層自動搜尋選取圖層或整個合成，並可用 Ctrl 切換到 Marker 導覽。｜https://booth.pm/ja/items/7341266
+Loop Panel｜BOOTH｜script｜expression｜在 After Effects 面板以一鍵方式替選取圖層屬性加入循環表達式，快速設定 Cycle、Pingpong 或 Offset 等循環方式，適合重複動畫與背景動態。｜https://booth.pm/ja/items/5267735
+Filine｜BOOTH｜script｜expression｜為 Shape Layer 的 Fill 與 Stroke 不透明度建立同步控制，提供核取方塊或滑桿讓填色與描邊互換或按數值反向變化，適合閃爍與線面切換效果。｜https://booth.pm/ja/items/7049011
+Rasterize All｜BOOTH｜script｜workflow｜一鍵開關 After Effects 專案全部圖層的連續柵格化，另提供加入 Motion Blur 的版本與下拉控制，適合批次整理向量、形狀與文字圖層的渲染設定。｜https://booth.pm/ja/items/5187774
+TransLayerGen｜BOOTH｜script｜transition｜在播放頭前後自動建立 A／B 場景並顯示轉場點時間與影格編號，將選定的合成快速準備成可製作轉場的兩段式圖層結構。｜https://booth.pm/ja/items/6622132
+Bubble Fill｜BOOTH｜plugin｜generate｜以圖層 Alpha 或亮度讀取文字、Shape、影像與預合成，將其內部重新組成大小與密度各異的泡泡圓形，適合文字、Logo、MV、歌詞與 motion graphics 的泡泡填充效果。｜https://booth.pm/ja/items/8498362
+AdvancedTiling｜BOOTH｜script｜workflow｜批次修改專案面板選取素材的幀率與循環次數，再將素材平鋪到新合成中；提供中英文介面與排列模式，適合快速建立素材網格與重複動畫合成。｜https://booth.pm/ja/items/6758872
+Auto Transition｜BOOTH｜script｜transition｜選取一個或多個圖層後一鍵建立自動轉場，支援 X／Y／Z 六個方向、旋轉以及以 Null 控制已有位置或旋轉關鍵影格的圖層，會自動產生所需關鍵影格。｜https://booth.pm/ja/items/7586909
+Auto Ring｜BOOTH｜script｜mograph｜自動將專案檔案或圖層排列成環形結構，適合建立圓周式圖形、環狀版面與放射式 motion graphics。｜https://booth.pm/ja/items/5251178
+Folder Importer｜BOOTH｜script｜workflow｜批次匯入資料夾並同步資料夾內容的 After Effects 腳本，適合將外部素材集中匯入專案並在重複更新時維持資料夾結構。｜https://booth.pm/ja/items/6748214
+FEF Finder｜BOOTH｜script｜workflow｜搜尋 After Effects 專案中使用或未使用的字型、文字內容、效果、素材與 Marker，並列出遺失項目，適合交付前檢查專案依賴與清理未使用資源。｜https://booth.pm/ja/items/5188006
+Text Synchronizer｜BOOTH｜script｜text｜同步 After Effects 文字圖層的文字內容與樣式，適合在多個字幕、標題或模板圖層間快速保持內容與排版一致。｜https://booth.pm/ja/items/5187945
+CenterAlign2Comp｜BOOTH｜script｜text｜將多個選取文字圖層的 Anchor Point 移到各自中心，再將圖層對齊到合成中央而保持 Y 值，支援 KBar 或快捷鍵呼叫。｜https://booth.pm/ja/items/6435967
+FlexibleAnim｜BOOTH｜script｜animation｜依圖層 In Point 與 Out Point 自動建立不透明度、縮放、旋轉或位置動畫，支援面板模式與 Lite 版本，適合快速為多個圖層套用進出場動畫。｜https://booth.pm/ja/items/5255303
+Parallax Controls｜BOOTH｜script｜3d｜自動依相機與畫面比例設定平面圖層的 Z 軸距離，並提供對焦控制以維持視覺尺寸與構圖比例，適合建立 2.5D 景深與視差動畫。｜https://booth.pm/ja/items/5188070
+FolderToComp｜BOOTH｜script｜workflow｜批次處理專案資料夾中的媒體檔案，為素材建立新的合成並依序排列，適合把大量匯入素材快速轉成可管理的合成結構。｜https://booth.pm/ja/items/6748242
+Switch It｜BOOTH｜script｜workflow｜以關鍵字搜尋圖層效果並批次切換開關或刪除，適合在大型合成中快速定位指定效果、清理效果堆疊與建立可重複的整理工作流。｜https://booth.pm/ja/items/7176220
+Text Repeater｜BOOTH｜plugin｜mograph｜以 Repeat、Circular、Random、Grid 四種模式複製並排列文字或圖形，Grid 模式可讀取亮度圖控制位置、縮放、旋轉與不透明度，另提供不需預合成的全域變形控制。｜https://booth.pm/ja/items/8231771
+MoveLayerIndex｜BOOTH｜script｜workflow｜將選取的一個或多個圖層移動到指定的圖層索引位置，適合把新建立的 Shape 或其他圖層快速放入指定堆疊順序，並可由 KBar 或快捷鍵呼叫。｜https://booth.pm/ja/items/6506084
+Piano Keyboard｜BOOTH｜script｜audio｜在可視化鋼琴鍵盤上輸入旋律，再將演奏結果送入 After Effects，適合以鍵盤快速建立音樂、節奏與音訊反應動畫素材。｜https://booth.pm/ja/items/7001880
+LayerFolders｜BOOTH｜script｜workflow｜不用預合成即可在時間軸把圖層分組成疑似資料夾，支援群組命名、批次顯示／隱藏、Solo 與保護操作，並核實支援 macOS／Windows 與 After Effects 2025／2026。｜https://booth.pm/ja/items/8499800
+Marker Manager｜BOOTH｜script｜workflow｜列出合成、圖層與整個專案的 Marker，支援搜尋取代、顏色／時間／內容編輯、選取刪除、雙擊跳轉，以及 Marker 匯入與匯出。｜https://booth.pm/ja/items/7939711
+ImageSlideshow_GUI｜BOOTH｜script｜workflow｜以 After Effects 面板快速建立圖片幻燈片合成，能逐張設定顯示順序、顯示時間、位置、尺寸與切換效果，並自動生成完整 slideshow composition。｜https://booth.pm/ja/items/8367227
+SS AddShapes｜BOOTH｜script｜generate｜以 ScriptUI 面板一鍵新增帶背景的文字圖層、圓形／方形 Shape 與 Null Layer，並可選擇以 3D 狀態建立，適合快速搭建字幕與圖形元件。｜https://booth.pm/ja/items/6726175
+Position Separate｜BOOTH｜script｜workflow｜以面板一鍵對多個選取圖層執行 Position 分離維度，省去逐層開啟屬性與右鍵操作，適合大量圖層的 motion graphics 動畫整理。｜https://booth.pm/ja/items/8071384
+Link Same Position｜BOOTH｜script｜rigging｜從選取圖層中找出相同位置的圖層並自動分組、建立父子連結，會以最新圖層作為父層，適合 UI 動畫、模板與大量圖層整理。｜https://booth.pm/ja/items/8071421
+TextCase｜BOOTH｜script｜text｜批次轉換文字圖層的英文大小寫，支援全大寫、全小寫、單詞首字大寫、行首大寫、每單詞或每逗點換行，並可保留原有文字樣式設定。｜https://booth.pm/ja/items/6561167
+RTTTL Tone Converter｜BOOTH｜script｜audio｜以 RTTTL 語法輸入旋律並傳送到 After Effects，適合快速建立音調序列、音樂視覺化與節奏動畫的基礎資料。｜https://booth.pm/ja/items/7005735
+MegaGlitch｜BOOTH｜plugin｜stylize｜以 10 種可組合效果模擬數位信號損壞、VHS 故障與資料壓縮錯誤，提供智慧時序引擎自動產生可控制的 glitch burst、區域限制、28 種混合模式、5 種邊緣處理與 8／16／32 bit 支援。｜https://booth.pm/ja/items/8074334
+ProNoise｜BOOTH｜plugin｜texture｜提供 8 種雜訊模式、28 種混合模式與色差、閃爍、抖動控制的專業雜訊生成外掛，適合膠片老化、CRT 顯示器與信號干擾效果，支援 8／16／32 bit 與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8076947
+AnalogTV｜BOOTH｜plugin｜film｜模擬真實 CRT 電視、VHS 播放與 CCTV 監視器的視覺特性，依類比影像信號從攝影機到螢幕的物理順序處理，支援 8／16／32 bit 與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8079580
+RainRipple｜BOOTH｜plugin｜warp｜以物理式三層波動模型模擬圖層上的雨滴水面波紋，支援 Gerstner 風波、Corner Pin、色差、合成／位移／法線圖輸出與 8／16／32 bit Multi-Frame Rendering。｜https://booth.pm/ja/items/8084679
+HotWave｜BOOTH｜plugin｜warp｜模擬溫差造成的空氣折射與陽炎熱霧，適合沙漠、引擎排氣、火焰上方、工業煙囪與蒸氣場景，支援 8／16／32 bit、Multi-Frame Rendering 與多執行緒處理。｜https://booth.pm/ja/items/8089679
+VHS Effect｜BOOTH｜plugin｜film｜模擬完整 NTSC／VHS 複合影像瑕疵，包括模糊、色滲、ringing、雜訊、磁頭切換、雪花與 tracking error，支援 8／16／32 bit 浮點、Multi-Frame Rendering 與多執行緒。｜https://booth.pm/ja/items/8097807
+Film Damage｜BOOTH｜plugin｜film｜以程序方式模擬 8mm／16mm 膠片放映時的各種缺陷與特性，為數位影像加入不需額外素材的真實復古電影質感。｜https://booth.pm/ja/items/8124411
+Pro Chromatic Aberration｜BOOTH｜plugin｜stylize｜依光學原理模擬橫向與縱向色差及變形鏡頭效果，內建 27 種混合模式，支援 AVX2 多核心、Windows Threadpool、8／16／32 bit 浮點色彩與 Multi-Frame Rendering。｜https://booth.pm/ja/items/8146922
+Camera Shake CA｜BOOTH｜plugin｜animation｜模擬電影手持攝影機的真實抖動，將 Motion Blur 與色差整合並依相機運動量連動色差強度，支援 8／16／32 bit 浮點與 AVX2 多核心加速。｜https://booth.pm/ja/items/8193717
+Advfill｜BOOTH｜plugin｜stylize｜把填色、混合、Matte 與半色調整合成一個 AE 外掛，支援 Solid、雙點漸層與 Gradient Map，多種漸層形狀、27 種混合模式，以及 Dot／Line／Cross／Ring 半色調控制。｜https://booth.pm/ja/items/8281388
+LuminGlow｜BOOTH｜plugin｜glow｜適用於 After Effects 與 Premiere Pro 的曝光光暈外掛，提供雙重 Glow、Streak 條紋光與 18 種混合模式，並以 AVX2 與多執行緒加速渲染。｜https://booth.pm/ja/items/8446501
+MiterOutline｜BOOTH｜plugin｜edge｜為文字與帶 Alpha 的影像圖層建立保持鋒利角度的輪廓描邊，支援 Color、Thickness、Precision、Sharpness、Jitter、Seed 與 Square／Round／Miter 接合類型，並核實支援 Windows After Effects 2025。｜https://booth.pm/ja/items/7718949
+Wavy 3AM｜BOOTH｜script｜expression｜提供自訂互動式 Bezier Graph Editor 的 After Effects 智慧擴充面板，支援 1D／2D／3D／Spatial／Color 屬性、多關鍵影格、拓撲匹配、Overshoot 偵測、Shape／Mask Path 動畫、縮放平移、吸附與 50 段 Undo／Redo。｜https://booth.pm/ja/items/8032627
+Folder Bin Sync｜BOOTH｜script｜workflow｜自動同步 OS 資料夾與 Premiere／After Effects Bin，素材存入資料夾後會自動匯入並依影片、音訊、圖片與專案類型套用標籤色，也能同步 .aep／.prproj、偵測連番影像並支援 Windows／macOS。｜https://booth.pm/ja/items/8041080
+Syndromee Prism Diffraction｜BOOTH｜plugin｜light｜從 Mask Path 或圖層 Alpha 輪廓產生數百條虹彩稜鏡光線，支援色散、長度、寬度、擴散、閃爍、Sparkle、漂移、Glow、Bloom 與邊緣柔化，適合光漏、魔法閃耀、MV 與發光標題；支援 AE 2020+、Windows／macOS 與 8／16／32 bit CPU 渲染。｜https://booth.pm/ja/items/8437470
+PathEdit｜BOOTH｜script｜workflow｜在 After Effects 以一鍵方式選取目前選取 Shape Layer 的路徑並插入關鍵影格，簡化複雜形狀路徑的編輯與動畫準備流程。｜https://booth.pm/ja/items/6670900
+SyncOpacity｜BOOTH｜script｜expression｜以一鍵操作將父 Null 或其他父圖層的不透明度快速同步到指定工作流，適合建立多圖層共同透明度控制與簡單的表達式驅動動畫。｜https://booth.pm/ja/items/6671674
+PersWarp｜BOOTH｜plugin｜warp｜將來源四邊形映射到目標四邊形的 After Effects 透視變形外掛，支援 homography、雙線性三角仿射、扭曲或凹四邊形，以及來源與目標遮罩路徑控制。｜https://booth.pm/ja/items/8586332
+oilpaint｜BOOTH｜plugin｜stylize｜After Effects 油畫效果外掛 Oil Paint Effect Lite，可用半徑與半徑貼圖控制筆觸化程度，並以 .aex 檔案安裝到 Plug-ins 資料夾。｜https://booth.pm/ja/items/7813410
+Shapepath Select and Addkey｜BOOTH｜script｜workflow｜After Effects 腳本面板，可選取所選形狀圖層內的全部向量路徑或指定範圍，並快速替路徑新增關鍵影格，另提供獨立版與 KBar 版本。｜https://booth.pm/ja/items/2649743
+MangaTone for After Effects Plug-in｜BOOTH｜plugin｜stylize｜After Effects 漫畫網點效果外掛，提供 Dots、Lines、Squares、Outline Only 與 Transparent Export 等模式，將素材轉成可調整的漫畫調性。｜https://booth.pm/ja/items/8358050
+Salis_PathEditor｜BOOTH｜script｜workflow｜提升 After Effects Shape Layer 路徑編輯效率的腳本，可切換路徑編輯模式、選取全部或指定範圍的路徑，並從右鍵選單快速加入關鍵影格。｜https://booth.pm/ja/items/6668236
+Salis LayerMaster｜BOOTH｜script｜workflow｜After Effects 圖層建立支援腳本，可重用與合成同尺寸的 Solid，並快速建立 Null、Shape、Light 等圖層，適合統一圖層尺寸與專案管理流程。｜https://booth.pm/ja/items/6586275
+MixFont｜BOOTH｜script｜text｜After Effects 混合字型腳本，可依日文假名、漢字、英文字母與數字分配不同字型，支援自訂字元框、多文字圖層與面板操作。｜https://booth.pm/ja/items/5707924
+Color Palette｜BOOTH｜script｜color｜After Effects 色票腳本，點擊色彩即可套用到 Solid、Shape Fill、Shape Stroke、Text Fill 或 Text Stroke，並支援修飾鍵操作與十六進位色碼複製。｜https://booth.pm/ja/items/4946867
+Mirror Positions｜BOOTH｜script｜workflow｜After Effects 腳本，可將選取圖層的位置以合成中心為基準進行鏡像，支援多圖層批次處理，適合對稱構圖與快速建立反向位置動畫。｜https://booth.pm/ja/items/5420541
+Cache Monitor｜BOOTH｜script｜workflow｜After Effects 工具面板，可查看磁碟快取使用量、上限、使用率與儲存空間，並從面板更新快取資訊、開啟快取資料夾或執行清除操作。｜https://booth.pm/ja/items/8717866
+AlignKit｜BOOTH｜script｜workflow｜After Effects 對齊與分布面板，以圖層實際外接框處理旋轉或縮放圖層，支援以合成或圖層為基準對齊，以及等間距分布。｜https://booth.pm/ja/items/8512992
+Binzii_FastEase!｜BOOTH｜script｜animation｜After Effects 緩動腳本，依目前播放頭在兩個關鍵影格之間的位置智慧套用 Ease 曲線，讓動畫曲線峰值跟隨時間指示器快速調整。｜https://booth.pm/ja/items/8512637
+Comp Changer｜BOOTH｜script｜workflow｜After Effects 腳本，可依基準合成批次變更所選合成與所有子合成的解析度和片長，延長圖層尾端並調整 Solid／調整圖層尺寸，支援 Undo。｜https://booth.pm/ja/items/8442433
+YTTS2MK｜BOOTH｜script｜workflow｜ScriptUI 面板腳本，讀取 YouTube 常見的 HH:MM:SS、MM:SS 或 M:SS 時間戳文字並在 After Effects 自動建立對應的合成標記。｜https://booth.pm/ja/items/8158811
+ひらがなだけを小さくするスクリプト｜BOOTH｜script｜text｜After Effects 文字腳本，將文字圖層中的平假名單獨縮小，並可調整縮小數值，適合日文字幕與標題的字面比例整理。｜https://booth.pm/ja/items/8121266
+涙目うるうる表現の半自動化スクリプト｜BOOTH｜script｜workflow｜After Effects 半自動化腳本組，可依眼睛動作追隨內部模糊與水潤效果，並分步建立淚眼遮罩、羽化、效果與複製操作，適合 VRoid 動畫。｜https://booth.pm/ja/items/8280283
+ペアレントくん｜BOOTH｜script｜rigging｜After Effects 父子關係腳本，依多個選取圖層重心自動建立中心 Null，支援選取圖層或未設父層圖層的批次綁定，也能一鍵解除父子關係。｜https://booth.pm/ja/items/7851435
+Copy Kun｜BOOTH｜script｜workflow｜After Effects 圖層屬性複製腳本，可複製與貼上 Transform、效果、標記等內容，支援形狀圖層並保留原本的時間偏移。｜https://booth.pm/ja/items/7607146
+Insert Keyframes｜BOOTH｜script｜animation｜After Effects 關鍵影格插入腳本，提供插值、Start／End、Value Ratio 與 Time 控制，並可加入 Anticipation 和 Overshoot 來快速塑造自然的動畫動勢。｜https://booth.pm/ja/items/7456544
+ランダム配置｜BOOTH｜script｜mograph｜After Effects 隨機配置腳本，可將選取圖層快速隨機排列，提供 ScriptUI Panels 用的 jsxbin 檔案，適合批次建立分散式構圖與動態版面。｜https://booth.pm/ja/items/7165096
+Calculator｜BOOTH｜script｜utility｜After Effects 計算器腳本，提供面板版與輸入列版，可手動輸入算式並直接取得計算結果，適合在製作流程中快速處理數值。｜https://booth.pm/ja/items/6986938
+Salis_OpenCompSettings｜BOOTH｜script｜workflow｜After Effects 無介面腳本，可從巢狀合成圖層直接快速開啟其合成設定，適合註冊到 KBar 或快捷鍵以減少逐層開啟合成的操作。｜https://booth.pm/ja/items/6910773
+ys_TextAnMaka｜BOOTH｜script｜text｜After Effects 文字工作流程腳本，核心功能可依合成標記逐一配置文字圖層，另含多項歌詞影片輔助功能，適合 MV 與字幕配置。｜https://booth.pm/ja/items/6867642
+Randomizer｜BOOTH｜script｜animation｜After Effects 隨機化腳本，可對 Transform 或自訂屬性的數值套用隨機偏移，適合快速建立位置、旋轉、縮放或其他屬性的隨機動畫效果。｜https://booth.pm/ja/items/6759772
+CompMaster｜BOOTH｜script｜workflow｜After Effects 合成設定管理腳本，以單一介面批次修改多個合成的尺寸、時間設定與 Motion Blur 等選項，適合統一專案合成規格。｜https://booth.pm/ja/items/6673617
+MojiMixer｜BOOTH｜script｜text｜After Effects 日英混排文字腳本，可依和文、歐文、數字與符號等字元種類自動套用不同字型，減少逐字設定字型的手動工作。｜https://booth.pm/ja/items/6657930
+Paralign｜BOOTH｜script｜text｜After Effects 段落調整腳本，以文字圖層的 Bounding Box 為基準變更行對齊，避免從段落面板切換對齊方式時發生位置偏移。｜https://booth.pm/ja/items/6645052
+Build Importer v6｜BOOTH｜script｜workflow｜After Effects 匯入啟動腳本，可將常用的 AEP 檔案與 Footage 註冊到最多 16 個按鈕，之後直接從面板匯入，省去反覆尋找資料夾的流程。｜https://booth.pm/ja/items/6627168
+Proxy Manager v2｜BOOTH｜script｜render｜After Effects Proxy 輔助腳本，可批次建立 Proxy 並在 v2 面板中設定範本與 Proxy 儲存資料夾名稱，協助管理大型素材的算圖工作流程。｜https://booth.pm/ja/items/6639881
+FrameGrid｜BOOTH｜script｜mograph｜After Effects 格線排版腳本，可將畫面分成指定長短邊格數，設定圖層與格線間距，並選擇 Fit to Grid 或依長短邊的縮放方式排列圖層。｜https://booth.pm/ja/items/6633051
+CreateCompMask｜BOOTH｜script｜workflow｜After Effects 腳本，可在素材圖層上建立精準符合合成尺寸的矩形遮罩，即使圖層已放大並超出合成範圍，也能維持合成邊界大小。｜https://booth.pm/ja/items/6471422
+Effects Switch｜BOOTH｜script｜workflow｜After Effects 效果管理腳本，可批次開關選取圖層中的指定效果，也能一次加入或刪除效果，適合快速切換多圖層的處理狀態。｜https://booth.pm/ja/items/6458542
+Layer Follower｜BOOTH｜script｜workflow｜After Effects 圖層排序腳本，設定目標圖層後可將同一合成內的選取圖層移到目標圖層上方或下方，並對齊目標圖層的開始時間。｜https://booth.pm/ja/items/5757528
+Time Modifier｜BOOTH｜script｜workflow｜After Effects 時間長度腳本，可修改選取圖層或 Precomp 的片長，支援增減時間、依播放頭、第一或最後圖層時間，以及直接指定合成時長。｜https://booth.pm/ja/items/5648936
+Audio Sync｜BOOTH｜script｜audio｜After Effects 音訊同步腳本，可將主合成音樂同步到 Precomp，提供表達式同步與自動移動圖層時間兩種模式，並附簡單文字圖層時間軸功能。｜https://booth.pm/ja/items/5620354
+Script Performance｜BOOTH｜script｜utility｜After Effects 腳本效能工具，用來計算腳本檔案執行所花費的時間，適合比較不同腳本或檢查自動化流程的執行速度。｜https://booth.pm/ja/items/5412730
+MotionBlur All｜BOOTH｜script｜workflow｜After Effects 腳本，可一鍵開啟或關閉專案中所有圖層的 Motion Blur 設定，適合在算圖前後快速統一動態模糊狀態。｜https://booth.pm/ja/items/5259143
+1A2B｜BOOTH｜script｜utility｜可在 After Effects 內執行的互動猜數字遊戲腳本，將簡單的 1A2B 遊戲放入 AE 面板流程中，屬於可直接執行的趣味工具。｜https://booth.pm/ja/items/5251245
+Auto Fader｜BOOTH｜script｜animation｜After Effects 淡入淡出腳本，依圖層的 In Point 與 Out Point 自動設定不透明度關鍵影格，不必手動建立淡入淡出動畫。｜https://booth.pm/ja/items/5210563
+Explode Layer｜BOOTH｜script｜workflow｜After Effects 形狀圖層分離腳本，可將形狀群組拆成獨立圖層，並把文字圖層與 AI 向量圖層自動轉成形狀後再進行分離。｜https://booth.pm/ja/items/5187916
+RplSolidName｜BOOTH｜script｜workflow｜After Effects 批次命名腳本，可依指定的取代前後文字修改 Solid 圖層名稱，支援只取代部分或全部名稱，以及排除不想變更的文字。｜https://booth.pm/ja/items/4907981
+RplFont｜BOOTH｜script｜text｜After Effects 批次字型腳本，選取文字圖層後可取得目前字型名稱並一次變更多個文字圖層的字型設定。｜https://booth.pm/ja/items/4907979
+RplCompDur｜BOOTH｜script｜workflow｜After Effects 合成片長腳本，可批次變更多個合成的 Duration，適合統一專案內合成時間並減少逐一開啟設定的操作。｜https://booth.pm/ja/items/4907952
+RplCompName｜BOOTH｜script｜workflow｜After Effects 合成命名腳本，可依指定文字批次取代部分或全部合成名稱，並能設定排除文字以避免改動特定合成。｜https://booth.pm/ja/items/4907278
+Auto Swing｜BOOTH｜script｜rigging｜After Effects 搖擺動畫腳本，指定根部與末端後依旋轉或移動自動產生擺動，也能用風力與重力製作頭髮、配件和植物的外部晃動。｜https://booth.pm/ja/items/3012666
+Simple Set Parent｜BOOTH｜script｜rigging｜After Effects 父子關係腳本，選取多個圖層後可一鍵執行四種父子綁定方式，也能快速清除既有父子關係，適合角色與多圖層整理。｜https://booth.pm/ja/items/2783088
+Reverse Shape Path｜BOOTH｜script｜workflow｜After Effects 腳本，可反轉多個選取圖層中全部 Shape Path 的方向，支援有關鍵影格、開放或封閉的貝茲路徑，適合單次路徑整理。｜https://booth.pm/ja/items/2670295
+Add Props to Essential Graphics｜BOOTH｜script｜workflow｜After Effects 腳本，可一次選取多個屬性並註冊到 Essential Graphics，支援 Slider Control、Color Control 等控制項，適合建立 MOGRT 可調整參數。｜https://booth.pm/ja/items/2670124
+Layer Name Changer｜BOOTH｜script｜workflow｜After Effects 圖層命名腳本，可批次新增前後綴、取代或直接指定名稱，支援連號與刪除數字、字母、空白等特定字元。｜https://booth.pm/ja/items/2649857
+Scale to Slider｜BOOTH｜script｜expression｜After Effects 表達式腳本，將可個別控制 X／Y 軸的縮放表達式套用到選取圖層，並以 Slider Control 提供更直覺的縮放調整方式。｜https://booth.pm/ja/items/2366373
+Totonoe Skin Retouch｜BOOTH｜plugin｜stylize｜同時支援 Premiere Pro 與 After Effects 的肌膚修飾外掛，可自動偵測膚色並保留輪廓與質感，調整肌膚粗糙、泛紅與油光。｜https://booth.pm/ja/items/8663073
+AE To Blender Velocity Tools｜BOOTH｜script｜workflow｜After Effects 與 Blender 動畫交換工具，將 AE 製作的 Velocity／緩急透過 Alembic 匯出與匯入，使 Blender 動畫能重現相同的動態速度。｜https://booth.pm/ja/items/6496001
+任意の回数ループアニメーション｜BOOTH｜script｜animation｜After Effects JSX 腳本，可將選取屬性的關鍵影格循環指定次數後停止，支援 Cycle、Pingpong、Offset 三種循環方式，也能作為面板使用。｜https://booth.pm/ja/items/6090177
+Multiframe 100 to 0 Strobe｜BOOTH｜script｜animation｜After Effects 腳本，對選取圖層加入每一幀 100% 到 0% 交替的不透明度閃爍效果，支援不同幀率並可快速建立連續 Strobe 動畫。｜https://booth.pm/ja/items/5401710
+HoTo Movie Color Palette｜BOOTH｜script｜color｜支援 Premiere Pro 與 After Effects 的色彩管理面板，可登錄與管理常用顏色，適合字幕、圖形與動態設計工作流程中快速套用色彩。｜https://booth.pm/ja/items/8507596
+Sound Panel｜BOOTH｜script｜audio｜支援 Premiere Pro 與 After Effects 的音素材管理面板，可快速搜尋、預覽並配置常用 BGM 與 SE，減少反覆開啟資料夾尋找聲音檔案的操作。｜https://booth.pm/ja/items/8507580
+Stroke Outline｜BOOTH｜plugin｜stylize｜After Effects 描邊效果外掛，支援內側／中央／外側描邊、圓角、邊緣模糊、虛線、漸層填色、半色調與多種混合模式。｜https://booth.pm/ja/items/7983218
+CropPlus｜BOOTH｜plugin｜distort｜After Effects 裁切效果外掛，提供邊緣羽化、縮放、延展填充、偏移與多種填充模式，並支援 8／16／32-bit 與多幀渲染。｜https://booth.pm/ja/items/8011561
+StarSpikes Pro｜BOOTH｜plugin｜light｜After Effects 光學繞射外掛，自動偵測高亮區域並模擬鏡頭濾鏡的星形光芒與 Cross Filter 效果，支援 8／16／32-bit 與多幀渲染。｜https://booth.pm/ja/items/8026031
+GlassRain｜BOOTH｜plugin｜stylize｜After Effects 玻璃雨滴效果外掛，模擬水滴凝結、滑落、合併與水痕，並呈現玻璃表面的折射、反射、焦散與色散效果。｜https://booth.pm/ja/items/8054175
+Pro Line Extract｜BOOTH｜plugin｜stylize｜After Effects 專業線稿抽取外掛，為動畫、插畫與漫畫提供多種邊緣偵測演算法、線色模式、輸出模式與混合模式。｜https://booth.pm/ja/items/8055947
+Inner Glow Plus｜BOOTH｜plugin｜light｜After Effects 高品質內側光暈外掛，以 Distance Field 計算光暈分布，支援 8／16／32-bit、Vulkan GPU 加速與多執行緒快速渲染。｜https://booth.pm/ja/items/8060307
+Fadio｜BOOTH｜script｜audio｜After Effects 音訊腳本，可對選取的 Audio Layer 快速建立淡出效果，適合在聲音剪輯與動態設計流程中減少手動設定。｜https://booth.pm/ja/items/7110447
+imp&comp ver2.5｜BOOTH｜script｜workflow｜After Effects 動畫攝影工作流腳本，自動匯入並整理素材、建立與設定合成、配置圖層，還可排序、改名、取代或刪除素材及調整合成尺寸與片長。｜https://booth.pm/ja/items/7302423
+ツールアシストセット｜BOOTH｜script｜workflow｜After Effects 工具輔助腳本，將常用工具、快捷鍵、圖層操作與圖層建立功能集中到一鍵按鈕，並可自行改寫或加入圖片擴充功能。｜https://booth.pm/ja/items/7761630
+SolidEffects｜BOOTH｜script｜workflow｜After Effects 固態圖層效果建立腳本，可一鍵建立並命名已套用 Fractal Noise、Particle World、Particle System II 或 Saber 的 Solid，減少重複設定。｜https://booth.pm/ja/items/6135735
+S_tools_EffectSearcher｜BOOTH｜script｜workflow｜After Effects ScriptUI 面板，可取得內建與第三方效果資訊、排序與篩選效果清單，並雙擊定位目標合成，方便檢索與管理專案效果。｜https://booth.pm/ja/items/6110504
+Layer Switcher｜BOOTH｜script｜workflow｜After Effects 圖層切換腳本，使用選取圖層的不透明度在顯示與隱藏狀態之間切換，適合快速管理構圖內的替代圖層。｜https://booth.pm/ja/items/4803361
+Additional Transform｜BOOTH｜script｜workflow｜After Effects 腳本，為圖層建立第二組 Transform 屬性，讓同一圖層可擁有額外的位置、旋轉與縮放控制，適合分層調整動畫。｜https://booth.pm/ja/items/4827289
+Cleanup!｜BOOTH｜script｜workflow｜After Effects 專案整理腳本，作為可停駐的 ScriptUI 面板或浮動視窗掃描未使用項目並清理 Project Panel，協助維持專案結構整潔。｜https://booth.pm/ja/items/8073055
+Swap Two Selected Layers Source｜BOOTH｜script｜workflow｜After Effects ExtendScript，可交換目前合成中兩個選取 AV 圖層的來源，同時保留位置、不透明度、效果與 Mat 等版面設定，並支援一次 Undo。｜https://booth.pm/ja/items/7947861
+Easy Fader｜BOOTH｜script｜animation｜After Effects JSX 腳本，依指定幀數在選取圖層的不透明度上套用淡入與淡出，快速建立一致長度的透明度動畫。｜https://booth.pm/ja/items/7286789
+Nulltilities｜BOOTH｜script｜rigging｜After Effects JSX 工具組，提供 Nullize 與 Parent Null 功能，可將選取圖層轉為 Null 化狀態或建立父 Null，並個別控制位置、旋轉與縮放繼承。｜https://booth.pm/ja/items/7280676
+Generate Puppet Rig｜BOOTH｜script｜rigging｜After Effects JSX 腳本，依 Puppet Pin 效果的針點位置建立 Null 圖層並設定針點參照，快速把 Puppet Pin 動畫轉成可用 Null 控制器操作的 Rig。｜https://booth.pm/ja/items/7280639
+アンダーライン引きmuscle｜BOOTH｜script｜text｜After Effects 文字腳本，可在 Text Layer 下方建立可調整長度與顏色的底線，也支援 Overline，並以文字圖層寬度作為最大長度基準。｜https://booth.pm/ja/items/5412559
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
