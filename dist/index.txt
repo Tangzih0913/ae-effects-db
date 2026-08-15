@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2715 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2718 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -979,6 +979,9 @@ Rename-a-Duper｜aescripts｜script｜workflow｜批次重新命名與複製組�
 VKO Shader｜aescripts｜plugin｜generate｜基於 GPU 的 GLSL 着色器引擎，提供 79 種內建著色器與即時預覽瀏覽，支援音頻反應與自訂 GLSL 匯入。｜https://aescripts.com/vko-shader/
 Flagship｜aescripts｜script｜animation｜將任何圖層轉為物理模擬的藕膜旗幟動畫，單鍵建立含風速、光照、布料紋與摺痕陰影的循環動畫。｜https://aescripts.com/flagship/
 texto｜aescripts｜script｜text｜一鍵為文字套用逐字、逐詞或逐行顯現動畫的腳本，以鑽石方向盤選取進場方向並支援彈跳緩動與預設庫，適合歌詞與標題動畫。｜https://aescripts.com/texto/
+I Ate Mushrooms｜aescripts｜plugin｜art｜在 After Effects 以本機神經網路從文字、物件類別或自有素材生成可循環的抽象影像與轉場，適合實驗動畫、程序化背景和迷幻視覺。｜https://aescripts.com/i-ate-mushrooms/
+Easy Comp｜aescripts｜plugin｜composite｜在 After Effects 以本機 AI 自動融合疊放素材並匹配色彩，不必手動畫遮罩，適合快速完成視覺特效合成與鏡頭整合。｜https://aescripts.com/easy-comp/
+Frankenstein｜aescripts｜plugin｜matte｜在 After Effects 以本機 AI 為皮膚、眼睛、嘴巴與牙齒建立精確臉部遮罩，適合人像美顏、局部調色和風格化合成。｜https://aescripts.com/frankenstein/
 Japanese-effect-search｜BOOTH｜script｜workflow｜以日文、英文、平假名與片假名混合搜尋並直接套用 AE 效果、預設或執行腳本、擴充功能與常用命令，另含收藏、連續套用與隱藏舊效果選項，適合日文介面和輸入法工作流程。｜https://booth.pm/ja/items/7695646
 Layer Chicken｜BOOTH｜script｜workflow｜替已匯入 AE 的分層 Photoshop／Illustrator 文件找回後續在原檔新增的圖層，免去重新匯入整份 PSD／AI 再刪除多餘內容，適合設計稿反覆改版與補圖層的動態製作。｜https://booth.pm/ja/items/2728552
 SHIG Project Starter｜BOOTH｜script｜workflow｜依專案名、解析度、FPS、初始片長與色彩深度建立 MV 製作資料夾及 00_MAIN／00_RENDER 合成，並可把兩個合成、工作區和主合成圖層同步延長到 WAV 音樂長度，適合歌曲 MV 開案與統一專案結構。｜https://booth.pm/ja/items/8625638
