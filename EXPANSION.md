@@ -120,6 +120,8 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 來源 | 可靠做法 |
 |---|---|
 | aescripts | 先用 `python tools/find_new.py --limit 30 --desc`；slug 以 `tools/.sitemap_cache.xml`／官方 sitemap 為準。產品頁可用 Python `urllib` 帶 User-Agent 讀 meta description；若仍無實際說明就略過 |
+| BOOTH | `python tools/scan_booth.py --pages 3` 掃 `booth.pm/ja/search/After%20Effects`；商品 id 對照 `data/*.jsonl` 的 `/items/<id>` 與 `skipped.tsv` 的 `booth-<id>`。同名素材包很多，務必逐頁核實 host 與是否為獨立工具 |
+| Gumroad | `python tools/scan_gumroad.py` 讀 `gumroad.com/products/search?query=after+effects&sort=newest` 的 JSON；注意 permalink 可能與資料庫存的 `/l/<slug>` 拼法不同，候選清單只作線索，一律回原廠頁核實 |
 | Sapphire | 比對官方 picture index 與 `data/sapphire.jsonl`；個別效果以官方 documentation 頁確認 |
 | Continuum | 比對官方 BCC effects list 與 `data/continuum.jsonl`；不要自行推測新 ML 效果 slug |
 | Maxon／Red Giant | 頁面由前端渲染時用瀏覽器檢查 DOM；路徑例外很多，不能依名稱拼網址 |
@@ -127,6 +129,10 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 其他原廠 | 只接受原廠產品、文件或支援頁；轉售頁與第三方 host 宣稱不算證據 |
 
 一次抓列表時控制在 3～4 頁，避免逾時。候選站若不適合出現在 repo，絕對不要把站名、連結或文案寫進資料與 curation 檔。
+
+### 每日自動掃描
+
+`.github/workflows/scan-candidates.yml` 每天 03:30 UTC 跑 `find_new.py`＋`scan_booth.py`＋`scan_gumroad.py`，把「尚未收錄、也尚未略過」的候選整理成一個 GitHub Issue（label `scan-candidates`，每次更新同一個 Issue）。掃描器只列候選、不改資料；收錄仍走本手冊的逐頁核實流程。可手動觸發：`gh workflow run scan-candidates`。
 
 ## 暫存批次格式
 
