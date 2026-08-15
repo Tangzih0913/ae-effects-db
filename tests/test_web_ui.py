@@ -71,9 +71,11 @@ class WebUiContractTests(unittest.TestCase):
 
     def test_non_chinese_locales_label_curated_description_fallback(self):
         self.assertIn('class="original-label"', HTML)
-        self.assertIn('descriptionOriginal', HTML)
         self.assertIn('Traditional Chinese original', I18N)
         self.assertIn('繁体字中国語の原文', I18N)
+        self.assertIn('localField', HTML)
+        self.assertIn('needsOriginal', HTML)
+        self.assertIn('desc_"+LANG', HTML)
 
 
 if __name__ == "__main__":

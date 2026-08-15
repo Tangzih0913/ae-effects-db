@@ -114,29 +114,41 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 69 | BOOTH AfterEffects 剩餘候選第三輪人工抽查 | —；確認配信背景、VTuber／影片轉場、綠幕與 MV 素材、AEP／MP4／WAV 作品、Photoshop 樣式與教學專案均非獨立 AE 工具 | 15 筆均為素材、模板、作品或教學專案 | 0 筆新增、15 筆略過；最新總筆數 2,909 |
 | 70 | 交叉掃描 `AfterEffect`、`After Effects` 標籤後的 BOOTH 工具候選 | **ツールアシストセット、SolidEffects、S_tools_EffectSearcher、Layer Switcher、Additional Transform、Cleanup!、Swap Two Selected Layers Source、Easy Fader、Nulltilities、Generate Puppet Rig、アンダーライン引きmuscle**；逐頁核實工具面板、Solid 建立、效果搜尋、來源交換、Null／Puppet Rig、透明度與文字工作流功能後加入 `booth.jsonl` | AE／Element 3D 預設、AEP／FFX 模板、HUD 素材、FX Console 設定檔與作品專案 | 11 筆新增、17 筆略過；最新總筆數 2,920 |
 | 71 | 交叉標籤批次官方頁核實的 AEP 作品候選 | —；確認 Motion Graphics 習作 #5–14、2 秒 Motion Graphics #1–18、Maru、Pre：あ與 Element3D 預設資料均為研究或作品 AEP，非獨立工具 | 15 筆均為 AEP 作品、練習檔或專案預設 | 0 筆新增、15 筆略過；最新總筆數 2,920 |
-| 72 | Gumroad 持續掃描第一輪：`After Effects ScriptUI`／`JSXBIN`／`panel`／`plugin` 高訊號搜尋 | **Project Info List Exporter、RAFIKIT Toolbox、LetterBlack Gen AI、VHS Emulator for AE and Premiere Pro、Field Driver for After Effects、UI Animator Pro、3D to 2D、MGFX v2.0、DIIS、EaseCurve for After Effects**；官方 Gumroad 頁分別確認專案資料稽核／缺失外掛／Render Queue 清單、圖層／預合成／SRT 等四分頁 ScriptUI 工作流、AE 2025+ CEP 的 AI 動畫與表達式預覽／批次處理／腳本修復、AE 2024+ VHSfx 擴充的一鍵錄影帶模擬、可烘焙的 JSXBIN 距離場域控制動畫、2,151 銷售的 UI 預設／序列／HTML／Figma 匯入／畫面拆層、可烘焙或保持連結的 3D 圖層轉 2D／Corner Pin 工作流、AE 2025+ 的可配置素材蒐集／重新連結／封存工具、AE 2024+ 的非寫實風格與陰影合成擴充，以及 AE 2020+ 的貝茲緩動、循環、錨點與彈性工具 | Grid Layers、ImpactFX、Apex Control Pro、MessCtrl、Motion UI 等既有略過決策與 Mouse Pack、Pearelax 等既有條目未重複加入；其餘候選繼續逐頁核實 | 10 筆新增；最新總筆數 2,960 |
+| 72 | 合併 fork（Tangzih0913）的 `booth-next`（7 commits）與 `gumroad-next`（18 commits） | **自動ファイル作成スクリプト、ばらばらに出現・消滅、マスクパスの上に画像が動け！、フォルダにある素材のリネーム、レイヤーの状態覚えておいてscript、簡易版レイヤーリネーム、簡単なWiggle制御、Auto-tress and mask layer auto-detection、シェイプレイヤーのGroupを個別レイヤーに分離、Position and Scale Key ConfirmationScript、コンポ差し替え、3Dレイヤー選択→プリコンポしてメッシュワープ、JapyTextEngine、シェイプを横移動させるだけの仕組みセット、SmartImport、Salis_OpenFileLocation、8Bit PixCam、moji_marker_cut、TextAnimator、カットナンバー増分スクリプト、StairTrim**（21 筆 BOOTH）；**Project Info List Exporter、RAFIKIT Toolbox、LetterBlack Gen AI、VHS Emulator、Field Driver、UI Animator Pro、3D to 2D、MGFX v2.0、DIIS、EaseCurve、DoCharts、superSelect、Find and Replace in Expressions、PathPrep、Keyframe、Post Notes 2、Code Buddy**（17 筆 Gumroad） | 其餘 74 個 fork 分支（含 `fork/main`）均無獨有 commit 已吸收；`skipped.tsv` 以 fork 相對 merge-base 的 89 筆新略過記錄做聯集（未復活上游已汰除的舊記錄）；全部 38 筆新條目已補英／日翻譯與 look 翻譯 | 38 筆新增（BOOTH 21＋Gumroad 17）；最新總筆數 2,988 |
+| 73 | Gumroad 上游同步後續收錄 | **Render Markers、Machine Vision、BeatFlow、Forma、PinRig、RigtRect**；重新以官方 Gumroad 頁核對 Marker-to-render、影片分析 HUD、音訊節拍／語音裁切、OBJ 線框、Logo 構圖導引與雙控制器響應式矩形工作流，並補齊英／日描述及可見外觀翻譯 | 六筆均為上游 fork 合併後仍僅存在於本分支的已驗證條目，分別維持不同於既有 Marker、HUD、音訊、3D 與 Rigging 工具的工作流 | 6 筆新增；最新總筆數 2,994 |
 
-| 73 | Gumroad 高訊號 ScriptUI／JSXBIN 搜尋續輪 | **DoCharts**；官方 Gumroad 頁確認可停駐的 JSXBIN 長條圖設計面板、二十多項位置／尺寸／色彩／動畫控制與 6 則評價 | Organize Project Assets Pro、superSelect、Find and Replace in Expressions、Magic Animator Pro 等候選持續逐頁判重；模板與已覆蓋功能不重複收錄 | 1 筆新增；最新總筆數 2,961 |
+## 英／日文翻譯批次進度（截至 2026-08-15）
 
-| 74 | Gumroad 高訊號屬性工作流續輪 | **superSelect - for After Effects**；官方 Gumroad 頁確認 JSXBIN、可停駐面板、跨所選／同父層／全合成選取及揭露相同屬性，且有 24 則評價 | Organize Project Assets Pro 與 Folder Fanatic 功能高度重疊，略過決策待安全寫入既存編碼混雜的記錄檔 | 1 筆新增；最新總筆數 2,962 |
+資料規格（`AGENTS.md` 欄位表）允許 `desc_en`／`desc_ja`／`look_en`／`look_ja`；英／日介面缺翻譯時回退中文並標「原文」。進度以來源檔案計：
 
-| 75 | Gumroad 高評價表達式工具續輪 | **Find and Replace in Expressions**；官方 Gumroad 頁確認可停駐的 expression 文字尋找／取代視窗與 33 則評價 | Organize Project Assets Pro 仍以 Folder Fanatic 覆蓋為準；其餘高評價動畫候選繼續核實 | 1 筆新增；最新總筆數 2,963 |
-| 76 | Gumroad 形狀路徑工作流續輪 | **PathPrep for After Effects**；官方 Gumroad 頁確認可停駐 JSXBIN 面板、批次參數形狀轉 Bezier、Transform 烘焙與向量複製 | Visual States、Type、FX Finder、格線與圖層錯位候選均已有功能更完整的現有條目；Magic Animator Pro、Relinker 續作維護與品質審核 | 1 筆新增；最新總筆數 2,964 |
-| 77 | Gumroad AI 畫格工作流續輪 | **Keyframe - AI image generator for After Effects**；官方 Gumroad 頁確認可安裝 ScriptUI、70 筆銷量、時間軸畫格擷取、Replicate 改圖／遮罩修補與序列回匯 | 與 aiImageGen 共用 Replicate 但額外覆蓋畫格導向的回匯與風格定格工作流，判定保留；其餘候選持續依維護狀況及直接覆蓋程度審查 | 1 筆新增；最新總筆數 2,965 |
-| 78 | Gumroad 專案註記工作流續輪 | **Post Notes 2**；官方 Gumroad 頁確認 AE／Premiere 2019+ 的 ZXP、合成綁定筆記、待辦與 AEP 內嵌共享，並有 16 則評價 | Easy Carousel 與 Carousel XPress 直接重複；WordFlow 已有略過記憶且由完整文字拆分工具覆蓋；素材／預設包不納入 | 1 筆新增；最新總筆數 2,966 |
-| 79 | Gumroad expression 管理續輪 | **Code Buddy (EZ After Effects Expressions)**；官方 Gumroad 頁確認可停駐 ScriptUI、使用者 expression 的持久化保存／編輯／套用、1,306 次下載與 15 則評價 | 以個人程式庫流程區隔通用工具啟動器與內建 expression 套件；其餘 CEP 預設包、轉場包與直接重複候選不納入 | 1 筆新增；最新總筆數 2,967 |
-| 80 | Gumroad Marker 算圖工作流續輪 | **Render Markers**；官方 Gumroad 頁確認將無時長合成 Marker 轉單幀輸出、帶時長 Marker 轉影片片段並批次加入 Render Queue | 與 Render Frame at Markers 的單幀輸出及 Queue Work Area 的手動片段設定功能互補，保留不同 Marker-to-render 實作 | 1 筆新增；最新總筆數 2,968 |
-| 81 | Gumroad 程序化 HUD 續輪 | **Machine Vision**；官方 Gumroad 頁確認 CC 2020+ 的 JSXBIN，分析影片並生成可調取樣、資料標籤、節點、框選與連線的機器視覺疊圖 | IZI SNAPLAYOUT 與多個現有響應式版面工具重疊；SmartPrecomp 與 Matte Tool 2 的預合成／反預合成功能重疊；僅保留素材分析式 HUD 的不同實作 | 1 筆新增；最新總筆數 2,969 |
-| 82 | Gumroad 音訊剪輯工作流續輪 | **BeatFlow**；官方 Gumroad 頁確認可於 AE 對音訊分別執行節拍偵測與語音靜音裁切，建立片語標記並依音訊標記切割圖層，已有 350 次銷售 | BeatEdit 僅處理音樂節拍標記與動畫驅動；ExtractMask 的透明物件拆分已由 Matte Tool 2 直接涵蓋；BARBACHART 與既有長條圖工具重疊 | 1 筆新增；最新總筆數 2,970 |
-| 83 | Gumroad 原生 3D 線框續輪 | **Forma**；官方 Gumroad 頁確認以 AEX／plugin 載入 OBJ，提供線框、面填充、法線顯示、XYZ 陣列與三種投影，支援 AE 2022+ | Mir／WIR3D 為程序幾何線框，未能載入 OBJ；DITHER A3SD 的演算法與色盤已由 Dither Decay 覆蓋；其餘為套裝或模板 | 1 筆新增；最新總筆數 2,971 |
-| 84 | Gumroad 品牌構圖綁定續輪 | **PinRig**；官方 Gumroad 頁確認可建立釘點、貝茲控制柄、邊界、圓角、邊長、座標與角度導引，並保存完整構圖工作流，已有 897 次銷售與 6 則評價 | Thermals 僅重複既有 Thermal／PseudoColor；ASCII Amiga 被 ASCII 與字元映射外掛覆蓋；套裝產品不納入 | 1 筆新增；最新總筆數 2,972 |
-| 85 | Gumroad 雙控制器版面綁定續輪 | **RigtRect**；官方 Gumroad 頁確認以兩個控制器提供 RigtRect、RigtSource 與 RigtFill，讓矩形／來源在兩點間拉伸或等比例填滿，支援 AE CC 2015+ | Get Rect 2 為依來源邊界生成矩形的不同工作流；Roundly、Mask Splitter、Easy Connect 與 3D to 2D 均已有覆蓋或收錄 | 1 筆新增；最新總筆數 2,973 |
+| 檔案 | 筆數 | 已完成翻譯 | 狀態 |
+|---|---|---|---|
+| `builtin-ae.jsonl` | 280 | 280（155 個 look 全部翻譯） | ✅ 100% |
+| `aescripts.jsonl` | 995 | 995（558 個 look 全部翻譯） | ✅ 100% |
+| `third-party.jsonl` | 457 | 457（122 個 look 全部翻譯） | ✅ 100% |
+| `sapphire.jsonl` | 301 | 301（188 個 look 全部翻譯） | ✅ 100% |
+| `continuum.jsonl` | 345 | 345（326 個 look 全部翻譯） | ✅ 100% |
+| `red-giant.jsonl` | 34 | 34（Trapcode／Magic Bullet／VFX Suite 全數） | ✅ 100% |
+| `universe.jsonl` | 99 | 99（Maxon Universe 全數） | ✅ 100% |
+| `booth.jsonl` | 380 | 380（103 個 look 全部翻譯） | ✅ 100% |
+| `installed.jsonl` | 40 | 40（本機安裝辨識工具全數） | ✅ 100% |
+| `recipes.jsonl` | 35 | 35（畫面感與效果堆疊配方全數） | ✅ 100% |
+| `gumroad.jsonl` | 28 | 28（10 個 look 全部翻譯） | ✅ 100% |
+
+方針：
+
+- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交），第七批為 `red-giant` 全數（同日完成並提交），第八批為 `universe` 全數（同日完成並提交），第九批為 `installed` 全數（同日完成並提交），第十批為 `recipes` 全數（同日完成並提交），第十一批為 `gumroad` 全數（同日完成並提交），第十二批為 `booth` 全數 359 筆（分六個批次注入，102 個 look 全部翻譯，同日完成並提交）。
+- 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
+- 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
+- 全部 11 個資料檔的英／日翻譯均已完成（2,994 筆，107 筆 look 亦全數翻譯），不再有待翻譯來源。
 
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
 |---|---|
 | aescripts | 先用 `python tools/find_new.py --limit 30 --desc`；slug 以 `tools/.sitemap_cache.xml`／官方 sitemap 為準。產品頁可用 Python `urllib` 帶 User-Agent 讀 meta description；若仍無實際說明就略過 |
+| BOOTH | `python tools/scan_booth.py --pages 3` 掃 `booth.pm/ja/search/After%20Effects`；商品 id 對照 `data/*.jsonl` 的 `/items/<id>` 與 `skipped.tsv` 的 `booth-<id>`。同名素材包很多，務必逐頁核實 host 與是否為獨立工具 |
+| Gumroad | `python tools/scan_gumroad.py` 讀 `gumroad.com/products/search?query=after+effects&sort=newest` 的 JSON；注意 permalink 可能與資料庫存的 `/l/<slug>` 拼法不同，候選清單只作線索，一律回原廠頁核實 |
 | Sapphire | 比對官方 picture index 與 `data/sapphire.jsonl`；個別效果以官方 documentation 頁確認 |
 | Continuum | 比對官方 BCC effects list 與 `data/continuum.jsonl`；不要自行推測新 ML 效果 slug |
 | Maxon／Red Giant | 頁面由前端渲染時用瀏覽器檢查 DOM；路徑例外很多，不能依名稱拼網址 |
@@ -144,6 +156,10 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 其他原廠 | 只接受原廠產品、文件或支援頁；轉售頁與第三方 host 宣稱不算證據 |
 
 一次抓列表時控制在 3～4 頁，避免逾時。候選站若不適合出現在 repo，絕對不要把站名、連結或文案寫進資料與 curation 檔。
+
+### 每日自動掃描
+
+`.github/workflows/scan-candidates.yml` 每天 03:30 UTC 跑 `find_new.py`＋`scan_booth.py`＋`scan_gumroad.py`，把「尚未收錄、也尚未略過」的候選整理成一個 GitHub Issue（label `scan-candidates`，每次更新同一個 Issue）。掃描器只列候選、不改資料；收錄仍走本手冊的逐頁核實流程。可手動觸發：`gh workflow run scan-candidates`。
 
 ## 暫存批次格式
 

@@ -42,6 +42,7 @@ REQUIRED = ("name", "kind", "cat", "tags", "desc", "url")
 OPTIONAL = {
     "look", "variants", "stack", "builtin", "suite", "vendor",
     "released", "updated", "date_url", "unverified", "aex",
+    "desc_en", "desc_ja", "look_en", "look_ja",
 }
 ALLOWED = set(REQUIRED) | OPTIONAL
 
@@ -183,6 +184,9 @@ def main() -> None:
                     errors.append(f"{loc} stack 必須是陣列")
                 if "unverified" in item and not isinstance(item["unverified"], bool):
                     errors.append(f"{loc} unverified 必須是 true/false")
+                for field in ("desc_en", "desc_ja", "look_en", "look_ja"):
+                    if field in item and (not isinstance(item[field], str) or not item[field].strip()):
+                        errors.append(f"{loc} {field} 必須是非空字串")
 
                 released = parse_date(item.get("released")) if "released" in item else None
                 updated = parse_date(item.get("updated")) if "updated" in item else None
