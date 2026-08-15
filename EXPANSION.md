@@ -45,6 +45,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 14 | Maxon／Red Giant 官方產品線差異＋FxFactory 與 Boris FX 官方清單交叉核實 | **Maxon Studio**；FxFactory 的 LightSpeed Transitions、Transition Builder、Vertical Editing Tools、Podcaster Visuals 均僅支援 Final Cut Pro 而略過；Grunge Effects 雖列 AE 但官方頁以 overlays 為主且功能說明不足而略過；Continuum 疑似缺口均已由既有 variants／條目覆蓋 | 1 筆新增；5 個逐頁核實候選略過 |
 | 15 | Pixelan 官方總覽與各產品頁，重新比對既有資料並核實 After Effects 支援 | **BlurBlender Pro、Smart Blur Pro、Smart Sharpen Pro、FilmTouch 2.0、SpiceMaster 3**；3D Six-Pack 3 已存在於 `third-party.jsonl`，未重複新增 | 5 筆新增；1 筆判定為既有條目 |
 | 16 | CycoreFX、Mettle、PSOFT 官方產品頁交叉比對 | **PSOFT CelFX、PSOFT anti-aliasing、PSOFT Pencil+ 4 Line**；Cycore Rakka／Wiggle Stroke、Mettle ShapeShifter AE／FreeForm Pro 已存在；Sphere Utilities 與 SkyBox Studio V2 為整包套件而略過 | 3 筆新增；2 筆既有；2 個套件略過 |
+| 17 | FxFactory Hawaiki／Zoetrope 產品頁逐頁核實 | **Flow**；Halo Bender、Hawaiki Keyer 5、AutoFix、Hue Finesse、Super Dissolve 均已存在；Analyzer、AutoGrade、AutoMatch 已停售，Keyer 4 已被 Keyer 5 取代，Fold／Geode 官方頁失效而略過 | 1 筆新增；5 筆既有；6 個候選略過 |
 
 ## 官方來源技巧
 
