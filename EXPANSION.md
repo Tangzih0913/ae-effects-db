@@ -81,6 +81,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 42 | BOOTH 一般搜尋（After Effects、AE script、AE plugin）最新結果與新商品逐頁核實 | **Property Batch Select、Palf Stripe、Palf Scallop、Palf Gingham、Palf KiraKira、FavoritesLibrary、posterizeMe、LookScope、Fractal Gacha、Fractal Simplifier、APRM、MasterNodes、NGS_縦横切替、XDTS Importer AE、MIDI Visualizer、Takt RadialBlur、GraphicTone**；逐頁確認官方 AE host、安裝型態、支援版本與功能後加入 `booth.jsonl` | Palf Kawaii Bundle（四外掛套件）；OBS／Unity／Premiere／VRChat 商品；AEP／配信素材；功能過窄的 loop、色相與啟動器工具；停售商品 | 17 筆新增；12 個候選略過；最新總筆數 2,760 |
 | 43 | BOOTH 一般搜尋（After Effects、AE script、AE plugin）最新結果與官方頁深度核實 | **SimpleExtrude、ばなわっぺん、Labels Lite、Seiton、3D Shape Generator、SmartLayerGen、Slider Connect**；逐頁確認 AE host、外掛／ScriptUI／擴充功能型態、功能細節與支援版本後加入 `booth.jsonl` | CTI Jump、Labion、ADOBEZIER、R-CompAnchorTool、Add Guide、3DIK、Film Noise、Anchor Move、StrokeWidth、圖層長度調整、遊戲／Unity／素材／AEP 與說明不足商品 | 7 筆新增；16 個候選略過；最新總筆數 2,767 |
 | 44 | BOOTH 一般搜尋後續頁與日文「After Effects スクリプト／プラグイン」結果逐頁核實 | —；代表性頁面均檢查官方商品描述與 host 後判定不符 | InertiaBones、KKShapeEditor、Charaticle、Natural Skin、Tome Of Elements、TextureColorKit、VRCMeshDeformer 等 Unity／VRChat／Live2D 工具；avatar 服裝、鞋履、紋理、pose、world、遊戲與已停售 shader | 0 筆新增；21 個候選略過；最新總筆數 2,767 |
+| 45 | BOOTH 聚焦關鍵字（plugin、script、extension、tool、expression、panel）結果與商品頁交叉核實 | —；搜尋結果實際混入的代表性項目均非 AE 工具 | RealKissSystem、Resonator Tattoo、NIGHTMARE、電脳ナース、ぽんとちゅね、Commander of Battlefront、VRoid／VRChat 服裝與模型、CoC 劇本、同人誌 | 0 筆新增；20 個候選略過；最新總筆數 2,767 |
 
 ## 官方來源技巧
 
