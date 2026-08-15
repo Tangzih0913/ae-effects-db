@@ -123,7 +123,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 |---|---|---|---|
 | `builtin-ae.jsonl` | 280 | 280（155 個 look 全部翻譯） | ✅ 100% |
 | `aescripts.jsonl` | 995 | 995（558 個 look 全部翻譯） | ✅ 100% |
-| `third-party.jsonl` | 457 | 11（featured 批次） | 進行中 |
+| `third-party.jsonl` | 457 | 457（122 個 look 全部翻譯） | ✅ 100% |
 | `sapphire.jsonl` | 301 | 3（featured 批次） | 進行中 |
 | `continuum.jsonl` | 345 | 4（featured 批次） | 進行中 |
 | `red-giant.jsonl` | 34 | 4（featured 批次） | 進行中 |
@@ -135,10 +135,10 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 
 方針：
 
-- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交）。
+- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交）。
 - 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
 - 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
-- 建議下一個優先順序：`aescripts.jsonl`（首頁高曝光）與 `third-party.jsonl` 依熱門度批次進行。
+- 建議下一個優先順序：`sapphire.jsonl`（301 筆，Boris FX 官方文件齊全）。
 
 ## 官方來源技巧
 
