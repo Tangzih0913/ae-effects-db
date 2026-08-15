@@ -79,6 +79,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 41 | BOOTH 的 After Effects／script／plugin／extension 標籤交叉掃描 | **Express ver1.0.3、WavyNote**；逐頁確認官方商品頁的 ScriptUI／面板型態、支援版本與歌詞／表達式功能，並以匯入器判重後加入 `booth.jsonl` | 無新增略過項目；其餘交叉標籤候選均已收錄或在 `skipped.tsv` 有既有決策 | 2 筆新增；最新總筆數 2,743 |
 
 | 42 | BOOTH 一般搜尋（After Effects、AE script、AE plugin）最新結果與新商品逐頁核實 | **Property Batch Select、Palf Stripe、Palf Scallop、Palf Gingham、Palf KiraKira、FavoritesLibrary、posterizeMe、LookScope、Fractal Gacha、Fractal Simplifier、APRM、MasterNodes、NGS_縦横切替、XDTS Importer AE、MIDI Visualizer、Takt RadialBlur、GraphicTone**；逐頁確認官方 AE host、安裝型態、支援版本與功能後加入 `booth.jsonl` | Palf Kawaii Bundle（四外掛套件）；OBS／Unity／Premiere／VRChat 商品；AEP／配信素材；功能過窄的 loop、色相與啟動器工具；停售商品 | 17 筆新增；12 個候選略過；最新總筆數 2,760 |
+| 43 | BOOTH 一般搜尋（After Effects、AE script、AE plugin）最新結果與官方頁深度核實 | **SimpleExtrude、ばなわっぺん、Labels Lite、Seiton、3D Shape Generator、SmartLayerGen、Slider Connect**；逐頁確認 AE host、外掛／ScriptUI／擴充功能型態、功能細節與支援版本後加入 `booth.jsonl` | CTI Jump、Labion、ADOBEZIER、R-CompAnchorTool、Add Guide、3DIK、Film Noise、Anchor Move、StrokeWidth、圖層長度調整、遊戲／Unity／素材／AEP 與說明不足商品 | 7 筆新增；16 個候選略過；最新總筆數 2,767 |
 
 ## 官方來源技巧
 

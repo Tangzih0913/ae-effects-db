@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2760 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2767 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1178,6 +1178,13 @@ XDTS Importer AE｜BOOTH｜script｜workflow｜把 Clip Studio Paint 匯出的 .
 MIDI Visualizer｜BOOTH｜plugin｜audio｜將 MIDI 檔匯入 After Effects 並自動繪製音符，支援自訂音符外觀、顏色與動畫，適合把演奏資料轉成節奏同步的音樂視覺化畫面。｜https://booth.pm/ja/items/8441365
 Takt RadialBlur｜BOOTH｜plugin｜blur｜以 GPU 加速產生中心放射狀模糊，提供比 AE 內建 Radial Blur 更快的處理與更多可調參數，支援 8／16／32 bit 色彩深度，適合速度感與鏡頭衝刺效果。｜https://booth.pm/ja/items/4130288
 GraphicTone｜BOOTH｜plugin｜stylize｜依畫面像素的色彩平衡生成色調波紋，可製作新型故障視覺，並能配合模糊效果形成平滑波浪；以 CPU 計算降低記憶體使用並支援即時預覽。｜https://booth.pm/ja/items/3708682
+SimpleExtrude｜BOOTH｜plugin｜3d｜從圖層 alpha 自動抽取輪廓並沿 Z 軸擠出成立體圖形，支援孔洞、AE 3D 相機與環境／平行／聚光／點光源同步，並提供內建簡易燈光、GPU CUDA／OpenCL、8／16／32 bit、側面材質、輪廓簡化與中心旋轉等控制；維持單一圖層即可製作 Logo、文字與去背素材的偽 3D 效果。｜https://booth.pm/ja/items/8592339
+ばなわっぺん｜BOOTH｜script｜text｜將歌詞動態與 MV 製作中把形狀放到文字背後的工作自動化：登記一個 Shape 或預合成後，可對多個文字或文字外框逐字配置，並選擇每字建立 Precomp 或複製 Shape 後以 Null 綁定，省去逐字複製與定位。｜https://booth.pm/ja/items/8561753
+Labels Lite｜BOOTH｜script｜workflow｜以輕量面板管理 After Effects 標籤：依目前選取狀態分別改變關鍵影格、圖層或專案項目的標籤色，並可用 Ctrl＋點擊批次選取相同標籤顏色的項目，還會記住最近操作的是圖層或專案內容。｜https://booth.pm/ja/items/7969936
+Seiton｜BOOTH｜script｜workflow｜以 After Effects／Premiere Pro 擴充功能一鍵整理專案，能建立與移動資料夾、套用標籤並清理 AE 專案面板中的空資料夾；只操作專案內項目、不刪除磁碟檔案，AE 支援單次 Undo，並提供 Windows／macOS 及 2025／2026 版本支援。｜https://booth.pm/ja/items/7852224
+3D Shape Generator｜BOOTH｜script｜3d｜用 Shape Layer 生成多種可控的 3D 形狀，包括立方體、長方體、三／五／六角柱與多種錐體；建立後可用控制 Null 與滑桿即時調整尺寸、旋轉與整體操作，面板也能列出並刪除已生成的形狀。｜https://booth.pm/ja/items/7794840
+SmartLayerGen｜BOOTH｜script｜workflow｜以尺寸與顏色快速生成常用圖層，會重用專案內相同平面、用 Shape 取代不必要的 Null／調整平面，並自動命名與同步標籤色；支援符合合成尺寸、置底、對選取圖層套遮罩、建立父 Null、依選取圖層長度建立調整層、自動描圖與導引圖層等快捷操作。｜https://booth.pm/ja/items/5932999
+Slider Connect｜BOOTH｜script｜expression｜讓 After Effects 使用者不必深入效果內容即可快速把數值寫入 Slider 控制項，並簡化表達式的套用與關閉，集中處理滑桿與表達式的常用操作。｜https://booth.pm/ja/items/1403693
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html

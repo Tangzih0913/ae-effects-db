@@ -1776,6 +1776,22 @@ booth-7931092	Fl-ZIPDI 是 Unity Assets package 匯入擴充，非 After Effects
 booth-8300237	官方商品頁標示 item no longer available，非現行可收錄工具
 booth-8526527	SF 待機畫面風格的 AE 勉強／配信畫面素材，屬模板／素材而非工具
 booth-8428737	簡單色彩面板與既有 Chromix 等色彩預設／調色工具高度重疊，且免費版只能保存一個顏色
+booth-8558571	CTI Jump 只提供以預設影格數移動目前時間指示器，與既有 QuartzJump／時間軸工具高度重疊，功能過窄
+booth-7582313	Labion 只提供一鍵切換圖層標籤色，與本批 Labels Lite 的完整標籤／同色選取功能重疊，功能過窄
+booth-5513671	ADOBEZIER 僅標示 Shape／MaskPath 支援，官方商品頁缺乏足夠功能與安裝說明
+booth-6238733	R-CompAnchorTool 只做合成相對 Anchor Point 移動，與 APRM 及既有錨點工具重疊
+booth-3684300	Add Guide 只建立像素或百分比 Guide，功能單一且為較舊版本工具
+booth-2924352	3DIK 官方商品頁標示自 2022 年起停止支援，不列入現行工具
+booth-2906415	Film Noise 僅以腳本建立電影雜訊效果，功能說明與範圍過窄
+booth-2751954	Anchor Move 只處理 Anchor Point 移動，與 APRM 及既有錨點工具重疊
+booth-2160986	StrokeWidth 只批次修改 Shape Layer 描邊寬度，與既有 ShapeDrive 等工具重疊
+booth-5331021	圖層長度調整腳本與既有 StepSizer／CompExtendor／AutoDuration 工具重疊
+booth-5743928	Tic-tac-toe 是遊戲／玩笑腳本，不是實用的 After Effects 生產工具
+booth-4308428	Unity package，非 After Effects host
+booth-8644102	AE 預設與圖樣素材包，不是獨立外掛或腳本工具
+booth-8611641	Premiere Pro／After Effects 音效面板與色票 bundle，主要為混合工作流套件，缺乏獨立 AE 工具範圍
+booth-8558931	動畫合成範例 AEP 專案檔，屬素材／範例而非可安裝工具
+booth-8544598	Catatan 只標示支援 After Effects 2019 以上，官方頁缺乏功能描述
 booth-4870460	Remove Text Animator 只重現 AE 內建「移除所有文字動畫器」命令，無需另收錄
 booth-4151107	只是啟動 After Effects 英文版的空白文字檔，非 AE 工具
 booth-5639699	Motion Graphics 習作 #3 是限制研究／練習用途的 AEP 專案檔，非可安裝工具
