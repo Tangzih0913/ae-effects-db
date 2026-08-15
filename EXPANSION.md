@@ -121,6 +121,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 74 | Gumroad 高訊號屬性工作流續輪 | **superSelect - for After Effects**；官方 Gumroad 頁確認 JSXBIN、可停駐面板、跨所選／同父層／全合成選取及揭露相同屬性，且有 24 則評價 | Organize Project Assets Pro 與 Folder Fanatic 功能高度重疊，略過決策待安全寫入既存編碼混雜的記錄檔 | 1 筆新增；最新總筆數 2,962 |
 
 | 75 | Gumroad 高評價表達式工具續輪 | **Find and Replace in Expressions**；官方 Gumroad 頁確認可停駐的 expression 文字尋找／取代視窗與 33 則評價 | Organize Project Assets Pro 仍以 Folder Fanatic 覆蓋為準；其餘高評價動畫候選繼續核實 | 1 筆新增；最新總筆數 2,963 |
+| 76 | Gumroad 形狀路徑工作流續輪 | **PathPrep for After Effects**；官方 Gumroad 頁確認可停駐 JSXBIN 面板、批次參數形狀轉 Bezier、Transform 烘焙與向量複製 | Visual States、Type、FX Finder、格線與圖層錯位候選均已有功能更完整的現有條目；Magic Animator Pro、Relinker 續作維護與品質審核 | 1 筆新增；最新總筆數 2,964 |
 
 ## 官方來源技巧
 
