@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2845 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2854 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1263,6 +1263,15 @@ Folder Bin Sync｜BOOTH｜script｜workflow｜自動同步 OS 資料夾與 Premi
 Syndromee Prism Diffraction｜BOOTH｜plugin｜light｜從 Mask Path 或圖層 Alpha 輪廓產生數百條虹彩稜鏡光線，支援色散、長度、寬度、擴散、閃爍、Sparkle、漂移、Glow、Bloom 與邊緣柔化，適合光漏、魔法閃耀、MV 與發光標題；支援 AE 2020+、Windows／macOS 與 8／16／32 bit CPU 渲染。｜https://booth.pm/ja/items/8437470
 PathEdit｜BOOTH｜script｜workflow｜在 After Effects 以一鍵方式選取目前選取 Shape Layer 的路徑並插入關鍵影格，簡化複雜形狀路徑的編輯與動畫準備流程。｜https://booth.pm/ja/items/6670900
 SyncOpacity｜BOOTH｜script｜expression｜以一鍵操作將父 Null 或其他父圖層的不透明度快速同步到指定工作流，適合建立多圖層共同透明度控制與簡單的表達式驅動動畫。｜https://booth.pm/ja/items/6671674
+PersWarp｜BOOTH｜plugin｜warp｜將來源四邊形映射到目標四邊形的 After Effects 透視變形外掛，支援 homography、雙線性三角仿射、扭曲或凹四邊形，以及來源與目標遮罩路徑控制。｜https://booth.pm/ja/items/8586332
+oilpaint｜BOOTH｜plugin｜stylize｜After Effects 油畫效果外掛 Oil Paint Effect Lite，可用半徑與半徑貼圖控制筆觸化程度，並以 .aex 檔案安裝到 Plug-ins 資料夾。｜https://booth.pm/ja/items/7813410
+Shapepath Select and Addkey｜BOOTH｜script｜workflow｜After Effects 腳本面板，可選取所選形狀圖層內的全部向量路徑或指定範圍，並快速替路徑新增關鍵影格，另提供獨立版與 KBar 版本。｜https://booth.pm/ja/items/2649743
+MangaTone for After Effects Plug-in｜BOOTH｜plugin｜stylize｜After Effects 漫畫網點效果外掛，提供 Dots、Lines、Squares、Outline Only 與 Transparent Export 等模式，將素材轉成可調整的漫畫調性。｜https://booth.pm/ja/items/8358050
+Salis_PathEditor｜BOOTH｜script｜workflow｜提升 After Effects Shape Layer 路徑編輯效率的腳本，可切換路徑編輯模式、選取全部或指定範圍的路徑，並從右鍵選單快速加入關鍵影格。｜https://booth.pm/ja/items/6668236
+Salis LayerMaster｜BOOTH｜script｜workflow｜After Effects 圖層建立支援腳本，可重用與合成同尺寸的 Solid，並快速建立 Null、Shape、Light 等圖層，適合統一圖層尺寸與專案管理流程。｜https://booth.pm/ja/items/6586275
+MixFont｜BOOTH｜script｜text｜After Effects 混合字型腳本，可依日文假名、漢字、英文字母與數字分配不同字型，支援自訂字元框、多文字圖層與面板操作。｜https://booth.pm/ja/items/5707924
+Color Palette｜BOOTH｜script｜color｜After Effects 色票腳本，點擊色彩即可套用到 Solid、Shape Fill、Shape Stroke、Text Fill 或 Text Stroke，並支援修飾鍵操作與十六進位色碼複製。｜https://booth.pm/ja/items/4946867
+Mirror Positions｜BOOTH｜script｜workflow｜After Effects 腳本，可將選取圖層的位置以合成中心為基準進行鏡像，支援多圖層批次處理，適合對稱構圖與快速建立反向位置動畫。｜https://booth.pm/ja/items/5420541
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html

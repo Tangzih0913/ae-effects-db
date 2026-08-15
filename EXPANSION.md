@@ -92,6 +92,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 53 | refenan、silverdworks、7ewd、palf_strage 作者頁交叉核實 | —；代表性新商品均確認不是 After Effects host | DaVinci Resolve DCTL、VST 音訊插件，以及 7 個字型商品 | 0 筆新增；10 個候選略過；最新總筆數 2,842 |
 | 54 | syndromeewrks 作者頁補充核實 | **Syndromee Prism Diffraction**；確認 Mask／Alpha 輪廓輸入、彩虹光線、色散／閃爍／Glow 參數、AEX 安裝與 AE 2020+ 跨平台色深支援後加入 `booth.jsonl` | — | 1 筆新增；0 個候選略過；最新總筆數 2,843 |
 | 55 | kanta227eizo、Terrible Junk Show、simry、Riesz、yochu 等作者頁交叉核實 | **PathEdit、SyncOpacity**；確認 Shape Path 操作、關鍵影格與父層不透明度同步的 AE 腳本用途後加入 `booth.jsonl` | DaVinci／Illustrator／Photoshop 工具、YMM4 cache、VRChat 商品與影片素材 | 2 筆新增；其餘候選略過；最新總筆數 2,845 |
+| 56 | keneizo、岡崎有希、k4a - shop、852話、salis、ゆゆっきんぐだむ、そよの雑貨展、Pindang2 等 BOOTH After Effects 候選 | **PersWarp、oilpaint、Shapepath Select and Addkey、MangaTone、Salis_PathEditor、Salis LayerMaster、MixFont、Color Palette、Mirror Positions**；依官方商品頁核實透視變形、油畫與漫畫網點外掛、Shape 路徑與圖層建立、混合字型、色票及位置鏡像腳本用途後加入 `booth.jsonl` | AEP 專案／字幕範本、影片素材、重複文字替換功能、FX Console 設定檔與搜尋框範本 | 9 筆新增、6 筆略過；最新總筆數 2,854 |
 
 ## 官方來源技巧
 
