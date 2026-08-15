@@ -1705,3 +1705,13 @@ dagger	原廠產品頁只列 Premiere Pro 2020+，功能是搜尋與套用 video
 cauldron	原廠產品頁與 Manuscript 文件只列 Premiere Pro 2020+，功能是批次產生 sequences，沒有 After Effects host 證據；依專案標準略過
 auto-subtitles	AEJuice 原廠頁明列 After Effects，但與同廠收錄候選 Auto Captions 同為 AI 語音轉同步／動態字幕，功能高度重疊；本輪保留具 batch processing、brand settings、custom dictionary 與更多 caption controls 的 Auto Captions，避免直接複製
 quick-folders	AEJuice 原廠免費工具頁明列 After Effects，可一鍵開啟 projects、scripts、plugins 與 render folders；用途與剛收錄的 Portal (Knights of the Editing Table) 的收藏資料夾、絕對／相對路徑與拖放功能高度重疊，暫不另立條目
+booth-7946732	A_Bayangan 主要是 Drop Shadow 的替代實作，官方頁未提供足夠的獨立功能細節，且投影需求已有多筆現行效果覆蓋，暫不收錄
+booth-7286686	Easy Loop 的 loopOut／loopIn／time remap 批次套用與既有 Loopy、自動ループ化腳本高度重疊，未見足夠獨特功能
+booth-7925787	SavePNG 僅將目前影格存成 PNG，功能與既有 Comp Screenshot 直接重疊，且後者提供更明確的合成截圖工作流
+booth-8028094	Re_CCCompFix 只修正 CC Composite 的 Top layer 指向單一問題，屬過窄的特定錯誤修復工具，暫不收錄
+booth-7982438	AutoGuide3 的置中、分割、刪除與邊界 Guide 操作可由 AE 內建 Guides／既有 GuideGuide 完成，功能範圍過窄
+booth-6652211	SaveSnap 僅提供目前影格 PNG 快照，與既有 Comp Screenshot 的合成截圖功能直接重疊
+booth-8176824	3D Align Center 商品頁雖以 After Effects 為標題，但動作環境欄位列為 Premiere Pro，無法確認 After Effects host，暫不收錄
+booth-7406035	BPM Waveform 官方頁明確是 Unity Editor script，並非 After Effects 工具
+booth-7822000	CreateShapePlus 只生成單一加號 Shape，功能範圍過窄，暫不列入資料庫
+booth-5223973	Project Replacer 官方頁僅有批次取代／插入素材的一句說明，缺乏足夠功能與相容性細節，暫不收錄

@@ -72,6 +72,9 @@ KIND_OVERRIDES = {
     "ReScanX": "plugin",
     "Risograph": "plugin",
     "SRT Importer for AE": "script",
+    "NGS_EaseCraft": "script",
+    "BPMc": "script",
+    "MojiFlow": "script",
     "Transition Master 2 Basic / Pro": "plugin",
     "XDoG Studio": "plugin",
 }

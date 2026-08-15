@@ -68,6 +68,10 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 
 | 36 | Motion Design School、AEJuice 與 Plugin Everything 官方產品線差異核實 | **Motion Tools Classic、Auto Captions、Voiceover AI、Copy Ease、AEJuice Toolbar**；Motion Tools Classic 原廠頁明列 After Effects／CS6–CC 2014–2025 與免費 v2.2.4；AEJuice 三項原廠頁／免費工具頁明列 After Effects 與 AI 字幕、70+ 語音配音／轉錄、速度圖複製、自訂工具列功能。Motion Tools Pro、Plugin Everything 多個效果工具已存在於既有資料庫，不重複新增 | Auto Subtitles 與 Auto Captions 同廠功能高度重疊，保留功能較完整的 Auto Captions；Quick Folders 與 Portal (Knights of the Editing Table) 的資料夾捷徑 workflow 高度重疊，均追加 skipped.tsv | 5 筆新增；2 個候選略過；最新總筆數 2,711 |
 
+| 37 | BOOTH After Effects 新品與高訊號搜尋結果逐頁核實 | **A_Flutter、NGS_EaseCraft、RenderDrop、sbtr_project_cleaner、Clarix、quick_jimaku、Create Cut Comp、ばなぼっくす、BPMc**；逐頁確認官方 BOOTH 商品頁的 AE host、功能與現行下載狀態，並以 `tools/add.py --dry --file booth` 判重與匯入 | A_Bayangan（官方功能說明不足且與投影工具重疊）；Easy Loop、SavePNG、SaveSnap（與既有循環／截圖工具重疊）；Re_CCCompFix（過窄的單一 CC Composite 修復）；AutoGuide3（Guide 操作範圍過窄且有既有替代） | 9 筆新增；6 個候選略過；最新總筆數 2,720 |
+
+| 38 | BOOTH 文字、工作流程、深度與動畫工具第二輪逐頁核實 | **MojiFlow、Shuffle It!、ValetAE、Depth FX、OutMotioner、ShapePresetViewer**；逐頁確認官方 BOOTH 商品頁的 After Effects host、功能、安裝型態與現行版本，並以匯入器判重後加入 `booth.jsonl` | 3D Align Center（商品頁的動作環境欄位與 AE 標題矛盾）；BPM Waveform（Unity 專用）；CreateShapePlus（單一加號圖形，範圍過窄）；Project Replacer（官方功能與相容性說明不足） | 6 筆新增；4 個候選略過；最新總筆數 2,726 |
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
