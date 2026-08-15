@@ -66,6 +66,8 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 
 | 35 | Knights of the Editing Table 五個產品頁逐頁核實 | **Portal (Knights of the Editing Table)**；原廠 Portal 頁明列支援 Pr、Ae、Au、An、Me、Ps、Ai、Id、Ic、Dw 2020+，可從 Adobe apps 開啟收藏資料夾，支援絕對／相對路徑與拖放。因資料庫已有 aescripts 的另一個同名 PORTAL 預合成同步工具，新增條目以廠商括號消歧，官方名稱 Portal 保留在 tags | Excalibur、Quiver、Dagger、Cauldron 原廠頁／文件均只列 Premiere Pro 2020+，沒有 After Effects host 證據，追加 skipped.tsv 略過 | 1 筆新增；4 個候選略過 |
 
+| 36 | Motion Design School、AEJuice 與 Plugin Everything 官方產品線差異核實 | **Motion Tools Classic、Auto Captions、Voiceover AI、Copy Ease、AEJuice Toolbar**；Motion Tools Classic 原廠頁明列 After Effects／CS6–CC 2014–2025 與免費 v2.2.4；AEJuice 三項原廠頁／免費工具頁明列 After Effects 與 AI 字幕、70+ 語音配音／轉錄、速度圖複製、自訂工具列功能。Motion Tools Pro、Plugin Everything 多個效果工具已存在於既有資料庫，不重複新增 | Auto Subtitles 與 Auto Captions 同廠功能高度重疊，保留功能較完整的 Auto Captions；Quick Folders 與 Portal (Knights of the Editing Table) 的資料夾捷徑 workflow 高度重疊，均追加 skipped.tsv | 5 筆新增；2 個候選略過；最新總筆數 2,711 |
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
