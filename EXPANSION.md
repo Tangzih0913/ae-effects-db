@@ -58,6 +58,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 27 | ProductionCrate 五個官方產品頁逐頁核實 | **Crates Perfect Screen、Crates Black Hole、Crates Unmult、Retro Film Essentials、Crates HyperGlitch**；五個產品頁均明確支援 After Effects，匯入器 dry-run 通過；分類器將 Crates Unmult 修正為 `script` 後完整驗證通過 | 5 筆新增 |
 | 28 | Adobe Exchange 高訊號候選與原廠頁交叉核實 | **Plainly Videos、PX-Kinetype、AI Assistant for After Effects、GuideGuide、Phone Camera Control**；分別以 Plainly Help Center／GitHub、Pixflow、Motionist、GuideGuide 官方頁確認 After Effects host、功能與現行狀態。Bodymovin 已存在於 `aescripts.jsonl`；Motion Factory File Manager 因 2021 年版本與最新 AE 相容性疑慮略過；Motion Factory 整體為模板／素材 bundle；Guide Layout 只有 marketplace 頁且缺原廠產品文件，改收完整原廠頁的 GuideGuide | 5 筆新增；4 個候選略過 |
 | 29 | ModelsLab AI 產品線與 Krock／Mogsaurus 官方頁交叉核實 | **Videogen AI、Imagen AI、SFX AI、Krock.io、ControlDeck Pro**；ModelsLab 三個原廠頁均於 2026 更新並明列 AE plugin，Krock 原廠整合頁／說明中心確認逐格回饋與時間軸標記，ControlDeck 以 Adobe 官方 Exchange listing 核實 AE 2025／2026 與自訂指令面板功能。Audiogen AI 因 Exchange 1.8 評分及多則付費／免費標示爭議略過；Flex GUI Pro 因原廠 v7.0.1 與 Exchange v3.1.0 版本落差及授權連線回報略過；Jet by Clinch 僅有 marketplace listing 且偏專門 DCO 模板 workflow，略過 | 5 筆新增；3 個候選略過 |
+| 30 | CI HUB、ModelsLab AI Lipsync 與 Adobe Exchange workflow 候選交叉核實 | **CI HUB Connector、AI Lipsync**；CI HUB 原廠頁與安裝文件確認 AE panel、60+ DAM／MAM／PIM／雲端資產連線、搜尋／重新連結／上傳與版本管理；AI Lipsync 的 Adobe Exchange listing 確認 AE 21+、音訊波形分析與角色嘴形同步。MotionX 因 Exchange 僅 1.0／5 且多則無法使用回報，核心依賴 `.motionx` packages；Ignition Post - Package Exporter 與 Idonix 原廠說明停留於 2018，屬 legacy／維護不足；Autodesk Maya Live Link 雖有官方橋接功能，但最新版本僅列 AE 25.9，2026 多則回報不相容，均略過 | 2 筆新增；3 個候選略過 |
 
 ## 官方來源技巧
 

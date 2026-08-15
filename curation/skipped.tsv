@@ -1693,3 +1693,6 @@ audiogen-ai	官方頁可核實 After Effects 文字轉語音／歌曲功能，�
 audiogen-for-after-effects	與 Audiogen AI 同一官方產品的 AE slug；因付費／免費標示爭議與低評分暫不收錄，避免兩個識別碼重複研究
 flex-gui-pro	原廠頁宣稱 v7.0.1，但 Adobe Exchange 仍為 v3.1.0，版本落差大且有授權連線／停止工作的回報；現行功能範圍與維護狀態不一致，暫不收錄
 jet-by-clinch	只有 Adobe Exchange marketplace listing 可核實，未找到可靠 Clinch 原廠產品／文件頁；且用途偏專門 DCO／HTML5 廣告模板 workflow，暫不收錄
+motionx	Adobe Exchange 評分僅 1.0／5 且有 2025 年無法使用回報，核心依賴外部 .motionx templates／packages；品質與獨立工具性不足，暫不收錄
+ignition-post-package-exporter	Adobe Exchange 與 Idonix 原廠說明均停留於 2018，版本 1.0.2 僅支援舊 AE 世代，屬 legacy／維護不足的專案打包器
+maya-live-link	Adobe Exchange 最新 v1.0.5 僅列 AE 25.9；2026 使用者多次回報 AE 2026 不相容，雖功能明確仍不符合現代版本支援標準
