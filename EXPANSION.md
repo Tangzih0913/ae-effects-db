@@ -108,6 +108,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 69 | BOOTH AfterEffects 剩餘候選第三輪人工抽查 | —；確認配信背景、VTuber／影片轉場、綠幕與 MV 素材、AEP／MP4／WAV 作品、Photoshop 樣式與教學專案均非獨立 AE 工具 | 15 筆均為素材、模板、作品或教學專案 | 0 筆新增、15 筆略過；最新總筆數 2,909 |
 | 70 | 交叉掃描 `AfterEffect`、`After Effects` 標籤後的 BOOTH 工具候選 | **ツールアシストセット、SolidEffects、S_tools_EffectSearcher、Layer Switcher、Additional Transform、Cleanup!、Swap Two Selected Layers Source、Easy Fader、Nulltilities、Generate Puppet Rig、アンダーライン引きmuscle**；逐頁核實工具面板、Solid 建立、效果搜尋、來源交換、Null／Puppet Rig、透明度與文字工作流功能後加入 `booth.jsonl` | AE／Element 3D 預設、AEP／FFX 模板、HUD 素材、FX Console 設定檔與作品專案 | 11 筆新增、17 筆略過；最新總筆數 2,920 |
 | 71 | 交叉標籤批次官方頁核實的 AEP 作品候選 | —；確認 Motion Graphics 習作 #5–14、2 秒 Motion Graphics #1–18、Maru、Pre：あ與 Element3D 預設資料均為研究或作品 AEP，非獨立工具 | 15 筆均為 AEP 作品、練習檔或專案預設 | 0 筆新增、15 筆略過；最新總筆數 2,920 |
+| 72 | `AE` 標籤中 Eirlys／autumnshop 的腳本候選 | **自動ファイル作成スクリプト、ばらばらに出現・消滅、マスクパスの上に画像が動け！、フォルダにある素材のリネーム、レイヤーの状態覚えておいてscript、簡易版レイヤーリネーム、簡単なWiggle制御、Auto-tress and mask layer auto-detection、シェイプレイヤーのGroupを個別レイヤーに分離、Position and Scale Key ConfirmationScript、コンポ差し替え、3Dレイヤー選択→プリコンポしてメッシュワープ**；核實專案結構、路徑、命名、可見性、Wiggle、Auto Trace、Shape、關鍵影格、合成與 3D 工作流後加入 `booth.jsonl` | 功能說明不足的 Animation UI 與 3 組 AE 預設 | 12 筆新增、4 筆略過；最新總筆數 2,932 |
 
 ## 官方來源技巧
 

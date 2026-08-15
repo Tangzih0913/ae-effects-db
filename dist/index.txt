@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2920 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2932 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1338,6 +1338,18 @@ Easy Fader｜BOOTH｜script｜animation｜After Effects JSX 腳本，依指定�
 Nulltilities｜BOOTH｜script｜rigging｜After Effects JSX 工具組，提供 Nullize 與 Parent Null 功能，可將選取圖層轉為 Null 化狀態或建立父 Null，並個別控制位置、旋轉與縮放繼承。｜https://booth.pm/ja/items/7280676
 Generate Puppet Rig｜BOOTH｜script｜rigging｜After Effects JSX 腳本，依 Puppet Pin 效果的針點位置建立 Null 圖層並設定針點參照，快速把 Puppet Pin 動畫轉成可用 Null 控制器操作的 Rig。｜https://booth.pm/ja/items/7280639
 アンダーライン引きmuscle｜BOOTH｜script｜text｜After Effects 文字腳本，可在 Text Layer 下方建立可調整長度與顏色的底線，也支援 Overline，並以文字圖層寬度作為最大長度基準。｜https://booth.pm/ja/items/5412559
+自動ファイル作成スクリプト｜BOOTH｜script｜workflow｜After Effects 專案結構建立腳本，可直接編輯、增刪與排序資料夾名稱，再一鍵批次建立資料夾，並避免重複建立同名資料夾。｜https://booth.pm/ja/items/8044780
+ばらばらに出現・消滅｜BOOTH｜script｜animation｜After Effects 文字動畫腳本，協助已分離的文字字元個別製作散開出現與消失動態，減少逐字處理位置與動畫的重複操作。｜https://booth.pm/ja/items/6410387
+マスクパスの上に画像が動け！｜BOOTH｜script｜animation｜After Effects 路徑動畫腳本，讓圖片圖層沿著 Mask Path 移動，適合快速建立圖像沿自訂遮罩曲線行進的動畫。｜https://booth.pm/ja/items/6365901
+フォルダにある素材のリネーム｜BOOTH｜script｜workflow｜After Effects 素材命名腳本，可從 AE 內重命名資料夾中的素材檔，適合整理 Project Panel 中已匯入的單一素材名稱。｜https://booth.pm/ja/items/6336893
+レイヤーの状態覚えておいてscript｜BOOTH｜script｜workflow｜After Effects 圖層狀態記錄腳本，可記憶選取圖層所在合成中全部圖層的可見性，並切換為只顯示選取圖層或還原已記錄的狀態。｜https://booth.pm/ja/items/6334121
+簡易版レイヤーリネーム｜BOOTH｜script｜workflow｜After Effects 簡易圖層改名腳本，可批次將選取圖層命名為指定文字、取代名稱片段或加入前後綴，適合快速整理圖層名稱。｜https://booth.pm/ja/items/6333702
+簡単なWiggle制御｜BOOTH｜script｜rigging｜After Effects Wiggle 控制腳本，對選取圖層建立帶有隨機動態的新 Null 並自動父子綁定，讓圖層跟隨 Null 的 Wiggle 移動。｜https://booth.pm/ja/items/6321733
+Auto-tress and mask layer auto-detection｜BOOTH｜script｜workflow｜After Effects 自動描圖輔助腳本，對選取圖層執行 Auto Trace，將產生的遮罩依影格分割與檢查，移除無關鍵影格的遮罩，方便後續套用 Saber。｜https://booth.pm/ja/items/6073024
+シェイプレイヤーのGroupを個別レイヤーに分離｜BOOTH｜script｜workflow｜After Effects Shape Layer 腳本，可把圖層內的 Group 分離成個別圖層，並將各圖層 Anchor Point 置於中心，方便後續個別動畫控制。｜https://booth.pm/ja/items/6041334
+Position and Scale Key ConfirmationScript｜BOOTH｜script｜animation｜After Effects 關鍵影格檢查腳本，可列出選取圖層的位置與縮放關鍵影格，檢視指定影格的數值並以 Apply 寫回修改後的關鍵影格資料。｜https://booth.pm/ja/items/6015180
+コンポ差し替え｜BOOTH｜script｜workflow｜After Effects 合成替換腳本，依目前選取合成名稱及尾端兩位數字，在 Project Panel 尋找同名前綴的合成並進行替換，適合管理多版本合成。｜https://booth.pm/ja/items/5983949
+3Dレイヤー選択→プリコンポしてメッシュワープ｜BOOTH｜script｜workflow｜After Effects 腳本，可將選取的 3D 圖層預合成，在其中建立調整圖層套用 Mesh Warp，並以新 Precomp 替換原圖層，讓 3D 圖層具備網格變形工作流。｜https://booth.pm/ja/items/5982464
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
