@@ -233,7 +233,6 @@
       <b data-q="魔法">魔法</b> ·
       <b data-q="調色">調色</b>
     </div>
-    <div id="languageNote" class="language-note" hidden></div>
   </div>
 </header>
 <div class="wrap">
@@ -320,10 +319,6 @@ function applyLanguage(){
   document.getElementById("kindLegend").innerHTML=["plugin","script","builtin","recipe"].map(kind=>`<span><i class="${kind}"></i>${esc(l.kinds[kind])}</span>`).join("");
   attrs("kindLegend",{"aria-label":m.kindLegend});
   document.getElementById("hintBox").innerHTML=`${esc(m.try)} `+l.hints.map(hint=>`<b data-q="${esc(hint)}">${esc(hint)}</b>`).join(" · ");
-  const note=document.getElementById("languageNote");
-  const localizedCount=Object.keys(LOCALIZATION_CONFIG.localized_urls||{}).length;
-  const verification=localizedCount?` · <span class="verified">${esc(t("localizedPages",{count:localizedCount,date:LOCALIZATION_CONFIG.verified_at}))}</span>`:"";
-  note.hidden=!m.languageNote;note.innerHTML=`${esc(m.languageNote)} <a href="https://github.com/xup61069/ae-effects-db/blob/main/LOCALIZATION.md" target="_blank" rel="noopener">${esc(m.translationSources)}</a>${verification}`;
   document.getElementById("footerSummary").innerHTML=m.footerTotal.replace("{count}",`<span id="total">${DATA.length||"…"}</span>`) + ` · ${esc(m.footerOfficial)} · ${esc(m.footerImage).replace("/find-effect","<code>/find-effect</code>")}`;
   document.getElementById("footerLinks").innerHTML=`${esc(m.missing)} → <a href="https://github.com/xup61069/ae-effects-db/issues/new?template=add-effect.yml" target="_blank" rel="noopener">${esc(m.reportMissing)}</a> · <a href="https://github.com/xup61069/ae-effects-db/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">${esc(m.contribute)}</a> · <a href="https://github.com/xup61069/ae-effects-db" target="_blank" rel="noopener">${esc(m.github)}</a>`;
   text("compareClear",m.clear);text("compareOpen",m.compare);text("detailTitle",m.detailTitle);text("compareDialogTitle",m.compareTitle);text("favoritesDialogTitle",m.favoritesManage);text("favoritesHelp",m.favoritesHelp);
