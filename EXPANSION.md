@@ -88,6 +88,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 49 | BOOTH AfterEffects 標籤第 11–20 頁補充作者與相關商品交叉核實 | **MoveLayerIndex、Piano Keyboard、LayerFolders、Marker Manager、ImageSlideshow_GUI、SS AddShapes、Position Separate、Link Same Position、TextCase、RTTTL Tone Converter**；逐頁確認腳本／擴充功能安裝方式、工作流範圍與 After Effects 版本後加入 `booth.jsonl` | FrameToNullComment、集中線文字動畫食譜、WatermarkGen、InOutPointAdjuster、Crop Tool、3dsmax 腳本 | 10 筆新增；6 個候選略過；最新總筆數 2,828 |
 | 50 | BthJon BOOTH 作者頁逐項核實 After Effects／Premiere 原生外掛 | **MegaGlitch、ProNoise、AnalogTV、RainRipple、HotWave、VHS Effect、Film Damage、Pro Chromatic Aberration、Camera Shake CA、Advfill、LuminGlow**；逐頁確認原生外掛型態、效果參數、色深、MFR／CPU／平台資訊後加入 `booth.jsonl` | 同作者的 Windows 常駐工具另列候選，未與 AE 外掛混收 | 11 筆新增；0 個候選略過；最新總筆數 2,839 |
 | 51 | namacream7 BOOTH 作者頁補充核實 | **MiterOutline**；確認官方頁的鋒利／圓角／斜角描邊參數、Alpha 圖層支援、AEX 安裝方式與 After Effects 2025 Windows 相容性後加入 `booth.jsonl` | NaMaximizer 是 VST3 音訊外掛，非 After Effects host | 1 筆新增；1 個候選略過；最新總筆數 2,840 |
+| 52 | Adys／AiBow Tools BOOTH 作者頁補充核實 | **Wavy 3AM、Folder Bin Sync**；核對圖形編輯器、多關鍵影格、AE 屬性支援、資料夾／Bin 自動匯入、連番偵測與跨平台資訊後加入 `booth.jsonl` | A_InnerGradation 只有平台資訊，功能說明不足 | 2 筆新增；1 個候選略過；最新總筆數 2,842 |
 
 ## 官方來源技巧
 
