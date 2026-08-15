@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2687 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2692 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2590,6 +2590,11 @@ PX-Kinetype｜第三方｜script｜animation｜以面板套用 64 組可編輯�
 AI Assistant for After Effects｜第三方｜script｜workflow｜在 After Effects 面板以自然語言生成並執行 JSX、表達式與動畫設定，可建立合成、圖層、效果與關鍵影格，適合自動化重複工作與快速搭建 motion graphics。｜https://www.motionist.studio/aiassistantforae
 GuideGuide｜第三方｜script｜workflow｜在 After Effects 依畫布、選取範圍或比例快速建立欄列、基線與自訂網格輔助線，並可保存格線模板，適合版面對齊、構圖與動態設計規劃。｜https://guideguide.me/after-effects
 Phone Camera Control｜第三方｜plugin｜animation｜把手機透過 Wi-Fi 連成 After Effects 的虛擬攝影機，將手機的六自由度動作轉為 3D camera 控制與連續關鍵影格，適合自然手持運鏡、場景勘景與多角度預覽。｜https://www.motionist.studio/phonecamcontrollerforae
+Videogen AI｜第三方｜plugin｜generate｜在 After Effects 面板以文字或圖片提示生成短片並調整輸出格式，適合快速製作概念鏡頭、補鏡與生成式影片素材。｜https://modelslab.com/plugins/videogen-for-after-effects
+Imagen AI｜第三方｜plugin｜generate｜在 After Effects 面板以文字提示生成圖片並直接放入時間軸，適合製作概念圖、背景、分鏡與 motion graphics 的自訂視覺素材。｜https://modelslab.com/plugins/imagen-for-after-effects
+SFX AI｜第三方｜plugin｜audio｜在 After Effects 面板用文字描述生成環境音、擬音與轉場音效並直接加入時間軸，適合快速建立影片的聲音設計草稿與補充音效。｜https://modelslab.com/plugins/sfx-for-after-effects
+Krock.io｜第三方｜script｜workflow｜在 After Effects 面板直接查看與管理 Krock.io 的逐格評論，將回饋同步到播放頭與時間軸標記，適合客戶審片、版本追蹤與團隊協作。｜https://krock.io/help-center/adobe-creative-cloud-integration-premiere-and-after-effects/
+ControlDeck Pro｜第三方｜script｜workflow｜在 After Effects 建立可停駐的自訂指令面板，把 JSX 腳本、效果、動畫預設、表達式與內建操作綁到可搜尋按鈕，適合減少重複選單操作並備份工作區設定。｜https://exchange.adobe.com/apps/cc/205694/controldeck-pro
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
