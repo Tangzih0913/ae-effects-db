@@ -122,6 +122,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 
 | 75 | Gumroad 高評價表達式工具續輪 | **Find and Replace in Expressions**；官方 Gumroad 頁確認可停駐的 expression 文字尋找／取代視窗與 33 則評價 | Organize Project Assets Pro 仍以 Folder Fanatic 覆蓋為準；其餘高評價動畫候選繼續核實 | 1 筆新增；最新總筆數 2,963 |
 | 76 | Gumroad 形狀路徑工作流續輪 | **PathPrep for After Effects**；官方 Gumroad 頁確認可停駐 JSXBIN 面板、批次參數形狀轉 Bezier、Transform 烘焙與向量複製 | Visual States、Type、FX Finder、格線與圖層錯位候選均已有功能更完整的現有條目；Magic Animator Pro、Relinker 續作維護與品質審核 | 1 筆新增；最新總筆數 2,964 |
+| 77 | Gumroad AI 畫格工作流續輪 | **Keyframe - AI image generator for After Effects**；官方 Gumroad 頁確認可安裝 ScriptUI、70 筆銷量、時間軸畫格擷取、Replicate 改圖／遮罩修補與序列回匯 | 與 aiImageGen 共用 Replicate 但額外覆蓋畫格導向的回匯與風格定格工作流，判定保留；其餘候選持續依維護狀況及直接覆蓋程度審查 | 1 筆新增；最新總筆數 2,965 |
 
 ## 官方來源技巧
 
