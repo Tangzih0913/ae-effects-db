@@ -1685,3 +1685,7 @@ facebuilder-for-blender	官方產品頁限定為 Blender add-on，沒有 After E
 geotracker-for-blender	官方產品頁限定為 Blender add-on，沒有 After Effects host
 facetracker-for-blender	官方產品頁限定為 Blender add-on，沒有 After Effects host
 facetracker-for-nuke	官方產品頁明示為 Foundry Nuke plugin node，沒有 After Effects host
+bodymovin	官方 GitHub／Adobe Exchange 對應的 Bodymovin 已存在於 aescripts.jsonl 的「Bodymovin - Lottie」，同官方功能與 URL 不重複新增
+motion-factory-file-manager	官方 Adobe Exchange 版本 3.3.7 最後更新於 2021 年，近期評論回報對最新 After Effects 不相容，視為維護／相容性不足而略過
+motion-factory	官方現行產品主要是模板、LUT、VFX、轉場與音效素材商店／訂閱套件，屬 bundle／素材包；不以整體產品新增工具條目
+guide-layout-for-after-effects	只有 Adobe Exchange marketplace 頁面可核實，未找到可辨識的原廠產品／文件頁；同類現行 GuideGuide 已有完整原廠功能頁，避免弱來源與近重複

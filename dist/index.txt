@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2682 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2687 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2585,6 +2585,11 @@ Crates Black Hole｜第三方｜plugin｜3d｜在 After Effects 內生成可調�
 Crates Unmult｜第三方｜script｜utility｜把火焰、閃電、雨雪與鏡頭光等黑底發光素材轉成透明 Alpha，並以 bias 控制透明門檻，適合將 VFX 素材自然合成到實拍畫面。｜https://www.productioncrate.com/plugins/crates-unmult
 Retro Film Essentials｜第三方｜plugin｜film｜以單一外掛加入底片顆粒、刮痕、毛髮、燒灼、暗角、色差與年代預設，適合把影片快速做成黑白、8mm、Grindhouse 或復古膠片質感。｜https://www.productioncrate.com/plugins/retro-film
 Crates HyperGlitch｜第三方｜plugin｜stylize｜用一鍵預設生成含半色調、色差、條紋與扭曲的動態故障效果，支援 GPU 即時預覽，適合音樂影片、科幻介面與漫畫風格轉場。｜https://www.productioncrate.com/plugins/crates-hyperglitch
+Plainly Videos｜第三方｜script｜workflow｜在 After Effects 面板中收集專案檔、素材與字型並打包上傳至 Plainly，還能連結雲端專案與查看算圖結果，適合資料驅動影片與團隊協作交付。｜https://help.plainlyvideos.com/docs/after-effects-plugin
+PX-Kinetype｜第三方｜script｜animation｜以面板套用 64 組可編輯的動態字體元素，提供 In、Out 與 In&Out 動畫及速度、時間與透明度控制，適合快速製作標題和 kinetic typography。｜https://pixflow.net/product/px-kinetype-kinetic-text-typography/
+AI Assistant for After Effects｜第三方｜script｜workflow｜在 After Effects 面板以自然語言生成並執行 JSX、表達式與動畫設定，可建立合成、圖層、效果與關鍵影格，適合自動化重複工作與快速搭建 motion graphics。｜https://www.motionist.studio/aiassistantforae
+GuideGuide｜第三方｜script｜workflow｜在 After Effects 依畫布、選取範圍或比例快速建立欄列、基線與自訂網格輔助線，並可保存格線模板，適合版面對齊、構圖與動態設計規劃。｜https://guideguide.me/after-effects
+Phone Camera Control｜第三方｜plugin｜animation｜把手機透過 Wi-Fi 連成 After Effects 的虛擬攝影機，將手機的六自由度動作轉為 3D camera 控制與連續關鍵影格，適合自然手持運鏡、場景勘景與多角度預覽。｜https://www.motionist.studio/phonecamcontrollerforae
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
