@@ -64,6 +64,8 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 33 | Ziflow、Mt. Mograph、Adobe／Frame.io 與 Motion Bro 官方 workflow 交叉核實 | **Ziflow、Boombox Studio、Frame.io V4 Panel、Motion Bro**；Ziflow Help Center／整合頁／Adobe Exchange 確認 AE proof render／upload、版本與逐格留言同步；Boombox Studio 原廠頁與 guide 確認 AE 2021+ extension、15,000+ SFX 搜尋、Cue Points、Swap／Cue、Auto-Mix 與 Constellation mixer；Frame.io V4 官方文件確認 AE Review workspace 內 render／upload、Share links、version stacks、comment markers 與 Frame.io Drive；Motion Bro 原廠／Exchange 確認 AE 2021+、預設預覽、一鍵套用、可編輯速度、Pack Manager 與 2026 v7.3.1。Motion Studio 已存在於 `third-party.jsonl`，官方原廠 URL 與完整功能覆蓋，本輪不重複新增 | 4 筆新增；1 筆既有 |
 | 34 | Knights of the Editing Table 與 Mister Horse 官方 AE workflow 產品線交叉核實 | **Watchtower、Animation Composer**；Watchtower 原廠頁確認 AE 2020+／Windows／macOS 的 system-folder／Project-bin 自動同步、image sequence 匯入、子資料夾展開、relative paths 與標籤；Animation Composer 原廠 AE 專頁確認 AE 2025+、免費 plugin、動畫／轉場／標題／圖形／音效 preset、User Library、Keyframe Wingman、Keyframe Actions、Anchor Point Mover 與 Transition Shifter。Overlord 2、KBar3、AEVIEWER Pro 均已存在於 `aescripts.jsonl`，已以正式名稱、vendor、官方 URL 與功能條目判定既有，不重複新增 | 2 筆新增；3 筆既有 |
 
+| 35 | Knights of the Editing Table 五個產品頁逐頁核實 | **Portal (Knights of the Editing Table)**；原廠 Portal 頁明列支援 Pr、Ae、Au、An、Me、Ps、Ai、Id、Ic、Dw 2020+，可從 Adobe apps 開啟收藏資料夾，支援絕對／相對路徑與拖放。因資料庫已有 aescripts 的另一個同名 PORTAL 預合成同步工具，新增條目以廠商括號消歧，官方名稱 Portal 保留在 tags | Excalibur、Quiver、Dagger、Cauldron 原廠頁／文件均只列 Premiere Pro 2020+，沒有 After Effects host 證據，追加 skipped.tsv 略過 | 1 筆新增；4 個候選略過 |
+
 ## 官方來源技巧
 
 | 來源 | 可靠做法 |
