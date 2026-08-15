@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2843 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2845 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1261,6 +1261,8 @@ MiterOutline｜BOOTH｜plugin｜edge｜為文字與帶 Alpha 的影像圖層建�
 Wavy 3AM｜BOOTH｜script｜expression｜提供自訂互動式 Bezier Graph Editor 的 After Effects 智慧擴充面板，支援 1D／2D／3D／Spatial／Color 屬性、多關鍵影格、拓撲匹配、Overshoot 偵測、Shape／Mask Path 動畫、縮放平移、吸附與 50 段 Undo／Redo。｜https://booth.pm/ja/items/8032627
 Folder Bin Sync｜BOOTH｜script｜workflow｜自動同步 OS 資料夾與 Premiere／After Effects Bin，素材存入資料夾後會自動匯入並依影片、音訊、圖片與專案類型套用標籤色，也能同步 .aep／.prproj、偵測連番影像並支援 Windows／macOS。｜https://booth.pm/ja/items/8041080
 Syndromee Prism Diffraction｜BOOTH｜plugin｜light｜從 Mask Path 或圖層 Alpha 輪廓產生數百條虹彩稜鏡光線，支援色散、長度、寬度、擴散、閃爍、Sparkle、漂移、Glow、Bloom 與邊緣柔化，適合光漏、魔法閃耀、MV 與發光標題；支援 AE 2020+、Windows／macOS 與 8／16／32 bit CPU 渲染。｜https://booth.pm/ja/items/8437470
+PathEdit｜BOOTH｜script｜workflow｜在 After Effects 以一鍵方式選取目前選取 Shape Layer 的路徑並插入關鍵影格，簡化複雜形狀路徑的編輯與動畫準備流程。｜https://booth.pm/ja/items/6670900
+SyncOpacity｜BOOTH｜script｜expression｜以一鍵操作將父 Null 或其他父圖層的不透明度快速同步到指定工作流，適合建立多圖層共同透明度控制與簡單的表達式驅動動畫。｜https://booth.pm/ja/items/6671674
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
