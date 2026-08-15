@@ -54,6 +54,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 23 | Digital Anarchy 五個主要產品頁與既有資料交叉核實 | Beauty Box Video、Flicker Free、Samurai Sharpen、Light Wrap Fantastic 均已存在；Light Wrap Fantastic 的正確官方頁為 `/light-wrap-fantastic/`；ToonIt 候選頁回傳 Page not found，無法核實而略過 | 4 筆既有；1 個候選略過 |
 | 24 | KeenTools 五個官方產品頁逐頁核實 | GeoTracker for After Effects 已存在；FaceBuilder／GeoTracker／FaceTracker for Blender 均限定 Blender；FaceTracker 官方頁明示為 Foundry Nuke plugin node，均不是 After Effects host | 1 筆既有；4 個候選略過 |
 | 25 | Video Copilot 五個官方產品／下載頁逐一核實 | ORB、Saber、VC Reflect、Color Vibrance、FX Console 均已存在；官方頁面確認其 After Effects host、功能與下載／更新資訊，本輪不重複新增 | 5 筆既有 |
+| 26 | Motion Boutique 五個官方產品頁逐頁核實 | Newton 4、Plotter、Connect Layers PRO、Pastiche 2、Autostereogram 均已存在於 `aescripts.jsonl`；官方原廠頁確認其 After Effects host 與功能，本輪不重複新增 | 5 筆既有 |
 
 ## 官方來源技巧
 
