@@ -104,6 +104,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 65 | Text Recipe Shop 的 BOOTH After Effects 第 5–6 頁商品 | —；逐頁確認 YouTube 結尾、遊戲実況、直式字幕、文字效果、霓虹、粒子、Kinetic Typography 等商品核心均為 PDF／數值教學配方，附帶 AE 檔案者仍屬教材而非獨立工具 | 27 筆均為教學配方、PDF、數值設定或教材專案，非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、27 筆略過；最新總筆數 2,901 |
 | 66 | BthJon、Aiém、3223.pics 等 BOOTH 作者頁自動核實後人工複查 | **Stroke Outline、CropPlus、StarSpikes Pro、GlassRain、Pro Line Extract、Inner Glow Plus、Fadio、imp&comp ver2.5**；確認描邊、裁切、光學繞射、玻璃雨滴、線稿抽取、內側光暈、音訊淡出與動畫攝影匯入工作流用途後加入 `booth.jsonl` | — | 8 筆新增；最新總筆數 2,909 |
 | 67 | BOOTH AfterEffects 剩餘候選第一輪自動核實 | —；確認 Premiere MOGRT、AEP 專案、研究素材、`.ffx`／Animation Preset 與作品檔均不屬於可獨立安裝／執行的 AE 腳本或外掛 | 14 筆略過；其中 2 個舊預設頁稍後重試因頻率限制暫未取得完整頁面 | 0 筆新增、14 筆略過；最新總筆數 2,909 |
+| 68 | BOOTH AfterEffects 剩餘候選第二輪自動核實 | —；重試 4924763／4925911 後確認為 Long Shadow 與 Shape Particle `.ffx` 預設，並補核 4 個帶有 plugin／preset 字樣但實際為 AEP／影片素材的商品 | 6 筆均非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、6 筆略過；最新總筆數 2,909 |
 
 ## 官方來源技巧
 
