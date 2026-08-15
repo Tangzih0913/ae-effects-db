@@ -52,6 +52,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 21 | FxFactory omotion 第二輪五個產品頁逐頁核實 | Magic Transitions 已存在；Active Transitions、Volumetric Transitions、Paper Pieces、Blinding Lights 的 `Works in` 均只列 Final Cut Pro，均不符合 After Effects 收錄條件 | 1 筆既有；4 個候選略過 |
 | 22 | RE:Vision Effects 官方產品索引完整差異比對 | Twixtor、RSMB、Color Genius、REZup、DE:Noise、FieldsKit、MV_Convert、RE:Fill、RE:Flex、RE:Grade、RE:Lens、RE:Match、RE:Map、Shade/Shape、SmoothKit、Video Gogh、ARRI Film Lab 均已存在；Effections 為 bundle、ARRI Look Library 為 LUT／look library、Twixtor App／Color Genius App 為 standalone app、PV Feather 已停售而略過 | 17 筆既有；5 個候選略過 |
 | 23 | Digital Anarchy 五個主要產品頁與既有資料交叉核實 | Beauty Box Video、Flicker Free、Samurai Sharpen、Light Wrap Fantastic 均已存在；Light Wrap Fantastic 的正確官方頁為 `/light-wrap-fantastic/`；ToonIt 候選頁回傳 Page not found，無法核實而略過 | 4 筆既有；1 個候選略過 |
+| 24 | KeenTools 五個官方產品頁逐頁核實 | GeoTracker for After Effects 已存在；FaceBuilder／GeoTracker／FaceTracker for Blender 均限定 Blender；FaceTracker 官方頁明示為 Foundry Nuke plugin node，均不是 After Effects host | 1 筆既有；4 個候選略過 |
 
 ## 官方來源技巧
 
