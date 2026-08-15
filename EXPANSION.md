@@ -82,6 +82,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 43 | BOOTH 一般搜尋（After Effects、AE script、AE plugin）最新結果與官方頁深度核實 | **SimpleExtrude、ばなわっぺん、Labels Lite、Seiton、3D Shape Generator、SmartLayerGen、Slider Connect**；逐頁確認 AE host、外掛／ScriptUI／擴充功能型態、功能細節與支援版本後加入 `booth.jsonl` | CTI Jump、Labion、ADOBEZIER、R-CompAnchorTool、Add Guide、3DIK、Film Noise、Anchor Move、StrokeWidth、圖層長度調整、遊戲／Unity／素材／AEP 與說明不足商品 | 7 筆新增；16 個候選略過；最新總筆數 2,767 |
 | 44 | BOOTH 一般搜尋後續頁與日文「After Effects スクリプト／プラグイン」結果逐頁核實 | —；代表性頁面均檢查官方商品描述與 host 後判定不符 | InertiaBones、KKShapeEditor、Charaticle、Natural Skin、Tome Of Elements、TextureColorKit、VRCMeshDeformer 等 Unity／VRChat／Live2D 工具；avatar 服裝、鞋履、紋理、pose、world、遊戲與已停售 shader | 0 筆新增；21 個候選略過；最新總筆數 2,767 |
 | 45 | BOOTH 聚焦關鍵字（plugin、script、extension、tool、expression、panel）結果與商品頁交叉核實 | —；搜尋結果實際混入的代表性項目均非 AE 工具 | RealKissSystem、Resonator Tattoo、NIGHTMARE、電脳ナース、ぽんとちゅね、Commander of Battlefront、VRoid／VRChat 服裝與模型、CoC 劇本、同人誌 | 0 筆新增；20 個候選略過；最新總筆數 2,767 |
+| 46 | BOOTH After Effects 標籤入口（After Effects／AfterEffects）逐項核實 | **HL_Fontory、JPNGGlitch、Syndromee Bevelized**；確認官方頁的 AE 擴充／外掛型態、功能、版本與安裝方式後加入 `booth.jsonl` | AEP／.mogrt／.ffx 模板與 preset；透明 MOV、GIF／PNG／影片效果、lyric motion 與圖像素材包 | 3 筆新增；17 個候選略過；最新總筆數 2,770 |
 
 ## 官方來源技巧
 

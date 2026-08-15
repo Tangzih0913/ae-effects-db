@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2767 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2770 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1185,6 +1185,9 @@ Seiton｜BOOTH｜script｜workflow｜以 After Effects／Premiere Pro 擴充功�
 3D Shape Generator｜BOOTH｜script｜3d｜用 Shape Layer 生成多種可控的 3D 形狀，包括立方體、長方體、三／五／六角柱與多種錐體；建立後可用控制 Null 與滑桿即時調整尺寸、旋轉與整體操作，面板也能列出並刪除已生成的形狀。｜https://booth.pm/ja/items/7794840
 SmartLayerGen｜BOOTH｜script｜workflow｜以尺寸與顏色快速生成常用圖層，會重用專案內相同平面、用 Shape 取代不必要的 Null／調整平面，並自動命名與同步標籤色；支援符合合成尺寸、置底、對選取圖層套遮罩、建立父 Null、依選取圖層長度建立調整層、自動描圖與導引圖層等快捷操作。｜https://booth.pm/ja/items/5932999
 Slider Connect｜BOOTH｜script｜expression｜讓 After Effects 使用者不必深入效果內容即可快速把數值寫入 Slider 控制項，並簡化表達式的套用與關閉，集中處理滑桿與表達式的常用操作。｜https://booth.pm/ja/items/1403693
+HL_Fontory｜BOOTH｜script｜workflow｜在 After Effects、Photoshop 與 Illustrator 內管理、預覽及套用大量字型的 ZXP 擴充功能，提供即時預覽、自訂預覽文字、收藏與資料夾分類、日／英／中／韓語言篩選、多種排序及自動更新通知；選取文字圖層後可直接套用字型。｜https://booth.pm/ja/items/7898425
+JPNGGlitch｜BOOTH｜plugin｜stylize｜以 JPEG 影像損壞與 PNG 影像錯誤為靈感產生多種 glitch 扭曲，針對處理速度最佳化，部分參數可即時播放，支援 Multi-Frame Rendering 與效果鏡像，並提供 Adobe After Effects 2022／2023／2024 Windows 版本。｜https://booth.pm/ja/items/3643803
+Syndromee Bevelized｜BOOTH｜plugin｜stylize｜把文字、Shape 與 Logo 轉成金屬、金色、玻璃或面 bevel 質感的 After Effects 外掛，整合帶輪廓的斜角光照、可編輯色彩循環漸層、色調曲線、折射與邊緣線控制，支援 AE 2020 以上、Windows／macOS、8／16／32 bit 與 CPU 渲染。｜https://booth.pm/ja/items/8478202
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
