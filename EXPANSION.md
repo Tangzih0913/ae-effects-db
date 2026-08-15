@@ -97,6 +97,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 58 | 鳩 スクリプト売り、BthJon、nagisa-12-34、salis、yorusoramovie_store 等 BOOTH 腳本作者頁 | **ペアレントくん、Copy Kun、Insert Keyframes、ランダム配置、Calculator、Salis_OpenCompSettings、ys_TextAnMaka、Randomizer**；依官方頁確認父子關係、屬性複製、關鍵影格插入、隨機配置、計算、巢狀合成設定、歌詞文字配置與屬性隨機偏移用途後加入 `booth.jsonl` | Shape／文字效果預設、Premiere Pro 面板與僅使用內建效果的預設 | 8 筆新增、5 筆略過；最新總筆數 2,869 |
 | 59 | aebuddy、HAYATOのスクリプト工房、Aiém、カドウノ開発雑貨店、BthJon、alimshop、キュー等 BOOTH 作者頁交叉核實 | **CompMaster、MojiMixer、Paralign、Build Importer v6、Proxy Manager v2、FrameGrid、CreateCompMask、Effects Switch、Layer Follower、Time Modifier、Audio Sync、Script Performance、MotionBlur All、1A2B、Auto Fader、Explode Layer、RplSolidName、RplFont、RplCompDur、RplCompName**；逐頁確認合成、字型、段落、匯入、Proxy、格線、遮罩、效果、時間、音訊與批次命名腳本用途後加入 `booth.jsonl` | 功能資訊不足的 SubtleEase、Cell Splitter、Line Orientation 商品頁 | 20 筆新增、3 筆略過；最新總筆數 2,889 |
 | 60 | k4a - shop、miya-script 等 BOOTH 腳本作者頁 | **Auto Swing、Simple Set Parent、Reverse Shape Path、Add Props to Essential Graphics、Layer Name Changer、Scale to Slider**；核實搖擺動畫、父子關係、Shape Path 反轉、Essential Graphics 註冊、圖層批次命名與縮放表達式用途後加入 `booth.jsonl` | AEP 教學專案，以及 Premiere Pro MOGRT／動態圖形模板 | 6 筆新增、3 筆略過；最新總筆數 2,895 |
+| 61 | BOOTH AfterEffects 深頁 13–18 的 AEP／模板／素材候選清理 | —；頁 19–24 已無新的未知商品，對頁 13–18 逐項確認後將 **AEP 專案、影片 OP 模板、Motion Graphics 展示、Element 3D OBJ、影片與成品動畫素材** 登錄到跳過清單 | 37 筆均為專案檔、模板、模型、影片或成品動畫，非可獨立安裝／執行的 After Effects 工具 | 0 筆新增、37 筆略過；最新總筆數 2,895 |
 
 ## 官方來源技巧
 
