@@ -47,6 +47,7 @@ BOOTH 累計評估約 915 個商品 id（**收錄 150、略過 764**）；Gumroa
 | 16 | CycoreFX、Mettle、PSOFT 官方產品頁交叉比對 | **PSOFT CelFX、PSOFT anti-aliasing、PSOFT Pencil+ 4 Line**；Cycore Rakka／Wiggle Stroke、Mettle ShapeShifter AE／FreeForm Pro 已存在；Sphere Utilities 與 SkyBox Studio V2 為整包套件而略過 | 3 筆新增；2 筆既有；2 個套件略過 |
 | 17 | FxFactory Hawaiki／Zoetrope 產品頁逐頁核實 | **Flow**；Halo Bender、Hawaiki Keyer 5、AutoFix、Hue Finesse、Super Dissolve 均已存在；Analyzer、AutoGrade、AutoMatch 已停售，Keyer 4 已被 Keyer 5 取代，Fold／Geode 官方頁失效而略過 | 1 筆新增；5 筆既有；6 個候選略過 |
 | 18 | FxFactory Light Kit／ParticleMetrix／Volumetrix／Viewfinder HUD 逐頁核實 | Viewfinder HUD 已存在於 `third-party.jsonl`；Light Kit 2、ParticleMetrix、Volumetrix 官方頁均標示停售而略過 | 1 筆既有；3 個候選略過 |
+| 19 | FxFactory Luca Visual FX 五個現行產品頁逐頁核實 | Custom Title Path、Shadows & Substance、Fireworks、Layer Scan、3D Video Polygons 的 `Works in` 均只列 Final Cut Pro，均不符合 After Effects 收錄條件 | 5 個候選略過 |
 
 ## 官方來源技巧
 
