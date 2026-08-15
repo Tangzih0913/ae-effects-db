@@ -83,6 +83,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 44 | BOOTH 一般搜尋後續頁與日文「After Effects スクリプト／プラグイン」結果逐頁核實 | —；代表性頁面均檢查官方商品描述與 host 後判定不符 | InertiaBones、KKShapeEditor、Charaticle、Natural Skin、Tome Of Elements、TextureColorKit、VRCMeshDeformer 等 Unity／VRChat／Live2D 工具；avatar 服裝、鞋履、紋理、pose、world、遊戲與已停售 shader | 0 筆新增；21 個候選略過；最新總筆數 2,767 |
 | 45 | BOOTH 聚焦關鍵字（plugin、script、extension、tool、expression、panel）結果與商品頁交叉核實 | —；搜尋結果實際混入的代表性項目均非 AE 工具 | RealKissSystem、Resonator Tattoo、NIGHTMARE、電脳ナース、ぽんとちゅね、Commander of Battlefront、VRoid／VRChat 服裝與模型、CoC 劇本、同人誌 | 0 筆新增；20 個候選略過；最新總筆數 2,767 |
 | 46 | BOOTH After Effects 標籤入口（After Effects／AfterEffects）逐項核實 | **HL_Fontory、JPNGGlitch、Syndromee Bevelized**；確認官方頁的 AE 擴充／外掛型態、功能、版本與安裝方式後加入 `booth.jsonl` | AEP／.mogrt／.ffx 模板與 preset；透明 MOV、GIF／PNG／影片效果、lyric motion 與圖像素材包 | 3 筆新增；17 個候選略過；最新總筆數 2,770 |
+| 47 | BOOTH After Effects／AfterEffects 標籤第 2–10 頁逐頁核實 | **AESpriteGrid、Quantize、TexGraph、Geode、Stainless、Weaver、Anime Sync、SimpleStroke、A_Motion、AutoArrange、LiteGlow、GlitchCore、TrueDither、ShapeDistort、EdgeDetec、Random N-gon、SRT Converter、Multi Cut Maker、QuickTrim、CompAndLayerRenamer v3、Ref Board、NWayDither、FastBilateralFilter、PaintAnimation、Spiral Master、Replace Text、Text Auto Generator、Mask⇆Shape**；核對官方頁的 AE host、安裝型態、參數與版本後加入 `booth.jsonl` | AEP／preset／MOGRT／影片素材、活動／票券、Windows 常駐工具、HTML 生成器、Stream Deck 圖示與停止支援的 ChromaticAberrationYY | 28 筆新增；23 個候選略過；最新總筆數 2,798 |
 
 ## 官方來源技巧
 
