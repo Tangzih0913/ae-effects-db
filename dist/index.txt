@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2854 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2861 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1272,6 +1272,13 @@ Salis LayerMaster｜BOOTH｜script｜workflow｜After Effects 圖層建立支援
 MixFont｜BOOTH｜script｜text｜After Effects 混合字型腳本，可依日文假名、漢字、英文字母與數字分配不同字型，支援自訂字元框、多文字圖層與面板操作。｜https://booth.pm/ja/items/5707924
 Color Palette｜BOOTH｜script｜color｜After Effects 色票腳本，點擊色彩即可套用到 Solid、Shape Fill、Shape Stroke、Text Fill 或 Text Stroke，並支援修飾鍵操作與十六進位色碼複製。｜https://booth.pm/ja/items/4946867
 Mirror Positions｜BOOTH｜script｜workflow｜After Effects 腳本，可將選取圖層的位置以合成中心為基準進行鏡像，支援多圖層批次處理，適合對稱構圖與快速建立反向位置動畫。｜https://booth.pm/ja/items/5420541
+Cache Monitor｜BOOTH｜script｜workflow｜After Effects 工具面板，可查看磁碟快取使用量、上限、使用率與儲存空間，並從面板更新快取資訊、開啟快取資料夾或執行清除操作。｜https://booth.pm/ja/items/8717866
+AlignKit｜BOOTH｜script｜workflow｜After Effects 對齊與分布面板，以圖層實際外接框處理旋轉或縮放圖層，支援以合成或圖層為基準對齊，以及等間距分布。｜https://booth.pm/ja/items/8512992
+Binzii_FastEase!｜BOOTH｜script｜animation｜After Effects 緩動腳本，依目前播放頭在兩個關鍵影格之間的位置智慧套用 Ease 曲線，讓動畫曲線峰值跟隨時間指示器快速調整。｜https://booth.pm/ja/items/8512637
+Comp Changer｜BOOTH｜script｜workflow｜After Effects 腳本，可依基準合成批次變更所選合成與所有子合成的解析度和片長，延長圖層尾端並調整 Solid／調整圖層尺寸，支援 Undo。｜https://booth.pm/ja/items/8442433
+YTTS2MK｜BOOTH｜script｜workflow｜ScriptUI 面板腳本，讀取 YouTube 常見的 HH:MM:SS、MM:SS 或 M:SS 時間戳文字並在 After Effects 自動建立對應的合成標記。｜https://booth.pm/ja/items/8158811
+ひらがなだけを小さくするスクリプト｜BOOTH｜script｜text｜After Effects 文字腳本，將文字圖層中的平假名單獨縮小，並可調整縮小數值，適合日文字幕與標題的字面比例整理。｜https://booth.pm/ja/items/8121266
+涙目うるうる表現の半自動化スクリプト｜BOOTH｜script｜workflow｜After Effects 半自動化腳本組，可依眼睛動作追隨內部模糊與水潤效果，並分步建立淚眼遮罩、羽化、效果與複製操作，適合 VRoid 動畫。｜https://booth.pm/ja/items/8280283
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
