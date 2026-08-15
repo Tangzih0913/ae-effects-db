@@ -1654,3 +1654,5 @@ podcastervisuals	官方產品頁明列僅支援 Final Cut Pro，非 After Effect
 transitionbuilder	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
 verticaleditingtools	官方產品頁明列僅支援 Final Cut Pro，非 After Effects host
 grungeeffects	官方頁雖列出 After Effects，但內容主體是 overlays 素材包，且缺乏足夠的獨立工具功能說明，依純素材包排除規則略過
+sphere-utilities	官方產品頁列為包含四個球面工具的 package，且個別工具名稱與功能頁無法取得；依不收整包規則略過
+skybox-studio-v2	官方產品頁明示為 3 scripts + 4 plugins 的 360／VR workflow solution，屬套件而非單一工具，依不收整包規則略過
