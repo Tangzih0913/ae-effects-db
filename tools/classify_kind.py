@@ -165,6 +165,8 @@ KIND_OVERRIDES = {
     "Position and Scale Key ConfirmationScript": "script",
     "コンポ差し替え": "script",
     "3Dレイヤー選択→プリコンポしてメッシュワープ": "script",
+    "JapyTextEngine": "plugin",
+    "シェイプを横移動させるだけの仕組みセット": "script",
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",

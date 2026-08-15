@@ -109,6 +109,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 70 | 交叉掃描 `AfterEffect`、`After Effects` 標籤後的 BOOTH 工具候選 | **ツールアシストセット、SolidEffects、S_tools_EffectSearcher、Layer Switcher、Additional Transform、Cleanup!、Swap Two Selected Layers Source、Easy Fader、Nulltilities、Generate Puppet Rig、アンダーライン引きmuscle**；逐頁核實工具面板、Solid 建立、效果搜尋、來源交換、Null／Puppet Rig、透明度與文字工作流功能後加入 `booth.jsonl` | AE／Element 3D 預設、AEP／FFX 模板、HUD 素材、FX Console 設定檔與作品專案 | 11 筆新增、17 筆略過；最新總筆數 2,920 |
 | 71 | 交叉標籤批次官方頁核實的 AEP 作品候選 | —；確認 Motion Graphics 習作 #5–14、2 秒 Motion Graphics #1–18、Maru、Pre：あ與 Element3D 預設資料均為研究或作品 AEP，非獨立工具 | 15 筆均為 AEP 作品、練習檔或專案預設 | 0 筆新增、15 筆略過；最新總筆數 2,920 |
 | 72 | `AE` 標籤中 Eirlys／autumnshop 的腳本候選 | **自動ファイル作成スクリプト、ばらばらに出現・消滅、マスクパスの上に画像が動け！、フォルダにある素材のリネーム、レイヤーの状態覚えておいてscript、簡易版レイヤーリネーム、簡単なWiggle制御、Auto-tress and mask layer auto-detection、シェイプレイヤーのGroupを個別レイヤーに分離、Position and Scale Key ConfirmationScript、コンポ差し替え、3Dレイヤー選択→プリコンポしてメッシュワープ**；核實專案結構、路徑、命名、可見性、Wiggle、Auto Trace、Shape、關鍵影格、合成與 3D 工作流後加入 `booth.jsonl` | 功能說明不足的 Animation UI 與 3 組 AE 預設 | 12 筆新增、4 筆略過；最新總筆數 2,932 |
+| 73 | `AE` 標籤官方頁深入核實的文字與 Shape 工具 | **JapyTextEngine、シェイプを横移動させるだけの仕組みセット**；確認字型輪廓向量文字外掛與 Shape 水平循環移動腳本用途後加入 `booth.jsonl` | 18 筆 Element3D／影片素材、AEP／MP4／OBJ 專案與 Motion Graphics 學習檔 | 2 筆新增、18 筆略過；最新總筆數 2,934 |
 
 ## 官方來源技巧
 

@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2932 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2934 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1350,6 +1350,8 @@ Auto-tress and mask layer auto-detection｜BOOTH｜script｜workflow｜After Eff
 Position and Scale Key ConfirmationScript｜BOOTH｜script｜animation｜After Effects 關鍵影格檢查腳本，可列出選取圖層的位置與縮放關鍵影格，檢視指定影格的數值並以 Apply 寫回修改後的關鍵影格資料。｜https://booth.pm/ja/items/6015180
 コンポ差し替え｜BOOTH｜script｜workflow｜After Effects 合成替換腳本，依目前選取合成名稱及尾端兩位數字，在 Project Panel 尋找同名前綴的合成並進行替換，適合管理多版本合成。｜https://booth.pm/ja/items/5983949
 3Dレイヤー選択→プリコンポしてメッシュワープ｜BOOTH｜script｜workflow｜After Effects 腳本，可將選取的 3D 圖層預合成，在其中建立調整圖層套用 Mesh Warp，並以新 Precomp 替換原圖層，讓 3D 圖層具備網格變形工作流。｜https://booth.pm/ja/items/5982464
+JapyTextEngine｜BOOTH｜plugin｜text｜After Effects 文字外掛，直接從字型實際輪廓產生向量文字而不依賴內建文字引擎，提供放大仍銳利的日文文字與字型輪廓工作流。｜https://booth.pm/ja/items/8566390
+シェイプを横移動させるだけの仕組みセット｜BOOTH｜script｜animation｜After Effects Shape 動畫腳本與 AEP 組合，可辨識置於上下 Null 之間的 Shape Layer 並建立由左至右的循環移動，支援調整動畫 Offset。｜https://booth.pm/ja/items/7037555
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
