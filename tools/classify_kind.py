@@ -132,6 +132,8 @@ KIND_OVERRIDES = {
     "AE To Blender Velocity Tools": "script",
     "任意の回数ループアニメーション": "script",
     "Multiframe 100 to 0 Strobe": "script",
+    "HoTo Movie Color Palette": "script",
+    "Sound Panel": "script",
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",

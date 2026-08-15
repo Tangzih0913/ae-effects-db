@@ -99,6 +99,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 60 | k4a - shop、miya-script 等 BOOTH 腳本作者頁 | **Auto Swing、Simple Set Parent、Reverse Shape Path、Add Props to Essential Graphics、Layer Name Changer、Scale to Slider**；核實搖擺動畫、父子關係、Shape Path 反轉、Essential Graphics 註冊、圖層批次命名與縮放表達式用途後加入 `booth.jsonl` | AEP 教學專案，以及 Premiere Pro MOGRT／動態圖形模板 | 6 筆新增、3 筆略過；最新總筆數 2,895 |
 | 61 | BOOTH AfterEffects 深頁 13–18 的 AEP／模板／素材候選清理 | —；頁 19–24 已無新的未知商品，對頁 13–18 逐項確認後將 **AEP 專案、影片 OP 模板、Motion Graphics 展示、Element 3D OBJ、影片與成品動畫素材** 登錄到跳過清單 | 37 筆均為專案檔、模板、模型、影片或成品動畫，非可獨立安裝／執行的 After Effects 工具 | 0 筆新增、37 筆略過；最新總筆數 2,895 |
 | 62 | totonoe-plugin、emmaofficial、あおみデザインスタジオ、renderscript 等 BOOTH 作者頁補充核實 | **Totonoe Skin Retouch、AE To Blender Velocity Tools、任意の回数ループアニメーション、Multiframe 100 to 0 Strobe**；確認肌膚偵測修飾、AE／Blender Alembic 速度交換、指定次數循環與逐幀 Strobe 不透明度腳本用途後加入 `booth.jsonl` | 影片／音訊轉換桌面程式、FFX／Layer Style 預設、AEP／教學專案與 PNG／AI 素材 | 4 筆新增、8 筆略過；最新總筆數 2,899 |
+| 63 | HoTo Movie、ITO Movie Studio、hanamuradesign、battlerssoftware、Reflex Frames 等 BOOTH 商品頁交叉核實 | **HoTo Movie Color Palette、Sound Panel**；確認跨 Premiere Pro／After Effects 的色彩管理面板與 BGM／SE 音素材搜尋配置面板後加入 `booth.jsonl` | MOV／MP4／AEP 素材與模板、Photoshop 專用外掛、獨立 ffmpeg 轉檔工具、紋理預設與資訊不足的 Organizer | 2 筆新增、20 筆略過；最新總筆數 2,901 |
 
 ## 官方來源技巧
 

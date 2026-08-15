@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2899 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2901 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1317,6 +1317,8 @@ Totonoe Skin Retouch｜BOOTH｜plugin｜stylize｜同時支援 Premiere Pro 與 
 AE To Blender Velocity Tools｜BOOTH｜script｜workflow｜After Effects 與 Blender 動畫交換工具，將 AE 製作的 Velocity／緩急透過 Alembic 匯出與匯入，使 Blender 動畫能重現相同的動態速度。｜https://booth.pm/ja/items/6496001
 任意の回数ループアニメーション｜BOOTH｜script｜animation｜After Effects JSX 腳本，可將選取屬性的關鍵影格循環指定次數後停止，支援 Cycle、Pingpong、Offset 三種循環方式，也能作為面板使用。｜https://booth.pm/ja/items/6090177
 Multiframe 100 to 0 Strobe｜BOOTH｜script｜animation｜After Effects 腳本，對選取圖層加入每一幀 100% 到 0% 交替的不透明度閃爍效果，支援不同幀率並可快速建立連續 Strobe 動畫。｜https://booth.pm/ja/items/5401710
+HoTo Movie Color Palette｜BOOTH｜script｜color｜支援 Premiere Pro 與 After Effects 的色彩管理面板，可登錄與管理常用顏色，適合字幕、圖形與動態設計工作流程中快速套用色彩。｜https://booth.pm/ja/items/8507596
+Sound Panel｜BOOTH｜script｜audio｜支援 Premiere Pro 與 After Effects 的音素材管理面板，可快速搜尋、預覽並配置常用 BGM 與 SE，減少反覆開啟資料夾尋找聲音檔案的操作。｜https://booth.pm/ja/items/8507580
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
