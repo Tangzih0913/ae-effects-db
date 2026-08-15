@@ -1878,6 +1878,12 @@ booth-6433047	MuteAudio 只對選取圖層切換音訊，功能過窄
 booth-6458491	AutoRename 只複製合成並依數字命名，功能過窄
 booth-5743926	Parent Link 只切換相鄰圖層父子關係，功能過窄且與既有 parent 工具重疊
 booth-8088353	FramePosition 只改變影片檔播放速度，功能過窄且缺乏完整 AE 工具說明
+booth-6311894	FrameToNullComment 只把圖層起始影格寫入 Null marker，功能過窄
+booth-7888632	集中線文字動畫是 AE 操作食譜／教學商品，不是獨立工具
+booth-6697444	WatermarkGen 官方頁缺乏足夠功能與操作描述，無法建立可靠條目
+booth-7727304	InOutPointAdjuster 官方頁缺乏足夠功能與操作描述，無法建立可靠條目
+booth-6647536	Crop Tool 官方頁僅標示 2D Layer，功能與相容性說明不足
+booth-7010425	3dsmax 渲染輸出腳本，非 After Effects host
 booth-4870460	Remove Text Animator 只重現 AE 內建「移除所有文字動畫器」命令，無需另收錄
 booth-4151107	只是啟動 After Effects 英文版的空白文字檔，非 AE 工具
 booth-5639699	Motion Graphics 習作 #3 是限制研究／練習用途的 AEP 專案檔，非可安裝工具

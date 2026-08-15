@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2818 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2828 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1236,6 +1236,16 @@ Parallax Controls｜BOOTH｜script｜3d｜自動依相機與畫面比例設定�
 FolderToComp｜BOOTH｜script｜workflow｜批次處理專案資料夾中的媒體檔案，為素材建立新的合成並依序排列，適合把大量匯入素材快速轉成可管理的合成結構。｜https://booth.pm/ja/items/6748242
 Switch It｜BOOTH｜script｜workflow｜以關鍵字搜尋圖層效果並批次切換開關或刪除，適合在大型合成中快速定位指定效果、清理效果堆疊與建立可重複的整理工作流。｜https://booth.pm/ja/items/7176220
 Text Repeater｜BOOTH｜plugin｜mograph｜以 Repeat、Circular、Random、Grid 四種模式複製並排列文字或圖形，Grid 模式可讀取亮度圖控制位置、縮放、旋轉與不透明度，另提供不需預合成的全域變形控制。｜https://booth.pm/ja/items/8231771
+MoveLayerIndex｜BOOTH｜script｜workflow｜將選取的一個或多個圖層移動到指定的圖層索引位置，適合把新建立的 Shape 或其他圖層快速放入指定堆疊順序，並可由 KBar 或快捷鍵呼叫。｜https://booth.pm/ja/items/6506084
+Piano Keyboard｜BOOTH｜script｜audio｜在可視化鋼琴鍵盤上輸入旋律，再將演奏結果送入 After Effects，適合以鍵盤快速建立音樂、節奏與音訊反應動畫素材。｜https://booth.pm/ja/items/7001880
+LayerFolders｜BOOTH｜script｜workflow｜不用預合成即可在時間軸把圖層分組成疑似資料夾，支援群組命名、批次顯示／隱藏、Solo 與保護操作，並核實支援 macOS／Windows 與 After Effects 2025／2026。｜https://booth.pm/ja/items/8499800
+Marker Manager｜BOOTH｜script｜workflow｜列出合成、圖層與整個專案的 Marker，支援搜尋取代、顏色／時間／內容編輯、選取刪除、雙擊跳轉，以及 Marker 匯入與匯出。｜https://booth.pm/ja/items/7939711
+ImageSlideshow_GUI｜BOOTH｜script｜workflow｜以 After Effects 面板快速建立圖片幻燈片合成，能逐張設定顯示順序、顯示時間、位置、尺寸與切換效果，並自動生成完整 slideshow composition。｜https://booth.pm/ja/items/8367227
+SS AddShapes｜BOOTH｜script｜generate｜以 ScriptUI 面板一鍵新增帶背景的文字圖層、圓形／方形 Shape 與 Null Layer，並可選擇以 3D 狀態建立，適合快速搭建字幕與圖形元件。｜https://booth.pm/ja/items/6726175
+Position Separate｜BOOTH｜script｜workflow｜以面板一鍵對多個選取圖層執行 Position 分離維度，省去逐層開啟屬性與右鍵操作，適合大量圖層的 motion graphics 動畫整理。｜https://booth.pm/ja/items/8071384
+Link Same Position｜BOOTH｜script｜rigging｜從選取圖層中找出相同位置的圖層並自動分組、建立父子連結，會以最新圖層作為父層，適合 UI 動畫、模板與大量圖層整理。｜https://booth.pm/ja/items/8071421
+TextCase｜BOOTH｜script｜text｜批次轉換文字圖層的英文大小寫，支援全大寫、全小寫、單詞首字大寫、行首大寫、每單詞或每逗點換行，並可保留原有文字樣式設定。｜https://booth.pm/ja/items/6561167
+RTTTL Tone Converter｜BOOTH｜script｜audio｜以 RTTTL 語法輸入旋律並傳送到 After Effects，適合快速建立音調序列、音樂視覺化與節奏動畫的基礎資料。｜https://booth.pm/ja/items/7005735
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html

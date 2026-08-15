@@ -80,6 +80,7 @@ KIND_OVERRIDES = {
     "Auto Transition": "script",
     "CenterAlign2Comp": "script",
     "Parallax Controls": "script",
+    "RTTTL Tone Converter": "script",
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",
