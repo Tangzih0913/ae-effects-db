@@ -1656,3 +1656,9 @@ verticaleditingtools	官方產品頁明列僅支援 Final Cut Pro，非 After Ef
 grungeeffects	官方頁雖列出 After Effects，但內容主體是 overlays 素材包，且缺乏足夠的獨立工具功能說明，依純素材包排除規則略過
 sphere-utilities	官方產品頁列為包含四個球面工具的 package，且個別工具名稱與功能頁無法取得；依不收整包規則略過
 skybox-studio-v2	官方產品頁明示為 3 scripts + 4 plugins 的 360／VR workflow solution，屬套件而非單一工具，依不收整包規則略過
+fold	官方產品頁返回 Page not found，現行官方資料不足以核實 After Effects 功能與狀態
+geode	官方產品頁返回 Page not found，現行官方資料不足以核實 After Effects 功能與狀態
+hawaikianalyzer	官方產品頁明示 This product is no longer available，非現行可收錄工具
+hawaikiautograde	官方產品頁明示 This product is no longer available，非現行可收錄工具
+hawaikiautomatch	官方產品頁明示 This product is no longer available，非現行可收錄工具
+hawaikikeyer4	官方頁明示已有較新的 Hawaiki Keyer 5，收錄現行版本而不重複加入舊版
