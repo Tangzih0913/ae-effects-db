@@ -126,7 +126,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | `third-party.jsonl` | 457 | 457（122 個 look 全部翻譯） | ✅ 100% |
 | `sapphire.jsonl` | 301 | 301（188 個 look 全部翻譯） | ✅ 100% |
 | `continuum.jsonl` | 345 | 345（326 個 look 全部翻譯） | ✅ 100% |
-| `red-giant.jsonl` | 34 | 4（featured 批次） | 進行中 |
+| `red-giant.jsonl` | 34 | 34（Trapcode／Magic Bullet／VFX Suite 全數） | ✅ 100% |
 | `universe.jsonl` | 99 | 2（featured 批次） | 進行中 |
 | `booth.jsonl` | 359 | 0 | 待翻譯 |
 | `installed.jsonl` | 40 | 0 | 待翻譯 |
@@ -135,10 +135,10 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 
 方針：
 
-- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交）。
+- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交），第七批為 `red-giant` 全數（同日完成並提交）。
 - 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
 - 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
-- 建議下一個優先順序：`red-giant.jsonl`（34 筆，Maxon 官方文件齊全），再 `universe.jsonl`（99 筆）；最後再處理量最大的 `booth.jsonl`（359 筆）。
+- 建議下一個優先順序：`universe.jsonl`（99 筆，Maxon 官方文件齊全），最後再處理量最大的 `booth.jsonl`（359 筆）。
 
 ## 官方來源技巧
 
