@@ -167,6 +167,8 @@ KIND_OVERRIDES = {
     "3Dレイヤー選択→プリコンポしてメッシュワープ": "script",
     "JapyTextEngine": "plugin",
     "シェイプを横移動させるだけの仕組みセット": "script",
+    "SmartImport": "script",
+    "Salis_OpenFileLocation": "script",
     "NGS_EaseCraft": "script",
     "BPMc": "script",
     "MojiFlow": "script",
