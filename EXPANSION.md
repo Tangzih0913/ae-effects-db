@@ -114,6 +114,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 75 | BOOTH `After Effects`／`AfterEffects`／`AE` 加上 `スクリプト` 標籤的交叉掃描 | —；`After Effects`／`AfterEffects` 的 360 筆結果僅有 2 筆既有未決商品，`AE` 交叉結果另混入其他 Adobe／3D／VR 平台工具 | 2 筆 Premiere／Illustrator、8 筆 Photoshop、2 筆 AviUtl、1 筆 Maya、10 筆 Unity／VRChat 與 1 筆 AE host 無法核實的改變檔 | 0 筆新增、24 筆略過；最新總筆數 2,936 |
 | 76 | BOOTH `After Effects Plugin`／`プラグイン` 交叉搜尋 | **8Bit PixCam**；確認其為與 NeSprite 不同、鎖定四色灰階色盤的 Game Boy Pocket Camera 風格 AE 點陣外掛後加入 `booth.jsonl` | 其餘結果仍在逐頁核實；已確認的項目多為 Premiere／Photoshop／Unity／VRChat 工具、MOGRT、AEP 或影像素材 | 1 筆新增；最新總筆數 2,937 |
 | 77 | BOOTH `AfterEffects プラグイン` 搜尋的舊商品逐頁核實 | —；唯一具體 AE 外掛 **8Bit PixCam** 已在前批收錄 | 8 筆 AEP／模板／教學專案、3 筆影片／背景素材、3 筆 3D／CG 素材與 1 本 Adobe XD 教材 | 0 筆新增、16 筆略過；最新總筆數 2,937 |
+| 78 | BOOTH `After Effects JSX`／`ScriptUI`／`CEP` 交叉搜尋 | **moji_marker_cut、TextAnimator、カットナンバー増分スクリプト、StairTrim**；確認 Marker 切層、文字閃爍／字距動畫、V コン鏡頭號碼遞增與階梯錯開／Colorama 輔助等 ScriptUI 工作流後加入 `booth.jsonl` | 1 筆圖層命名流程重複、1 筆 Photoshop plugin、1 本 Photoshop JSX PDF 與 10 筆 Premiere 專用 CEP／素材工具 | 4 筆新增、13 筆略過；最新總筆數 2,941 |
 
 ## 官方來源技巧
 

@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2937 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2941 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1355,6 +1355,10 @@ JapyTextEngine｜BOOTH｜plugin｜text｜After Effects 文字外掛，直接從�
 SmartImport｜BOOTH｜script｜workflow｜After Effects 素材匯入整理腳本，遞迴掃描資料夾並只匯入尚未加入專案的最新影片，將素材依資料夾結構整理，避免重複匯入與專案面板混亂。｜https://booth.pm/ja/items/8369395
 Salis_OpenFileLocation｜BOOTH｜script｜workflow｜After Effects 素材管理腳本，可從 Project Panel 或合成內選取的圖層一鍵開啟原始素材所在資料夾，支援 Windows、macOS 與 Linux，方便追查及替換檔案。｜https://booth.pm/ja/items/6469332
 8Bit PixCam｜BOOTH｜plugin｜stylize｜After Effects 點陣風格外掛，以 Game Boy Pocket Camera 為靈感將影片轉成受限於四色灰階色盤的低解析像素影像，適合復古遊戲、8-bit MV 與監視器感畫面。｜https://booth.pm/ja/items/6617610
+moji_marker_cut｜BOOTH｜script｜workflow｜After Effects ScriptUI 腳本，依合成中的 Marker 把選取圖層切成多個片段，快速將素材切齊節奏點、字幕段落或鏡頭標記。｜https://booth.pm/ja/items/6498696
+TextAnimator｜BOOTH｜script｜text｜After Effects 文字動畫腳本，可一鍵替文字圖層加入閃爍、跳格 Wiggle 與字距變化動畫，適合快速製作歌詞、標題與節奏感文字演出。｜https://booth.pm/ja/items/6766455
+カットナンバー増分スクリプト｜BOOTH｜script｜workflow｜After Effects 前期製作腳本，從選取文字圖層找出數字後加一並建立相連的新文字圖層，同步更新圖層名稱，方便連續編排 V コン或 Animatic 的鏡頭號碼。｜https://booth.pm/ja/items/5856209
+StairTrim｜BOOTH｜script｜animation｜After Effects 動畫輔助腳本，自動將圖層做階梯式或隨機錯開配置，並協助複製與調整 Colorama 等色彩效果，縮短時間軸排列與演出調整流程。｜https://booth.pm/ja/items/6813075
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
