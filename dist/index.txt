@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2676 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2677 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2579,6 +2579,7 @@ PSOFT CelFX｜第三方｜plugin｜art｜為 After Effects 數位動畫合成提
 PSOFT anti-aliasing｜第三方｜plugin｜restore｜在 After Effects 中平滑影像輪廓與色彩鋸齒，提供 color threshold、softness、bias 與 color key 控制，支援 8／16／32 bpc 與 AE render engine 模式。｜https://www.psoft.co.jp/en/product/anti-aliasing/ae/
 PSOFT Pencil+ 4 Line｜第三方｜plugin｜art｜把 Pencil+ 4 輸出的 PLD 線稿帶入 After Effects 編輯，可調整線條組、厚度、透明度、顏色、Z Depth、Screen Effect、Rendering Scale、Map Layer 與 Distortion，無須回 3D 軟體重算。｜https://www.psoft.co.jp/en/product/pencil/ae/
 Flow｜第三方｜plugin｜generate｜在 After Effects 中以程序化流動設計建立有機運動與生成式圖形，可用於抽象背景、動態線條、流場與具有節奏感的 motion graphics。｜https://fxfactory.com/info/zflow/
+Smart Blur｜第三方｜plugin｜blur｜以 AI 輔助在 After Effects 中提供 Action Blur、Motion Blur、Object Focus 與 Depth of Field 四種效果，能依主體與深度預測產生動態模糊、背景柔焦與電影感景深。｜https://fxfactory.com/info/smartblur/
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum
