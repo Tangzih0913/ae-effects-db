@@ -1656,8 +1656,6 @@ verticaleditingtools	官方產品頁明列僅支援 Final Cut Pro，非 After Ef
 grungeeffects	官方頁雖列出 After Effects，但內容主體是 overlays 素材包，且缺乏足夠的獨立工具功能說明，依純素材包排除規則略過
 sphere-utilities	官方產品頁列為包含四個球面工具的 package，且個別工具名稱與功能頁無法取得；依不收整包規則略過
 skybox-studio-v2	官方產品頁明示為 3 scripts + 4 plugins 的 360／VR workflow solution，屬套件而非單一工具，依不收整包規則略過
-fold	官方產品頁返回 Page not found，現行官方資料不足以核實 After Effects 功能與狀態
-geode	官方產品頁返回 Page not found，現行官方資料不足以核實 After Effects 功能與狀態
 hawaikianalyzer	官方產品頁明示 This product is no longer available，非現行可收錄工具
 hawaikiautograde	官方產品頁明示 This product is no longer available，非現行可收錄工具
 hawaikiautomatch	官方產品頁明示 This product is no longer available，非現行可收錄工具
@@ -1705,3 +1703,11 @@ dagger	原廠產品頁只列 Premiere Pro 2020+，功能是搜尋與套用 video
 cauldron	原廠產品頁與 Manuscript 文件只列 Premiere Pro 2020+，功能是批次產生 sequences，沒有 After Effects host 證據；依專案標準略過
 auto-subtitles	AEJuice 原廠頁明列 After Effects，但與同廠收錄候選 Auto Captions 同為 AI 語音轉同步／動態字幕，功能高度重疊；本輪保留具 batch processing、brand settings、custom dictionary 與更多 caption controls 的 Auto Captions，避免直接複製
 quick-folders	AEJuice 原廠免費工具頁明列 After Effects，可一鍵開啟 projects、scripts、plugins 與 render folders；用途與剛收錄的 Portal (Knights of the Editing Table) 的收藏資料夾、絕對／相對路徑與拖放功能高度重疊，暫不另立條目
+captionconverter	FxFactory 原廠頁明示為 macOS standalone app，詳細 host 僅列 Final Cut Pro，非 After Effects plugin
+supawipe	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+pattr	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+decimalcounter	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+1mattemask	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+blasterbolt	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+filmtransitions	FxFactory 原廠頁明列 After Effects 但標示 This product is no longer available，屬停售工具
+magiccaptions	FxFactory 原廠頁明確稱為 Final Cut Pro workflow extension，Works in 僅列 Final Cut Pro，非 After Effects host
