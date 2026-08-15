@@ -131,14 +131,14 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | `booth.jsonl` | 359 | 0 | 待翻譯 |
 | `installed.jsonl` | 40 | 40（本機安裝辨識工具全數） | ✅ 100% |
 | `recipes.jsonl` | 35 | 35（畫面感與效果堆疊配方全數） | ✅ 100% |
-| `gumroad.jsonl` | 5 | 0 | 待翻譯 |
+| `gumroad.jsonl` | 5 | 5（Gumroad 獨立工具全數） | ✅ 100% |
 
 方針：
 
-- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交），第七批為 `red-giant` 全數（同日完成並提交），第八批為 `universe` 全數（同日完成並提交），第九批為 `installed` 全數（同日完成並提交），第十批為 `recipes` 全數（同日完成並提交）。
+- 第一批先譯 `curation/popularity.json` 的 featured 46 筆（2026-08-15 完成並提交），第二批為 `builtin-ae` 全數（同日完成並提交），第三批為 `aescripts` 全數（同日完成並提交），第四批為 `third-party` 全數（同日完成並提交），第五批為 `sapphire` 全數（同日完成並提交），第六批為 `continuum` 全數（同日完成並提交），第七批為 `red-giant` 全數（同日完成並提交），第八批為 `universe` 全數（同日完成並提交），第九批為 `installed` 全數（同日完成並提交），第十批為 `recipes` 全數（同日完成並提交），第十一批為 `gumroad` 全數（同日完成並提交）。
 - 翻譯逐筆人工撰寫，不得以未審核的機器翻譯充數；譯文保留產品名、避免中國用語，日文以 AE 官方日文文件用語為準。
 - 每批完成後依「完整驗證」跑一輪，重建 `dist/` 並遞增 `index.html` 的 `ASSET_VERSION`。
-- 建議下一個優先順序：`gumroad.jsonl`（5 筆），最後再處理量最大的 `booth.jsonl`（359 筆）。
+- 建議下一個優先順序：`booth.jsonl`（359 筆，量最大，預計分多批完成）。
 
 ## 官方來源技巧
 
