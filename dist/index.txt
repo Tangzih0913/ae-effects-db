@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2706 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2711 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -2609,6 +2609,11 @@ Motion Bro｜第三方｜script｜animation｜在 After Effects 面板搜尋、�
 Watchtower｜第三方｜script｜workflow｜在 After Effects 監看硬碟資料夾並自動同步 Project bins，能匯入影像序列、展開子資料夾、保留模板相對路徑並標記匯入項目，適合持續更新的素材與 VFX 專案。｜https://knightsoftheeditingtable.com/watchtower
 Animation Composer｜第三方｜plugin｜animation｜在 After Effects 面板瀏覽、預覽並套用可自訂的動畫、轉場、標題、圖形與音效預設，並以 Keyframe Wingman、Keyframe Actions 和 Anchor Point Mover 加速日常動畫製作。｜https://misterhorse.com/animation-composer-for-after-effects
 Portal (Knights of the Editing Table)｜第三方｜script｜workflow｜從 After Effects 與其他 Adobe 應用程式快速開啟收藏資料夾，支援絕對／相對路徑與拖放，適合在素材、專案與輸出目錄間切換。｜https://knightsoftheeditingtable.com/portal
+Motion Tools Classic｜第三方｜script｜workflow｜在 After Effects 以輕量工具組處理緩動、錨點、圖層排序、表達式效果與形狀圖層整理，適合日常動態設計與快速動畫調整。｜https://motiondesign.school/products/motion-tools-classic/
+Auto Captions｜第三方｜script｜text｜在 After Effects 以 AI 從影片語音擷取文字並產生同步動態字幕，支援多語言、品牌設定、自訂字典與批次處理，適合社群影片與教學內容。｜https://aejuice.com/product/auto-captions/
+Voiceover AI｜第三方｜script｜audio｜在 After Effects 以 70 多種自然語音把文字轉成配音並直接匯入音訊，另可轉錄與分析影音，適合旁白、廣告、教學與社群影片製作。｜https://aejuice.com/product/voiceover-ai/
+Copy Ease｜第三方｜script｜workflow｜在 After Effects 複製並套用不同動畫的速度圖與關鍵幀速度，支援快捷鍵與自訂設定，適合跨圖層重用緩動和統一動畫節奏。｜https://aejuice.com/product/copy-ease/
+AEJuice Toolbar｜第三方｜script｜workflow｜在 After Effects 建立可拖放排列的自訂工具列，能呼叫選單指令、表達式腳本、程序、效果與預設，適合把常用工作流集中成一鍵按鈕。｜https://aejuice.com/free-plugins/
 Bokeh｜Universe｜plugin｜blur-glow｜為畫面加上真實鏡頭散景失焦效果，模擬淺景深/對焦呼吸，亮部化成柔和光斑。｜https://www.maxon.net/en/product-detail/red-giant/universe/bokeh
 Glow｜Universe｜plugin｜blur-glow｜柔和輝光，讓亮部往外擴散發光；可只針對指定顏色發光(如只讓紅色霓虹發亮)。｜https://www.maxon.net/en/product-detail/red-giant/universe/glow
 Quantum｜Universe｜plugin｜blur-glow｜在物體前方或後方生成動態光軌拖尾，適合文字、圖形、Logo的能量掃尾。｜https://www.maxon.net/en/product-detail/red-giant/universe/quantum

@@ -1703,3 +1703,5 @@ excalibur	原廠產品頁只列 Premiere Pro 2020+，雖是 effects／presets／
 quiver	原廠產品頁只列 Premiere Pro 2020+，功能是 timeline clip 加入／替換快捷工具，沒有 After Effects host 證據；依專案標準略過
 dagger	原廠產品頁只列 Premiere Pro 2020+，功能是搜尋與套用 video／audio effects，沒有 After Effects host 證據；依專案標準略過
 cauldron	原廠產品頁與 Manuscript 文件只列 Premiere Pro 2020+，功能是批次產生 sequences，沒有 After Effects host 證據；依專案標準略過
+auto-subtitles	AEJuice 原廠頁明列 After Effects，但與同廠收錄候選 Auto Captions 同為 AI 語音轉同步／動態字幕，功能高度重疊；本輪保留具 batch processing、brand settings、custom dictionary 與更多 caption controls 的 Auto Captions，避免直接複製
+quick-folders	AEJuice 原廠免費工具頁明列 After Effects，可一鍵開啟 projects、scripts、plugins 與 render folders；用途與剛收錄的 Portal (Knights of the Editing Table) 的收藏資料夾、絕對／相對路徑與拖放功能高度重疊，暫不另立條目
