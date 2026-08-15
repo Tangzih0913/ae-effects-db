@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2962 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2963 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1998,6 +1998,7 @@ DIIS｜Gumroad｜script｜stylize｜在 Adobe AE 2024+ 以像素式合成工作�
 EaseCurve for After Effects｜Gumroad｜script｜animation｜在 Adobe AE 2020+ 以即時預覽編輯可分段的 Bézier 緩動並烘焙 Position 過衝，同時提供形狀路徑循環、九宮格錨點重定位與可調彈性表達式，適合統一關鍵影格節奏及處理循環動畫。｜https://animafx.gumroad.com/l/curve
 DoCharts｜Gumroad｜script｜mograph｜以可停駐 JSXBIN 面板建立可客製的長條圖，能調整位置、間距、尺寸、配色、動畫與錯開時序等二十多項控制，適合資訊圖表、簡報數據與動態統計畫面。｜https://rodrigoaben.gumroad.com/l/do_charts
 superSelect - for After Effects｜Gumroad｜script｜workflow｜以 JSXBIN 面板或 KBar 依選取屬性快速在所選圖層、相同父層或整個合成中選取相同屬性或數值，並直接在 Timeline 揭露屬性，適合跨大量圖層同步修改與建立動畫。｜https://1resonant.gumroad.com/l/CptBs
+Find and Replace in Expressions｜Gumroad｜script｜expression｜以可停駐視窗在 After Effects 的表達式中尋找並批次取代指定文字，適合改變屬性引用、變數、命名規則或重構大量既有 expression，而不必逐層開啟修改。｜https://troyyarnell.gumroad.com/l/jjQvQ
 Topaz Video AI｜未驗證｜plugin｜restore｜AI影片修復增強引擎：把低解析素材放大到4K/8K、去噪點與壓縮塊、去交錯、光流補幀做慢動作/轉高幀率。老片翻新、手機素材救畫質的首選。｜https://www.topazlabs.com/topaz-video-ai
 Fast Camera Lens Blur｜未驗證｜plugin｜blur｜GPU加速的高品質鏡頭散景/景深模糊，可自訂光圈葉片形狀、邊緣高光溢出(bloom)與色差，散景比AE內建更真實。做淺景深、失焦背景。｜https://aescripts.com/fast-camera-lens-blur/
 Crate's Godrays｜未驗證｜plugin｜light｜免費：快速漂亮的體積光/放射光束，在畫面點一下設定發光點，調整光線長度、曝光、衰減與色差。從自然雲隙光到探照燈、全息光束都行。｜https://www.productioncrate.com/plugins/crates-easy-godrays
