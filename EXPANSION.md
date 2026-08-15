@@ -100,6 +100,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 61 | BOOTH AfterEffects 深頁 13–18 的 AEP／模板／素材候選清理 | —；頁 19–24 已無新的未知商品，對頁 13–18 逐項確認後將 **AEP 專案、影片 OP 模板、Motion Graphics 展示、Element 3D OBJ、影片與成品動畫素材** 登錄到跳過清單 | 37 筆均為專案檔、模板、模型、影片或成品動畫，非可獨立安裝／執行的 After Effects 工具 | 0 筆新增、37 筆略過；最新總筆數 2,895 |
 | 62 | totonoe-plugin、emmaofficial、あおみデザインスタジオ、renderscript 等 BOOTH 作者頁補充核實 | **Totonoe Skin Retouch、AE To Blender Velocity Tools、任意の回数ループアニメーション、Multiframe 100 to 0 Strobe**；確認肌膚偵測修飾、AE／Blender Alembic 速度交換、指定次數循環與逐幀 Strobe 不透明度腳本用途後加入 `booth.jsonl` | 影片／音訊轉換桌面程式、FFX／Layer Style 預設、AEP／教學專案與 PNG／AI 素材 | 4 筆新增、8 筆略過；最新總筆數 2,899 |
 | 63 | HoTo Movie、ITO Movie Studio、hanamuradesign、battlerssoftware、Reflex Frames 等 BOOTH 商品頁交叉核實 | **HoTo Movie Color Palette、Sound Panel**；確認跨 Premiere Pro／After Effects 的色彩管理面板與 BGM／SE 音素材搜尋配置面板後加入 `booth.jsonl` | MOV／MP4／AEP 素材與模板、Photoshop 專用外掛、獨立 ffmpeg 轉檔工具、紋理預設與資訊不足的 Organizer | 2 筆新增、20 筆略過；最新總筆數 2,901 |
+| 64 | Guild、Shiasa、Telop Design Lab、PURTON、ぶれんどあ〜と、fried-potato.club 等 BOOTH 商品頁補充核實 | —；確認 Grid、X Y Scale、Marker Counter、文字卡頓均為 `.ffx` 預設，另確認 VHS、效果線、3D Cube、Call Out、Shape 與泡泡為模板／AEP／影片素材 | 10 筆均非可獨立安裝／執行的 After Effects 腳本或外掛 | 0 筆新增、10 筆略過；最新總筆數 2,901 |
 
 ## 官方來源技巧
 
