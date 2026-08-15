@@ -71,6 +71,18 @@ class LocalizationContractTests(unittest.TestCase):
         self.assertIn("Official product spelling", policy["product_names"])
         self.assertIn("Traditional Chinese", policy["descriptions"])
 
+    def test_localized_descriptions_are_complete_and_actually_translated(self):
+        translated = [row for row in self.rows if row.get("desc_en") or row.get("desc_ja")]
+        self.assertGreaterEqual(len(translated), 40)
+        for row in translated:
+            self.assertTrue(row.get("desc_en"), f"{row['name']} 缺 desc_en")
+            self.assertTrue(row.get("desc_ja"), f"{row['name']} 缺 desc_ja")
+            self.assertNotEqual(row["desc_en"], row["desc"], f"{row['name']} desc_en 未翻譯")
+            self.assertNotEqual(row["desc_ja"], row["desc"], f"{row['name']} desc_ja 未翻譯")
+            if row.get("look"):
+                self.assertTrue(row.get("look_en"), f"{row['name']} 缺 look_en")
+                self.assertTrue(row.get("look_ja"), f"{row['name']} 缺 look_ja")
+
 
 if __name__ == "__main__":
     unittest.main()

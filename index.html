@@ -259,7 +259,7 @@
 <script src="i18n.js?v=2026-08-14-1"></script>
 <script>
 const FILES = ["red-giant","universe","sapphire","continuum","builtin-ae","aescripts","third-party","booth","gumroad","installed","recipes"];
-const ASSET_VERSION = "2026-08-15-35";
+const ASSET_VERSION = "2026-08-15-36";
 let LANG=(()=>{const value=new URL(location.href).searchParams.get("lang");return ["en","ja"].includes(value)?value:"zh";})();
 const localeData=()=>AE_I18N.locales[LANG]||AE_I18N.locales.zh;
 function t(key,vars={}){let value=localeData().messages[key]??AE_I18N.locales.zh.messages[key]??key;return String(value).replace(/\{(\w+)\}/g,(_,name)=>vars[name]??"");}
@@ -289,6 +289,8 @@ function localizedOfficialUrl(value){
   return LOCALIZATION_CONFIG.localized_urls?.[value]?.[LANG]||value;
 }
 function hasLocalizedOfficialUrl(value){return Boolean(value&&localizedOfficialUrl(value)!==value);}
+function localField(d,field){return d[field+"_"+LANG]||d[field]||"";}
+function needsOriginal(d){return LANG!=="zh"&&!d["desc_"+LANG];}
 function officialCategory(d){
   if(d.kind!=="builtin"||!d.url)return null;
   let url;try{url=new URL(d.url);}catch(_){return null;}
@@ -520,7 +522,7 @@ function syncState(){
 }
 
 function hayRaw(d){
-  let s=[d.name,d.kind,KIND_LABEL[d.kind],d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" ")];
+  let s=[d.name,d.kind,KIND_LABEL[d.kind],d.cat,d.desc,d.look,d.suite,d.vendor,(d.tags||[]).join(" "),(d.stack||[]).join(" "),d.desc_en||"",d.desc_ja||"",d.look_en||"",d.look_ja||""];
   if(d.variants){s.push(Object.keys(d.variants).join(" "));s.push(Object.values(d.variants).join(" "));}
   return s.join(" ");
 }
@@ -728,7 +730,7 @@ function render(preserveLimit=false){
     const adobeBadge=adobe?`<a class="officialbadge" href="${esc(adobe.source)}" target="_blank" rel="noopener" title="${esc(t("adobeCategory"))}">Adobe · ${esc(adobe.label)}</a>`:"";
     const popularityTitle=t("popularityTitle",{...popularity,order:popularity.curatedOrder});
     const date=d._date?`<span class="datebadge" title="${esc(t("dateSourceTitle",{url:d.date_url||d.url}))}">${esc(d.updated?t("updated"):t("released"))} ${esc(d._date)}</span>`:"";
-    const original=LANG==="zh"?"":`<small class="original-label">${esc(t("descriptionOriginal"))}</small>`;
+    const original=needsOriginal(d)?`<small class="original-label">${esc(t("descriptionOriginal"))}</small>`:"";
     return `<div class="card kind-${kind}"><div class="top">
         ${nameHtml}
         <span class="kindbadge kind-${kind}">${esc(KIND_LABEL[kind]||kind)}</span>
@@ -736,7 +738,7 @@ function render(preserveLimit=false){
         <span class="popscore" title="${esc(popularityTitle)}">${esc(t("popularity",{score:popularity.total}))}</span>
         <span class="src">${esc(origin)}</span>
         <span class="cardactions"><button type="button" data-detail="${esc(itemKey(d))}">${esc(t("details"))}</button><button class="${compared?"on":""}" type="button" data-compare="${esc(itemKey(d))}" aria-pressed="${compared}">${esc(compared?t("compareSelected"):t("compare"))}</button><button class="favbtn${favorite?" on":""}" type="button" data-favorite="${esc(itemKey(d))}" aria-pressed="${favorite}" title="${esc(favorite?t("removeFavorite"):t("addFavorite"))}" aria-label="${esc(t("favoriteLabel",{name:d.name}))}">${favorite?"★":"☆"}</button></span></div>
-      <div class="desc">${hl(d.desc||"",highlightTerms)}${original}</div>
+      <div class="desc">${hl(localField(d,"desc"),highlightTerms)}${original}</div>
       ${stack}${vars}<div class="tags">${tags}</div></div>`;
   }).join("") + (list.length>visibleLimit
     ? `<button id="loadMore" class="more" type="button">${esc(t("showMore",{count:list.length-visibleLimit}))}</button>`:"");
@@ -771,13 +773,13 @@ function openDetail(key,updateUrl=true){
   const variants=d.variants?`<h3>${esc(t("variants"))}</h3>${detailList(Object.entries(d.variants).map(([name,label])=>`${name} · ${label}`))}`:"";
   const stack=d.stack?`<h3>${esc(t("effectStack"))}</h3><ol>${d.stack.map(value=>`<li>${esc(value)}</li>`).join("")}</ol>${d.builtin?`<p><b>${esc(t("builtinAlternative"))}</b> ${esc(d.builtin)}</p>`:""}`:"";
   const date=d._date?`<p><b>${esc(d.updated?t("latestUpdate"):t("firstRelease"))}：</b>${esc(d._date)} · <a href="${esc(localizedOfficialUrl(d.date_url||d.url))}" target="_blank" rel="noopener">${esc(t("dateSource"))}</a></p>`:"";
-  const original=LANG==="zh"?"":`<small class="original-label">${esc(t("descriptionOriginal"))}</small>`;
+  const original=needsOriginal(d)?`<small class="original-label">${esc(t("descriptionOriginal"))}</small>`:"";
   const adobe=officialCategory(d);
   const adobeBadge=adobe?`<a class="officialbadge" href="${esc(adobe.source)}" target="_blank" rel="noopener" title="${esc(t("adobeCategory"))}">${esc(t("adobeCategory"))} · ${esc(adobe.label)}</a>`:"";
   const officialUrl=localizedOfficialUrl(d.url),localizedOfficial=hasLocalizedOfficialUrl(d.url);
   document.getElementById("detailBody").innerHTML=`
     <div class="detailmeta"><span class="kindbadge kind-${esc(d.kind)}">${esc(KIND_LABEL[d.kind]||d.kind)}</span><span class="catbadge" title="${esc(t("siteCategoryTitle"))}">${esc(t("functionalCategory"))} · ${esc(CAT_LABEL[d.cat]||d.cat)}</span>${adobeBadge}<span class="catbadge">${esc(origin)}</span></div>
-    <p>${esc(d.desc)}${original}</p>${d.look?`<p><b>${esc(t("appearance"))}</b> ${esc(d.look)}${original}</p>`:""}${date}${variants}${stack}
+    <p>${esc(localField(d,"desc"))}${original}</p>${localField(d,"look")?`<p><b>${esc(t("appearance"))}</b> ${esc(localField(d,"look"))}${original}</p>`:""}${date}${variants}${stack}
     <h3>${esc(t("searchTags"))}</h3>${detailList(d.tags||[])}
     <h3>${esc(t("popularityHeading",{score:pop.total}))}</h3><div class="popbreak"><span><b>${pop.featured}</b>${esc(t("featured"))}</span><span><b>${pop.source}</b>${esc(t("sourceWeight"))}</span><span><b>${pop.quality}</b>${esc(t("dataQuality"))}</span><span><b>${pop.recency}</b>${esc(t("recentUpdate"))}</span><span><b>${pop.curatedOrder}</b>${esc(t("curatedOrder"))}</span></div>
     <div class="detailactions"><a href="${esc(officialUrl)}" target="_blank" rel="noopener">${esc(t(localizedOfficial?"localizedOfficialPage":"officialPage"))}</a><button type="button" data-favorite="${esc(key)}">${esc(FAVORITES.has(key)?t("removeFavorite"):t("addFavorite"))}</button><button type="button" data-compare="${esc(key)}">${esc(COMPARE.has(key)?t("removeCompare"):t("addCompare"))}</button><button type="button" data-share-detail="${esc(key)}">${esc(t("copyDetailUrl"))}</button></div>`;
@@ -788,7 +790,7 @@ function openCompare(){
   const rows=[...COMPARE].map(key=>DATA_BY_KEY.get(key)).filter(Boolean);if(rows.length<2)return;
   const fields=[
     ["fieldKind",d=>KIND_LABEL[d.kind]||d.kind],["fieldCategory",d=>CAT_LABEL[d.cat]||d.cat],["fieldAdobeCategory",d=>officialCategory(d)?.label||"—"],["fieldSource",d=>d.suite||d.vendor||SRC_LABEL[d._src]||d._src],
-    ["fieldUse",d=>d.desc],["fieldAppearance",d=>d.look||"—"],["fieldDate",d=>d._date||"—"],["fieldPopularity",d=>`${popularityScore(d)}/100`],
+    ["fieldUse",d=>localField(d,"desc")],["fieldAppearance",d=>localField(d,"look")||"—"],["fieldDate",d=>d._date||"—"],["fieldPopularity",d=>`${popularityScore(d)}/100`],
     ["fieldTags",d=>(d.tags||[]).slice(0,12).join(LANG==="en"?", ":"、")],["fieldOfficial",d=>`<a href="${esc(localizedOfficialUrl(d.url))}" target="_blank" rel="noopener">${esc(t("open"))}</a>`]
   ];
   const notice=LANG==="zh"?"":`<p class="language-note">${esc(t("languageNote"))}</p>`;

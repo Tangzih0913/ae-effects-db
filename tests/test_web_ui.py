@@ -73,6 +73,9 @@ class WebUiContractTests(unittest.TestCase):
         self.assertIn('descriptionOriginal', HTML)
         self.assertIn('Traditional Chinese original', I18N)
         self.assertIn('繁体字中国語の原文', I18N)
+        self.assertIn('localField', HTML)
+        self.assertIn('needsOriginal', HTML)
+        self.assertIn('desc_"+LANG', HTML)
 
 
 if __name__ == "__main__":

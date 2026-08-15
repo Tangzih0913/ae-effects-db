@@ -48,6 +48,8 @@ def search_text(item):
         item.get("desc", ""), item.get("look", ""), item.get("suite", ""),
         item.get("vendor", ""), " ".join(item.get("tags", [])),
         " ".join(item.get("stack", [])),
+        item.get("desc_en", ""), item.get("desc_ja", ""),
+        item.get("look_en", ""), item.get("look_ja", ""),
     ]
     variants = item.get("variants")
     if isinstance(variants, dict):

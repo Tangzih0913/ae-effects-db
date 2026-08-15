@@ -37,6 +37,22 @@
       "type": "string",
       "description": "（選填）畫面長什麼樣，一句描述外觀。"
     },
+    "desc_en": {
+      "type": "string",
+      "description": "（選填）desc 的英文翻譯。缺漏時英文介面顯示繁體中文原文並標註。"
+    },
+    "desc_ja": {
+      "type": "string",
+      "description": "（選填）desc 的日文翻譯。缺漏時日文介面顯示繁體中文原文並標註。"
+    },
+    "look_en": {
+      "type": "string",
+      "description": "（選填）look 的英文翻譯。"
+    },
+    "look_ja": {
+      "type": "string",
+      "description": "（選填）look 的日文翻譯。"
+    },
     "variants": {
       "type": "object",
       "additionalProperties": { "type": "string" },
