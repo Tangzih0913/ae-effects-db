@@ -1699,3 +1699,7 @@ maya-live-link	Adobe Exchange 最新 v1.0.5 僅列 AE 25.9；2026 使用者多�
 llm-assistant-premiere-after-effects	Adobe Exchange 的 project-context LLM、JavaScript expressions 與一般問答功能，與既有 Motionist AI Assistant 的 JSX、expressions、動畫與 quick actions 高度重疊；未有足夠獨立功能或作者訊號另立條目
 motion-array-extension	原廠明列為訂閱式素材、模板、preset 與 music library 的 Adobe panel；legacy plugin pack 已退休並改由 Library Extension 取代，屬素材／bundle workflow 而非獨立 AE 工具
 syncsketch-after-effects	SyncSketch 原廠只核實雲端 frame-accurate review、註記、3D model collaboration、API 與 webhooks，沒有官方 After Effects plugin、CEP／UXP panel 或 AE host／安裝證據
+excalibur	原廠產品頁只列 Premiere Pro 2020+，雖是 effects／presets／transitions workflow extension，但沒有 After Effects host 證據；依專案標準略過
+quiver	原廠產品頁只列 Premiere Pro 2020+，功能是 timeline clip 加入／替換快捷工具，沒有 After Effects host 證據；依專案標準略過
+dagger	原廠產品頁只列 Premiere Pro 2020+，功能是搜尋與套用 video／audio effects，沒有 After Effects host 證據；依專案標準略過
+cauldron	原廠產品頁與 Manuscript 文件只列 Premiere Pro 2020+，功能是批次產生 sequences，沒有 After Effects host 證據；依專案標準略過
