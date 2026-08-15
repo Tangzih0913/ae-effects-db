@@ -70,7 +70,7 @@ class WebUiContractTests(unittest.TestCase):
         self.assertIn('"グリッチ":["glitch"', I18N)
 
     def test_non_chinese_locales_label_curated_description_fallback(self):
-        self.assertIn('id="languageNote"', HTML)
+        self.assertIn('class="original-label"', HTML)
         self.assertIn('descriptionOriginal', HTML)
         self.assertIn('Traditional Chinese original', I18N)
         self.assertIn('繁体字中国語の原文', I18N)
