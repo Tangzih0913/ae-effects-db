@@ -1792,6 +1792,26 @@ booth-8644102	AE 預設與圖樣素材包，不是獨立外掛或腳本工具
 booth-8611641	Premiere Pro／After Effects 音效面板與色票 bundle，主要為混合工作流套件，缺乏獨立 AE 工具範圍
 booth-8558931	動畫合成範例 AEP 專案檔，屬素材／範例而非可安裝工具
 booth-8544598	Catatan 只標示支援 After Effects 2019 以上，官方頁缺乏功能描述
+booth-8039034	InertiaBones 是 Unity Editor 的 PhysBone 工具，非 After Effects host
+booth-4181501	色鉛筆 Sketch Shader 官方頁標示已停止支援，且為 Unity／素材型 shader
+booth-4488597	Charaticle 是 VRChat Modular Avatar 文字粒子 prefab，非 After Effects 工具
+booth-8254797	KKShapeEditor 是 Koikatsu／KKS 遊戲插件，非 After Effects host
+booth-6710849	Natural Skin 是 VRChat avatar 皮膚紋理素材，非 After Effects 工具
+booth-5067477	Japanese traditional footwear 是 VRChat avatar 鞋履與 Unitypackage 素材
+booth-4993626	Japanese traditional footwear 是 VRChat avatar 鞋履與 Unitypackage 素材
+booth-6366670	Esska Desktop Puppeteer 是桌面／VRChat 應用程式，不是 After Effects 外掛或腳本
+booth-5844050	Tome Of Elements for VRChat 是 VRChat avatar 粒子效果素材，非 After Effects host
+booth-3444332	UdonTycoon’s Book 是 VRChat worlds 的 UdonSharp 腳本，非 After Effects host
+booth-8517664	CONCAFE BIKINI 是 VRChat avatar 服裝素材，非 After Effects 工具
+booth-8133913	TextureColorKit 是 VRChat avatar 紋理／AO／SDF 與最佳化工具，非 After Effects host
+booth-7596137	Owl 2.0 是 VRChat home world 商品，非 After Effects 工具
+booth-7004316	G45 Gen5 Pistol 是 VRChat 3D 模型與 Modular Avatar 素材
+booth-8491641	Summer Breeze Set 是 VRChat avatar 服裝素材，非 After Effects 工具
+booth-8588415	VRCMeshDeformer 是 VRChat／Unity avatar 工具，非 After Effects host
+booth-7100667	Deviate Pose Set 是 VRChat avatar pose 素材，不是 AE 工具
+booth-4347412	Interactable snowball 是 VRChat／Unity avatar 互動素材，非 After Effects host
+booth-7575539	追加 Shape Key 是 VRChat avatar 模型擴充素材，非 After Effects 工具
+booth-6428454	Live2D 生誕祭套組是 Live2D／avatar 素材，非 After Effects 工具
 booth-4870460	Remove Text Animator 只重現 AE 內建「移除所有文字動畫器」命令，無需另收錄
 booth-4151107	只是啟動 After Effects 英文版的空白文字檔，非 AE 工具
 booth-5639699	Motion Graphics 習作 #3 是限制研究／練習用途的 AEP 專案檔，非可安裝工具
