@@ -111,6 +111,7 @@ BOOTH 累計評估約 1,018 個商品 id（**收錄 199、略過 832**）；Gumr
 | 72 | `AE` 標籤中 Eirlys／autumnshop 的腳本候選 | **自動ファイル作成スクリプト、ばらばらに出現・消滅、マスクパスの上に画像が動け！、フォルダにある素材のリネーム、レイヤーの状態覚えておいてscript、簡易版レイヤーリネーム、簡単なWiggle制御、Auto-tress and mask layer auto-detection、シェイプレイヤーのGroupを個別レイヤーに分離、Position and Scale Key ConfirmationScript、コンポ差し替え、3Dレイヤー選択→プリコンポしてメッシュワープ**；核實專案結構、路徑、命名、可見性、Wiggle、Auto Trace、Shape、關鍵影格、合成與 3D 工作流後加入 `booth.jsonl` | 功能說明不足的 Animation UI 與 3 組 AE 預設 | 12 筆新增、4 筆略過；最新總筆數 2,932 |
 | 73 | `AE` 標籤官方頁深入核實的文字與 Shape 工具 | **JapyTextEngine、シェイプを横移動させるだけの仕組みセット**；確認字型輪廓向量文字外掛與 Shape 水平循環移動腳本用途後加入 `booth.jsonl` | 18 筆 Element3D／影片素材、AEP／MP4／OBJ 專案與 Motion Graphics 學習檔 | 2 筆新增、18 筆略過；最新總筆數 2,934 |
 | 74 | BOOTH「After Effects Script」完整搜尋結果逐頁核實 | **SmartImport、Salis_OpenFileLocation**；確認遞迴素材差分匯入整理與從圖層／專案面板開啟原始素材位置的 AE 腳本功能後加入 `booth.jsonl` | 12 筆 VRChat／Unity 資產、1 筆 VRChat shader、1 個工具套裝與 1 筆功能說明不足腳本 | 2 筆新增、15 筆略過；最新總筆數 2,936 |
+| 75 | BOOTH `After Effects`／`AfterEffects`／`AE` 加上 `スクリプト` 標籤的交叉掃描 | —；`After Effects`／`AfterEffects` 的 360 筆結果僅有 2 筆既有未決商品，`AE` 交叉結果另混入其他 Adobe／3D／VR 平台工具 | 2 筆 Premiere／Illustrator、8 筆 Photoshop、2 筆 AviUtl、1 筆 Maya、10 筆 Unity／VRChat 與 1 筆 AE host 無法核實的改變檔 | 0 筆新增、24 筆略過；最新總筆數 2,936 |
 
 ## 官方來源技巧
 
