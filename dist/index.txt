@@ -1,5 +1,5 @@
 # After Effects 特效／外掛索引（繁體中文）
-# 共 2889 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
+# 共 2895 筆　格式：名稱｜來源｜型態｜分類｜說明｜官方連結
 # 完整資料（含中英搜尋標籤、外觀描述）：dist/all.jsonl
 # 線上搜尋：https://xup61069.github.io/ae-effects-db/
 Deep Glow 2｜aescripts｜plugin｜glow｜從高光產生自然的指數衰減電影級輝光；第二代加入影像式輝光、RGB 半徑、鏡頭污漬紋理、多色染色與電影色調映射。｜https://aescripts.com/deep-glow/
@@ -1307,6 +1307,12 @@ RplSolidName｜BOOTH｜script｜workflow｜After Effects 批次命名腳本，�
 RplFont｜BOOTH｜script｜text｜After Effects 批次字型腳本，選取文字圖層後可取得目前字型名稱並一次變更多個文字圖層的字型設定。｜https://booth.pm/ja/items/4907979
 RplCompDur｜BOOTH｜script｜workflow｜After Effects 合成片長腳本，可批次變更多個合成的 Duration，適合統一專案內合成時間並減少逐一開啟設定的操作。｜https://booth.pm/ja/items/4907952
 RplCompName｜BOOTH｜script｜workflow｜After Effects 合成命名腳本，可依指定文字批次取代部分或全部合成名稱，並能設定排除文字以避免改動特定合成。｜https://booth.pm/ja/items/4907278
+Auto Swing｜BOOTH｜script｜rigging｜After Effects 搖擺動畫腳本，指定根部與末端後依旋轉或移動自動產生擺動，也能用風力與重力製作頭髮、配件和植物的外部晃動。｜https://booth.pm/ja/items/3012666
+Simple Set Parent｜BOOTH｜script｜rigging｜After Effects 父子關係腳本，選取多個圖層後可一鍵執行四種父子綁定方式，也能快速清除既有父子關係，適合角色與多圖層整理。｜https://booth.pm/ja/items/2783088
+Reverse Shape Path｜BOOTH｜script｜workflow｜After Effects 腳本，可反轉多個選取圖層中全部 Shape Path 的方向，支援有關鍵影格、開放或封閉的貝茲路徑，適合單次路徑整理。｜https://booth.pm/ja/items/2670295
+Add Props to Essential Graphics｜BOOTH｜script｜workflow｜After Effects 腳本，可一次選取多個屬性並註冊到 Essential Graphics，支援 Slider Control、Color Control 等控制項，適合建立 MOGRT 可調整參數。｜https://booth.pm/ja/items/2670124
+Layer Name Changer｜BOOTH｜script｜workflow｜After Effects 圖層命名腳本，可批次新增前後綴、取代或直接指定名稱，支援連號與刪除數字、字母、空白等特定字元。｜https://booth.pm/ja/items/2649857
+Scale to Slider｜BOOTH｜script｜expression｜After Effects 表達式腳本，將可個別控制 X／Y 軸的縮放表達式套用到選取圖層，並以 Slider Control 提供更直覺的縮放調整方式。｜https://booth.pm/ja/items/2366373
 Glow｜AE內建｜builtin｜glow｜AE內建輝光，讓亮部往外柔和擴散。品質普通、容易死白，講究時用 Deep Glow / Optical Glow。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/stylize-effects.html
 CC Light Rays｜AE內建｜builtin｜light｜從指定一點放射出光線，快速做上帝光、掃光、能量放射。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
 CC Light Sweep｜AE內建｜builtin｜light｜一道光從文字/Logo表面掃過，做金屬反光或標題強調。｜https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html
